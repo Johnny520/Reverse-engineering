@@ -1,0 +1,21 @@
+package p034G;
+
+/* JADX INFO: renamed from: G.d */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0459d {
+
+    /* JADX INFO: renamed from: a */
+    public static final C0459d f1362a = new C0459d();
+
+    public final boolean equals(Object obj) {
+        return this == obj || (obj instanceof C0459d);
+    }
+
+    public final int hashCode() {
+        return -858256270;
+    }
+
+    public final String toString() {
+        return "TextContextMenuDataTraverseKey";
+    }
+}

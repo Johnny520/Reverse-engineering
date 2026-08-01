@@ -1,0 +1,15 @@
+package p117X2;
+
+import java.io.Serializable;
+
+/* JADX INFO: renamed from: X2.q */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1672q implements Serializable {
+
+    /* JADX INFO: renamed from: d */
+    public float f5706d;
+
+    public final String toString() {
+        return String.valueOf(this.f5706d);
+    }
+}

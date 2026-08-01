@@ -1,0 +1,15 @@
+package p053J3;
+
+/* JADX INFO: renamed from: J3.v */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0861v {
+    public static final int $stable = 0;
+    public static final C0861v INSTANCE = new C0861v();
+    public static final String NORMAL = "NORMAL";
+    public static final String SPECIAL = "SPECIAL";
+    public static final String VIP = "VIP";
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    private C0861v() {
+    }
+}

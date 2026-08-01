@@ -1,0 +1,47 @@
+package p047I0;
+
+import p074O2.InterfaceC1049g;
+import p074O2.InterfaceC1050h;
+import p074O2.InterfaceC1051i;
+import p095T.C1358e0;
+import p112W2.InterfaceC1603e;
+import p128a.AbstractC1785a;
+import p169h0.InterfaceC2208q;
+
+/* JADX INFO: renamed from: I0.F0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0670F0 implements InterfaceC2208q {
+
+    /* JADX INFO: renamed from: d */
+    public final C1358e0 f2150d = new C1358e0(1.0f);
+
+    @Override // p074O2.InterfaceC1051i
+    /* JADX INFO: renamed from: A */
+    public final Object mo1165A(InterfaceC1603e interfaceC1603e, Object obj) {
+        return interfaceC1603e.mo0g(obj, this);
+    }
+
+    @Override // p074O2.InterfaceC1051i
+    /* JADX INFO: renamed from: C */
+    public final InterfaceC1049g mo1166C(InterfaceC1050h interfaceC1050h) {
+        return AbstractC1785a.m3250j(this, interfaceC1050h);
+    }
+
+    @Override // p074O2.InterfaceC1051i
+    /* JADX INFO: renamed from: j */
+    public final InterfaceC1051i mo1167j(InterfaceC1050h interfaceC1050h) {
+        return AbstractC1785a.m3253n(this, interfaceC1050h);
+    }
+
+    @Override // p074O2.InterfaceC1051i
+    /* JADX INFO: renamed from: m */
+    public final InterfaceC1051i mo1168m(InterfaceC1051i interfaceC1051i) {
+        return AbstractC1785a.m3254o(this, interfaceC1051i);
+    }
+
+    @Override // p169h0.InterfaceC2208q
+    /* JADX INFO: renamed from: r */
+    public final float mo1169r() {
+        return this.f2150d.m2507g();
+    }
+}
