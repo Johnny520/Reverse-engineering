@@ -1,0 +1,12 @@
+{
+  "missing_unique_pairs": 184,
+  "groups": 69,
+  "candidate_recoveries": 184,
+  "high_confidence": 184,
+  "medium_confidence": 0,
+  "unsolved": 0,
+  "complete_rows": 933,
+  "unresolved_unique_pairs_after_merge": 0,
+  "output": "mokuai\\月虹一键隐藏v5.4.4-exact-package\\recovered\\decrypted_strings_neighbor_candidates.tsv",
+  "complete_output": "mokuai\\月虹一键隐藏v5.4.4-exact-package\\recovered\\decrypted_strings.complete.tsv"
+}

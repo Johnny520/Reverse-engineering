@@ -1,0 +1,320 @@
+PLT direct callsites with recovered register strings
+
+popen                    call=0x9703C target=0x2929D0
+  no direct string argument recovered
+access                   call=0x97DC0 target=0x292A00
+  no direct string argument recovered
+access                   call=0x97FF0 target=0x292A00
+  no direct string argument recovered
+access                   call=0x98084 target=0x292A00
+  no direct string argument recovered
+remove                   call=0x98B40 target=0x292A30
+  no direct string argument recovered
+mkdir                    call=0x98D70 target=0x292A40
+  no direct string argument recovered
+mkdir                    call=0x98DF0 target=0x292A40
+  no direct string argument recovered
+mkdir                    call=0x98E48 target=0x292A40
+  no direct string argument recovered
+remove                   call=0x99650 target=0x292A30
+  no direct string argument recovered
+nftw                     call=0x99694 target=0x292A50
+  x1=0x995A8 �{���
+__system_property_get    call=0x9C364 target=0x292A90
+  no direct string argument recovered
+fork                     call=0xA282C target=0x292AC0
+  no direct string argument recovered
+execl                    call=0xA2DC0 target=0x292AE0
+  no direct string argument recovered
+execl                    call=0xA2E20 target=0x292AE0
+  no direct string argument recovered
+remove                   call=0xA4D70 target=0x292A30
+  no direct string argument recovered
+chmod                    call=0xA4F04 target=0x292B40
+  no direct string argument recovered
+remove                   call=0xA4F20 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA560C target=0x292A30
+  no direct string argument recovered
+system                   call=0xA5848 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xA59FC target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA5CDC target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA5FC0 target=0x292A30
+  no direct string argument recovered
+system                   call=0xA6000 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xA60BC target=0x292A30
+  no direct string argument recovered
+system                   call=0xA6258 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xA65B4 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA6764 target=0x292A30
+  no direct string argument recovered
+chmod                    call=0xA6808 target=0x292B40
+  no direct string argument recovered
+remove                   call=0xA6994 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA6C34 target=0x292A30
+  no direct string argument recovered
+system                   call=0xA6D74 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xA6DC8 target=0x292A30
+  no direct string argument recovered
+system                   call=0xA8184 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xA836C target=0x292A30
+  no direct string argument recovered
+remove                   call=0xA8A0C target=0x292A30
+  no direct string argument recovered
+system                   call=0xAB738 target=0x292B50
+  no direct string argument recovered
+system                   call=0xAB838 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xB13F0 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xB6B48 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xB6C48 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xB6F48 target=0x292A30
+  no direct string argument recovered
+system                   call=0xB889C target=0x292B50
+  no direct string argument recovered
+remove                   call=0xB8ADC target=0x292A30
+  no direct string argument recovered
+popen                    call=0xBA39C target=0x2929D0
+  no direct string argument recovered
+nftw                     call=0xC1A18 target=0x292A50
+  x1=0x995A8 �{���
+remove                   call=0xC1B7C target=0x292A30
+  no direct string argument recovered
+nftw                     call=0xC2050 target=0x292A50
+  x1=0x995A8 �{���
+system                   call=0xC220C target=0x292B50
+  no direct string argument recovered
+remove                   call=0xC59D4 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xC61CC target=0x292A30
+  no direct string argument recovered
+popen                    call=0xC65BC target=0x2929D0
+  no direct string argument recovered
+popen                    call=0xC6FD0 target=0x2929D0
+  no direct string argument recovered
+system                   call=0xC7C10 target=0x292B50
+  no direct string argument recovered
+popen                    call=0xCA07C target=0x2929D0
+  no direct string argument recovered
+system                   call=0xCAC0C target=0x292B50
+  no direct string argument recovered
+popen                    call=0xCB0A4 target=0x2929D0
+  no direct string argument recovered
+popen                    call=0xCC214 target=0x2929D0
+  no direct string argument recovered
+system                   call=0xCCE44 target=0x292B50
+  no direct string argument recovered
+system                   call=0xCDCE8 target=0x292B50
+  no direct string argument recovered
+system                   call=0xCEBA0 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xD4F8C target=0x292A30
+  no direct string argument recovered
+system                   call=0xD5C08 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xD5DA8 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xD6064 target=0x292A30
+  no direct string argument recovered
+system                   call=0xD6424 target=0x292B50
+  no direct string argument recovered
+system                   call=0xD6498 target=0x292B50
+  no direct string argument recovered
+system                   call=0xD6550 target=0x292B50
+  no direct string argument recovered
+remove                   call=0xD6BD0 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xD8718 target=0x292A30
+  no direct string argument recovered
+rename                   call=0xD87A4 target=0x292BD0
+  no direct string argument recovered
+remove                   call=0xD87C4 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xD89FC target=0x292A30
+  no direct string argument recovered
+system                   call=0xE0188 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE0404 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE2140 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE2448 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE3E50 target=0x292B50
+  no direct string argument recovered
+chmod                    call=0xE6478 target=0x292B40
+  no direct string argument recovered
+chmod                    call=0xE6B28 target=0x292B40
+  no direct string argument recovered
+system                   call=0xE96BC target=0x292B50
+  no direct string argument recovered
+system                   call=0xE96FC target=0x292B50
+  no direct string argument recovered
+system                   call=0xE971C target=0x292B50
+  no direct string argument recovered
+system                   call=0xE9918 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE9AA8 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE9EE8 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE9F40 target=0x292B50
+  no direct string argument recovered
+system                   call=0xE9F6C target=0x292B50
+  no direct string argument recovered
+readlink                 call=0xEA0C4 target=0x292C10
+  no direct string argument recovered
+fork                     call=0xEBC00 target=0x292AC0
+  no direct string argument recovered
+system                   call=0xF22B4 target=0x292B50
+  no direct string argument recovered
+chmod                    call=0xF25B0 target=0x292B40
+  no direct string argument recovered
+system                   call=0xF2668 target=0x292B50
+  no direct string argument recovered
+system                   call=0xF28D4 target=0x292B50
+  no direct string argument recovered
+chmod                    call=0xF2D04 target=0x292B40
+  no direct string argument recovered
+system                   call=0xF2E5C target=0x292B50
+  no direct string argument recovered
+chmod                    call=0xF2F2C target=0x292B40
+  no direct string argument recovered
+remove                   call=0xF5004 target=0x292A30
+  no direct string argument recovered
+remove                   call=0xFAC28 target=0x292A30
+  no direct string argument recovered
+__system_property_set    call=0xFF248 target=0x292C60
+  no direct string argument recovered
+__system_property_set    call=0xFF27C target=0x292C60
+  no direct string argument recovered
+system                   call=0x100284 target=0x292B50
+  no direct string argument recovered
+system                   call=0x101258 target=0x292B50
+  no direct string argument recovered
+system                   call=0x101CB4 target=0x292B50
+  no direct string argument recovered
+system                   call=0x101CF8 target=0x292B50
+  no direct string argument recovered
+system                   call=0x101D34 target=0x292B50
+  no direct string argument recovered
+system                   call=0x101D78 target=0x292B50
+  no direct string argument recovered
+system                   call=0x1031EC target=0x292B50
+  no direct string argument recovered
+system                   call=0x103274 target=0x292B50
+  no direct string argument recovered
+__system_property_get    call=0x105EA0 target=0x292A90
+  no direct string argument recovered
+__system_property_set    call=0x10789C target=0x292C60
+  no direct string argument recovered
+__system_property_set    call=0x107CB4 target=0x292C60
+  no direct string argument recovered
+fork                     call=0x10EADC target=0x292AC0
+  no direct string argument recovered
+execl                    call=0x10EC58 target=0x292AE0
+  no direct string argument recovered
+__system_property_set    call=0x110010 target=0x292C60
+  no direct string argument recovered
+system                   call=0x11012C target=0x292B50
+  no direct string argument recovered
+__system_property_set    call=0x1101F0 target=0x292C60
+  no direct string argument recovered
+system                   call=0x110378 target=0x292B50
+  no direct string argument recovered
+system                   call=0x110568 target=0x292B50
+  no direct string argument recovered
+inotify_init1            call=0x112B48 target=0x292CA0
+  no direct string argument recovered
+inotify_add_watch        call=0x112C34 target=0x292CB0
+  no direct string argument recovered
+inotify_add_watch        call=0x112EBC target=0x292CB0
+  no direct string argument recovered
+inotify_add_watch        call=0x1134F4 target=0x292CB0
+  no direct string argument recovered
+inotify_add_watch        call=0x113B0C target=0x292CB0
+  no direct string argument recovered
+execl                    call=0x1169E8 target=0x292AE0
+  no direct string argument recovered
+inotify_add_watch        call=0x118238 target=0x292CB0
+  no direct string argument recovered
+system                   call=0x11BC3C target=0x292B50
+  no direct string argument recovered
+chdir                    call=0x11C7F8 target=0x292CE0
+  no direct string argument recovered
+chdir                    call=0x11C824 target=0x292CE0
+  no direct string argument recovered
+getenv                   call=0x11CA78 target=0x292CF0
+  no direct string argument recovered
+getenv                   call=0x1204A4 target=0x292CF0
+  no direct string argument recovered
+dlopen                   call=0x1304E8 target=0x292D50
+  no direct string argument recovered
+dlsym                    call=0x130558 target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x13058C target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x1305C4 target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x1305FC target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x130630 target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x130664 target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x130698 target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x1306CC target=0x292D60
+  no direct string argument recovered
+dlsym                    call=0x13070C target=0x292D60
+  no direct string argument recovered
+syscall                  call=0x13866C target=0x292D90
+  no direct string argument recovered
+chmod                    call=0x138774 target=0x292B40
+  no direct string argument recovered
+syscall                  call=0x13A4D0 target=0x292D90
+  no direct string argument recovered
+syscall                  call=0x13A568 target=0x292D90
+  no direct string argument recovered
+syscall                  call=0x13A6F8 target=0x292D90
+  no direct string argument recovered
+pthread_create           call=0x16EE28 target=0x292DF0
+  no direct string argument recovered
+pthread_create           call=0x16EEAC target=0x292DF0
+  no direct string argument recovered
+remove                   call=0x181118 target=0x292A30
+  no direct string argument recovered
+remove                   call=0x181218 target=0x292A30
+  no direct string argument recovered
+remove                   call=0x181274 target=0x292A30
+  no direct string argument recovered
+remove                   call=0x1877D0 target=0x292A30
+  no direct string argument recovered
+remove                   call=0x187860 target=0x292A30
+  no direct string argument recovered
+remove                   call=0x1878B4 target=0x292A30
+  no direct string argument recovered
+syscall                  call=0x2742C4 target=0x292D90
+  no direct string argument recovered
+syscall                  call=0x274304 target=0x292D90
+  no direct string argument recovered
+__system_property_get    call=0x28E3E0 target=0x292A90
+  x0=0x2AFF6 ro.arch
+__system_property_get    call=0x28E8A4 target=0x292A90
+  x0=0x2AFF6 ro.arch
+syscall                  call=0x28FBC4 target=0x292D90
+  no direct string argument recovered
+
+Total watched direct PLT callsites: 158

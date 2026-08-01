@@ -1,0 +1,8 @@
+category	url	source	line	offset
+packer-metadata	http://upx.sf.net	mokuai\月虹一键隐藏v5.4.4\main	2447	626241
+compiler-metadata	https://android.googlesource.com/toolchain/llvm-project	mokuai\月虹一键隐藏v5.4.4-analysis\main.unpacked	34833	2759102
+obfuscator-metadata	https://t.me/KLEE_TUSI	mokuai\月虹一键隐藏v5.4.4-analysis\main.unpacked	34833	2759239
+runtime-resource	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css	mokuai\月虹一键隐藏v5.4.4-analysis\webroot.decoded.html	852	19802
+runtime-resource	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css	mokuai\月虹一键隐藏v5.4.4-analysis\webroot.decoded.html	855	19987
+compiler-metadata	https://android.googlesource.com/toolchain/llvm-project	mokuai\月虹一键隐藏v5.4.4-analysis\strings_ascii.txt	2834	63480
+obfuscator-metadata	https://t.me/KLEE_TUSI	mokuai\月虹一键隐藏v5.4.4-analysis\strings_ascii.txt	2835	63626

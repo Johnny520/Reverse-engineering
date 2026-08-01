@@ -1,0 +1,16 @@
+[package]
+name = "yh_yc_main"
+version = "5.4.4"
+edition = "2024"
+license = "MIT"
+description = "Buildable clean-room implementation of the YH_YC module core"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[dependencies]
+

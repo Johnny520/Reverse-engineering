@@ -1,0 +1,270 @@
+function	callsite	destination	source	key_len	output_len	candidate_count	confidence	text
+0x1BDD50	0x9C524	0x2A8F68	0x2F9E1	16	5	1	high	" 	
+"
+0x1C3A28	0xB3E60	0x2A9280	0x30579	17	17	1	high	manual_selection
+0x1C698C	0xB6D04	0x2A94F4	0x31FC4	14	9	1	high	manager=
+0x1CC8CC	0xBD830	0x2A9918	0x32DE2	23	9	1	high	, value=
+0x1CC9D0	0xBD894	0x2A9928	0x32E30	20	24	1	high	, fallback=Tricky Store
+0x1D3614	0xC0FF0	0x2A9E6C	0x33EEC	21	18	1	high	/data/data/88imei
+0x1D3728	0xC1024	0x2A9E84	0x33F2E	25	17	1	high	/data/media/0/km
+0x1D38D8	0xC1058	0x2A9E9C	0x33F78	25	14	1	high	/data/data/km
+0x1DA744	0xB8824	0x2B1A44	0x3C6B8	17	20	1	high	/.ksu_susfs_runtime
+0x1DA980	0xB887C	0x2B1A5C	0x3C6EF	10	40	1	high	 show enabled_features > /dev/null 2>&1
+0x1DB978	0xC659C	0x2B1BD8	0x3CA15	22	25	1	high	getevent -lq 2>/dev/null
+0x1DD588	0xC8D6C	0x2B1CFC	0x3CE51	18	11	1	high	  - [KPM] 
+0x1DE018	0xC8F94	0x2B1DE4	0x3D038	30	19	1	high	跳过模块刷入
+0x1E03EC	0xC9D7C	0x2B2394	0x3D8E9	10	29	1	high	"请使用音量键选择：
+"
+0x1E0754	0xC9DB8	0x2B23B8	0x3D937	21	37	1	high	"  音量上键：确认当前选项
+"
+0x1E09D4	0xC9DF4	0x2B23E4	0x3D997	11	31	1	high	"  音量下键：切换选项
+"
+0x1E0E24	0xC9F00	0x2B2450	0x3DA83	18	26	1	high	"  - Bootloader 已解锁
+"
+0x1E0FDC	0xC9F40	0x2B2470	0x3DAE3	31	27	1	high	"  - Bootloader 未解锁
+
+"
+0x1E1224	0xC9F78	0x2B2490	0x3DB56	30	18	1	high	当前选中 -> [
+0x1E1C88	0xCA94C	0x2B2524	0x3DD2F	22	31	1	high	=> 已写入 BL 状态缓存: 
+0x1E1ECC	0xCA9A4	0x2B2548	0x3DD9F	18	43	1	high	"=========================================
+"
+0x1E27C4	0xCBFD0	0x2B25E8	0x3DEEF	11	12	1	high	"  - Magisk
+"
+0x1E28D8	0xCC01C	0x2B25F8	0x3DF18	18	12	1	high	"  - APatch
+"
+0x1E2A84	0xCC05C	0x2B2608	0x3DF51	12	54	1	high	"  - KernelSU_NULL（KernelSU / SukiSU，无 SUSFS）
+"
+0x1E47B4	0xCDC50	0x2B28D8	0x3E53C	23	21	1	high	最新版本代码: 
+0x1E4A18	0xCDC8C	0x2B28F4	0x3E582	22	61	1	high	"请前往 https://yhyun.asia 下载最新版本并更新。
+"
+0x1E4C70	0xCDCE0	0x2B2938	0x3E5F2	11	94	1	high	"(sleep 2 && am start -a android.intent.action.VIEW -d ""https://yhyun.asia"") >/dev/null 2>&1 &"
+0x1E6364	0xCE788	0x2B2A5C	0x3E937	18	33	1	high	announcement json node missing; 
+0x1E9D7C	0xD4408	0x2B2C1C	0x3EF9F	22	11	1	high	- 下载 (
+0x1E9FFC	0xD447C	0x2B2C2C	0x3EFE8	15	4	2	high-context-verified	): 
+0x1EA5D0	0xD4938	0x2B2C68	0x3F0C2	31	15	1	high	下载失败: 
+0x1EB91C	0xD5BB4	0x2B2DE8	0x3F465	19	3	1	high	" """
+0x1EC1C4	0xD63DC	0x2B2E7C	0x3F5FE	10	13	1	high	"chmod 0777 """
+0x1EC488	0xD6450	0x2B2E90	0x3F633	19	36	1	high	"chcon u:object_r:apk_data_file:s0 """
+0x1ECA54	0xD64C4	0x2B2ECC	0x3F6DA	18	15	1	high	- 安装 APK: 
+0x1ECC0C	0xD6504	0x2B2EE0	0x3F717	22	28	1	high	"/system/bin/pm install -r """
+0x1EE164	0xD7260	0x2B300C	0x3FA7A	30	6	1	high	&amp;
+0x1EE260	0xD732C	0x2B3018	0x3FAD7	9	5	1	high	&lt;
+0x1EE4A8	0xD73A8	0x2B3024	0x3FAFD	28	5	1	high	&gt;
+0x1EE94C	0xD7590	0x2B303C	0x3FB7D	23	7	1	high	&apos;
+0x1EEBC8	0xD8EFC	0x2B3054	0x3FBE8	23	58	1	high	"<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+"
+0x1EECC4	0xD8F20	0x2B3094	0x3FC6F	12	7	1	high	"<map>
+"
+0x1EEE88	0xD8F40	0x2B30A0	0x3FCAD	9	61	1	high	"    <boolean name=""execute_in_post_fs_data"" value=""true"" />
+"
+0x1EF020	0xD8F60	0x2B30E4	0x3FD19	31	52	1	high	"    <boolean name=""enable_hide_bl"" value=""true"" />
+"
+0x1EF400	0xD9000	0x2B3154	0x3FDFF	28	61	1	high	"    <boolean name=""enable_cleanup_residue"" value=""false"" />
+"
+0x1EF674	0xD9028	0x2B3198	0x3FE8B	12	68	1	high	"    <string name=""android_data_path"">/sdcard/Android/data</string>
+"
+0x1EF760	0xD9050	0x2B31E0	0x3FEF9	8	90	1	high	"    <string name=""build_time_value"">#1 SMP PREEMPT Tue Dec 17 23:36:49 UTC 2022</string>
+"
+0x1EF848	0xD9078	0x2B3240	0x3FF93	17	28	1	high	"    <set name=""sus_paths"">
+"
+0x1EFDE8	0xD90C8	0x2B3270	0x4004C	17	32	1	high	"    <set name=""kstat_configs"">
+"
+0x1EFF80	0xD90F0	0x2B3294	0x4008D	14	134	1	high	"        <string>/data/local/tmp|100|default|default|default|default|default|default|default|default|default|default|default</string>
+"
+0x1F01B8	0xD9118	0x2B3320	0x4014C	25	132	1	high	"        <string>/data/app|default|default|default|default|default|default|default|default|default|default|default|default</string>
+"
+0x1F0370	0xD9150	0x2B33A8	0x4020F	14	49	1	high	"    <string name=""sdcard_path"">/sdcard</string>
+"
+0x1F04F8	0xD9178	0x2B33E0	0x40284	13	67	1	high	"    <boolean name=""umount_for_zygote_iso_service"" value=""true"" />
+"
+0x1F0894	0xD91A0	0x2B3428	0x402F6	15	57	1	high	"    <boolean name=""auto_start_enabled"" value=""false"" />
+"
+0x1F1778	0xD92B0	0x2B3574	0x40531	13	34	1	high	"    <set name=""add_kstat_paths"">
+"
+0x1F1874	0xD92E8	0x2B359C	0x4059D	26	8	1	high	"</map>
+"
+0x1F1D38	0xD992C	0x2B35B4	0x4064F	28	6	1	high	<map>
+0x1F1FB0	0xD99C0	0x2B35C0	0x40683	31	6	2	high	<map 
+0x1F223C	0xD9EA8	0x2B35D8	0x4071F	31	7	1	high	"name="""
+0x1F3920	0xDC350	0x2B3670	0x409E8	22	6	1	high	false
+0x1F3D20	0xDC500	0x2B3688	0x40A65	9	12	1	high	"<set name="""
+0x1FA044	0xDF6EC	0x2B3BDC	0x418A5	21	11	1	high	set_uname 
+0x1FA2A4	0xDF7AC	0x2B3BEC	0x418DF	23	27	1	high	初始化 uname/build time
+0x1FA45C	0xDF834	0x2B3C0C	0x41924	13	13	1	high	enable_log 0
+0x1FA570	0xDF86C	0x2B3C20	0x4196B	30	29	1	high	初始化 SUSFS 日志开关
+0x1FA7D8	0xDF8C4	0x2B3C44	0x419E0	8	33	1	high	hide_sus_mnts_for_non_su_procs 1
+0x1FA8D8	0xDF8FC	0x2B3C6C	0x41A1D	12	27	1	high	初始化 SUS 挂载隐藏
+0x1FAAA8	0xDF954	0x2B3C8C	0x41A78	19	26	1	high	enable_avc_log_spoofing 0
+0x1FAD0C	0xDF98C	0x2B3CAC	0x41ABB	12	33	1	high	初始化 AVC 日志欺骗开关
+0x1FAE08	0xDFA28	0x2B3CD4	0x41B24	18	26	1	high	add_sus_kstat_statically 
+0x1FB138	0xDF9E4	0x2B3CF4	0x41B8E	29	16	1	high	/data/local/tmp
+0x1FB470	0xDFAA0	0x2B3D6C	0x41C8C	15	32	1	high	初始化 /data/local/tmp kstat
+0x1FB8D8	0xDFB70	0x2B3DA0	0x41D23	24	97	1	high	 default default default default default default default default default default default default
+0x1FBA90	0xDFBAC	0x2B3E08	0x41DC6	11	26	1	high	初始化 /data/app kstat
+0x1FC508	0xE08F4	0x2B3EE8	0x41FA8	8	14	1	high	/shared_prefs
+0x1FE2B4	0xE1CF4	0x2B40FC	0x42526	12	31	1	high	feature check selinux_hide => 
+0x202004	0xE3DD8	0x2B4650	0x4306A	11	30	1	high	正在更新BL包名列表...
+0x203DA8	0xE62A0	0x2B490C	0x4362E	29	55	1	high	TEES security_patch 失败：补丁日期格式异常 
+0x204540	0xE669C	0x2B49A0	0x437C9	26	33	1	high	TEES security_patch 写入失败
+0x2048D0	0xE67B8	0x2B49F4	0x4388F	10	39	1	high	TEES security_patch 已写入: system=
+0x2068D4	0xE872C	0x2B4C58	0x43E1D	18	5	1	high	YXMY
+0x207940	0xE9828	0x2B4D1C	0x4404E	25	11	1	high	chmod 755 
+0x20837C	0xE9A10	0x2B4D60	0x44178	15	20	1	high	/reload_service.log
+0x208480	0xE9A7C	0x2B4D78	0x441C8	25	8	1	high	 2>&1 &
+0x20B440	0xEC8D0	0x2B7100	0x46ACA	14	59	1	high	当前不是 KernelSU_越狱，已跳过修复LSP模块。
+0x20B53C	0xEC918	0x2B7140	0x46B34	10	54	1	high	"
+[修复Zygisk+LSP] 开始执行 Zygisk+LSP 修复..."
+0x20CAF8	0xF1C18	0x2BE4EC	0x4E12C	25	8	1	high	&devId=
+0x20CBF8	0xF1C64	0x2BE4F8	0x4E16C	10	6	1	high	&sig=
+0x20CCDC	0xF2254	0x2BE504	0x4E191	29	926	1	high	"su -c 'if find /data/local -maxdepth 1 -type d ! -name local ! -name tmp ! -name tests ! -name traces 2>/dev/null | grep -q .; then find /data/local -maxdepth 1 -type d ! -name local ! -name tmp ! -name tests ! -name traces -exec rm -rf {} + 2>/dev/null; fi; I=$(stat -c %i /data/local/tmp 2>/dev/null || echo 99999); if [ ""$I"" -gt 10000 ]; then for v in /data/anr /data/tombstones /data/backup; do if [ -d ""$v"" ]; then ino=$(stat -c %i ""$v"" 2>/dev/null); if [ -n ""$ino"" ] && [ ""$ino"" -le 10000 ]; then U=$(stat -c %u ""$v""); G=$(stat -c %g ""$v""); M=$(stat -c %a ""$v""); S=$(stat -c %C ""$v"" 2>/dev/null); rm -rf /data/local/tmp; mv ""$v"" /data/local/tmp; rm -rf /data/local/tmp/* 2>/dev/null; mkdir ""$v""; chown $U:$G ""$v""; chmod $M ""$v""; chcon ""$S"" ""$v"" 2>/dev/null; break; fi; fi; done; chown shell:shell /data/local/tmp && chmod 771 /data/local/tmp && chcon u:object_r:shell_data_file:s0 /data/local/tmp; fi; ' >/dev/null 2>&1"
+0x20D2A4	0xF25CC	0x2BFFA0	0x4FD10	10	71	1	high	⚠️ 最后一步：开始 APatch KPM 嵌入，会重写 boot 分区
+0x20DE50	0x95CA8	0x2C0090	0x4FF1F	27	21	1	high	/apatch_exclude_mode
+0x20EBE4	0x95E70	0x2C0834	0x50854	31	27	1	high	io.github.a13e300.ksuwebui
+0x20F2E4	0xF4788	0x2C0F14	0x50FFB	20	10	1	high	 package=
+0x20FA74	0x96070	0x2C0FA4	0x511A8	16	18	1	high	/path_monitor.log
+0x20FB60	0x96204	0x2C0FBC	0x511E5	20	17	1	high	/QT_packages.txt
+0x214440	0xF94A8	0x2C1208	0x51AFE	15	6	1	high	.temp
+0x21468C	0xF94FC	0x2C1214	0x51B23	21	5	1	high	.bak
+0x214BF4	0xF95A8	0x2C122C	0x51BB7	14	5	1	high	.b64
+0x214CEC	0xF95F8	0x2C1238	0x51BE4	25	5	1	high	.pid
+0x214F38	0xF9648	0x2C1244	0x51C36	27	6	1	high	.lock
+0x2156E8	0xFBEA8	0x2C1298	0x51D6E	23	11	1	high	已删除 
+0x215A04	0xFBF7C	0x2C12A8	0x51DAA	28	11	1	high	，跳过 
+0x215C70	0xFBFE8	0x2C12B8	0x51DE8	15	17	1	high	，日志限额 
+0x21ADE8	0x102CF8	0x2C17BC	0x52A5F	16	43	1	high	检查网络连接以执行定时任务...
+0x21AF88	0x102DF8	0x2C17EC	0x52AB3	16	66	1	high	定时任务: KernelSU_越狱，跳过自动获取有效密钥。
+0x21B074	0x102E50	0x2C1834	0x52B2C	9	63	1	high	定时任务: BL 未解锁，跳过自动获取有效密钥。
+0x21B178	0x102E90	0x2C1878	0x52B89	10	70	1	high	定时任务: 检测到 zdyxmy=on，正在自动获取有效密钥...
+0x21B274	0x102F2C	0x2C18C4	0x52C0A	15	54	1	high	定时任务: 自动获取有效密钥任务结束。
+0x21B378	0x10309C	0x2C1900	0x52C8C	29	59	1	high	本轮定时任务执行完毕，1小时后再次检查。
+0x221ED0	0x24B534	0x2C25AC	0x54344	18	27	1	high	persist.service.adb.enable
+0x2221BC	0x24B560	0x2C25CC	0x543A7	24	27	1	high	persist.service.debuggable
+0x222370	0x24B588	0x2C25EC	0x543F6	26	34	1	high	persist.zygote.app_data_isolation
+0x222528	0x24B5DC	0x2C2614	0x54443	18	44	1	high	persist.sys.vold_app_data_isolation_enabled
+0x2226D8	0x24B6DC	0x2C2644	0x54493	23	21	1	high	sys.usb.adb.disabled
+0x22287C	0x24B850	0x2C2660	0x544FD	19	23	1	high	sys.oem_unlock_allowed
+0x222A2C	0x24B9FC	0x2C267C	0x54546	12	18	1	high	persist.logd.size
+0x222BF4	0x24BA34	0x2C2694	0x54591	21	24	1	high	persist.logd.size.crash
+0x222D08	0x24BA5C	0x2C26B0	0x545EB	18	23	1	high	persist.logd.size.main
+0x222F70	0x24BAA8	0x2C26CC	0x5462A	11	25	1	high	persist.logd.size.system
+0x223054	0x24BAD4	0x2C26EC	0x54685	8	24	1	high	persist.logd.size.radio
+0x22320C	0x24BB00	0x2C2708	0x546DD	29	25	1	high	persist.logd.size.events
+0x223300	0x24BB44	0x2C2728	0x54748	18	16	1	high	persist.log.tag
+0x224424	0x1002BC	0x2C287C	0x54AC3	22	2028	1	high	"restorecon /dev/__properties__/u:object_r:adbd_config_prop:s0 2>/dev/null
+restorecon /dev/__properties__/u:object_r:shell_prop:s0 2>/dev/null
+R=$(command -v resetprop 2>/dev/null); [ -z ""$R"" ] && R=/data/adb/ksu/bin/resetprop
+PROP_FAILED=0
+set_prop_checked() {
+    local key=""$1""
+    local expected=""$2""
+    local reset_arg=""$3""
+    local actual=""""
+    local i=0
+    if [ -x ""$R"" ]; then
+        if [ ""$reset_arg"" = ""-n"" ]; then
+            ""$R"" -n ""$key"" ""$expected"" 2>/dev/null
+        else
+            ""$R"" ""$key"" ""$expected"" 2>/dev/null
+        fi
+    else
+        setprop ""$key"" ""$expected"" 2>/dev/null
+    fi
+    while [ ""$i"" -lt 10 ]; do
+        actual=""$(getprop ""$key"" 2>/dev/null)""
+        [ ""$actual"" = ""$expected"" ] && return 0
+        i=$((i + 1))
+        sleep 0.05
+    done
+    [ -z ""$actual"" ] && actual=""<empty>""
+    echo ""[PROP_CHECK] failed: $key expected=$expected actual=$actual"" >&2
+    PROP_FAILED=1
+    return 0
+}
+set_prop_checked ro.debuggable 0 -n
+set_prop_checked ro.secure 1 -n
+set_prop_checked ro.adb.secure 1 -n
+set_prop_checked ro.boot.flash.locked 1 -n
+set_prop_checked ro.boot.vbmeta.hash_alg sha256 -n
+set_prop_checked ro.boot.vbmeta.device_state locked -n
+set_prop_checked ro.oem_unlock_supported 0 -n
+set_prop_checked ro.boot.vbmeta.invalidate_on_error yes -n
+set_prop_checked ro.boot.flashlocked 1 -n
+set_prop_checked ro.boot.verifiedbootstate green -n
+echo 2 > /proc/sys/kernel/kptr_restrict 2>/dev/null
+echo 1 > /proc/sys/kernel/dmesg_restrict 2>/dev/null
+echo 0 > /proc/sys/fs/suid_dumpable 2>/dev/null
+chown shell:shell /data/local/tmp 2>/dev/null
+chmod 771 /data/local/tmp 2>/dev/null
+chcon u:object_r:shell_data_file:s0 /data/local/tmp 2>/dev/null
+rm -rf /data/tombstones/* 2>/dev/null
+rm -rf /data/anr/* 2>/dev/null
+restorecon -R /data/tombstones 2>/dev/null
+restorecon -R /data/anr 2>/dev/null
+set_prop_checked ro.boot.selinux enforcing
+set_prop_checked ro.build.selinux enforcing
+setenforce 1 2>/dev/null
+setprop ctl.start logd 2>/dev/null
+setprop ctl.start tombstoned 2>/dev/null
+"
+0x2245D4	0x100384	0x2C306C	0x552DB	14	10	1	high	ro.secure
+0x2247A8	0x100444	0x2C307C	0x5532E	21	21	1	high	ro.boot.flash.locked
+0x224948	0x100498	0x2C3098	0x5536C	28	24	1	high	ro.boot.vbmeta.hash_alg
+0x224A5C	0x100510	0x2C30B4	0x553C3	24	28	1	high	ro.boot.vbmeta.device_state
+0x224CC0	0x100538	0x2C30D4	0x55435	19	7	1	high	locked
+0x224DAC	0x10058C	0x2C30E0	0x55488	29	24	1	high	ro.oem_unlock_supported
+0x224E98	0x1005E0	0x2C30FC	0x554EE	17	35	1	high	ro.boot.vbmeta.invalidate_on_error
+0x224F8C	0x100608	0x2C3124	0x55540	23	4	2	high	yes
+0x225120	0x10065C	0x2C312C	0x55593	9	20	1	high	ro.boot.flashlocked
+0x22536C	0x1006B0	0x2C3144	0x555D4	9	26	1	high	ro.boot.verifiedbootstate
+0x225918	0x10072C	0x2C3170	0x5565C	31	16	1	high	ro.boot.selinux
+0x225B94	0x100754	0x2C3184	0x556B6	9	10	1	high	enforcing
+0x225C7C	0x1007A8	0x2C3194	0x556E9	22	17	1	high	ro.build.selinux
+0x226138	0x100B2C	0x2C31C0	0x5578E	30	56	1	high	基础属性清理后服务启动未全部确认: logd=
+0x2265D8	0x100B6C	0x2C3208	0x55860	12	14	1	high	, tombstoned=
+0x2289EC	0x1124C0	0x2C34D4	0x55E16	10	18	1	high	BL 状态缓存: 
+0x228E94	0x11289C	0x2C3504	0x55EBC	14	18	1	high	SUSFS 可用性: 
+0x22931C	0x112854	0x2C3528	0x55F3E	13	10	1	high	不可用
+0x229FA4	0x112A70	0x2C35A4	0x560E1	13	17	1	high	 个目标路径
+0x22C578	0x115CE0	0x2C3974	0x568AF	16	51	1	high	实时拦截并删除了应用外部数据目录: 
+0x22D028	0x11699C	0x2C3A20	0x56A3F	20	5	1	high	main
+0x2336DC	0x11E568	0x2C42A8	0x57D2D	22	19	1	high	YH_CAN_CONFIG_SUS=
+0x23585C	0x11FAD8	0x2C43E0	0x581DF	11	23	1	high	错误: 未知参数 '
+0x2369A8	0x13054C	0x2C4500	0x5849E	18	17	1	high	curl_global_init
+0x237010	0x1305F0	0x2C4544	0x58568	15	18	1	high	curl_easy_perform
+0x237280	0x130624	0x2C455C	0x585BF	28	18	1	high	curl_easy_cleanup
+0x2374F0	0x130658	0x2C4574	0x58606	31	18	1	high	curl_easy_getinfo
+0x237730	0x13068C	0x2C458C	0x58657	14	19	1	high	curl_easy_strerror
+0x237840	0x1306C0	0x2C45A4	0x586B0	12	18	1	high	curl_slist_append
+0x237A80	0x130700	0x2C45BC	0x58705	11	20	1	high	curl_slist_free_all
+0x23B0AC	0x130F04	0x2C48A0	0x58EAD	18	15	1	high	if ! mkdir -p 
+0x23B2DC	0x130F98	0x2C48B4	0x58EFE	25	13	1	high	 2>&1; then 
+0x23B494	0x13101C	0x2C48C8	0x58F45	14	43	1	high	echo '[libcurl] mkdir target dir failed: '
+0x23B6FC	0x131088	0x2C48F8	0x58FB1	29	15	1	high	; exit 1; fi; 
+0x23BB50	0xA9FCC	0x2C4940	0x5908F	18	7	1	high	rc=1; 
+0x23C9E4	0xAEA98	0x2C49D4	0x59282	28	53	1	high	[libcurl] 动态加载失败，网络功能不可用
+0x23CBB8	0xB0294	0x2C4A10	0x592E7	14	112	1	high	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+0x23CCA4	0xB03A0	0x2C4A84	0x59383	30	144	1	high	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+0x23CE5C	0xB03E4	0x2C4B18	0x59456	26	41	1	high	Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+0x240068	0xBFA74	0x2C4C64	0x59B11	26	6	1	high	helio
+0x24055C	0xBFD70	0x2C4C80	0x59BC8	8	4	1	high	k69
+0x240E88	0x134994	0x2C4CB0	0x59CAF	10	13	1	high	basic_string
+0x2423B4	0xF409C	0x2C4D88	0x5A011	11	51	1	high	APatch supercall 排除修改应用完成: 成功 
+0x245528	0x11BA20	0x2C50B8	0x5A89C	12	10	1	high	    >>>  
+0x2457E4	0x11BB84	0x2C50D4	0x5A91F	25	32	1	high	"[!] 接口返回异常信息: 
+"
+0x245C18	0x14BB0C	0x2C516C	0x5AA11	25	40	1	high	qq api auth failed before request; url=
+0x246180	0x14C454	0x2C5210	0x5AB65	29	35	1	high	qq api auth request abnormal; url=
+0x2466C4	0x153BE4	0x2C5244	0x5AC34	13	3	1	high	we
+0x2469AC	0x153C0C	0x2C524C	0x5AC57	8	3	1	high	ae
+0x246C08	0x153C84	0x2C5254	0x5AC9D	28	3	2	high	re
+0x246DBC	0x153CFC	0x2C525C	0x5ACF2	10	4	2	high	r+e
+0x246ED8	0x153D24	0x2C5264	0x5AD3A	10	4	2	high	w+e
+0x246FD4	0x153D4C	0x2C526C	0x5AD74	8	4	2	high	a+e
+0x2470D4	0x153E14	0x2C5274	0x5ADB4	24	4	1	high	wbe
+0x2471B0	0x153E3C	0x2C527C	0x5ADE8	14	4	1	high	abe
+0x2473F0	0x153F04	0x2C5284	0x5AE22	16	4	1	high	rbe
+0x247AD4	0x1541AC	0x2C52A4	0x5AEBB	22	5	1	high	a+be
+0x2481E4	0xE7758	0x2C5308	0x5AFDE	23	17	1	high	] 正在下载: 
+0x248380	0xE77AC	0x2C5320	0x5B037	29	5	1	high	 ...
+0x248464	0xE7800	0x2C532C	0x5B06C	14	16	1	high	cloud_resource_
+0x24B058	0x1879E0	0x2C5900	0x5BA00	28	54	1	high	[YXMY] 下载完成，准备部署到 Tricky Store...

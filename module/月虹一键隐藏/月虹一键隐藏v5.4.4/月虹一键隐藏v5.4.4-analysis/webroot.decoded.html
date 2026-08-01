@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>月虹一键隐藏</title>
+  <style>
+    /* ==========================================
+       1. 现代化设计令牌
+       ========================================== */
+    :root {
+      --bg-body: #09090b;
+      --bg-gradient: radial-gradient(circle at 50% 0%, #1f1f2e 0%, var(--bg-body) 60%);
+      --bg-glass: rgba(24, 24, 27, 0.7);
+      --bg-panel: #18181b;
+      --bg-elevated: #27272a;
+      --bg-hover: #3f3f46;
+      --bg-input: rgba(0, 0, 0, 0.3);
+      --bg-overlay: rgba(0, 0, 0, 0.7);
+
+      --text-main: #f4f4f5;
+      --text-sub: #a1a1aa;
+      --text-muted: #71717a;
+      --title-gradient: linear-gradient(135deg, #ffffff 0%, #a1a1aa 100%);
+
+      --border: rgba(255, 255, 255, 0.1);
+      --border-highlight: rgba(255, 255, 255, 0.2);
+
+      --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.6);
+      --shadow-glass: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.4);
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --purple: #8b5cf6;
+      --pink: #ec4899;
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --transition-smooth: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+      --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-body: #f8fafc;
+        --bg-gradient: radial-gradient(circle at 50% 0%, #e2e8f0 0%, var(--bg-body) 60%);
+        --bg-glass: rgba(255, 255, 255, 0.7);
+        --bg-panel: #ffffff;
+        --bg-elevated: #f1f5f9;
+        --bg-hover: #e2e8f0;
+        --bg-input: #f1f5f9;
+        --bg-overlay: rgba(0, 0, 0, 0.4);
+
+        --text-main: #0f172a;
+        --text-sub: #475569;
+        --text-muted: #64748b;
+        --title-gradient: linear-gradient(135deg, #0f172a 0%, #64748b 100%);
+
+        --border: rgba(0, 0, 0, 0.08);
+        --border-highlight: rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg-body);
+      background-image: var(--bg-gradient);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      padding: 20px 15px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      line-height: 1.5;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border-highlight);
+      border-radius: 10px;
+    }
+
+    /* ==========================================
+       2. 主体容器与布局 (引入平滑淡入)
+       ========================================== */
+    .container {
+      width: 100%;
+      max-width: 760px;
+      background: var(--bg-glass);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      
+      /* 初始状态：全透明并轻微下沉 */
+      opacity: 0;
+      transform: translateY(15px);
+      transition: opacity 0.5s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    /* 就绪后：平滑展示 */
+    .container.ready {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .header {
+      padding: 30px 30px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: var(--title-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.5px;
+    }
+
+    .main-content {
+      padding: 0 30px 25px;
+    }
+
+    .section-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin: 25px 0 15px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    /* ==========================================
+       3. UI 组件 (按钮、复合按钮)
+       ========================================== */
+    .btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      background: var(--bg-elevated);
+      color: var(--text-main);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn i {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      transition: var(--transition-smooth);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-highlight);
+      background: var(--bg-hover);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn:active {
+      transform: translateY(1px) scale(0.98);
+    }
+
+    .btn-primary:hover {
+      border-color: var(--accent);
+    }
+
+    .btn-primary i {
+      color: var(--accent);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--success);
+    }
+
+    .btn-secondary i {
+      color: var(--success);
+    }
+
+    .btn-add:hover {
+      border-color: var(--purple);
+    }
+
+    .btn-add i {
+      color: var(--purple);
+    }
+
+    .btn-hash:hover {
+      border-color: var(--pink);
+    }
+
+    .btn-hash i {
+      color: var(--pink);
+    }
+
+    .combo-card {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--bg-elevated);
+      overflow: hidden;
+      transition: var(--transition-smooth);
+    }
+
+    .combo-card:hover {
+      border-color: var(--border-highlight);
+      background: var(--bg-hover);
+      box-shadow: var(--shadow-sm);
+      transform: translateY(-2px);
+    }
+
+    .combo-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 10px;
+      border: none;
+      background: transparent;
+      color: var(--text-main);
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: var(--transition-smooth);
+    }
+
+    .combo-main i {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      transition: var(--transition-smooth);
+    }
+
+    .combo-main:active {
+      transform: scale(0.98);
+    }
+
+    .combo-tertiary:hover {
+      border-color: var(--warning);
+    }
+
+    .combo-tertiary .combo-main i {
+      color: var(--warning);
+    }
+
+    .combo-info:hover {
+      border-color: #0ea5e9;
+    }
+
+    .combo-info .combo-main i {
+      color: #0ea5e9;
+    }
+
+    .combo-divider {
+      width: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+
+    .combo-switch-area {
+      padding: 0 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .switch-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background-color: rgba(150, 150, 150, 0.2);
+      transition: .4s;
+      border-radius: 34px;
+      border: 1px solid var(--border);
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 2px;
+      bottom: 2px;
+      background-color: var(--text-sub);
+      transition: .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      border-radius: 50%;
+    }
+
+    .toggle-switch input:checked + .slider {
+      background-color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .toggle-switch input:checked + .slider:before {
+      transform: translateX(18px);
+      background-color: #fff;
+    }
+
+    .btn-solid {
+      flex-direction: row;
+      gap: 8px;
+      padding: 12px 20px;
+      background: var(--text-main);
+      color: var(--bg-panel);
+      border: none;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-solid i {
+      margin-bottom: 0;
+      color: inherit;
+      font-size: 1.1rem;
+    }
+
+    .btn-solid:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+      opacity: 0.9;
+    }
+
+    .btn-solid.primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-solid.danger {
+      background: rgba(239, 68, 68, 0.1);
+      color: var(--danger);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+    }
+
+    /* ==========================================
+       4. 输入框与控制台面板
+       ========================================== */
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .modern-input {
+      flex: 1;
+      padding: 12px 16px;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-main);
+      font-size: 0.95rem;
+      transition: var(--transition-smooth);
+    }
+
+    .modern-input:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: var(--bg-elevated);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .terminal {
+      background: #000000;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-top: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .terminal-header {
+      background: #111111;
+      padding: 10px 15px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    .terminal-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+
+    .dot-r {
+      background: #ff5f56;
+    }
+
+    .dot-y {
+      background: #ffbd2e;
+    }
+
+    .dot-g {
+      background: #27c93f;
+    }
+
+    .terminal-body {
+      padding: 15px;
+      height: 200px;
+      overflow-y: auto;
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #f4f4f5;
+    }
+
+    .output-line {
+      margin-bottom: 4px;
+      word-wrap: break-word;
+    }
+
+    .out-ok {
+      color: #34d399;
+    }
+
+    .out-err {
+      color: #f87171;
+    }
+
+    .out-warn {
+      color: #fbbf24;
+    }
+
+    .out-info {
+      color: #60a5fa;
+    }
+
+    .out-key {
+      color: #f472b6;
+    }
+
+    /* ==========================================
+       5. 弹窗布局
+       ========================================== */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg-overlay);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-highlight);
+      border-radius: var(--radius-xl);
+      width: 92%;
+      max-width: 500px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-glass);
+      transform: scale(0.9) translateY(20px);
+      opacity: 0;
+      transition: var(--transition-bounce);
+    }
+
+    .modal-overlay.active .modal {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+
+    .modal-header {
+      padding: 20px 24px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .close-btn {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      color: var(--text-sub);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .close-btn:hover {
+      background: var(--bg-hover);
+      color: var(--text-main);
+    }
+
+    .modal-body {
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .modal-footer {
+      padding: 15px 24px 20px;
+      border-top: 1px solid var(--border);
+      flex-shrink: 0;
+      background: var(--bg-panel);
+      border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+    }
+
+    /* ==========================================
+       6. 应用列表
+       ========================================== */
+    .app-list-container {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--bg-input);
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    .app-item {
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      margin-bottom: 6px;
+      background: transparent;
+      border-radius: var(--radius-sm);
+      transition: var(--transition-smooth);
+      cursor: pointer;
+    }
+
+    .app-item:hover {
+      background: var(--bg-elevated);
+      transform: translateX(4px);
+    }
+
+    .app-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      margin-right: 14px;
+      object-fit: contain;
+      background: var(--bg-elevated);
+      padding: 4px;
+      box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .fallback-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    .app-info {
+      flex: 1;
+      min-width: 0;
+      pointer-events: none;
+    }
+
+    .app-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-main);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .app-package {
+      font-size: 0.8rem;
+      color: var(--text-sub);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Consolas, monospace;
+    }
+
+    .custom-checkbox {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 24px;
+      height: 24px;
+      border: 2px solid var(--text-muted);
+      border-radius: 6px;
+      background: transparent;
+      cursor: pointer;
+      position: relative;
+      transition: var(--transition-smooth);
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+
+    .custom-checkbox:checked {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .custom-checkbox:checked::after {
+      content: '';
+      position: absolute;
+      left: 7px;
+      top: 3px;
+      width: 5px;
+      height: 11px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+
+    .root-action-badge {
+      color: var(--accent);
+      font-size: 0.78rem;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 999px;
+      padding: 4px 9px;
+      white-space: nowrap;
+      background: rgba(56, 189, 248, 0.08);
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+
+    .confirm-card { max-width: 360px; width: calc(100% - 40px); background: var(--bg-panel); border: 1px solid var(--border); border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); padding: 22px; text-align: center; transform: scale(.96); transition: var(--transition-smooth); }
+    .modal-overlay.active .confirm-card { transform: scale(1); }
+    .confirm-icon { width: 54px; height: 54px; margin: 0 auto 14px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(56,189,248,.12); border: 1px solid rgba(56,189,248,.35); color: var(--accent); font-size: 1.45rem; }
+    .confirm-title { font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px; }
+    .confirm-text { color: var(--text-sub); word-break: break-all; line-height: 1.6; margin-bottom: 18px; white-space: pre-line; }
+    .confirm-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+    .empty-state {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state i {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      opacity: 0.5;
+    }
+
+    /* ==========================================
+       7. 底部状态
+       ========================================== */
+    .footer-bar {
+      padding: 15px 30px;
+      background: var(--border);
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--text-sub);
+    }
+
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--border);
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .dot.idle {
+      background: var(--success);
+      box-shadow: 0 0 8px var(--success);
+    }
+
+    .dot.running {
+      background: var(--warning);
+      box-shadow: 0 0 8px var(--warning);
+      animation: pulse 1s infinite;
+    }
+
+    .dot.err {
+      background: var(--danger);
+      box-shadow: 0 0 8px var(--danger);
+    }
+
+    @keyframes pulse {
+      0% {
+        opacity: 1
+      }
+      50% {
+        opacity: 0.4
+      }
+      100% {
+        opacity: 1
+      }
+    }
+
+    .hint-text {
+      font-size: 0.85rem;
+      color: var(--warning);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* ==========================================
+       8. 加载动画层
+       ========================================== */
+    .loading-overlay {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: var(--accent);
+      font-size: 2rem;
+      gap: 15px;
+      z-index: 9999;
+      transition: opacity 0.5s ease, visibility 0.5s;
+    }
+    
+    .loading-overlay span {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .loading-overlay.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    @media (max-width: 600px) {
+      .grid-2x2 {
+        grid-template-columns: 1fr;
+      }
+
+      .modal {
+        width: 95%;
+        max-height: 90vh;
+      }
+
+      .header {
+        padding: 20px;
+      }
+
+      .main-content {
+        padding: 0 20px 20px;
+      }
+
+      .footer-bar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </noscript>
+</head>
+<body>
+  <div class="loading-overlay" id="loadingOverlay">
+    <i class="fas fa-circle-notch fa-spin"></i>
+    <span>环境检测中...</span>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h1>月虹一键隐藏</h1>
+    </div>
+
+    <div class="main-content">
+      <div class="section-title">
+        <i class="fas fa-layer-group" style="margin-right: 8px; color: var(--accent);"></i> 核心功能
+      </div>
+      <div class="grid-2x2">
+        <button id="runScript1" class="btn btn-primary">
+          <i class="fas fa-eye-slash"></i> <span>配置隐藏应用</span>
+        </button>
+        <button id="runScript2" class="btn btn-secondary" style="display: none;">
+          <i class="fas fa-folder-tree"></i> <span>配置 SUS 路径</span>
+        </button>
+        <button id="reloadModule" class="btn btn-secondary" style="display: none;">
+          <i class="fas fa-rotate"></i> <span>重载模块</span>
+        </button>
+        <button id="fixLspModule" class="btn btn-hash" style="display: none;">
+          <i class="fas fa-screwdriver-wrench"></i> <span>修复Zygisk+LSP模块</span>
+        </button>
+        <div class="combo-card combo-info">
+          <button class="combo-main" id="autoDevInfo" title="内部存储挂载后自动执行">
+            <i class="fas fa-user-shield"></i>
+            <span>关闭调试模式</span>
+          </button>
+          <div class="combo-divider"></div>
+          <div class="combo-switch-area" title="开机自动关闭 USB 调试与开发者模式">
+            <span class="switch-label">自动</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="autoDevSwitch">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="combo-card combo-tertiary" id="keyFeatureCard" style="display: none;">
+          <button class="combo-main" id="runScript3" title="点击手动执行">
+            <i class="fas fa-key"></i>
+            <span>获取有效密钥</span>
+          </button>
+          <div class="combo-divider"></div>
+          <div class="combo-switch-area" title="开启自动获取">
+            <span class="switch-label">自动</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="autoKeySwitch">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="combo-card combo-info" id="blFeatureCard" style="display: none;">
+          <button class="combo-main" id="runScript4" title="点击手动执行">
+            <i class="fas fa-arrows-rotate"></i>
+            <span>更新 BL 列表</span>
+          </button>
+          <div class="combo-divider"></div>
+          <div class="combo-switch-area" title="开启自动更新">
+            <span class="switch-label">自动</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="autoBlSwitch">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title">
+        <i class="fas fa-sliders" style="margin-right: 8px; color: var(--purple);"></i> 高级管理
+      </div>
+      <div class="grid-2x2">
+        <button id="openPackageModal" class="btn btn-add">
+          <i class="fas fa-shield-halved"></i> <span>风险应用管理</span>
+        </button>
+        <button id="openMagiskRootModal" class="btn btn-add" style="display: none;">
+          <i class="fas fa-user-shield"></i> <span>Root权限管理</span>
+        </button>
+        <button id="openHashModal" class="btn btn-hash">
+          <i class="fas fa-fingerprint"></i> <span>哈希值设置</span>
+        </button>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-header">
+          <div class="terminal-dot dot-r"></div>
+          <div class="terminal-dot dot-y"></div>
+          <div class="terminal-dot dot-g"></div>
+          <span style="font-size: 0.75rem; color: #666; margin-left: auto;">Terminal</span>
+        </div>
+        <div class="terminal-body" id="output">
+          <div class="output-line out-info">> Initializing modules...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div id="versionInfo"><i class="fas fa-microchip" style="margin-right:5px"></i> 版本: 载入中...</div>
+      <div class="status-badge">
+        <div class="dot idle" id="statusIndicator"></div>
+        <span id="statusText">就绪</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="packageModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title" id="appModalTitle">风险应用管理</h3>
+        <button class="close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="hint-text" id="appModalHint"><i class="fas fa-triangle-exclamation"></i> 勾选后清理外部目录并加入黑名单</div>
+        <div class="input-group">
+          <input type="text" id="appSearch" class="modern-input" placeholder="🔍 搜索应用名称或包名...">
+        </div>
+        <div class="input-group" style="margin-bottom: 10px;">
+          <input type="text" id="customPackageInput" class="modern-input" placeholder="自定义包名 (如 com.tencent.mm)">
+          <button id="addCustomPackageBtn" class="btn-solid" style="padding: 0 15px;">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px;" id="appCountInfo">正在扫描应用列表...</div>
+        <div class="app-list-container" id="appList"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="savePackagesButton" class="btn-solid primary" style="width: 100%; justify-content: center;">
+          <i class="fas fa-check-circle"></i> <span id="appModalSaveText">保存并应用规则</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="rootGrantConfirmModal">
+    <div class="confirm-card">
+      <div class="confirm-icon"><i class="fas fa-user-shield"></i></div>
+      <div class="confirm-title">授予 Root 权限？</div>
+      <div class="confirm-text" id="rootGrantConfirmText"></div>
+      <div class="confirm-actions">
+        <button class="btn-solid" id="rootGrantCancelBtn" style="justify-content:center;">取消</button>
+        <button class="btn-solid primary" id="rootGrantOkBtn" style="justify-content:center;">确定授权</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="hashModal">
+    <div class="modal" style="max-width: 420px;">
+      <div class="modal-header">
+        <h3 class="modal-title">哈希值管理</h3>
+        <button class="close-btn">&times;</button>
+      </div>
+      <div class="modal-body" style="padding-bottom: 24px; flex: unset;">
+        <div class="input-group" style="margin-bottom: 20px;">
+          <input type="text" id="hashInput" class="modern-input" placeholder="输入合法的 Digest 哈希值">
+        </div>
+        <div class="grid-2x2">
+          <button id="addHashButton" class="btn-solid primary" style="justify-content: center;">
+            <i class="fas fa-check"></i> 写入
+          </button>
+          <button id="removeHashButton" class="btn-solid danger" style="justify-content: center;">
+            <i class="fas fa-trash"></i> 清除
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ==========================================
+    // 核心逻辑 JS
+    // ==========================================
+    function initApp() {
+      const WORK_DIR = '/data/adb/YH/YH_YC';
+      const MODULE_DIR = '/data/adb/modules/YH_YC';
+
+      const CONFIG = {
+        cmdScript1: `su -c '${MODULE_DIR}/main --ycyylb'`,
+        cmdScript2: `su -c '${MODULE_DIR}/main --suspz'`,
+        cmdScript3: `su -c '${MODULE_DIR}/main --yxmy'`,
+        cmdScript4: `su -c '${MODULE_DIR}/main --bl'`,
+        cmdReload: `su -c '${MODULE_DIR}/main --reload'`,
+        cmdFixLsp: `su -c '${MODULE_DIR}/main --fix-lsp'`,
+        cmdCloseDebug: `su -c '${MODULE_DIR}/main --gbkfq'`,
+        cmdReport: `su -c '${MODULE_DIR}/main --report'`,
+
+        // 自动开关参数
+        cmdAutoKey: `su -c '${MODULE_DIR}/main --zdyxmy'`,
+        cmdAutoBl: `su -c '${MODULE_DIR}/main --zdbl'`,
+        cmdAutoDev: `su -c '${MODULE_DIR}/main --zdgbkfq'`,
+
+        // 自动状态检测命令
+        checkAutoKeyCmd: `su -c 'grep -q "zdyxmy=on" ${WORK_DIR}/conf/config.prop && echo ON || echo OFF'`,
+        checkAutoBlCmd: `su -c 'grep -q "zdbl=on" ${WORK_DIR}/conf/config.prop && echo ON || echo OFF'`,
+        checkAutoDevCmd: `su -c 'grep -q "zdgbkfq=on" ${WORK_DIR}/conf/config.prop && echo ON || echo OFF'`,
+        checkStatusCmd: `su -c '${MODULE_DIR}/main --status'`,
+        packagesPath: `${WORK_DIR}/pkg/QT_packages.txt`,
+        fixedMagiskWebuiPackage: `io.github.a13e300.ksuwebui`,
+        hashPath: `${WORK_DIR}/vbmeta.hash`,
+        modulePropPath: `${MODULE_DIR}/module.prop`
+      };
+
+      const STATE = {
+        shellRunning: false,
+        initialProcessStatus: null,
+        savedPackages: [],
+        customPackages: [],
+        isFallbackMode: false,
+        appModalMode: 'risk',
+      };
+
+      const DOM = {
+        runScript1Btn: document.getElementById('runScript1'),
+        runScript2Btn: document.getElementById('runScript2'),
+        runScript3Btn: document.getElementById('runScript3'),
+        runScript4Btn: document.getElementById('runScript4'),
+        keyFeatureCard: document.getElementById('keyFeatureCard'),
+        blFeatureCard: document.getElementById('blFeatureCard'),
+        autoKeySwitch: document.getElementById('autoKeySwitch'),
+        autoBlSwitch: document.getElementById('autoBlSwitch'),
+        autoDevSwitch: document.getElementById('autoDevSwitch'),
+        autoDevInfo: document.getElementById('autoDevInfo'),
+        reloadModuleBtn: document.getElementById('reloadModule'),
+        fixLspModuleBtn: document.getElementById('fixLspModule'),
+        addHashButton: document.getElementById('addHashButton'),
+        removeHashButton: document.getElementById('removeHashButton'),
+        hashInput: document.getElementById('hashInput'),
+        outputDiv: document.getElementById('output'),
+        statusIndicator: document.getElementById('statusIndicator'),
+        statusText: document.getElementById('statusText'),
+        versionInfo: document.getElementById('versionInfo'),
+        packageModal: document.getElementById('packageModal'),
+        hashModal: document.getElementById('hashModal'),
+        openPackageModalBtn: document.getElementById('openPackageModal'),
+        openMagiskRootModalBtn: document.getElementById('openMagiskRootModal'),
+        openHashModalBtn: document.getElementById('openHashModal'),
+        closeBtns: document.querySelectorAll('.close-btn'),
+        appList: document.getElementById('appList'),
+        appCountInfo: document.getElementById('appCountInfo'),
+        appSearch: document.getElementById('appSearch'),
+        savePackagesButton: document.getElementById('savePackagesButton'),
+        appModalTitle: document.getElementById('appModalTitle'),
+        appModalHint: document.getElementById('appModalHint'),
+        appModalSaveText: document.getElementById('appModalSaveText'),
+        customPackageInput: document.getElementById('customPackageInput'),
+        addCustomPackageBtn: document.getElementById('addCustomPackageBtn'),
+        rootGrantConfirmModal: document.getElementById('rootGrantConfirmModal'),
+        rootGrantConfirmText: document.getElementById('rootGrantConfirmText'),
+        rootGrantCancelBtn: document.getElementById('rootGrantCancelBtn'),
+        rootGrantOkBtn: document.getElementById('rootGrantOkBtn')
+      };
+
+      const Shell = {
+        // 同步执行方法
+        execSync: (command) => {
+          return new Promise((resolve) => {
+            const cbName = `exec_cb_${Date.now()}_${Math.random().toString(36).substring(2)}`;
+            window[cbName] = (errno, stdout, stderr) => {
+              delete window[cbName];
+              resolve({
+                errno,
+                stdout: stdout || '',
+                stderr: stderr || ''
+              });
+            };
+            try {
+              ksu.exec(command, "{}", cbName);
+            } catch (e) {
+              delete window[cbName];
+              resolve({
+                errno: -1,
+                stdout: '',
+                stderr: e.message
+              });
+            }
+          });
+        },
+        // 带超时的同步执行，避免 WebUI 等待命令时卡住
+        execTimeout: (command, timeoutMs = 5000) => {
+          return new Promise((resolve) => {
+            let done = false;
+            const timer = setTimeout(() => {
+              if (done) return;
+              done = true;
+              resolve({ errno: -2, stdout: '', stderr: `执行超时(${timeoutMs}ms)` });
+            }, timeoutMs);
+            Shell.execSync(command).then((res) => {
+              if (done) return;
+              done = true;
+              clearTimeout(timer);
+              resolve(res);
+            });
+          });
+        },
+        // 异步实时轮询执行方法
+        execRealtime: async (cmd, onLine) => {
+          // 不能放在 tmp/webui：本体 main() 启动时会清理 tmp，导致日志文件被删除后 WebUI 读不到。
+          // WebUI 功能日志使用固定名称；每次执行前清空上一次功能日志，避免旧输出混入实时输出。
+          const runDir = `${WORK_DIR}/log/webui`;
+          const logFile = `${runDir}/webui_task.log`;
+          const scriptFile = `${runDir}/webui_task.sh`;
+
+          await Shell.execSync(`mkdir -p "${runDir}" && rm -f "${logFile}" "${scriptFile}" && : > "${logFile}"`);
+
+          const writeAndRunCmd = `cat << 'EOF_KSU' > "${scriptFile}"
+#!/system/bin/sh
+export YH_WEBUI_TASK=1
+export YH_WEBUI_LOG="${logFile}"
+${cmd} >> "${logFile}" 2>&1
+_exit=$?
+echo "===KSU_EXEC_DONE_\${_exit}===" >> "${logFile}"
+exit $_exit
+EOF_KSU
+chmod +x "${scriptFile}"
+sh "${scriptFile}" >/dev/null 2>&1 &`;
+
+          await Shell.execSync(writeAndRunCmd);
+
+          let processedLinesCount = 0;
+          let exitCode = -1;
+
+          return new Promise((resolve) => {
+            const pollInterval = setInterval(async () => {
+              const res = await Shell.execSync(`cat "${logFile}" 2>/dev/null || true`);
+              if (res.stdout) {
+                const lines = res.stdout.replace(/\r/g, '').split('\n');
+                let shouldStop = false;
+                const maxIndex = lines.length - 1;
+
+                for (let i = processedLinesCount; i <= maxIndex; i++) {
+                  const line = lines[i];
+                  const isLastSegment = (i === maxIndex);
+
+                  const match = line.match(/^===KSU_EXEC_DONE_(\d+)===$/);
+                  if (match) {
+                    exitCode = parseInt(match[1], 10);
+                    shouldStop = true;
+                    processedLinesCount++;
+                    break;
+                  }
+
+                  if (isLastSegment && line !== "") break;
+
+                  if (line.trim() !== "") onLine(line);
+                  processedLinesCount++;
+                }
+
+                if (shouldStop) {
+                  clearInterval(pollInterval);
+                  await Shell.execSync(`rm -f "${scriptFile}"`);
+                  resolve(exitCode);
+                }
+              }
+            }, 300);
+          });
+        }
+      };
+
+      const UI = {
+        log: (text, type = '') => {
+          if (text.includes("sed: bad pattern") && text.includes("sus_paths")) return;
+          const line = document.createElement('div');
+          line.className = `output-line ${type}`;
+          line.textContent = text;
+          DOM.outputDiv.appendChild(line);
+          DOM.outputDiv.scrollTop = DOM.outputDiv.scrollHeight;
+        },
+        setStatus: (running, processAware = false) => {
+          if (running) {
+            DOM.statusIndicator.className = 'dot running';
+            DOM.statusText.textContent = '任务执行中...';
+          } else if (processAware && STATE.initialProcessStatus !== 'idle') {
+            DOM.statusIndicator.className = 'dot err';
+            DOM.statusText.textContent = '主进程异常';
+          } else {
+            DOM.statusIndicator.className = 'dot idle';
+            DOM.statusText.textContent = '就绪';
+          }
+        },
+        openModal: (modal) => modal.classList.add('active'),
+        closeModal: (modal) => {
+          modal.classList.remove('active');
+          if (modal === DOM.packageModal) {
+            DOM.appSearch.value = '';
+            DOM.customPackageInput.value = '';
+            document.querySelectorAll('.app-item').forEach(i => i.style.display = 'flex');
+          }
+        },
+        updateCount: () => {
+          const total = document.querySelectorAll('.app-item').length;
+          const kw = DOM.appSearch.value.trim();
+          let vis = 0;
+          document.querySelectorAll('.app-item').forEach(i => { if (i.style.display !== 'none') vis++; });
+          if (STATE.appModalMode === 'root') {
+            DOM.appCountInfo.textContent = kw ? `检索到 ${vis} 个，点击应用即可授权` : `共 ${total} 个应用，点击应用即可授权`;
+            return;
+          }
+          const checked = document.querySelectorAll('.custom-checkbox:checked').length;
+          const hint = STATE.isFallbackMode ? ' (兼容模式)' : '';
+          DOM.appCountInfo.textContent = kw ? `检索到 ${vis} 个，已选 ${checked} 个${hint}` : `共 ${total} 个应用，已选 ${checked} 个${hint}`;
+        }
+      };
+
+      const System = {
+        init: async () => {
+          Shell.execSync(CONFIG.cmdReport);
+          await System.checkVersion();
+          await System.checkProcess();
+          await System.checkBlFeatureVisibility();
+          await System.checkAutoStates();
+        },
+
+        checkVersion: async () => {
+          const res = await Shell.execSync(`cat ${CONFIG.modulePropPath}`);
+          if (res.errno === 0 && res.stdout) {
+            let v = '未知';
+            res.stdout.split('\n').forEach(l => {
+              if (l.startsWith('version=')) v = l.split('=')[1];
+            });
+            DOM.versionInfo.innerHTML = `<i class="fas fa-microchip" style="margin-right:5px"></i> 版本: ${v}`;
+            UI.log(`> 核心版本: ${v}`, 'out-ok');
+          } else {
+            DOM.versionInfo.innerHTML = `<i class="fas fa-microchip" style="margin-right:5px"></i> 版本: 读取失败`;
+            UI.log('> 读取模块版本失败', 'out-err');
+          }
+        },
+        
+        checkProcess: async () => {
+          const res = await Shell.execSync('pgrep -f "main --yhyc"');
+          if (res.errno === 0 && res.stdout.trim() !== "") {
+            STATE.initialProcessStatus = 'idle';
+            UI.log('> 主进程运行正常', 'out-ok');
+          } else {
+            STATE.initialProcessStatus = 'warning';
+            UI.log('> 警告: 主进程未检测到', 'out-warn');
+          }
+          UI.setStatus(STATE.shellRunning, true);
+        },
+
+        checkKernelMode: async () => {
+          // SUS 路径配置入口统一由 main --status 的 YH_CAN_CONFIG_SUS 控制。
+        },
+
+        parseStatus: (text) => {
+          const status = {};
+          (text || '').replace(/\r/g, '').split('\n').forEach(line => {
+            const idx = line.indexOf('=');
+            if (idx > 0) status[line.slice(0, idx)] = line.slice(idx + 1);
+          });
+          return status;
+        },
+
+        applyFeatureVisibility: (status) => {
+          const canIntegrity = status.YH_CAN_INTEGRITY === '1';
+          const ksuJailbreak = status.YH_ROOT_TYPE === 'KernelSU_越狱';
+          const canConfigSus = status.YH_ROOT_TYPE === 'KernelSU_SUSFS' && status.YH_CAN_CONFIG_SUS === '1';
+
+          // WebUI 只按三条规则显示：完整性可用、KernelSU_越狱、KernelSU_SUSFS 且 SUS 可用。
+          DOM.keyFeatureCard.style.display = canIntegrity ? 'flex' : 'none';
+          DOM.blFeatureCard.style.display = canIntegrity ? 'flex' : 'none';
+          DOM.reloadModuleBtn.style.display = ksuJailbreak ? 'flex' : 'none';
+          DOM.fixLspModuleBtn.style.display = ksuJailbreak ? 'flex' : 'none';
+          DOM.runScript2Btn.style.display = canConfigSus ? 'flex' : 'none';
+          DOM.openMagiskRootModalBtn.style.display = status.YH_ROOT_TYPE === 'Magisk' ? 'flex' : 'none';
+
+          DOM.autoKeySwitch.disabled = !canIntegrity;
+          DOM.autoBlSwitch.disabled = !canIntegrity;
+          if (!canIntegrity) {
+            DOM.autoKeySwitch.checked = false;
+            DOM.autoBlSwitch.checked = false;
+          }
+        },
+
+        checkBlFeatureVisibility: async () => {
+          const res = await Shell.execSync(CONFIG.checkStatusCmd);
+          const status = System.parseStatus(res.stdout || '');
+          System.applyFeatureVisibility(status);
+
+          let message = '';
+          if (status.YH_ROOT_TYPE === 'KernelSU_越狱') {
+            message = '> KernelSU_越狱：显示重载模块 + 修复 Zygisk+LSP';
+          } else if (status.YH_ROOT_TYPE === 'Magisk') {
+            message = '> Magisk模式：显示Root权限管理';
+          } else if (status.YH_CAN_INTEGRITY === '1') {
+            message = '> BL 非明确未解锁：显示获取有效密钥 + 更新 BL 列表';
+          } else if (status.YH_ROOT_TYPE === 'KernelSU_SUSFS' && status.YH_CAN_CONFIG_SUS === '1') {
+            message = '> KernelSU_SUSFS 且 SUS 可用：显示配置 SUS 路径';
+          } else {
+            message = '> 当前状态不显示受限功能';
+          }
+          UI.log(message, (status.YH_CAN_INTEGRITY === '1') ? 'out-info' : 'out-warn');
+        },
+
+        checkAutoStates: async () => {
+          if (!DOM.autoKeySwitch.disabled) {
+            const r1 = await Shell.execSync(CONFIG.checkAutoKeyCmd);
+            if (r1.stdout.includes('ON')) DOM.autoKeySwitch.checked = true;
+          }
+
+          if (!DOM.autoBlSwitch.disabled) {
+            const r2 = await Shell.execSync(CONFIG.checkAutoBlCmd);
+            if (r2.stdout.includes('ON')) DOM.autoBlSwitch.checked = true;
+          }
+
+          const r3 = await Shell.execSync(CONFIG.checkAutoDevCmd);
+          if (r3.stdout.includes('ON')) DOM.autoDevSwitch.checked = true;
+        }
+      };
+
+      const shQuote = (s) => `'${String(s).replace(/'/g, `'\"'\"'`)}'`;
+      const parsePackageLines = (text) => Array.from(new Set(String(text || '').split('\n').map(l => l.trim()).filter(l => /^[a-zA-Z0-9_.]+$/.test(l) && l.includes('.'))));
+
+      const Features = {
+        execShell: async (cmd, name) => {
+          if (STATE.shellRunning) {
+            UI.log(`[警告] 任务正在执行，请勿重复点击`, 'out-warn');
+            return;
+          }
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+          UI.log(`> 执行: ${name}...`, 'out-info');
+
+          await new Promise(resolve => setTimeout(resolve, 80));
+
+          const exitCode = await Shell.execRealtime(cmd, (line) => {
+            const t = line.trim();
+            if (!t) return;
+            if (t.includes('✅') || t.includes('成功')) UI.log(t, 'out-ok');
+            else if (t.includes('❌') || t.includes('失败')) UI.log(t, 'out-err');
+            else if (t.includes('⚠️')) UI.log(t, 'out-warn');
+            else if (t.includes('key') || t.includes('KEY')) UI.log(t, 'out-key');
+            else if (t.toLowerCase().includes('error')) UI.log(`[错误] ${t}`, 'out-err');
+            else UI.log(t);
+          });
+
+          if (exitCode !== 0) UI.log(`[中断] 任务异常退出，错误码: ${exitCode}`, 'out-err');
+          else UI.log('[完成] 任务执行完毕', 'out-ok');
+
+          STATE.shellRunning = false;
+          UI.setStatus(false);
+        },
+
+        loadApps: async () => {
+          if (STATE.shellRunning) {
+            UI.log('[警告] 任务正在执行中，请稍候', 'out-warn');
+            return;
+          }
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+          await new Promise(r => setTimeout(r, 50));
+
+          DOM.appList.innerHTML = '<div class="empty-state"><i class="fas fa-spinner fa-spin"></i><div>扫描已安装应用...</div></div>';
+          STATE.isFallbackMode = false;
+          STATE.customPackages = [];
+          const sr = await Shell.execSync(`cat ${CONFIG.packagesPath} 2>/dev/null || echo ""`);
+          STATE.savedPackages = sr.errno === 0 ? sr.stdout.split('\n').map(l => l.trim()).filter(Boolean) : [];
+
+          try {
+            const packagesJson = ksu.listPackages("user");
+            let packageNames = [];
+            try {
+              packageNames = JSON.parse(packagesJson);
+            } catch (parseError) {
+              packageNames = packagesJson.replace(/[\[\]"]/g, '').split(',').map(pkg => pkg.trim()).filter(pkg => pkg.length > 0);
+            }
+            if (packageNames.length === 0) throw new Error("List is empty");
+
+            let appsInfo = null;
+            try {
+              const parsed = JSON.parse(ksu.getPackagesInfo(JSON.stringify(packageNames)));
+              if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].appLabel !== undefined) appsInfo = parsed;
+            } catch (e) {}
+            if (appsInfo) Features.renderApps(appsInfo, true);
+            else {
+              STATE.isFallbackMode = true;
+              Features.renderApps(packageNames, false);
+            }
+          } catch (err) {
+            STATE.isFallbackMode = true;
+            const r = await Shell.execSync('pm list packages -3');
+            if (r.errno === 0 && r.stdout) {
+              const ps = r.stdout.split('\n').map(l => l.replace('package:', '').trim()).filter(l => l.includes('.'));
+              Features.renderApps(ps, false);
+            } else DOM.appList.innerHTML = '<div class="empty-state"><i class="fas fa-ghost"></i><div>获取列表失败</div></div>';
+          }
+
+          STATE.shellRunning = false;
+          UI.setStatus(false);
+        },
+
+        renderApps: (apps, isNormal) => {
+          DOM.appList.innerHTML = '';
+          const extPkg = isNormal ? (a => a.packageName) : (a => a);
+          const sysPkgs = apps.map(extPkg);
+          STATE.customPackages = STATE.savedPackages.filter(p => !sysPkgs.includes(p));
+
+          const ckd = [],
+            uckd = [];
+          apps.forEach(a => STATE.savedPackages.includes(extPkg(a)) ? ckd.push(a) : uckd.push(a));
+          const sortFn = isNormal ? (a, b) => (a.appLabel || a.packageName).localeCompare(b.appLabel || b.packageName) : (a, b) => a.localeCompare(b);
+          ckd.sort(sortFn);
+          uckd.sort(sortFn);
+
+          const fallbackSVG = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjMzY0MDVjIi8+PHRleHQgeD0iMjAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNlMWU3ZWYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5BcHA8L3RleHQ+PC9zdmc+";
+
+          [...ckd, ...uckd].forEach(a => {
+            const pkg = extPkg(a);
+            const name = isNormal ? (a.appLabel || pkg) : pkg;
+            const isCkd = STATE.savedPackages.includes(pkg);
+            const imgHtml = isNormal ? `<img class="app-icon" src="ksu://icon/${pkg}" alt="${name}" onerror="this.onerror=null; this.src='${fallbackSVG}'">` : `<div class="app-icon fallback-icon"><i class="fab fa-android"></i></div>`;
+            const el = document.createElement('div');
+            el.className = 'app-item';
+            el.setAttribute('data-package', pkg);
+            el.innerHTML = `${imgHtml}<div class="app-info"><div class="app-name" title="${name}">${name}</div><div class="app-package">${pkg}</div></div><input type="checkbox" class="custom-checkbox" data-package="${pkg}" ${isCkd ? 'checked' : ''}>`;
+            DOM.appList.appendChild(el);
+          });
+          [...STATE.customPackages].reverse().forEach(p => Features.addCustomPkg(p));
+          UI.updateCount();
+        },
+
+        addCustomPkg: (pkg) => {
+          if (document.querySelector(`.app-item[data-package="${pkg}"]`)) {
+            const cb = document.querySelector(`.app-item[data-package="${pkg}"] .custom-checkbox`);
+            if (cb) cb.checked = true;
+            return;
+          }
+          if (!STATE.customPackages.includes(pkg)) STATE.customPackages.push(pkg);
+          const el = document.createElement('div');
+          el.className = 'app-item custom-item';
+          el.setAttribute('data-package', pkg);
+          el.innerHTML = `<div class="app-icon fallback-icon" style="color:var(--accent); border-color:var(--accent);"><i class="fas fa-wrench" style="font-size:1.1rem"></i></div><div class="app-info"><div class="app-name">${pkg}</div><div class="app-package">自定义添加包名</div></div><input type="checkbox" class="custom-checkbox" data-package="${pkg}" checked>`;
+          DOM.appList.prepend(el);
+          UI.updateCount();
+        },
+
+        saveConfig: async () => {
+          if (STATE.shellRunning) {
+            UI.log('[警告] 任务正在执行中，请稍候', 'out-warn');
+            return;
+          }
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+
+          const sels = Array.from(document.querySelectorAll('.custom-checkbox:checked')).map(c => c.dataset.package);
+          UI.log(`保存 ${sels.length} 个规则项...`, 'out-info');
+          UI.closeModal(DOM.packageModal);
+
+          await new Promise(r => setTimeout(r, 50));
+
+          const str = sels.join('\n') + (sels.length > 0 ? '\n' : '');
+          const r = await Shell.execSync(`mkdir -p ${WORK_DIR}/pkg && echo '${str.replace(/'/g, "'\"'\"'")}' > ${CONFIG.packagesPath}`);
+
+          if (r.errno === 0) {
+            UI.log('配置已写入，开始下发生效...', 'out-ok');
+            STATE.shellRunning = false;
+            await Features.execShell(`su -c "${MODULE_DIR}/main --fxbm ${CONFIG.packagesPath}"`, '应用规则');
+          } else {
+            UI.log(`写入失败: ${r.stderr}`, 'out-err');
+            STATE.shellRunning = false;
+            UI.setStatus(false);
+          }
+          STATE.savedPackages = sels;
+        },
+
+
+        loadMagiskRootApps: async () => {
+          if (STATE.shellRunning) return UI.log('[警告] 任务正在执行中，请稍候', 'out-warn');
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+          DOM.appList.innerHTML = '<div class="empty-state"><i class="fas fa-spinner fa-spin"></i><div>扫描已安装应用...</div></div>';
+          await new Promise(r => setTimeout(r, 50));
+          try {
+            let names = [];
+            try { names = JSON.parse(ksu.listPackages("user")); }
+            catch (e) {
+              const r = await Shell.execTimeout('pm list packages -3', 5000);
+              names = (r.stdout || '').split('\n').map(l => l.replace('package:', '').trim());
+            }
+            names = Array.from(new Set(names.map(String).map(p => p.trim()).filter(p => p.includes('.'))));
+            if (!names.includes(CONFIG.fixedMagiskWebuiPackage)) names.unshift(CONFIG.fixedMagiskWebuiPackage);
+            let apps = names, normal = false;
+            try {
+              const parsed = JSON.parse(ksu.getPackagesInfo(JSON.stringify(names)));
+              if (Array.isArray(parsed) && parsed.length) { apps = parsed; normal = true; }
+            } catch (e) {}
+            Features.renderMagiskRootApps(apps, normal);
+          } catch (e) {
+            UI.log(`Root权限管理加载失败: ${e.message || e}`, 'out-err');
+            DOM.appList.innerHTML = '<div class="empty-state"><i class="fas fa-ghost"></i><div>加载失败</div></div>';
+          } finally { STATE.shellRunning = false; UI.setStatus(false); }
+        },
+
+        renderMagiskRootApps: (apps, normal) => {
+          DOM.appList.innerHTML = '';
+          const fallbackSVG = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjMzY0MDVjIi8+PHRleHQgeD0iMjAiIHk9IjIwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNlMWU3ZWYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5BcHA8L3RleHQ+PC9zdmc+";
+          const extPkg = normal ? a => a.packageName : a => a;
+          const label = a => normal ? (a.appLabel || a.packageName) : a;
+          apps.sort((a, b) => {
+            const pa = extPkg(a), pb = extPkg(b);
+            if (pa === CONFIG.fixedMagiskWebuiPackage) return -1;
+            if (pb === CONFIG.fixedMagiskWebuiPackage) return 1;
+            return label(a).localeCompare(label(b));
+          }).forEach(a => {
+            const pkg = extPkg(a), name = label(a);
+            const icon = normal ? `<img class="app-icon" src="ksu://icon/${pkg}" alt="${name}" onerror="this.onerror=null;this.src='${fallbackSVG}'">` : '<div class="app-icon fallback-icon"><i class="fab fa-android"></i></div>';
+            const sub = pkg === CONFIG.fixedMagiskWebuiPackage ? `${pkg} · WebUI应用 · 固定白名单` : pkg;
+            const el = document.createElement('div');
+            el.className = 'app-item';
+            el.dataset.package = pkg;
+            el.innerHTML = `${icon}<div class="app-info"><div class="app-name" title="${name}">${name}</div><div class="app-package">${sub}</div></div><div class="root-action-badge">授权</div>`;
+            DOM.appList.appendChild(el);
+          });
+          UI.updateCount();
+        },
+
+        confirmRootGrant: (pkg, name) => new Promise(resolve => {
+          const done = v => { UI.closeModal(DOM.rootGrantConfirmModal); DOM.rootGrantConfirmModal.onclick = null; resolve(v); };
+          DOM.rootGrantConfirmText.textContent = name && name !== pkg ? `${name}\n${pkg}` : pkg;
+          DOM.rootGrantOkBtn.onclick = () => done(true);
+          DOM.rootGrantCancelBtn.onclick = () => done(false);
+          DOM.rootGrantConfirmModal.onclick = e => { if (e.target === DOM.rootGrantConfirmModal) done(false); };
+          UI.openModal(DOM.rootGrantConfirmModal);
+        }),
+
+        grantMagiskRootPkg: async (pkg, name) => {
+          if (!pkg) return;
+          if (STATE.shellRunning) return UI.log('[警告] 任务正在执行中，请稍候', 'out-warn');
+          if (!await Features.confirmRootGrant(pkg, name)) return;
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+          try {
+            const r = await Shell.execSync(`su -c "${MODULE_DIR}/main --magisk-root-grant ${shQuote(pkg)}"`);
+            UI.log(r.errno === 0 ? `Root授权成功: ${pkg}` : `Root授权失败: ${pkg} ${r.stderr || r.stdout || ''}`.trim(), r.errno === 0 ? 'out-ok' : 'out-err');
+          } finally { STATE.shellRunning = false; UI.setStatus(false); }
+        },
+
+        manageHash: async (act) => {
+          if (STATE.shellRunning) {
+            UI.log('[警告] 任务正在执行中，请稍候', 'out-warn');
+            return;
+          }
+          STATE.shellRunning = true;
+          UI.setStatus(true);
+          await new Promise(r => setTimeout(r, 50));
+
+          if (act === 'add') {
+            const val = DOM.hashInput.value.trim();
+            if (!val) {
+              UI.log('哈希值不能为空', 'out-warn');
+              STATE.shellRunning = false;
+              UI.setStatus(false);
+              return;
+            }
+            const r1 = await Shell.execSync(`echo "${val.replace(/"/g, '\\"')}" > ${CONFIG.hashPath}`);
+            if (r1.errno !== 0) {
+              UI.log('哈希写入失败', 'out-err');
+              STATE.shellRunning = false;
+              UI.setStatus(false);
+              return;
+            }
+
+            const r2 = await Shell.execSync(`resetprop ro.boot.vbmeta.digest ${val} || /data/adb/ksu/bin/resetprop ro.boot.vbmeta.digest ${val}`);
+            if (r2.errno === 0) {
+              UI.log(`哈希覆盖成功: ${val}`, 'out-ok');
+              DOM.hashInput.value = '';
+              UI.closeModal(DOM.hashModal);
+            } else {
+              UI.log('属性重置失败', 'out-err');
+            }
+          } else {
+            const r = await Shell.execSync(`rm -f ${CONFIG.hashPath}`);
+            if (r.errno === 0) {
+              UI.log('已清除自定义哈希', 'out-ok');
+              DOM.hashInput.value = '';
+              UI.closeModal(DOM.hashModal);
+            } else {
+              UI.log('文件删除失败', 'out-err');
+            }
+          }
+          STATE.shellRunning = false;
+          UI.setStatus(false);
+        }
+      };
+
+      const bindEvents = () => {
+        DOM.runScript1Btn.onclick = () => Features.execShell(CONFIG.cmdScript1, '配置隐藏');
+        DOM.runScript2Btn.onclick = () => Features.execShell(CONFIG.cmdScript2, '配置SUS路径');
+        DOM.reloadModuleBtn.onclick = () => Features.execShell(CONFIG.cmdReload, '重载模块');
+        DOM.fixLspModuleBtn.onclick = () => Features.execShell(CONFIG.cmdFixLsp, '修复Zygisk+LSP模块');
+
+        DOM.runScript3Btn.onclick = () => Features.execShell(CONFIG.cmdScript3, '手动获取密钥');
+        DOM.runScript4Btn.onclick = () => Features.execShell(CONFIG.cmdScript4, '手动更新BL列表');
+
+        DOM.autoKeySwitch.onchange = (e) => {
+          if (DOM.autoKeySwitch.disabled) {
+            e.preventDefault();
+            e.target.checked = false;
+            UI.log('[提示] 当前状态不允许开启自动获取有效密钥', 'out-warn');
+            return;
+          }
+          if (STATE.shellRunning) {
+            e.preventDefault();
+            e.target.checked = !e.target.checked;
+            UI.log(`[提示] 正在执行其他任务，请稍候再操作开关`, 'out-warn');
+            return;
+          }
+          const state = e.target.checked ? 'on' : 'off';
+          Features.execShell(`su -c "${MODULE_DIR}/main --zdyxmy ${state}"`, `更改自动获取密钥状态 (${state})`);
+        };
+        DOM.autoBlSwitch.onchange = (e) => {
+          if (DOM.autoBlSwitch.disabled) {
+            e.preventDefault();
+            e.target.checked = false;
+            UI.log('[提示] 当前状态不允许开启自动更新BL列表', 'out-warn');
+            return;
+          }
+          if (STATE.shellRunning) {
+            e.preventDefault();
+            e.target.checked = !e.target.checked;
+            UI.log(`[提示] 正在执行其他任务，请稍候再操作开关`, 'out-warn');
+            return;
+          }
+          const state = e.target.checked ? 'on' : 'off';
+          Features.execShell(`su -c "${MODULE_DIR}/main --zdbl ${state}"`, `更改自动同步BL状态 (${state})`);
+        };
+
+        DOM.autoDevInfo.onclick = () => Features.execShell(CONFIG.cmdCloseDebug, '关闭调试模式');
+        DOM.autoDevSwitch.onchange = (e) => {
+          if (STATE.shellRunning) {
+            e.preventDefault();
+            e.target.checked = !e.target.checked;
+            UI.log(`[提示] 正在执行其他任务，请稍候再操作开关`, 'out-warn');
+            return;
+          }
+          const state = e.target.checked ? 'on' : 'off';
+          Features.execShell(`su -c "${MODULE_DIR}/main --zdgbkfq ${state}"`, `更改自动关闭调试状态 (${state})`);
+        };
+
+        DOM.openPackageModalBtn.onclick = () => {
+          STATE.appModalMode = 'risk';
+          DOM.appModalTitle.textContent = '风险应用管理';
+          DOM.appModalHint.innerHTML = '<i class="fas fa-triangle-exclamation"></i> 勾选后清理外部目录并加入黑名单';
+          DOM.appSearch.placeholder = '🔍 搜索应用名称或包名...';
+          DOM.customPackageInput.parentElement.style.display = 'flex';
+          DOM.customPackageInput.placeholder = '自定义包名 (如 com.tencent.mm)';
+          DOM.addCustomPackageBtn.innerHTML = '<i class="fas fa-plus"></i>';
+          DOM.savePackagesButton.innerHTML = '<i class="fas fa-check-circle"></i> <span id="appModalSaveText">保存并应用规则</span>';
+          DOM.appModalSaveText = document.getElementById('appModalSaveText');
+          DOM.savePackagesButton.style.display = 'flex';
+          UI.openModal(DOM.packageModal);
+          Features.loadApps();
+        };
+        DOM.openMagiskRootModalBtn.onclick = () => {
+          STATE.appModalMode = 'root';
+          DOM.appModalTitle.textContent = 'Root权限管理';
+          DOM.appModalHint.innerHTML = '<i class="fas fa-user-shield"></i> 点击应用或输入自定义包名，确认后授予 Root；不会读取或取消已有授权';
+          DOM.appSearch.placeholder = '🔍 搜索应用名称或包名...';
+          DOM.customPackageInput.parentElement.style.display = 'flex';
+          DOM.customPackageInput.placeholder = '自定义授权包名 (如 com.tencent.mm)';
+          DOM.addCustomPackageBtn.innerHTML = '<i class="fas fa-plus"></i>';
+          DOM.savePackagesButton.innerHTML = '<i class="fas fa-xmark"></i> <span id="appModalSaveText">关闭</span>';
+          DOM.appModalSaveText = document.getElementById('appModalSaveText');
+          DOM.savePackagesButton.style.display = 'flex';
+          UI.openModal(DOM.packageModal);
+          Features.loadMagiskRootApps();
+        };
+        DOM.openHashModalBtn.onclick = () => UI.openModal(DOM.hashModal);
+        DOM.closeBtns.forEach(b => b.onclick = function() {
+          UI.closeModal(this.closest('.modal-overlay'));
+        });
+        document.querySelectorAll('.modal-overlay').forEach(m => m.onclick = function(e) {
+          if (e.target === this) UI.closeModal(this);
+        });
+
+        DOM.appSearch.oninput = function() {
+          const kw = this.value.toLowerCase().trim();
+          document.querySelectorAll('.app-item').forEach(i => i.style.display = (!kw || i.textContent.toLowerCase().includes(kw)) ? 'flex' : 'none');
+          UI.updateCount();
+        };
+        DOM.appList.onclick = (e) => {
+          const item = e.target.closest('.app-item');
+          if (!item) return;
+          if (STATE.appModalMode === 'root') {
+            const nameEl = item.querySelector('.app-name');
+            return Features.grantMagiskRootPkg(item.dataset.package, nameEl ? nameEl.textContent : item.dataset.package);
+          }
+          if (e.target.type === 'checkbox') return setTimeout(UI.updateCount, 0);
+          const cb = item.querySelector('.custom-checkbox');
+          if (cb) { cb.checked = !cb.checked; UI.updateCount(); }
+        };
+
+        const addCstm = async () => {
+          const p = DOM.customPackageInput.value.trim();
+          if (!p || !p.includes('.') || p.length <= 3) return UI.log('无效的包名格式', 'out-warn');
+          if (STATE.appModalMode === 'root') await Features.grantMagiskRootPkg(p, p);
+          else Features.addCustomPkg(p);
+          DOM.customPackageInput.value = '';
+        };
+        DOM.addCustomPackageBtn.onclick = addCstm;
+        DOM.customPackageInput.onkeypress = e => { if (e.key === 'Enter') addCstm(); };
+
+        DOM.savePackagesButton.onclick = () => STATE.appModalMode === 'root' ? UI.closeModal(DOM.packageModal) : Features.saveConfig();
+        DOM.addHashButton.onclick = () => Features.manageHash('add');
+        DOM.removeHashButton.onclick = () => Features.manageHash('remove');
+      };
+
+      bindEvents();
+      
+      // ==========================================
+      // 防卡死与平滑过渡逻辑
+      // ==========================================
+      const loadingOverlay = document.getElementById('loadingOverlay');
+      const container = document.querySelector('.container');
+      
+      const showUI = () => {
+        requestAnimationFrame(() => {
+          container.classList.add('ready');
+          if (loadingOverlay) loadingOverlay.classList.add('hidden');
+        });
+      };
+
+      // 设置 3 秒超时机制。万一底层阻塞，最长等 3 秒强行显示面板。
+      const safetyTimer = setTimeout(() => {
+        showUI();
+        UI.log('[警告] 底层环境检测超时，已强制载入界面', 'out-warn');
+      }, 3000);
+
+      // 执行异步初始化，加载完成后关闭定时器并展现
+      System.init().then(() => {
+        clearTimeout(safetyTimer);
+        showUI();
+      }).catch(() => {
+        clearTimeout(safetyTimer);
+        showUI();
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
+  </script>
+</body>
+</html>

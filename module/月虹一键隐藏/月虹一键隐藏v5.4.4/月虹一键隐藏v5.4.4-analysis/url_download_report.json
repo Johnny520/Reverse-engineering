@@ -1,0 +1,124 @@
+[
+  {
+    "url": "http://upx.sf.net",
+    "depth": 0,
+    "discovered_from": "inventory",
+    "status": 200,
+    "final_url": "https://upx.github.io/",
+    "content_type": "text/html; charset=utf-8",
+    "size": 5059,
+    "sha256": "F07678BD16DF1E713CAC0C04BD2EB0B3D2ACCFB98C589F6F63911D6F32AD1FA7",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\upx.sf.net\\0ec094aa8f95_index.html"
+  },
+  {
+    "url": "https://android.googlesource.com/toolchain/llvm-project",
+    "depth": 0,
+    "discovered_from": "inventory",
+    "error": "URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "depth": 0,
+    "discovered_from": "inventory",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "content_type": "text/css; charset=utf-8",
+    "size": 102025,
+    "sha256": "1EDB1725A9EA8CA4DCF2F5508CEE183218AA1685E47C1B23056717F754F58EBF",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\d51a5571b986_all.min.css"
+  },
+  {
+    "url": "https://t.me/KLEE_TUSI",
+    "depth": 0,
+    "discovered_from": "inventory",
+    "error": "URLError(TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.woff2",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 108020,
+    "sha256": "748332090C4B8E20F95D0FF59F0BE20FA9C889359D3B36D4B886D73376054207",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\31816a5ca8c7_fa-brands-400.woff2"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.ttf",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-brands-400.ttf",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 187208,
+    "sha256": "20C4A58BC9D1D69E935D06F1528923646A715BE5E218665655CADE8F5F1B8C00",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\07c9befe80eb_fa-brands-400.ttf"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.woff2",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.woff2",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 24948,
+    "sha256": "8E7E5EA1B15F62AB14DBD41768E8FBCD21CC859A4EA5DA812457EE714299FB35",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\e85fb1bc57ab_fa-regular-400.woff2"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.ttf",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.ttf",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 63952,
+    "sha256": "528D022DCE6725F8A0811FD91D8E6513445C81EF33353A5C3234EAB932551ABF",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\481fc20748ce_fa-regular-400.ttf"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 150124,
+    "sha256": "7152A6933EE3D690EC2AF3D09DA9D701723D16AA3410A6D80F28FF8866F3B880",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\9a530430c3de_fa-solid-900.woff2"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.ttf",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.ttf",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 394628,
+    "sha256": "67A65763C7F80903D81603BBEB9049FC2BF28508479B83ED011FE24C71FA950A",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\4838d8b288f6_fa-solid-900.ttf"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.woff2",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.woff2",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 4564,
+    "sha256": "694A17C3D9D6C05F8AAC63C544615552A4B220E9A4DE863D87341A6BCFC1BC8D",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\fcd3adb1cf3a_fa-v4compatibility.woff2"
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.ttf",
+    "depth": 1,
+    "discovered_from": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "status": 200,
+    "final_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-v4compatibility.ttf",
+    "content_type": "application/octet-stream; charset=utf-8",
+    "size": 10172,
+    "sha256": "0515A423F828CE4E6ACCF92A2EA0B03D19D31CC86D9AF0373291E1FD4DB5F348",
+    "saved_path": "mokuai\\月虹一键隐藏v5.4.4-analysis\\downloaded_urls\\cdnjs.cloudflare.com\\e9622a607265_fa-v4compatibility.ttf"
+  }
+]

@@ -1,0 +1,1 @@
+awk '{print $1}' /data/system/packages.list > /data/adb/tricky_store/target.txt 2>/dev/null

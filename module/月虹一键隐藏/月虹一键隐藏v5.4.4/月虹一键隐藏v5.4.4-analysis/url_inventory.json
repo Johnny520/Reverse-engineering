@@ -1,0 +1,60 @@
+{
+  "unique_url_count": 4,
+  "unique_urls": [
+    "http://upx.sf.net",
+    "https://android.googlesource.com/toolchain/llvm-project",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "https://t.me/KLEE_TUSI"
+  ],
+  "references": [
+    {
+      "url": "http://upx.sf.net",
+      "category": "packer-metadata",
+      "source": "mokuai\\月虹一键隐藏v5.4.4\\main",
+      "line": 2447,
+      "offset": 626241
+    },
+    {
+      "url": "https://android.googlesource.com/toolchain/llvm-project",
+      "category": "compiler-metadata",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\main.unpacked",
+      "line": 34833,
+      "offset": 2759102
+    },
+    {
+      "url": "https://t.me/KLEE_TUSI",
+      "category": "obfuscator-metadata",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\main.unpacked",
+      "line": 34833,
+      "offset": 2759239
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      "category": "runtime-resource",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\webroot.decoded.html",
+      "line": 852,
+      "offset": 19802
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+      "category": "runtime-resource",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\webroot.decoded.html",
+      "line": 855,
+      "offset": 19987
+    },
+    {
+      "url": "https://android.googlesource.com/toolchain/llvm-project",
+      "category": "compiler-metadata",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\strings_ascii.txt",
+      "line": 2834,
+      "offset": 63480
+    },
+    {
+      "url": "https://t.me/KLEE_TUSI",
+      "category": "obfuscator-metadata",
+      "source": "mokuai\\月虹一键隐藏v5.4.4-analysis\\strings_ascii.txt",
+      "line": 2835,
+      "offset": 63626
+    }
+  ]
+}

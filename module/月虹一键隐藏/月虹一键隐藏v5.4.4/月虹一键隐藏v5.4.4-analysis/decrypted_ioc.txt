@@ -1,0 +1,448 @@
+Recovered obfuscated-string IOC candidates
+
+function=0x1B4004 call=0x944D8 source=0x2E20E reasons=URL,https://
+https://jx.yhyun.asia/dmkpz
+
+function=0x1B5064 call=0x94B68 source=0x2E4EC reasons=/data/
+/data/adb/modules/
+
+function=0x1B520C call=0x94C84 source=0x2E54D reasons=/data/
+/data/adb/modules_update/
+
+function=0x1B541C call=0x94CF4 source=0x2E5A0 reasons=/data/
+/data/adb/YH/
+
+function=0x1B6858 call=0x957F0 source=0x2E8AC reasons=/data/,kernelsu
+/data/adb/ksu/KernelSU_越狱
+
+function=0x1B6C48 call=0x95894 source=0x2E951 reasons=/data/,kernelsu
+/data/adb/ksu/KernelSU_NULL
+
+function=0x1B740C call=0x958F4 source=0x2E9E2 reasons=/data/,magisk
+/data/adb/magisk/Magisk
+
+function=0x1B7FDC call=0x9DAF0 source=0x2EBF1 reasons=serial
+ro.serialno
+
+function=0x1B8254 call=0x9DC7C source=0x2EC43 reasons=serial
+ro.boot.serialno
+
+function=0x1B86EC call=0x9E06C source=0x2ECFC reasons=/dev/,serial
+getprop ro.boot.serialno 2>/dev/null
+
+function=0x1B98EC call=0xA2D48 source=0x2EED2 reasons=/system/,system
+/system/bin/sh
+
+function=0x1BB758 call=0xA5624 source=0x2F23F reasons=URL,https://
+https://example.invalid/libcurl.so
+
+function=0x1BB854 call=0xA59CC source=0x2F297 reasons=curl 
+libcurl primary SHA-256 mismatch; switching to object storage
+
+function=0x1BBB48 call=0xA5A74 source=0x2F2FA reasons=curl ,download
+libcurl one-time download attempt failed; downloader_index=
+
+function=0x1BC9F4 call=0xA657C source=0x2F589 reasons=curl 
+libcurl object-storage fallback verified successfully
+
+function=0x1BCBC4 call=0xA65C8 source=0x2F5FE reasons=curl 
+libcurl object-storage fallback failed or SHA-256 mismatch
+
+function=0x1BCCBC call=0xA66CC source=0x2F663 reasons=curl ,download
+libcurl download failed after fresh one-time ticket retries; bootstrap_url=
+
+function=0x1BD6DC call=0xAB5F8 source=0x2F832 reasons=/dev/
+su -c 'settings get global adb_enabled' 2>/dev/null
+
+function=0x1BD7D8 call=0xAB660 source=0x2F887 reasons=/dev/
+su -c 'settings get global development_settings_enabled' 2>/dev/null
+
+function=0x1BD8F4 call=0xAB730 source=0x2F8FF reasons=/dev/
+su -c 'settings put global adb_enabled 0' >/dev/null 2>&1
+
+function=0x1BDB40 call=0xAB7EC source=0x2F95A reasons=/dev/
+su -c 'settings put global development_settings_enabled 0' >/dev/null 2>&1
+
+function=0x1BE524 call=0xAD328 source=0x2FABF reasons=/dev/
+command -v ksud 2>/dev/null | head -n 1
+
+function=0x1BE6BC call=0xAD818 source=0x2FB2E reasons=/data/,magisk
+/data/adb/magisk/magisk
+
+function=0x1BE7B4 call=0xAD84C source=0x2FB92 reasons=magisk
+/sbin/magisk
+
+function=0x1BEA10 call=0xAD87C source=0x2FBDA reasons=magisk
+/debug_ramdisk/magisk
+
+function=0x1BED1C call=0xAD8B0 source=0x2FC3B reasons=/system/,magisk,system
+/system/bin/magisk
+
+function=0x1BEF90 call=0xAD97C source=0x2FC6C reasons=/dev/,magisk
+command -v magisk 2>/dev/null | head -n 1
+
+function=0x1BF1D0 call=0xADC48 source=0x2FCD8 reasons=kernelsu
+KernelSU_NULL
+
+function=0x1BF714 call=0xADD80 source=0x2FD5E reasons=kernelsu
+KernelSU_越狱
+
+function=0x1BF8AC call=0xADEDC source=0x2FDBF reasons=apatch
+APatch
+
+function=0x1C1518 call=0xAF0A4 source=0x30165 reasons=curl 
+curl_easy_init failed or libcurl is unavailable
+
+function=0x1C4DA4 call=0xB47EC source=0x31C30 reasons=/proc/,mount
+/proc/cmdline 被 Bind Mount 劫持
+
+function=0x1C6EA0 call=0xB9574 source=0x3209C reasons=/proc/
+/proc/
+
+function=0x1C7344 call=0xBA370 source=0x32132 reasons=/dev/
+ksud debug info 2>/dev/null
+
+function=0x1C82F4 call=0xBB048 source=0x323CF reasons=kernelsu
+me.weishu.kernelsu.magica
+
+function=0x1C8718 call=0xBB0B4 source=0x3247A reasons=kernelsu
+kernelsumagica
+
+function=0x1CB740 call=0xBD220 source=0x32B65 reasons=/proc/
+/proc/cpuinfo
+
+function=0x1CCB80 call=0xC05F4 source=0x32E7E reasons=/data/
+/data/BingPUBG
+
+function=0x1D3BA0 call=0xC10C4 source=0x34015 reasons=/data/
+/data/media/0/M3u898k
+
+function=0x1D7984 call=0xC21F0 source=0x34AB3 reasons=/dev/
+ susfs add_sus_path --help >/dev/null 2>&1
+
+function=0x1D818C call=0xC2AF8 source=0x34C7B reasons=/data/
+/data/data/
+
+function=0x1D876C call=0xC42E4 source=0x34D68 reasons=/data/
+/data/user/0/
+
+function=0x1D94CC call=0xC4A8C source=0x34EC5 reasons=/data/,/system/,system
+/data/system/packages.list
+
+function=0x1D9F98 call=0xB864C source=0x3500A reasons=kernelsu
+[INFO] 读取到已确认 KernelSU_越狱 Root 标记，保持为 KernelSU_越狱
+
+function=0x1DA14C call=0xB8780 source=0x3508A reasons=kernelsu
+[INFO] 检测到官方 KernelSU Magica/Jailbreak 越狱模式
+
+function=0x1DCC7C call=0xC7BBC source=0x3CCD8 reasons=/dev/
+pkill -f 'getevent -lq' 2>/dev/null
+
+function=0x1E8550 call=0xD180C source=0x3ED2D reasons=kernelsu
+KernelSU
+
+function=0x1E8C3C call=0xD1AC4 source=0x3EDFB reasons=magisk
+MAGISK模块链接
+
+function=0x1EAD48 call=0xD5268 source=0x3F217 reasons=magisk
+magisk --install-module
+
+function=0x1EAFAC call=0xD5328 source=0x3F250 reasons=/data/
+/data/adb/apd module install
+
+function=0x1EDBBC call=0xE3E04 source=0x3F972 reasons=/data/
+/data/adb/tricky_store
+
+function=0x1EDD78 call=0xD6B48 source=0x3F9C7 reasons=/data/
+/data/adb/tricky_store/keybox.xml
+
+function=0x1F58DC call=0x108FCC source=0x40DCA reasons=/sdcard/
+/sdcard/Android/data
+
+function=0x1F6EA4 call=0xDE168 source=0x4113D reasons=mount,umount
+umount_for_zygote_iso_service
+
+function=0x1F821C call=0xDE808 source=0x41361 reasons=mount
+name="hide_sus_mounts_for_all_procs"
+
+function=0x1F847C call=0xDE854 source=0x413C3 reasons=mount
+hide_sus_mounts_for_all_procs
+
+function=0x1F8EF4 call=0xDEDEC source=0x41533 reasons=/data/,/dev/,/system/,chown,system
+ '$1 == p { print $2; exit }' /data/system/packages.list 2>/dev/null); [ -n "$uid" ] && chown "$uid:$uid" 
+
+function=0x1F9158 call=0xDEE34 source=0x415EA reasons=/dev/,chmod
+ 2>/dev/null; chmod 660 
+
+function=0x1F9310 call=0xDEED0 source=0x41651 reasons=/dev/,chmod
+ 2>/dev/null || chmod 600 
+
+function=0x1F94E4 call=0xDEF20 source=0x41697 reasons=/dev/
+ 2>/dev/null; restorecon 
+
+function=0x1F9764 call=0xDEF70 source=0x416F3 reasons=/dev/
+ 2>/dev/null
+
+function=0x1F9A78 call=0xDF3FC source=0x41725 reasons=/data/
+/data/adb/ksu/.susfs.json
+
+function=0x1FB6A4 call=0x112C18 source=0x41CD9 reasons=/data/
+/data/app
+
+function=0x1FFAF8 call=0xE2418 source=0x42A10 reasons=/dev/
+ feature save >/dev/null 2>&1
+
+function=0x200A88 call=0xE2F38 source=0x42C81 reasons=/data/
+/data/adb/tricky_store/target.txt
+
+function=0x2011E4 call=0xE39E4 source=0x42DBD reasons=kernelsu
+KernelSU_越狱，已跳过 BL 包名列表更新
+
+function=0x2016A4 call=0xE3A4C source=0x42E79 reasons=kernelsu
+KernelSU_越狱，跳过 BL 包名列表更新
+
+function=0x202270 call=0xE3E48 source=0x430BB reasons=/data/,/dev/,/system/,system
+awk '{print $1}' /data/system/packages.list > /data/adb/tricky_store/target.txt 2>/dev/null
+
+function=0x202694 call=0xE3F38 source=0x431AA reasons=/data/,system
+错误❌ BL包名列表更新失败！(请检查是否具有Root权限读取/data/system)
+
+function=0x2028D4 call=0xE4160 source=0x4323A reasons=/system/,system
+/system/build.prop
+
+function=0x202D90 call=0xE5928 source=0x43372 reasons=/data/
+/data/adb/tricky_store/security_patch.txt
+
+function=0x203E94 call=0xE633C source=0x436AC reasons=system
+system=
+
+function=0x205FC8 call=0xE84DC source=0x43C49 reasons=kernelsu
+KernelSU_越狱，已跳过有效密钥更新
+
+function=0x20617C call=0xE8544 source=0x43CB6 reasons=kernelsu
+KernelSU_越狱，跳过有效密钥更新
+
+function=0x206F7C call=0xE9630 source=0x43EE2 reasons=--yhyc
+/main --yhyc
+
+function=0x207130 call=0xE0120 source=0x43F1F reasons=/dev/
+ >/dev/null 2>&1
+
+function=0x2072EC call=0xE96F4 source=0x43F5D reasons=--yhyc,/dev/
+pkill -f 'main --yhyc' >/dev/null 2>&1
+
+function=0x2076C4 call=0xE9734 source=0x44012 reasons=service.sh
+/service.sh
+
+function=0x208620 call=0xE9B24 source=0x441FE reasons=--yhyc
+pgrep -f 'main --yhyc' | head -n 1
+
+function=0x2088B0 call=0xE9BFC source=0x442C6 reasons=service.sh
+[重载模块] 已尝试启动 service.sh，请稍后在 WebUI 查看主进程状态。
+
+function=0x20899C call=0xE9CD8 source=0x4435A reasons=service.sh
+[重载模块] 未找到 service.sh，无法启动主进程。
+
+function=0x208B34 call=0xEA090 source=0x443E4 reasons=/proc/
+/proc/self/exe
+
+function=0x209CE4 call=0xEB65C source=0x44738 reasons=kernelsu
+KernelSU 安装器收尾完成，fork 子进程开始直接调用 reload()
+
+function=0x20AF64 call=0xEB97C source=0x44B62 reasons=kernelsu
+当前不是 KernelSU_越狱，已跳过重载模块。
+
+function=0x20D51C call=0xF264C source=0x4FD79 reasons=/system/,system
+/system/bin/sh 
+
+function=0x20DB5C call=0xF2788 source=0x4FED0 reasons=apatch
+/apatch_kpm_embed.log
+
+function=0x20E094 call=0xF2C6C source=0x4FF76 reasons=apatch
+/apatch_exclude_sync.sh
+
+function=0x20E1A4 call=0xF2C90 source=0x4FFB1 reasons=/data/,/dev/,/system/,apatch,chmod,chown,magisk,system
+#!/system/bin/sh\nCFG="/data/adb/ap/package_config"\nPKGS="/data/system/packages.list"\nAPD="/data/adb/apd"\n[ -x "$APD" ] || APD="/data/adb/ap/bin/apd"\n[ -f /data/adb/ap/APatch ] || exit 0\n[ -f "$PKGS" ] || exit 0\nmkdir -p /data/adb/ap\nTMP="${CFG}.tmp.yhyc"\nALLOW="/data/adb/YH/YH_YC/tmp/apatch_allow_uid.tmp"\n: > "$ALLOW"\necho 'pkg,exclude,allow,uid,to_uid,sctx' > "$TMP"\n\n# 固定跳过 APatch / FolkPatch 管理器，避免管理器自身被写入排除修改。\nfor p in me.bmax.apatch me.yuki.folk; do\n  u=$(awk -v p="$p" '$1==p {print $2; exit}' "$PKGS" 2>/dev/null)\n  [ -n "$u" ] && echo "$u" >> "$ALLOW"\ndone\n\n# 保留 APatch 已授权 Root 的应用；同时按当前 packages.list 修正 UID。\nawk -F, -v pkgs="$PKGS" -v allow="$ALLOW" '\nBEGIN {\n  while ((getline l < pkgs) > 0) { split(l,a," "); uid[a[1]]=a[2]; }\n}\nNR>1 && $3==1 && ($1 in uid) {\n  s=$6; if (s=="") s="u:r:magisk:s0";\n  print $1",0,1,"uid[$1]","$5","s;\n  print uid[$1] >> allow;\n}' "$CFG" 2>/dev/null >> "$TMP"\n\n# 其他普通应用全部写入 exclude=1, allow=0。\nawk 'NR==FNR { allow[$1]=1; next } $2>=10000 && !allow[$2] { print $1",1,0,"$2",0,u:r:magisk:s0" }' "$ALLOW" "$PKGS" >> "$TMP"\n\nCHANGED=1\ncmp -s "$CFG" "$TMP" 2>/dev/null && CHANGED=0\nif [ "$CHANGED" = 1 ]; then\n  mv -f "$TMP" "$CFG" || exit 0\n  chmod 0644 "$CFG" 2>/dev/null\n  chown root:root "$CFG" 2>/dev/null\nelse\n  rm -f "$TMP"\nfi\n\n# APatch package_config 方案不在模块内强制重启 uid-listener。\n# 部分设备在模块启用/开机阶段重启 APatch 监听进程会触发系统重启；这里只同步配置，避免主动拉起/杀死 apd。\nif [ "$3" != "supercall" ] && { [ "$CHANGED" = 1 ] || [ "$1" = "force" ]; }; then\n  echo "APatch package_config 已同步；为降低重启风险，本模块不强制重启 uid-listener" >/dev/null 2>&1\nfi\nexit 0\n
+
+function=0x20ED7C call=0xF4518 source=0x508A6 reasons=/data/,/dev/,/system/,magisk,system
+#!/system/bin/sh\nROOT_TYPE="$1"\nACTION="$2"\nPKG_DATA="$3"\nBASE="/data/adb/YH/YH_YC"\nLOG="$BASE/log/magisk_su.log"\nPKGS="/data/system/packages.list"\nFIXED_WEBUI="io.github.a13e300.ksuwebui"\nmkdir -p "$BASE/log"\nlog(){ echo "[MagiskSU] $*"; echo "[$(date '+%F %T')] $*" >> "$LOG"; }\nlog_file_only(){ echo "[$(date '+%F %T')] $*" >> "$LOG"; }\n\n[ "$ROOT_TYPE" = "Magisk" ] || exit 0\n\nMAGISK_BIN=""\nfor b in /data/adb/magisk/magisk /sbin/magisk /debug_ramdisk/magisk /system/bin/magisk; do\n  [ -x "$b" ] && { MAGISK_BIN="$b"; break; }\ndone\n[ -n "$MAGISK_BIN" ] || MAGISK_BIN=$(command -v magisk 2>/dev/null | head -n 1)\n[ -n "$MAGISK_BIN" ] && [ -x "$MAGISK_BIN" ] || { log "❌ 未找到 magisk 命令，跳过 Root 授权"; exit 1; }\n[ -f "$PKGS" ] || { log "❌ 未找到 $PKGS，跳过 Root 授权"; exit 1; }\n\nuid_for_pkg(){\n  awk -v p="$1" '$1 == p { print $2; exit }' "$PKGS" 2>/dev/null\n}\n\ngrant_pkg(){\n  pkg="$1"\n  [ -n "$pkg" ] || return 0\n  uid=$(uid_for_pkg "$pkg")\n  case "$uid" in ''|*[!0-9]*) log "⚠️ 未找到 UID，跳过: $pkg"; return 1 ;; esac\n  [ "$uid" -ge 10000 ] 2>/dev/null || { log "⚠️ 非普通应用 UID，跳过: $pkg uid=$uid"; return 1; }\n\n  if "$MAGISK_BIN" --sqlite "REPLACE INTO policies (uid, policy, until, logging, notification) VALUES ($uid, 2, 0, 1, 1);" >/dev/null 2>&1; then\n    log "✅ Root授权成功: $pkg uid=$uid"\n  else\n    log "❌ Root授权失败: $pkg uid=$uid"\n    return 1\n  fi\n}\n\ncase "$ACTION" in\n  grant-fixed)\n    log "固定授权 WebUI: $FIXED_WEBUI"\n    grant_pkg "$FIXED_WEBUI"\n    ;;\n  grant)\n    grant_pkg "$PKG_DATA"\n    ;;\n  *)\n    log "❌ 未知 MagiskSU 操作: $ACTION"\n    exit 1\n    ;;\nesac\n
+
+function=0x20EE60 call=0xF4710 source=0x50F75 reasons=magisk
+magisk_su.log
+
+function=0x20F738 call=0xF49A8 source=0x510D4 reasons=magisk
+⚠️ Magisk Root 固定授权未完成，继续后续流程；日志: 
+
+function=0x20F8D0 call=0xF49E4 source=0x51165 reasons=magisk
+/magisk_su.log
+
+function=0x21259C call=0xF8250 source=0x516A2 reasons=download
+download
+
+function=0x215E2C call=0xFC344 source=0x51E47 reasons=/proc/,/sys/
+/proc/sys/kernel/random/boot_id
+
+function=0x216B4C call=0xFCF5C source=0x51FD9 reasons=/proc/,mount
+/proc/self/mountinfo
+
+function=0x216C38 call=0xFCF94 source=0x52032 reasons=/proc/,mount
+/proc/mounts
+
+function=0x216D30 call=0xFD6A8 source=0x52062 reasons=/storage/
+/storage/emulated
+
+function=0x216E3C call=0xFD710 source=0x520B9 reasons=/storage/
+/storage/emulated/0
+
+function=0x2196B4 call=0x102260 source=0x526B9 reasons=/data/,/sdcard/
+/sdcard/Android/data/
+
+function=0x219798 call=0x102290 source=0x52717 reasons=/data/
+/data/media/0/Android/data/
+
+function=0x219FB8 call=0x102868 source=0x52860 reasons=/data/,apatch
+等待/data/app 新增应用事件时同步 APatch 排除修改
+
+function=0x21D1E4 call=0x101198 source=0x530F5 reasons=resetprop
+(resetprop -n ro.boot.vbmeta.digest 
+
+function=0x21D598 call=0x1011BC source=0x5314E reasons=/data/,resetprop
+ || /data/adb/ksu/bin/resetprop -n ro.boot.vbmeta.digest 
+
+function=0x21D8AC call=0x101210 source=0x531CF reasons=/dev/
+) >/dev/null 2>&1
+
+function=0x21E0DC call=0x109014 source=0x53315 reasons=/data/
+/data/media/0/Android/data
+
+function=0x2210A4 call=0x10F38C source=0x5413F reasons=/dev/
+ 2>/dev/null | head -n 1
+
+function=0x224078 call=0x100194 source=0x5497E reasons=/data/
+/data/property/persistent_properties
+
+function=0x226784 call=0x101B88 source=0x55893 reasons=/data/,zygisk
+/data/adb/modules/zygisksu/bin/zygiskd
+
+function=0x226C44 call=0x101C60 source=0x5598A reasons=zygisk
+下发 Zygisk Next 设置: 
+
+function=0x2274A4 call=0x101D18 source=0x55ABE reasons=/dev/
+ memory-type anonymous >/dev/null 2>&1
+
+function=0x22786C call=0x101D5C source=0x55B18 reasons=/dev/
+ linker builtin >/dev/null 2>&1
+
+function=0x227A30 call=0x101D98 source=0x55B56 reasons=mount,umount,zygisk
+Zygisk Next 设置命令已执行：denylist-policy=whitelist, enforce-denylist=just_umount, memory-type=anonymous, linker=builtin
+
+function=0x22A088 call=0x112AFC source=0x56119 reasons=/data/
+进入主监控循环 (SUSFS 路径隐蔽 + /data/app 应用安装卸载监听 + 数据目录拦截)
+
+function=0x22A7DC call=0x112D44 source=0x56291 reasons=/data/
+无法监听 /data/app: 
+
+function=0x22AE14 call=0x113AF4 source=0x56437 reasons=/data/
+/data/adb/ksu
+
+function=0x22AF10 call=0x113B98 source=0x5649B reasons=/data/
+已监听新版 SUSFS 配置: /data/adb/ksu/.susfs.json
+
+function=0x22D9F0 call=0x11891C source=0x56BDC reasons=apatch
+\n⚠️ APatch KPM 自动嵌入风险\n该操作会重写 boot 分区，可能导致无法开机。\n继续前请确认：你具备自行刷写 boot 分区的能力。\n如果 BL 未解锁/未知：同意后也会禁用 KPM 嵌入，只继续普通模块安装。\n\n请使用音量键选择：\n  音量上键：同意继续\n  音量下键：不同意，中断安装\n  10秒无操作：默认不同意\n\n
+
+function=0x22F494 call=0x1197C8 source=0x57147 reasons=kernelsu
+检测到 KernelSU_越狱，完整性相关功能将按越狱专用模式隐藏/跳过。
+
+function=0x22FCB8 call=0x119C28 source=0x572D1 reasons=/data/,kernelsu
+\nKernelSU_SUSFS 模式，已跳过 /data/local/tmp 重建。
+
+function=0x2303F0 call=0x11A0D4 source=0x57486 reasons=apatch
+❌ 用户未同意 APatch KPM 风险提示，安装已中断
+
+function=0x2313C8 call=0x11A80C source=0x577C0 reasons=apatch
+正在同步 APatch 排除修改...
+
+function=0x2314CC call=0x11A880 source=0x5781E reasons=kernelsu
+\nKernelSU_越狱，正在自动重载模块...
+
+function=0x235160 call=0x11F574 source=0x580EE reasons=magisk
+--magisk-root-grant
+
+function=0x235D64 call=0xA6EE0 source=0x58305 reasons=/system/,system
+/system/lib64/libcurl.so
+
+function=0x236190 call=0xA6F18 source=0x58336 reasons=/system/,system
+/system/lib/libcurl.so
+
+function=0x23658C call=0xA6F80 source=0x583CB reasons=/vendor/
+/vendor/lib64/libcurl.so
+
+function=0x237CCC call=0xA7880 source=0x5873C reasons=/data/,busybox,magisk
+/data/adb/magisk/busybox
+
+function=0x238208 call=0xA7A10 source=0x587D9 reasons=/data/,busybox
+/data/adb/ksu/bin/busybox
+
+function=0x238A70 call=0xA7C00 source=0x588B6 reasons=/data/,busybox,wget 
+/data/adb/ap/bin/busybox wget -O 
+
+function=0x238F28 call=0xA7DCC source=0x58953 reasons=curl 
+curl -L -k -o 
+
+function=0x2390EC call=0xA8208 source=0x589A7 reasons=curl ,download
+libcurl bootstrap ticket download failed; url=
+
+function=0x2392B8 call=0xA83E0 source=0x58A10 reasons=curl 
+libcurl bootstrap ticket content is empty; url=
+
+function=0x239458 call=0xA8584 source=0x58A70 reasons=curl ,download
+libcurl one-time download url missing; url=
+
+function=0x23963C call=0xA8808 source=0x58B0A reasons=curl 
+libcurl bootstrap SHA-256 missing or invalid; url=
+
+function=0x23B9B0 call=0xA9DF0 source=0x59045 reasons=download
+echo '[libcurl] download target='
+
+function=0x241D5C call=0xF3598 source=0x59EF3 reasons=/data/
+/data/adb/ap/package_config
+
+function=0x242014 call=0xF35F4 source=0x59F4A reasons=apatch
+me.bmax.apatch
+
+function=0x242810 call=0x11005C source=0x5A11A reasons=/dev/
+ 2>/dev/null; start 
+
+function=0x242D2C call=0x110240 source=0x5A21C reasons=/dev/
+ 2>/dev/null; setprop ctl.start 
+
+function=0x2459A8 call=0x11BC2C source=0x5A96A reasons=/dev/,URL,https://
+(sleep 2 && am start -a android.intent.action.VIEW -d "https://pd.qq.com/s/4z9zfg2h3?b=5") >/dev/null 2>&1 &
+
+function=0x245D34 call=0x14BAE0 source=0x5AA71 reasons=URL,https://
+https://jx.yhyun.asia/pdyz/api.php
+
+function=0x245EE4 call=0x14BBC8 source=0x5AAC4 reasons=curl 
+; reason=curl_easy_init failed or libcurl is unavailable
+
+function=0x248C20 call=0x181720 source=0x5B166 reasons=/data/
+/data/data/com.tsng.hidemyapplist/files
+
+function=0x249520 call=0x18199C source=0x5B2C1 reasons=/data/
+/data/misc
+
+function=0x249708 call=0x181D44 source=0x5B363 reasons=/data/
+/data/misc/
+
+function=0x24A080 call=0x1821C0 source=0x5B4E5 reasons=/data/
+[警告] 无法打开 /data/misc，可能没有 root 权限或命名空间不可见
+
+function=0x24A5FC call=0x18293C source=0x5B621 reasons=/system/,system
+#!/system/bin/sh\nCONFIG_DIR=
+
+function=0x24A998 call=0x182974 source=0x5B659 reasons=/proc/,mount
+\nCONFIG_FILE="$CONFIG_DIR/config.json"\n\n# 兼容不同 mount namespace\nif [ -d "/proc/1/root$CONFIG_DIR" ]; then\n    CONFIG_DIR="/proc/1/root$CONFIG_DIR"\n    CONFIG_FILE="$CONFIG_DIR/config.json"\nfi\n\n# 目录必须存在\nif [ ! -d "$CONFIG_DIR" ]; then\n    exit 2\nfi\n\n
+
+function=0x24AEA0 call=0x182A30 source=0x5B888 reasons=/dev/,chmod,nc 
+\nTMP_FILE="$CONFIG_FILE.tmp.$$"\n\n# 用 printf，不用 echo，避免反斜杠/特殊字符被 echo 处理\nprintf '%s' "$NEW_CONFIG" > "$TMP_FILE" || exit 3\nchmod 666 "$TMP_FILE" 2>/dev/null\nmv -f "$TMP_FILE" "$CONFIG_FILE" || exit 4\nchmod 666 "$CONFIG_FILE" 2>/dev/null\nsync "$CONFIG_FILE" 2>/dev/null || sync\nexit 0\n
