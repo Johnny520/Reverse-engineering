@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elaris</string>
+    <string name="xposed_description">一个适用于 QQ 的轻量 Xposed 扩展模块</string>
+</resources>

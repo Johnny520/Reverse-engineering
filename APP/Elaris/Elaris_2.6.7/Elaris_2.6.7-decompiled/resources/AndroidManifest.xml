@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1220"
+    android:versionName="2.6.7"
+    android:compileSdkVersion="37"
+    android:compileSdkVersionCodename="17"
+    package="com.mr.elaris"
+    platformBuildVersionCode="37"
+    platformBuildVersionName="17">
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="37"/>
+    <queries>
+        <package android:name="com.tencent.mobileqq"/>
+    </queries>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:name="com.p001mr.elaris.ElarisApplication"
+        android:description="@string/xposed_description"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false">
+        <activity
+            android:icon="@drawable/icon"
+            android:name="com.p001mr.elaris.ElarisStatusActivity"
+            android:exported="true"/>
+        <activity-alias
+            android:label="@string/app_name"
+            android:name="com.mr.elaris.FrameworkLauncherActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="com.mr.elaris.ElarisStatusActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/app_name"
+            android:icon="@drawable/icon"
+            android:name="com.mr.elaris.DesktopLauncherActivityV30"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="com.mr.elaris.ElarisStatusActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <provider
+            android:name="io.github.libxposed.service.XposedProvider"
+            android:exported="true"
+            android:authorities="com.mr.elaris.XposedService"/>
+    </application>
+</manifest>

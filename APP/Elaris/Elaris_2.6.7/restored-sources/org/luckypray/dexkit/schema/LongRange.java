@@ -1,0 +1,133 @@
+package org.luckypray.dexkit.schema;
+
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import p000.AbstractC0000a;
+import p000.AbstractC0367od;
+import p000.AbstractC0431r2;
+import p000.C0038c5;
+
+/* JADX INFO: renamed from: org.luckypray.dexkit.schema.-LongRange, reason: invalid class name */
+/* JADX INFO: compiled from: r8-map-id-cb25a2bafef54619fff8cdac9d36ff56d89ce0d5459e21e33664152f938f1f39 */
+/* JADX INFO: loaded from: classes.dex */
+public final class LongRange extends AbstractC0367od {
+    public static final Companion Companion = new Companion(null);
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final LongRange __assign(int i, ByteBuffer byteBuffer) {
+        byteBuffer.getClass();
+        __init(i, byteBuffer);
+        return this;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final void __init(int i, ByteBuffer byteBuffer) {
+        byteBuffer.getClass();
+        __reset(i, byteBuffer);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final long getMax() {
+        int i__offset = __offset(6);
+        if (i__offset != 0) {
+            return this.f662bb.getLong(i__offset + this.bb_pos);
+        }
+        return 0L;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final long getMin() {
+        int i__offset = __offset(4);
+        if (i__offset != 0) {
+            return this.f662bb.getLong(i__offset + this.bb_pos);
+        }
+        return 0L;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean mutateMax(long j) {
+        int i__offset = __offset(6);
+        if (i__offset == 0) {
+            return false;
+        }
+        this.f662bb.putLong(i__offset + this.bb_pos, j);
+        return true;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean mutateMin(long j) {
+        int i__offset = __offset(4);
+        if (i__offset == 0) {
+            return false;
+        }
+        this.f662bb.putLong(i__offset + this.bb_pos, j);
+        return true;
+    }
+
+    /* JADX INFO: renamed from: org.luckypray.dexkit.schema.-LongRange$Companion */
+    /* JADX INFO: compiled from: r8-map-id-cb25a2bafef54619fff8cdac9d36ff56d89ce0d5459e21e33664152f938f1f39 */
+    public static final class Companion {
+        /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x0000: CONSTRUCTOR  A[MD:():void (m)] (LINE:1) call: org.luckypray.dexkit.schema.-LongRange.Companion.<init>():void type: THIS */
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public /* synthetic */ Companion(AbstractC0431r2 abstractC0431r2) {
+            this();
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final void addMax(C0038c5 c0038c5, long j) {
+            c0038c5.getClass();
+            if (j != 0) {
+                c0038c5.m100f(j);
+                c0038c5.m111q(1);
+            }
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final void addMin(C0038c5 c0038c5, long j) {
+            c0038c5.getClass();
+            if (j != 0) {
+                c0038c5.m100f(j);
+                c0038c5.m111q(0);
+            }
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final int createLongRange(C0038c5 c0038c5, long j, long j2) {
+            c0038c5.getClass();
+            c0038c5.m112r(2);
+            addMax(c0038c5, j2);
+            addMin(c0038c5, j);
+            return endLongRange(c0038c5);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final int endLongRange(C0038c5 c0038c5) {
+            c0038c5.getClass();
+            return c0038c5.m106l();
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final LongRange getRootAsLongRange(ByteBuffer byteBuffer, LongRange longRange) {
+            byteBuffer.getClass();
+            longRange.getClass();
+            return longRange.__assign(byteBuffer.position() + AbstractC0000a.m0a(byteBuffer, ByteOrder.LITTLE_ENDIAN), byteBuffer);
+        }
+
+        /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+        public final void startLongRange(C0038c5 c0038c5) {
+            c0038c5.getClass();
+            c0038c5.m112r(2);
+        }
+
+        private Companion() {
+        }
+
+        public final LongRange getRootAsLongRange(ByteBuffer byteBuffer) {
+            byteBuffer.getClass();
+            return getRootAsLongRange(byteBuffer, new LongRange());
+        }
+
+        public final void validateVersion() {
+        }
+    }
+}
