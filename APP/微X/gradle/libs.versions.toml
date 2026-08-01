@@ -1,0 +1,25 @@
+[versions]
+agp = "9.3.0"
+kotlin = "2.4.10"
+ksp = "2.3.10"
+
+# noinspection UnusedVersionCatalogEntry
+namespace = "dev.ujhhgtg.wechatxremap"
+# noinspection UnusedVersionCatalogEntry
+minSdk = "28"
+# noinspection UnusedVersionCatalogEntry
+targetSdk = "37"
+# noinspection UnusedVersionCatalogEntry
+compileSdk = "37"
+# noinspection UnusedVersionCatalogEntry
+compileSdkMinor = "0"
+# noinspection UnusedVersionCatalogEntry
+jdk = "25"
+# noinspection UnusedVersionCatalogEntry
+ndk = "30.0.14904198"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

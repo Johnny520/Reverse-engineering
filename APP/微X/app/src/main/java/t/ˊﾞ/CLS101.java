@@ -1,0 +1,35 @@
+// Decompiled by JEB v5.42.0.202606242140
+
+package t.ˊﾞ;
+
+import android.os.FileObserver;
+import java.io.File;
+import t.ᵔʾ.CLS132;
+
+public final class CLS101 extends FileObserver {
+    public final File FLD762;
+    public final CLS102 FLD763;
+    public final String FLD764;
+
+    public CLS101(CLS102 יﹳ0, File file0, File file1, String s) {
+        this.FLD763 = יﹳ0;
+        this.FLD762 = file1;
+        this.FLD764 = s;
+        super(file0);
+    }
+
+    // 此方法包含解密的字符串
+    @Override  // android.os.FileObserver
+    public final void onEvent(int v, String s) {
+        CLS102 יﹳ0 = this.FLD763;
+        String s1 = this.FLD764;
+        if(v == 2) {
+            CLS132.MTH2092(this.FLD762, s1, new String[]{יﹳ0.FLD773, "icons"});
+            return;
+        }
+        if(v == 0x200) {
+            CLS132.MTH2093(s1, new String[]{יﹳ0.FLD773, "icons"});
+        }
+    }
+}
+
