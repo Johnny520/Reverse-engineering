@@ -1,0 +1,58 @@
+package com.thegrizzlylabs.sardineandroid.model;
+
+/* JADX INFO: compiled from: r8-map-id-65b058289e3cb96da105536443e3beb4a8f831596ad09af536e247b4a16ebae5 */
+/* JADX INFO: loaded from: classes.dex */
+@org.simpleframework.xml.Namespace(prefix = "D", reference = "DAV:")
+@org.simpleframework.xml.Root
+public class Owner {
+
+    @org.simpleframework.xml.ElementList(required = false)
+    private java.util.List<java.lang.Object> content;
+
+    @org.simpleframework.xml.Element(required = false)
+    private java.lang.String href;
+
+    @org.simpleframework.xml.Element(required = false)
+    private com.thegrizzlylabs.sardineandroid.model.Unauthenticated unauthenticated;
+
+    public Owner() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    public java.util.List<java.lang.Object> getContent() {
+            r1 = this;
+            java.util.List<java.lang.Object> r0 = r1.content
+            if (r0 != 0) goto Lb
+            java.util.ArrayList r0 = new java.util.ArrayList
+            r0.<init>()
+            r1.content = r0
+        Lb:
+            return r0
+    }
+
+    public java.lang.String getHref() {
+            r0 = this;
+            java.lang.String r0 = r0.href
+            return r0
+    }
+
+    public com.thegrizzlylabs.sardineandroid.model.Unauthenticated getUnauthenticated() {
+            r0 = this;
+            com.thegrizzlylabs.sardineandroid.model.Unauthenticated r0 = r0.unauthenticated
+            return r0
+    }
+
+    public void setHref(java.lang.String r1) {
+            r0 = this;
+            r0.href = r1
+            return
+    }
+
+    public void setUnauthenticated(com.thegrizzlylabs.sardineandroid.model.Unauthenticated r1) {
+            r0 = this;
+            r0.unauthenticated = r1
+            return
+    }
+}

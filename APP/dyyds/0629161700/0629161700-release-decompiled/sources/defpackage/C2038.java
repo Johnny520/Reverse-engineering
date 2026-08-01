@@ -1,0 +1,722 @@
+package defpackage;
+
+/* JADX INFO: renamed from: ᲇᛴᛷᛷ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-65b058289e3cb96da105536443e3beb4a8f831596ad09af536e247b4a16ebae5 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C2038 extends java.lang.Thread {
+
+    /* JADX INFO: renamed from: ᛲᛲᛵ, reason: contains not printable characters */
+    public static final /* synthetic */ java.util.concurrent.atomic.AtomicIntegerFieldUpdater f8776 = null;
+
+    /* JADX INFO: renamed from: ᛲᛴᛱᛶ, reason: contains not printable characters */
+    public static final /* synthetic */ long f8777 = 0;
+    private volatile int indexInArray;
+    private volatile java.lang.Object nextParkedWorker;
+    private volatile /* synthetic */ int workerCtl$volatile;
+
+    /* JADX INFO: renamed from: ᛱᛳᛲᛸ, reason: contains not printable characters */
+    public int f8778;
+
+    /* JADX INFO: renamed from: ᛲᛴᲇᛳ, reason: contains not printable characters */
+    public boolean f8779;
+
+    /* JADX INFO: renamed from: ᛵᛱᛵᛲ, reason: contains not printable characters */
+    public int f8780;
+
+    /* JADX INFO: renamed from: ᛷᛲᲇᲈ, reason: contains not printable characters */
+    public final defpackage.C1419 f8781;
+
+    /* JADX INFO: renamed from: ᛷᛸᛵᲇ, reason: contains not printable characters */
+    public final defpackage.C0329 f8782;
+
+    /* JADX INFO: renamed from: ᛸᛵᛸᛷ, reason: contains not printable characters */
+    public final /* synthetic */ defpackage.ExecutorC1078 f8783;
+
+    /* JADX INFO: renamed from: ᲇᛸᲁᛱ, reason: contains not printable characters */
+    public long f8784;
+
+    /* JADX INFO: renamed from: ᲈᲈᛸᲁ, reason: contains not printable characters */
+    public long f8785;
+
+    static {
+            java.lang.Class<ᲇᛴᛷᛷ> r0 = defpackage.C2038.class
+            java.lang.String r1 = "workerCtl$volatile"
+            java.util.concurrent.atomic.AtomicIntegerFieldUpdater r2 = java.util.concurrent.atomic.AtomicIntegerFieldUpdater.newUpdater(r0, r1)
+            defpackage.C2038.f8776 = r2
+            sun.misc.Unsafe r2 = defpackage.AbstractC0051.f569
+            java.lang.reflect.Field r0 = r0.getDeclaredField(r1)
+            long r0 = r2.objectFieldOffset(r0)
+            defpackage.C2038.f8777 = r0
+            return
+    }
+
+    public C2038(defpackage.ExecutorC1078 r3, int r4) {
+            r2 = this;
+            r2.f8783 = r3
+            r2.<init>()
+            r3 = 1
+            r2.setDaemon(r3)
+            java.lang.Class<ᛶᛵᛸᲁ> r3 = defpackage.ExecutorC1078.class
+            java.lang.ClassLoader r3 = r3.getClassLoader()
+            r2.setContextClassLoader(r3)
+            ᛲᛷᲇᛴ r3 = new ᛲᛷᲇᛴ
+            r3.<init>()
+            r2.f8782 = r3
+            ᛸᛱᛴᲁ r3 = new ᛸᛱᛴᲁ
+            r3.<init>()
+            r2.f8781 = r3
+            r3 = 4
+            r2.f8780 = r3
+            ᛳᛴᛵᛱ r3 = defpackage.ExecutorC1078.f4844
+            r2.nextParkedWorker = r3
+            long r0 = java.lang.System.nanoTime()
+            int r3 = (int) r0
+            if (r3 == 0) goto L2f
+            goto L31
+        L2f:
+            r3 = 42
+        L31:
+            r2.f8778 = r3
+            r2.m3430(r4)
+            return
+    }
+
+    @Override // java.lang.Thread, java.lang.Runnable
+    public final void run() {
+            r18 = this;
+            r1 = r18
+            r6 = 0
+        L3:
+            r7 = r6
+        L4:
+            ᛶᛵᛸᲁ r0 = r1.f8783
+            java.util.concurrent.atomic.AtomicIntegerFieldUpdater r2 = defpackage.ExecutorC1078.f4843
+            int r0 = r2.get(r0)
+            r8 = 5
+            if (r0 == 0) goto L12
+        Lf:
+            r2 = r8
+            goto L18b
+        L12:
+            int r0 = r1.f8780
+            if (r0 == r8) goto Lf
+            boolean r0 = r1.f8779
+            ᛷᛳᲇᛲ r0 = r1.m3428(r0)
+            r9 = 3
+            r2 = -2097152(0xffffffffffe00000, double:NaN)
+            r10 = 0
+            if (r0 == 0) goto L80
+            r1.f8785 = r10
+            ᛶᛵᛸᲁ r4 = r1.f8783
+            r1.f8784 = r10
+            int r5 = r1.f8780
+            r7 = 2
+            if (r5 != r9) goto L31
+            r1.f8780 = r7
+        L31:
+            boolean r5 = r0.f5576
+            if (r5 == 0) goto L6f
+            boolean r5 = r1.m3423(r7)
+            if (r5 == 0) goto L52
+            boolean r5 = r4.m2055()
+            if (r5 == 0) goto L42
+            goto L52
+        L42:
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r5 = defpackage.ExecutorC1078.f4842
+            long r9 = r5.get(r4)
+            boolean r5 = r4.m2054(r9)
+            if (r5 == 0) goto L4f
+            goto L52
+        L4f:
+            r4.m2055()
+        L52:
+            r0.run()     // Catch: java.lang.Throwable -> L56
+            goto L62
+        L56:
+            r0 = move-exception
+            java.lang.Thread r5 = java.lang.Thread.currentThread()
+            java.lang.Thread$UncaughtExceptionHandler r7 = r5.getUncaughtExceptionHandler()
+            r7.uncaughtException(r5, r0)
+        L62:
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r0 = defpackage.ExecutorC1078.f4842
+            r0.addAndGet(r4, r2)
+            int r0 = r1.f8780
+            if (r0 == r8) goto L3
+            r0 = 4
+            r1.f8780 = r0
+            goto L3
+        L6f:
+            r0.run()     // Catch: java.lang.Throwable -> L73
+            goto L3
+        L73:
+            r0 = move-exception
+            java.lang.Thread r2 = java.lang.Thread.currentThread()
+            java.lang.Thread$UncaughtExceptionHandler r3 = r2.getUncaughtExceptionHandler()
+            r3.uncaughtException(r2, r0)
+            goto L3
+        L80:
+            r1.f8779 = r6
+            long r4 = r1.f8785
+            int r0 = (r4 > r10 ? 1 : (r4 == r10 ? 0 : -1))
+            if (r0 == 0) goto L9c
+            if (r7 != 0) goto L8d
+            r7 = 1
+            goto L4
+        L8d:
+            r1.m3423(r9)
+            java.lang.Thread.interrupted()
+            long r2 = r1.f8785
+            java.util.concurrent.locks.LockSupport.parkNanos(r2)
+            r1.f8785 = r10
+            goto L3
+        L9c:
+            java.lang.Object r0 = r1.nextParkedWorker
+            ᛳᛴᛵᛱ r4 = defpackage.ExecutorC1078.f4844
+            if (r0 == r4) goto L15d
+            sun.misc.Unsafe r0 = defpackage.AbstractC0051.f569
+            long r2 = defpackage.C2038.f8777
+            r15 = -1
+            r0.putIntVolatile(r1, r2, r15)
+        Laa:
+            java.lang.Object r0 = r1.nextParkedWorker
+            ᛳᛴᛵᛱ r2 = defpackage.ExecutorC1078.f4844
+            if (r0 == r2) goto L4
+            sun.misc.Unsafe r0 = defpackage.AbstractC0051.f569
+            long r2 = defpackage.C2038.f8777
+            int r4 = r0.getIntVolatile(r1, r2)
+            if (r4 != r15) goto L4
+            ᛶᛵᛸᲁ r4 = r1.f8783
+            java.util.concurrent.atomic.AtomicIntegerFieldUpdater r5 = defpackage.ExecutorC1078.f4843
+            int r4 = r5.get(r4)
+            if (r4 == 0) goto Lc6
+            goto L4
+        Lc6:
+            int r4 = r1.f8780
+            if (r4 != r8) goto Lcc
+            goto L4
+        Lcc:
+            r1.m3423(r9)
+            java.lang.Thread.interrupted()
+            r16 = 2097151(0x1fffff, double:1.0361303E-317)
+            long r12 = r1.f8784
+            int r4 = (r12 > r10 ? 1 : (r12 == r10 ? 0 : -1))
+            if (r4 != 0) goto Le6
+            long r12 = java.lang.System.nanoTime()
+            ᛶᛵᛸᲁ r4 = r1.f8783
+            long r8 = r4.f4848
+            long r12 = r12 + r8
+            r1.f8784 = r12
+        Le6:
+            ᛶᛵᛸᲁ r4 = r1.f8783
+            long r8 = r4.f4848
+            java.util.concurrent.locks.LockSupport.parkNanos(r8)
+            long r8 = java.lang.System.nanoTime()
+            long r12 = r1.f8784
+            long r8 = r8 - r12
+            int r4 = (r8 > r10 ? 1 : (r8 == r10 ? 0 : -1))
+            if (r4 < 0) goto L159
+            r1.f8784 = r10
+            ᛶᛵᛸᲁ r8 = r1.f8783
+            ᲈᛴᛵᛷ r9 = r8.f4847
+            monitor-enter(r9)
+            int r4 = r5.get(r8)     // Catch: java.lang.Throwable -> L14a
+            if (r4 == 0) goto L107
+            r4 = 1
+            goto L108
+        L107:
+            r4 = r6
+        L108:
+            if (r4 == 0) goto L10c
+            monitor-exit(r9)
+            goto L159
+        L10c:
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r12 = defpackage.ExecutorC1078.f4842     // Catch: java.lang.Throwable -> L14a
+            long r4 = r12.get(r8)     // Catch: java.lang.Throwable -> L14a
+            long r4 = r4 & r16
+            int r4 = (int) r4     // Catch: java.lang.Throwable -> L14a
+            int r5 = r8.f4850     // Catch: java.lang.Throwable -> L14a
+            if (r4 > r5) goto L11b
+            monitor-exit(r9)
+            goto L159
+        L11b:
+            r4 = -1
+            r5 = 1
+            boolean r0 = r0.compareAndSwapInt(r1, r2, r4, r5)     // Catch: java.lang.Throwable -> L14a
+            if (r0 != 0) goto L125
+            monitor-exit(r9)
+            goto L159
+        L125:
+            int r0 = r1.indexInArray     // Catch: java.lang.Throwable -> L14a
+            r1.m3430(r6)     // Catch: java.lang.Throwable -> L14a
+            r8.m2056(r1, r0, r6)     // Catch: java.lang.Throwable -> L14a
+            long r2 = r12.getAndDecrement(r8)     // Catch: java.lang.Throwable -> L14a
+            long r2 = r2 & r16
+            int r2 = (int) r2     // Catch: java.lang.Throwable -> L14a
+            if (r2 == r0) goto L14c
+            ᲈᛴᛵᛷ r3 = r8.f4847     // Catch: java.lang.Throwable -> L14a
+            java.lang.Object r3 = r3.m3614(r2)     // Catch: java.lang.Throwable -> L14a
+            ᲇᛴᛷᛷ r3 = (defpackage.C2038) r3     // Catch: java.lang.Throwable -> L14a
+            ᲈᛴᛵᛷ r4 = r8.f4847     // Catch: java.lang.Throwable -> L14a
+            r4.m3612(r0, r3)     // Catch: java.lang.Throwable -> L14a
+            r3.m3430(r0)     // Catch: java.lang.Throwable -> L14a
+            r8.m2056(r3, r2, r0)     // Catch: java.lang.Throwable -> L14a
+            goto L14c
+        L14a:
+            r0 = move-exception
+            goto L157
+        L14c:
+            ᲈᛴᛵᛷ r0 = r8.f4847     // Catch: java.lang.Throwable -> L14a
+            r3 = 0
+            r0.m3612(r2, r3)     // Catch: java.lang.Throwable -> L14a
+            monitor-exit(r9)
+            r2 = 5
+            r1.f8780 = r2
+            goto L159
+        L157:
+            monitor-exit(r9)
+            throw r0
+        L159:
+            r8 = 5
+            r9 = 3
+            goto Laa
+        L15d:
+            r16 = 2097151(0x1fffff, double:1.0361303E-317)
+            ᛶᛵᛸᲁ r11 = r1.f8783
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r10 = defpackage.ExecutorC1078.f4845
+            java.lang.Object r0 = r1.nextParkedWorker
+            if (r0 == r4) goto L16a
+            goto L4
+        L16a:
+            long r12 = r10.get(r11)
+            long r4 = r12 & r16
+            int r0 = (int) r4
+            r4 = 2097152(0x200000, double:1.036131E-317)
+            long r4 = r4 + r12
+            long r4 = r4 & r2
+            int r8 = r1.indexInArray
+            ᲈᛴᛵᛷ r9 = r11.f4847
+            java.lang.Object r0 = r9.m3614(r0)
+            r1.nextParkedWorker = r0
+            long r8 = (long) r8
+            long r14 = r4 | r8
+            boolean r0 = r10.compareAndSet(r11, r12, r14)
+            if (r0 == 0) goto L16a
+            goto L4
+        L18b:
+            r1.m3423(r2)
+            return
+    }
+
+    /* JADX INFO: renamed from: ᛱᛳᛲᛸ, reason: contains not printable characters */
+    public final boolean m3423(int r7) {
+            r6 = this;
+            int r0 = r6.f8780
+            r1 = 1
+            if (r0 != r1) goto L6
+            goto L7
+        L6:
+            r1 = 0
+        L7:
+            if (r1 == 0) goto L15
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r2 = defpackage.ExecutorC1078.f4842
+            r3 = 4398046511104(0x40000000000, double:2.1729236899484E-311)
+            ᛶᛵᛸᲁ r5 = r6.f8783
+            r2.addAndGet(r5, r3)
+        L15:
+            if (r0 == r7) goto L19
+            r6.f8780 = r7
+        L19:
+            return r1
+    }
+
+    /* JADX INFO: renamed from: ᛲᛴᲇᛳ, reason: contains not printable characters */
+    public final defpackage.AbstractRunnableC1247 m3424(int r29) {
+            r28 = this;
+            r0 = r28
+            r1 = r29
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r2 = defpackage.ExecutorC1078.f4842
+            ᛶᛵᛸᲁ r3 = r0.f8783
+            long r4 = r2.get(r3)
+            r6 = 2097151(0x1fffff, double:1.0361303E-317)
+            long r4 = r4 & r6
+            int r2 = (int) r4
+            r4 = 0
+            r5 = 2
+            if (r2 >= r5) goto L16
+            return r4
+        L16:
+            int r6 = r0.m3426(r2)
+            r10 = 0
+            r11 = 9223372036854775807(0x7fffffffffffffff, double:NaN)
+        L20:
+            if (r10 >= r2) goto L107
+            r15 = 1
+            int r6 = r6 + r15
+            if (r6 <= r2) goto L27
+            r6 = r15
+        L27:
+            ᲈᛴᛵᛷ r5 = r3.f4847
+            java.lang.Object r5 = r5.m3614(r6)
+            ᲇᛴᛷᛷ r5 = (defpackage.C2038) r5
+            if (r5 == 0) goto Lf8
+            if (r5 == r0) goto Lf8
+            ᛲᛷᲇᛴ r5 = r5.f8782
+            r7 = 3
+            if (r1 != r7) goto L45
+            ᛷᛳᲇᛲ r7 = r5.m1001()
+            r14 = r2
+            r22 = 9223372036854775807(0x7fffffffffffffff, double:NaN)
+            r24 = 0
+            goto L85
+        L45:
+            r5.getClass()
+            sun.misc.Unsafe r7 = defpackage.AbstractC0051.f569
+            r22 = 9223372036854775807(0x7fffffffffffffff, double:NaN)
+            long r8 = defpackage.C0329.f1697
+            int r8 = r7.getIntVolatile(r5, r8)
+            r24 = 0
+            long r13 = defpackage.C0329.f1702
+            int r7 = r7.getIntVolatile(r5, r13)
+            if (r1 != r15) goto L61
+            r9 = r15
+            goto L62
+        L61:
+            r9 = 0
+        L62:
+            if (r8 == r7) goto L83
+            if (r9 == 0) goto L73
+            sun.misc.Unsafe r13 = defpackage.AbstractC0051.f569
+            r14 = r2
+            long r1 = defpackage.C0329.f1698
+            int r1 = r13.getIntVolatile(r5, r1)
+            if (r1 != 0) goto L74
+        L71:
+            r7 = r4
+            goto L85
+        L73:
+            r14 = r2
+        L74:
+            int r1 = r8 + 1
+            ᛷᛳᲇᛲ r2 = r5.m999(r8, r9)
+            if (r2 != 0) goto L81
+            r8 = r1
+            r2 = r14
+            r1 = r29
+            goto L62
+        L81:
+            r7 = r2
+            goto L85
+        L83:
+            r14 = r2
+            goto L71
+        L85:
+            ᛸᛱᛴᲁ r8 = r0.f8781
+            if (r7 == 0) goto L90
+            r8.f6211 = r7
+            r1 = -1
+            r26 = -1
+            goto Lda
+        L90:
+            r26 = -1
+            long r1 = defpackage.C0329.f1701
+        L94:
+            sun.misc.Unsafe r7 = defpackage.AbstractC0051.f569
+            java.lang.Object r7 = r7.getObjectVolatile(r5, r1)
+            ᛷᛳᲇᛲ r7 = (defpackage.AbstractRunnableC1247) r7
+            if (r7 != 0) goto L9f
+            goto Laa
+        L9f:
+            boolean r9 = r7.f5576
+            if (r9 == 0) goto La5
+            r9 = r15
+            goto La6
+        La5:
+            r9 = 2
+        La6:
+            r9 = r9 & r29
+            if (r9 != 0) goto Lad
+        Laa:
+            r1 = -2
+            goto Lda
+        Lad:
+            ᲀᛴᛱᛱ r9 = defpackage.AbstractC1155.f5254
+            r9.getClass()
+            long r16 = java.lang.System.nanoTime()
+            r13 = r5
+            long r4 = r7.f5577
+            long r16 = r16 - r4
+            long r4 = defpackage.AbstractC1155.f5253
+            int r18 = (r16 > r4 ? 1 : (r16 == r4 ? 0 : -1))
+            if (r18 >= 0) goto Lc4
+            long r1 = r4 - r16
+            goto Lda
+        Lc4:
+            sun.misc.Unsafe r16 = defpackage.AbstractC0051.f569
+            long r18 = defpackage.C0329.f1701
+            r21 = 0
+            r20 = r7
+            r17 = r13
+            boolean r4 = r16.compareAndSwapObject(r17, r18, r20, r21)
+            r5 = r16
+            if (r4 == 0) goto Lef
+            r8.f6211 = r7
+            r1 = r26
+        Lda:
+            int r4 = (r1 > r26 ? 1 : (r1 == r26 ? 0 : -1))
+            if (r4 != 0) goto Le6
+            java.lang.Object r0 = r8.f6211
+            ᛷᛳᲇᛲ r0 = (defpackage.AbstractRunnableC1247) r0
+            r9 = 0
+            r8.f6211 = r9
+            return r0
+        Le6:
+            int r4 = (r1 > r24 ? 1 : (r1 == r24 ? 0 : -1))
+            if (r4 <= 0) goto Lfe
+            long r11 = java.lang.Math.min(r11, r1)
+            goto Lfe
+        Lef:
+            java.lang.Object r4 = r5.getObjectVolatile(r13, r1)
+            if (r4 == r7) goto Lc4
+            r5 = r13
+            r4 = 0
+            goto L94
+        Lf8:
+            r14 = r2
+            r22 = 9223372036854775807(0x7fffffffffffffff, double:NaN)
+        Lfe:
+            int r10 = r10 + 1
+            r1 = r29
+            r2 = r14
+            r4 = 0
+            r5 = 2
+            goto L20
+        L107:
+            r22 = 9223372036854775807(0x7fffffffffffffff, double:NaN)
+            r24 = 0
+            int r1 = (r11 > r22 ? 1 : (r11 == r22 ? 0 : -1))
+            if (r1 == 0) goto L113
+            goto L115
+        L113:
+            r11 = r24
+        L115:
+            r0.f8785 = r11
+            r9 = 0
+            return r9
+    }
+
+    /* JADX INFO: renamed from: ᛵᛱᛵᛲ, reason: contains not printable characters */
+    public final defpackage.AbstractRunnableC1247 m3425() {
+            r2 = this;
+            r0 = 2
+            int r0 = r2.m3426(r0)
+            ᛶᛵᛸᲁ r2 = r2.f8783
+            ᛶᲀᛱᲀ r1 = r2.f4846
+            ᛶᲀᛱᲀ r2 = r2.f4852
+            if (r0 != 0) goto L1d
+            java.lang.Object r2 = r2.m1091()
+            ᛷᛳᲇᛲ r2 = (defpackage.AbstractRunnableC1247) r2
+            if (r2 == 0) goto L16
+            return r2
+        L16:
+            java.lang.Object r2 = r1.m1091()
+            ᛷᛳᲇᛲ r2 = (defpackage.AbstractRunnableC1247) r2
+            return r2
+        L1d:
+            java.lang.Object r0 = r1.m1091()
+            ᛷᛳᲇᛲ r0 = (defpackage.AbstractRunnableC1247) r0
+            if (r0 == 0) goto L26
+            return r0
+        L26:
+            java.lang.Object r2 = r2.m1091()
+            ᛷᛳᲇᛲ r2 = (defpackage.AbstractRunnableC1247) r2
+            return r2
+    }
+
+    /* JADX INFO: renamed from: ᛷᛲᲇᲈ, reason: contains not printable characters */
+    public final int m3426(int r3) {
+            r2 = this;
+            int r0 = r2.f8778
+            int r1 = r0 << 13
+            r0 = r0 ^ r1
+            int r1 = r0 >> 17
+            r0 = r0 ^ r1
+            int r1 = r0 << 5
+            r0 = r0 ^ r1
+            r2.f8778 = r0
+            int r2 = r3 + (-1)
+            r1 = r2 & r3
+            if (r1 != 0) goto L15
+            r2 = r2 & r0
+            return r2
+        L15:
+            r2 = 2147483647(0x7fffffff, float:NaN)
+            r2 = r2 & r0
+            int r2 = r2 % r3
+            return r2
+    }
+
+    /* JADX INFO: renamed from: ᛷᛸᛵᲇ, reason: contains not printable characters */
+    public final java.lang.Object m3427() {
+            r0 = this;
+            java.lang.Object r0 = r0.nextParkedWorker
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᛷᲁᛳᛳ, reason: contains not printable characters */
+    public final defpackage.AbstractRunnableC1247 m3428(boolean r17) {
+            r16 = this;
+            r0 = r16
+            int r1 = r0.f8780
+            ᛶᛵᛸᲁ r3 = r0.f8783
+            r8 = 0
+            r9 = 1
+            ᛲᛷᲇᛴ r11 = r0.f8782
+            if (r1 != r9) goto Le
+            goto L8f
+        Le:
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r1 = defpackage.ExecutorC1078.f4842
+        L10:
+            long r4 = r1.get(r3)
+            r6 = 9223367638808264704(0x7ffffc0000000000, double:NaN)
+            long r6 = r6 & r4
+            r2 = 42
+            long r6 = r6 >> r2
+            int r2 = (int) r6
+            if (r2 != 0) goto L7e
+            r11.getClass()
+            long r1 = defpackage.C0329.f1701
+        L25:
+            sun.misc.Unsafe r4 = defpackage.AbstractC0051.f569
+            java.lang.Object r5 = r4.getObjectVolatile(r11, r1)
+            r14 = r5
+            ᛷᛳᲇᛲ r14 = (defpackage.AbstractRunnableC1247) r14
+            if (r14 != 0) goto L31
+            goto L49
+        L31:
+            boolean r5 = r14.f5576
+            if (r5 != r9) goto L49
+        L35:
+            sun.misc.Unsafe r10 = defpackage.AbstractC0051.f569
+            long r12 = defpackage.C0329.f1701
+            r15 = 0
+            boolean r4 = r10.compareAndSwapObject(r11, r12, r14, r15)
+            if (r4 == 0) goto L42
+            r8 = r14
+            goto L6b
+        L42:
+            java.lang.Object r4 = r10.getObjectVolatile(r11, r1)
+            if (r4 == r14) goto L35
+            goto L25
+        L49:
+            long r1 = defpackage.C0329.f1697
+            int r1 = r4.getIntVolatile(r11, r1)
+            long r5 = defpackage.C0329.f1702
+            int r2 = r4.getIntVolatile(r11, r5)
+        L55:
+            if (r1 == r2) goto L6b
+            sun.misc.Unsafe r4 = defpackage.AbstractC0051.f569
+            long r5 = defpackage.C0329.f1698
+            int r4 = r4.getIntVolatile(r11, r5)
+            if (r4 != 0) goto L62
+            goto L6b
+        L62:
+            int r2 = r2 + (-1)
+            ᛷᛳᲇᛲ r4 = r11.m999(r2, r9)
+            if (r4 == 0) goto L55
+            r8 = r4
+        L6b:
+            if (r8 != 0) goto L7d
+            ᛶᲀᛱᲀ r1 = r3.f4846
+            java.lang.Object r1 = r1.m1091()
+            ᛷᛳᲇᛲ r1 = (defpackage.AbstractRunnableC1247) r1
+            if (r1 != 0) goto L7c
+            ᛷᛳᲇᛲ r0 = r0.m3424(r9)
+            return r0
+        L7c:
+            return r1
+        L7d:
+            return r8
+        L7e:
+            r6 = 4398046511104(0x40000000000, double:2.1729236899484E-311)
+            long r6 = r4 - r6
+            java.util.concurrent.atomic.AtomicLongFieldUpdater r2 = defpackage.ExecutorC1078.f4842
+            boolean r2 = r2.compareAndSet(r3, r4, r6)
+            if (r2 == 0) goto L10
+            r0.f8780 = r9
+        L8f:
+            if (r17 == 0) goto Lc5
+            int r1 = r3.f4850
+            int r1 = r1 * 2
+            int r1 = r0.m3426(r1)
+            if (r1 != 0) goto L9c
+            goto L9d
+        L9c:
+            r9 = 0
+        L9d:
+            if (r9 == 0) goto La6
+            ᛷᛳᲇᛲ r1 = r0.m3425()
+            if (r1 == 0) goto La6
+            return r1
+        La6:
+            r11.getClass()
+            sun.misc.Unsafe r1 = defpackage.AbstractC0051.f569
+            long r2 = defpackage.C0329.f1701
+            java.lang.Object r1 = r1.getAndSetObject(r11, r2, r8)
+            ᛷᛳᲇᛲ r1 = (defpackage.AbstractRunnableC1247) r1
+            if (r1 != 0) goto Lb9
+            ᛷᛳᲇᛲ r1 = r11.m1001()
+        Lb9:
+            if (r1 == 0) goto Lbc
+            return r1
+        Lbc:
+            if (r9 != 0) goto Lcc
+            ᛷᛳᲇᛲ r1 = r0.m3425()
+            if (r1 == 0) goto Lcc
+            return r1
+        Lc5:
+            ᛷᛳᲇᛲ r1 = r0.m3425()
+            if (r1 == 0) goto Lcc
+            return r1
+        Lcc:
+            r1 = 3
+            ᛷᛳᲇᛲ r0 = r0.m3424(r1)
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᲇᛶᛵᲇ, reason: contains not printable characters */
+    public final int m3429() {
+            r0 = this;
+            int r0 = r0.indexInArray
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᲇᛸᲁᛱ, reason: contains not printable characters */
+    public final void m3430(int r3) {
+            r2 = this;
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            ᛶᛵᛸᲁ r1 = r2.f8783
+            java.lang.String r1 = r1.f4851
+            r0.append(r1)
+            java.lang.String r1 = "-worker-"
+            r0.append(r1)
+            if (r3 != 0) goto L16
+            java.lang.String r1 = "TERMINATED"
+            goto L1a
+        L16:
+            java.lang.String r1 = java.lang.String.valueOf(r3)
+        L1a:
+            r0.append(r1)
+            java.lang.String r0 = r0.toString()
+            r2.setName(r0)
+            r2.indexInArray = r3
+            return
+    }
+
+    /* JADX INFO: renamed from: ᲈᲈᛸᲁ, reason: contains not printable characters */
+    public final void m3431(java.lang.Object r1) {
+            r0 = this;
+            r0.nextParkedWorker = r1
+            return
+    }
+}

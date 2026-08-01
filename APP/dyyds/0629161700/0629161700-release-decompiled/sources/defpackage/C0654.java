@@ -1,0 +1,46 @@
+package defpackage;
+
+/* JADX INFO: renamed from: ᛴᛴᛷ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0654 extends defpackage.AbstractC1350 implements defpackage.InterfaceC2087 {
+
+    /* JADX INFO: renamed from: ᛱᛳᛲᛸ, reason: contains not printable characters */
+    public int f3178;
+
+    /* JADX INFO: renamed from: ᛲᛴᲇᛳ, reason: contains not printable characters */
+    public final /* synthetic */ android.content.Context f3179;
+
+    /* JADX INFO: renamed from: ᛸᛵᛸᛷ, reason: contains not printable characters */
+    public final /* synthetic */ java.lang.String f3180;
+
+    /* JADX INFO: renamed from: ᲈᲈᛸᲁ, reason: contains not printable characters */
+    public final /* synthetic */ int f3181;
+
+    static {
+            r0 = 16
+            com.android.NativeUtil.classesInit0(r0)
+            return
+    }
+
+    public /* synthetic */ C0654(android.content.Context r1, java.lang.String r2, defpackage.InterfaceC0140 r3, int r4) {
+            r0 = this;
+            r0.f3181 = r4
+            r0.f3179 = r1
+            r0.f3180 = r2
+            r1 = 2
+            r0.<init>(r1, r3)
+            return
+    }
+
+    @Override // defpackage.InterfaceC2087
+    /* JADX INFO: renamed from: ᛱᛳᛲᛸ */
+    public final native java.lang.Object mo388(java.lang.Object r1, java.lang.Object r2);
+
+    @Override // defpackage.AbstractC0668
+    /* JADX INFO: renamed from: ᛲᛴᛱᛶ */
+    public final native defpackage.InterfaceC0140 mo389(defpackage.InterfaceC0140 r1, java.lang.Object r2);
+
+    @Override // defpackage.AbstractC0668
+    /* JADX INFO: renamed from: ᲀᛳᲀᛵ */
+    public final native java.lang.Object mo390(java.lang.Object r1);
+}

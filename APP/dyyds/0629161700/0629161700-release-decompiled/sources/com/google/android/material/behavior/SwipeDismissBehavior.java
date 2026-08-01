@@ -1,0 +1,13 @@
+package com.google.android.material.behavior;
+
+import android.view.View;
+
+/* JADX INFO: compiled from: r8-map-id-65b058289e3cb96da105536443e3beb4a8f831596ad09af536e247b4a16ebae5 */
+/* JADX INFO: loaded from: classes.dex */
+public class SwipeDismissBehavior<V extends android.view.View> extends defpackage.AbstractC0498 {
+    public SwipeDismissBehavior() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+}
