@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_root" android:background="@color/dy_feed_card_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_cover" android:background="@drawable/bg_thumb_rounded" android:layout_width="88.0dp" android:layout_height="118.0dp" android:src="@android:drawable/ic_media_play" android:scaleType="centerCrop" android:contentDescription="作品封面" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="作品标题" android:maxLines="2" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:ellipsize="end" android:id="@id/tv_author" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="作者" android:maxLines="1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp">
+                <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_digg" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="赞 -" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_comment" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="评 -" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_collect" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="藏 -" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="点击跳转，长按删除" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_actions" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginTop="9.0dp">
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/btn_jump" android:background="@drawable/bg_feed_btn_primary" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dp" android:layout_height="32.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="跳转作品" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="12.0sp" android:textColor="@color/dy_feed_text_tertiary" android:gravity="center" android:id="@id/btn_delete" android:background="@drawable/bg_feed_btn_secondary" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dp" android:layout_height="32.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="删除书签" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+</LinearLayout>

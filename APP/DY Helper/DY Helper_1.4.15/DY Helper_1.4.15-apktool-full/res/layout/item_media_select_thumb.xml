@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_thumb_rounded" android:layout_width="74.0dp" android:layout_height="82.0dp" android:layout_marginEnd="8.0dp" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivThumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:clipToOutline="true" />
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|top" android:id="@id/tvThumbIndex" android:layout_width="22.0dp" android:layout_height="22.0dp" android:text="1" android:includeFontPadding="false" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|bottom" android:id="@id/tvThumbType" android:paddingLeft="6.0dp" android:paddingRight="6.0dp" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="图片" android:includeFontPadding="false" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="end|bottom" android:id="@id/tvThumbCheck" android:focusable="true" android:clickable="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginBottom="4.0dp" android:text="✓" android:includeFontPadding="false" android:layout_marginEnd="4.0dp" />
+</FrameLayout>

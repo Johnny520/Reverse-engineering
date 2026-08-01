@@ -1,0 +1,11 @@
+.class public interface abstract Lf80;
+.super Ljava/lang/Object;
+.source "r8-map-id-488ec55e75035ea6264aa11562025c0c7e4383a531b08db4ba106b7248a106ee"
+
+# interfaces
+.implements Lm80;
+
+
+# virtual methods
+.method public abstract α(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.end method

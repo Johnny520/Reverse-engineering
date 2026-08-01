@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dexkit_accent">#79b8ff</color>
+    <color name="dy_feed_bg">#111513</color>
+    <color name="dy_feed_blue">#6ba8e6</color>
+    <color name="dy_feed_blue_bg">#1a2f4a</color>
+    <color name="dy_feed_card_bg">#1b1f1c</color>
+    <color name="dy_feed_divider">#2a312d</color>
+    <color name="dy_feed_footnote">#5a665a</color>
+    <color name="dy_feed_green">#52a46a</color>
+    <color name="dy_feed_green_bg">#1a3a24</color>
+    <color name="dy_feed_grey_bg">#2a2f2a</color>
+    <color name="dy_feed_red">#e57a85</color>
+    <color name="dy_feed_red_bg">#3a1a1e</color>
+    <color name="dy_feed_text_primary">#e9eee9</color>
+    <color name="dy_feed_text_secondary">#93a093</color>
+    <color name="dy_feed_text_tertiary">#b8c4b8</color>
+</resources>

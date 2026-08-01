@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pet_food_root" android:paddingTop="20.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0sp" android:textStyle="bold" android:id="@id/pet_food_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="选择自动投喂食物" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+    <TextView android:textSize="12.0sp" android:id="@id/pet_food_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+    <ScrollView android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="360.0dp" android:layout_marginTop="12.0dp" android:fillViewport="true" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@id/pet_food_group" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/pet_food_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="120.0dp" android:text="暂无食物目录" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/pet_food_refresh" android:layout_width="wrap_content" android:layout_height="44.0dp" android:minWidth="72.0dp" android:text="更新列表" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/pet_food_cancel" android:layout_width="wrap_content" android:layout_height="44.0dp" android:minWidth="56.0dp" android:text="取消" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/pet_food_confirm" android:layout_width="wrap_content" android:layout_height="44.0dp" android:minWidth="56.0dp" android:text="确定" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+    </LinearLayout>
+</LinearLayout>

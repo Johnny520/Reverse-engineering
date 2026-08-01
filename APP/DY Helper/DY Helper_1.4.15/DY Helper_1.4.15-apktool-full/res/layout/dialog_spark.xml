@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/spark_dialog_root" android:background="@color/dy_feed_bg" android:paddingTop="8.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/spark_top_bar" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="42.0dp" android:paddingStart="4.0dp" android:paddingEnd="4.0dp">
+        <TextView android:textSize="13.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/tv_spark_close" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:gravity="center" android:id="@id/tv_spark_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="火花续期" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:id="@id/tv_spark_ready" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未激活" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+    </LinearLayout>
+    <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/card_spark_stats" android:background="@color/dy_feed_card_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:paddingStart="8.0dp" android:paddingEnd="8.0dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/tv_stat_all_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="火花好友" />
+        </LinearLayout>
+        <View android:background="@color/dy_feed_divider" android:layout_width="1.0px" android:layout_height="24.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_red" android:id="@id/tv_stat_due_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="待续期" />
+        </LinearLayout>
+        <View android:background="@color/dy_feed_divider" android:layout_width="1.0px" android:layout_height="24.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/tv_stat_custom_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自定义" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_spark_not_ready" android:background="@color/dy_feed_card_bg" android:padding="10.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="功能未激活" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/tv_spark_not_ready_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="请先在任意聊天中手动发送一条消息来激活" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_spark_custom" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_spark_custom_switch" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="52.0dp" android:paddingStart="12.0dp" android:paddingEnd="10.0dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自定义人员续火" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_spark_custom_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="长按人员可直接开关" />
+            </LinearLayout>
+            <Switch android:id="@id/sw_spark_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_spark_list" android:background="@color/dy_feed_card_bg" android:paddingTop="6.0dp" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp">
+        <ScrollView android:id="@id/sv_spark_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="300.0dp" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:id="@id/spark_list_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_spark_actions" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_spark_renew" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/dy_feed_red" android:gravity="center" android:layout_width="30.0dp" android:layout_height="30.0dp" android:text="✦" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="一键续火花" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_spark_renew_sub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="0 个会话将续火" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/divider_spark_after_renew" android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginStart="44.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_spark_refresh" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="17.0sp" android:textColor="@color/dy_feed_blue" android:gravity="center" android:layout_width="30.0dp" android:layout_height="30.0dp" android:text="↻" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="刷新数据" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="返回消息列表并重新进入" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_footnote" android:gravity="center" android:id="@id/tv_spark_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="DyHelper · 长按人员可切换自定义续火" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/camp_rule_root" android:background="@drawable/bg_feed_dialog_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="6.0dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp">
+        <TextView android:textSize="20.0sp" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:layout_gravity="start|center" android:id="@id/camp_rule_close" android:background="@drawable/bg_feed_close_btn" android:focusable="true" android:clickable="true" android:layout_width="32.0dp" android:layout_height="32.0dp" android:text="×" android:contentDescription="关闭" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:gravity="center" android:id="@id/camp_rule_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="人员规则" android:paddingStart="48.0dp" android:paddingEnd="48.0dp" />
+    </FrameLayout>
+    <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <ScrollView android:padding="14.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_rule_person_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:ellipsize="end" android:id="@id/camp_rule_person_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/camp_rule_person_state" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_rule_actions_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="人员覆盖规则" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="跟随全局会实时读取主界面的自动规则" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="收菜规则" />
+                <Spinner android:id="@id/camp_rule_harvest" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="4.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="种地规则" />
+                <Spinner android:id="@id/camp_rule_plant" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="4.0dp" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="浇水规则" />
+                <Spinner android:id="@id/camp_rule_water" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="4.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_rule_seed_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="人员种子策略" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="可跟随全局、智能选择或固定种子；智能策略可单独排除种子" />
+                <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_choose_seed" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="10.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="设置种子策略" android:includeFontPadding="false" android:textAllCaps="false" />
+                <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_edit_seed_exclusions" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="设置智能排除名单" android:includeFontPadding="false" android:textAllCaps="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="58.0dp" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+        <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_rule_cancel" android:layout_width="0.0dp" android:layout_height="42.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="取消" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginEnd="4.0dp" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/camp_rule_save" android:layout_width="0.0dp" android:layout_height="42.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="保存规则" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

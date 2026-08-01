@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/historyItemRoot"
+    android:background="@drawable/bg_beta_notice_history_item"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:clipToOutline="true">
+    <TextView
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/dy_feed_blue"
+        android:id="@+id/tvHistoryDate"
+        android:background="@drawable/bg_beta_notice_badge"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:includeFontPadding="false"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+    <TextView
+        android:textSize="13sp"
+        android:textColor="@color/dy_feed_text_primary"
+        android:ellipsize="end"
+        android:id="@+id/tvHistoryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:maxLines="3"
+        android:lineSpacingExtra="3dp"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/im_dialog_root" android:background="@color/dy_feed_bg" android:paddingTop="8.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/im_top_bar" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="42.0dp" android:paddingStart="4.0dp" android:paddingEnd="4.0dp">
+        <TextView android:textSize="13.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/im_tv_close" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:ellipsize="end" android:gravity="center" android:id="@id/im_tv_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="选择会话" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:id="@id/im_tv_count_badge" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+    </LinearLayout>
+    <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:id="@id/im_card_search" android:background="@color/dy_feed_card_bg" android:paddingTop="10.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+        <EditText android:textSize="14.0sp" android:id="@id/im_et_search" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="40.0dp" android:hint="搜索昵称、备注、UID、会话ID" android:singleLine="true" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:ellipsize="end" android:id="@id/im_tv_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="正在加载完整会话列表…" android:maxLines="2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/im_card_list" android:background="@color/dy_feed_card_bg" android:paddingTop="6.0dp" android:paddingBottom="2.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:paddingStart="6.0dp" android:paddingEnd="6.0dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="330.0dp">
+            <ListView android:id="@id/im_list_view" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dp" android:overScrollMode="never" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:gravity="center" android:id="@id/im_tv_empty" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="正在加载会话…" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/im_card_actions" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/im_row_manual" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/dy_feed_blue" android:gravity="center" android:layout_width="30.0dp" android:layout_height="30.0dp" android:text="✎" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="手动编辑规则" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="支持 cid:/uid:/name:，每行一个规则" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginStart="44.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/im_row_save" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="17.0sp" android:textColor="@color/dy_feed_red" android:gravity="center" android:layout_width="30.0dp" android:layout_height="30.0dp" android:text="✓" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="保存选择" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/im_tv_save_sub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:text="保存 0 个会话规则" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_footnote" android:gravity="center" android:id="@id/im_tv_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="DyHelper · 可搜索昵称、UID、CID" />
+</LinearLayout>

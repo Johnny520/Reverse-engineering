@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_feed_right_menu_root" android:background="@color/dy_feed_card_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/cb_feed_right_menu_item" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="24.0dp" android:minHeight="24.0dp" android:layout_marginEnd="8.0dp" android:buttonTint="@color/dy_feed_blue" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/dy_feed_text_primary" android:ellipsize="end" android:id="@id/tv_feed_right_menu_item_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" />
+</LinearLayout>

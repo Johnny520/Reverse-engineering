@@ -1,0 +1,43 @@
+.class public final Lyo0;
+.super Ljava/lang/Object;
+.source "r8-map-id-488ec55e75035ea6264aa11562025c0c7e4383a531b08db4ba106b7248a106ee"
+
+
+# instance fields
+.field public final α:I
+
+.field public final β:Ljava/lang/Object;
+
+.field public final γ:I
+
+.field public final δ:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;III)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p2, p0, Lyo0;->α:I
+
+    .line 5
+    .line 6
+    iput-object p1, p0, Lyo0;->β:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    iput p3, p0, Lyo0;->γ:I
+
+    .line 9
+    .line 10
+    iput p4, p0, Lyo0;->δ:I
+
+    .line 11
+    .line 12
+    return-void
+.end method

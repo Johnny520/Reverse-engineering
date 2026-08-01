@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/camp_management_root" android:background="@drawable/bg_feed_dialog_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="6.0dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp">
+        <TextView android:textSize="20.0sp" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:layout_gravity="start|center" android:id="@id/camp_close" android:background="@drawable/bg_feed_close_btn" android:focusable="true" android:clickable="true" android:layout_width="32.0dp" android:layout_height="32.0dp" android:text="×" android:contentDescription="关闭" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:gravity="center" android:id="@id/camp_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="营地管理" android:paddingStart="64.0dp" android:paddingEnd="64.0dp" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_green" android:gravity="center" android:layout_gravity="end|center" android:id="@id/camp_badge" android:background="@drawable/bg_feed_badge" android:layout_width="wrap_content" android:layout_height="24.0dp" android:text="已启用" android:paddingStart="9.0dp" android:paddingEnd="9.0dp" />
+    </FrameLayout>
+    <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <ScrollView android:id="@id/camp_scroll" android:paddingTop="10.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/camp_stats_card" android:background="@drawable/bg_feed_card_rounded" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/camp_stat_people" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="管理人员" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="1.0px" android:layout_height="28.0dp" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_green" android:id="@id/camp_stat_ready" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="可用营地" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="1.0px" android:layout_height="28.0dp" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/camp_stat_plots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="营地地块" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_statistics_entry_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:contentDescription="@string/camp_statistics_entry_description">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/camp_statistics_entry_title" android:layout_weight="1.0" />
+                    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:gravity="center" android:id="@id/camp_statistics_entry_action" android:background="@drawable/bg_feed_badge" android:layout_width="wrap_content" android:layout_height="22.0dp" android:text="@string/camp_statistics_entry_action" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+                </LinearLayout>
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/camp_statistics_entry_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/camp_statistics_entry_placeholder" android:lineSpacingExtra="1.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_status_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="状态概览" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/camp_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="正在读取营地缓存" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_progress_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/camp_progress_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/camp_progress_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/camp_progress_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:maxLines="2" />
+                <ProgressBar android:id="@id/camp_progress_bar" android:layout_width="match_parent" android:layout_height="6.0dp" android:layout_marginTop="9.0dp" android:max="1" android:progress="0" style="?android:progressBarStyleHorizontal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_rules_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动规则" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="每个人员可在详情中覆盖下列全局规则" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52.0dp" android:layout_marginTop="7.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动收菜" />
+                        <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="成熟后收获作物" />
+                    </LinearLayout>
+                    <Switch android:id="@id/camp_auto_harvest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="全局种子策略" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="可选择固定种子或智能选择；人员可跟随或单独覆盖" />
+                    <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_global_seed" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="设置全局种子" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="智能种子价格上限" />
+                    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="仅智能选择使用；0 表示不限制，仍会按当前余额过滤" />
+                    <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_smart_seed_price_cap" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="设置价格上限" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动种地" />
+                        <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="按人员或全局种子策略补充空地" />
+                    </LinearLayout>
+                    <Switch android:id="@id/camp_auto_plant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+                </LinearLayout>
+                <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动浇水" />
+                        <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_text_tertiary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="遵守作物次数与冷却时间" />
+                    </LinearLayout>
+                    <Switch android:id="@id/camp_auto_water" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_actions_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="批量操作" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="执行前会刷新实时状态，并在确认后串行请求" />
+                <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/camp_refresh" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="10.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="刷新全部营地状态" android:includeFontPadding="false" android:textAllCaps="false" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="38.0dp" android:layout_marginTop="8.0dp">
+                    <Button android:textSize="11.0sp" android:gravity="center" android:id="@id/camp_harvest_all" android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="一键收菜" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginEnd="4.0dp" />
+                    <Button android:textSize="11.0sp" android:gravity="center" android:id="@id/camp_plant_all" android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="全部种地" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="2.0dp" android:layout_marginEnd="2.0dp" />
+                    <Button android:textSize="11.0sp" android:gravity="center" android:id="@id/camp_water_all" android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="全部浇水" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="4.0dp" />
+                </LinearLayout>
+                <Button android:textSize="11.0sp" android:gravity="center" android:id="@id/camp_cancel" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="停止当前任务" android:includeFontPadding="false" android:textAllCaps="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/camp_people_card" android:background="@drawable/bg_feed_card_rounded" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="管理人员" android:layout_weight="1.0" />
+                    <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:gravity="center" android:id="@id/camp_people_count" android:background="@drawable/bg_feed_badge" android:layout_width="wrap_content" android:layout_height="22.0dp" android:text="0 人" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+                </LinearLayout>
+                <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="点击人员可设置独立规则与固定种子" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+                <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dp" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:id="@id/camp_people_empty" android:padding="20.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="暂无可管理的小火人会话\n请先进入消息页等待会话同步" />
+                <LinearLayout android:orientation="vertical" android:id="@id/camp_people_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_footnote" android:gravity="center" android:id="@id/camp_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:text="DyHelper · 写入前始终重新确认实时营地状态" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

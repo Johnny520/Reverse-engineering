@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/camp_confirm_root" android:background="@drawable/bg_feed_dialog_root" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:gravity="center" android:id="@id/camp_confirm_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/camp_confirm_card" android:background="@drawable/bg_feed_card_rounded" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:maxHeight="360.0dp" android:fillViewport="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/camp_confirm_detail" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <TextView android:textSize="10.0sp" android:textColor="@color/dy_feed_footnote" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="操作会再次确认实时营地状态，并按安全间隔串行执行" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="12.0dp">
+        <Button android:textSize="12.0sp" android:gravity="center" android:id="@id/camp_confirm_cancel" android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="取消" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginEnd="4.0dp" />
+        <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/camp_confirm_execute" android:layout_width="0.0dp" android:layout_height="match_parent" android:minWidth="0.0dp" android:minHeight="0.0dp" android:text="确认执行" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

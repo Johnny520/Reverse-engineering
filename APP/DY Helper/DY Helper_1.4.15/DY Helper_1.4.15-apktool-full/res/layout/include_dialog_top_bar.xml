@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/top_bar" android:background="@color/dy_feed_card_bg" android:layout_width="match_parent" android:layout_height="@dimen/dy_top_bar_height" android:paddingStart="@dimen/dy_space_xs" android:paddingEnd="@dimen/dy_space_xs">
+        <TextView android:textSize="13.0sp" android:textColor="@color/dy_feed_text_tertiary" android:id="@id/tv_close" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        <TextView android:gravity="center" android:id="@id/tv_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="标题" android:layout_weight="1.0" style="@style/DYText.Title" />
+        <TextView android:textSize="@dimen/dy_text_badge" android:textStyle="bold" android:id="@id/tv_badge" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="状态" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+    </LinearLayout>
+    <View android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+</merge>

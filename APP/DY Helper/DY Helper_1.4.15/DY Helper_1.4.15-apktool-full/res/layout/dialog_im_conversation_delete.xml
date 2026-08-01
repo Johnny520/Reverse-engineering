@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/im_delete_dialog_root" android:paddingTop="8.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44.0dp">
+        <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/im_delete_tv_close" android:layout_width="48.0dp" android:layout_height="40.0dp" android:text="关闭" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/im_delete_tv_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="批量删除会话" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_tv_count" android:layout_width="48.0dp" android:layout_height="28.0dp" android:text="0/0" />
+    </LinearLayout>
+    <View android:id="@id/im_delete_top_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <EditText android:textSize="14.0sp" android:id="@id/im_delete_et_search" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginTop="6.0dp" android:hint="搜索名称、UID、会话 ID" android:singleLine="true" android:inputType="text" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:importantForAutofill="no" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="42.0dp" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/im_delete_filter_group" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="2.0dp" android:paddingEnd="2.0dp">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_filter_all" android:layout_width="64.0dp" android:layout_height="32.0dp" android:text="全部" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_filter_fan" android:layout_width="64.0dp" android:layout_height="32.0dp" android:text="粉丝" android:layout_marginStart="4.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_filter_stranger" android:layout_width="64.0dp" android:layout_height="32.0dp" android:text="陌生人" android:layout_marginStart="4.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_filter_mutual" android:layout_width="64.0dp" android:layout_height="32.0dp" android:text="互关" android:layout_marginStart="4.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_filter_following" android:layout_width="72.0dp" android:layout_height="32.0dp" android:text="已关注" android:layout_marginStart="4.0dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:textSize="11.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/im_delete_tv_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="34.0dp" android:text="正在加载会话" android:maxLines="2" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="310.0dp">
+        <ListView android:id="@id/im_delete_list" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dp" android:overScrollMode="never" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_tv_empty" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="正在加载会话" />
+    </FrameLayout>
+    <View android:id="@id/im_delete_bottom_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_action_select_all" android:layout_width="64.0dp" android:layout_height="38.0dp" android:text="全选" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_action_invert" android:layout_width="64.0dp" android:layout_height="38.0dp" android:text="反选" android:layout_marginStart="4.0dp" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_action_stop" android:visibility="gone" android:layout_width="96.0dp" android:layout_height="38.0dp" android:text="停止后续删除" />
+        <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_action_delete" android:layout_width="112.0dp" android:layout_height="40.0dp" android:text="删除 0 个" />
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/im_delete_action_clear_interactive" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="2.0dp" android:text="清理全部互动消息" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/info_bar_format_scroll" android:background="@android:color/transparent" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false" android:fadeScrollbars="false" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/info_bar_format_root" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/DYDialog.Panel">
+        <FrameLayout android:id="@id/ibf_top_bar" android:layout_width="match_parent" style="@style/DYDialog.TopBar">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:layout_gravity="start|center" android:id="@id/ibf_tv_close" android:layout_width="@dimen/dy_dialog_close_size" android:layout_height="@dimen/dy_dialog_close_size" android:text="×" android:includeFontPadding="false" />
+            <TextView android:gravity="center" android:id="@id/ibf_tv_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="视频信息条格式" android:paddingStart="64.0dp" android:paddingEnd="64.0dp" style="@style/DYText.DialogTitle" />
+            <TextView android:textColor="@color/dy_feed_green" android:layout_gravity="end|center" android:id="@id/ibf_tv_badge" android:background="@color/dy_feed_green_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="格式" style="@style/DYText.Badge" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/ibf_card_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" style="@style/DYDialog.Card">
+            <TextView android:id="@id/ibf_tv_preview_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="预览" style="@style/DYText.SectionTitle" />
+            <TextView android:textColor="@color/dy_feed_blue" android:id="@id/ibf_tv_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="预览：2026-06-05 13:41 · 上海" style="@style/DYText.Note" />
+            <TextView android:textColor="@color/dy_feed_text_secondary" android:id="@id/ibf_tv_template" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="{time:yyyy-MM-dd HH:mm} · {location}" style="@style/DYText.Caption" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ibf_card_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" style="@style/DYDialog.Card">
+            <TextView android:id="@id/ibf_tv_date_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="日期格式" style="@style/DYText.SectionTitle" />
+            <TextView android:textColor="@color/dy_feed_text_secondary" android:id="@id/ibf_tv_date_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="MM 是月份，mm 是分钟。点击预设可快速应用。" style="@style/DYText.Caption" />
+            <EditText android:id="@id/ibf_et_date_pattern" android:layout_width="match_parent" android:layout_marginTop="10.0dp" android:hint="yyyy-MM-dd HH:mm" android:includeFontPadding="false" style="@style/DYDialog.EditText" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ibf_date_preset_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/ibf_card_fields" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" style="@style/DYDialog.Card">
+            <TextView android:id="@id/ibf_tv_fields_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="字段" style="@style/DYText.SectionTitle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ibf_row_separator" android:background="@color/dy_feed_card_bg" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="6.0dp" android:paddingStart="0.0dp" android:paddingEnd="0.0dp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:id="@id/ibf_tv_separator_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="分隔符" android:includeFontPadding="false" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/ibf_tv_separator_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="字段之间的连接方式" />
+                </LinearLayout>
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_blue" android:id="@id/ibf_tv_separator_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" · " android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:id="@id/ibf_divider_fields_1" android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ibf_row_location" android:layout_width="match_parent" android:layout_height="52.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:id="@id/ibf_tv_location_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="显示位置" android:includeFontPadding="false" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/ibf_tv_location_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="有发布城市时显示位置字段" />
+                </LinearLayout>
+                <Switch android:id="@id/ibf_sw_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+            </LinearLayout>
+            <View android:id="@id/ibf_divider_fields_2" android:background="@color/dy_feed_divider" android:layout_width="match_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ibf_row_id" android:layout_width="match_parent" android:layout_height="52.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_primary" android:id="@id/ibf_tv_id_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="显示作品 ID" android:includeFontPadding="false" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/dy_feed_text_secondary" android:id="@id/ibf_tv_id_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="在信息条末尾追加作品 ID" />
+                </LinearLayout>
+                <Switch android:id="@id/ibf_sw_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:showText="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ibf_bottom_bar" android:layout_width="match_parent" android:layout_height="@dimen/dy_button_height" android:layout_marginTop="12.0dp">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:id="@id/ibf_btn_manual" android:background="@color/dy_feed_grey_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="手动编辑" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/dy_feed_text_secondary" android:gravity="center" android:id="@id/ibf_btn_cancel" android:background="@color/dy_feed_grey_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="取消" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@id/ibf_btn_save" android:background="@color/dy_feed_green" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="保存" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <TextView android:id="@id/ibf_tv_footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:text="DyHelper · 视频信息条" style="@style/DYText.Footnote" />
+    </LinearLayout>
+</ScrollView>

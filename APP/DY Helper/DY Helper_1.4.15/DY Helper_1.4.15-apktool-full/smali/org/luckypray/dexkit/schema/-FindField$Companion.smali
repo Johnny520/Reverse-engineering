@@ -1,0 +1,710 @@
+.class public final Lorg/luckypray/dexkit/schema/-FindField$Companion;
+.super Ljava/lang/Object;
+.source "r8-map-id-488ec55e75035ea6264aa11562025c0c7e4383a531b08db4ba106b7248a106ee"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/luckypray/dexkit/schema/-FindField;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lzq;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lorg/luckypray/dexkit/schema/-FindField$Companion;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final addExcludePackages(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x1
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->θ(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addFindFirst(Lb40;Z)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x5
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->α(IZ)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addIgnorePackagesCase(Lb40;Z)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x2
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->α(IZ)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addInClasses(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x3
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->θ(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addInFields(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x4
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->θ(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addMatcher(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x6
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->θ(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final addSearchPackages(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x0
+
+    .line 5
+    invoke-virtual {p1, p0, p2}, Lb40;->θ(II)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final createExcludePackagesVector(Lb40;[I)I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    const/4 p0, 0x4
+
+    .line 8
+    array-length v0, p2
+
+    .line 9
+    invoke-virtual {p1, p0, v0, p0}, Lb40;->τ(III)V
+
+    .line 10
+    .line 11
+    .line 12
+    array-length p0, p2
+
+    .line 13
+    add-int/lit8 p0, p0, -0x1
+
+    .line 14
+    .line 15
+    :goto_0
+    const/4 v0, -0x1
+
+    .line 16
+    if-ge v0, p0, :cond_0
+
+    .line 17
+    .line 18
+    aget v0, p2, p0
+
+    .line 19
+    .line 20
+    invoke-virtual {p1, v0}, Lb40;->η(I)V
+
+    .line 21
+    .line 22
+    .line 23
+    add-int/lit8 p0, p0, -0x1
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_0
+    invoke-virtual {p1}, Lb40;->ν()I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result p0
+
+    .line 30
+    return p0
+.end method
+
+.method public final createFindField(Lb40;IIZIIZI)I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x7
+
+    .line 5
+    invoke-virtual {p1, v0}, Lb40;->σ(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0, p1, p8}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addMatcher(Lb40;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p0, p1, p6}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addInFields(Lb40;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-virtual {p0, p1, p5}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addInClasses(Lb40;I)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-virtual {p0, p1, p3}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addExcludePackages(Lb40;I)V
+
+    .line 18
+    .line 19
+    .line 20
+    invoke-virtual {p0, p1, p2}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addSearchPackages(Lb40;I)V
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {p0, p1, p7}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addFindFirst(Lb40;Z)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {p0, p1, p4}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->addIgnorePackagesCase(Lb40;Z)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-virtual {p0, p1}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->endFindField(Lb40;)I
+
+    .line 30
+    .line 31
+    .line 32
+    move-result p0
+
+    .line 33
+    return p0
+.end method
+
+.method public final createInClassesVector(Lb40;[J)I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    const/16 p0, 0x8
+
+    .line 8
+    .line 9
+    array-length v0, p2
+
+    .line 10
+    invoke-virtual {p1, p0, v0, p0}, Lb40;->τ(III)V
+
+    .line 11
+    .line 12
+    .line 13
+    array-length p0, p2
+
+    .line 14
+    add-int/lit8 p0, p0, -0x1
+
+    .line 15
+    .line 16
+    :goto_0
+    const/4 v0, -0x1
+
+    .line 17
+    if-ge v0, p0, :cond_0
+
+    .line 18
+    .line 19
+    aget-wide v0, p2, p0
+
+    .line 20
+    .line 21
+    invoke-virtual {p1, v0, v1}, Lb40;->ζ(J)V
+
+    .line 22
+    .line 23
+    .line 24
+    add-int/lit8 p0, p0, -0x1
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_0
+    invoke-virtual {p1}, Lb40;->ν()I
+
+    .line 28
+    .line 29
+    .line 30
+    move-result p0
+
+    .line 31
+    return p0
+.end method
+
+.method public final createInFieldsVector(Lb40;[J)I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    const/16 p0, 0x8
+
+    .line 8
+    .line 9
+    array-length v0, p2
+
+    .line 10
+    invoke-virtual {p1, p0, v0, p0}, Lb40;->τ(III)V
+
+    .line 11
+    .line 12
+    .line 13
+    array-length p0, p2
+
+    .line 14
+    add-int/lit8 p0, p0, -0x1
+
+    .line 15
+    .line 16
+    :goto_0
+    const/4 v0, -0x1
+
+    .line 17
+    if-ge v0, p0, :cond_0
+
+    .line 18
+    .line 19
+    aget-wide v0, p2, p0
+
+    .line 20
+    .line 21
+    invoke-virtual {p1, v0, v1}, Lb40;->ζ(J)V
+
+    .line 22
+    .line 23
+    .line 24
+    add-int/lit8 p0, p0, -0x1
+
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_0
+    invoke-virtual {p1}, Lb40;->ν()I
+
+    .line 28
+    .line 29
+    .line 30
+    move-result p0
+
+    .line 31
+    return p0
+.end method
+
+.method public final createSearchPackagesVector(Lb40;[I)I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    const/4 p0, 0x4
+
+    .line 8
+    array-length v0, p2
+
+    .line 9
+    invoke-virtual {p1, p0, v0, p0}, Lb40;->τ(III)V
+
+    .line 10
+    .line 11
+    .line 12
+    array-length p0, p2
+
+    .line 13
+    add-int/lit8 p0, p0, -0x1
+
+    .line 14
+    .line 15
+    :goto_0
+    const/4 v0, -0x1
+
+    .line 16
+    if-ge v0, p0, :cond_0
+
+    .line 17
+    .line 18
+    aget v0, p2, p0
+
+    .line 19
+    .line 20
+    invoke-virtual {p1, v0}, Lb40;->η(I)V
+
+    .line 21
+    .line 22
+    .line 23
+    add-int/lit8 p0, p0, -0x1
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_0
+    invoke-virtual {p1}, Lb40;->ν()I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result p0
+
+    .line 30
+    return p0
+.end method
+
+.method public final endFindField(Lb40;)I
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p1}, Lb40;->μ()I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p0
+
+    .line 8
+    return p0
+.end method
+
+.method public final getRootAsFindField(Ljava/nio/ByteBuffer;)Lorg/luckypray/dexkit/schema/-FindField;
+    .locals 1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 23
+    new-instance v0, Lorg/luckypray/dexkit/schema/-FindField;
+
+    invoke-direct {v0}, Lorg/luckypray/dexkit/schema/-FindField;-><init>()V
+
+    invoke-virtual {p0, p1, v0}, Lorg/luckypray/dexkit/schema/-FindField$Companion;->getRootAsFindField(Ljava/nio/ByteBuffer;Lorg/luckypray/dexkit/schema/-FindField;)Lorg/luckypray/dexkit/schema/-FindField;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final getRootAsFindField(Ljava/nio/ByteBuffer;Lorg/luckypray/dexkit/schema/-FindField;)Lorg/luckypray/dexkit/schema/-FindField;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 5
+    .line 6
+    .line 7
+    sget-object p0, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
+
+    .line 8
+    .line 9
+    invoke-static {p1, p0}, Lnx;->α(Ljava/nio/ByteBuffer;Ljava/nio/ByteOrder;)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    add-int/2addr v0, p0
+
+    .line 18
+    invoke-virtual {p2, v0, p1}, Lorg/luckypray/dexkit/schema/-FindField;->__assign(ILjava/nio/ByteBuffer;)Lorg/luckypray/dexkit/schema/-FindField;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p0
+
+    .line 22
+    return-object p0
+.end method
+
+.method public final startExcludePackagesVector(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x4
+
+    .line 5
+    invoke-virtual {p1, p0, p2, p0}, Lb40;->τ(III)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final startFindField(Lb40;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x7
+
+    .line 5
+    invoke-virtual {p1, p0}, Lb40;->σ(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final startInClassesVector(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/16 p0, 0x8
+
+    .line 5
+    .line 6
+    invoke-virtual {p1, p0, p2, p0}, Lb40;->τ(III)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public final startInFieldsVector(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/16 p0, 0x8
+
+    .line 5
+    .line 6
+    invoke-virtual {p1, p0, p2, p0}, Lb40;->τ(III)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public final startSearchPackagesVector(Lb40;I)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p0, 0x4
+
+    .line 5
+    invoke-virtual {p1, p0, p2, p0}, Lb40;->τ(III)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final validateVersion()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method

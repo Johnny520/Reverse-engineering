@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <TextView
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/dy_feed_text_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂无火花数据"/>
+    <TextView
+        android:textSize="11sp"
+        android:textColor="@color/dy_feed_text_tertiary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="请先进入消息页面浏览好友列表"/>
+</LinearLayout>
