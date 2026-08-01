@@ -1,0 +1,7 @@
+id=fkwechat
+name=FkWeChat
+author=雲上升
+description=基于Zygisk的微信功能增强模块
+version=v1.2.6
+versionCode=31
+actionIcon=webroot/icon.png

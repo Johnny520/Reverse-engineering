@@ -1,0 +1,17 @@
+package p259ra;
+
+import p010a9.InterfaceC0184l;
+
+/* JADX INFO: renamed from: ra.c */
+/* JADX INFO: loaded from: classes2.dex */
+public class C6553c implements InterfaceC0184l {
+
+    /* JADX INFO: renamed from: q */
+    public static final C6553c f20515q = new C6553c();
+
+    @Override // p010a9.InterfaceC0184l
+    /* JADX INFO: renamed from: m */
+    public Object mo27m(Object obj) {
+        return AbstractC6569n.m25883A((InterfaceC6578w) obj);
+    }
+}

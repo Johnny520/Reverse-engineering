@@ -1,0 +1,12 @@
+package p145jc;
+
+/* JADX INFO: renamed from: jc.n */
+/* JADX INFO: compiled from: r8-map-id-41ef8b4051cf12c4299b71f89f7150459dca1d84aebb9e505d81ecf50968f600 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class AbstractC3820n extends C3822o {
+    @Override // p145jc.C3822o
+    /* JADX INFO: renamed from: r */
+    public boolean mo15216r() {
+        return false;
+    }
+}

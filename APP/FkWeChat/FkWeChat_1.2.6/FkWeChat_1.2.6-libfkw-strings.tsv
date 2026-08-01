@@ -1,0 +1,64 @@
+file_offset	string
+0x19E5D	registerNativesForClass
+0x19F4F	'block-literal'
+0x19FDA	invocation function for block in 
+0x1A170	Exception occured while registering native_jvm for %s
+0x175959	role
+0x175B76	verified
+0x175BA5	Failed to load/decrypt secure license metadata
+0x1762E3	access$autoRegisterFlow
+0x1763A7	me.yun.fkwechat.core.config.ControlManager$autoRegisterFlow$1
+0x1764CF	me/yun/fkwechat/core/config/ControlManager$autoRegisterFlow$2
+0x17665B	me.yun.fkwechat.core.config.ControlManager$autoRegisterFlow$2
+0x1766C9	me/yun/fkwechat/core/config/ControlManager$autoRegisterFlow$3$1$1
+0x176721	me.yun.fkwechat.core.config.ControlManager$autoRegisterFlow$3$1$1
+0x17680E	me/yun/fkwechat/core/config/ControlManager$autoRegisterFlow$3$1
+0x176852	access$submitRegisterRequest
+0x176941	me.yun.fkwechat.core.config.ControlManager$autoRegisterFlow$3$1
+0x176981	order
+0x176A29	me/yun/fkwechat/core/config/ControlManager$autoRegisterFlow$3
+0x176B0F	me.yun.fkwechat.core.config.ControlManager$autoRegisterFlow$3
+0x176B4D	System.exit returned normally, while it was supposed to halt JVM.
+0x176C06	access$applyLocalBlock
+0x176DA5	access$syncLicenseStatus
+0x176EB7	me.yun.fkwechat.core.config.ControlManager$register$1
+0x176FF9	$registerType
+0x177074	me/yun/fkwechat/core/config/ControlManager$submitRegisterRequest$2
+0x177327	registerType
+0x177334	https://cdn.yunpro.club/api/register
+0x17739F	me.yun.fkwechat.core.config.ControlManager$submitRegisterRequest$2
+0x17747D	$role
+0x1774A4	me/yun/fkwechat/core/config/ControlManager$syncLicenseStatus$1$2
+0x1774E5	me.yun.fkwechat.core.config.ControlManager$syncLicenseStatus$1$2
+0x1775C9	me/yun/fkwechat/core/config/ControlManager$syncLicenseStatus$1
+0x1776EA	/login-status
+0x177737	https://cdn.yunpro.club/api/users/
+0x17775A	me.yun.fkwechat.core.config.ControlManager$syncLicenseStatus$1
+0x1777AE	applyLocalBlock
+0x1777F2	autoRegisterFlow
+0x1778D3	submitRegisterRequest
+0x17795E	syncLicenseStatus
+0x177970	getVerified
+0x17797C	getRole
+0x177984	me/yun/fkwechat/core/config/ControlManager$autoRegisterFlow$1
+0x177A3A	register
+0x177A60	registerActivityLifecycleCallbacks
+0x177C50	openNormalRegistration
+0x177C67	openOrderRegistration
+0x177C7D	normal
+0x177CCD	https://cdn.yunpro.club/api/settings
+0x177E37	, role=
+0x177E3F	LicData(verified=
+0x17829B	Lme/yun/fkwechat/loader/api/HookEngine;
+0x179239	(Lio/github/libxposed/api/XposedInterface$Chain;)Ljava/lang/Object;
+0x17927D	(La9/l;Lio/github/libxposed/api/XposedInterface$Chain;)Ll8/i0;
+0x179311	(La9/l;La9/l;Lio/github/libxposed/api/XposedInterface$Chain;)Ljava/lang/Object;
+0x1793DF	(Lio/github/libxposed/api/XposedInterface$HookHandle;)V
+0x179417	Lio/github/libxposed/api/XposedInterface;
+0x17945E	(Ljava/lang/reflect/Executable;)Lio/github/libxposed/api/XposedInterface$HookBuilder;
+0x1794BA	(Ljava/lang/String;)Lio/github/libxposed/api/XposedInterface$HookBuilder;
+0x179514	(Lio/github/libxposed/api/XposedInterface$Hooker;)Lio/github/libxposed/api/XposedInterface$HookHandle;
+0x1795A9	()Lio/github/libxposed/api/XposedInterface$HookHandle;
+0x179B2E	Lio/github/libxposed/api/XposedInterface$HookHandle;
+0x179C09	(Lio/github/libxposed/api/XposedModuleInterface$PackageLoadedParam;)V
+0x179D23	(Lio/github/libxposed/api/XposedInterface;)V

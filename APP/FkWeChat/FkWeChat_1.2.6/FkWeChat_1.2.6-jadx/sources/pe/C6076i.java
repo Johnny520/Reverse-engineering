@@ -1,0 +1,86 @@
+package pe;
+
+import be.AbstractC1113a;
+import be.C1115c;
+import be.C1116d;
+import me.C5164c;
+import me.C5168g;
+import ne.AbstractC5591c;
+import ne.InterfaceC5590b;
+import okhttp3.internal.url._UrlKt;
+import p175le.C4752a;
+import p217oe.AbstractC5741c;
+import p217oe.C5739a;
+import p217oe.InterfaceC5740b;
+
+/* JADX INFO: renamed from: pe.i */
+/* JADX INFO: compiled from: r8-map-id-41ef8b4051cf12c4299b71f89f7150459dca1d84aebb9e505d81ecf50968f600 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C6076i extends AbstractC5741c {
+
+    /* JADX INFO: renamed from: e */
+    public final char f19075e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C6076i(InterfaceC5590b interfaceC5590b, C5168g.a aVar, char c10) {
+        super(interfaceC5590b, aVar);
+        interfaceC5590b.getClass();
+        aVar.getClass();
+        this.f19075e = c10;
+    }
+
+    @Override // p217oe.InterfaceC5740b
+    /* JADX INFO: renamed from: b */
+    public boolean mo12775b() {
+        return true;
+    }
+
+    @Override // p217oe.InterfaceC5740b
+    /* JADX INFO: renamed from: c */
+    public boolean mo12776c(C5164c.a aVar) {
+        aVar.getClass();
+        return aVar.m21192i() == -1;
+    }
+
+    @Override // p217oe.AbstractC5741c
+    /* JADX INFO: renamed from: g */
+    public int mo12777g(C5164c.a aVar) {
+        aVar.getClass();
+        Integer numM21189f = aVar.m21189f();
+        if (numM21189f != null) {
+            return numM21189f.intValue();
+        }
+        return -1;
+    }
+
+    @Override // p217oe.AbstractC5741c
+    /* JADX INFO: renamed from: h */
+    public InterfaceC5740b.c mo12778h(C5164c.a aVar, InterfaceC5590b interfaceC5590b) {
+        aVar.getClass();
+        interfaceC5590b.getClass();
+        C4752a c4752a = C4752a.f14072a;
+        if (!(aVar.m21192i() == -1)) {
+            throw new C1116d(_UrlKt.FRAGMENT_ENCODE_SET);
+        }
+        C5739a c5739a = C5739a.f18090a;
+        int iM23216a = c5739a.m23216a(aVar, m23238i());
+        if (iM23216a >= 3) {
+            return InterfaceC5740b.c.f18100d.m23236b();
+        }
+        C5164c.a aVarM23218c = c5739a.m23218c(aVar, iM23216a);
+        return aVarM23218c == null ? InterfaceC5740b.c.f18100d.m23236b() : !AbstractC5591c.m22692d(AbstractC5591c.m22689a(m23238i(), aVarM23218c), m23238i()) ? InterfaceC5740b.c.f18100d.m23236b() : InterfaceC5740b.c.f18100d.m23237c();
+    }
+
+    @Override // p217oe.AbstractC5741c
+    /* JADX INFO: renamed from: j */
+    public InterfaceC5740b.a mo12779j() {
+        return InterfaceC5740b.a.f18092q;
+    }
+
+    @Override // p217oe.AbstractC5741c
+    /* JADX INFO: renamed from: k */
+    public AbstractC1113a mo12780k() {
+        char c10 = this.f19075e;
+        return (c10 == '-' || c10 == '*' || c10 == '+') ? C1115c.f3353c : C1115c.f3354d;
+    }
+}
