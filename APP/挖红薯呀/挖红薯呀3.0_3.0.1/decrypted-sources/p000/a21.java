@@ -1,0 +1,203 @@
+package p000;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+/* JADX INFO: compiled from: r8-map-id-e5f12e05914b1567e56537e51cf4f61ddbc52d612246f0b3fdf98f4190b0dcf6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class a21 extends AbstractC0112d0 {
+
+    /* JADX INFO: renamed from: e */
+    public static final a21 f28e = new a21(new Object[0]);
+
+    /* JADX INFO: renamed from: d */
+    public final Object[] f29d;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public a21(Object[] objArr) {
+        this.f29d = objArr;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0597p
+    /* JADX INFO: renamed from: a */
+    public final int mo6a() {
+        return this.f29d.length;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: b */
+    public final AbstractC0112d0 mo7b(int i, Object obj) {
+        Object[] objArr = this.f29d;
+        z60.m5444n(i, objArr.length);
+        if (i == objArr.length) {
+            return mo8c(obj);
+        }
+        if (objArr.length < 32) {
+            Object[] objArr2 = new Object[objArr.length + 1];
+            AbstractC0201f9.m1059e0(objArr, objArr2, 0, i, 6);
+            AbstractC0201f9.m1057c0(objArr, objArr2, i + 1, i, objArr.length);
+            objArr2[i] = obj;
+            return new a21(objArr2);
+        }
+        Object[] objArrCopyOf = Arrays.copyOf(objArr, objArr.length);
+        AbstractC0201f9.m1057c0(objArr, objArrCopyOf, i + 1, i, objArr.length - 1);
+        objArrCopyOf[i] = obj;
+        Object[] objArr3 = new Object[32];
+        objArr3[0] = objArr[31];
+        return new pq0(objArrCopyOf, objArr3, objArr.length + 1, 0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: c */
+    public final AbstractC0112d0 mo8c(Object obj) {
+        Object[] objArr = this.f29d;
+        if (objArr.length < 32) {
+            Object[] objArrCopyOf = Arrays.copyOf(objArr, objArr.length + 1);
+            objArrCopyOf[objArr.length] = obj;
+            return new a21(objArrCopyOf);
+        }
+        Object[] objArr2 = new Object[32];
+        objArr2[0] = obj;
+        return new pq0(objArr, objArr2, objArr.length + 1, 0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: d */
+    public final AbstractC0112d0 mo9d(Collection collection) {
+        Object[] objArr = this.f29d;
+        if (collection.size() + objArr.length > 32) {
+            qq0 qq0VarMo10e = mo10e();
+            qq0VarMo10e.addAll(collection);
+            return qq0VarMo10e.m3301c();
+        }
+        Object[] objArrCopyOf = Arrays.copyOf(objArr, collection.size() + objArr.length);
+        int length = objArr.length;
+        Iterator it = collection.iterator();
+        while (it.hasNext()) {
+            objArrCopyOf[length] = it.next();
+            length++;
+        }
+        return new a21(objArrCopyOf);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: e */
+    public final qq0 mo10e() {
+        return new qq0(this, null, this.f29d, 0);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: f */
+    public final AbstractC0112d0 mo11f(C0074c0 c0074c0) {
+        Object[] objArr = this.f29d;
+        int length = objArr.length;
+        int length2 = objArr.length;
+        Object[] objArrCopyOf = objArr;
+        boolean z = false;
+        for (int i = 0; i < length2; i++) {
+            Object obj = objArr[i];
+            if (((Boolean) c0074c0.invoke(obj)).booleanValue()) {
+                if (!z) {
+                    objArrCopyOf = Arrays.copyOf(objArr, objArr.length);
+                    z = true;
+                    length = i;
+                }
+            } else if (z) {
+                objArrCopyOf[length] = obj;
+                length++;
+            }
+        }
+        return length == objArr.length ? this : length == 0 ? f28e : new a21(AbstractC0201f9.m1060f0(objArrCopyOf, 0, length));
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: g */
+    public final AbstractC0112d0 mo12g(int i) {
+        Object[] objArr = this.f29d;
+        z60.m5443m(i, objArr.length);
+        if (objArr.length == 1) {
+            return f28e;
+        }
+        Object[] objArrCopyOf = Arrays.copyOf(objArr, objArr.length - 1);
+        AbstractC0201f9.m1057c0(objArr, objArrCopyOf, i, i + 1, objArr.length);
+        return new a21(objArrCopyOf);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // java.util.List
+    public final Object get(int i) {
+        Object[] objArr = this.f29d;
+        z60.m5443m(i, objArr.length);
+        return objArr[i];
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0112d0
+    /* JADX INFO: renamed from: h */
+    public final AbstractC0112d0 mo13h(int i, Object obj) {
+        Object[] objArr = this.f29d;
+        z60.m5443m(i, objArr.length);
+        Object[] objArrCopyOf = Arrays.copyOf(objArr, objArr.length);
+        objArrCopyOf[i] = obj;
+        return new a21(objArrCopyOf);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0945y, java.util.List
+    public final int indexOf(Object obj) {
+        return AbstractC0201f9.m1066l0(this.f29d, obj);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0945y, java.util.List
+    public final int lastIndexOf(Object obj) {
+        Object[] objArr = this.f29d;
+        if (obj == null) {
+            int length = objArr.length - 1;
+            if (length >= 0) {
+                while (true) {
+                    int i = length - 1;
+                    if (objArr[length] == null) {
+                        return length;
+                    }
+                    if (i < 0) {
+                        break;
+                    }
+                    length = i;
+                }
+            }
+        } else {
+            int length2 = objArr.length - 1;
+            if (length2 >= 0) {
+                while (true) {
+                    int i2 = length2 - 1;
+                    if (obj.equals(objArr[length2])) {
+                        return length2;
+                    }
+                    if (i2 < 0) {
+                        break;
+                    }
+                    length2 = i2;
+                }
+            }
+        }
+        return -1;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // p000.AbstractC0945y, java.util.List
+    public final ListIterator listIterator(int i) {
+        Object[] objArr = this.f29d;
+        z60.m5444n(i, objArr.length);
+        return new C0720sb(objArr, i, objArr.length);
+    }
+}

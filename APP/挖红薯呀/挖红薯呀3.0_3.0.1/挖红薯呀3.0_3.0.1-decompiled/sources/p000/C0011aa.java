@@ -1,0 +1,52 @@
+package p000;
+
+import android.text.TextPaint;
+import android.text.style.MetricAffectingSpan;
+
+/* JADX INFO: renamed from: aa */
+/* JADX INFO: compiled from: r8-map-id-e5f12e05914b1567e56537e51cf4f61ddbc52d612246f0b3fdf98f4190b0dcf6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0011aa extends MetricAffectingSpan {
+
+    /* JADX INFO: renamed from: d */
+    public final /* synthetic */ int f75d;
+
+    /* JADX INFO: renamed from: e */
+    public final float f76e;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public /* synthetic */ C0011aa(float f, int i) {
+        this.f75d = i;
+        this.f76e = f;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // android.text.style.CharacterStyle
+    public final void updateDrawState(TextPaint textPaint) {
+        int i = this.f75d;
+        float f = this.f76e;
+        switch (i) {
+            case 0:
+                textPaint.baselineShift += (int) Math.ceil(textPaint.ascent() * f);
+                break;
+            default:
+                textPaint.setTextSkewX(textPaint.getTextSkewX() + f);
+                break;
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // android.text.style.MetricAffectingSpan
+    public final void updateMeasureState(TextPaint textPaint) {
+        int i = this.f75d;
+        float f = this.f76e;
+        switch (i) {
+            case 0:
+                textPaint.baselineShift += (int) Math.ceil(textPaint.ascent() * f);
+                break;
+            default:
+                textPaint.setTextSkewX(textPaint.getTextSkewX() + f);
+                break;
+        }
+    }
+}
