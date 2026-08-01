@@ -1,0 +1,30 @@
+package me.hd.wauxv.obf;
+
+import java.util.LinkedHashSet;
+import java.util.List;
+import org.luckypray.dexkit.DexKitBridge;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class cey extends ApiHookItem implements IDexFind {
+    public static final cey a = new cey();
+    public static final LinkedHashSet b = new LinkedHashSet();
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final void initOnce() {
+        List listBf = dqc.toSingletonList(StaticHelpers7.toDexMethod(cew.a));
+        cey ceyVar = a;
+        HookManager hookManagerVarAb = PackageParam.createHook(ceyVar, listBf);
+        hookManagerVarAb.hookBefore(new EvenAnotherHugeSyntheticPileOfClosuresThatActsDifferentlyBasedOnConstructorArg(7));
+        hookManagerVarAb.initInstantCollectionAndApplyHooks();
+        HookManager hookManagerVarAb2 = PackageParam.createHook(ceyVar, dqc.toSingletonList(StaticHelpers7.toDexMethod(cex.a)));
+        hookManagerVarAb2.hookAfter(new EvenAnotherHugeSyntheticPileOfClosuresThatActsDifferentlyBasedOnConstructorArg(6));
+        hookManagerVarAb2.initInstantCollectionAndApplyHooks();
+    }
+
+    @Override // me.hd.wauxv.obf.IDexFind
+    public final void dexFind(DexKitBridge dexKitBridge) {
+        StaticHelpers7.resolveDexAndCache(cew.a, dexKitBridge, new EvenAnotherHugeSyntheticPileOfClosuresThatActsDifferentlyBasedOnConstructorArg(10));
+        StaticHelpers7.resolveDexAndCache(cex.a, dexKitBridge, new EvenAnotherHugeSyntheticPileOfClosuresThatActsDifferentlyBasedOnConstructorArg(11));
+    }
+}

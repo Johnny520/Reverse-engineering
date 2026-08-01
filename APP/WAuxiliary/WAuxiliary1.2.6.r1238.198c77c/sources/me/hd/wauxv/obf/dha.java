@@ -1,0 +1,42 @@
+package me.hd.wauxv.obf;
+
+import java.util.List;
+import org.luckypray.dexkit.DexKitBridge;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class dha extends SwitchHook implements IDexFind {
+    public static final dha a = new dha("ShareSignatureHook" /* "ShareSignatureHook" /* "ShareSignatureHook" /* cnb.z(-514932219050794L)  */);
+    public static final String b = "杂项" /* "杂项" /* "杂项" /* cnb.z(-516723220413226L)  */;
+    public static final String c = "分享签名校验" /* "分享签名校验" /* "分享签名校验" /* cnb.z(-516675975772970L)  */;
+    public static final String i = "绕过第三方应用分享到微信的签名校验" /* "绕过第三方应用分享到微信的签名校验" /* "绕过第三方应用分享到微信的签名校验" /* cnb.z(-516697450609450L)  */;
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final void initOnce() {
+        List listBf = dqc.toSingletonList(StaticHelpers7.toDexMethod(dgz.a));
+        dha dhaVar = a;
+        HookManager hookManagerVarAb = PackageParam.createHook(dhaVar, listBf);
+        dhaVar.hookBefore(hookManagerVarAb, new dbj(27));
+        hookManagerVarAb.initInstantCollectionAndApplyHooks();
+    }
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final String getName() {
+        return c;
+    }
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final String getCategory() {
+        return b;
+    }
+
+    @Override // me.hd.wauxv.obf.IDexFind
+    public final void dexFind(DexKitBridge dexKitBridge) {
+        StaticHelpers7.resolveDexAndCache(dgz.a, dexKitBridge, new dbj(28));
+    }
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final String getDescription() {
+        return i;
+    }
+}

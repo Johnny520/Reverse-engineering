@@ -1,0 +1,146 @@
+package me.hd.wauxv.obf;
+
+import android.R;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Process;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class bka implements IInvokable {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Object b;
+    public final /* synthetic */ Object c;
+
+    public /* synthetic */ bka(Object obj, int i, Object obj2) {
+        this.a = i;
+        this.b = obj;
+        this.c = obj2;
+    }
+
+    @Override // me.hd.wauxv.obf.bgf
+    public final Object invoke(Object obj) {
+        cjg cjgVarD;
+        Class cls;
+        int i = this.a;
+        int i2 = 2;
+        kotlinx$coroutines$internal$DispatchedContinuation afwVar = null;
+        Kotlin$Unit kotlinUnitVar = Kotlin$Unit.INSTANCE;
+        Object obj2 = this.c;
+        Object obj3 = this.b;
+        switch (i) {
+            case 0:
+                ((Dispatcher2) obj3).f.removeCallbacks((hl) obj2);
+                return kotlinUnitVar;
+            case 1:
+                ant antVar = (ant) obj3;
+                int iIntValue = ((Integer) obj).intValue();
+                antVar.ai();
+                bbe bbeVar = (bbe) ((List) ((DefaultConfig) obj2).c).get(iIntValue);
+                String str = bbeVar.d;
+                String str2 = bbeVar.e;
+                if (nullSafeIsEqual(str, "activity" /* "activity" /* "activity" /* "activity" /* cnb.z(-550730771462954L)   */)) {
+                    Intent intent = new Intent();
+                    intent.setClassName(antVar.getContext(), str2);
+                    antVar.getContext().startActivity(intent);
+                } else if (nullSafeIsEqual(str, "wauxv" /* "wauxv" /* "wauxv" /* "wauxv" /* cnb.z(-550709296626474L)   */)) {
+                    bbj.a.getClass();
+                    if (nullSafeIsEqual(str2, "clearUnreadCount" /* "clearUnreadCount" /* "clearUnreadCount" /* "clearUnreadCount" /* cnb.z(-553591219682090L)   */)) {
+                        KotlinHelpers2.bf(Dispatchers$IO.INSTANCE, new lw(2, null, 3));
+                    } else if (nullSafeIsEqual(str2, "killProcess" /* "killProcess" /* "killProcess" /* "killProcess" /* cnb.z(-553535385107242L)   */)) {
+                        Process.killProcess(Process.myPid());
+                    }
+                }
+                return kotlinUnitVar;
+            case 2:
+                cjg cjgVar = (cjg) obj3;
+                cix cixVar = ((cjl) obj2).b;
+                cjp cjpVar = (cjp) obj;
+                throwIfVar1IsNull(cjpVar, "$this$navOptions");
+                cjn cjnVar = cjpVar.a;
+                cjnVar.a = 0;
+                cjnVar.b = 0;
+                if (cjgVar instanceof cji) {
+                    int i3 = cjg.e;
+                    for (cjg cjgVar2 : dfv.ai(cjgVar, new cgu(19))) {
+                        cjg cjgVarAf = cixVar.af();
+                        if (nullSafeIsEqual(cjgVar2, cjgVarAf != null ? cjgVarAf.h : null)) {
+                        }
+                    }
+                    int i4 = cji.a;
+                    cjpVar.d = ((cjg) dfv.aj(dfv.ai(cixVar.ag(), new cgu(20)))).g.a;
+                    cjpVar.e = true;
+                }
+                return kotlinUnitVar;
+            case 3:
+                ckl cklVar = (ckl) obj3;
+                cjo cjoVar = (cjo) obj2;
+                cio cioVar = (cio) obj;
+                throwIfVar1IsNull(cioVar, "backStackEntry");
+                ciq ciqVar = cioVar.h;
+                cjg cjgVar3 = cioVar.b;
+                if (cjgVar3 == null) {
+                    cjgVar3 = null;
+                }
+                if (cjgVar3 == null || (cjgVarD = cklVar.d(cjgVar3, ciqVar.l(), cjoVar)) == null) {
+                    return null;
+                }
+                return cjgVarD.equals(cjgVar3) ? cioVar : cklVar.w().j(cjgVarD, cjgVarD.k(ciqVar.l()));
+            case 4:
+                Activity activity = (Activity) obj2;
+                dnc.tryGetClassByName(activity, (String) obj3);
+                dnc.sendToast(activity, 2, "复制成功" /* "复制成功" /* "复制成功" /* "复制成功" /* cnb.z(-583308098403114L)   */);
+                return kotlinUnitVar;
+            default:
+                euh euhVar = (euh) obj2;
+                HookManager.l((HookManager) obj3);
+                Object objE = ((HookParam) obj).getThisObject();
+                if (!(objE instanceof Context)) {
+                    objE = null;
+                }
+                Context context = (Context) objE;
+                if (context == null) {
+                    cls = Context.class;
+                    Class<Context> clsBf = HugeSyntheticPileOfHelpers.getPrimitiveTypeClassByJWrapperClass(dal.getKClassFromClass(cls));
+                    throw new IllegalStateException("HookParam instance cannot cast to "
+                            .concat((clsBf != null ? clsBf : Context.class).getName()).toString());
+                }
+                TextView textView = new TextView(context);
+                textView.setTextSize(16.0f);
+                textView.setText("正在加载核心中..." /* "正在加载核心中..." /* "正在加载核心中..." /* "正在加载核心中..." /* cnb.z(-82948703386410L)   */);
+                textView.setLayoutParams(new LinearLayout.LayoutParams(-2, -2));
+                ProgressBar progressBar = new ProgressBar(context, null, R.attr.progressBarStyleHorizontal);
+                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(-1, -2);
+                layoutParams.setMargins(32, 32, 32, 32);
+                progressBar.setLayoutParams(layoutParams);
+                AlertDialog.Builder title = new AlertDialog.Builder(context).setTitle("WAuxiliary" /*
+                                                                                                    * cnb.z(-
+                                                                                                    * 82935818484522L)
+                                                                                                    */);
+                LinearLayout linearLayout = new LinearLayout(context);
+                linearLayout.setOrientation(1);
+                linearLayout.setGravity(17);
+                linearLayout.setPadding(32, 32, 32, 32);
+                linearLayout.addView(textView);
+                linearLayout.addView(progressBar);
+                AlertDialog alertDialogShow = title.setView(linearLayout).setCancelable(false).show();
+                Dispatchers$Default alcVar2 = StaticDefaultDispatcherProvider.DISPATCHERS_DEFAULT;
+                Dispatchers$IO akqVar = Dispatchers$IO.INSTANCE;
+                bhp bhpVar = new bhp(euhVar, textView, progressBar, alertDialogShow, null);
+                ahh ahhVarT = KotlinHelpers.t(EmptyCoroutineContext.INSTANCE, akqVar);
+                Dispatchers$Default alcVar3 = StaticDefaultDispatcherProvider.DISPATCHERS_DEFAULT;
+                if (ahhVarT != alcVar3 && ahhVarT._w(arj.a) == null) {
+                    ahhVarT = ahhVarT._v(alcVar3);
+                }
+                SomeDispatchedContinuation dmfVar = new SomeBaseDispatchedContinuation(ahhVarT, true);
+                dmfVar.h(SomeEnum.DEFAULT, dmfVar, bhpVar);
+                return kotlinUnitVar;
+        }
+    }
+}

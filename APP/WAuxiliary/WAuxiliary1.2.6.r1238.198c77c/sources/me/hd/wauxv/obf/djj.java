@@ -1,0 +1,35 @@
+package me.hd.wauxv.obf;
+
+import java.lang.reflect.Method;
+import org.luckypray.dexkit.DexKitBridge;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class djj extends ApiHookItem implements IDexFind {
+    public static final djj a = new djj();
+
+    public static Object b(String str) {
+        dji djiVar = dji.a;
+        Method methodBb = StaticHelpers7.toDexMethod(djiVar);
+        dis.a.getClass();
+        int i = 0;
+        MethodResolver methodResolverVarT = dqc.bh(StaticHelpers7.toDexClass(dir.a)).getMethodResolverBasedOnPreviouslyProvidedConfig();
+        methodResolverVarT.addAccessModifiers(AccessModifierEnum.STATIC);
+        a.getClass();
+        methodResolverVarT.returnType = StaticHelpers7.toDexMethod(djiVar).getDeclaringClass();
+        Object objE = ((MethodHookWrapper) bjs.resolveFirstMethodWithoutParams(methodResolverVarT)).invokeAndThrowIfFailed(new Object[0]);
+        throwIfVar1IsNull(objE);
+        Object objInvoke = methodBb.invoke(objE, str);
+        throwIfVar1IsNull(objInvoke);
+        return objInvoke;
+    }
+
+    @Override // me.hd.wauxv.obf.SwitchHook
+    public final void initOnce() {
+    }
+
+    @Override // me.hd.wauxv.obf.IDexFind
+    public final void dexFind(DexKitBridge dexKitBridge) {
+        StaticHelpers7.resolveDexAndCache(dji.a, dexKitBridge, new dhg(25));
+    }
+}

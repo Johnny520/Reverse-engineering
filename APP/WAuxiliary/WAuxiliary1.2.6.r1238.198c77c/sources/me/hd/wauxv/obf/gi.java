@@ -1,0 +1,387 @@
+package me.hd.wauxv.obf;
+
+import android.app.Activity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.google.android.material.checkbox.MaterialCheckBox;
+import com.google.android.material.textfield.TextInputEditText;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import me.hd.wauxv.R;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class gi implements bgf {
+    public final /* synthetic */ int a;
+
+    public /* synthetic */ gi(int i) {
+        this.a = i;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r0v148 */
+    /* JADX WARN: Type inference failed for: r0v168 */
+    /* JADX WARN: Type inference failed for: r0v169 */
+    @Override // me.hd.wauxv.obf.bgf
+    public final Object invoke(Object obj) throws IllegalAccessException, JSONException, NoSuchMethodException, InvocationTargetException {
+        Object objX;
+        Object objX2;
+        Object objX3;
+        Object objX4;
+        Object objX5;
+        Object objX6;
+        Object objX7;
+        ?? r0;
+        Class cls;
+        int i = this.a;
+        int i2 = 8;
+        Kotlin$Unit kotlinUnitVar = Kotlin$Unit.INSTANCE;
+        switch (i) {
+            case 0:
+                ((HookParam) obj).h(null);
+                return kotlinUnitVar;
+            case 1:
+                HookParam hookParam = (HookParam) obj;
+                hookParam.getClass();
+                try {
+                    objX = hookParam.d()[0];
+                    if (objX == null) {
+                        objX = null;
+                    }
+                } catch (Throwable th) {
+                    objX = FastKV.getFailureFromException(th);
+                }
+                if (objX instanceof Failure) {
+                    objX = null;
+                }
+                if (objX != null) {
+                    int i3 = 0;
+                    MethodResolver methodResolverVarT = dqc.getWrapperConfiguration(objX).getMethodResolverBasedOnPreviouslyProvidedConfig();
+                    methodResolverVarT.returnType = dal.getKClassFromClass(Integer.TYPE);
+                    Object objJ = ((MethodHookWrapper) StaticHelpers6.resolveFirstMethod(methodResolverVarT)).invoke(new Object[0]);
+                    throwIfVar1IsNull(objJ);
+                    switch (((Number) objJ).intValue()) {
+                        case 61:
+                        case 62:
+                        case 63:
+                            new ek(hookParam, 0, 8).q(null);
+                        default:
+                            return kotlinUnitVar;
+                    }
+                }
+                return kotlinUnitVar;
+            case 2:
+                FindDexClassMethodDslWrapper findDexClassMethodDslWrapperVar = (FindDexClassMethodDslWrapper) obj;
+                findDexClassMethodDslWrapperVar.onClassCallback = new gi(5);
+                findDexClassMethodDslWrapperVar.onMethodCallback = new gi(6);
+                return kotlinUnitVar;
+            case 3:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(i2);
+                return kotlinUnitVar;
+            case 4:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(7);
+                return kotlinUnitVar;
+            case 5:
+                DexClassQueryBuilder dexClassQueryBuilderVar = (DexClassQueryBuilder) obj;
+                DexMethodGroupMatcher zbVar = new DexMethodGroupMatcher();
+                zbVar.usingEqStrings("MicroMsg.OplogService" /* "MicroMsg.OplogService" /* "MicroMsg.OplogService" /* "MicroMsg.OplogService" /* cnb.z(-636810506009386L)   */, "openim op success, type:%d id %d" /* "openim op success, type:%d id %d" /* "openim op success, type:%d id %d" /* "openim op success, type:%d id %d" /* cnb.z(-636698836859690L)   */);
+                dexClassQueryBuilderVar.getClass();
+                dexClassQueryBuilderVar.methodGroupMatcher = zbVar;
+                return kotlinUnitVar;
+            case 6:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar = (DexMethodQueryBuilder) obj;
+                DexFinder cdjVar = new DexFinder();
+                cdjVar.usingStrings("inserTime" /* "inserTime" /* "inserTime" /* "inserTime" /* cnb.z(-637124038621994L)   */, "cmdId" /* "cmdId" /* "cmdId" /* "cmdId" /* cnb.z(-637098268818218L)   */, "buffer" /* "buffer" /* "buffer" /* "buffer" /* cnb.z(-637055319145258L)   */);
+                dexMethodQueryBuilderVar.getClass();
+                dexMethodQueryBuilderVar.dexFinder = cdjVar;
+                return kotlinUnitVar;
+            case 7:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar2 = (DexMethodQueryBuilder) obj;
+                DexFinder cdjVar2 = new DexFinder();
+                cdjVar2.usingStrings("MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* cnb.z(-634108971580202L)   */, "data is null." /* "data is null." /* "data is null." /* "data is null." /* cnb.z(-633950057790250L)   */);
+                cdjVar2.u(8108);
+                dexMethodQueryBuilderVar2.getClass();
+                dexMethodQueryBuilderVar2.dexFinder = cdjVar2;
+                return kotlinUnitVar;
+            case 8:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar3 = (DexMethodQueryBuilder) obj;
+                DexFinder cdjVar3 = new DexFinder();
+                cdjVar3.usingStrings("MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* "MicroMsg.SecInfoReporterImpl" /* cnb.z(-637008074505002L)   */, "data is null." /* "data is null." /* "data is null." /* "data is null." /* cnb.z(-634117561514794L)   */);
+                cdjVar3.u(771);
+                dexMethodQueryBuilderVar3.getClass();
+                dexMethodQueryBuilderVar3.dexFinder = cdjVar3;
+                return kotlinUnitVar;
+            case 9:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(10);
+                return kotlinUnitVar;
+            case 10:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar4 = (DexMethodQueryBuilder) obj;
+                String[] strArr = {"com.tencent.mm.ui.chatting.manager" /* "com.tencent.mm.ui.chatting.manager" /* "com.tencent.mm.ui.chatting.manager" /* "com.tencent.mm.ui.chatting.manager" /* cnb.z(-100351910869802L)   */};
+                dexMethodQueryBuilderVar4.getClass();
+                dexMethodQueryBuilderVar4.searchedPackages = SomeStaticHelpers.arrayToList(strArr);
+                DexFinder cdjVar4 = new DexFinder();
+                cdjVar4.usingStrings("[get] " /* "[get] " /* "[get] " /* "[get] " /* cnb.z(-97418448206634L)   */, " is not a interface!" /* " is not a interface!" /* " is not a interface!" /* " is not a interface!" /* cnb.z(-97439923043114L)   */);
+                dexMethodQueryBuilderVar4.dexFinder = cdjVar4;
+                return kotlinUnitVar;
+            case 11:
+                HookParam hookParam2 = (HookParam) obj;
+                hookParam2.getClass();
+                try {
+                    objX2 = hookParam2.d()[0];
+                    if (objX2 == null) {
+                        objX2 = null;
+                    }
+                } catch (Throwable th2) {
+                    objX2 = FastKV.getFailureFromException(th2);
+                }
+                if (objX2 instanceof Failure) {
+                    objX2 = null;
+                }
+                try {
+                    objX3 = hookParam2.d()[1];
+                    if (objX3 == null) {
+                        objX3 = null;
+                    }
+                } catch (Throwable th3) {
+                    objX3 = FastKV.getFailureFromException(th3);
+                }
+                String str = (String) (objX3 instanceof Failure ? null : objX3);
+                JSONObject jSONObject = new JSONObject(str != null ? str : "");
+                if (nullSafeIsEqual(jSONObject.get("api_name" /* "api_name" /* "api_name" /* "api_name" /* cnb.z(-412488659106602L)   */), "webapi_getadvert" /* "webapi_getadvert" /* "webapi_getadvert" /* "webapi_getadvert" /* cnb.z(-412450004400938L)   */)) {
+                    JSONObject jSONObject2 = jSONObject.getJSONObject("data" /* "data" /* "data" /* "data" /* cnb.z(-412325450349354L)   */);
+                    jSONObject2.put("ad_unit_id" /* "ad_unit_id" /* "ad_unit_id" /* "ad_unit_id" /* cnb.z(-412338335251242L)   */, "" /* "" /* "" /* "" /* cnb.z(-412806486686506L)   */);
+                    jSONObject.put("data" /* "data" /* "data" /* "data" /* cnb.z(-412802191719210L)   */, jSONObject2);
+                    new ek(hookParam2, 1, 8).q(jSONObject.toString());
+                }
+                return kotlinUnitVar;
+            case 12:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(13);
+                return kotlinUnitVar;
+            case 13:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar5 = (DexMethodQueryBuilder) obj;
+                DexFinder cdjVar5 = new DexFinder();
+                cdjVar5.v("NetSceneJSOperateWxData" /* "NetSceneJSOperateWxData" /* "NetSceneJSOperateWxData" /* "NetSceneJSOperateWxData" /* cnb.z(-412832256490282L)   */, "<init> hash[%d] appId [%s], data [%s], grantScope [%s], versionType [%d], opt [%d], extScene [%d]  sessionId [%s]  avatarOpt [%d]" /* "<init> hash[%d] appId [%s], data [%s], grantScope [%s], versionType [%d], opt [%d], extScene [%d]  sessionId [%s]  avatarOpt [%d]" /* "<init> hash[%d] appId [%s], data [%s], grantScope [%s], versionType [%d], opt [%d], extScene [%d]  sessionId [%s]  avatarOpt [%d]" /* "<init> hash[%d] appId [%s], data [%s], grantScope [%s], versionType [%d], opt [%d], extScene [%d]  sessionId [%s]  avatarOpt [%d]" /* cnb.z(-412729177275178L)   */);
+                dexMethodQueryBuilderVar5.getClass();
+                dexMethodQueryBuilderVar5.dexFinder = cdjVar5;
+                return kotlinUnitVar;
+            case 14:
+                ((HookParam) obj).setResult(null);
+                return kotlinUnitVar;
+            case 15:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(16);
+                return kotlinUnitVar;
+            case 16:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar6 = (DexMethodQueryBuilder) obj;
+                String[] strArr2 = {"com.tencent.mm.plugin.appbrand.jsapi.auth" /* "com.tencent.mm.plugin.appbrand.jsapi.auth" /* "com.tencent.mm.plugin.appbrand.jsapi.auth" /* "com.tencent.mm.plugin.appbrand.jsapi.auth" /* cnb.z(-409525131672362L)   */};
+                dexMethodQueryBuilderVar6.getClass();
+                dexMethodQueryBuilderVar6.searchedPackages = SomeStaticHelpers.arrayToList(strArr2);
+                DexFinder cdjVar6 = new DexFinder();
+                cdjVar6.usingStrings("MicroMsg.AppBrand.JsApiAdOperateWXData[AppBrandSplashAd]" /* "MicroMsg.AppBrand.JsApiAdOperateWXData[AppBrandSplashAd]" /* "MicroMsg.AppBrand.JsApiAdOperateWXData[AppBrandSplashAd]" /* "MicroMsg.AppBrand.JsApiAdOperateWXData[AppBrandSplashAd]" /* cnb.z(-409361922915114L)   */, "cgi callback, callbackId:%s, service not running or preloaded" /* "cgi callback, callbackId:%s, service not running or preloaded" /* "cgi callback, callbackId:%s, service not running or preloaded" /* "cgi callback, callbackId:%s, service not running or preloaded" /* cnb.z(-410766377220906L)   */);
+                dexMethodQueryBuilderVar6.dexFinder = cdjVar6;
+                return kotlinUnitVar;
+            case 17:
+                HookParam hookParam3 = (HookParam) obj;
+                hookParam3.getClass();
+                try {
+                    objX4 = hookParam3.d()[0];
+                    if (objX4 == null) {
+                        objX4 = null;
+                    }
+                } catch (Throwable th4) {
+                    objX4 = FastKV.getFailureFromException(th4);
+                }
+                if (objX4 instanceof Failure) {
+                    objX4 = null;
+                }
+                String str2 = (String) objX4;
+                String str3 = str2 == null ? "" : str2;
+                try {
+                    objX5 = hookParam3.d()[1];
+                    if (objX5 == null) {
+                        objX5 = null;
+                    }
+                } catch (Throwable th5) {
+                    objX5 = FastKV.getFailureFromException(th5);
+                }
+                String str4 = (String) (objX5 instanceof Failure ? null : objX5);
+                String str5 = str4 != null ? str4 : "";
+                if (str3.equals("onVideoTimeUpdate" /* "onVideoTimeUpdate" /* "onVideoTimeUpdate" /* "onVideoTimeUpdate" /* cnb.z(-434173948984106L)   */)) {
+                    ek ekVar = new ek(hookParam3, 1, 8);
+                    JSONObject jSONObject3 = new JSONObject(str5);
+                    jSONObject3.put("position" /* "position" /* "position" /* "position" /* cnb.z(-434113819441962L)   */, 60);
+                    jSONObject3.put("duration" /* "duration" /* "duration" /* "duration" /* cnb.z(-434092344605482L)   */, 1);
+                    ekVar.q(jSONObject3.toString());
+                }
+                return kotlinUnitVar;
+            case 18:
+                ((FindDexClassMethodDslWrapper) obj).onClassCallback = new gi(19);
+                return kotlinUnitVar;
+            case 19:
+                DexClassQueryBuilder dexClassQueryBuilderVar2 = (DexClassQueryBuilder) obj;
+                DexMethodGroupMatcher zbVar2 = new DexMethodGroupMatcher();
+                zbVar2.usingEqStrings("MicroMsg.AppMessage" /* "MicroMsg.AppMessage" /* "MicroMsg.AppMessage" /* "MicroMsg.AppMessage" /* cnb.z(-107103599459114L)   */, "parse msg failed" /* "parse msg failed" /* "parse msg failed" /* "parse msg failed" /* cnb.z(-107052059851562L)   */);
+                dexClassQueryBuilderVar2.getClass();
+                dexClassQueryBuilderVar2.methodGroupMatcher = zbVar2;
+                return kotlinUnitVar;
+            case 20:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(21);
+                return kotlinUnitVar;
+            case 21:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar7 = (DexMethodQueryBuilder) obj;
+                String[] strArr3 = {"com.tencent.mm.pluginsdk.model.app" /* "com.tencent.mm.pluginsdk.model.app" /* "com.tencent.mm.pluginsdk.model.app" /* "com.tencent.mm.pluginsdk.model.app" /* cnb.z(-120147415137066L)   */};
+                dexMethodQueryBuilderVar7.getClass();
+                dexMethodQueryBuilderVar7.searchedPackages = SomeStaticHelpers.arrayToList(strArr3);
+                DexFinder cdjVar7 = new DexFinder();
+                cdjVar7.usingStrings("MicroMsg.AppMsgLogic" /* "MicroMsg.AppMsgLogic" /* "MicroMsg.AppMsgLogic" /* "MicroMsg.AppMsgLogic" /* cnb.z(-108469399059242L)   */, "summerbig sendAppMsg attachFilePath[%s], content[%s]" /* "summerbig sendAppMsg attachFilePath[%s], content[%s]" /* "summerbig sendAppMsg attachFilePath[%s], content[%s]" /* "summerbig sendAppMsg attachFilePath[%s], content[%s]" /* cnb.z(-108362024876842L)   */);
+                dexMethodQueryBuilderVar7.dexFinder = cdjVar7;
+                return kotlinUnitVar;
+            case 22:
+                View view = (View) obj;
+                View viewK = StaticHelpers6.k(view, R.layout.module_dialog_auto_clean, null, false);
+                int i4 = R.id.moduleDialogEdtAutoCleanCycle;
+                TextInputEditText textInputEditText = (TextInputEditText) KotlinHelpers2.recursivelyFindViewById(viewK, R.id.moduleDialogEdtAutoCleanCycle);
+                if (textInputEditText != null) {
+                    i4 = R.id.moduleDialogInputAutoCleanCycle;
+                    if (KotlinHelpers2.recursivelyFindViewById(viewK, R.id.moduleDialogInputAutoCleanCycle) != null) {
+                        i4 = R.id.moduleDialogRvAutoCleanConfig;
+                        RecyclerView recyclerView = (RecyclerView) KotlinHelpers2.recursivelyFindViewById(viewK, R.id.moduleDialogRvAutoCleanConfig);
+                        if (recyclerView != null) {
+                            LinearLayout linearLayout = (LinearLayout) viewK;
+                            cee ceeVar = new cee(linearLayout, textInputEditText, recyclerView);
+                            textInputEditText.setText(String.valueOf(AutoCleanHook$ValCleanCycle.INSTANCE.getLong()));
+                            view.getContext();
+                            recyclerView.setLayoutManager(new GridLayoutManager());
+                            zm zmVar = new zm(zo.c(), lt.a.getStringSet());
+                            recyclerView.setAdapter(zmVar);
+                            bzy bzyVar = new bzy(view.getContext());
+                            eg egVar = (eg) bzyVar.d;
+                            egVar.d = AutoCleanHook.name;
+                            bzyVar.t("保存", new amw(new ls(ceeVar, 0, zmVar), 0));
+                            bjs.x((3 & 2) != 0 ? new amd(1) : null, bzyVar, "取消");
+                            if (linearLayout != null) {
+                                egVar.r = linearLayout;
+                            }
+                            bzyVar.i().show();
+                            return kotlinUnitVar;
+                        }
+                    }
+                }
+                throw new NullPointerException("Missing required view with ID: " /* "Missing required view with ID: " /* "Missing required view with ID: " /* "Missing required view with ID: " /* cnb.z(-641461955590954L)   */.concat(viewK.getResources().getResourceName(i4)));
+            case 23:
+                return Boolean.valueOf(lt.a.getStringSet().contains(((zn) obj).a));
+            case 24:
+                HookParam hookParam4 = (HookParam) obj;
+                hookParam4.getClass();
+                try {
+                    objX6 = hookParam4.d()[1];
+                    if (objX6 == null) {
+                        objX6 = null;
+                    }
+                } catch (Throwable th6) {
+                    objX6 = FastKV.getFailureFromException(th6);
+                }
+                if (objX6 instanceof Failure) {
+                    objX6 = null;
+                }
+                Boolean bool = (Boolean) objX6;
+                if (!(bool != null ? bool.booleanValue() : false)) {
+                    try {
+                        objX7 = hookParam4.d()[0];
+                        if (objX7 == null) {
+                            objX7 = null;
+                        }
+                    } catch (Throwable th7) {
+                        objX7 = FastKV.getFailureFromException(th7);
+                    }
+                    Object obj2 = objX7 instanceof Failure ? null : objX7;
+                    throwIfVar1IsNull(obj2);
+                    int i5 = 0;
+                    FieldResolver fieldResolverVarR = dqc.getWrapperConfiguration(obj2).createFieldResolver();
+                    fieldResolverVarR.name = "field_UserName" /* "field_UserName" /* "field_UserName" /* "field_UserName" /* cnb.z(-443841920367402L)   */;
+                    Object objE = ((BoundField) yg.enableSuperclassAndResolveFirstField(fieldResolverVarR)).getValue_();
+                    throwIfVar1IsNull(objE);
+                    bcp.a.getClass();
+                    Method methodBb = StaticHelpers7.toDexMethod(bco.a);
+                    ServiceManagerDexFinder.INSTANCE.getClass();
+                    methodBb.invoke(ServiceManagerDexFinder.getServiceByClass(StaticHelpers7.toDexMethod(bcn.a).getDeclaringClass()), (String) objE);
+                }
+                return kotlinUnitVar;
+            case 25:
+                ((FindDexClassMethodDslWrapper) obj).onMethodCallback = new gi(26);
+                return kotlinUnitVar;
+            case 26:
+                DexMethodQueryBuilder dexMethodQueryBuilderVar8 = (DexMethodQueryBuilder) obj;
+                DexFinder cdjVar8 = new DexFinder();
+                cdjVar8.usingStrings("MicroMsg.ForceNotifyStorage" /* "MicroMsg.ForceNotifyStorage" /* "MicroMsg.ForceNotifyStorage" /* "MicroMsg.ForceNotifyStorage" /* cnb.z(-443760315988778L)   */, "[onNewXmlReceived] ret:%s isAdd:%s info:%s" /* "[onNewXmlReceived] ret:%s isAdd:%s info:%s" /* "[onNewXmlReceived] ret:%s isAdd:%s info:%s" /* "[onNewXmlReceived] ret:%s isAdd:%s info:%s" /* cnb.z(-443674416642858L)   */);
+                dexMethodQueryBuilderVar8.getClass();
+                dexMethodQueryBuilderVar8.dexFinder = cdjVar8;
+                return kotlinUnitVar;
+            case 27:
+                View view2 = (View) obj;
+                View viewK2 = StaticHelpers6.k(view2, R.layout.module_dialog_auto_login_win, null, false);
+                int i6 = R.id.moduleDialogCbAutoLoginWinAutoLoginDevice;
+                MaterialCheckBox materialCheckBox = (MaterialCheckBox) KotlinHelpers2.recursivelyFindViewById(viewK2, R.id.moduleDialogCbAutoLoginWinAutoLoginDevice);
+                if (materialCheckBox != null) {
+                    i6 = R.id.moduleDialogCbAutoLoginWinAutoSyncMsg;
+                    MaterialCheckBox materialCheckBox2 = (MaterialCheckBox) KotlinHelpers2.recursivelyFindViewById(viewK2, R.id.moduleDialogCbAutoLoginWinAutoSyncMsg);
+                    if (materialCheckBox2 != null) {
+                        i6 = R.id.moduleDialogCbAutoLoginWinShowLoginDevice;
+                        MaterialCheckBox materialCheckBox3 = (MaterialCheckBox) KotlinHelpers2.recursivelyFindViewById(viewK2, R.id.moduleDialogCbAutoLoginWinShowLoginDevice);
+                        if (materialCheckBox3 != null) {
+                            LinearLayout linearLayout2 = (LinearLayout) viewK2;
+                            cef cefVar = new cef(linearLayout2, materialCheckBox, materialCheckBox2, materialCheckBox3, 0);
+                            materialCheckBox2.setChecked(mb.a.i());
+                            materialCheckBox3.setChecked(mc.a.i());
+                            materialCheckBox.setChecked(ma.a.i());
+                            bzy bzyVar2 = new bzy(view2.getContext());
+                            eg egVar2 = (eg) bzyVar2.d;
+                            md.a.getClass();
+                            egVar2.d = md.c;
+                            bzyVar2.t("保存" /* "保存" /* "保存" /* "保存" /* cnb.z(-512346648738602L)   */, new amw(new bp(cefVar, 4), 0));
+                            bjs.x((3 & 2) != 0 ? new amd(1) : null, bzyVar2, "取消" /* "取消" /* "取消" /* "取消" /* cnb.z(-47455093652266L)   */);
+                            if (linearLayout2 != null) {
+                                egVar2.r = linearLayout2;
+                            }
+                            bzyVar2.i().show();
+                            return kotlinUnitVar;
+                        }
+                    }
+                }
+                throw new NullPointerException("Missing required view with ID: " /* "Missing required view with ID: " /* "Missing required view with ID: " /* "Missing required view with ID: " /* cnb.z(-641324516637482L)   */.concat(viewK2.getResources().getResourceName(i6)));
+            case 28:
+                Object objE2 = ((HookParam) obj).e();
+                Activity activity = (Activity) (objE2 instanceof Activity ? objE2 : null);
+                if (activity == null) {
+                    cls = Activity.class;
+                    Class<Activity> clsBf = HugeSyntheticPileOfHelpers.getPrimitiveTypeClassByJWrapperClass(dal.getKClassFromClass(cls));
+                    throw new IllegalStateException("HookParam instance cannot cast to ".concat((clsBf != null ? clsBf : Activity.class).getName()).toString());
+                }
+                boolean zI = mb.a.i();
+                if (mc.a.i()) {
+                    r0 = zI;
+                    r0 = (zI ? 1 : 0) | 2;
+                }
+                r0 = zI;
+                int i7 = r0;
+                if (ma.a.i()) {
+                    i7 = (r0 == true ? 1 : 0) | 4;
+                }
+                activity.getIntent().putExtra("intent.key.function.control" /* "intent.key.function.control" /* "intent.key.function.control" /* "intent.key.function.control" /* cnb.z(-512350943705898L)   */, i7);
+                return kotlinUnitVar;
+            default:
+                int i8 = 0;
+                FieldResolver fieldResolverVarAa = StaticHelpers6.createFieldResolverFromHookParamThisObject((HookParam) obj);
+                fieldResolverVarAa.fieldType = dal.getKClassFromClass(Button.class);
+                Object objE3 = ((BoundField) StaticHelpers5.safeGetFirstInList(fieldResolverVarAa.resolve())).getValue_();
+                throwIfVar1IsNull(objE3);
+                ((Button) objE3).callOnClick();
+                return kotlinUnitVar;
+        }
+    }
+}

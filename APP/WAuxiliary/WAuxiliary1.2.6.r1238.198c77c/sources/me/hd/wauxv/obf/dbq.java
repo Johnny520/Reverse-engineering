@@ -1,0 +1,165 @@
+package me.hd.wauxv.obf;
+
+import android.app.Activity;
+import android.app.Application;
+import android.app.Fragment;
+import android.os.Build;
+import android.os.Bundle;
+
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public class dbq extends Fragment {
+    public static final /* synthetic */ int a = 0;
+    public SyntheticPileOfMess b;
+
+    /*
+     * JADX INFO: compiled from:
+     * r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6
+     */
+    public static final class a implements Application.ActivityLifecycleCallbacks {
+        public static final dbp Companion = new dbp();
+
+        public static final void registerIn(Activity activity) {
+            Companion.getClass();
+            throwIfVar1IsNull(activity, "activity");
+            activity.registerActivityLifecycleCallbacks(new a());
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityCreated(Activity activity, Bundle bundle) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityDestroyed(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPaused(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPostCreated(Activity activity, Bundle bundle) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_CREATE);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPostResumed(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_RESUME);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPostStarted(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_START);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPreDestroyed(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_DESTROY);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPrePaused(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_PAUSE);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityPreStopped(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+            int i = dbq.a;
+            dbo.a(activity, LifeEventEnum.ON_STOP);
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityResumed(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivitySaveInstanceState(Activity activity, Bundle bundle) {
+            throwIfVar1IsNull(activity, "activity");
+            throwIfVar1IsNull(bundle, "bundle");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityStarted(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+
+        @Override // android.app.Application.ActivityLifecycleCallbacks
+        public void onActivityStopped(Activity activity) {
+            throwIfVar1IsNull(activity, "activity");
+        }
+    }
+
+    public final void c(LifeEventEnum lifeEventEnumVar) {
+        if (Build.VERSION.SDK_INT < 29) {
+            Activity activity = getActivity();
+            throwIfVar1IsNull(activity, "getActivity(...)");
+            dbo.a(activity, lifeEventEnumVar);
+        }
+    }
+
+    @Override // android.app.Fragment
+    public final void onActivityCreated(Bundle bundle) {
+        super.onActivityCreated(bundle);
+        c(LifeEventEnum.ON_CREATE);
+    }
+
+    @Override // android.app.Fragment
+    public final void onDestroy() {
+        super.onDestroy();
+        c(LifeEventEnum.ON_DESTROY);
+        this.b = null;
+    }
+
+    @Override // android.app.Fragment
+    public final void onPause() {
+        super.onPause();
+        c(LifeEventEnum.ON_PAUSE);
+    }
+
+    @Override // android.app.Fragment
+    public final void onResume() {
+        super.onResume();
+        SyntheticPileOfMess bmuVar = this.b;
+        if (bmuVar != null) {
+            ((cvt) bmuVar.obj).j();
+        }
+        c(LifeEventEnum.ON_RESUME);
+    }
+
+    @Override // android.app.Fragment
+    public final void onStart() {
+        super.onStart();
+        SyntheticPileOfMess bmuVar = this.b;
+        if (bmuVar != null) {
+            cvt cvtVar = (cvt) bmuVar.obj;
+            int i = cvtVar.b + 1;
+            cvtVar.b = i;
+            if (i == 1 && cvtVar.e) {
+                cvtVar.g.m(LifeEventEnum.ON_START);
+                cvtVar.e = false;
+            }
+        }
+        c(LifeEventEnum.ON_START);
+    }
+
+    @Override // android.app.Fragment
+    public final void onStop() {
+        super.onStop();
+        c(LifeEventEnum.ON_STOP);
+    }
+}

@@ -1,0 +1,71 @@
+package me.hd.wauxv.obf;
+
+/* JADX WARN: Enum visitor error
+jadx.core.utils.exceptions.JadxRuntimeException: Init of enum field 'a' uses external variables
+	at jadx.core.dex.visitors.EnumVisitor.createEnumFieldByConstructor(EnumVisitor.java:451)
+	at jadx.core.dex.visitors.EnumVisitor.processEnumFieldByRegister(EnumVisitor.java:395)
+	at jadx.core.dex.visitors.EnumVisitor.extractEnumFieldsFromFilledArray(EnumVisitor.java:324)
+	at jadx.core.dex.visitors.EnumVisitor.extractEnumFieldsFromInsn(EnumVisitor.java:262)
+	at jadx.core.dex.visitors.EnumVisitor.convertToEnum(EnumVisitor.java:151)
+	at jadx.core.dex.visitors.EnumVisitor.visit(EnumVisitor.java:100)
+ */
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX INFO: compiled from: r8-map-id-b9de5da7d0413052737328a4e696e1bcc3145db8f6a41e1e318485e124198cd6 */
+/* JADX INFO: loaded from: classes.dex */
+public final class eom {
+    public static final eom a;
+    public static final eom b;
+    public static final eom c;
+    public static final eom d;
+    public static final /* synthetic */ eom[] e;
+    public final int f;
+
+    static {
+        String strZ = "WXID" /* "WXID" /* "WXID" /* cnb.z(-115749368625962L)  */;
+        "微信ID" /* "微信ID" /* "微信ID" /* cnb.z(-121740848003882L)  */;
+        eom eomVar = new eom(2);
+        a = eomVar;
+        String strZ2 = "NAME" /* "NAME" /* "NAME" /* cnb.z(-121770912774954L)  */;
+        "名字" /* "名字" /* "名字" /* cnb.z(-121715078200106L)  */;
+        eom eomVar2 = new eom(4);
+        b = eomVar2;
+        String strZ3 = "EMAIL" /* "EMAIL" /* "EMAIL" /* cnb.z(-121736553036586L)  */;
+        "邮箱" /* "邮箱" /* "邮箱" /* cnb.z(-121693603363626L)  */;
+        eom eomVar3 = new eom(5);
+        String strZ4 = "PHONE" /* "PHONE" /* "PHONE" /* cnb.z(-121697898330922L)  */;
+        "手机" /* "手机" /* "手机" /* cnb.z(-121654948657962L)  */;
+        eom eomVar4 = new eom(6);
+        String strZ5 = "QQ" /* "QQ" /* "QQ" /* cnb.z(-121607704017706L)  */;
+        "QQ" /* "QQ" /* "QQ" /* cnb.z(-121611998985002L)  */;
+        eom eomVar5 = new eom(9);
+        String strZ6 = "ALIAS" /* "ALIAS" /* "ALIAS" /* cnb.z(-121633473821482L)  */;
+        "微信号" /* "微信号" /* "微信号" /* cnb.z(-121590524148522L)  */;
+        eom eomVar6 = new eom(42);
+        c = eomVar6;
+        String strZ7 = "SEX" /* "SEX" /* "SEX" /* cnb.z(-121538984540970L)  */;
+        "性别" /* "性别" /* "性别" /* cnb.z(-121556164410154L)  */;
+        eom eomVar7 = new eom(12290);
+        String strZ8 = "SIGN" /* "SIGN" /* "SIGN" /* cnb.z(-121560459377450L)  */;
+        "签名" /* "签名" /* "签名" /* cnb.z(-121521804671786L)  */;
+        eom eomVar8 = new eom(12291);
+        d = eomVar8;
+        String strZ9 = "CITY" /* "CITY" /* "CITY" /* cnb.z(-121526099639082L)  */;
+        "城市" /* "城市" /* "城市" /* cnb.z(-122037200747306L)  */;
+        eom eomVar9 = new eom(12292);
+        String strZ10 = "PROVINCE" /* "PROVINCE" /* "PROVINCE" /* cnb.z(-122041495714602L)  */;
+        "省份" /* "省份" /* "省份" /* cnb.z(-121951301401386L)  */;
+        e = new eom[]{eomVar, eomVar2, eomVar3, eomVar4, eomVar5, eomVar6, eomVar7, eomVar8, eomVar9, new eom(12293)};
+    }
+
+    public eom(int i2) {
+        this.f = i2;
+    }
+
+    public static eom valueOf(String str) {
+        return (eom) Enum.valueOf(eom.class, str);
+    }
+
+    public static eom[] values() {
+        return (eom[]) e.clone();
+    }
+}
