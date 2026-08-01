@@ -1,0 +1,9 @@
+{
+  "source_root": "D:\\folder\\codex\\geek-wechat1.2.75_flow_sign_jadx",
+  "output_root": "D:\\folder\\codex\\geek-wechat1.2.75_flow_sign_jadx_decrypted",
+  "unique_static_pairs": 1062,
+  "replaced_call_sites": 1091,
+  "touched_files": 50,
+  "remaining_dynamic_call_sites": 26,
+  "failures": []
+}

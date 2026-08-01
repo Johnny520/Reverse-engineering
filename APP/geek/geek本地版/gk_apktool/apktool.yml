@@ -1,0 +1,18 @@
+version: 3.0.2
+apkFileName: gk.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 10004
+  versionName: 1.2.8
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

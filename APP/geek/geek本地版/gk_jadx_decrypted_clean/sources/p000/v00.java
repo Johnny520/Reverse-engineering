@@ -1,0 +1,5 @@
+package p000;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class v00 extends C0161ds {
+}

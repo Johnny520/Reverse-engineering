@@ -1,0 +1,14 @@
+package p000;
+
+import com.ljx.wechatmod.R;
+
+/* JADX INFO: renamed from: zy */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0984zy {
+
+    /* JADX INFO: renamed from: a */
+    public static final int[] f5629a = {R.attr.keylines, R.attr.statusBarBackground};
+
+    /* JADX INFO: renamed from: b */
+    public static final int[] f5630b = {android.R.attr.layout_gravity, R.attr.layout_anchor, R.attr.layout_anchorGravity, R.attr.layout_behavior, R.attr.layout_dodgeInsetEdges, R.attr.layout_insetEdge, R.attr.layout_keyline};
+}

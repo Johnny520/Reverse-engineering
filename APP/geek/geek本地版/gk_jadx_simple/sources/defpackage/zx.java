@@ -1,0 +1,189 @@
+package defpackage;
+
+import java.util.Arrays;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class zx extends p6 {
+    public a40[] f;
+    public a40[] g;
+    public int h;
+    public yx i;
+
+    @Override // defpackage.p6
+    public final a40 d(boolean[] r10) {
+        int r1 = 0;
+        int r2 = -1;
+    L4:
+        if (r1 >= this.h) goto L27;
+        a40[] r3 = this.f;
+        a40 r4 = r3[r1];
+        if (r10[r4.b] == true) goto L26;
+        yx r5 = this.i;
+        r5.a = r4;
+        int r42 = 8;
+        if (r2 != (-1)) goto L18;
+    L10:
+        if (r42 < 0) goto L26;
+        float r32 = r5.a.h[r42];
+        if (r32 > 0.0f) goto L26;
+        if (r32 < 0.0f) goto L25;
+        r42 = r42 - 1;
+    L25:
+        r2 = r1;
+        goto L26
+    L18:
+        a40 r33 = r3[r2];
+    L19:
+        if (r42 < 0) goto L26;
+        float r6 = r33.h[r42];
+        float r7 = r5.a.h[r42];
+        if (r7 != r6) goto L24;
+        r42 = r42 - 1;
+        goto L19
+    L24:
+        if (r7 < r6) goto L25;
+    L26:
+        r1 = r1 + 1;
+        goto L4
+    L27:
+        if (r2 != (-1)) goto L31;
+        return null;
+    L31:
+        return this.f[r2];
+    }
+
+    @Override // defpackage.p6
+    public final void h(p6 r19, boolean r20) {
+        a40 r2 = r19.a;
+        if (r2 != null) goto L5;
+        return;
+    L5:
+        float[] r3 = r2.h;
+        o6 r4 = r19.d;
+        int r5 = r4.k();
+        int r7 = 0;
+    L6:
+        if (r7 >= r5) goto L30;
+        a40 r8 = r4.e(r7);
+        float r9 = r4.a(r7);
+        yx r10 = this.i;
+        r10.a = r8;
+        if (r8.a == false) goto L18;
+        boolean r82 = true;
+        int r11 = 0;
+    L10:
+        if (r11 >= 9) goto L16;
+        float[] r15 = r10.a.h;
+        float r17 = (r3[r11] * r9) + r15[r11];
+        r15[r11] = r17;
+        if (Math.abs(r17) >= 1.0E-4f) goto L14;
+        r10.a.h[r11] = 0.0f;
+    L15:
+        r11 = r11 + 1;
+        goto L10
+    L14:
+        r82 = false;
+        goto L15
+    L16:
+        if (r82 == false) goto L29;
+        r10.b.j(r10.a);
+    L29:
+        this.b = (r19.b * r9) + this.b;
+        r7 = r7 + 1;
+        goto L6
+    L18:
+        int r112 = 0;
+    L19:
+        if (r112 >= 9) goto L28;
+        float r152 = r3[r112];
+        if (r152 == 0.0f) goto L26;
+        float r153 = r152 * r9;
+        if (Math.abs(r153) >= 1.0E-4f) goto L25;
+        r153 = 0.0f;
+    L25:
+        r10.a.h[r112] = r153;
+    L27:
+        r112 = r112 + 1;
+        goto L19
+    L26:
+        r10.a.h[r112] = 0.0f;
+        goto L27
+    L28:
+        i(r8);
+        goto L29
+    L30:
+        j(r2);
+    }
+
+    public final void i(a40 r7) {
+        int r0 = this.h + 1;
+        a40[] r2 = this.f;
+        if (r0 <= r2.length) goto L5;
+        a40[] r02 = (a40[]) Arrays.copyOf(r2, r2.length * 2);
+        this.f = r02;
+        this.g = (a40[]) Arrays.copyOf(r02, r02.length * 2);
+    L5:
+        a40[] r03 = this.f;
+        int r22 = this.h;
+        r03[r22] = r7;
+        int r3 = r22 + 1;
+        this.h = r3;
+        if (r3 > 1) goto L8;
+    L17:
+        r7.a = true;
+        r7.a(this);
+        return;
+    L8:
+        if (r03[r22].b <= r7.b) goto L17;
+        int r04 = 0;
+        int r23 = 0;
+    L10:
+        int r32 = this.h;
+        if (r23 >= r32) goto L13;
+        this.g[r23] = this.f[r23];
+        r23 = r23 + 1;
+        goto L10
+    L13:
+        Arrays.sort(this.g, 0, r32, new ce(2));
+    L15:
+        if (r04 >= this.h) goto L17;
+        this.f[r04] = this.g[r04];
+        r04 = r04 + 1;
+        goto L15
+    }
+
+    public final void j(a40 r6) {
+        int r1 = 0;
+    L4:
+        if (r1 >= this.h) goto L13;
+        if (this.f[r1] == r6) goto L7;
+        r1 = r1 + 1;
+    L7:
+        int r2 = this.h;
+        if (r1 >= (r2 - 1)) goto L10;
+        a40[] r22 = this.f;
+        int r3 = r1 + 1;
+        r22[r1] = r22[r3];
+        r1 = r3;
+        goto L7
+    L10:
+        this.h = r2 - 1;
+        r6.a = false;
+        return;
+    }
+
+    @Override // defpackage.p6
+    public final String toString() {
+        yx r0 = this.i;
+        String r1 = " goal -> (" + this.b + ") : ";
+        int r2 = 0;
+    L4:
+        if (r2 >= this.h) goto L6;
+        r0.a = this.f[r2];
+        r1 = r1 + r0 + " ";
+        r2 = r2 + 1;
+        goto L4
+    L6:
+        return r1;
+    }
+}

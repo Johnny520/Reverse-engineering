@@ -1,0 +1,15 @@
+{
+  "source_root": "gk_jadx",
+  "output_root": "gk_jadx_decrypted",
+  "unique_static_pairs": 835,
+  "replaced_call_sites": {
+    "b50.m492a": 0,
+    "u40.m2419a": 846
+  },
+  "touched_files": 43,
+  "remaining_call_sites": {
+    "b50.m492a": 0,
+    "u40.m2419a": 0
+  },
+  "failures": []
+}

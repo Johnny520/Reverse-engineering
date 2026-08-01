@@ -1,0 +1,16 @@
+{
+  "source_root": "D:\\folder\\codex\\gk_jadx_simple",
+  "output_root": "D:\\folder\\codex\\gk_jadx_simple_decrypted_clean",
+  "unique_pairs": 2551,
+  "replaced_call_sites": {
+    "u40": 2635
+  },
+  "touched_files": 113,
+  "remaining": {
+    "u40_literal": 0,
+    "u40_any": 69,
+    "b50_literal": 0,
+    "method_not_decompiled": 2
+  },
+  "failures": []
+}

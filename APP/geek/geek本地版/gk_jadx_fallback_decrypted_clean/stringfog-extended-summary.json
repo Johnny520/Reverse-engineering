@@ -1,0 +1,16 @@
+{
+  "source_root": "D:\\folder\\codex\\gk_jadx_fallback_decrypted",
+  "output_root": "D:\\folder\\codex\\gk_jadx_fallback_decrypted_clean",
+  "unique_pairs": 2068,
+  "replaced_call_sites": {
+    "u40.var": 2142
+  },
+  "touched_files": 113,
+  "remaining": {
+    "u40_literal": 0,
+    "u40_any": 569,
+    "b50_literal": 0,
+    "method_not_decompiled": 0
+  },
+  "failures": []
+}

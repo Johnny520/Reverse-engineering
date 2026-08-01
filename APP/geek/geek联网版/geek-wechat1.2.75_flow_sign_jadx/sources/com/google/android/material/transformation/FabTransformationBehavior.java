@@ -1,0 +1,41 @@
+package com.google.android.material.transformation;
+
+import android.content.Context;
+import android.graphics.Rect;
+import android.graphics.RectF;
+import android.util.AttributeSet;
+import android.view.View;
+import p000.C0015ae;
+
+/* JADX INFO: loaded from: classes.dex */
+@Deprecated
+public abstract class FabTransformationBehavior extends ExpandableTransformationBehavior {
+    public FabTransformationBehavior() {
+        new Rect();
+        new RectF();
+        new RectF();
+    }
+
+    @Override // com.google.android.material.transformation.ExpandableBehavior, p000.AbstractC0889xd
+    /* JADX INFO: renamed from: b */
+    public final void mo665b(View view) {
+        if (view.getVisibility() == 8) {
+            throw new IllegalStateException("This behavior cannot be attached to a GONE view. Set the view to INVISIBLE instead.");
+        }
+    }
+
+    @Override // p000.AbstractC0889xd
+    /* JADX INFO: renamed from: c */
+    public final void mo682c(C0015ae c0015ae) {
+        if (c0015ae.f71h == 0) {
+            c0015ae.f71h = 80;
+        }
+    }
+
+    public FabTransformationBehavior(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        new Rect();
+        new RectF();
+        new RectF();
+    }
+}
