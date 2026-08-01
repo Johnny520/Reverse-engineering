@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginRight="15.0dp" android:divider="@drawable/divider_space" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/save_emoji" android:background="@drawable/bottom_sheet_background" android:padding="8.0dp" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="50.0dp" android:layout_weight="1.0">
+        <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/xse" android:layout_marginStart="6.0dp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存图片" android:layout_marginStart="10.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/save_live" android:background="@drawable/bottom_sheet_background" android:padding="8.0dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dp" android:layout_height="50.0dp" android:layout_weight="1.0">
+        <ImageView android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/xjy" android:layout_marginStart="6.0dp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存实况" android:layout_marginStart="10.0dp" />
+    </LinearLayout>
+</LinearLayout>

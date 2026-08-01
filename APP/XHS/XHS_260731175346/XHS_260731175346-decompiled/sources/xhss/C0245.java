@@ -1,0 +1,304 @@
+package xhss;
+
+/* JADX INFO: renamed from: xhss.ᛳᛲᲀᛷ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-684deb5fba33a691397d1324861b0a91cfdff049bb058f400176b68a1f4afccc */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0245 extends xhss.AbstractC0052 {
+
+    /* JADX INFO: renamed from: ᛱᛱᛲᲇ, reason: contains not printable characters */
+    public final java.lang.Object f913;
+
+    /* JADX INFO: renamed from: ᛳᲁᲇᛸ, reason: contains not printable characters */
+    public final boolean f914;
+
+    public C0245(java.lang.CharSequence r1) {
+            r0 = this;
+            r0.<init>()
+            java.lang.String r1 = r1.toString()
+            r0.f913 = r1
+            r1 = 0
+            r0.f914 = r1
+            return
+    }
+
+    public C0245(java.lang.Object r1) {
+            r0 = this;
+            r0.<init>()
+            r0.f913 = r1
+            r1 = 1
+            r0.f914 = r1
+            return
+    }
+
+    public final boolean equals(java.lang.Object r4) {
+            r3 = this;
+            r0 = 1
+            if (r3 != r4) goto L4
+            return r0
+        L4:
+            boolean r1 = r4 instanceof xhss.C0245
+            r2 = 0
+            if (r1 != 0) goto La
+            return r2
+        La:
+            xhss.ᛳᛲᲀᛷ r4 = (xhss.C0245) r4
+            java.lang.Object r4 = r4.f913
+            java.lang.Object r3 = r3.f913
+            if (r3 == 0) goto L19
+            boolean r3 = r3.equals(r4)
+            if (r3 != 0) goto L1b
+            goto L1c
+        L19:
+            if (r4 != 0) goto L1c
+        L1b:
+            return r0
+        L1c:
+            return r2
+    }
+
+    public final java.lang.String toString() {
+            r0 = this;
+            java.lang.Object r0 = r0.f913
+            java.lang.String r0 = r0.toString()
+            return r0
+    }
+
+    @Override // xhss.AbstractC0052
+    /* JADX INFO: renamed from: ᛳᲁᲇᛸ */
+    public final xhss.C0245 mo162() {
+            r0 = this;
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᛷᲁᲁ, reason: contains not printable characters */
+    public final java.lang.Object m545() {
+            r3 = this;
+            boolean r0 = r3.f914     // Catch: xhss.C1028 -> L28
+            java.lang.Object r3 = r3.f913
+            if (r0 == 0) goto L7
+            return r3
+        L7:
+            xhss.ᲀᛱᛸᛶ r0 = new xhss.ᲀᛱᛸᛶ     // Catch: xhss.C1028 -> L28
+            r1 = -8193(0xffffffffffffdfff, float:NaN)
+            r0.<init>(r1)     // Catch: xhss.C1028 -> L28
+            java.lang.String r3 = r3.toString()     // Catch: xhss.C1028 -> L28
+            xhss.ᛸᛱᛱᛳ r2 = r0.f2714     // Catch: xhss.C1028 -> L28
+            if (r2 != 0) goto L1d
+            xhss.ᛸᛱᛱᛳ r2 = new xhss.ᛸᛱᛱᛳ     // Catch: xhss.C1028 -> L28
+            r2.<init>(r1)     // Catch: xhss.C1028 -> L28
+            r0.f2714 = r2     // Catch: xhss.C1028 -> L28
+        L1d:
+            xhss.ᛷᛱᛳᲁ r0 = xhss.AbstractC0518.f1885     // Catch: xhss.C1028 -> L28
+            java.lang.Object r0 = r0.f2153     // Catch: xhss.C1028 -> L28
+            xhss.ᛸᛵᛷᲁ r0 = (xhss.C0768) r0     // Catch: xhss.C1028 -> L28
+            java.lang.Object r3 = r2.m1263(r3, r0)     // Catch: xhss.C1028 -> L28
+            return r3
+        L28:
+            r3 = move-exception
+            java.lang.IllegalArgumentException r0 = new java.lang.IllegalArgumentException
+            r0.<init>(r3)
+            throw r0
+    }
+
+    @Override // xhss.AbstractC0052
+    /* JADX INFO: renamed from: ᛸᛷᲈᲈ */
+    public final java.lang.Class mo167(xhss.C1180 r1) {
+            r0 = this;
+            java.lang.Object r1 = r0.m545()
+            boolean r1 = r1 instanceof java.util.List
+            if (r1 == 0) goto Lb
+            java.lang.Class<java.util.List> r0 = java.util.List.class
+            return r0
+        Lb:
+            java.lang.Object r1 = r0.m545()
+            boolean r1 = r1 instanceof java.util.Map
+            if (r1 == 0) goto L16
+            java.lang.Class<java.util.Map> r0 = java.util.Map.class
+            return r0
+        L16:
+            java.lang.Object r1 = r0.m545()
+            boolean r1 = r1 instanceof java.lang.Number
+            if (r1 == 0) goto L21
+            java.lang.Class<java.lang.Number> r0 = java.lang.Number.class
+            return r0
+        L21:
+            java.lang.Object r1 = r0.m545()
+            boolean r1 = r1 instanceof java.lang.String
+            if (r1 == 0) goto L2c
+            java.lang.Class<java.lang.String> r0 = java.lang.String.class
+            return r0
+        L2c:
+            java.lang.Object r0 = r0.m545()
+            boolean r0 = r0 instanceof java.lang.Boolean
+            if (r0 == 0) goto L37
+            java.lang.Class<java.lang.Boolean> r0 = java.lang.Boolean.class
+            return r0
+        L37:
+            java.lang.Class<java.lang.Void> r0 = java.lang.Void.class
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᲈᛳᲀ, reason: contains not printable characters */
+    public final xhss.AbstractC0052 m546() {
+            r10 = this;
+            java.lang.Object r0 = r10.m545()
+            boolean r0 = r0 instanceof java.util.List
+            if (r0 != 0) goto Lb
+            xhss.ᲈᲀᛶ r10 = xhss.InterfaceC0169.f682
+            return r10
+        Lb:
+            xhss.ᛱᛸᛱᲁ r0 = new xhss.ᛱᛸᛱᲁ
+            java.lang.Object r10 = r10.m545()
+            java.util.List r10 = (java.util.List) r10
+            java.util.List r10 = java.util.Collections.unmodifiableList(r10)
+            r0.<init>()
+            java.util.ArrayList r1 = new java.util.ArrayList
+            r1.<init>()
+            r0.f367 = r1
+            java.util.Iterator r10 = r10.iterator()
+        L25:
+            boolean r1 = r10.hasNext()
+            if (r1 == 0) goto L13f
+            java.lang.Object r1 = r10.next()
+            java.util.ArrayList r2 = r0.f367
+            if (r1 != 0) goto L37
+            xhss.ᲈᛷᛸᲇ r1 = xhss.InterfaceC0169.f681
+            goto L132
+        L37:
+            boolean r3 = r1 instanceof xhss.AbstractC0052
+            if (r3 == 0) goto L3f
+            xhss.ᛱᛶᛶᛱ r1 = (xhss.AbstractC0052) r1
+            goto L132
+        L3f:
+            boolean r3 = r1 instanceof java.lang.Class
+            if (r3 == 0) goto L4d
+            java.lang.Class r1 = (java.lang.Class) r1
+            xhss.ᲇᛴᲁᛷ r3 = new xhss.ᲇᛴᲁᛷ
+            r3.<init>(r1)
+        L4a:
+            r1 = r3
+            goto L132
+        L4d:
+            boolean r3 = r1 instanceof java.lang.String
+            r4 = 0
+            if (r3 != 0) goto L53
+            goto L7d
+        L53:
+            java.lang.String r5 = r1.toString()
+            java.lang.String r5 = r5.trim()
+            int r6 = r5.length()
+            if (r6 > 0) goto L62
+            goto L7d
+        L62:
+            char r6 = r5.charAt(r4)
+            r7 = 64
+            if (r6 == r7) goto L6e
+            r7 = 36
+            if (r6 != r7) goto L7d
+        L6e:
+            xhss.ᛸᛷᲁᛵ[] r6 = new xhss.InterfaceC0786[r4]     // Catch: java.lang.Exception -> L7d
+            xhss.C0230.m522(r5, r6)     // Catch: java.lang.Exception -> L7d
+            xhss.ᲀᛴᲇ r3 = new xhss.ᲀᛴᲇ
+            java.lang.String r1 = r1.toString()
+            r3.<init>(r1, r4)
+            goto L4a
+        L7d:
+            r5 = 1
+            if (r3 != 0) goto L81
+            goto Ld3
+        L81:
+            java.lang.String r6 = r1.toString()
+            java.lang.String r6 = r6.trim()
+            int r7 = r6.length()
+            if (r7 > r5) goto L90
+            goto Ld3
+        L90:
+            char r7 = r6.charAt(r4)
+            int r8 = r6.length()
+            int r8 = r8 - r5
+            char r8 = r6.charAt(r8)
+            r9 = 91
+            if (r7 != r9) goto La5
+            r9 = 93
+            if (r8 == r9) goto Lad
+        La5:
+            r9 = 123(0x7b, float:1.72E-43)
+            if (r7 != r9) goto Ld3
+            r7 = 125(0x7d, float:1.75E-43)
+            if (r8 != r7) goto Ld3
+        Lad:
+            xhss.ᲀᛱᛸᛶ r7 = new xhss.ᲀᛱᛸᛶ     // Catch: java.lang.Exception -> Ld3
+            r8 = -8193(0xffffffffffffdfff, float:NaN)
+            r7.<init>(r8)     // Catch: java.lang.Exception -> Ld3
+            xhss.ᛸᛱᛱᛳ r9 = r7.f2714     // Catch: java.lang.Exception -> Ld3
+            if (r9 != 0) goto Lbf
+            xhss.ᛸᛱᛱᛳ r9 = new xhss.ᛸᛱᛱᛳ     // Catch: java.lang.Exception -> Ld3
+            r9.<init>(r8)     // Catch: java.lang.Exception -> Ld3
+            r7.f2714 = r9     // Catch: java.lang.Exception -> Ld3
+        Lbf:
+            xhss.ᛷᛱᛳᲁ r7 = xhss.AbstractC0518.f1885     // Catch: java.lang.Exception -> Ld3
+            java.lang.Object r7 = r7.f2153     // Catch: java.lang.Exception -> Ld3
+            xhss.ᛸᛵᛷᲁ r7 = (xhss.C0768) r7     // Catch: java.lang.Exception -> Ld3
+            r9.m1263(r6, r7)     // Catch: java.lang.Exception -> Ld3
+            java.lang.String r1 = r1.toString()
+            xhss.ᛳᛲᲀᛷ r3 = new xhss.ᛳᛲᲀᛷ
+            r3.<init>(r1)
+            goto L4a
+        Ld3:
+            if (r3 == 0) goto Le0
+            java.lang.String r1 = r1.toString()
+            xhss.ᲈᲇᛱᛶ r3 = new xhss.ᲈᲇᛱᛶ
+            r3.<init>(r1, r5)
+            goto L4a
+        Le0:
+            boolean r3 = r1 instanceof java.lang.Character
+            if (r3 == 0) goto Lef
+            java.lang.String r1 = r1.toString()
+            xhss.ᲈᲇᛱᛶ r3 = new xhss.ᲈᲇᛱᛶ
+            r3.<init>(r1, r4)
+            goto L4a
+        Lef:
+            boolean r3 = r1 instanceof java.lang.Number
+            if (r3 == 0) goto Lfe
+            java.lang.String r1 = r1.toString()
+            xhss.ᛸᛷᲈᛶ r3 = new xhss.ᛸᛷᲈᛶ
+            r3.<init>(r1)
+            goto L4a
+        Lfe:
+            boolean r3 = r1 instanceof java.lang.Boolean
+            if (r3 == 0) goto L116
+            java.lang.String r1 = r1.toString()
+            java.lang.String r1 = r1.toString()
+            boolean r1 = java.lang.Boolean.parseBoolean(r1)
+            if (r1 == 0) goto L113
+            xhss.ᲁᛳᛲᛸ r1 = xhss.InterfaceC0169.f679
+            goto L132
+        L113:
+            xhss.ᲁᛳᛲᛸ r1 = xhss.InterfaceC0169.f680
+            goto L132
+        L116:
+            boolean r3 = r1 instanceof java.util.regex.Pattern
+            if (r3 == 0) goto L123
+            java.util.regex.Pattern r1 = (java.util.regex.Pattern) r1
+            xhss.ᛱᲀᛴᛴ r3 = new xhss.ᛱᲀᛴᛴ
+            r3.<init>(r1)
+            goto L4a
+        L123:
+            boolean r3 = r1 instanceof java.time.OffsetDateTime
+            if (r3 == 0) goto L137
+            java.lang.String r1 = r1.toString()
+            xhss.ᛶᛳᛳᛶ r3 = new xhss.ᛶᛳᛳᛶ
+            r3.<init>(r1)
+            goto L4a
+        L132:
+            r2.add(r1)
+            goto L25
+        L137:
+            xhss.ᛵᛲᛲᲇ r10 = new xhss.ᛵᛲᛲᲇ
+            java.lang.String r0 = "Could not determine value type"
+            r10.<init>(r0)
+            throw r10
+        L13f:
+            return r0
+    }
+}

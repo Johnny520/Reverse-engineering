@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_douyin_dialog" android:padding="20.0dp" android:layout_width="300.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/douyin_black" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐私协议" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/warning_red" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="⚠️ 重要提示" android:lineSpacingExtra="4.0dp" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/douyin_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="本模块仅供个人学习研究使用，请勿将本模块分享到国内任何平台（包括但不限于微信、QQ、微博、抖音、快手、酷安、B站等）。\n\n请您认真阅读并同意以上条款。" android:lineSpacingExtra="6.0dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <Button android:textSize="14.0sp" android:textColor="@color/douyin_black" android:id="@id/btn_cancel" android:background="@drawable/douyin_button_secondary2" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="取消" android:layout_weight="1.0" />
+        <Space android:layout_width="10.0dp" android:layout_height="wrap_content" />
+        <Button android:enabled="false" android:textSize="14.0sp" android:textColor="@color/douyin_white" android:id="@id/btn_confirm" android:background="@drawable/douyin_button_primary2" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="同意 (5)" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

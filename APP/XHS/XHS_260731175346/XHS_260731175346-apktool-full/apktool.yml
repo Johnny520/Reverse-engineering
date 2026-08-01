@@ -1,0 +1,20 @@
+version: 3.0.2
+apkFileName: XHS_260731175346.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 30
+  targetSdkVersion: 37
+versionInfo:
+  versionCode: 23
+  versionName: 260731175346
+resourcesInfo:
+  packageId: 100
+doNotCompress:
+- arsc
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

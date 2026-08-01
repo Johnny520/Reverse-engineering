@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_line">#343438</color>
+    <color name="douyin_black">#e5e5e5</color>
+    <color name="douyin_white">#1c1c1e</color>
+    <color name="hint_text">#666666</color>
+    <color name="post_info_accent_border">#ff563039</color>
+    <color name="post_info_accent_surface">#ff2c2023</color>
+    <color name="post_info_badge_surface">#ff48252d</color>
+    <color name="post_info_card_border">#ff38383c</color>
+    <color name="post_info_card_surface">#ff232326</color>
+    <color name="setting_card_bg">#29292b</color>
+    <color name="setting_search_bg">#303033</color>
+    <color name="setting_surface_bg">#1e1e1e</color>
+    <color name="switch_thumb_fill">#e5e5e5</color>
+    <color name="switch_thumb_stroke_off">#5c5c5e</color>
+    <color name="switch_track_off">#3a3a3c</color>
+    <color name="text_primary">#e5e5e5</color>
+    <color name="text_secondary">#98989d</color>
+    <color name="text_tertiary">#cccccc</color>
+    <color name="text_white">#e5e5e5</color>
+</resources>

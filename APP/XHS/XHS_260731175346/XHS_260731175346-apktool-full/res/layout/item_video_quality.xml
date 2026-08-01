@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_video_quality_item" android:paddingTop="11.0dp" android:paddingBottom="11.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="78.0dp" android:paddingStart="12.0dp" android:paddingEnd="10.0dp" android:layout_marginVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/xhs_red" android:gravity="center" android:id="@id/quality_badge" android:background="@drawable/bg_quality_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="36.0dp" android:includeFontPadding="false" android:paddingHorizontal="7.0dp" android:paddingVertical="3.0dp" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/text_primary" android:ellipsize="end" android:id="@id/resolution_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/text_secondary" android:ellipsize="end" android:id="@id/desc_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/hint_text" android:ellipsize="end" android:id="@id/meta_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/douyin_white" android:gravity="center" android:id="@id/download_btn" android:background="@drawable/bg_btn_download" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="34.0dp" android:minWidth="64.0dp" android:text="下载" android:includeFontPadding="false" android:layout_marginStart="12.0dp" android:paddingHorizontal="16.0dp" />
+</LinearLayout>

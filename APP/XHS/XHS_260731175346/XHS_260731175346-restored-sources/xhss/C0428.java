@@ -1,0 +1,30 @@
+package xhss;
+
+/* JADX INFO: renamed from: xhss.ᛴᲈᛴᛷ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-684deb5fba33a691397d1324861b0a91cfdff049bb058f400176b68a1f4afccc */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0428 extends xhss.AbstractC1202 implements xhss.InterfaceC0517 {
+
+    /* JADX INFO: renamed from: ᛷᛴᛷᛱ, reason: contains not printable characters */
+    public final /* synthetic */ int f1514;
+
+    /* JADX INFO: renamed from: ᲀᲇᛳᲁ, reason: contains not printable characters */
+    public final /* synthetic */ java.lang.Object f1515;
+
+    /* JADX INFO: renamed from: ᲇᛶᛴᲀ, reason: contains not printable characters */
+    public final /* synthetic */ java.lang.Object f1516;
+
+    public native /* synthetic */ C0428(java.lang.Object r1, java.lang.Object r2, xhss.InterfaceC0038 r3, int r4);
+
+    @Override // xhss.InterfaceC0517
+    /* JADX INFO: renamed from: ᛳᲁᲇᛸ */
+    public final native java.lang.Object mo115(java.lang.Object r1, java.lang.Object r2);
+
+    @Override // xhss.AbstractC0631
+    /* JADX INFO: renamed from: ᛸᛲᲀᛵ */
+    public final native java.lang.Object mo116(java.lang.Object r1);
+
+    @Override // xhss.AbstractC0631
+    /* JADX INFO: renamed from: ᲀᲇᛳᲁ */
+    public final native xhss.InterfaceC0038 mo117(java.lang.Object r1, xhss.InterfaceC0038 r2);
+}

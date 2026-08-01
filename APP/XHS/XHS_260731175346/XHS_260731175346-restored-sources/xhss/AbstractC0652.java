@@ -1,0 +1,149 @@
+package xhss;
+
+/* JADX INFO: renamed from: xhss.ᛷᛴᛷᛱ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-684deb5fba33a691397d1324861b0a91cfdff049bb058f400176b68a1f4afccc */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0652 implements java.util.Collection, xhss.InterfaceC0057 {
+    @Override // java.util.Collection
+    public final boolean add(java.lang.Object r1) {
+            r0 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+
+    @Override // java.util.Collection
+    public final boolean addAll(java.util.Collection r1) {
+            r0 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+
+    @Override // java.util.Collection
+    public final void clear() {
+            r1 = this;
+            java.lang.UnsupportedOperationException r1 = new java.lang.UnsupportedOperationException
+            java.lang.String r0 = "Operation is not supported for read-only collection"
+            r1.<init>(r0)
+            throw r1
+    }
+
+    @Override // java.util.Collection, java.util.List
+    public boolean contains(java.lang.Object r3) {
+            r2 = this;
+            boolean r0 = r2.isEmpty()
+            r1 = 0
+            if (r0 == 0) goto L8
+            return r1
+        L8:
+            java.util.Iterator r2 = r2.iterator()
+        Lc:
+            boolean r0 = r2.hasNext()
+            if (r0 == 0) goto L1e
+            java.lang.Object r0 = r2.next()
+            boolean r0 = xhss.AbstractC0007.m97(r0, r3)
+            if (r0 == 0) goto Lc
+            r2 = 1
+            return r2
+        L1e:
+            return r1
+    }
+
+    @Override // java.util.Collection
+    public final boolean containsAll(java.util.Collection r3) {
+            r2 = this;
+            boolean r0 = r3.isEmpty()
+            r1 = 1
+            if (r0 == 0) goto L8
+            return r1
+        L8:
+            java.util.Iterator r3 = r3.iterator()
+        Lc:
+            boolean r0 = r3.hasNext()
+            if (r0 == 0) goto L1e
+            java.lang.Object r0 = r3.next()
+            boolean r0 = r2.contains(r0)
+            if (r0 != 0) goto Lc
+            r2 = 0
+            return r2
+        L1e:
+            return r1
+    }
+
+    @Override // java.util.Collection
+    public boolean isEmpty() {
+            r0 = this;
+            int r0 = r0.mo426()
+            if (r0 != 0) goto L8
+            r0 = 1
+            return r0
+        L8:
+            r0 = 0
+            return r0
+    }
+
+    @Override // java.util.Collection
+    public final boolean remove(java.lang.Object r1) {
+            r0 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+
+    @Override // java.util.Collection
+    public final boolean removeAll(java.util.Collection r1) {
+            r0 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+
+    @Override // java.util.Collection
+    public final boolean retainAll(java.util.Collection r1) {
+            r0 = this;
+            java.lang.UnsupportedOperationException r0 = new java.lang.UnsupportedOperationException
+            java.lang.String r1 = "Operation is not supported for read-only collection"
+            r0.<init>(r1)
+            throw r0
+    }
+
+    @Override // java.util.Collection
+    public final /* bridge */ int size() {
+            r0 = this;
+            int r0 = r0.mo426()
+            return r0
+    }
+
+    @Override // java.util.Collection
+    public final java.lang.Object[] toArray() {
+            r0 = this;
+            java.lang.Object[] r0 = xhss.AbstractC0561.m1014(r0)
+            return r0
+    }
+
+    @Override // java.util.Collection
+    public final java.lang.Object[] toArray(java.lang.Object[] r1) {
+            r0 = this;
+            java.lang.Object[] r0 = xhss.AbstractC0561.m998(r0, r1)
+            return r0
+    }
+
+    public final java.lang.String toString() {
+            r3 = this;
+            xhss.ᲇᛴᲇᛵ r0 = new xhss.ᲇᛴᲇᛵ
+            r1 = 0
+            r0.<init>(r1, r3)
+            r1 = 24
+            java.lang.String r2 = ", "
+            java.lang.String r3 = xhss.AbstractC0713.m1242(r3, r2, r0, r1)
+            return r3
+    }
+
+    /* JADX INFO: renamed from: ᛷᛵᛵᲈ */
+    public abstract int mo426();
+}

@@ -1,0 +1,18 @@
+package xhss;
+
+/* JADX INFO: renamed from: xhss.ᛸᛷᛲᛴ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-684deb5fba33a691397d1324861b0a91cfdff049bb058f400176b68a1f4afccc */
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class AbstractC0781 {
+    /* JADX INFO: renamed from: ᛱᛱᛲᲇ, reason: contains not printable characters */
+    public static /* bridge */ /* synthetic */ boolean m1323(android.graphics.Bitmap r0) {
+            boolean r0 = r0.hasGainmap()
+            return r0
+    }
+
+    /* JADX INFO: renamed from: ᛷᛵᛵᲈ, reason: contains not printable characters */
+    public static /* bridge */ /* synthetic */ int m1324() {
+            int r0 = android.view.WindowInsets.Type.systemOverlays()
+            return r0
+    }
+}
