@@ -1,0 +1,71 @@
+package org.apache.commons.p014io.monitor;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.nio.file.attribute.FileTime;
+import java.time.Instant;
+import java.util.Objects;
+import java.util.concurrent.TimeUnit;
+import p376.AbstractC9748;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+final class SerializableFileTime implements Serializable {
+    static final SerializableFileTime EPOCH = new SerializableFileTime(AbstractC9748.f25461);
+    private static final long serialVersionUID = 1;
+    private FileTime fileTime;
+
+    public SerializableFileTime(FileTime fileTime) {
+        Objects.requireNonNull(fileTime);
+        this.fileTime = fileTime;
+    }
+
+    private void readObject(ObjectInputStream objectInputStream) {
+        this.fileTime = FileTime.from((Instant) objectInputStream.readObject());
+    }
+
+    private void writeObject(ObjectOutputStream objectOutputStream) throws IOException {
+        objectOutputStream.writeObject(this.fileTime.toInstant());
+    }
+
+    public int compareTo(FileTime fileTime) {
+        return this.fileTime.compareTo(fileTime);
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof SerializableFileTime) {
+            return Objects.equals(this.fileTime, ((SerializableFileTime) obj).fileTime);
+        }
+        return false;
+    }
+
+    public int hashCode() {
+        return this.fileTime.hashCode();
+    }
+
+    /* JADX INFO: renamed from: to */
+    public long m529to(TimeUnit timeUnit) {
+        return this.fileTime.to(timeUnit);
+    }
+
+    public Instant toInstant() {
+        return this.fileTime.toInstant();
+    }
+
+    public long toMillis() {
+        return this.fileTime.toMillis();
+    }
+
+    public String toString() {
+        return this.fileTime.toString();
+    }
+
+    public FileTime unwrap() {
+        return this.fileTime;
+    }
+}

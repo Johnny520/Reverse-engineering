@@ -1,0 +1,115 @@
+package org.apache.commons.io;
+
+import androidx.activity.AbstractC0053;
+import java.util.Objects;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
+import org.apache.commons.compress.archivers.zip.C5591;
+import org.apache.commons.io.IOCase;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public enum IOCase {
+    SENSITIVE("Sensitive", true),
+    INSENSITIVE("Insensitive", false),
+    SYSTEM("System", FileSystem.getCurrent().isCaseSensitive());
+
+    private static final long serialVersionUID = -6343169151696340687L;
+    private final String name;
+    private final transient boolean sensitive;
+
+    IOCase(String str, boolean z) {
+        this.name = str;
+        this.sensitive = z;
+    }
+
+    public static IOCase forName(final String str) {
+        return (IOCase) Stream.of((Object[]) values()).filter(new C5591(str, 5)).findFirst().orElseThrow(new Supplier() { // from class: 飘花落叶言苏子楪兰世哲.飘花落叶言子楪世兰哲苏
+            @Override // java.util.function.Supplier
+            public final Object get() {
+                return IOCase.lambda$forName$1(str);
+            }
+        });
+    }
+
+    public static boolean isCaseSensitive(IOCase iOCase) {
+        return iOCase != null && iOCase.isCaseSensitive();
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static /* synthetic */ boolean lambda$forName$0(String str, IOCase iOCase) {
+        return iOCase.getName().equals(str);
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static /* synthetic */ IllegalArgumentException lambda$forName$1(String str) {
+        return new IllegalArgumentException(AbstractC0053.m157("Illegal IOCase name: ", str));
+    }
+
+    private Object readResolve() {
+        return forName(this.name);
+    }
+
+    public static IOCase value(IOCase iOCase, IOCase iOCase2) {
+        return iOCase != null ? iOCase : iOCase2;
+    }
+
+    public int checkCompareTo(String str, String str2) {
+        Objects.requireNonNull(str, "str1");
+        Objects.requireNonNull(str2, "str2");
+        return this.sensitive ? str.compareTo(str2) : str.compareToIgnoreCase(str2);
+    }
+
+    public boolean checkEndsWith(String str, String str2) {
+        if (str == null || str2 == null) {
+            return false;
+        }
+        int length = str2.length();
+        return str.regionMatches(!this.sensitive, str.length() - length, str2, 0, length);
+    }
+
+    public boolean checkEquals(String str, String str2) {
+        if (str == str2) {
+            return true;
+        }
+        if (str != null) {
+            return this.sensitive ? str.equals(str2) : str.equalsIgnoreCase(str2);
+        }
+        return false;
+    }
+
+    public int checkIndexOf(String str, int i, String str2) {
+        int length;
+        if (str == null || str2 == null || (length = str.length() - str2.length()) < i) {
+            return -1;
+        }
+        while (i <= length) {
+            if (checkRegionMatches(str, i, str2)) {
+                return i;
+            }
+            i++;
+        }
+        return -1;
+    }
+
+    public boolean checkRegionMatches(String str, int i, String str2) {
+        return (str == null || str2 == null || !str.regionMatches(this.sensitive ^ true, i, str2, 0, str2.length())) ? false : true;
+    }
+
+    public boolean checkStartsWith(String str, String str2) {
+        return (str == null || str2 == null || !str.regionMatches(this.sensitive ^ true, 0, str2, 0, str2.length())) ? false : true;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    @Override // java.lang.Enum
+    public String toString() {
+        return this.name;
+    }
+
+    public boolean isCaseSensitive() {
+        return this.sensitive;
+    }
+}

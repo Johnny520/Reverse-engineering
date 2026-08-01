@@ -1,0 +1,29 @@
+package androidx.compose.animation.core;
+
+/* JADX INFO: renamed from: androidx.compose.animation.core.飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC0327 {
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+    Object mo998(long j);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰苏哲, reason: contains not printable characters */
+    default boolean m999(long j) {
+        return j >= mo1002();
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    AbstractC0343 mo1000(long j);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    InterfaceC0358 mo1001();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    long mo1002();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    boolean mo1003();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪苏世哲兰, reason: contains not printable characters */
+    Object mo1004();
+}

@@ -1,0 +1,23 @@
+package com.typesafe.config.impl;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+enum TokenType {
+    START,
+    END,
+    COMMA,
+    EQUALS,
+    COLON,
+    OPEN_CURLY,
+    CLOSE_CURLY,
+    OPEN_SQUARE,
+    CLOSE_SQUARE,
+    VALUE,
+    NEWLINE,
+    UNQUOTED_TEXT,
+    IGNORED_WHITESPACE,
+    SUBSTITUTION,
+    PROBLEM,
+    COMMENT,
+    PLUS_EQUALS
+}

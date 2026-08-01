@@ -1,0 +1,51 @@
+package io.ktor.server.engine;
+
+import io.ktor.server.application.InterfaceC4052;
+import io.ktor.util.C4208;
+import io.ktor.util.pipeline.AbstractC4194;
+import io.ktor.util.pipeline.InvalidPhaseException;
+import kotlin.jvm.internal.AbstractC4395;
+import kotlin.reflect.InterfaceC5086;
+import kotlin.reflect.InterfaceC5092;
+import p052.InterfaceC6557;
+import p059.C6856;
+
+/* JADX INFO: renamed from: io.ktor.server.engine.飘花落叶言子楪兰苏哲世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C4099 implements InterfaceC4052 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public static final C4208 f12443;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C4099 f12444 = new C4099();
+
+    static {
+        InterfaceC5086 interfaceC5086M8922;
+        InterfaceC5092 interfaceC5092Mo8927 = AbstractC4395.f12971.mo8927(C4096.class);
+        try {
+            interfaceC5086M8922 = AbstractC4395.m8922(C4096.class);
+        } catch (Throwable unused) {
+            interfaceC5086M8922 = null;
+        }
+        f12443 = new C4208("shutdown.url", new C6856(interfaceC5092Mo8927, interfaceC5086M8922));
+    }
+
+    @Override // io.ktor.server.application.InterfaceC4062
+    public final C4208 getKey() {
+        return f12443;
+    }
+
+    @Override // io.ktor.server.application.InterfaceC4062
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    public final Object mo8477(AbstractC4194 abstractC4194, InterfaceC6557 interfaceC6557) throws InvalidPhaseException {
+        C4102 c4102 = (C4102) abstractC4194;
+        c4102.getClass();
+        C4098 c4098 = new C4098();
+        interfaceC6557.invoke(c4098);
+        C4096 c4096 = new C4096(c4098.f12442, c4098.f12441);
+        c4102.m8589(C4102.f12464, new ShutDownUrl$EnginePlugin$install$1(c4096, null));
+        return c4096;
+    }
+}

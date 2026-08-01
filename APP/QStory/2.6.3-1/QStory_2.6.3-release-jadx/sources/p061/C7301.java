@@ -1,0 +1,12 @@
+package p061;
+
+import p065.AbstractC7355;
+
+/* JADX INFO: renamed from: 飘花落叶言世子兰哲楪苏.飘花落叶言子楪苏哲世兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C7301 extends AbstractC7302 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    public static final C7301 f18099 = new C7301(AbstractC7355.f18183, "SuspendFunction", C7291.f18079.f18100 - 1);
+}

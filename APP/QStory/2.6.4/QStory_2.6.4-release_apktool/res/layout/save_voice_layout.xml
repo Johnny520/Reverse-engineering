@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/save_voice_shape" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/save_voice_root_layout" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/text_color" android:gravity="center" android:id="@id/save_voice_title" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save_voice" />
+        <EditText android:textSize="20.0sp" android:textColor="@color/black" android:id="@id/voice_name" android:background="@drawable/edittext_shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:hint="@string/SaveNoName" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <Button android:textSize="18.0sp" android:textColor="@color/text_color" android:id="@id/save_voice_close" android:background="@drawable/voice_button_shape" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text="取消" android:layout_weight="1.0" />
+            <Button android:textSize="18.0sp" android:textColor="@color/text_color" android:id="@id/yes_save_voice" android:background="@drawable/voice_button_shape" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text="保存" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

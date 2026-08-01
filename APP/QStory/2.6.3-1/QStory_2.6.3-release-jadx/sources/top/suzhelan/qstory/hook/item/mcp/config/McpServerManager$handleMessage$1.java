@@ -1,0 +1,38 @@
+package top.suzhelan.qstory.hook.item.mcp.config;
+
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC5189;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import p079.InterfaceC7691;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@InterfaceC7691(m555c = "top.suzhelan.qstory.hook.item.mcp.config.McpServerManager", m556f = "McpServerManager.kt", m557l = {486, 477, 292, 296, 298}, m558m = "handleMessage", m559v = 2)
+@Metadata(m152k = 3, m153mv = {2, 3, 0}, m155xi = 50)
+final class McpServerManager$handleMessage$1 extends ContinuationImpl {
+    int I$0;
+    int I$1;
+    int I$2;
+    Object L$0;
+    Object L$1;
+    Object L$2;
+    Object L$3;
+    Object L$4;
+    Object L$5;
+    int label;
+    /* synthetic */ Object result;
+    final /* synthetic */ C6701 this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public McpServerManager$handleMessage$1(C6701 c6701, InterfaceC5189<? super McpServerManager$handleMessage$1> interfaceC5189) {
+        super(interfaceC5189);
+        this.this$0 = c6701;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        this.label |= Integer.MIN_VALUE;
+        return C6701.m11828(this.this$0, null, null, this);
+    }
+}

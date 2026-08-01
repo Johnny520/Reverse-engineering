@@ -1,0 +1,12 @@
+package p236;
+
+import io.ktor.util.AbstractC4213;
+
+/* JADX INFO: renamed from: 飘花落叶言楪兰世哲子苏.飘花落叶言子楪兰苏哲世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C8117 extends AbstractC4213 implements InterfaceC8112 {
+    public final String toString() {
+        return "Headers " + mo8353();
+    }
+}

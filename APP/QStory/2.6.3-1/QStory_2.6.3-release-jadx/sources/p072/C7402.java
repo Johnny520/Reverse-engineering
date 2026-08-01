@@ -1,0 +1,84 @@
+package p072;
+
+import io.modelcontextprotocol.kotlin.sdk.Method$Defined;
+import p103.AbstractC7973;
+import p103.C7958;
+import p103.InterfaceC7908;
+import p105.InterfaceC8013;
+import p106.InterfaceC8015;
+import p106.InterfaceC8016;
+import p106.InterfaceC8017;
+import p106.InterfaceC8018;
+import p107.InterfaceC8020;
+import p160.C8376;
+
+/* JADX INFO: renamed from: 飘花落叶言世子楪兰苏哲.飘花落叶言世子兰苏哲楪, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class C7402 implements InterfaceC7908 {
+    private static final InterfaceC8020 descriptor;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C7402 f18290;
+
+    static {
+        C7402 c7402 = new C7402();
+        f18290 = c7402;
+        C7958 c7958 = new C7958("io.modelcontextprotocol.kotlin.sdk.ToolListChangedNotification", c7402, 1);
+        c7958.m12968("method", true);
+        descriptor = c7958;
+    }
+
+    @Override // p103.InterfaceC7908
+    public final InterfaceC8013[] childSerializers() {
+        return new InterfaceC8013[]{C7621.f18577};
+    }
+
+    @Override // p105.InterfaceC8013
+    public final Object deserialize(InterfaceC8016 interfaceC8016) {
+        InterfaceC8020 interfaceC8020 = descriptor;
+        InterfaceC8018 interfaceC8018Mo11235 = interfaceC8016.mo11235(interfaceC8020);
+        interfaceC8018Mo11235.getClass();
+        boolean z = true;
+        int i = 0;
+        InterfaceC7645 interfaceC7645 = null;
+        while (z) {
+            int iMo11277 = interfaceC8018Mo11235.mo11277(interfaceC8020);
+            if (iMo11277 == -1) {
+                z = false;
+            } else {
+                if (iMo11277 != 0) {
+                    C8376.m13326(iMo11277);
+                    return null;
+                }
+                interfaceC7645 = (InterfaceC7645) interfaceC8018Mo11235.mo11233(interfaceC8020, 0, C7621.f18577, interfaceC7645);
+                i = 1;
+            }
+        }
+        interfaceC8018Mo11235.mo11237(interfaceC8020);
+        return new C7399(i, interfaceC7645);
+    }
+
+    @Override // p105.InterfaceC8013
+    public final InterfaceC8020 getDescriptor() {
+        return descriptor;
+    }
+
+    @Override // p105.InterfaceC8013
+    public final void serialize(InterfaceC8015 interfaceC8015, Object obj) {
+        C7399 c7399 = (C7399) obj;
+        c7399.getClass();
+        InterfaceC7645 interfaceC7645 = c7399.f18285;
+        InterfaceC8020 interfaceC8020 = descriptor;
+        InterfaceC8017 interfaceC8017Mo11269 = interfaceC8015.mo11269(interfaceC8020);
+        if (interfaceC8017Mo11269.mo11272(interfaceC8020) || interfaceC7645 != Method$Defined.NotificationsToolsListChanged) {
+            interfaceC8017Mo11269.mo11278(interfaceC8020, 0, C7621.f18577, interfaceC7645);
+        }
+        interfaceC8017Mo11269.mo11270(interfaceC8020);
+    }
+
+    @Override // p103.InterfaceC7908
+    public final InterfaceC8013[] typeParametersSerializers() {
+        return AbstractC7973.f19448;
+    }
+}

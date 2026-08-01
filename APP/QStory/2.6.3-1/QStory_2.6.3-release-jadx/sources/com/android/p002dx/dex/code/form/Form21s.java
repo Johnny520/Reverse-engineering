@@ -1,0 +1,63 @@
+package com.android.p002dx.dex.code.form;
+
+import com.android.p002dx.dex.code.CstInsn;
+import com.android.p002dx.dex.code.DalvInsn;
+import com.android.p002dx.dex.code.InsnFormat;
+import com.android.p002dx.rop.code.RegisterSpecList;
+import com.android.p002dx.rop.cst.Constant;
+import com.android.p002dx.rop.cst.CstLiteralBits;
+import com.android.p002dx.util.AnnotatedOutput;
+import java.util.BitSet;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class Form21s extends InsnFormat {
+    public static final InsnFormat THE_ONE = new Form21s();
+
+    private Form21s() {
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public int codeSize() {
+        return 2;
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public BitSet compatibleRegs(DalvInsn dalvInsn) {
+        RegisterSpecList registers = dalvInsn.getRegisters();
+        BitSet bitSet = new BitSet(1);
+        bitSet.set(0, InsnFormat.unsignedFitsInByte(registers.get(0).getReg()));
+        return bitSet;
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public String insnArgString(DalvInsn dalvInsn) {
+        return dalvInsn.getRegisters().get(0).regString() + ", " + InsnFormat.literalBitsString((CstLiteralBits) ((CstInsn) dalvInsn).getConstant());
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public String insnCommentString(DalvInsn dalvInsn, boolean z) {
+        return InsnFormat.literalBitsComment((CstLiteralBits) ((CstInsn) dalvInsn).getConstant(), 16);
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public boolean isCompatible(DalvInsn dalvInsn) {
+        RegisterSpecList registers = dalvInsn.getRegisters();
+        if ((dalvInsn instanceof CstInsn) && registers.size() == 1 && InsnFormat.unsignedFitsInByte(registers.get(0).getReg())) {
+            Constant constant = ((CstInsn) dalvInsn).getConstant();
+            if (!(constant instanceof CstLiteralBits)) {
+                return false;
+            }
+            CstLiteralBits cstLiteralBits = (CstLiteralBits) constant;
+            if (cstLiteralBits.fitsInInt() && InsnFormat.signedFitsInShort(cstLiteralBits.getIntBits())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override // com.android.p002dx.dex.code.InsnFormat
+    public void writeTo(AnnotatedOutput annotatedOutput, DalvInsn dalvInsn) {
+        InsnFormat.write(annotatedOutput, InsnFormat.opcodeUnit(dalvInsn, dalvInsn.getRegisters().get(0).getReg()), (short) ((CstLiteralBits) ((CstInsn) dalvInsn).getConstant()).getIntBits());
+    }
+}

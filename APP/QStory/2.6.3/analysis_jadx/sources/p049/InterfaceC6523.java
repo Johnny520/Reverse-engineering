@@ -1,0 +1,10 @@
+package p049;
+
+/* JADX INFO: renamed from: 飘花落叶言世子兰苏哲楪.飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public interface InterfaceC6523 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C6524 f17832 = C6524.f17834;
+}

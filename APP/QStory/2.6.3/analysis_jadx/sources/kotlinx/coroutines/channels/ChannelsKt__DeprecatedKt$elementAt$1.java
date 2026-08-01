@@ -1,0 +1,104 @@
+package kotlinx.coroutines.channels;
+
+import kotlin.AbstractC5185;
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC4357;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import net.bytebuddy.pool.TypePool;
+import p063.InterfaceC6862;
+import top.suzhelan.qstory.hook.item.C5925;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@InterfaceC6862(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt", f = "Deprecated.kt", l = {68}, m = "elementAt", v = 1)
+@Metadata(k = 3, mv = {2, 2, 0}, xi = 48)
+final class ChannelsKt__DeprecatedKt$elementAt$1<E> extends ContinuationImpl {
+    int I$0;
+    int I$1;
+    int I$2;
+    int I$3;
+    Object L$0;
+    Object L$1;
+    Object L$2;
+    Object L$3;
+    int label;
+    /* synthetic */ Object result;
+
+    public ChannelsKt__DeprecatedKt$elementAt$1(InterfaceC4357<? super ChannelsKt__DeprecatedKt$elementAt$1> interfaceC4357) {
+        super(interfaceC4357);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        int i = this.label | Integer.MIN_VALUE;
+        this.label = i;
+        if ((i & Integer.MIN_VALUE) != 0) {
+            this.label = i - Integer.MIN_VALUE;
+        } else {
+            this = new ChannelsKt__DeprecatedKt$elementAt$1<>(this);
+        }
+        Object objM10264 = this.result;
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        int i2 = this.label;
+        InterfaceC5199 interfaceC5199 = null;
+        if (i2 == 0) {
+            AbstractC5185.m10210(objM10264);
+            try {
+                throw null;
+            } catch (Throwable th) {
+                th = th;
+            }
+        } else {
+            if (i2 != 1) {
+                C5925.m11311("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+            int i3 = this.I$3;
+            int i4 = this.I$2;
+            int i5 = this.I$1;
+            int i6 = this.I$0;
+            InterfaceC5212 interfaceC5212 = (InterfaceC5212) this.L$3;
+            InterfaceC5199 interfaceC51992 = (InterfaceC5199) this.L$1;
+            try {
+                AbstractC5185.m10210(objM10264);
+                Object obj2 = interfaceC5212;
+                while (((Boolean) objM10264).booleanValue()) {
+                    C5191 c5191 = (C5191) obj2;
+                    Object objM10262 = c5191.m10262();
+                    int i7 = i3 + 1;
+                    if (i6 == i3) {
+                        interfaceC51992.mo10256(null);
+                        return objM10262;
+                    }
+                    this.L$0 = null;
+                    this.L$1 = interfaceC51992;
+                    this.L$2 = null;
+                    this.L$3 = c5191;
+                    this.I$0 = i6;
+                    this.I$1 = i5;
+                    this.I$2 = i4;
+                    this.I$3 = i7;
+                    this.label = 1;
+                    objM10264 = c5191.m10264(this);
+                    if (objM10264 == coroutineSingletons) {
+                        return coroutineSingletons;
+                    }
+                    i3 = i7;
+                    obj2 = c5191;
+                }
+                throw new IndexOutOfBoundsException("ReceiveChannel doesn't contain element at index " + i6 + TypePool.Default.LazyTypeDescription.GenericTypeToken.INNER_CLASS_PATH);
+            } catch (Throwable th2) {
+                th = th2;
+                interfaceC5199 = interfaceC51992;
+            }
+        }
+        try {
+            throw th;
+        } catch (Throwable th3) {
+            AbstractC5205.m10278(interfaceC5199, th);
+            throw th3;
+        }
+    }
+}

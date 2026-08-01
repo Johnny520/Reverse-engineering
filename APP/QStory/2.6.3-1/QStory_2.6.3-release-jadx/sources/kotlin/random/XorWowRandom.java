@@ -1,0 +1,78 @@
+package kotlin.random;
+
+import com.android.p002dx.rop.code.RegisterSpec;
+import java.io.InvalidObjectException;
+import java.io.Serializable;
+import kotlin.Metadata;
+import net.bytebuddy.description.method.MethodDescription;
+import top.suzhelan.qstory.hook.item.C6755;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@Metadata(m150d1 = {"\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\b\n\u0002\b\u000b\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0000\n\u0002\b\u000b\b\u0000\u0018\u0000 \u001c2\u00020\u00012\u00060\u0002j\u0002`\u0003:\u0001\u001dB9\b\u0000\u0012\u0006\u0010\u0005\u001a\u00020\u0004\u0012\u0006\u0010\u0006\u001a\u00020\u0004\u0012\u0006\u0010\u0007\u001a\u00020\u0004\u0012\u0006\u0010\b\u001a\u00020\u0004\u0012\u0006\u0010\t\u001a\u00020\u0004\u0012\u0006\u0010\n\u001a\u00020\u0004¢\u0006\u0004\b\u000b\u0010\fB\u0019\b\u0010\u0012\u0006\u0010\r\u001a\u00020\u0004\u0012\u0006\u0010\u000e\u001a\u00020\u0004¢\u0006\u0004\b\u000b\u0010\u000fJ\u000f\u0010\u0011\u001a\u00020\u0010H\u0002¢\u0006\u0004\b\u0011\u0010\u0012J\u000f\u0010\u0014\u001a\u00020\u0013H\u0002¢\u0006\u0004\b\u0014\u0010\u0015J\u000f\u0010\u0016\u001a\u00020\u0004H\u0016¢\u0006\u0004\b\u0016\u0010\u0017J\u0017\u0010\u0019\u001a\u00020\u00042\u0006\u0010\u0018\u001a\u00020\u0004H\u0016¢\u0006\u0004\b\u0019\u0010\u001aR\u0016\u0010\u0005\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0005\u0010\u001bR\u0016\u0010\u0006\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0006\u0010\u001bR\u0016\u0010\u0007\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0007\u0010\u001bR\u0016\u0010\b\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\b\u0010\u001bR\u0016\u0010\t\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\t\u0010\u001bR\u0016\u0010\n\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\n\u0010\u001b¨\u0006\u001e"}, m151d2 = {"Lkotlin/random/XorWowRandom;", "Lkotlin/random/飘花落叶言子楪世兰苏哲;", "Ljava/io/Serializable;", "Lkotlin/io/Serializable;", "", "x", "y", "z", "w", RegisterSpec.PREFIX, "addend", MethodDescription.CONSTRUCTOR_INTERNAL_NAME, "(IIIIII)V", "seed1", "seed2", "(II)V", "Lkotlin/飘花落叶言子楪兰苏哲世;", "checkInvariants", "()V", "", "readResolve", "()Ljava/lang/Object;", "nextInt", "()I", "bitCount", "nextBits", "(I)I", "I", "Companion", "kotlin/random/飘花落叶言子楪世兰哲苏", "kotlin-stdlib"}, m152k = 1, m153mv = {2, 3, 0}, m155xi = 48)
+public final class XorWowRandom extends AbstractC5233 implements Serializable {
+    private static final C5232 Companion = new C5232();
+    private static final long serialVersionUID = 0;
+    private int addend;
+    private int v;
+    private int w;
+    private int x;
+    private int y;
+    private int z;
+
+    public XorWowRandom(int i, int i2, int i3, int i4, int i5, int i6) {
+        this.x = i;
+        this.y = i2;
+        this.z = i3;
+        this.w = i4;
+        this.v = i5;
+        this.addend = i6;
+        checkInvariants();
+        for (int i7 = 0; i7 < 64; i7++) {
+            nextInt();
+        }
+    }
+
+    private final void checkInvariants() {
+        if ((this.v | this.x | this.y | this.z | this.w) != 0) {
+            return;
+        }
+        C6755.m11869("Initial state must have at least one non-zero element.");
+    }
+
+    private final Object readResolve() throws Throwable {
+        try {
+            checkInvariants();
+            return this;
+        } catch (Throwable th) {
+            Throwable thInitCause = new InvalidObjectException(th.getMessage()).initCause(th);
+            thInitCause.getClass();
+            throw thInitCause;
+        }
+    }
+
+    @Override // kotlin.random.AbstractC5233
+    public int nextBits(int bitCount) {
+        return (nextInt() >>> (32 - bitCount)) & ((-bitCount) >> 31);
+    }
+
+    @Override // kotlin.random.AbstractC5233
+    public int nextInt() {
+        int i = this.x;
+        int i2 = i ^ (i >>> 2);
+        this.x = this.y;
+        this.y = this.z;
+        this.z = this.w;
+        int i3 = this.v;
+        this.w = i3;
+        int i4 = ((i2 ^ (i2 << 1)) ^ i3) ^ (i3 << 4);
+        this.v = i4;
+        int i5 = this.addend + 362437;
+        this.addend = i5;
+        return i4 + i5;
+    }
+
+    public XorWowRandom(int i, int i2) {
+        this(i, i2, 0, 0, ~i, (i << 10) ^ (i2 >>> 4));
+    }
+}

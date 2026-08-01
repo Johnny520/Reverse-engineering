@@ -1,0 +1,529 @@
+.class public Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;
+.super Ljava/lang/Object;
+.source "r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776"
+
+
+# instance fields
+.field public final 飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+.field public 飘花落叶言子楪世苏兰哲:J
+
+.field public final 飘花落叶言子楪世苏哲兰:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Landroidx/compose/ui/graphics/vector/飘花落叶言子楪苏世哲兰;
+
+    .line 5
+    .line 6
+    const/4 v1, 0x3
+
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    invoke-direct {v0, v1, v2}, Landroidx/compose/ui/graphics/vector/飘花落叶言子楪苏世哲兰;-><init>(IZ)V
+
+    .line 9
+    .line 10
+    .line 11
+    iput-object v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    const-wide/16 v0, 0x3a98
+
+    .line 14
+    .line 15
+    iput-wide v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏哲兰:J
+
+    .line 16
+    .line 17
+    const-wide v0, 0x7fffffffffffffffL
+
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    iput-wide v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 23
+    .line 24
+    return-void
+.end method
+
+.method public constructor <init>(J)V
+    .locals 4
+
+    .line 25
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 26
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    const/high16 v1, 0x3f400000    # 0.75f
+
+    const/4 v2, 0x1
+
+    const/16 v3, 0x64
+
+    invoke-direct {v0, v3, v1, v2}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
+
+    iput-object v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 27
+    iput-wide p1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏哲兰:J
+
+    return-void
+.end method
+
+.method public constructor <init>(JJLjava/lang/String;)V
+    .locals 0
+
+    .line 28
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 29
+    iput-object p5, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 30
+    iput-wide p1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏哲兰:J
+
+    .line 31
+    iput-wide p3, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public declared-synchronized 飘花落叶言子楪世兰苏哲(J)V
+    .locals 7
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :goto_0
+    :try_start_0
+    iget-wide v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 3
+    .line 4
+    cmp-long v0, v0, p1
+
+    .line 5
+    .line 6
+    if-lez v0, :cond_0
+
+    .line 7
+    .line 8
+    iget-object v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    check-cast v0, Ljava/util/LinkedHashMap;
+
+    .line 11
+    .line 12
+    invoke-virtual {v0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v0
+
+    .line 20
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v1
+
+    .line 24
+    check-cast v1, Ljava/util/Map$Entry;
+
+    .line 25
+    .line 26
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v2
+
+    .line 30
+    check-cast v2, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;
+
+    .line 31
+    .line 32
+    iget-wide v3, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 33
+    .line 34
+    iget v5, v2, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏兰哲:I
+
+    .line 35
+    .line 36
+    int-to-long v5, v5
+
+    .line 37
+    sub-long/2addr v3, v5
+
+    .line 38
+    iput-wide v3, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 39
+    .line 40
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v1
+
+    .line 44
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
+
+    .line 45
+    .line 46
+    .line 47
+    iget-object v0, v2, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏哲兰:Ljava/lang/Object;
+
+    .line 48
+    .line 49
+    invoke-virtual {p0, v1, v0}, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰(Ljava/lang/Object;Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 50
+    .line 51
+    .line 52
+    goto :goto_0
+
+    .line 53
+    :catchall_0
+    move-exception p1
+
+    .line 54
+    goto :goto_1
+
+    .line 55
+    :cond_0
+    monitor-exit p0
+
+    .line 56
+    return-void
+
+    .line 57
+    :goto_1
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 58
+    throw p1
+.end method
+
+.method public declared-synchronized 飘花落叶言子楪世哲兰苏(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    invoke-virtual {p0, p2}, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲(Ljava/lang/Object;)I
+
+    .line 3
+    .line 4
+    .line 5
+    move-result v0
+
+    .line 6
+    int-to-long v1, v0
+
+    .line 7
+    iget-wide v3, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏哲兰:J
+
+    .line 8
+    .line 9
+    cmp-long v3, v1, v3
+
+    .line 10
+    .line 11
+    const/4 v4, 0x0
+
+    .line 12
+    if-ltz v3, :cond_0
+
+    .line 13
+    .line 14
+    invoke-virtual {p0, p1, p2}, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰(Ljava/lang/Object;Ljava/lang/Object;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 15
+    .line 16
+    .line 17
+    monitor-exit p0
+
+    .line 18
+    return-object v4
+
+    .line 19
+    :catchall_0
+    move-exception p1
+
+    .line 20
+    goto :goto_1
+
+    .line 21
+    :cond_0
+    if-eqz p2, :cond_1
+
+    .line 22
+    .line 23
+    :try_start_1
+    iget-wide v5, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 24
+    .line 25
+    add-long/2addr v5, v1
+
+    .line 26
+    iput-wide v5, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 27
+    .line 28
+    :cond_1
+    iget-object v1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 29
+    .line 30
+    check-cast v1, Ljava/util/LinkedHashMap;
+
+    .line 31
+    .line 32
+    if-nez p2, :cond_2
+
+    .line 33
+    .line 34
+    move-object v2, v4
+
+    .line 35
+    goto :goto_0
+
+    .line 36
+    :cond_2
+    new-instance v2, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;
+
+    .line 37
+    .line 38
+    invoke-direct {v2, p2, v0}, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;-><init>(Ljava/lang/Object;I)V
+
+    .line 39
+    .line 40
+    .line 41
+    :goto_0
+    invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object v0
+
+    .line 45
+    check-cast v0, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;
+
+    .line 46
+    .line 47
+    if-eqz v0, :cond_3
+
+    .line 48
+    .line 49
+    iget-wide v1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 50
+    .line 51
+    iget v3, v0, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏兰哲:I
+
+    .line 52
+    .line 53
+    int-to-long v5, v3
+
+    .line 54
+    sub-long/2addr v1, v5
+
+    .line 55
+    iput-wide v1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏兰哲:J
+
+    .line 56
+    .line 57
+    iget-object v1, v0, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏哲兰:Ljava/lang/Object;
+
+    .line 58
+    .line 59
+    invoke-virtual {v1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 60
+    .line 61
+    .line 62
+    move-result p2
+
+    .line 63
+    if-nez p2, :cond_3
+
+    .line 64
+    .line 65
+    iget-object p2, v0, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏哲兰:Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    invoke-virtual {p0, p1, p2}, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 68
+    .line 69
+    .line 70
+    :cond_3
+    iget-wide p1, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世苏哲兰:J
+
+    .line 71
+    .line 72
+    invoke-virtual {p0, p1, p2}, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世兰苏哲(J)V
+
+    .line 73
+    .line 74
+    .line 75
+    if-eqz v0, :cond_4
+
+    .line 76
+    .line 77
+    iget-object v4, v0, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏哲兰:Ljava/lang/Object;
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 78
+    .line 79
+    :cond_4
+    monitor-exit p0
+
+    .line 80
+    return-object v4
+
+    .line 81
+    :goto_1
+    :try_start_2
+    monitor-exit p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    .line 82
+    throw p1
+.end method
+
+.method public 飘花落叶言子楪世哲苏兰(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public 飘花落叶言子楪世苏兰哲(Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x1
+
+    .line 2
+    return p0
+.end method
+
+.method public declared-synchronized 飘花落叶言子楪世苏哲兰(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    iget-object v0, p0, Lcom/alibaba/fastjson2/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪世哲苏兰:Ljava/lang/Object;
+
+    .line 3
+    .line 4
+    check-cast v0, Ljava/util/LinkedHashMap;
+
+    .line 5
+    .line 6
+    invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    check-cast p1, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;
+
+    .line 11
+    .line 12
+    if-eqz p1, :cond_0
+
+    .line 13
+    .line 14
+    iget-object p1, p1, L飘花落叶言楪世哲兰苏子/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪世苏哲兰:Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 15
+    .line 16
+    goto :goto_0
+
+    .line 17
+    :catchall_0
+    move-exception p1
+
+    .line 18
+    goto :goto_1
+
+    .line 19
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 20
+    :goto_0
+    monitor-exit p0
+
+    .line 21
+    return-object p1
+
+    .line 22
+    :goto_1
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 23
+    throw p1
+.end method

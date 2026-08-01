@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme" android:orientation="vertical" android:id="@id/activity_plugin_root" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/online_plugin_chip_text" android:id="@id/btn_back" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="← 返回" />
+        <TextView android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/desc" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/pb_loading" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <top.suzhelan.plugin.sdk.online.widget.CustomChipGroup android:id="@id/cg_tags" android:layout_width="match_parent" android:layout_height="wrap_content" app:chipSpacing="0.0dp" app:singleSelection="true" />
+    <FrameLayout android:id="@id/box" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

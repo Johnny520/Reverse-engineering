@@ -1,0 +1,9 @@
+package org.apache.commons.compress.archivers.sevenz;
+
+import com.alibaba.fastjson2.AbstractC2905;
+
+/* JADX INFO: renamed from: org.apache.commons.compress.archivers.sevenz.飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C5578 extends AbstractC2905 {
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/update_title" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="有新更新" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="300.0dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/update_log" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="update log" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp">
+        <Button android:id="@id/cancelUpdate" android:background="@drawable/blue_shape" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="取消" android:layout_weight="2.0" />
+        <View android:id="@id/view_separated" android:layout_width="20.0dp" android:layout_height="0.0dp" />
+        <Button android:id="@id/goToUpdate" android:background="@drawable/blue_shape" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="更新" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

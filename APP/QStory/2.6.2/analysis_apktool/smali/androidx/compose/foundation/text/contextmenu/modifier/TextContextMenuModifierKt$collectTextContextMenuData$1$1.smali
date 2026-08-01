@@ -1,0 +1,109 @@
+.class final synthetic Landroidx/compose/foundation/text/contextmenu/modifier/TextContextMenuModifierKt$collectTextContextMenuData$1$1;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.source "r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776"
+
+# interfaces
+.implements L飘花落叶言世子哲楪兰苏/飘花落叶言子楪苏兰哲世;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "L\u98d8\u82b1\u843d\u53f6\u8a00\u4e16\u5b50\u54f2\u696a\u5170\u82cf/\u98d8\u82b1\u843d\u53f6\u8a00\u5b50\u696a\u82cf\u5170\u54f2\u4e16;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 7
+
+    .line 1
+    const-string v5, "addFilter$foundation(Lkotlin/jvm/functions/Function1;)V"
+
+    .line 2
+    .line 3
+    const/4 v6, 0x0
+
+    .line 4
+    const/4 v1, 0x1
+
+    .line 5
+    const-class v3, L飘花落叶言子楪兰哲苏世/飘花落叶言子楪世苏哲兰;
+
+    .line 6
+    .line 7
+    const-string v4, "addFilter"
+
+    .line 8
+    .line 9
+    move-object v0, p0
+
+    .line 10
+    move-object v2, p1
+
+    .line 11
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 11
+    check-cast p1, L飘花落叶言世子哲楪兰苏/飘花落叶言子楪苏兰哲世;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/foundation/text/contextmenu/modifier/TextContextMenuModifierKt$collectTextContextMenuData$1$1;->invoke(L飘花落叶言世子哲楪兰苏/飘花落叶言子楪苏兰哲世;)V
+
+    sget-object p0, Lkotlin/飘花落叶言子楪兰苏哲世;->飘花落叶言子楪世苏哲兰:Lkotlin/飘花落叶言子楪兰苏哲世;
+
+    return-object p0
+.end method
+
+.method public final invoke(L飘花落叶言世子哲楪兰苏/飘花落叶言子楪苏兰哲世;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "L\u98d8\u82b1\u843d\u53f6\u8a00\u4e16\u5b50\u54f2\u696a\u5170\u82cf/\u98d8\u82b1\u843d\u53f6\u8a00\u5b50\u696a\u82cf\u5170\u54f2\u4e16;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast p0, L飘花落叶言子楪兰哲苏世/飘花落叶言子楪世苏哲兰;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, L飘花落叶言子楪兰哲苏世/飘花落叶言子楪世苏哲兰;->飘花落叶言子楪世苏兰哲:Landroidx/collection/飘花落叶言子世哲苏楪兰;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1}, Landroidx/collection/飘花落叶言子世哲苏楪兰;->飘花落叶言子楪苏世哲兰(Ljava/lang/Object;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,0 +1,3289 @@
+index	decoded
+0	lin.xposed
+1	喵喵喵喵喵喵喵呜~喵喵喵呜喵喵喵喵~喵喵喵呜喵呜呜喵~喵喵喵喵呜呜喵呜~喵喵喵喵喵呜喵喵~喵喵喵呜呜呜呜呜~喵喵喵喵喵呜喵喵
+2	喵喵喵喵喵喵呜呜~喵喵喵喵喵喵喵喵~喵喵喵呜呜喵喵喵~喵喵喵喵喵呜喵喵~喵喵喵喵呜呜喵喵~喵喵喵呜呜呜呜呜~喵喵喵喵呜喵喵呜
+3	喵呜喵喵喵喵喵呜~喵呜喵呜呜喵呜呜~喵呜喵喵呜呜喵喵~喵呜喵喵喵呜呜喵~喵呜喵呜喵呜呜喵
+4	NewQStory
+5	/data/list/
+6	/data/plugin/
+7	/databases/
+8	/data/simple/
+9	AES/ECB/PKCS5Padding
+10	android.app.ActivityThread
+11	sCurrentActivityThread
+12	mActivities
+13	activity
+14	未能读取足够的字节来判断图片类型
+15	非记录在内的图像格式
+16	path No exists :
+17	Non-file type :
+18	path No exists(文件不存在) 
+19	Empty File object
+20	Non-file type(这个File是文件夹而不是文件) :
+21	path No exists(源文件不存在) : 
+22	Not a file, but a directory(不是文件) : 
+23	targetFile , Empty File object
+24	create File Fail :
+25	User-Agent
+26	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+27	Connection
+28	keep-alive
+29	Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36
+30	下文件失败:
+31	 到路径:
+32	application/json; charset=utf-8
+33	Unexpected code 
+34	Mozilla/5.0 (Linux; Android 14; V2309) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+35	connection
+36	Keep-Alive
+37	multipart/form-data
+38	Charsert
+39	Content-Type
+40	;boundary=
+41	Content-Disposition: form-data; name="
+42	Content-Type: text/plain; charset=
+43	Content-Transfer-Encoding: 8bit
+44	Content-Disposition: form-data; name="file"; filename="
+45	Content-Type: application/octet-stream; charset=
+46	clipboard
+47	navigation_bar_height
+48	status_bar_height
+49	AndroidManifest.xml
+50	创建解压目标文件夹失败
+51	/imagefiles
+52	压缩完成，耗时：
+53	zip error from ZipUtils
+54	不存在
+55	不是文件夹
+56	Missing required view with ID: 
+57	rootView
+58	com.tencent.mobileqq|com.tencent.tim
+59	com.tencent.mobileqq
+60	com.tencent.tim
+61	com.tencent.mobileqq:MSF
+62	onResume
+63	com.tencent.mobileqq.app.automator.step.InitTabData
+64	delayHook
+65	com.tencent.mobileqq.startup.step.LoadData
+66	.nomedia
+67	[QStory] 
+68	 startLoad
+69	 Loading Time 
+70	/qs_config
+71	/data/xphelper
+72	com.tencent.common.app.BaseApplicationImpl
+73	onCreate
+74	attachBaseContext
+75	/Log/Crash/MainCrash.log
+76	闪退日志保存在
+77	 点击可以复制并测试闪退 日志仅保留最新的一份
+78	主线程闪退已拦截
+79	路径已复制
+80	kotlin.jvm.functions.Function0
+81	com.tencent.mobileqq.setting.processor
+82	getActivity
+83	com.tencent.mobileqq.widget.FormSimpleItem
+84	反射获取布局异常 \n
+85	没有获取到父布局
+86	setLeftText
+87	setRightText
+88	设置入口项没有成功注入
+89	com.tencent.mobileqq.setting.main.NewSettingConfigProvider
+90	com.tencent.mobileqq.setting.main.b
+91	com.tencent.mobileqq.setting.main.MainSettingConfigProvider
+92	com.tencent.mobileqq.activity.QQSettingSettingActivity
+93	doOnCreate
+94	doOnCreateView
+95	Java脚本
+96	在线脚本
+97	/Log/Crash/ThreadCrash.log
+98	子线程闪退已拦截
+99	语音图标初始化完成
+100	语音保存在
+101	单击可以复制
+102	复制成功
+103	复制失败
+104	/voice_icon.png
+105	重启生效
+106	com.tencent.qqnt.chats.biz.guild.GuildDiscoveryItemBuilder
+107	com.tencent.qqnt.chats.core.adapter.
+108	com.tencent.qqnt.chats.core.adapter.holder.RecentContactItemHolder
+109	com.tencent.qqnt.chats.core.adapter.builder.
+110	com.tencent.qqnt.chats.core.ui.ChatsListVBS$
+111	findClass is null
+112	com.tencent.qqnt.chats.core.adapter.holder
+113	chatSwipeLayout
+114	com.tencent.qqnt.chats.core.adapter.holder.RecentContactItemBinding
+115	RecentContactChatItem
+116	contactType=16
+117	com.tencent.qqnt.notification.NotificationFacade
+118	mqq.app.AppRuntime
+119	com.tencent.qqnt.kernel.nativeinterface.NotificationCommonInfo
+120	com.tencent.qqnt.kernel.nativeinterface.RecentContactInfo
+121	始终没有找到合适的方法
+122	com.tencent.mobileqq.app.QQAppInterface
+123	notifyMessageReceived
+124	com.tencent.imcore.message.Message
+125	chatType
+126	abstractContent
+127	@全体成员
+128	艾特全体
+129	chatType=2 atType=1
+130	content=[@全体成员]
+131	abstractContent=@全体成员
+132	PictureSummary
+133	com.tencent.qqnt.kernel.nativeinterface.Contact
+134	java.util.ArrayList
+135	java.util.HashMap
+136	com.tencent.qqnt.kernel.nativeinterface.IOperateCallback
+137	com.tencent.qqnt.kernel.nativeinterface.IKernelMsgService$CppProxy
+138	点击以设置图片/表情显示的文本
+139	设置为:
+140	getPicElement
+141	emojiFrom
+142	setSummary
+143	com.tencent.richframework.gallery.part.RFWLayerAnimPart
+144	initStartAnim
+145	updateBackgroundAlpha
+146	dragLayout
+147	mDragLayout
+148	windowBgDrawable
+149	mWindowBgDrawable
+150	com.tencent.qphone.base.util.QLogItemManager$WriteHandler
+151	com.tencent.qphone.base.util.QLog
+152	elements
+153	getArkElement
+154	bytesData
+155	长按复制卡片
+156	已复制
+157	仅支持QQNT
+158	com.tencent.qqnt.aio.menu.ui.QQCustomMenuExpandableLayout
+159	com.tencent.qqnt.aio.menu.ui.QQCustomMenuNoIconLayout
+160	com.tencent.mobileqq.aio.msg.AIOMsgItem
+161	com.tencent.mobileqq.aio.msglist.holder.component.pic.AIOPicContentComponent
+162	com.tencent.mobileqq.aio.msglist.holder.component.mix.AIOMixContentComponent
+163	com.tencent.mobileqq.aio.msglist.holder.component.BaseContentComponent
+164	getMsgRecord
+165	复制图链
+166	已复制到剪切板:
+167	com.tencent.qqnt.chats.core.ui.ChatsListVB$
+168	开始清理
+169	已清理
+170	NT专用_长按主页右上角加号删除,请勿和QA的清理最近聊天一起开启,否则并不会发生什么
+171	com.tencent.mobileqq.activity.home.Conversation
+172	在版本大于等于8.9.80时QQ关闭了表情保存 此功能可以继续下载表情
+173	emotion_download_disable_8980_887036489
+174	com.tencent.mobileqq.activity.aio.panel.PanelIconLinearLayout
+175	com.tencent.mobileqq.activity.aio.core.BaseChatPie
+176	com.tencent.qqnt.aio.shortcutbar.PanelIconLinearLayout
+177	No method found
+178	com.tencent.qqnt.kernel.nativeinterface.PicElement
+179	md5HexStr
+180	保存到QS
+181	/滑稽.png
+182	/暗黑滑稽.png
+183	 ̶因̶为̶F̶u̶n̶P̶a̶n̶e̶l̶的̶Q̶T̶o̶o̶l̶表̶情̶面̶板̶#̶2̶难̶用̶ , 所以有了这个从QTool移植适配来的表情面板#1 , 表情以文件夹组保存在
+184	/Pic/单击可以复制
+185	表情面板图标初始化完毕
+186	深色模式表情面板图标初始化完毕
+187	QStory表情面板
+188	com.tencent.mobileqq.aio.input.simpleui
+189	updateSimpleUI
+190	https://gitee.com/suzhelan/test/raw/master/DefaultEmoticon.zip
+191	/emotion.zip
+192	com.tencent.mobileqq.emotionintegrate.AIOEmotionFragment
+193	com.tencent.mobileqq.widget.share.ShareActionSheetV2
+194	setIntentForStartForwardRecentActivity
+195	主页搜索-游戏消息-聊天界面右上角
+196	com.tencent.mobileqq.activity.ChatSettingFragment
+197	onViewCreated
+198	com.tencent.mobileqq.activity.ChatSettingActivity
+199	加为QQ好友
+200	[原]加为QQ好友
+201	[QS]跳转主页
+202	mqq://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=
+203	android.intent.action.VIEW
+204	com.tencent.mobileqq.activity
+205	当前功能未在QQNT修复 可用状态 : 
+206	不可用
+207	com.tencent.mobileqq.widget.navbar.NavBarAIO
+208	setEarIconVisible
+209	com.tencent.qqnt.kernel.nativeinterface.PttElement
+210	getFilePath
+211	长按一条语音
+212	com.tencent.mobileqq.aio.msglist.holder.component.ptt.AIOPttContentComponent
+213	com.tencent.mobileqq.activity.aio.item.PttItemBuilder
+214	com.tencent.mobileqq.data.ChatMessage
+215	getLocalFilePath
+216	com.tencent.richframework.gallery.QQGalleryActivity
+217	com.tencent.mobileqq.richmediabrowser.AIOGalleryActivity
+218	PicUI bundle==null
+219	key_troop_group_name
+220	extra.GROUP_UIN
+221	群聊消息 
+222	来自群组 : 
+223	来自私聊与 
+224	 的对话
+225	extra.EXTRA_CURRENT_IMAGE
+226	发送者 : 
+227	mqqapi://card/show_pslcard?src_type=internal&version=1&uin=
+228	&card_type=group&source=qrcode
+229	可能点旁边的字会有什么反应呢
+230	getIntent
+231	forward_source_uin_type
+232	extra.GROUP_CODE
+233	inputTextMethod
+234	长按发送以发送输入框内的卡片
+235	com.tencent.guild.aio.input.realinput.GuildAioDefaultInputViewBinder
+236	bindViewAndData
+237	com.tencent.mobileqq.aio.input.sendmsg
+238	AIOSendMsgVBDelegate
+239	handleRecallFailed no toast
+240	androidx.viewbinding.ViewBinding
+241	inputRoot.findViewById(R.id.input)
+242	卡片格式错误
+243	time_format
+244	保存成功
+245	MessagePrefixAndSuffixModification
+246	点击设置消息前后缀
+247	getTextElement
+248	GdtMvTitleHelper
+249	bar == null
+250	com.tencent.gdtad.basics.motivevideo.GdtMvVideoViewController
+251	com.tencent.gdtad.basics.motivevideo
+252	GdtMotiveVideoDialog
+253	onWindowFocusChanged() called with: hasFocus = [
+254	audioSwitch click is called isSilentMode =
+255	 onClick close_ads
+256	com.tencent.gdtad.basics.motivebrowsing.GdtMotiveBrowsingDialog
+257	GdtMotiveBrowsingDialog
+258	doOnBackEvent
+259	脆弱的功能 很容易坏
+260	跳广告错误:
+261	com.tencent.mobileqq.springhb.entry.module.SpringTabBannerModule
+262	com.tencent.mobileqq.springhb.entry.model.MsgTabBannerData
+263	onMsgTabBannerHide
+264	com.tencent.mobileqq.QQSettingMe
+265	com.tencent.mobileqq.QQSettingMeView
+266	com.tencent.mobileqq.BaseQQSettingMeView
+267	com.tencent.mobileqq.activity.QQSettingMe
+268	com.tencent.mobileqq.activity.BaseQQSettingMeView
+269	重启生效,该项仅在旧版侧滑栏生效
+270	已失效
+271	doNotDisturbData
+272	日期格式化失败 
+273	24小时
+274	12小时
+275	targetTime
+276	TaskName
+277	需要屏蔽通知的时长
+278	功能已失效
+279	openSession
+280	关闭了免打扰
+281	MM-dd hh:mm
+282	picElement
+283	original
+284	sourcePath
+285	防止泄露隐私 实验性功能 效果没测出来 仅适配QQNT
+286	GPSLongitude
+287	GPSLatitude
+288	cannot save exif
+289	图转卡
+290	转卡片
+291	https://api.lzlnb.cn/api/ark
+292	长按图片消息会出现图转卡的可选项
+293	正在签名 请不要离开聊天窗口...
+294	https://api.lzlnb.cn/api/ark?url=
+295	send ark
+296	签名失败
+297	群聊信息
+298	群应用
+299	将群文件卡片所在位置重新排序到上方
+300	com.tencent.mobileqq.troop.troopsetting.activity.TroopSettingFragmentV2
+301	onViewCreatedAfterPartInit
+302	com.tencent.mobileqq.troop.troopsetting.activity.TroopSettingActivity
+303	com.tencent.mobileqq.troop.troopsetting.part.TroopSettingAppPart
+304	com.tencent.mobileqq.troop.troopsetting.part.TroopSettingMemberInfoPart
+305	troop  app list is null
+306	Menu_Item_Class
+307	generated
+308	QQCustomMenuItem{title='
+309	com.tencent.qqnt.aio.menu.ui
+310	serviceCmd
+311	trpc.msg.olpush.OlPushService.MsgPush
+312	wupBuffer
+313	mqq.app.MSFServlet
+314	onReceive
+315	com.tencent.qphone.base.remote.FromServiceMsg
+316	com.tencent.relation.common.api.IRelationNTUinAndUidApi
+317	isValidUin
+318	getUinFromUid
+319	chat_show_method
+320	chat_hide_method
+321	com.tencent.mobileqq.aio.input.draft.InputDraftVMDelegate
+322	onEnterAioReport mIsAIOShowed
+323	[hide]: nick is 
+324	loadBackgroundAsync: skip for mosaic is on
+325	doOnStop
+326	com.tencent.mobileqq.aio.msglist.holder.AIOBubbleMsgItemVB
+327	com.tencent.qqnt.aio.holder.IMsgItemMviUIState
+328	com.tencent.mobileqq.aio.msglist.holder.AIOMsgItemUIState$AIOMsgItemState
+329	getHostView
+330	mqq.app.msghandle.MsgRespHandler
+331	dispatchRespMsg
+332	mqq.app.MobileQQ
+333	com.tencent.mobileqq.msf.sdk.MsfMessagePair
+334	com.tencent.mobileqq.msf.sdk.MsfRespHandleUtil
+335	com.tencent.mobileqq.msf.sdk.MsfServiceSdk
+336	fromServiceMsg
+337	OidbSvcTrpcTcp.0x9067_202
+338	elementType
+339	getContent
+340	setContent
+341	com.tencent.qqnt.aio.holder.template.BubbleLayoutCompatPress
+342	[QStory]已对MsgView进行适配
+343	com.tencent.aio.data.AIOParam
+344	com.tencent.aio.data.AIOSession
+345	com.tencent.aio.data.AIOContact
+346	com.tencent.mobileqq.activity.aio.SessionInfo
+347	AIO_doOnCreate_initUI
+348	QQNT_AIOCreate
+349	com.tencent.aio.base.chat.ChatPie
+350	onDestroy
+351	rootVMBuild
+352	com.tencent.mobileqq.troop.api.impl.TroopCreateInfoServiceImpl
+353	deleteInInviteList
+354	com.airbnb.lottie
+355	是否保存
+356	选择需要保存的图片
+357	没有选择任何的保存列表
+358	图片尚未加载完毕,保存失败
+359	已保存到:
+360	创建新目录
+361	确定创建
+362	名字不能为空
+363	这个名字已经存在
+364	[动画表情]
+365	是否删除此图片
+366	输入名字
+367	gameId%3D
+368	pre_code=
+369	feedsid=
+370	connects
+371	vertexes
+372	https://h5.qianbao.qq.com/oneStrokePaintHb/cgi/checkOneStrokePaint?g_tk=
+373	qianbao.qq.com
+374	https://h5.qianbao.qq.com
+375	content-type
+376	application/json;charset=UTF-8
+377	user-agent
+378	Mozilla/5.0 (Linux; Android 12; LE2120 Build/SKQ1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.72 MQQBrowser/6.2 TBS/045913 Mobile Safari/537.36 V1_AND_SQ_8.8.55_2390_YYB_D QQ/8.8.55.6900 NetType/WIFI WebP/0.3.0 Pixel/1440 StatusBarHeight/128 SimpleUISwitch/0 QQTheme/0 InMagicWin/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.0
+379	appid=10011
+380	app_key=ZmsiXB930O2pwx8j
+381	oneStrokeId
+382	oneStrokeHbOrbit
+383	hbListId
+384	strokeType
+385	https://h5.qianbao.qq.com/sendRedpack/cgi/getOneStrokeSubject?g_tk=
+386	window._servData = 
+387	oneStrokeSubjects
+388	yyyyMMddHHmmss
+389	https://mqq.tenpay.com/cgi-bin/hongbao/qpay_hb_na_grap.cgi?ver=2.0&chv=3
+390	okhttp/3.12.10
+391	req_text=
+392	https://mqq.tenpay.com/cgi-bin/hongbao/qpay_hb_na_grap.cgi?ver2.0&chv=3
+393	2&random=
+394	&skey_type=
+395	https://mqq.tenpay.com/cgi-bin/hongbao/qpay_hb_na_grap.cgi?
+396	com.tenpay.sdk.basebl.EncryptRequest
+397	com.tencent.mobileqq.qwallet.api.INewQWalletApi
+398	tenpay.com
+399	报错:获取getencText出错
+400	decryptStr
+401	mqq.app.NewIntent
+402	sMobileQQ
+403	com.tencent.mobileqq.qwallet.e.a
+404	trpc.qqhb.qqhb_proxy.Handler.sso_handle
+405	com.tenpay.sdk.net.core.processor.EncryptProcessor
+406	需要一个为pre_grap_token=rand=6e5f10e97975a3d35589a1b12c071c68&sign=267dcb90416a4c908da80c47802cfbf8&ts=1706363819&ver=1的普通参数 我查找不到
+407	com.tenpay.sdk.net.core.comm.SessionKey
+408	com.tenpay.sdk.net.core.statistic.StatisticInfo
+409	com.tenpay.sdk.net.core.encrypt.EncryptResult
+410	com.tenpay.sdk.net.core.encrypt.DecryptResult
+411	getEncryptResult
+412	processDecrypt
+413	getDecodedPlain
+414	getBodyData
+415	tencent.im.qqwallet.QWalletHbPreGrab$QQHBRequest
+416	com.tencent.mobileqq.pb.ByteStringMicro
+417	copyFromUtf8
+418	hb_pre_grap
+419	toByteArray
+420	com.tencent.mobileqq.qwallet.e.g
+421	setObserver
+422	mqq.observer.BusinessObserver
+423	startServlet
+424	subchanne
+425	agreement
+426	pay_flag
+427	senderuin
+428	grouptype
+429	sub_guild_id
+430	groupuin
+431	guild_id
+432	com.tenpay.sdk.net.core.processor.EncryptProcessor$ProcessResult
+433	processEncrypt
+434	com.tenpay.sdk.net.core.processor.PsKeyProcessor
+435	INSTANCE
+436	qpay_hb_na_grap
+437	getPsKey
+438	OpenHbNetClient{encryptProcessor=
+439	, redPacketType=
+440	, authKey='
+441	, redPacketID='
+442	, redPacketDesc='
+443	, troopUin='
+444	, senderUin='
+445	, msgMd5='
+446	, msgSeq='
+447	, msgId='
+448	请求状态  : 
+449	rsp_bytes
+450	tencent.im.qqwallet.QWalletHbPreGrab$QQHBReply
+451	mergeFrom
+452	toStringUtf8
+453	authkey=
+454	&hb_from=137
+455	&hb_from_type=
+456	&skin_id=
+457	&feedsid=
+458	&agreement=
+459	&groupid=
+460	&viewTag=
+461	grapH5CommonHb
+462	&channel=
+463	&fromHBList=
+464	&grap_step=
+465	&senderuin=
+466	&listid=
+467	&grouptype=
+468	&groupuin=
+469	&domain=
+470	h5.qianbao.qq.com
+471	&pay_flag=
+472	&hb_from_type=100
+473	&pre_grap_token=
+474	hb_pre_grapver=2.0&chv=3
+475	&authkey=
+476	&trans_seq=
+477	pre_grap_token
+478	send_object
+479	trans_seq
+480	&hb_from=0&grouptype=
+481	&hb_from=0&groupid=
+482	[QQ红包]
+483	senderUin
+484	msgRandom
+485	clientSeq
+486	&agreement=0&groupid=
+487	&answer=
+488	&msg_id=
+489	&msg_md5=
+490	&msg_seq=
+491	报错口令红包打开
+492	报错:语音
+493	-?[0-9]+(\\.[0-9]+)?
+494	Copy_text
+495	getAudioFileVoiceTime
+496	需要检测群.json
+497	警告组.json
+498	功能已关闭 请勿使用 \n仅供娱乐 使用方法 \n在
+499	里编辑要开启此功能的群组(按照留下的json格式添加群)\n单击可复制路径 修改完重启QQ生效\n龙图警告次数+1\n猫图警告次数-1\n警告次数3次会执行踢出
+500	碧蓝航线
+501	猫羽雫
+502	textList
+503	https://search.linl.top/google/v2/imageContain
+504	你发送的是 碧蓝航线/猫猫\n\n抵消了一次警告\n\n当前警告次数:
+505	龙玉涛
+506	警告次数到达3次 已移出群聊
+507	此消息被鉴定为龙图,已进行禁言\n\n如果误判请在群内发送 : 请给我解禁\n我只是机器人私聊我是没有用的哦\n\n当前警告次数:
+508	 达到3次将会踢出
+509	2971017318
+510	638537273
+511	getChatType
+512	https://gchat.qpic.cn/gchatpic_new/0/0-0-
+513	禁止发龙图
+514	AtTextSummaryChange
+515	点击可设置显示的文本
+516	已保存
+517	com.tencent.mobileqq.transfile.HttpDownloader
+518	downloadImage
+519	com.tencent.image.DownloadParams
+520	com.tencent.image.URLDrawableHandler
+521	Content-Length
+522	当前下载的图片可能过大,已停止加载
+523	已发送
+524	Suzhelan
+525	mOnlySingleSelection
+526	selection_mode
+527	mForwardTargetMap
+528	com.tencent.mobileqq.widget.FormItemRelativeLayout
+529	friendLayout
+530	troopDiscussionLayout
+531	.Forward
+532	开始全选
+533	com.tencent.mobileqq.activity.ForwardFriendListActivity
+534	com.tencent.mobileqq.adapter
+535	getChildView
+536	com.tencent.mobileqq.activity.ForwardTroopListFragment
+537	com.tencent.mobileqq.activity.selectmember.TroopListBaseAdapter
+538	getListenerInfo
+539	mOnClickListener
+540	com.tencent.biz.qui.quisecnavbar.BaseAction
+541	ACTION_RIGHT_TEXT
+542	com.tencent.biz.qui.quisecnavbar.QUISecNavBar
+543	setBaseViewEnabled
+544	setBaseClickListener
+545	com.tencent.mobileqq.utils.QQCustomDialogWtihEmoticonInput
+546	setPositiveButton
+547	com.tencent.mobileqq.forward.dialog.ForwardDialog
+548	com.tencent.mobileqq.activity.ForwardRecentActivity
+549	initEntryHeaderView
+550	initViews
+551	本群开启了严格检测 发送龙图/弱智抽象表情\n\n会直接移出本群(如果误判算你运气不好)\n很高兴你来到本群 但是你可能不适合待在本群\n\n拜拜~
+552	已踢出:
+553	输出消息字段
+554	群组聊天界面 长按右上角三条杠出现 目前有快捷的全体解禁言
+555	使QQ字体添加彩色效果 重启生效
+556	onDetachedFromWindow
+557	FloatingWindows
+558	重命名失败 可能已经有重名文件或格式错误
+559	删除此文件
+560	重命名
+561	重命名失败 可能已经有重名文件
+562	上一级:
+563	#80000000
+564	当前目录无文件
+565	/storage/emulated
+566	已是所能探索到的极限
+567	创建保存语音面板 已抛出异常
+568	语音可能尚未加载完毕
+569	yyyy-MM-dd-HH-mm-ss
+570	文件名重复 目录已存在 
+571	覆盖此目标文件
+572	保留两个文件
+573	已生成新的语音文件
+574	已覆盖该文件
+575	语音已保存
+576	plugin dialog
+577	onClickFloatingWindow
+578	onTroopEvent
+579	callbackOnRawMsg
+580	onForbiddenEvent
+581	onCreateMenu
+582	onMsgRetract
+583	PluginMenuFloatingWindow
+584	peerName
+585	sendMemberName
+586	sendNickName
+587	fileName
+588	/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/photo/
+589	/Android/data/com.tencent.mobileqq/Tencent/QQ_Images/QQEditPic/
+590	[PicUrl=
+591	getFileElement
+592	fileSize
+593	filePath
+594	getFaceElement
+595	getVideoElement
+596	getPttElement
+597	/Android/data/com.tencent.mobileqq/Tencent/MobileQQ/
+598	/log.txt
+599	/error.txt
+600	com.tencent.mobileqq.app.BusinessHandlerFactory
+601	PAI_YI_PAI_HANDLER
+602	getBusinessHandler
+603	replyEmoji不支持私聊使用
+604	GroupMemberInfo{UserUin='
+605	, UserName='
+606	, NickName='
+607	, UserLevel=
+608	, Join_Time=
+609	, Last_AvtivityTime=
+610	, IsOwner=
+611	, IsAdmin=
+612	AutoLoadPluginV2
+613	getMemberName
+614	getGroupInfo
+615	getGroupList
+616	getMemberInfo
+617	getGroupMemberList
+618	getForbiddenList
+619	getCurrentFriendUin
+620	getCurrentGroupUin
+621	getFriendList
+622	isFriend
+623	getNewFriendInfo
+624	getNewFriendList
+625	getMessageList
+626	/main.java
+627	脚本main.java文件不存在
+628	onUnLoad
+629	pluginID
+630	setTitle
+631	revokeMsg
+632	deleteMsg
+633	forbidden
+634	addTemporaryItem
+635	removeItem
+636	removeItemByName
+637	addMenuItem
+638	putString
+639	putBoolean
+640	getString
+641	getBoolean
+642	getFloat
+643	getDouble
+644	putFloat
+645	putDouble
+646	getGroupRKey
+647	getFriendRKey
+648	getRealSkey
+649	getPskey
+650	getSuperkey
+651	getPT4Token
+652	httpPost
+653	httpPostJson
+654	httpDownload
+655	sendSticker
+656	sendCard
+657	sendFile
+658	sendLike
+659	sendReply
+660	replyEmoji
+661	sendProto
+662	forwardMsg
+663	sendAntEmo
+664	sendShake
+665	sendShow
+666	sendVoice
+667	sendVideo
+668	readFileText
+669	writeTextToFile
+670	writeTextAppendToFile
+671	readFileBytes
+672	writeBytesToFile
+673	scanImageText
+674	scanImageTextDetail
+675	lin.xposed.hook.javaplugin.bean
+676	PluginLoader{pluginInfo=
+677	, dialogItemMap=
+678	info.prop
+679	desc.txt
+680	脚本:'
+681	',未适配新版QStory,在info.prop的date
+682	加载失败 已有相同脚本ID在加载:
+683	2025-11-30
+684	/Plugin/
+685	脚本存放位置(点击可复制)：
+686	当前默认按创建时间排序
+687	https://artistic-sword-1d7.notion.site/QStory-Java-32d4a5bbff238047b09ec04d68e0299c
+688	创建失败
+689	create demo plugin
+690	创建成功
+691	复制脚本存放路径成功
+692	https://plugin.sacz.top
+693	/plugin/get-online-plugin-list/
+694	/plugin/downloadPlugin?id=
+695	N5ETOHF7D5SCZ5X52BQV9OV5P0I603AR
+696	https://plugin.sacz.top/plugin-upload/confirmUploadStatus
+697	https://plugin.sacz.top/plugin-upload/uploadFile
+698	https://plugin.sacz.top/plugin-upload/readyToUpload
+699	https://plugin.sacz.top/plugin-upload/uploadInfo
+700	uploaderUin
+701	uploaderNickName
+702	text/plain
+703	server return json : null
+704	Don't upload frequently(请勿频繁上传)
+705	pluginName
+706	pluginAuthor
+707	pluginVersion
+708	pluginDesc
+709	pluginTime
+710	application/octet-stream
+711	multipart/form-data; boundary=--------------------------237281582881051963083898
+712	DemoPlugin
+713	QS示例
+714	main.java
+715	言子楪世
+716	2025-12-1
+717	群聊辅助,娱乐功能
+718	3062020101045B30590201010201010204
+719	fileUuid
+720	041F0000000866696C6574797065000000013100000005636F64656300000001300400
+721	http://grouptalk.c2c.qq.com/?ver=0&rkey=%s&filetype=1&voice_codec=
+722	voiceType
+723	报错:获取语音链接
+724	3081FD0201010481F53081F20201010201000204
+725	04350000000866696C657479706500000004313030330000000B646F776E656E63727970740000000130000000047175696300000001310400
+726	http://grouptalk.c2c.qq.com/qqdownload?ver=537101242&rkey=%s&filetype=1003&videotype=0&subvideotype=0&term=android&video_codec=0&filename=
+727	报错:获取视频链接
+728	com.tencent.mobileqq.utils.HexUtil
+729	bytes2HexStr
+730	hexStr2Bytes
+731	FindResult{type=
+732	, content='
+733	plugin api
+734	@艾特失败
+735	\[[^\[\]]*=[^\[\]]*\]
+736	yyyy-MM-dd HH:mm:ss
+737	上传时间:
+738	下载次数:
+739	正在下载到本地脚本中
+740	plugin cloud id :
+741	下载完成
+742	已解压 可到本地脚本查看
+743	下载已完成
+744	\n时间:
+745	操作 - 
+746	上传脚本
+747	确认删除
+748	确认删除脚本 
+749	？\n这将无法恢复
+750	----------------\n名称: 
+751	\n版本: 
+752	\n作者: 
+753	\n----------------\n\n上传须知:\n• 请勿上传不属于自己的脚本\n• 请勿上传给一堆朋友点赞的脚本\n• 请勿上传恶意脚本(查q/炸群/恶搞等)\n• 请勿上传高度加密的脚本\n• 请勿上传不加开关的脚本\n• 请勿频繁上传\n• 上传审核通过会出现在在线脚本\n\n脚本交流群(QQ): 979938489\n脚本交流群(TG): https://t.me/QStoryPluginBackupChat
+754	描述内容
+755	Plugin Description
+756	复制文本失败
+757	已复制到剪贴板
+758	对嘛 还是要考虑考虑的
+759	预览图
+760	来自：
+761	请勿频繁点击开关
+762	load plugin
+763	正在加载中......
+764	(停止中...）
+765	(加载中...）
+766	加载异常：
+767	moduleVersionAndHostAppVersion
+768	开始初始化
+769	MethodCache
+770	startTime
+771	正在解析\n
+772	所有方法查找完成 准备保存与重启
+773	[QStory]
+774	BaseHookItem{itemPath='
+775	, hasUiPath=
+776	, isLoad=
+777	, exceptionCollectionTool=
+778	/data/item_config.json
+779	配置文件已生成
+780	config read error
+781	[QStory]加载设置失败qwq 
+782	HookItemConfig{itemPath='
+783	, enabled=
+784	, bypassDefaultLoad=
+785	MethodName
+786	DeclareClass
+787	ReturnType
+788	User_info
+789	LIKESUZHELAN
+790	identityName
+791	userLabel
+792	userIdentity
+793	load user
+794	android_id
+795	device_id
+796	https://qstory.linl.top/user/login
+797	qq_game.db
+798	https://qstory.linl.top/user/info
+799	token error
+800	update user info
+801	请求失败
+802	验证成功 正在刷新用户信息
+803	未成功 原因：
+804	未填写订单号
+805	未填写订单时间
+806	未获取到Uid
+807	正在请求 请等待请求完成
+808	https://qstory.linl.top/level/upgrade?uid=
+809	&orderId=
+810	&orderTime=
+811	qstory.linl.top
+812	正在请求
+813	用户信息获取失败
+814	请尝试刷新登录信息或\n开启VPN
+815	Unexpected wireType: 
+816	Unknown wireType: 
+817	FunProtoData.toBytes
+818	Unknown type: 
+819	FunProtoData-toBytes
+820	解析异常
+821	_TextView
+822	setOnClickListener
+823	ErrorLog
+824	/Download/ModuleLog.zip
+825	 已输出文件到
+826	打包异常文件夹失败
+827	QQVersion:
+828	QStoryVersion:
+829	XPosedTag:
+830	DeviceBrand:
+831	AndroidVersion:
+832	AndroidSDK:
+833	DeviceName:
+834	SystemModel:
+835	Error Log
+836	yyyy年MM月dd日
+837	HH:mm:ss
+838	对象为空 无法输出字段
+839	\n-------------------------------------------------------------------
+840	\n属性 : \n\n
+841	String|CharSequence
+842	动态反射属性异常 : 
+843	\n-------------------------------------------------------------------\n\n
+844	对象反射记录/
+845	{静态方法无运行时对象}
+846	静态方法无运行时对象
+847	动态反射字段异常 
+848	调用栈(从上往下调用) : \n
+849	StackTraceElement[]为空
+850	\n\n-------------------------------------------------------------------
+851	动态反射记录/
+852	java.lang.
+853	调用栈 : \n
+854	\n方法返回:
+855	方法运行时参数 : \n
+856	 <---当前方法
+857	 <---同一类下
+858	/Android/data/
+859	MobileDataDirectory
+860	/Android/media/
+861	/Data.zip
+862	移动目录
+863	言子大小姐专属标记
+864	移动完成 开始初始化
+865	content://com.android.externalstorage.documents/document/primary:
+866	android.intent.action.OPEN_DOCUMENT_TREE
+867	android.intent.category.OPENABLE
+868	android.provider.extra.INITIAL_URI
+869	onActivityResult
+870	primary:
+871	/storage/emulated/0/
+872	com.tencent.mobileqq.data.MessageRecord
+873	com.tencent.qqnt.kernel.nativeinterface.MsgRecord
+874	com.tencent.qqnt.msg.api.IMsgUtilApi
+875	createTextElement
+876	createPicElement
+877	createAtTextElement
+878	全体成员
+879	createReplyElement
+880	createFileElement
+881	createPttElement
+882	createVideoElement
+883	https://
+884	com.tencent.qqnt.kernel.nativeinterface.JsonGrayElement
+885	com.tencent.qqnt.kernel.nativeinterface.XmlToJsonParam
+886	com.tencent.qqnt.kernel.nativeinterface.GrayTipElement
+887	subElementType
+888	jsonGrayTipElement
+889	com.tencent.qqnt.kernel.nativeinterface.MsgElement
+890	setElementType
+891	setGrayTipElement
+892	报错:createJsonGrayTipElement
+893	com.tencent.qqnt.msg.data.a
+894	com.tencent.qqnt.msg.data.b
+895	卡片格式有问题:
+896	createArkElement
+897	getApplication
+898	getRuntime
+899	报错:getRuntime()
+900	com.tencent.biz.g.e.a.a
+901	报错:getQQAppInterface
+902	com.tencent.mobileqq.qwallet.ipc.impl.ComIPCUtilsImpl
+903	getFriendNickName
+904	报错:getName
+905	getCurrentAccountUin
+906	报错:getMyuin()
+907	getManager
+908	getStweb
+909	报错:getStweb()
+910	报错:getSkey()
+911	com.tencent.mobileqq.pskey.api.IPskeyManager
+912	报错:getPskey()
+913	getPt4Token
+914	异常：getPskey()
+915	com.tencent.mobileqq.activity.ChatActivityFacade
+916	localUUID
+917	prewrite
+918	com.tencent.mobileqq.data.PicMessageExtraData
+919	picExtraData
+920	textSummary
+921	com.tencent.mobileqq.data.MessageForPic
+922	find sendPic method == null
+923	com.tencent.mobileqq/Tencent/MobileQQ/
+924	QQSendUtils
+925	com.tencent.qqnt.emotion.text.style.api.IEmojiSpanService
+926	convertEmoServerIdToEmoCode
+927	Code is NULL!
+928	convertEmoServerIdToEmo
+929	com.tencent.mobileqq.emoticon.QQSysFaceUtil
+930	convertToLocal
+931	faceIndex
+932	imageType
+933	parseSmallEmo
+934	parseMarketSmallFaceElement
+935	getFaceType
+936	getRuntimeService
+937	getUidFromUin
+938	com.tencent.mobileqq.qroute.QRoute
+939	getLongAccountUin
+940	mqq.manager.Manager
+941	getCurrentNickname
+942	peekAppRuntime
+943	CARD_HANLDER
+944	com.tencent.mobileqq.app.CardHandler
+945	com.tencent.qqnt.ntrelation.friendsinfo.api.IFriendsInfoService
+946	qzone.qq.com
+947	; p_uin=o=
+948	; p_skey=
+949	https://h5.qzone.qq.com/proxy/domain/mobile.qzone.qq.com/friend/mfriend_list?g_tk=
+950	&res_uin=
+951	&res_type=normal&format=json&uin=
+952	FRIENDLIST_HANDLER
+953	delFriend
+954	ProfileCardMoreActivity
+955	deleteFriend
+956	getAllFriendWithCategories
+957	originImageUrl
+958	https://gchat.qpic.cn
+959	/download
+960	appid=1406
+961	https://gchat.qpic.cn/download?appid=
+962	&fileid=
+963	/0?term=2&is_origin=1
+964	QQMessageUtils
+965	com.tencent.qqnt.msg.api.IMsgService
+966	getMultiMsg
+967	com.tencent.qqnt.kernel.nativeinterface.IGetMultiMsgCallback
+968	getMsgsByMsgId
+969	com.tencent.qqnt.kernel.nativeinterface.IMsgOperateCallback
+970	recallMsg
+971	com.tencent.qqnt.kernel.nativeinterface.IForwardOperateCallback
+972	contact==null
+973	elementList==null
+974	application/json
+975	com.tencent.qqnt.troop.ITroopOperationRepoApi
+976	quitGroup
+977	TroopSettingViewModel
+978	onResult
+979	com.tencent.mobileqq.app.QQManagerFactory
+980	TROOP_MANAGER
+981	com.tencent.mobileqq.troop.api.ITroopInfoService
+982	getTroopInfo
+983	getTroopMember
+984	com.tencent.qqnt.troop.ITroopListRepoApi
+985	getJoinedTroopInfoFromCache
+986	getUiTroopListWithoutBlockedTroop
+987	com.tencent.mobileqq.troop.filemanager.data.TroopMemberListRefresher
+988	com.tencent.qqnt.troopmemberlist.ITroopMemberListRepoApi
+989	fetchGagTroopMemberInfo
+990	TROOP_GAG_MANAGER
+991	nickInfo
+992	friendNick
+993	gagTimeStamp
+994	com.tencent.qqnt.troop.ITroopMemberOperationRepoApi
+995	setMemberShutUp
+996	dwGagTimeStamp
+997	dwGagTimeStamp_me
+998	modifyTroopShutUpTime
+999	TROOP_GAG_HANDLER
+1000	deleteTroopMember
+1001	com.tencent.mobileqq.troop.handler.TroopMemberMngHandler
+1002	com.tencent.common.app.AppInterface
+1003	com.tencent.mobileqq.troop.clockin.handler.TroopClockInHandler
+1004	fetchTroopMemberInfo
+1005	androidx.lifecycle.LifecycleOwner
+1006	TroopMemberListActivity
+1007	getShowName
+1008	com.tencent.mobileqq.troop.api.ITroopMemberNameService
+1009	getTroopMemberName
+1010	com.tencent.biz.troop.EditUniqueTitleActivity
+1011	com.tencent.mobileqq.search.api.ISearchPieceFetcher
+1012	getTroopName
+1013	com.tencent.qqnt.kernel.api.IKernelService
+1014	getMsgService
+1015	com.tencent.qqnt.kernel.nativeinterface.TempChatPrepareInfo
+1016	com.tencent.qqnt.kernel.nativeinterface.TempChatGameSession
+1017	prepareTempChat
+1018	com.qwallet.temp.IContactUtils
+1019	prepareTroopMemberStrangerTempChat
+1020	\nQStory:
+1021	获取群列表失败
+1022	加入QQ群
+1023	选择加入的QQ群
+1024	正在获取群列表...
+1025	https://t.me/WhenFlowersAreInBloom
+1026	TG频道
+1027	https://t.me/AnQChat
+1028	TG群组
+1029	清除方法信息
+1030	清除方法信息并重启QQ开始查找方法
+1031	重启QQ
+1032	https://github.com/Suzhelan/NewQStory
+1033	Github开源地址
+1034	获取更新日志失败:
+1035	无更新 当前是最新版本 .. 
+1036	检查更新失败:
+1037	https://qstory.suzhelan.top/update/download?version=
+1038	请前往TG频道查看更新日志
+1039	有新更新 v
+1040	检测更新
+1041	正在检查更新...
+1042	t-update
+1043	DirectoryUiInfo{rightText=
+1044	, uiInfoList=
+1045	, groupWrapperList=
+1046	ItemUiInfo{item=
+1047	, tips='
+1048	ItemUiInfoGroupWrapper{groupName='
+1049	, directoryUIInfoList=
+1050	喵喵喵喵喵呜呜喵~喵喵喵呜呜呜喵喵~喵喵喵呜喵呜喵喵
+1051	nickname
+1052	identity
+1053	喵喵喵呜呜呜呜呜~喵喵喵呜喵呜喵喵~喵喵喵呜呜喵喵喵~喵喵喵喵呜呜喵呜~喵喵喵喵呜喵喵呜
+1054	sponsorEndDate
+1055	抢红包参数(新)
+1056	blacklistTroop
+1057	blacklistText
+1058	replyText
+1059	replyDelay
+1060	expectAmount
+1061	grabToast
+1062	ordinary
+1063	exclusiveRedEnvelopes
+1064	在9.1.35通过测试 版本太高用不了 点击可以设置一些参数
+1065	请使用新版抢红包
+1066	版本已过期
+1067	LIN_XPOSED_QQ
+1068	com.tencent.mobileqq.aio.qwallet.AIOQWalletComponent
+1069	redChannel
+1070	receiver
+1071	send_name
+1072	recv_object
+1073	[QStory]领取成功:
+1074	\n红包描述:
+1075	\n发送者:
+1076	\n来自群聊:
+1077	grabHbLog
+1078	total_num
+1079	total_amount
+1080	打开红包
+1081	getWalletElement
+1082	/Download/QQ
+1083	/Tencent/QQfile_recv/
+1084	目前只支持重定向到
+1085	com.tencent.mobileqq.vfs.VFSAssistantUtils
+1086	getSDKPrivatePath
+1087	/未设置.txt
+1088	/表情外显文案.txt
+1089	/表情外显文案V2.txt
+1090	使用自定义的随机文案,文案文件存放在:
+1091	 \n\\开头的文本不会使用,如果不使用默认文案请自行备份,QS更新时可能会覆盖掉你自定义文案
+1092	https://suzhelan.top/api/pan/direct/private/如果有人能懂我的忧郁.txt
+1093	领取成功
+1094	hb_details
+1095	com.tencent.mobileqq.pb.qwallet.PayGatewayProto$OriginCgiReq
+1096	com.tencent.mobileqq.pb.qwallet.PayGatewayProto$OriginCgiRsp
+1097	com.tenpay.sdk.net.gateway.QWalletGatewayServlet
+1098	sendRequest
+1099	trpc.qqhb.access.MobileHbCgi
+1100	HBDetailCgi
+1101	https://mqq.tenpay.com/cgi-bin/hongbao/qpay_hb_na_detail.cgi?
+1102	qpay_hb_na_detail
+1103	onSuccess
+1104	com.tenpay.sdk.basebl.DecytBean
+1105	&channel
+1106	&groupid
+1107	&grouptype
+1108	&groupuin
+1109	&pay_flag
+1110	&authkey
+1111	&senderuin
+1112	&trans_seq
+1113	&hb_from
+1114	com.tenpay.sdk.basebl.EncryptRequest$Encrypt
+1115	com.tencent.mobileqq.qwallet.e.p
+1116	[QStory]未适配此QQ版本抢红包
+1117	com.tencent.mobileqq.qwallet.e.o
+1118	你的身份权限无法使用此功能
+1119	此功能在新的QQ版本中已被弃用，请使用QQ自带的半屏/全屏开关
+1120	com.tencent.mobileqq.aio.shortcurtbar.AIOShortcutBarVM$c
+1121	com.tencent.input.base.panelcontainer.h$l
+1122	experimentGroupId
+1123	com.tencent.mobileqq.aio.api.impl.QQTabApiNtImpl
+1124	QQNT_TABAPI
+1125	com.tencent.mobileqq.aio.api.impl.QQTabApiImpl
+1126	QQ_TABAPI
+1127	exp_QQ_aio_photo_choose_B
+1128	AIOShortcutBarVM
+1129	sendMsgBtn
+1130	2376738596
+1131	群组位于白名单 无法在该群组进行艾特全体
+1132	已排除该消息 滑动屏幕以重新渲染View
+1133	阻止异常的高分辨率GIF加载导致的卡屏
+1134	http://q.qlogo.cn/headimg_dl?dst_uin=
+1135	&spec=640&img_type=jpg
+1136	发送者:
+1137	不再维护 QQ已自带
+1138	picHeight
+1139	picWidth
+1140	com.tencent.mobileqq.activity.qqsettingme.utils.a
+1141	onSensorChanged
+1142	loadClass
+1143	点击可以设置一些参数 适配9.0.8及以下的QQNT版本
+1144	grabRedEnvelope
+1145	passwordRedEnvelope
+1146	红包来自:
+1147	请使用新的红包功能 此功能已被弃用
+1148	(Banner)例如：2024/2/5号左右，QQ的笋言笋语 , 龙年坦白说
+1149	com.tencent.mobileqq.aio.widget.AvatarContainer
+1150	com.tencent.mobileqq.aio.msglist.holder.component.avatar.AIOAvatarContentComponent
+1151	com.tencent.mobileqq.aio.widget.CommonImageView
+1152	枯树终有回春日 故人难回那年秋
+1153	onWindowFocusChanged
+1154	想要留住雪花 可在掌心里 只会化的更快
+1155	2024新年纪念 (看起来没什么用
+1156	光照亮了世界 而你照亮了我 晴朗的你推远了所有乌云
+1157	每天自动点赞空间,+0.5天成长值
+1158	https://h5.qzone.qq.com/proxy/domain/w.qzone.qq.com/cgi-bin/likes/internal_dolike_app?g_tk=
+1159	opr_type
+1160	purejson
+1161	https://h5.qzone.qq.com/webapp/json/mqzone_feeds/getActiveFeeds?g_tk=
+1162	res_type
+1163	refresh_type
+1164	空间列表为0
+1165	orglikekey
+1166	curlikekey
+1167	获取QQ空间列表失败:
+1168	yyyy-MM-dd
+1169	last_like_date
+1170	AutoSendQZOne
+1171	定时任务异常
+1172	每天自动发QQ空间,+0.5天成长值,点击可进行手动发送测试
+1173	正在发送QQ空间
+1174	https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6?g_tk=
+1175	syn_tweet_verson
+1176	paramstr
+1177	pic_template
+1178	richtype
+1179	special_url
+1180	subrichtype
+1181	feedversion
+1182	ugc_right
+1183	code_version
+1184	qzreferrer
+1185	https://user.qzone.qq.com/
+1186	last_send_date
+1187	QStory每日打卡:
+1188	发送成功
+1189	发送QQ空间异常
+1190	发送QQ空间异常:
+1191	手动发送进行测试
+1192	点击发送后会立刻发送一条QQ空间进行测试,与其他空间功能有联动调试配合性
+1193	仅自己可见
+1194	frameElement.callback(
+1195	未找到 callback 函数
+1196	https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_delete_v6?g_tk=
+1197	t1_source
+1198	配合自动发送QQ空间使用,发表空间后自动删除自己发布的空间
+1199	/QQ空间文案.txt
+1200	/QQ空间文案V2.txt
+1201	/QQ空间文案V3.txt
+1202	空间打卡
+1203	QStory发送空间使用自定义的文案内容,文案文件存放在:
+1204	开启后QStory定时发送的空间将公开可见,酌情开启
+1205	AutoGroupCheckIn
+1206	点击可以配置开启的群聊,定时广播实现,与另一个打卡不冲突
+1207	TroopUinList
+1208	已保存 
+1209	 个群聊
+1210	群打卡失败: 
+1211	DAILY_CHECK_ACTION
+1212	CheckedTroopsToday
+1213	今日未打卡的群聊会立刻打卡
+1214	AutoGroupCheckInCommon
+1215	点击可以配置开启的群聊,如果在9.1.35附近的版本,可以使用此打卡
+1216	AutoGroupCheckInPro
+1217	点击可以配置开启的群聊,时间轮询实现,会大幅增加打卡精度和速度
+1218	yyyyMMdd
+1219	LastCheckDate
+1220	每日群打卡
+1221	AdminCache_
+1222	TroopAdminUtils
+1223	troopuin
+1224	isOwnerOrAdmin
+1225	com.tencent.qqnt.troopmemberlist.ITroopMemberExtInfoRepoApi
+1226	fetchTroopAdmin
+1227	getAdminList
+1228	troopname
+1229	troopOwnerUid
+1230	Administrator
+1231	troopowneruin
+1232	getTroopInfoFromCache
+1233	application/json; charset=UTF-8
+1234	请求成功：%s\nRequestBody:%s\nResponseBody:%s\n
+1235	location
+1236	https://myip.ipip.net/json
+1237	解密失败：数据校验未通过:
+1238	喵喵呜呜喵喵喵喵~喵喵呜呜呜呜喵呜~喵喵呜呜呜呜呜呜~喵喵呜喵呜喵呜呜~喵喵呜喵呜呜呜喵~喵喵呜呜喵喵呜呜
+1239	response
+1240	历史更新日志
+1241	加载中
+1242	updateInfoList
+1243	yyyy年MM月dd日 HH:mm
+1244	\n---------------\n
+1245	CheckNotice
+1246	lastNotice
+1247	有新公告
+1248	查看历史公告
+1249	disabled
+1250	getMsg(...)
+1251	ServiceValidCheck
+1252	ServiceValid
+1253	iterator(...)
+1254	next(...)
+1255	enumeration(...)
+1256	loadClass(...)
+1257	classLoader
+1258	上传失败
+1259	exceptionHandler
+1260	上传成功
+1261	call to 'resume' before 'invoke' with coroutine
+1262	getModuleCachePath(...)
+1263	getCurrentUin(...)
+1264	getCurrentAccountNickName(...)
+1265	上传中-运行脚本中...
+1266	执行脚本时出现异常
+1267	压缩中...
+1268	上传中...
+1269	UploadPlugin
+1270	build(...)
+1271	F621AA19C7A5F139F315853F40A7E24F
+1272	[QS]模块遭到篡改 请重新下载
+1273	https://qstory.suzhelan.top/user/info
+1274	[QS]身份校验不通过
+1275	System.exit returned normally, while it was supposed to halt JVM.
+1276	getApkSignatureMD5(...)
+1277	getDefault(...)
+1278	toUpperCase(...)
+1279	null cannot be cast to non-null type android.view.ViewGroup
+1280	findViewById(...)
+1281	enterSponsorshipBtn
+1282	tvSponsorEndDate
+1283	赞助到期时间:
+1284	userNameTextView
+1285	userIdentityTextView
+1286	userLabelTextView
+1287	refreshUserInformation
+1288	userAvatar
+1289	未赞助
+1290	format(...)
+1291	已刷新
+1292	刷新失败
+1293	<unused var>
+1294	getItemName(...)
+1295	getParentFragmentManager(...)
+1296	toString(...)
+1297	null cannot be cast to non-null type androidx.recyclerview.widget.RecyclerView.LayoutParams
+1298	setting_bar_right
+1299	titleLayout
+1300	centerText
+1301	leftIcon
+1302	newConfig
+1303	SettingFragment
+1304	 QStory:2.6.3
+1305	getString(...)
+1306	getSupportFragmentManager(...)
+1307	beginTransaction(...)
+1308	searchIcon
+1309	getContext(...)
+1310	FUNCTION
+1311	DIRECTORY
+1312	displayName
+1313	locationPath
+1314	matchType
+1315	targetObject
+1316	SearchResult(displayName=
+1317	, description=
+1318	, locationPath=
+1319	, position=
+1320	, matchType=
+1321	, targetObject=
+1322	toLowerCase(...)
+1323	getGroupName(...)
+1324	功能组
+1325	directory:
+1326	directory_fallback:
+1327	喵呜喵喵呜喵喵呜~喵呜喵喵呜呜呜呜
+1328	喵喵喵呜呜喵呜呜~喵喵喵呜呜呜喵喵~喵喵喵喵呜喵喵呜~喵喵喵呜呜呜喵喵~喵喵喵喵呜喵呜喵~喵喵喵呜呜呜呜喵~喵喵喵呜呜喵喵喵
+1329	SearchHistory
+1330	itemView
+1331	onItemClick
+1332	查找共同群
+1333	com.tencent.mobileqq.activity.QQBrowserDelegationActivity
+1334	fling_action_key
+1335	fling_code_key
+1336	useDefBackText
+1337	param_force_internal_browser
+1338	https://ti.qq.com/friends/recall?uin=
+1339	打开失败: 
+1340	请输入QQ号
+1341	请输入有效的QQ号
+1342	请输入对方QQ号
+1343	刷新登录信息
+1344	正在刷新.... 可能会自动重启QQ
+1345	跳转资料卡
+1346	选择资料卡类型
+1347	个人资料卡
+1348	群聊资料卡
+1349	mqqapi://card/show_pslcard?uin=
+1350	&card_type=profile&version=1
+1351	输入不能为空
+1352	请输入QQ号或群号
+1353	批量管理好友
+1354	批量管理群
+1355	历史公告
+1356	更新日志
+1357	top.artmoe.inao.entries.FriendChatMessageRecall
+1358	FriendChatMessageRecall(peerUid=
+1359	, msgSeq=
+1360	top.artmoe.inao.entries.GroupChatMessageRecall
+1361	groupUin
+1362	operatorUid
+1363	GroupChatMessageRecall(groupUin=
+1364	, operatorUid=
+1365	top.artmoe.inao.entries.InfoSyncPush
+1366	syncContent
+1367	syncRecallContent
+1368	top.artmoe.inao.entries.InfoSyncPush.SyncContent
+1369	groupSyncContent
+1370	@kotlinx.serialization.protobuf.ProtoNumber(number=
+1371	top.artmoe.inao.entries.InfoSyncPush.SyncContent.GroupSyncContent
+1372	groupPeerId
+1373	startSeq
+1374	qqMessage
+1375	GroupSyncContent(groupPeerId=
+1376	, startSeq=
+1377	, endSeq=
+1378	, qqMessage=
+1379	SyncContent(groupSyncContent=
+1380	top.artmoe.inao.entries.InfoSyncPush.SyncRecallOperateInfo
+1381	syncInfoHead
+1382	syncInfoBody
+1383	top.artmoe.inao.entries.InfoSyncPush.SyncRecallOperateInfo.SyncInfoBody
+1384	senderPeerId
+1385	eventTime
+1386	SyncInfoBody(senderPeerId=
+1387	, eventTime=
+1388	, msgList=
+1389	top.artmoe.inao.entries.InfoSyncPush.SyncRecallOperateInfo.SyncInfoHead
+1390	syncTime
+1391	SyncInfoHead(syncTime=
+1392	SyncRecallOperateInfo(syncInfoHead=
+1393	, syncInfoBody=
+1394	, subHead=
+1395	InfoSyncPush(type=
+1396	, pushId=
+1397	, syncContent=
+1398	, syncRecallContent=
+1399	top.artmoe.inao.entries.MsgPush
+1400	MsgPush(qqMessage=
+1401	top.artmoe.inao.entries.NewSyncPush
+1402	syncPushExtra
+1403	top.artmoe.inao.entries.NewSyncPush.SyncRecallOperateInfo
+1404	unknownFlag
+1405	top.artmoe.inao.entries.NewSyncPush.SyncRecallOperateInfo.SyncInfoHead
+1406	, unknownFlag=
+1407	NewSyncPush(type=
+1408	, syncPushExtra=
+1409	ProtoVarInt(value=
+1410	, nextIndex=
+1411	callback
+1412	toByteArray(...)
+1413	Check failed.
+1414	top.artmoe.inao.entries.QQMessage
+1415	messageHead
+1416	messageContentInfo
+1417	messageBody
+1418	top.artmoe.inao.entries.QQMessage.MessageBody
+1419	operationInfo
+1420	top.artmoe.inao.entries.QQMessage.MessageBody.C2CRecallOperationInfo
+1421	top.artmoe.inao.entries.QQMessage.MessageBody.C2CRecallOperationInfo.Info
+1422	receiverUid
+1423	Info(operatorUid=
+1424	, receiverUid=
+1425	, msgTime=
+1426	, msgRandom=
+1427	C2CRecallOperationInfo(info=
+1428	top.artmoe.inao.entries.QQMessage.MessageBody.GroupRecallOperationInfo
+1429	top.artmoe.inao.entries.QQMessage.MessageBody.GroupRecallOperationInfo.Info
+1430	top.artmoe.inao.entries.QQMessage.MessageBody.GroupRecallOperationInfo.Info.MsgInfo
+1431	senderUid
+1432	MsgInfo(msgSeq=
+1433	, senderUid=
+1434	, msgInfo=
+1435	GroupRecallOperationInfo(peerId=
+1436	top.artmoe.inao.entries.QQMessage.MessageBody.RichMsg
+1437	msgContent
+1438	top.artmoe.inao.entries.QQMessage.MessageBody.RichMsg.MsgContent
+1439	msgSender
+1440	top.artmoe.inao.entries.QQMessage.MessageBody.RichMsg.MsgContent.MsgSender
+1441	nickName
+1442	MsgSender(nickName=
+1443	top.artmoe.inao.entries.QQMessage.MessageBody.RichMsg.MsgContent.TextMsg
+1444	TextMsg(text=
+1445	MsgContent(textMsg=
+1446	, msgSender=
+1447	RichMsg(msgContent=
+1448	null cannot be cast to non-null type top.artmoe.inao.entries.QQMessage.MessageBody
+1449	MessageBody(richMsg=
+1450	, operationInfo=
+1451	top.artmoe.inao.entries.QQMessage.MessageContentInfo
+1452	msgSubType
+1453	MessageContentInfo(msgType=
+1454	, msgSubType=
+1455	, subSeq=
+1456	top.artmoe.inao.entries.QQMessage.MessageHead
+1457	receiverPeerId
+1458	senderInfo
+1459	top.artmoe.inao.entries.QQMessage.MessageHead.SenderInfo
+1460	SenderInfo(peerId=
+1461	, nickName=
+1462	MessageHead(senderPeerId=
+1463	, receiverPeerId=
+1464	, senderInfo=
+1465	QQMessage(messageHead=
+1466	, messageContentInfo=
+1467	, messageBody=
+1468	appExecutor-
+1469	newFixedThreadPool(...)
+1470	qqVersion
+1471	appVersion
+1472	 QStory:
+1473	喵喵呜喵喵喵呜喵~喵喵呜喵喵呜呜喵~喵喵喵喵呜呜呜喵~喵喵喵喵喵呜呜呜~喵喵喵呜喵呜呜呜~喵喵喵呜喵呜喵呜
+1474	搜索功能
+1475	输入关键词搜索...
+1476	搜索历史
+1477	呜喵喵呜喵呜喵呜~呜呜喵喵呜呜喵呜~呜呜呜呜呜呜呜呜~呜喵喵喵喵喵喵呜~呜呜呜呜呜呜喵喵~呜呜喵喵呜喵喵喵
+1478	搜索结果
+1479	未找到相关功能
+1480	呜喵喵呜喵呜呜喵~呜呜呜呜呜呜呜呜~呜呜呜喵喵呜喵呜~呜喵喵喵喵喵喵喵~呜呜呜喵喵呜呜喵~呜呜喵呜喵喵喵呜
+1481	呜喵喵呜喵呜喵喵~呜呜呜喵呜呜呜喵~呜呜喵呜喵呜喵喵~呜喵喵喵呜呜喵呜~呜呜喵呜呜喵喵喵~呜呜呜呜呜喵喵呜
+1482	呜喵喵呜喵呜呜喵~呜呜呜呜呜呜喵呜~呜呜呜呜呜呜喵喵~呜喵喵喵呜呜呜呜~呜呜喵呜呜呜呜喵~呜呜呜喵呜喵喵喵
+1483	呜喵喵呜喵呜喵呜~呜呜喵呜喵呜喵呜~呜呜呜呜呜呜喵呜~呜喵喵喵呜呜呜呜~呜呜喵喵呜喵喵喵~呜呜喵呜喵喵呜喵~喵呜喵呜呜喵呜呜
+1484	呜喵喵呜喵呜喵呜~呜呜呜喵喵喵呜喵~呜呜喵呜呜喵呜喵
+1485	赞助作者
+1486	刷新用户信息
+1487	喵喵呜喵喵喵呜喵~喵喵呜喵喵呜喵喵~喵呜喵喵喵喵喵喵
+1488	喵喵呜喵喵喵呜喵~喵喵呜喵喵呜呜喵~喵喵喵喵呜呜呜喵~喵喵喵喵喵呜呜呜~喵喵喵呜喵呜呜呜~喵喵喵呜喵呜喵呜~喵呜喵呜呜喵呜呜
+1489	喵呜喵喵呜呜喵呜
+1490	user_info
+1491	未同步
+1492	HasUpdate(hasUpdate=
+1493	, isForceUpdate=
+1494	, version=
+1495	createTime
+1496	operator
+1497	now(...)
+1498	Notice(content=
+1499	, createTime=
+1500	, operator=
+1501	, title=
+1502	updateLog
+1503	versionName
+1504	UpdateInfo(fileName=
+1505	, forceUpdate=
+1506	, updateLog=
+1507	, versionCode=
+1508	, versionName=
+1509	top.suzhelan.qstory.entity.proto.InfoSyncPush
+1510	top.suzhelan.qstory.entity.proto.InfoSyncPush.SyncContent
+1511	top.suzhelan.qstory.entity.proto.InfoSyncPush.SyncContent.GroupSyncContent
+1512	top.suzhelan.qstory.entity.proto.InfoSyncPush.SyncRecallOperateInfo
+1513	syncInfoBodyList
+1514	top.suzhelan.qstory.entity.proto.InfoSyncPush.SyncRecallOperateInfo.SyncInfoBody
+1515	top.suzhelan.qstory.entity.proto.InfoSyncPush.SyncRecallOperateInfo.SyncInfoHead
+1516	, syncInfoBodyList=
+1517	top.suzhelan.qstory.entity.proto.MsgPush
+1518	top.suzhelan.qstory.entity.proto.QQMessage
+1519	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody
+1520	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.C2CRecallOperationInfo
+1521	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.C2CRecallOperationInfo.Info
+1522	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.GroupRecallOperationInfo
+1523	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.GroupRecallOperationInfo.Info
+1524	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.GroupRecallOperationInfo.Info.MsgInfo
+1525	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.RichMsg
+1526	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.RichMsg.MsgContent
+1527	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.RichMsg.MsgContent.MsgSender
+1528	top.suzhelan.qstory.entity.proto.QQMessage.MessageBody.RichMsg.MsgContent.TextMsg
+1529	top.suzhelan.qstory.entity.proto.QQMessage.MessageContentInfo
+1530	top.suzhelan.qstory.entity.proto.QQMessage.MessageHead
+1531	top.suzhelan.qstory.entity.proto.QQMessage.MessageHead.SenderInfo
+1532	moduleApk
+1533	applicationContext
+1534	loadPackageParam
+1535	getTargetPackageName(...)
+1536	startupParam
+1537	modulePath
+1538	null cannot be cast to non-null type android.content.ContextWrapper
+1539	getBaseContext(...)
+1540	null cannot be cast to non-null type java.util.ArrayList<kotlin.Any>
+1541	打开QStory
+1542	drawable
+1543	null cannot be cast to non-null type android.view.View
+1544	打开QStoryJava脚本
+1545	com.tencent.widget.PopupMenuDialog
+1546	createAndAttachItemsView
+1547	MsgViewIdAdapter
+1548	get(...)
+1549	first(...)
+1550	handleUIState
+1551	com.tencent.mvi.base.mvi.MviUIState
+1552	[QStory]已对MsgView进行适配,建议重启一次QQ
+1553	getAllRunningPluginLoader(...)
+1554	[QStory] 已切换QQ账号 请重新开启脚本 防止脚本开启状态混乱
+1555	getDeclaredMethods(...)
+1556	com.tencent.qqnt.kernel.nativeinterface.IQQNTWrapperSession$CppProxy
+1557	com.tencent.qqnt.kernel.nativeinterface.PushExtraInfo
+1558	onMsfPush
+1559	null cannot be cast to non-null type kotlin.String
+1560	null cannot be cast to non-null type kotlin.ByteArray
+1561	trpc.msg.register_proxy.RegisterProxy.InfoSyncPush
+1562	hookItem
+1563	onMsgViewUpdateListener
+1564	<get-key>(...)
+1565	<get-value>(...)
+1566	onMsgListener
+1567	OnMsgItem(hookItem=
+1568	, onMsgListener=
+1569	newCachedThreadPool(...)
+1570	com.tencent.qqnt.msg.MsgService$a
+1571	com.tencent.qqnt.msg.MsgService$d
+1572	com.tencent.qqnt.kernel.api.impl.MsgService$b
+1573	com.tencent.qqnt.kernel.api.impl.MsgService$d
+1574	com.tencent.qqnt.msg.MsgService$c
+1575	onRecvMsg
+1576	onMsgInfoListUpdate
+1577	sendStatus
+1578	isOnlineMsg
+1579	OnQQMessage
+1580	method: 
+1581	com.tencent.qqnt.kernel.nativeinterface.IKernelMsgListener
+1582	newProxyInstance(...)
+1583	addMsgListener
+1584	getFriendsInfoService
+1585	getAllFriend
+1586	FriendsManager_getAllFriends
+1587	null cannot be cast to non-null type kotlin.collections.List<*>
+1588	getField(...)
+1589	categoryId
+1590	AIOUtils
+1591	getNickWithUid
+1592	getFriendNick
+1593	getStaticField(...)
+1594	getFriendCount
+1595	getFriendsCategoryBaseInfo
+1596	FriendsManager
+1597	categoryName
+1598	categoryId=(\d+)
+1599	categoryName=([^,)]+)
+1600	getFriendCategories
+1601	getFriendSimpleInfoWithUid
+1602	FriendUtils
+1603	NewMsgViewIdAdapter-9230
+1604	API-监听QQ账号变更
+1605	API-监听消息撤回-未实装
+1606	OnNewQQViewUpdate-9230
+1607	API-OnQQMessage
+1608	辅助功能/资料卡/允许查看异常资料卡
+1609	辅助功能/实验功能/禁用QQ公交卡
+1610	辅助功能/消息通知/QQ通知优化
+1611	净化/聊天/屏蔽QQToast
+1612	净化/聊天/屏蔽临时会话弹窗
+1613	净化/浏览器/禁用内置浏览器网页拦截
+1614	辅助功能/图片与表情/分享图片不压缩
+1615	辅助功能/聊天/消息显示艾特对象
+1616	辅助功能/图片与表情/聊天自动勾选原图
+1617	辅助功能/聊天/语音消息自动转文本
+1618	净化/聊天/精简聊天界面相机按钮
+1619	辅助功能/聊天/输入框增加提示
+1620	净化/聊天/删除QQ表情底栏中的QQ大表情选项
+1621	辅助功能/图片与表情/表情可下载(新版)
+1622	净化/群聊/隐藏编辑群昵称装扮
+1623	净化/聊天/隐藏灰色提示文本
+1624	辅助功能/聊天/解除拍一拍限制
+1625	辅助功能/聊天/防撤回
+1626	辅助功能/聊天/快捷修改聊天消息内容
+1627	净化/群聊/移除消息表情回应
+1628	净化/聊天/精简聊天界面滤镜视频
+1629	辅助功能/聊天/移除转发数量限制
+1630	净化/聊天/移除语音转文本灰字提示
+1631	辅助功能/聊天/消息复读
+1632	辅助功能/聊天/去除回复@
+1633	辅助功能/聊天/发送消息格式化
+1634	辅助功能/聊天/显示消息时间
+1635	辅助功能/聊天/禁言时间精确到秒
+1636	辅助功能/群聊/显示已退群用户的消息
+1637	辅助功能/群聊/@列表重新排序
+1638	辅助功能/图片与表情/收藏表情按使用排序
+1639	净化/主页/阻止QQ每日广告弹窗
+1640	辅助功能/聊天/禁用听语音时听筒来回自动切换
+1641	净化/聊天/强制使用默认气泡
+1642	净化/聊天/强制使用默认字体
+1643	辅助功能/实验功能/平板模式
+1644	净化/实验功能/屏蔽烦人弹窗
+1645	净化/聊天/屏蔽掉落小表情
+1646	辅助功能/实验功能/屏蔽云控
+1647	净化/聊天/禁用特定消息触发的交互式弹窗
+1648	辅助功能/小程序/禁用下拉小程序
+1649	净化/实验功能/禁用崩溃日志上报
+1650	净化/聊天/禁用聊天右滑
+1651	净化/浏览器/禁用X5内核
+1652	辅助功能/实验功能/每天自动备份模块数据
+1653	保护模块数据不被qq清理
+1654	保护模块数据目录
+1655	辅助功能/图片与表情/伪装处于非多窗口模式
+1656	辅助功能/图片与表情/篡改图片大小
+1657	辅助功能/聊天/文件上传重命名
+1658	辅助功能/图片与表情/闪照破解(会变卡)
+1659	净化/浏览器/去你大爷的QQ浏览器
+1660	辅助功能/聊天/灰字提示显示QQ号
+1661	净化/联系人/隐藏通讯录卡片
+1662	辅助功能/资料卡/屏蔽好友资料卡送礼物
+1663	净化/聊天/屏蔽超级QQ秀
+1664	辅助功能/实验功能/MCP服务
+1665	辅助功能/季节专属/自动抢红包(2026)
+1666	净化/资料卡/陌生人资料卡你们的关系标识
+1667	辅助功能/资料卡/一键20赞
+1668	辅助功能/聊天/语音转发
+1669	辅助功能/QQ空间/隐藏QQ空间广告
+1670	辅助功能/QQ空间/底栏直接打开空间动态
+1671	辅助功能/实验功能/随机虚拟位置
+1672	净化/聊天/移除语音播放弹窗
+1673	净化/浏览器/移除浏览器菜单的QQ浏览器
+1674	辅助功能/资料卡/屏蔽DIY名片
+1675	辅助功能/实验功能/移除收藏预览限制
+1676	净化/聊天/移除长按菜单图标
+1677	辅助功能/实验功能/移除扫码登录检查
+1678	辅助功能/聊天/去除发送图片限制
+1679	辅助功能/群聊/显示具体消息数量
+1680	辅助功能/实验功能/跳过扫码登录时间
+1681	辅助功能/实验功能/伪装应用权限已持有
+1682	辅助功能/图片与表情/表情面板#2
+1683	辅助功能/聊天/强制使用系统Emoji
+1684	辅助功能/消息通知/屏蔽群待办
+1685	净化/群聊/隐藏聊天快捷栏
+1686	净化/群聊/隐藏群聊风险提醒
+1687	辅助功能/群聊/群文件显示下载次数(新)
+1688	辅助功能/群聊/群文件显示下载次数(旧)
+1689	净化/资料卡/隐藏好友互动标识
+1690	辅助功能/资料卡/上传透明头像
+1691	辅助功能/资料卡/上传半透明头像
+1692	主页右上角注入
+1693	辅助功能/聊天/语音悬浮窗
+1694	API-BuildMenuElement
+1695	API-群组禁言监听
+1696	API-进群监听器
+1697	API-ListenToChatWindowsAsTheyAppearAndClose
+1698	API-OnRKey
+1699	API-监听消息发送
+1700	API-Session_info_find_init
+1701	API-退群监听器
+1702	净化/主页/自动清理主页频道消息（屏蔽主页频道消息）
+1703	辅助功能/消息通知/屏蔽AT全体消息的系统通知
+1704	辅助功能/图片与表情/图片,表情的显示文本修改
+1705	辅助功能/图片与表情/查看图片时背景透明模糊
+1706	净化/实验功能/禁用日志写入的线程
+1707	辅助功能/聊天/复制卡片
+1708	辅助功能/图片与表情/复制图片链接
+1709	辅助功能/实验功能/删除主页聊天列表
+1710	辅助功能/图片与表情/在新的QQ中依然可以下载表情
+1711	辅助功能/图片与表情/查看表情时背景透明
+1712	辅助功能/图片与表情/表情面板#1
+1713	净化/聊天/分享弹窗不显示好友和群
+1714	辅助功能/实验功能/获取游戏好友QQ
+1715	净化/聊天/去除标题栏听筒标识
+1716	辅助功能/聊天/保存语音
+1717	辅助功能/图片与表情/聊天界面图片显示发送者
+1718	辅助功能/聊天/发送卡片
+1719	辅助功能/聊天/消息小尾巴
+1720	辅助功能/小程序/小程序跳过广告
+1721	净化/主页/净化主页横幅新年广告
+1722	净化/侧滑栏/侧滑栏右上角返回-失效
+1723	净化/侧滑栏/精简侧滑栏右上角二维码-失效
+1724	辅助功能/消息通知/快捷免打扰
+1725	辅助功能/图片与表情/发送原图时擦除位置信息
+1726	辅助功能/图片与表情/图片转大图卡片-已失效
+1727	辅助功能/群聊/群设置页群文件旧版排序
+1728	辅助功能/实验功能/龙|猫图检测禁言
+1729	辅助功能/实验功能/龙图检测内测版
+1730	测试专用/Test/长按消息选项输出MsgRecord
+1731	辅助功能/实验功能/炫酷彩色字体
+1732	自动加载脚本
+1733	Plugin-OnMsgMenuCreateAPI
+1734	注册脚本菜单悬浮窗
+1735	Plugin-Message-Callback
+1736	注入QQ设置页面
+1737	辅助功能/实验功能/阻止子线程闪退
+1738	辅助功能/季节专属/自动抢红包(2025)
+1739	辅助功能/实验功能/重定向文件下载位置
+1740	辅助功能/图片与表情/自定义表情外显文案
+1741	辅助功能/图片与表情/发送图片时半屏打开相册(禁用强制全屏打开相册)
+1742	辅助功能/群聊/艾特全体-弃用
+1743	净化/聊天/拦截异常GIF-弃用
+1744	净化/侧滑栏/启用旧版侧滑栏-弃用
+1745	辅助功能/季节专属/自动抢红包
+1746	净化/联系人/移除联系人页上方的横幅广告-弃用
+1747	辅助功能/季节专属/枫叶飘落
+1748	辅助功能/季节专属/雪花飘落
+1749	辅助功能/季节专属/新年中国结顶栏
+1750	辅助功能/季节专属/太阳飘落
+1751	辅助功能/QQ空间/自动点赞QQ空间
+1752	辅助功能/QQ空间/每天自动发QQ空间
+1753	辅助功能/QQ空间/自动删除发布的空间
+1754	辅助功能/QQ空间/发送空间使用自定义的内容
+1755	辅助功能/QQ空间/发送QQ空间时是否公开可见
+1756	辅助功能/群聊/群聊自动打卡
+1757	辅助功能/群聊/群聊自动打卡-定时版
+1758	辅助功能/群聊/群聊自动打卡-极速版
+1759	forbidCode
+1760	isForbidAccount
+1761	忽略账号的异常状态，使其能够正常查看资料卡
+1762	com.tencent.mobileqq.profilecard.api.impl.ProfileDataServiceImpl
+1763	getProfileCard
+1764	getProfileCardFromCache
+1765	com.tencent.mobileqq.profilecard.processor.ProfileSecureProcessor
+1766	android.os.Bundle
+1767	SummaryCard.RespHead
+1768	SummaryCard.RespSummaryCard
+1769	processProfileCard
+1770	禁止QQ在后台干扰NFC
+1771	cooperation.buscard.BuscardHelper
+1772	getParameterTypes(...)
+1773	com.tencent.mobileqq.widget.QQToast
+1774	在没有开启临时会话的情况下查看已删除好友的聊天记录 则不会有开启临时会话弹窗
+1775	com.tencent.mobileqq.managers.TempMsgManager
+1776	jumpResult
+1777	com.tencent.mobileqq.webview.WebSecurityPluginV2$1
+1778	com.tencent.mobileqq.utils
+1779	ForwardSendPicUtil
+1780	通过QQ分享图片时以原图发送
+1781	本小姐让你打广告了?
+1782	cooperation.vip.qqbanner.QbossADImmersionBannerManager
+1783	cooperation.vip.qqbanner.manager.VasADImmersionBannerManager
+1784	com.tencent.mobileqq.springhb.interactive.ui.InteractivePopManager
+1785	androidx.fragment.app.Fragment
+1786	com.tencent.mobileqq.activity.recent.bannerprocessor.VasADBannerProcessor
+1787	updateBanner
+1788	cooperation.vip.ad.GrowHalfLayerHelper
+1789	cooperation.vip.ad.GrowHalfLayerInfo
+1790	com.tencent.qqnt.audio.play.player.AudioPlayerDeviceHelper
+1791	onNearToEarStatusChanged
+1792	getMethod(...)
+1793	com.tencent.mobileqq.qqaudio.audioplayer.impl.AudioDeviceServiceImpl
+1794	notifyAllDeviceStatusChanged
+1795	findMethod(...)
+1796	bubbleId
+1797	subBubbleId
+1798	com.tencent.qqnt.kernel.nativeinterface.VASMsgBubble
+1799	getBubbleId
+1800	getSubBubbleId
+1801	getDeclaredConstructors(...)
+1802	com.tencent.mobileqq.activity.aio.AIOMsgItem
+1803	setBubbleInfo
+1804	setBubbleId
+1805	setSubBubbleId
+1806	setMsgBubble
+1807	chmod 777 
+1808	/bubble_info
+1809	/files/bubble_info
+1810	/files/bubble_paster
+1811	/files/vas_material_folder/bubble_dir
+1812	magicFontType
+1813	com.tencent.qqnt.kernel.nativeinterface.VASMsgFont
+1814	getFontId
+1815	getMagicFontType
+1816	com.tencent.mobileqq.vas.font.api.impl.FontManagerServiceImpl
+1817	enlargeTextMsg
+1818	com.tencent.mobileqq.activity.aio.item.TextItemBuilder
+1819	com.tencent.mobileqq.aio.item.TextItemBuilder
+1820	getName(...)
+1821	ViewHolder
+1822	ChatMessage
+1823	com.tencent.common.config.pad.DeviceType
+1824	find(...)
+1825	需要重启生效
+1826	com.tencent.common.config.pad.PadUtil
+1827	methodFinder
+1828	socialError
+1829	getBytes(...)
+1830	屏蔽版本升级弹窗、灰度版本体验弹窗、社交封禁提醒弹窗
+1831	com.tencent.mobileqq.upgrade.ui.dialog.UpgradeActivity
+1832	com.tencent.biz.qui.noticebar.view.VQUINoticeBarLayout
+1833	com.tencent.mobileqq.graycheck.business.GrayCheckHandler
+1834	com.tencent.mobileqq.dt.api.impl.DTAPIImpl
+1835	onSecDispatchToAppEvent
+1836	android.app.ActivityManager
+1837	getRunningAppProcesses
+1838	模块提醒您，此弹窗在重新启动QQ前只会展示一次。
+1839	getCurrentUin
+1840	processName
+1841	android.content.Context
+1842	ACTIVITY_SERVICE
+1843	getSystemService
+1844	de.robv.android.xposed.XposedBridge
+1845	currentThread
+1846	mActivityThread
+1847	屏蔽一些关键词触发的掉落小表情 重启生效
+1848	com.tencent.mobileqq.aio.animation.util.b
+1849	com.tencent.mobileqq.aio.animation.util.d
+1850	com.tencent.mobileqq.aio.animation.util.AioAnimationConfigHelper
+1851	com.tencent.mobileqq.activity.aio.anim.AioAnimationConfigHelper
+1852	doParseRules
+1853	parseRules
+1854	parseAnimationRules
+1855	loadRules
+1856	com.tencent.rfix.lib.download.PatchDownloadTask
+1857	com.tencent.rfix.lib.engine.PatchEngineBase
+1858	com.tencent.rfix.lib.config.PatchConfig
+1859	com.tencent.mobileqq.msf.core.net.patch.PatchReporter
+1860	屏蔽部分关键词触发的特殊弹窗
+1861	com.tencent.mobileqq.springhb.ui.InteractivePopManager
+1862	com.tencent.mobileqq.interactive.ui.InteractivePopManager
+1863	com.tencent.mobileqq.aio.animation.pag.PagEasterEggPopManager
+1864	com.tencent.mobileqq.animation.pag.PagEasterEggPopManager
+1865	com.tencent.qqperf.monitor.crash.QQCrashReportManager
+1866	null cannot be cast to non-null type kotlin.Int
+1867	com.tencent.aio.frame.drawer.DrawerFrameViewGroup
+1868	switchState
+1869	com.tencent.mobileqq.troop.flame.api.impl.TroopFlameApiImpl
+1870	getFlameViewDataFromPB
+1871	com.tencent.mobileqq.data.troop.TroopInfoExt
+1872	getGroupExtFlameData
+1873	强制QQ内置浏览器使用系统原生WebView，不加载腾讯X5内核
+1874	com.tencent.smtt.sdk.QbSdk
+1875	getIsSysWebViewForcedByOuter
+1876	分屏模式下也能正常使用扫码、相机等被限制的功能
+1877	isInMultiWindowMode
+1878	FakePicSize
+1879	点击设置图片显示大小
+1880	com.tencent.qqnt.kernelpublic.nativeinterface.Contact
+1881	com.tencent.qqnt.kernelpublic.nativeinterface.IOperateCallback
+1882	com.tencent.qqnt.kernelpublic.nativeinterface.IKernelMsgService$CppProxy
+1883	篡改图片显示大小
+1884	sizeIndex
+1885	com.tencent.qqnt.kernelpublic.nativeinterface.MsgElement
+1886	picSubType
+1887	已设置为: 
+1888	qqfav.apk
+1889	回忆之所以美丽 是因为谁都回不去,目前支持纯文字收藏详情
+1890	Lcom/qqfav/activity/BaseDetailActivity;->onCreate(Landroid/os/Bundle;)V
+1891	thisObject
+1892	Lcom/qqfav/data/FavoriteData
+1893	sendLocalFileMethod
+1894	上传文件时重命名base.apk\n以及将上传时的.apk重命名为.APK 防止QQ在服务器将.apk变成.apk.1
+1895	sendLocalFileMethod is null
+1896	com.tencent.mobileqq.troop.utils.Item
+1897	com.tencent.mobileqq.troop.utils.TroopFileTransferManager$Item
+1898	com.tencent.mobileqq.troop.filemanager.TroopFileTransferMgr
+1899	sendLocalFileToNt strFilePath:
+1900	^base(\([0-9]+\))?.apk$
+1901	substring(...)
+1902	%n_%v.APK
+1903	packageName
+1904	base.APK
+1905	strFilePath
+1906	FileName
+1907	LocalFile
+1908	msgItemView
+1909	msgRecord
+1910	适配QQNT,开启后会导致聊天界面严重掉帧
+1911	getSubMsgType
+1912	androidx.constraintlayout.widget.ConstraintLayout$LayoutParams
+1913	null cannot be cast to non-null type android.view.ViewGroup.LayoutParams
+1914	startToStart
+1915	endToEnd
+1916	topToTop
+1917	subMsgType
+1918	null cannot be cast to non-null type android.content.Intent
+1919	lin.xposed.hook.item.browser.EXTRA_BYPASS_FQB_HOOK
+1920	^(https?|ftp)://[^\s/$.?#].[^\s]*$|^www\.[^.]+\.[^.]+$|^[^.]+\.[^.]+$
+1921	致敬 经典模块:去你大爷的QQ浏览器
+1922	android.content.ContextWrapper
+1923	startActivity
+1924	startActivityForResult
+1925	android.app.Activity
+1926	QQBrowserActivity
+1927	from_fqb
+1928	meeting.tencent.com
+1929	qq-web.cdn-go.cn
+1930	比如打卡,撤回,戳一戳
+1931	com.tencent.qqnt.kernel.nativeinterface.XmlElement
+1932	getMembers
+1933	getDeclaredMethod(...)
+1934	com.tencent.qqnt.kernelpublic.nativeinterface.JsonGrayElement
+1935	com.tencent.qqnt.kernelpublic.nativeinterface.XmlToJsonParam
+1936	findConstructor(...)
+1937	隐藏新朋友列表中的通讯录推荐卡片
+1938	com.tencent.mobileqq.newfriend.ui.builder.NewFriendBindContactGuideBuilderV3
+1939	送礼物
+1940	屏蔽好友资料卡底部工具栏中的送礼物按钮
+1941	com.tencent.mobileqq.profilecard.base.container.ProfileBottomContainer
+1942	finishRefresh
+1943	隐藏下拉小程序
+1944	com.tencent.qqnt.chats.view.MiniOldStyleHeaderNew
+1945	com.tencent.qqnt.chats.view.MiniOldStyleHeader
+1946	refreshLayout
+1947	oldState
+1948	newState
+1949	initMiniAppEntryLayout.
+1950	initMicroAppEntryLayout.
+1951	init Mini App, cost=
+1952	com.tencent.mobileqq.mini.api.IMiniAppService
+1953	createMiniAppEntryManager
+1954	null cannot be cast to non-null type kotlin.Long
+1955	屏蔽聊天界面的超级QQ秀 此功能适用于9.2.25+ 重启生效
+1956	com.tencent.mobileqq.ai.avatar.api.impl.AIAvatarSwitchApiImpl
+1957	isQQShowEnableForAIO
+1958	isQQShowEnable
+1959	parseObject(...)
+1960	grabFailToast
+1961	红包预处理失败: 红包已被抢光
+1962	红包跳过领取: 
+1963	delayReply
+1964	新版QQ抢红包，在9.2.0 ~ 9.2.95通过测试，点击可配置参数
+1965	getUinFromUid(...)
+1966	不领取普通红包
+1967	不领取专属红包
+1968	群号在黑名单中
+1969	红包描述包含关键词: 
+1970	红包平均金额
+1971	元，未达到期望值
+1972	[QStory]: 
+1973	红包描述:
+1974	来自群聊:
+1975	红包领取失败: 红包已被抢光了
+1976	com.tencent.mobileqq.profilecard.component.ProfileInStepComponent
+1977	onDataUpdate
+1978	com.tencent.mobileqq.profilecard.data.ProfileCardInfo
+1979	com.tencent.biz.richframework.widget.listview.card.RFWCardListView
+1980	getParent
+1981	ParentLayout == null
+1982	com.tencent.mobileqq.activity.VisitorsActivity
+1983	com.tencent.mobileqq.data.CardProfile
+1984	com.tencent.mobileqq.utils.VoteHelper
+1985	getDeclaredFields(...)
+1986	com.tencent.mobileqq.profilecard.base.component.AbsProfileHeaderComponent
+1987	com.tencent.mobileqq.data.Card
+1988	handleVoteBtnClickForGuestProfile
+1989	handleVote
+1990	ptt_forward
+1991	长按语音消息显示转发按钮
+1992	pttElement
+1993	direct_send_if_dataline_forward
+1994	forward_text
+1995	forward_type
+1996	forward_from_jump
+1997	caller_name
+1998	ChatActivity
+1999	k_smartdevice
+2000	k_dataline
+2001	is_need_show_toast
+2002	k_forward_title
+2003	语音转发
+2004	PttForward: 启动转发界面成功
+2005	PttForward: 启动转发界面失败: 
+2006	com.tencent.mobileqq.forward.ForwardBaseOption
+2007	mExtraData
+2008	isNeedShowToast
+2009	PttForward: 转发逻辑 Hook 失败: 
+2010	voiceChangeType
+2011	PttForward: 发送至 
+2012	 失败: 
+2013	getMContext
+2014	null cannot be cast to non-null type android.content.Context
+2015	转发语音
+2016	null cannot be cast to non-null type kotlin.collections.MutableList<kotlin.Any>
+2017	forward_multi_target
+2018	PttForward: 发送线程异常: 
+2019	喵呜喵喵喵喵呜喵~喵呜喵喵喵呜喵喵~喵呜喵喵呜呜呜喵~喵呜喵呜呜呜喵呜~喵呜喵呜喵呜喵喵~喵呜喵呜呜喵喵喵
+2020	LandRegion(name=
+2021	, minLat=
+2022	, maxLat=
+2023	, minLon=
+2024	, maxLon=
+2025	getInterfaces(...)
+2026	com.tencent.map.geolocation.TencentLocationListener
+2027	中国核心区
+2028	日本/韩国
+2029	东南亚(新马泰/印尼)
+2030	中东(迪拜/土耳其)
+2031	欧洲大陆
+2032	北美热门区
+2033	澳洲/新西兰
+2034	南美洲
+2035	非洲大陆
+2036	com.tencent.map.geolocation.internal.TencentLocationImpl
+2037	com.tencent.map.geolocation.TencentLocationManager
+2038	onLocationChanged
+2039	com.tencent.map.geolocation.TencentLocation
+2040	com.tencent.mobileqq.location.net.LocationShareLocationManager$a
+2041	getLongitude
+2042	getLatitude
+2043	com.tencent.mobileqq.aio.helper.PttHelper$getPhoneLowVolumeListener$onLowVolume$1
+2044	com.tencent.mobileqq.webview.swift.component.SwiftBrowserShareMenuHandler
+2045	移除内置浏览器分享菜单中的"用QQ浏览器打开"选项
+2046	屏蔽查看好友页面自定义的名片
+2047	com.tencent.mobileqq.profilecard.activity.FriendProfileCardActivity
+2048	handleSwitchVasCard
+2049	mSecurityBeat
+2050	com.tencent.mobileqq.pluginsdk.PluginStatic
+2051	getOrCreateClassLoader
+2052	com.qqfav.FavoriteService
+2053	com.qqfav.data.FavoriteData
+2054	移除长按消息气泡菜单中的图标
+2055	扫描相册里的二维码时不再拦截登录
+2056	com.tencent.open.agent.QrAgentLoginManager
+2057	去除QQ只允许发送20张图片的限制 重启生效
+2058	com.tencent.qqnt.qbasealbum.select.viewmodel.SelectedMediaViewModel
+2059	移除语音消息下方诱导开通SVIP的自动转文本灰字提示
+2060	com.tencent.mobileqq.vas.perception.api.impl.VipPerceptionImpl
+2061	addSVipLocalGrayTip
+2062	com.tencent.mobileqq.quibadge.QUIBadge
+2063	updateNum
+2064	com.tencent.mobileqq.activity.framebusiness.controllerinject.FrameControllerInjectImpl
+2065	com.tencent.mobileqq.utils.DialogUtil
+2066	createCountdownDialog
+2067	com.tencent.biz.qrcode.activity.QRLoginAuthActivity
+2068	onFinish
+2069	android.permission.CAMERA
+2070	android.permission.RECORD_AUDIO
+2071	即时生效 开启后需要手动到应用详情页给予权限 目前仅支持伪装语音权限和拍照权限 正在完善可选与更多功能
+2072	checkPermission
+2073	checkSelfPermission
+2074	com.tencent.mobileqq.text.EmotcationConstants
+2075	getSingleEmoji
+2076	getDoubleEmoji
+2077	str_file_name='([^']*)'
+2078	uint32_download_times=(\d+)
+2079	 (下载数：
+2080	NewTarget
+2081	newTargetMethod
+2082	在群文件列表中显示文件的下载次数 全版本通用
+2083	com.tencent.mobileqq.troop.file.data.TroopFileShowAdapter
+2084	com.tencent.mobileqq.troop.data.TroopFileShowAdapter
+2085	(下载: 
+2086	$this$add
+2087	$this$methods
+2088	$this$matcher
+2089	$this$findClass
+2090	 下载次数:
+2091	在群文件下方显示文件下载次数 仅支持 9.1.90 以下版本
+2092	com.tencent.mobileqq.filemanager.api.impl.QFileUtilsImpl
+2093	setFileDescription
+2094	mViewContainer
+2095	com.tencent.mobileqq.profilecard.component.ProfileIntimateComponent
+2096	initComponentViewContainer
+2097	上传任意图片为头像时 替换为全透明头像
+2098	com.tencent.mobileqq.util
+2099	image illegal, size must be square.
+2100	com.tencent.mobileqq.pic.compress
+2101	JpegCompressor.compress() error
+2102	apply(...)
+2103	可以上传自定义半透明的PNG格式头像 不要和上传全透明头像一起打开
+2104	compress
+2105	com.tencent.mobileqq.activity.photo
+2106	StoreFileTask
+2107	sdcardfull
+2108	doInBackground
+2109	compress.Utils
+2110	compressQualityWithBaseline()
+2111	com.tencent.mobileqq.pic.CompressInfo
+2112	portrait
+2113	null cannot be cast to non-null type java.io.File
+2114	getAbsolutePath(...)
+2115	Lcom/tencent/mobileqq/pluginsdk/PluginStatic;->getOrCreateClassLoader(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/ClassLoader;
+2116	Lcom/tencent/mobileqq/pluginsdk/IPluginAdapterProxy;->getProxy()Lcom/tencent/mobileqq/pluginsdk/IPluginAdapterProxy;
+2117	Lcom/tencent/mobileqq/pluginsdk/IPluginAdapterProxy;->setProxy(Lcom/tencent/mobileqq/pluginsdk/IPluginAdapter;)V
+2118	null cannot be cast to non-null type java.lang.ClassLoader
+2119	cooperation.plugin
+2120	com.tencent.mobileqq.pluginsdk.IPluginAdapter
+2121	troopUin
+2122	com.tencent.mobileqq.profilecard.data.AllInOne
+2123	troopCode
+2124	profileEntryType
+2125	subSourceId
+2126	enter_page_sourceid
+2127	enter_page_subsourceid
+2128	memberUin
+2129	AllInOne
+2130	null cannot be cast to non-null type android.os.Parcelable
+2131	消息有艾特时可点击跳转到艾特目标资料卡
+2132	com.tencent.qqnt.aio.widget.AIOMsgTextView
+2133	getAllChildViews(...)
+2134	null cannot be cast to non-null type android.widget.TextView
+2135	getSpans(...)
+2136	key_is_quality_raw
+2137	适配QQNT 不支持频道
+2138	com.tencent.mobileqq.aio.panel.photo.PhotoPanelVB
+2139	com.tencent.qqnt.qbasealbum.model.Config
+2140	com.tencent.qqnt.qbasealbum.WinkHomeActivity
+2141	Array contains more than one matching element.
+2142	Array contains no element matching the predicate.
+2143	com.tencent.qqnt.kernel.nativeinterface.LinkInfo
+2144	com.tencent.qqnt.kernel.nativeinterface.TextElement
+2145	getElements
+2146	null cannot be cast to non-null type android.widget.LinearLayout
+2147	ChatInputHint
+2148	自定义聊天输入框的提示文字
+2149	inputRoot
+2150	com.tencent.mobileqq.activity.aio.core
+2151	com.tencent.mobileqq.activity.aio
+2152	input set error
+2153	hint_text
+2154	Hello World.
+2155	设置输入框提示文字
+2156	设置新提示词后需要重启生效
+2157	getHostAppContext(...)
+2158	已恢复默认提示: Hello World.
+2159	设置已保存: 
+2160	删除在QQ9.0.50左右出现在经典小表情 选项右侧的大表情动画选项（好傻的表情：汪汪、喜花泥等）
+2161	com.tencent.mobileqq.emoticonview.EmoticonPanelController
+2162	getPanelDataList
+2163	getExternalStoragePublicDirectory(...)
+2164	下载失败!
+2165	下载成功!
+2166	长按表情消息出现,用于弥补在9.2.20上无法下载表情的问题
+2167	强制启用'立即总结'按钮，支持QQ 9.2.35+
+2168	chat_summary.compose
+2169	未读消息较多时，可以进行群聊总结
+2170	立即总结
+2171	SummaryGenGuideViewKt
+2172	对编辑群昵称界面的装扮布局进行隐藏
+2173	com.tencent.mobileqq.activity.editservice.EditTroopMemberNickService
+2174	即将彻底消失
+2175	加入了群聊
+2176	我也要打卡
+2177	一起来玩吧
+2178	隐藏聊天界面中的灰色提示文本 如加入群聊 打卡
+2179	com.tencent.mobileqq.aio.msglist.holder.component.graptips.common.CommonGrayTipsComponent
+2180	com.tencent.mobileqq.paiyipai.PaiYiPaiHandler
+2181	防撤回数据库
+2182	适配QQNT
+2183	friendCache
+2184	groupCache
+2185	该消息已
+2186	getItemPath(...)
+2187	长按文本消息显示修改内容按钮，仅修改本地聊天界面显示内容。
+2188	QuickEditResendMessage
+2189	hook message menu failed
+2190	修改消息
+2191	已修改，滑动或重新打开会话后生效
+2192	对表情回应灰字 表情回应菜单 显示在消息下方的已回应表情进行隐藏
+2193	com.tencent.qqnt.aio.api.impl.AIOEmoReplyMenuApiImpl
+2194	getSeparateEmoReplyMenuView
+2195	getEmoReplyMenuView
+2196	com.tencent.mobileqq.aio.msglist.holder.component.msgtail.AIOGeneralMsgTailContentComponent
+2197	被云控后出现(9250后一定出现)
+2198	滤镜视频
+2199	解除转发联系人时最多选择9人的限制
+2200	configClass
+2201	getClass(...)
+2202	recentClass
+2203	friendClass
+2204	troopClass
+2205	ChatSelectorConfig
+2206	doubleClick
+2207	getCurrentContact(...)
+2208	bottomToBottom
+2209	endToStart
+2210	startToEnd
+2211	传统消息居中位置 点击可设置一些复读参数
+2212	Repetition
+2213	com.tencent.mobileqq.aio.msglist.holder.component.msgfollow.AIOMsgFollowComponent
+2214	kotlin.Lazy
+2215	getMethods(...)
+2216	getValue
+2217	未填写大小
+2218	+1图标初始化完毕
+2219	MultiForwardActivity
+2220	createScaledBitmap(...)
+2221	该消息不支持复读
+2222	QQ自带的复读位置 偏下 容易坏 请勿和消息复读同时开启 否则不会发生什么 点击可以配置一些参数
+2223	RepetitionPlus
+2224	createBitmap(...)
+2225	com.tencent.mobileqq.aio.input
+2226	com.tencent.mvi.base.route.MsgIntent
+2227	mContext
+2228	msgItem.msgRecord.senderUid
+2229	anonymousExtInfo
+2230	com.tencent.mobileqq.aio.utils
+2231	发送消息重新格式化排版，在英文单词数字与中文之间用空格隔开，让消息更加美观
+2232	toCharArray(...)
+2233	[^\n\S]+
+2234	(?<=[({\[/#])\s|\s(?=[)}\]:;])|(?<=\n)\s
+2235	null cannot be cast to non-null type java.util.ArrayList<*>
+2236	bottomMargin
+2237	com.tencent.qqnt.troop.impl.TroopGagUtils
+2238	remainingTimeToStringCountDown
+2239	已退出该群
+2240	用于直接查看已退群用户的发言记录，在群成员信息页显示加入时间
+2241	com.tencent.mobileqq.profilecard.component.troop.ElegantProfileTroopMemInfoComponent
+2242	getTroopMemeJoinTime
+2243	com.tencent.mobileqq.aio.input.at.common.SubmitListEvent
+2244	getItemList
+2245	com.tencent.qqnt.kernel.nativeinterface.MemberInfo
+2246	发送收藏的表情后优先自动排序在最前面
+2247	com.tencent.mobileqq.app.FavEmoRoamingHandler
+2248	com.tencent.mobileqq.emoticonview.FavoriteEmotionAdapter
+2249	com.tencent.mobileqq.app
+2250	moveEmotion exception =
+2251	com.tencent.mobileqq.emosm.api.IFavroamingDBManagerService
+2252	getEmoticonDataList
+2253	emoticonDataList
+2254	deleteCustomEmotion
+2255	cloneEmotionData
+2256	insertCustomEmotion
+2257	trimCache
+2258	mInteractionListener
+2259	com.tencent.mobileqq.emoticonview.api.IEmosmService
+2260	tryGetEmoticonMainPanel
+2261	updateFavEmoticonPanel
+2262	AutoBackup
+2263	yyyyMMdd_HHmmss
+2264	每天启动QQ自动备份模块数据 点击可进行手动备份测试
+2265	创建备份目录失败: 
+2266	备份路径不是目录: 
+2267	模块数据目录不存在: 
+2268	模块数据路径不是目录: 
+2269	QStoryBackup_
+2270	AutoBackupModuleData
+2271	创建.nomedia文件异常
+2272	手动备份测试
+2273	手动备份不会吞噬今日旧备份 今日备份将在第二天自动删除\n\n备份路径：
+2274	开始备份
+2275	手动备份成功\n文件: %s\n大小: %s
+2276	备份失败: 
+2277	last_backup_date
+2278	自动备份执行异常
+2279	启动备份检查异常
+2280	/Android/data/com.tencent.mobileqq/QStory
+2281	/Download/QStory
+2282	mPathPrefixList
+2283	qs_config
+2284	Android/data/com.tencent.mobileqq/files
+2285	com.tencent.mobileqq.app.message.cleanup.CleanUpThoroughManager
+2286	点击配置可用 MCP、开关与顺序
+2287	recyclerView
+2288	viewHolder
+2289	已启用 
+2290	 个 MCP，长按右侧拖动柄可调整顺序
+2291	MCP 配置已保存
+2292	null cannot be cast to non-null type android.content.ClipboardManager
+2293	QStory MCP Config
+2294	MCP 配置 JSON 已复制
+2295	$this$jsonObject
+2296	已为您启动 QStory Mcp 服务
+2297	{\n  "mcpServers": {\n    "QStoryMcp": {\n      "url": "http://localhost:9000/mcp",\n      "transport": "streamable-http"\n    }\n  }\n}
+2298	tool_order
+2299	tool_enabled_
+2300	description
+2301	McpToolConfigItem(id=
+2302	, order=
+2303	MCP 客户端连接: /mcp
+2304	no-cache
+2305	text/event-stream
+2306	MCP 客户端断开: /mcp
+2307	POST /mcp
+2308	serverName
+2309	QStoryMCP
+2310	MCP 服务 正在启动
+2311	MCP 服务 启动成功: 
+2312	MCP 服务 启动失败: 
+2313	MCP 服务 正在停止
+2314	MCP 服务 停止成功
+2315	MCP 服务 停止失败: 
+2316	MCP 请求路径: 
+2317	Illegal Content-Type format: 
+2318	MCP 请求: 
+2319	 响应: 
+2320	Parse error
+2321	notifications/initialized
+2322	MCP 收到初始化通知
+2323	tools/call
+2324	initialize
+2325	tools/list
+2326	Method not found: 
+2327	返回响应到 
+2328	 个 MCP 客户端
+2329	$this$routing
+2330	$this$embeddedServer
+2331	listChanged
+2332	protocolVersion
+2333	2025-03-26
+2334	serverInfo
+2335	capabilities
+2336	inputSchema
+2337	$this$jsonArray
+2338	MCP feature disabled
+2339	Tool not found: 
+2340	Tool disabled: 
+2341	notifications/tools/list_changed
+2342	McpServerConfig
+2343	喵呜喵呜呜呜喵喵~喵喵喵呜呜喵喵喵~喵喵喵呜呜喵喵呜~喵喵喵呜呜喵喵喵
+2344	is_friend
+2345	检查是否为好友
+2346	检查指定 QQ 是否为当前账号好友
+2347	目标 QQ 号
+2348	get_group_rkey
+2349	获取群 RKey
+2350	读取群相关请求使用的 RKey
+2351	get_friend_rkey
+2352	获取私聊 RKey
+2353	读取私聊相关请求使用的 RKey
+2354	get_skey
+2355	获取 SKey
+2356	读取当前登录态的 SKey
+2357	get_real_skey
+2358	获取 Real SKey
+2359	读取当前登录态的真实 SKey
+2360	get_pskey
+2361	获取 PsKey
+2362	按域名读取 PsKey
+2363	get_pt4_token
+2364	获取 PT4Token
+2365	按域名读取 PT4Token
+2366	获取 BKN
+2367	根据 pskey 计算 BKN
+2368	用于计算的 pskey
+2369	获取 GTK
+2370	按域名读取 GTK
+2371	get_string
+2372	读取字符串配置
+2373	读取字符串配置，使用 MCP 内置命名空间存储
+2374	config_name
+2375	配置文件名
+2376	配置键
+2377	default_value
+2378	默认值，可选
+2379	put_string
+2380	写入字符串配置
+2381	写入字符串配置，使用 MCP 内置命名空间存储
+2382	字符串值
+2383	get_boolean
+2384	读取布尔配置
+2385	读取布尔配置，使用 MCP 内置命名空间存储
+2386	默认值
+2387	put_boolean
+2388	写入布尔配置
+2389	写入布尔配置，使用 MCP 内置命名空间存储
+2390	布尔值
+2391	读取整型配置
+2392	读取整型配置，使用 MCP 内置命名空间存储
+2393	写入整型配置
+2394	写入整型配置，使用 MCP 内置命名空间存储
+2395	整型值
+2396	get_long
+2397	读取长整型配置
+2398	读取长整型配置，使用 MCP 内置命名空间存储
+2399	long 默认值
+2400	put_long
+2401	写入长整型配置
+2402	写入长整型配置，使用 MCP 内置命名空间存储
+2403	long 值
+2404	get_float
+2405	读取浮点配置
+2406	读取浮点配置，使用 MCP 内置命名空间存储
+2407	float 默认值
+2408	put_float
+2409	写入浮点配置
+2410	写入浮点配置，使用 MCP 内置命名空间存储
+2411	float 值
+2412	get_double
+2413	读取双精度配置
+2414	读取双精度配置，使用 MCP 内置命名空间存储
+2415	double 默认值
+2416	put_double
+2417	写入双精度配置
+2418	写入双精度配置，使用 MCP 内置命名空间存储
+2419	double 值
+2420	get_chat_type
+2421	获取当前会话类型
+2422	读取当前会话类型
+2423	get_current_group_uin
+2424	获取当前群号
+2425	读取当前会话中的群号
+2426	get_current_friend_uin
+2427	获取当前好友 QQ
+2428	读取当前会话中的好友 QQ 号
+2429	getPskey(...)
+2430	getPT4Token(...)
+2431	getGTK(...)
+2432	configName
+2433	chat_type
+2434	mcp_builtin_tools
+2435	MCP Builtin Tools
+2436	properties
+2437	required
+2438	 不能为空
+2439	contentName
+2440	contentDesc
+2441	group_uin
+2442	群号，私聊时可留空
+2443	user_uin
+2444	好友 QQ 号，群聊时可留空
+2445	发送内容
+2446	defaultProperty
+2447	valueName
+2448	valueProperty
+2449	group_uin 和 user_uin 不能同时为空
+2450	read_file_text
+2451	读取文本文件
+2452	读取指定文本文件内容
+2453	文件路径
+2454	write_text_to_file
+2455	覆盖写入文本文件
+2456	写入内容
+2457	write_text_append_to_file
+2458	追加写入文本文件
+2459	向文本文件追加内容
+2460	read_file_bytes
+2461	读取二进制文件
+2462	读取二进制文件并返回 Base64 字符串
+2463	write_bytes_to_file
+2464	写入二进制文件
+2465	将 Base64 内容写入二进制文件
+2466	bytes_base64
+2467	Base64 编码后的文件内容
+2468	scan_image_text
+2469	图片 OCR 文本识别
+2470	识别图片中的文本内容
+2471	图片路径
+2472	scan_image_text_detail
+2473	图片 OCR 详细识别
+2474	识别图片中的详细文本结构
+2475	get_new_friend_info
+2476	获取单个好友信息(新接口)
+2477	读取单个好友的详细信息
+2478	好友 QQ 号
+2479	get_message_list
+2480	获取本地消息列表
+2481	读取本地消息列表。群聊时传 group_uin，私聊时传 user_uin
+2482	返回数量，默认 20
+2483	readFileText(...)
+2484	写入成功
+2485	scanImageText(...)
+2486	arguments
+2487	target_uin
+2488	message_limit
+2489	参数错误: 当前仅支持按 chat_type(friend/group) + target_uin 查询指定会话历史消息
+2490	会话类型，必填，可选 friend 或 group
+2491	目标好友 QQ号(uin) 或群号，必填
+2492	返回指定会话的消息数量，默认 20,最大无限制
+2493	get_chat_list
+2494	获取指定会话聊天记录
+2495	按 chat_type 与 target_uin 实时读取指定好友/群聊的最近消息，排序为由旧到新
+2496	get_current_account_info
+2497	获取当前QQ和昵称
+2498	读取当前登录账号的 QQ 号与昵称
+2499	好友uin
+2500	会员等级
+2501	get_friend_list
+2502	获取好友列表
+2503	读取当前账号的好友列表并返回 (QQ号)uin、备注与昵称、是否有会员，会员等级
+2504	AdminList
+2505	管理员
+2506	get_group_list
+2507	获取群聊列表
+2508	读取当前账号的群聊列表并返回群号、群名、群主与管理员信息
+2509	get_group_info
+2510	获取群信息
+2511	读取指定群的基础信息
+2512	get_member_info
+2513	获取群成员信息
+2514	读取指定群成员的详细信息
+2515	成员 QQ 号
+2516	get_member_name
+2517	获取群成员名称
+2518	读取指定群成员的显示名称
+2519	get_group_member_list
+2520	获取群成员列表
+2521	读取指定群的成员列表
+2522	get_forbidden_list
+2523	获取群禁言列表
+2524	读取指定群的禁言列表
+2525	set_title
+2526	设置群成员头衔
+2527	设置指定群成员的头衔
+2528	群禁言
+2529	执行群禁言操作。user_uin 为空时操作全体禁言
+2530	成员 QQ 号，全体禁言时留空
+2531	禁言秒数；全体禁言时传 1 表示开启，0 表示关闭
+2532	踢出群成员
+2533	将指定成员移出群聊
+2534	is_black
+2535	是否拉黑，默认 false
+2536	getMemberName(...)
+2537	设置成功
+2538	操作成功
+2539	toJson(...)
+2540	$this$Json
+2541	send_msg
+2542	发送文本消息
+2543	发送文本消息。群聊时填 group_uin，私聊时填 user_uin
+2544	send_pic
+2545	发送图片消息
+2546	发送图片消息，path 为图片路径
+2547	图片文件路径
+2548	send_card
+2549	发送卡片消息
+2550	发送卡片消息，card_text 为卡片文本
+2551	card_text
+2552	卡片文本内容
+2553	send_file
+2554	发送文件
+2555	发送文件，path 为本地文件路径
+2556	send_pai
+2557	发送拍一拍
+2558	发送拍一拍。群聊时 group_uin 必填，私聊时留空
+2559	send_proto
+2560	发送 Proto 包
+2561	发送 Proto 数据包
+2562	协议命令名
+2563	json_body
+2564	FunProtoData 的 JSON 字符串
+2565	send_voice
+2566	发送语音
+2567	发送语音消息，path 为语音文件路径
+2568	语音文件路径
+2569	send_video
+2570	发送视频
+2571	发送视频消息，path 为视频文件路径
+2572	视频文件路径
+2573	send_like
+2574	发送点赞
+2575	向指定用户发送点赞，count 默认 20
+2576	点赞次数，默认 20
+2577	cardText
+2578	http_get
+2579	HTTP GET 请求
+2580	发起 HTTP GET 请求，支持可选请求头
+2581	请求地址
+2582	请求头，键值都按字符串处理
+2583	http_post
+2584	HTTP POST 表单请求
+2585	发起 HTTP POST 表单请求，data 必填，headers 可选
+2586	表单数据，键值都按字符串处理
+2587	http_post_json
+2588	HTTP POST JSON 请求
+2589	发起 HTTP POST JSON 请求，json_body 必填，headers 可选
+2590	JSON 字符串
+2591	http_download
+2592	HTTP 下载文件
+2593	下载远程文件到指定路径
+2594	下载地址
+2595	保存路径
+2596	下载完成: 
+2597	get_new_friend_list
+2598	获取好友列表(新)
+2599	读取当前账号的好友列表并返回 (QQ号)uin、备注与昵称、性别，年龄
+2600	targetUin
+2601	ConversationKey(chatType=
+2602	, targetUin=
+2603	McpMsgService
+2604	getMsgsSync failed: chatType=
+2605	 targetUin=
+2606	 result=
+2607	null cannot be cast to non-null type lin.xposed.hook.javaplugin.PluginMessageCallbackAPI
+2608	message_count
+2609	messages
+2610	message_time
+2611	message_type
+2612	sender_uin
+2613	sender_nickname
+2614	file_name
+2615	file_url
+2616	file_size
+2617	local_path
+2618	reply_to_uin
+2619	pic_url_list
+2620	reply_message
+2621	friend_uin
+2622	喵喵喵呜喵呜喵呜~喵喵喵喵喵呜呜呜~喵喵喵呜喵喵呜呜~喵喵喵喵呜呜喵呜~喵喵喵喵呜喵呜呜~喵喵喵喵呜喵喵喵
+2623	喵喵喵呜喵呜喵喵~喵喵喵喵喵呜呜呜~喵喵喵呜喵呜喵呜~喵喵喵呜呜呜喵呜~喵喵喵呜喵呜喵呜
+2624	redPacketID
+2625	redPacketDesc
+2626	preGrabToken
+2627	newInstance(...)
+2628	invokeFirst(...)
+2629	sessionKey
+2630	findClass(...)
+2631	null cannot be cast to non-null type android.os.Bundle
+2632	inflate(...)
+2633	抢红包参数(新新)
+2634	喵喵喵呜喵呜呜呜~喵喵喵呜喵喵喵喵~喵喵喵呜喵呜呜喵~喵喵喵喵呜喵喵呜~喵喵喵呜呜呜喵喵
+2635	HbConfig
+2636	LIN_XPOSED
+2637	processResult
+2638	java.util.List
+2639	kotlin.jvm.internal.DefaultConstructorMarker
+2640	不支持的QQ版本
+2641	use(...)
+2642	GatewayRequestConfig(isSecure=
+2643	qwallet_pb_handle_trpc_error
+2644	QWalletHttp-QWalletPbServlet
+2645	com.tencent.mobileqq.vas.adv.qzone.logic.AlbumRecommendAdvController
+2646	com.tencent.mobileqq.vas.adv.common.data.AlumBasicData
+2647	initAndRenderData
+2648	com.qzone.proxy.feedcomponent.model.gdt.QZoneAdFeedDataExtKt
+2649	com.qzone.proxy.feedcomponent.model.BusinessFeedData
+2650	isShowingRecommendAd
+2651	advimageUrl
+2652	videoUrl
+2653	videoReportUrl
+2654	negativeFeedbackUrl
+2655	clickUrl
+2656	advLogoUrl
+2657	com.qzone.reborn.feedpro.itemview.ad.QZoneAdBaseMediaFeedProItemView
+2658	com.qzone.reborn.feedx.itemview.ad.QZoneAdBaseFeedItemView
+2659	com.qzone.reborn.feedpro.itemview.QzoneFeedProGeneralBigCardItemView
+2660	com.qzone.reborn.feedpro.itemview.QZoneAdFeedProForwardMixPicVideoItemView
+2661	com.qzone.reborn.feedpro.widget.comment.QZoneFeedProDetailBottomAdBlockView
+2662	com.qzone.reborn.feedx.itemview.ad.QZoneAdRewardFeedItemView
+2663	点击底栏动态Tab时直接显示空间动态
+2664	com.tencent.qzonehub.api.impl.QZoneApiProxyImpl
+2665	needShowQzoneFrame
+2666	currentSelection
+2667	创建表情文件夹成功
+2668	stickerDirName
+2669	config.json
+2670	stickerPath
+2671	recentUsedStickers
+2672	defaultValue
+2673	表情面板
+2674	optString(...)
+2675	StickerDirConfig(name=
+2676	, author=
+2677	, cover=
+2678	StickerInfo(path=
+2679	表情面板#2，表情以文件夹组保存在
+2680	滑稽.png
+2681	暗黑滑稽.webp
+2682	StickerPanelInject: PanelIconLinearLayout method not found
+2683	firstOrNull(...)
+2684	自定义表情面板
+2685	null cannot be cast to non-null type android.widget.LinearLayout.LayoutParams
+2686	getFirstField(...)
+2687	getMsgRecordMd5UrlMap(...)
+2688	RECENT_USAGE
+2689	recent_usage
+2690	最近使用
+2691	NAME_ASC
+2692	name_asc
+2693	文件名 A→Z
+2694	NAME_DESC
+2695	name_desc
+2696	文件名 Z→A
+2697	TIME_ASC
+2698	time_asc
+2699	修改时间 旧→新
+2700	TIME_DESC
+2701	time_desc
+2702	修改时间 新→旧
+2703	dirSortMode
+2704	fileSortMode
+2705	keepOpenAfterSend
+2706	DirVisualState(fillColor=
+2707	, strokeColor=
+2708	, textColor=
+2709	, scale=
+2710	, alpha=
+2711	, elevation=
+2712	Action(action=
+2713	Directory(name=
+2714	SORT_CONFIG
+2715	ONLINE_STICKER
+2716	animation
+2717	payloads
+2718	payload_selection
+2719	animator
+2720	onClickStart
+2721	onClickEnd
+2722	stickerScrollPosition
+2723	stickerScrollOffset
+2724	dirScrollPosition
+2725	dirScrollOffset
+2726	发送表情失败: 
+2727	initialCover
+2728	onSelect
+2729	目录不存在
+2730	编辑表情包
+2731	coverAdapter
+2732	删除文件夹
+2733	确定要删除 "
+2734	" 吗？这将无法还原
+2735	标签不能为空
+2736	标签已存在
+2737	名称不能为空
+2738	 文件夹已存在
+2739	重命名失败
+2740	名称不能为空，无法上传
+2741	删除成功
+2742	onCreated
+2743	创建新文件夹
+2744	输入文件夹名
+2745	文件夹名不能为空
+2746	文件夹已存在
+2747	创建成功 
+2748	stickerInfo
+2749	onDeleteSuccess
+2750	删除表情
+2751	确定要删除该表情吗?这将无法还原
+2752	cachePath
+2753	md5UrlMap
+2754	保存表情
+2755	暂无文件夹，请先创建
+2756	请选择至少一个保存目录
+2757	图片还没加载请稍后
+2758	 张图片保存失败
+2759	已保存到 
+2760	 个文件夹
+2761	checkBox
+2762	CheckOption(row=
+2763	, checkBox=
+2764	onSettingsChanged
+2765	表情面板设置
+2766	正在扫描表情文件...
+2767	表情目录不存在
+2768	没有找到表情文件
+2769	所有表情文件都已有后缀，无需整理
+2770	正在整理 (
+2771	整理完成！(没有自动关闭的话就重启QQ)\n
+2772	共处理 
+2773	 个文件\n
+2774	，失败 
+2775	目录: 
+2776	张表情)
+2777	确认上传
+2778	目录不存在，无法上传
+2779	目录为空，无法上传
+2780	上传表情包
+2781	确认将 "
+2782	" 上传到在线表情库？
+2783	com.tencent.mobileqq.notification.modularize
+2784	TianShuOfflineMsgCenter
+2785	deal0x135Msg online:
+2786	null cannot be cast to non-null type java.util.ArrayList<kotlin.Byte>
+2787	隐藏聊天输入框上方快捷栏展示的群应用
+2788	com.tencent.mobileqq.troop.shortcut.aio
+2789	,isShowingCustomShortcut:
+2790	com.tencent.mobileqq.activity.aio.helper
+2791	isShortcutBarVisibleOrGoingToBeVisible return false for AIOIceBreakViewShowing
+2792	移除群聊顶部的风险提醒横幅
+2793	com.tencent.mobileqq.troop.tipsbar
+2794	[doOnCreate]
+2795	TroopSecurityTipsBar
+2796	GetMsgsResult(result=
+2797	, errMsg=
+2798	获取 MsgService 失败
+2799	getMsgsExt
+2800	com.tencent.qqnt.kernel.nativeinterface.MsgsReq
+2801	com.tencent.qqnt.kernel.nativeinterface.IMsgsRspOperateCallback
+2802	获取消息失败: 获取结果为空
+2803	getLastestMsgsSync error: 
+2804	获取消息失败: 
+2805	getMsgsSync timeout: 
+2806	获取消息超时
+2807	获取消息失败: 结果为空
+2808	getMsgsSync interrupted: 
+2809	获取消息被中断
+2810	getMsgs error: 
+2811	getKernelMsgService error: 
+2812	queryOrder
+2813	includeSelf
+2814	includeDeleteMsg
+2815	com.tencent.biz.ProtoServlet
+2816	com.tencent.biz.m
+2817	null cannot be cast to non-null type kotlin.Boolean
+2818	top.suzhelan.qstory.hook.service.proto.OIDBSSOPkg
+2819	serviceType
+2820	bodybuffer
+2821	errorCode
+2822	null cannot be cast to non-null type top.suzhelan.qstory.hook.service.proto.OIDBSSOPkg
+2823	OIDBSSOPkg(command=
+2824	, serviceType=
+2825	, result=
+2826	, bodybuffer=
+2827	, errorCode=
+2828	top.suzhelan.qstory.hook.service.proto.TroopReplyEmoji
+2829	TroopReplyEmoji(troopUin=
+2830	, emojiId=
+2831	OidbSvcTrpcTcp.0x9082_1
+2832	fetchTroopMemberList
+2833	TroopMemberUtils
+2834	join_time
+2835	last_active_time
+2836	memberuin
+2837	newRealLevel
+2838	realLevel
+2839	friendnick
+2840	com.tencent.mobileqq.data.troop.TroopMemberNickInfo
+2841	troopNick
+2842	colorNick
+2843	TroopMemberNameCache-
+2844	MemberNameCache_
+2845	com.tencent.mobileqq.troop.api.IBizTroopMemberInfoService
+2846	getTroopMemberNickNoEmpty
+2847	OidbSvc.0x8fc_2
+2848	toBytes(...)
+2849	getTodayDate(...)
+2850	PluginTroopCache
+2851	newSetFromMap(...)
+2852	com.tencent.mobileqq.data.troop.TroopMemberCardInfo
+2853	com.tencent.mobileqq.troop.api.ITroopHandlerNameApi
+2854	getTroopMemberCardHandlerName
+2855	https://doh.pub/dns-query
+2856	1.12.12.12
+2857	120.53.53.53
+2858	https://cloudflare-dns.com/dns-query
+2859	https://dns.google/dns-query
+2860	https://qstory.suzhelan.top
+2861	create(...)
+2862	Nickname
+2863	ClientCity
+2864	Location
+2865	regularly
+2866	commitInfo
+2867	hostname
+2868	All DNS providers failed for 
+2869	. Last error: 
+2870	bootstrapIps
+2871	C25@862L12:NewMainActivity.kt#itusog
+2872	top.suzhelan.qstory.ui.activity.ComposableSingletons$NewMainActivityKt.lambda$1422673372.<anonymous> (NewMainActivity.kt:25)
+2873	C67@2750L29:SettingActivity.kt#itusog
+2874	top.suzhelan.qstory.ui.activity.SettingActivity.onCreate.<anonymous> (SettingActivity.kt:67)
+2875	onSearchDialogShown
+2876	onSearchDialogShown()V
+2877	onHighlightConsumed
+2878	onHighlightConsumed()V
+2879	onDirectoryClick
+2880	onDirectoryClick(Llin/xposed/hook/view/main/itemview/info/DirectoryUiInfo;)V
+2881	onFunctionToggle
+2882	onFunctionToggle(Llin/xposed/hook/view/main/itemview/info/ItemUiInfo;Z)V
+2883	onFunctionClick
+2884	onFunctionClick(Llin/xposed/hook/view/main/itemview/info/ItemUiInfo;Landroid/view/View;)V
+2885	onOtherClick
+2886	onOtherClick(Llin/xposed/hook/view/main/itemview/base/OtherViewItemInfo;Landroid/view/View;)V
+2887	onSearchDialogDismissed
+2888	onSearchDialogDismissed()V
+2889	onSearchKeywordChanged
+2890	onSearchKeywordChanged(Ljava/lang/String;)V
+2891	onSearchHistorySelected
+2892	onSearchHistorySelected(Ljava/lang/String;)V
+2893	onSearchHistoryCleared
+2894	onSearchHistoryCleared()V
+2895	onSearchResultSelected
+2896	onSearchResultSelected(Llin/xposed/hook/view/main/SearchHelper$SearchResult;)V
+2897	C(SettingRoute)N(activity,viewModel)113@4271L4204,113@4259L4216:SettingActivity.kt#itusog
+2898	112@4243L11
+2899	CC(viewModel)N(viewModelStoreOwner,key,factory,extras)56@2573L7,67@2981L63:ViewModel.kt#3tja67
+2900	No ViewModelStoreOwner was provided via LocalViewModelStoreOwner
+2901	top.suzhelan.qstory.ui.activity.SettingRoute (SettingActivity.kt:113)
+2902	$this$AnimatedContent
+2903	CN(directoryUiInfo)168@6721L170,171@6922L115,180@7323L30,181@7394L27,182@7462L27,183@7529L26,184@7592L23,175@7055L578:SettingActivity.kt#itusog
+2904	top.suzhelan.qstory.ui.activity.SettingRoute.<anonymous>.<anonymous>.<anonymous>.<anonymous> (SettingActivity.kt:167)
+2905	CC(remember):SettingActivity.kt#9igjgp
+2906	C114@4310L16,115@4349L56,117@4484L34,118@4544L45,120@4643L43,120@4595L91,124@4692L3781:SettingActivity.kt#itusog
+2907	top.suzhelan.qstory.ui.activity.SettingRoute.<anonymous> (SettingActivity.kt:114)
+2908	CC(Box)N(modifier,contentAlignment,propagateMinConstraints,content)71@3424L131:Box.kt#2w3rfo
+2909	CC(Layout)N(content,modifier,measurePolicy)81@3355L27,84@3521L415:Layout.kt#80mrfh
+2910	CC(ReusableComposeNode)N(factory,update,content)410@16187L9:Composables.kt#9igjgp
+2911	C72@3469L9:Box.kt#2w3rfo
+2912	C126@4770L43,125@4741L214,132@4965L2692:SettingActivity.kt#itusog
+2913	CC(Column)N(modifier,verticalArrangement,horizontalAlignment,content)87@4443L61,88@4509L134:Column.kt#2w3rfo
+2914	C89@4557L9:Column.kt#2w3rfo
+2915	C136@5156L139,141@5329L30,142@5393L25,133@5021L411,149@5643L985,166@6643L1004,145@5446L2201:SettingActivity.kt#itusog
+2916	setting_page_transition
+2917	194@7914L34,195@7984L33,196@8052L40,197@8130L34,198@8199L33,199@8269L33,190@7711L605
+2918	205@8417L26,204@8370L87
+2919	昵称: 
+2920	categoryMap
+2921	FriendItem(friend=
+2922	GroupHeader(categoryId=
+2923	, categoryName=
+2924	, totalCount=
+2925	, isExpanded=
+2926	已启用
+2927	已停用
+2928	https://p.qlogo.cn/gh/
+2929	群号: 
+2930	  [我创建的群]
+2931	  [管理员]
+2932	GroupName
+2933	GroupUin
+2934	我创建的群
+2935	我管理的群
+2936	我加入的群
+2937	TroopItem(troop=
+2938	, isOwner=
+2939	CN(it)61@2689L11:MainScreen.kt#ndgvs9
+2940	top.suzhelan.qstory.ui.components.ComposableSingletons$MainScreenKt.lambda$1147883162.<anonymous> (MainScreen.kt:61)
+2941	C60@2666L44:MainScreen.kt#ndgvs9
+2942	top.suzhelan.qstory.ui.components.ComposableSingletons$MainScreenKt.lambda$688412130.<anonymous> (MainScreen.kt:60)
+2943	$this$item
+2944	C89@3491L317:MainScreen.kt#ndgvs9
+2945	top.suzhelan.qstory.ui.components.ComposableSingletons$MainScreenKt.lambda$1378212513.<anonymous> (MainScreen.kt:89)
+2946	C94@3748L11,95@3780L10:MainScreen.kt#ndgvs9
+2947	$this$Card
+2948	C111@4136L1162:MainScreen.kt#ndgvs9
+2949	top.suzhelan.qstory.ui.components.ComposableSingletons$MainScreenKt.lambda$-1058018432.<anonymous> (MainScreen.kt:111)
+2950	CC(Row)N(modifier,horizontalArrangement,verticalAlignment,content)99@5125L58,100@5188L131:Row.kt#2w3rfo
+2951	C101@5233L9:Row.kt#2w3rfo
+2952	C118@4384L48,117@4352L228,123@4593L695:MainScreen.kt#ndgvs9
+2953	C127@4725L41,126@4692L184,131@4893L29,132@4939L107,136@5063L29,137@5109L165:MainScreen.kt#ndgvs9
+2954	QQ 功能性 Xposed 模块
+2955	C(MainScreen)57@2571L145:MainScreen.kt#ndgvs9
+2956	top.suzhelan.qstory.ui.components.MainScreen (MainScreen.kt:56)
+2957	C(HomePager)68@2775L21,70@2828L163,76@3036L10,77@3077L13,79@3146L692,69@2801L1037:MainScreen.kt#ndgvs9
+2958	top.suzhelan.qstory.ui.components.HomePager (MainScreen.kt:67)
+2959	C(AboutCard)104@3917L7,109@4080L39,105@3929L1375:MainScreen.kt#ndgvs9
+2960	top.suzhelan.qstory.ui.components.AboutCard (MainScreen.kt:103)
+2961	CC(<get-current>):CompositionLocal.kt#9igjgp
+2962	CC(remember):MainScreen.kt#9igjgp
+2963	C(LinkCard)148@5374L7,149@5386L873:MainScreen.kt#ndgvs9
+2964	top.suzhelan.qstory.ui.components.LinkCard (MainScreen.kt:147)
+2965	C152@5466L787,150@5403L850:MainScreen.kt#ndgvs9
+2966	$this$LazyColumn
+2967	C72@2877L41,71@2842L139:MainScreen.kt#ndgvs9
+2968	top.suzhelan.qstory.ui.components.HomePager.<anonymous> (MainScreen.kt:71)
+2969	innerPadding
+2970	CN(innerPadding)87@3454L378,80@3172L660:MainScreen.kt#ndgvs9
+2971	top.suzhelan.qstory.ui.components.HomePager.<anonymous> (MainScreen.kt:80)
+2972	https://github.com/Suzhelan
+2973	https://suzhelan.top
+2974	https://github.com/Xposed-Modules-Repo/lin.xposed
+2975	https://deeply-raptor-37d.notion.site/Root-2c0ef1ecbe4a80939e39c3e53cd20525
+2976	C155@5554L36,153@5480L124,159@5687L36,157@5617L120,163@5821L32,161@5750L117,167@5950L25,165@5880L109,171@6072L28,169@6002L112,175@6197L32,173@6127L116:MainScreen.kt#ndgvs9
+2977	top.suzhelan.qstory.ui.components.LinkCard.<anonymous>.<anonymous> (MainScreen.kt:153)
+2978	Telegram
+2979	LSP仓库
+2980	使用教程
+2981	CN(it)214@10668L26:LazyDsl.kt#428nma
+2982	androidx.compose.foundation.lazy.itemsIndexed.<anonymous> (LazyDsl.kt:214)
+2983	CN(index,entry):SettingListContent.kt#ndgvs9
+2984	122@5077L469
+2985	148@6084L32,136@5597L537
+2986	CC(remember):SettingListContent.kt#9igjgp
+2987	151@6184L568
+2988	167@6799L513
+2989	scrollStateMap
+2990	C(SettingListContent)N(listKey,scrollStateMap,entries,highlightIndex,onHighlightConsumed,onDirectoryClick,onFunctionToggle,onFunctionClick,onOtherClick)77@3695L74,78@3795L43,80@3898L632,80@3844L686,110@4729L2613,104@4536L2806:SettingListContent.kt#ndgvs9
+2991	top.suzhelan.qstory.ui.components.SettingListContent (SettingListContent.kt:76)
+2992	C(SettingGroupItem)N(entry,items,index,highlighted,modifier)200@7702L231,194@7542L391:SettingListContent.kt#ndgvs9
+2993	top.suzhelan.qstory.ui.components.SettingGroupItem (SettingListContent.kt:193)
+2994	C(SettingDirectoryItem)N(entry,items,index,highlighted,modifier,onClick)226@8353L613,219@8166L800:SettingListContent.kt#ndgvs9
+2995	top.suzhelan.qstory.ui.components.SettingDirectoryItem (SettingListContent.kt:218)
+2996	C(SettingFunctionItem)N(entry,items,index,highlighted,modifier,onToggle,onClick)258@9285L7,290@10354L2074,274@9871L2557:SettingListContent.kt#ndgvs9
+2997	top.suzhelan.qstory.ui.components.SettingFunctionItem (SettingListContent.kt:257)
+2998	269@9779L29
+2999	271@9830L29
+3000	281@10075L33
+3001	283@10138L30
+3002	286@10268L35
+3003	C(SettingOtherItem)N(entry,items,index,highlighted,modifier,onClick)358@12703L7,366@12889L35,367@12931L675,360@12716L890:SettingListContent.kt#ndgvs9
+3004	top.suzhelan.qstory.ui.components.SettingOtherItem (SettingListContent.kt:357)
+3005	C(SettingCardContainer)N(entry,items,index,highlighted,modifier,baseColor:c#ui.graphics.Color,onClick,content)414@14319L65,416@14390L663:SettingListContent.kt#ndgvs9
+3006	top.suzhelan.qstory.ui.components.SettingCardContainer (SettingListContent.kt:402)
+3007	404@13999L23
+3008	406@14044L30
+3009	410@14217L23
+3010	422@14584L23
+3011	$this$SettingCardContainer
+3012	C203@7779L29,201@7712L215:SettingListContent.kt#ndgvs9
+3013	top.suzhelan.qstory.ui.components.SettingGroupItem.<anonymous> (SettingListContent.kt:201)
+3014	C227@8363L597:SettingListContent.kt#ndgvs9
+3015	top.suzhelan.qstory.ui.components.SettingDirectoryItem.<anonymous> (SettingListContent.kt:227)
+3016	C235@8653L29,233@8579L199,241@8873L29,239@8791L159:SettingListContent.kt#ndgvs9
+3017	C291@10364L1704:SettingListContent.kt#ndgvs9
+3018	top.suzhelan.qstory.ui.components.SettingFunctionItem.<anonymous> (SettingListContent.kt:291)
+3019	C297@10580L685,327@11610L40,328@11694L42,329@11778L40,330@11862L42,326@11562L482,319@11279L779:SettingListContent.kt#ndgvs9
+3020	C302@10730L148:SettingListContent.kt#ndgvs9
+3021	312@11073L31,310@10994L239
+3022	324@11454L48
+3023	340@12201L35,338@12107L305
+3024	C368@12941L659:SettingListContent.kt#ndgvs9
+3025	top.suzhelan.qstory.ui.components.SettingOtherItem.<anonymous> (SettingListContent.kt:368)
+3026	C375@13174L29,373@13100L151:SettingListContent.kt#ndgvs9
+3027	getLeftText(...)
+3028	383@13428L31,381@13357L219
+3029	CN(it)178@8834L22:LazyDsl.kt#428nma
+3030	androidx.compose.foundation.lazy.items.<anonymous> (LazyDsl.kt:178)
+3031	CN(result)*201@8207L28,199@8106L155:SettingSearchDialog.kt#ndgvs9
+3032	CC(remember):SettingSearchDialog.kt#9igjgp
+3033	onDismissRequest
+3034	onKeywordChange
+3035	onClearKeyword
+3036	onHistorySelected
+3037	onClearHistory
+3038	onResultSelected
+3039	C(SettingSearchDialog)N(keyword,history,results,onDismissRequest,onKeywordChange,onClearKeyword,onHistorySelected,onClearHistory,onResultSelected)64@2862L29,65@2917L45,65@2896L66,72@3098L5687,69@2968L5817:SettingSearchDialog.kt#ndgvs9
+3040	top.suzhelan.qstory.ui.components.SettingSearchDialog (SettingSearchDialog.kt:62)
+3041	C(SearchResultItem)N(result,onClick)227@8902L1210:SettingSearchDialog.kt#ndgvs9
+3042	top.suzhelan.qstory.ui.components.SearchResultItem (SettingSearchDialog.kt:226)
+3043	C234@9136L597,256@9822L38,260@10001L33,254@9743L363:SettingSearchDialog.kt#ndgvs9
+3044	C239@9284L29,237@9211L196:SettingSearchDialog.kt#ndgvs9
+3045	247@9561L31,245@9480L229
+3046	C(resultTypeColor)N(matchType):SettingSearchDialog.kt#ndgvs9
+3047	top.suzhelan.qstory.ui.components.resultTypeColor (SettingSearchDialog.kt:275)
+3048	277@10605L29
+3049	278@10679L20
+3050	279@10740L26
+3051	$this$FlowRow
+3052	C*172@6977L38,176@7220L20,177@7285L37,170@6884L542:SettingSearchDialog.kt#ndgvs9
+3053	top.suzhelan.qstory.ui.components.SettingSearchDialog.<anonymous>.<anonymous>.<anonymous> (SettingSearchDialog.kt:169)
+3054	C77@3261L26,73@3108L5671:SettingSearchDialog.kt#ndgvs9
+3055	top.suzhelan.qstory.ui.components.SettingSearchDialog.<anonymous> (SettingSearchDialog.kt:73)
+3056	C82@3424L29,80@3345L202,92@3765L38,87@3561L2054:SettingSearchDialog.kt#ndgvs9
+3057	C99@4103L31,96@3967L185,102@4170L996:SettingSearchDialog.kt#ndgvs9
+3058	C123@5025L29,115@4636L512:SettingSearchDialog.kt#ndgvs9
+3059	110@4489L31,108@4387L205
+3060	133@5379L31,130@5232L351
+3061	142@5701L789,168@6802L664,162@6508L958
+3062	C150@6042L29,148@5940L251,156@6307L20,154@6212L260:SettingSearchDialog.kt#ndgvs9
+3063	187@7662L29,185@7569L240,197@8033L268,192@7827L474
+3064	210@8491L31,208@8401L354
+3065	versionText
+3066	onBackClick
+3067	onSearchClick
+3068	onAvatarClick
+3069	C(SettingTopBar)N(title,versionText,onBackClick,onSearchClick,onAvatarClick)43@1661L23,44@1710L23,37@1464L2370:SettingTopBar.kt#ndgvs9
+3070	top.suzhelan.qstory.ui.components.SettingTopBar (SettingTopBar.kt:36)
+3071	C50@1857L1971:SettingTopBar.kt#ndgvs9
+3072	C59@2160L29,56@2026L351,66@2391L563,83@2968L850:SettingTopBar.kt#ndgvs9
+3073	C72@2627L29,70@2559L205,78@2855L29,76@2781L159:SettingTopBar.kt#ndgvs9
+3074	C91@3337L29,88@3200L322,96@3539L265:SettingTopBar.kt#ndgvs9
+3075	C(UserDialog)N(onDismissRequest)57@2418L53,58@2496L34,63@2666L3415,60@2536L3545:UserDialog.kt#ndgvs9
+3076	top.suzhelan.qstory.ui.components.UserDialog (UserDialog.kt:56)
+3077	CC(remember):UserDialog.kt#9igjgp
+3078	C(UserHeader)N(user)157@6138L577:UserDialog.kt#ndgvs9
+3079	top.suzhelan.qstory.ui.components.UserHeader (UserDialog.kt:156)
+3080	C161@6275L26,163@6311L398:UserDialog.kt#ndgvs9
+3081	C166@6400L29,164@6332L145,172@6563L31,170@6491L208:UserDialog.kt#ndgvs9
+3082	C(UserAvatar)N(uin)182@6800L7,185@6844L119,193@7067L264,184@6813L524:UserDialog.kt#ndgvs9
+3083	top.suzhelan.qstory.ui.components.UserAvatar (UserDialog.kt:181)
+3084	C(DialogActionButton)N(text,modifier,enabled,onClick)210@7499L612:UserDialog.kt#ndgvs9
+3085	top.suzhelan.qstory.ui.components.DialogActionButton (UserDialog.kt:209)
+3086	216@7681L23
+3087	218@7750L35
+3088	C227@8030L35,225@7979L126:UserDialog.kt#ndgvs9
+3089	refreshedUser
+3090	C68@2827L26,69@2892L2,64@2676L3399:UserDialog.kt#ndgvs9
+3091	top.suzhelan.qstory.ui.components.UserDialog.<anonymous> (UserDialog.kt:64)
+3092	C83@3317L2748:UserDialog.kt#ndgvs9
+3093	78@3206L23,73@2988L301
+3094	C84@3342L23,86@3383L396,99@3924L418,114@4556L29,110@4360L342,122@4897L121,119@4720L316,132@5276L757,128@5054L997:UserDialog.kt#ndgvs9
+3095	89@3530L26
+3096	91@3610L29
+3097	102@4100L29
+3098	104@4183L20
+3099	imageView
+3100	正在加载好友列表...
+3101	categories
+3102	批量管理好友 (
+3103	勾选需要删除的好友
+3104	已选: 
+3105	删除选中 (
+3106	请先选择好友
+3107	确定要删除 
+3108	 位好友吗？\n此操作不可撤销！
+3109	正在删除好友 (0/
+3110	好友列表为空
+3111	加载失败: 
+3112	正在删除好友 (
+3113	)\nQQ号: 
+3114	删除完成！\n
+3115	 位好友\n
+3116	正在加载群列表...
+3117	群列表: 
+3118	批量管理群 (
+3119	勾选需要退出的群（我创建的群不可勾选）
+3120	退出选中群 (
+3121	请先选择群
+3122	确认退出
+3123	确定要退出 
+3124	 个群吗？\n此操作不可撤销！
+3125	正在退出群 (0/
+3126	群列表为空
+3127	正在退出群 (
+3128	)\n群号: 
+3129	退出完成！\n
+3130	 个群\n
+3131	历史公告日志
+3132	noticeList
+3133	创建订单选项失败,请重试
+3134	创建订单选项失败
+3135	getData(...)
+3136	getPayUrl(...)
+3137	查询支付结果失败,您可尝试再次查询
+3138	查询支付结果失败,请重试
+3139	查询支付结果失败
+3140	可以赞助一下吗,这会帮助模块开发更多功能走的更远,为你提供更多服务\n(不赞助也可以正常使用，你的支持是此模块维护的动力）\n赞助后此弹窗将不会出现
+3141	去赞助
+3142	创建订单选项中
+3143	请选择赞助项目
+3144	支付完成
+3145	查询结果
+3146	您在支付完成后，可以点击支付完成查询支付结果，感谢您的支持，这会让项目走的更远
+3147	更新用户信息中
+3148	setCancelable
+3149	查询中
+3150	更新用户信息成功
+3151	更新用户信息失败,请重新刷新
+3152	onPaySuccess
+3153	onSelectTroopDialogListener
+3154	选择开启的群
+3155	C(<get-QStoryBrandPrimaryColor>)130@3720L7:Color.kt#avp4iw
+3156	top.suzhelan.qstory.ui.theme.<get-QStoryBrandPrimaryColor> (Color.kt:130)
+3157	C(<get-QStorySettingTextPrimaryColor>)133@3836L7:Color.kt#avp4iw
+3158	top.suzhelan.qstory.ui.theme.<get-QStorySettingTextPrimaryColor> (Color.kt:133)
+3159	C(<get-QStorySettingTextSecondaryColor>)136@3953L7:Color.kt#avp4iw
+3160	top.suzhelan.qstory.ui.theme.<get-QStorySettingTextSecondaryColor> (Color.kt:136)
+3161	C(<get-QStorySettingStatusErrorColor>)139@4070L7:Color.kt#avp4iw
+3162	top.suzhelan.qstory.ui.theme.<get-QStorySettingStatusErrorColor> (Color.kt:139)
+3163	C(<get-QStorySettingStatusOverlayTextColor>)142@4191L7:Color.kt#avp4iw
+3164	top.suzhelan.qstory.ui.theme.<get-QStorySettingStatusOverlayTextColor> (Color.kt:142)
+3165	C(<get-QStorySettingListItemCardColor>)145@4313L7:Color.kt#avp4iw
+3166	top.suzhelan.qstory.ui.theme.<get-QStorySettingListItemCardColor> (Color.kt:145)
+3167	C(<get-QStorySettingListLimitedCardColor>)148@4433L7:Color.kt#avp4iw
+3168	top.suzhelan.qstory.ui.theme.<get-QStorySettingListLimitedCardColor> (Color.kt:148)
+3169	C(<get-QStorySettingListSwitchCheckedThumbColor>)151@4563L7:Color.kt#avp4iw
+3170	top.suzhelan.qstory.ui.theme.<get-QStorySettingListSwitchCheckedThumbColor> (Color.kt:151)
+3171	C(<get-QStorySettingListSwitchUncheckedThumbColor>)154@4698L7:Color.kt#avp4iw
+3172	top.suzhelan.qstory.ui.theme.<get-QStorySettingListSwitchUncheckedThumbColor> (Color.kt:154)
+3173	C(<get-QStorySettingListSwitchCheckedTrackColor>)157@4833L7:Color.kt#avp4iw
+3174	top.suzhelan.qstory.ui.theme.<get-QStorySettingListSwitchCheckedTrackColor> (Color.kt:157)
+3175	C(<get-QStorySettingListSwitchUncheckedTrackColor>)160@4968L7:Color.kt#avp4iw
+3176	top.suzhelan.qstory.ui.theme.<get-QStorySettingListSwitchUncheckedTrackColor> (Color.kt:160)
+3177	C(<get-QStoryDialogContainerColor>)163@5089L7:Color.kt#avp4iw
+3178	top.suzhelan.qstory.ui.theme.<get-QStoryDialogContainerColor> (Color.kt:163)
+3179	C(<get-QStorySettingSearchInputContainerColor>)166@5217L7:Color.kt#avp4iw
+3180	top.suzhelan.qstory.ui.theme.<get-QStorySettingSearchInputContainerColor> (Color.kt:166)
+3181	C(<get-QStorySettingSearchHistoryTagTextColor>)169@5350L7:Color.kt#avp4iw
+3182	top.suzhelan.qstory.ui.theme.<get-QStorySettingSearchHistoryTagTextColor> (Color.kt:169)
+3183	C(<get-QStorySettingTagFunctionColor>)172@5474L7:Color.kt#avp4iw
+3184	top.suzhelan.qstory.ui.theme.<get-QStorySettingTagFunctionColor> (Color.kt:172)
+3185	C(<get-QStoryAccentTagColor>)175@5580L7:Color.kt#avp4iw
+3186	top.suzhelan.qstory.ui.theme.<get-QStoryAccentTagColor> (Color.kt:175)
+3187	C(<get-QStorySettingTagGroupColor>)178@5690L7:Color.kt#avp4iw
+3188	top.suzhelan.qstory.ui.theme.<get-QStorySettingTagGroupColor> (Color.kt:178)
+3189	C(<get-QStoryUserVipIdentityColor>)181@5799L7:Color.kt#avp4iw
+3190	top.suzhelan.qstory.ui.theme.<get-QStoryUserVipIdentityColor> (Color.kt:181)
+3191	C(<get-QStoryUserActionButtonDisabledColor>)184@5924L7:Color.kt#avp4iw
+3192	top.suzhelan.qstory.ui.theme.<get-QStoryUserActionButtonDisabledColor> (Color.kt:184)
+3193	QStoryColorPalette(brandPrimaryColor=
+3194	, textPrimaryColor=
+3195	, textSecondaryColor=
+3196	, statusErrorColor=
+3197	, statusOverlayTextColor=
+3198	, listItemCardColor=
+3199	, listLimitedCardColor=
+3200	, switchCheckedThumbColor=
+3201	, switchUncheckedThumbColor=
+3202	, switchCheckedTrackColor=
+3203	, switchUncheckedTrackColor=
+3204	, dialogContainerColor=
+3205	, searchInputContainerColor=
+3206	, searchHistoryTagTextColor=
+3207	, tagFunctionColor=
+3208	, accentTagColor=
+3209	, tagGroupColor=
+3210	, userVipIdentityColor=
+3211	, userActionButtonDisabledColor=
+3212	C(QStoryTheme)N(darkTheme,dynamicColor,content)46@2032L7,61@2604L221,61@2531L294:QStoryTheme.kt#avp4iw
+3213	42@1903L21
+3214	top.suzhelan.qstory.ui.theme.QStoryTheme (QStoryTheme.kt:45)
+3215	C66@2738L11,65@2691L118:QStoryTheme.kt#avp4iw
+3216	top.suzhelan.qstory.ui.theme.QStoryTheme.<anonymous>.<anonymous> (QStoryTheme.kt:65)
+3217	C64@2677L142,62@2614L205:QStoryTheme.kt#avp4iw
+3218	top.suzhelan.qstory.ui.theme.QStoryTheme.<anonymous> (QStoryTheme.kt:62)
+3219	Directory(key=
+3220	Function(key=
+3221	Group(key=
+3222	Other(key=
+3223	root-group-
+3224	getDirectoryUIInfoList(...)
+3225	OTHER_VIEW_ITEM_INFO_LIST
+3226	root-other-
+3227	directoryUiInfo
+3228	groupWrapperList
+3229	directory-group-
+3230	directory-
+3231	uiInfoList
+3232	-directory-
+3233	-function-
+3234	Backward
+3235	transitionDirection
+3236	searchKeyword
+3237	searchHistory
+3238	searchResults
+3239	getQQVersionName(...)
+3240	SettingUiState(versionText=
+3241	, currentDirectory=
+3242	, pendingHighlightIndex=
+3243	, refreshVersion=
+3244	, showSearchDialog=
+3245	, transitionDirection=
+3246	, searchKeyword=
+3247	, searchHistory=
+3248	, searchResults=
+3249	targetDirectory
+3250	itemUiInfo
+3251	anchorView
+3252	otherViewItemInfo
+3253	null cannot be cast to non-null type kotlin.Float
+3254	onItemClickListener
+3255	null cannot be cast to non-null type android.widget.ListView
+3256	encrypt(...)
+3257	decrypt(...)
+3258	getArray(...)
+3259	provider
+3260	listener
+3261	null cannot be cast to non-null type android.location.LocationManager
+3262	android.permission.ACCESS_FINE_LOCATION
+3263	android.permission.ACCESS_COARSE_LOCATION
+3264	imagePath
+3265	OCR 跳过识别：图片路径为空
+3266	OCR 跳过识别：图片不存在，path=
+3267	OCR Bitmap 识别失败
+3268	PP_OCRv5_mobile_det.ncnn.param
+3269	PP_OCRv5_mobile_det.ncnn.bin
+3270	PP_OCRv5_mobile_rec.ncnn.param
+3271	PP_OCRv5_mobile_rec.ncnn.bin
+3272	OCR 模型初始化失败
+3273	paddleocr4/
+3274	addAssetPath
+3275	addAssetPath failed: 
+3276	释放 OCR 引擎时发生异常
+3277	喵喵呜呜呜呜喵喵~喵喵喵呜喵呜呜喵~喵喵喵喵呜喵喵喵~喵喵呜呜呜呜喵呜~喵喵喵呜喵喵喵呜~喵喵喵喵喵呜喵呜~喵喵喵喵呜呜喵呜
+3278	paddleocr4
+3279	openRawResource(...)
+3280	QQVersion
+3281	QStoryVersion
+3282	XPosedTag
+3283	DeviceBrand
+3284	RomVersion
+3285	AndroidVersion
+3286	AndroidSDK
+3287	SystemModel

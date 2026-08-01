@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_margin="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_cover_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/iv_cover_check" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@android:drawable/checkbox_on_background" />
+</FrameLayout>

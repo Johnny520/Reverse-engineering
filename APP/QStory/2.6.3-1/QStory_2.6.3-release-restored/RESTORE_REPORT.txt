@@ -1,0 +1,14 @@
+QStory_2.6.3-release.apk 恢复源报告
+输入: QStory_2.6.3-release-jadx
+输出: QStory_2.6.3-release-restored
+解码器: p303.AbstractC9234, 密钥=suzhelan
+编码表条目数: 3288
+已更改的 Java 文件: 596
+替换: {"nested": 0, "m14531": 5601, "m14532_literal": 0}
+备注: jadx 完成时有 153 个解码错误；大部分源代码仍可使用。对可静态解析的解密器调用已替换为明文字面量。
+额外的 m14532 字面量处理: changed_files=445, replacements=2238
+第二轮清理: changed_files=117, replacements={"m14531_const": 119, "m14532_literal": 382, "m14532_ternary": 8}
+第三轮清理: changed_files=8, removed_or_replaced_AbstractC9234_refs=36
+最终无解密处理: 生成 p303.RestoredStrings 明文字面量表条目数=3288，替换文件中剩余引用=650，删除 p303.AbstractC9234.java
+最终编码字面量清理: changed_files=13, decoded_meow_literals=56
+最终外观清理: 替换了 RestoredStrings 索引 1489 处一个不可打印的解码占位符。

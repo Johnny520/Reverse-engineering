@@ -1,0 +1,145 @@
+.class public final Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;
+.super Ljava/lang/Object;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+
+# instance fields
+.field public final 飘花落叶言子楪世哲兰苏:Landroidx/compose/ui/node/飘花落叶言子苏世楪哲兰;
+
+.field public final 飘花落叶言子楪世哲苏兰:L飘花落叶言子苏哲世楪兰/飘花落叶言子楪苏兰世哲;
+
+.field public final 飘花落叶言子楪世苏兰哲:I
+
+.field public final 飘花落叶言子楪世苏哲兰:Landroidx/compose/ui/semantics/飘花落叶言子楪哲苏兰世;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/compose/ui/semantics/飘花落叶言子楪哲苏兰世;IL飘花落叶言子苏哲世楪兰/飘花落叶言子楪苏兰世哲;Landroidx/compose/ui/node/飘花落叶言子苏世楪哲兰;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世苏哲兰:Landroidx/compose/ui/semantics/飘花落叶言子楪哲苏兰世;
+
+    .line 5
+    .line 6
+    iput p2, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世苏兰哲:I
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世哲苏兰:L飘花落叶言子苏哲世楪兰/飘花落叶言子楪苏兰世哲;
+
+    .line 9
+    .line 10
+    iput-object p4, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世哲兰苏:Landroidx/compose/ui/node/飘花落叶言子苏世楪哲兰;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    const-string v1, "ScrollCaptureCandidate(node="
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世苏哲兰:Landroidx/compose/ui/semantics/飘花落叶言子楪哲苏兰世;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 11
+    .line 12
+    .line 13
+    const-string v1, ", depth="
+
+    .line 14
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    iget v1, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世苏兰哲:I
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    const-string v1, ", viewportBoundsInWindow="
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    iget-object v1, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世哲苏兰:L飘花落叶言子苏哲世楪兰/飘花落叶言子楪苏兰世哲;
+
+    .line 29
+    .line 30
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    const-string v1, ", coordinates="
+
+    .line 34
+    .line 35
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    .line 38
+    iget-object p0, p0, Landroidx/compose/ui/scrollcapture/飘花落叶言子楪世兰哲苏;->飘花落叶言子楪世哲兰苏:Landroidx/compose/ui/node/飘花落叶言子苏世楪哲兰;
+
+    .line 39
+    .line 40
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    .line 43
+    const/16 p0, 0x29
+
+    .line 44
+    .line 45
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p0
+
+    .line 52
+    return-object p0
+.end method

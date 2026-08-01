@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/change_message_content" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="content" />
+    <Button android:id="@id/change_message_save" android:background="@drawable/blue_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="change" />
+</LinearLayout>

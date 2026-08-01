@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="设置消息前后缀" />
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/messageTextPrefix_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:hint="消息前缀" />
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/messageTextSuffix_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:hint="消息后缀" />
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/time_format" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:hint="时间格式 在前缀或后缀出现变量 {time} 会替换为此处时间格式" />
+    <TextView android:textSize="10.0sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/time_format" />
+    <Button android:textColor="@color/black" android:id="@id/save_send_text_btn" android:background="@drawable/blue_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="保存" />
+</LinearLayout>

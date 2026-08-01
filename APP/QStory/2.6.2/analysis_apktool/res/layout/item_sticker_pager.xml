@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:id="@id/tv_page_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部" />
+        <EditText android:id="@id/et_search" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="搜索表情包" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" style="@style/Widget.Material3.TextInputLayout.OutlinedBox" />
+        <TextView android:textSize="14.0sp" android:id="@id/tv_sort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最新发布" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/pb_loading" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <top.suzhelan.sticker.sdk.widget.CustomRecycleView android:id="@id/rv_sticker_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

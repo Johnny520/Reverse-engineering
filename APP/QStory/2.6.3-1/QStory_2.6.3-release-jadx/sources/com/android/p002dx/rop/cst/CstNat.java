@@ -1,0 +1,84 @@
+package com.android.p002dx.rop.cst;
+
+import bsh.C3466;
+import com.android.p002dx.rop.type.Type;
+import net.bytebuddy.description.method.MethodDescription;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class CstNat extends Constant {
+    public static final CstNat PRIMITIVE_TYPE_NAT = new CstNat(new CstString("TYPE"), new CstString("Ljava/lang/Class;"));
+    private final CstString descriptor;
+    private final CstString name;
+
+    public CstNat(CstString cstString, CstString cstString2) {
+        if (cstString == null) {
+            C3466.m5903("name == null");
+            throw null;
+        }
+        if (cstString2 == null) {
+            C3466.m5903("descriptor == null");
+            throw null;
+        }
+        this.name = cstString;
+        this.descriptor = cstString2;
+    }
+
+    @Override // com.android.p002dx.rop.cst.Constant
+    public int compareTo0(Constant constant) {
+        CstNat cstNat = (CstNat) constant;
+        int iCompareTo = this.name.compareTo((Constant) cstNat.name);
+        return iCompareTo != 0 ? iCompareTo : this.descriptor.compareTo((Constant) cstNat.descriptor);
+    }
+
+    public boolean equals(Object obj) {
+        if (!(obj instanceof CstNat)) {
+            return false;
+        }
+        CstNat cstNat = (CstNat) obj;
+        return this.name.equals(cstNat.name) && this.descriptor.equals(cstNat.descriptor);
+    }
+
+    public CstString getDescriptor() {
+        return this.descriptor;
+    }
+
+    public Type getFieldType() {
+        return Type.intern(this.descriptor.getString());
+    }
+
+    public CstString getName() {
+        return this.name;
+    }
+
+    public int hashCode() {
+        return this.descriptor.hashCode() ^ (this.name.hashCode() * 31);
+    }
+
+    @Override // com.android.p002dx.rop.cst.Constant
+    public boolean isCategory2() {
+        return false;
+    }
+
+    public final boolean isClassInit() {
+        return this.name.getString().equals(MethodDescription.TYPE_INITIALIZER_INTERNAL_NAME);
+    }
+
+    public final boolean isInstanceInit() {
+        return this.name.getString().equals(MethodDescription.CONSTRUCTOR_INTERNAL_NAME);
+    }
+
+    @Override // com.android.p002dx.util.ToHuman
+    public String toHuman() {
+        return this.name.toHuman() + ':' + this.descriptor.toHuman();
+    }
+
+    public String toString() {
+        return "nat{" + toHuman() + '}';
+    }
+
+    @Override // com.android.p002dx.rop.cst.Constant
+    public String typeName() {
+        return "nat";
+    }
+}

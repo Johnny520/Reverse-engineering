@@ -1,0 +1,61 @@
+package kotlin;
+
+import java.io.Serializable;
+import kotlin.jvm.internal.AbstractC4384;
+import net.bytebuddy.description.method.MethodDescription;
+import net.bytebuddy.implementation.auxiliary.TypeProxy;
+import p052.InterfaceC6542;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+@Metadata(d1 = {"\u00000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\b\b\u0002\u0018\u0000*\u0006\b\u0000\u0010\u0001 \u00012\b\u0012\u0004\u0012\u00028\u00000\u00022\u00060\u0003j\u0002`\u0004B!\u0012\f\u0010\u0006\u001a\b\u0012\u0004\u0012\u00028\u00000\u0005\u0012\n\b\u0002\u0010\b\u001a\u0004\u0018\u00010\u0007¢\u0006\u0004\b\t\u0010\nJ\u000f\u0010\u000b\u001a\u00020\u0007H\u0002¢\u0006\u0004\b\u000b\u0010\fJ\u000f\u0010\u000e\u001a\u00020\rH\u0016¢\u0006\u0004\b\u000e\u0010\u000fJ\u000f\u0010\u0011\u001a\u00020\u0010H\u0016¢\u0006\u0004\b\u0011\u0010\u0012R\u001e\u0010\u0006\u001a\n\u0012\u0004\u0012\u00028\u0000\u0018\u00010\u00058\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0006\u0010\u0013R\u0018\u0010\u0014\u001a\u0004\u0018\u00010\u00078\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0014\u0010\u0015R\u0014\u0010\b\u001a\u00020\u00078\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\b\u0010\u0015R\u0014\u0010\u0017\u001a\u00028\u00008VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\u0016\u0010\f¨\u0006\u0018"}, d2 = {"Lkotlin/SynchronizedLazyImpl;", "T", "Lkotlin/飘花落叶言子楪苏世哲兰;", "Ljava/io/Serializable;", "Lkotlin/io/Serializable;", "Lkotlin/Function0;", "initializer", "", "lock", MethodDescription.CONSTRUCTOR_INTERNAL_NAME, "(L飘花落叶言世子哲楪兰苏/飘花落叶言子楪世苏哲兰;Ljava/lang/Object;)V", "writeReplace", "()Ljava/lang/Object;", "", "isInitialized", "()Z", "", "toString", "()Ljava/lang/String;", "L飘花落叶言世子哲楪兰苏/飘花落叶言子楪世苏哲兰;", "_value", TypeProxy.SilentConstruction.Appender.JAVA_LANG_OBJECT_DESCRIPTOR, "getValue", "value", "kotlin-stdlib"}, k = 1, mv = {2, 3, 0}, xi = 48)
+final class SynchronizedLazyImpl<T> implements InterfaceC5183, Serializable {
+    private volatile Object _value;
+    private InterfaceC6542 initializer;
+    private final Object lock;
+
+    public SynchronizedLazyImpl(InterfaceC6542 interfaceC6542, Object obj) {
+        interfaceC6542.getClass();
+        this.initializer = interfaceC6542;
+        this._value = C5173.f14737;
+        this.lock = obj == null ? this : obj;
+    }
+
+    private final Object writeReplace() {
+        return new InitializedLazyImpl(getValue());
+    }
+
+    @Override // kotlin.InterfaceC5183
+    public T getValue() {
+        T t;
+        T t2 = (T) this._value;
+        C5173 c5173 = C5173.f14737;
+        if (t2 != c5173) {
+            return t2;
+        }
+        synchronized (this.lock) {
+            t = (T) this._value;
+            if (t == c5173) {
+                InterfaceC6542 interfaceC6542 = this.initializer;
+                interfaceC6542.getClass();
+                t = (T) interfaceC6542.invoke();
+                this._value = t;
+                this.initializer = null;
+            }
+        }
+        return t;
+    }
+
+    @Override // kotlin.InterfaceC5183
+    public boolean isInitialized() {
+        return this._value != C5173.f14737;
+    }
+
+    public String toString() {
+        return isInitialized() ? String.valueOf(getValue()) : "Lazy value not initialized yet.";
+    }
+
+    public /* synthetic */ SynchronizedLazyImpl(InterfaceC6542 interfaceC6542, Object obj, int i, AbstractC4384 abstractC4384) {
+        this(interfaceC6542, (i & 2) != 0 ? null : obj);
+    }
+}

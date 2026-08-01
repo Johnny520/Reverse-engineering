@@ -1,0 +1,220 @@
+package androidx.compose.material3.internal;
+
+import androidx.compose.foundation.MutatePriority;
+import androidx.compose.material3.InterfaceC1165;
+import androidx.compose.ui.input.pointer.C1627;
+import androidx.compose.ui.input.pointer.InterfaceC1633;
+import androidx.compose.ui.input.pointer.InterfaceC1635;
+import com.android.dx.io.Opcodes;
+import kotlin.AbstractC5184;
+import kotlin.C5175;
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC4356;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlinx.coroutines.InterfaceC5400;
+import p052.InterfaceC6553;
+import p063.InterfaceC6861;
+import top.suzhelan.qstory.hook.item.C5919;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+@InterfaceC6861(c = "androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1", f = "BasicTooltip.kt", l = {249}, m = "invokeSuspend")
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, d2 = {"Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;", "Lkotlin/飘花落叶言子楪兰苏哲世;", "<anonymous>", "(Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;)V"}, k = 3, mv = {2, 0, 0})
+final class BasicTooltipKt$handleGestures$2$1 extends SuspendLambda implements InterfaceC6553 {
+    final /* synthetic */ InterfaceC1165 $state;
+    final /* synthetic */ InterfaceC1635 $this_pointerInput;
+    private /* synthetic */ Object L$0;
+    int label;
+
+    /* JADX INFO: renamed from: androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1, reason: invalid class name */
+    /* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+    @Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, d2 = {"Landroidx/compose/ui/input/pointer/飘花落叶言子楪世苏兰哲;", "Lkotlin/飘花落叶言子楪兰苏哲世;", "<anonymous>", "(Landroidx/compose/ui/input/pointer/飘花落叶言子楪世苏兰哲;)V"}, k = 3, mv = {2, 0, 0})
+    @InterfaceC6861(c = "androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1", f = "BasicTooltip.kt", l = {Opcodes.INVOKE_CUSTOM_RANGE}, m = "invokeSuspend")
+    public static final class AnonymousClass1 extends RestrictedSuspendLambda implements InterfaceC6553 {
+        final /* synthetic */ InterfaceC5400 $$this$coroutineScope;
+        final /* synthetic */ InterfaceC1165 $state;
+        private /* synthetic */ Object L$0;
+        Object L$1;
+        int label;
+
+        /* JADX INFO: renamed from: androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1$1, reason: invalid class name and collision with other inner class name */
+        /* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+        @Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, d2 = {"Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;", "Lkotlin/飘花落叶言子楪兰苏哲世;", "<anonymous>", "(Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;)V"}, k = 3, mv = {2, 0, 0})
+        @InterfaceC6861(c = "androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1$1", f = "BasicTooltip.kt", l = {258}, m = "invokeSuspend")
+        public static final class C11161 extends SuspendLambda implements InterfaceC6553 {
+            final /* synthetic */ InterfaceC1165 $state;
+            int label;
+
+            public C11161(InterfaceC1165 interfaceC1165, InterfaceC4356<? super C11161> interfaceC4356) {
+                super(2, interfaceC4356);
+            }
+
+            @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+            public final InterfaceC4356<C5175> create(Object obj, InterfaceC4356<?> interfaceC4356) {
+                return new C11161(null, interfaceC4356);
+            }
+
+            @Override // p052.InterfaceC6553
+            public final Object invoke(InterfaceC5400 interfaceC5400, InterfaceC4356<? super C5175> interfaceC4356) {
+                return ((C11161) create(interfaceC5400, interfaceC4356)).invokeSuspend(C5175.f14739);
+            }
+
+            @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+            public final Object invokeSuspend(Object obj) {
+                CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+                int i = this.label;
+                if (i == 0) {
+                    AbstractC5184.m10206(obj);
+                    MutatePriority mutatePriority = MutatePriority.Default;
+                    this.label = 1;
+                    throw null;
+                }
+                if (i == 1) {
+                    AbstractC5184.m10206(obj);
+                    return C5175.f14739;
+                }
+                C5919.m11250("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+        }
+
+        /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+        public AnonymousClass1(InterfaceC5400 interfaceC5400, InterfaceC1165 interfaceC1165, InterfaceC4356<? super AnonymousClass1> interfaceC4356) {
+            super(2, interfaceC4356);
+            this.$$this$coroutineScope = interfaceC5400;
+        }
+
+        @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+        public final InterfaceC4356<C5175> create(Object obj, InterfaceC4356<?> interfaceC4356) {
+            AnonymousClass1 anonymousClass1 = new AnonymousClass1(this.$$this$coroutineScope, null, interfaceC4356);
+            anonymousClass1.L$0 = obj;
+            return anonymousClass1;
+        }
+
+        @Override // p052.InterfaceC6553
+        public final Object invoke(InterfaceC1633 interfaceC1633, InterfaceC4356<? super C5175> interfaceC4356) {
+            return ((AnonymousClass1) create(interfaceC1633, interfaceC4356)).invokeSuspend(C5175.f14739);
+        }
+
+        /* JADX WARN: Removed duplicated region for block: B:11:0x0034 A[RETURN] */
+        /* JADX WARN: Removed duplicated region for block: B:14:0x0045  */
+        /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:10:0x0032 -> B:12:0x0035). Please report as a decompilation issue!!! */
+        /*  JADX ERROR: JadxOverflowException in pass: RegionMakerVisitor
+            jadx.core.utils.exceptions.JadxOverflowException: Regions count limit reached
+            	at jadx.core.utils.ErrorsCounter.addError(ErrorsCounter.java:59)
+            	at jadx.core.utils.ErrorsCounter.error(ErrorsCounter.java:31)
+            	at jadx.core.dex.attributes.nodes.NotificationAttrNode.addError(NotificationAttrNode.java:19)
+            */
+        @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+        /*
+            Code decompiled incorrectly, please refer to instructions dump.
+            To view partially-correct add '--show-bad-code' argument
+        */
+        public final java.lang.Object invokeSuspend(java.lang.Object r8) {
+            /*
+                r7 = this;
+                kotlin.coroutines.intrinsics.CoroutineSingletons r0 = kotlin.coroutines.intrinsics.CoroutineSingletons.COROUTINE_SUSPENDED
+                int r1 = r7.label
+                r2 = 1
+                r3 = 0
+                if (r1 == 0) goto L1c
+                if (r1 != r2) goto L16
+                java.lang.Object r1 = r7.L$1
+                androidx.compose.ui.input.pointer.PointerEventPass r1 = (androidx.compose.ui.input.pointer.PointerEventPass) r1
+                java.lang.Object r4 = r7.L$0
+                androidx.compose.ui.input.pointer.飘花落叶言子楪世苏兰哲 r4 = (androidx.compose.ui.input.pointer.InterfaceC1633) r4
+                kotlin.AbstractC5184.m10206(r8)
+                goto L35
+            L16:
+                java.lang.String r7 = "call to 'resume' before 'invoke' with coroutine"
+                top.suzhelan.qstory.hook.item.C5919.m11250(r7)
+                return r3
+            L1c:
+                kotlin.AbstractC5184.m10206(r8)
+                java.lang.Object r8 = r7.L$0
+                androidx.compose.ui.input.pointer.飘花落叶言子楪世苏兰哲 r8 = (androidx.compose.ui.input.pointer.InterfaceC1633) r8
+                androidx.compose.ui.input.pointer.PointerEventPass r1 = androidx.compose.ui.input.pointer.PointerEventPass.Main
+            L25:
+                r7.L$0 = r8
+                r7.L$1 = r1
+                r7.label = r2
+                r4 = r8
+                androidx.compose.ui.input.pointer.飘花落叶言子世楪兰哲苏 r4 = (androidx.compose.ui.input.pointer.C1621) r4
+                java.lang.Object r8 = r4.m2989(r1, r7)
+                if (r8 != r0) goto L35
+                return r0
+            L35:
+                androidx.compose.ui.input.pointer.飘花落叶言子楪苏哲兰世 r8 = (androidx.compose.ui.input.pointer.C1652) r8
+                java.util.List r5 = r8.f4851
+                r6 = 0
+                java.lang.Object r5 = r5.get(r6)
+                androidx.compose.ui.input.pointer.飘花落叶言子楪哲兰世苏 r5 = (androidx.compose.ui.input.pointer.C1643) r5
+                int r5 = r5.f4818
+                r6 = 2
+                if (r5 != r6) goto L5b
+                int r8 = r8.f4846
+                r5 = 4
+                if (r8 != r5) goto L56
+                kotlinx.coroutines.飘花落叶言子世楪哲兰苏 r8 = r7.$$this$coroutineScope
+                androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1$1 r5 = new androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1$1$1
+                r5.<init>(r3, r3)
+                r6 = 3
+                kotlinx.coroutines.AbstractC5398.m10473(r8, r3, r3, r5, r6)
+                goto L5b
+            L56:
+                r5 = 5
+                if (r8 == r5) goto L5a
+                goto L5b
+            L5a:
+                throw r3
+            L5b:
+                r8 = r4
+                goto L25
+            */
+            throw new UnsupportedOperationException("Method not decompiled: androidx.compose.material3.internal.BasicTooltipKt$handleGestures$2$1.AnonymousClass1.invokeSuspend(java.lang.Object):java.lang.Object");
+        }
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public BasicTooltipKt$handleGestures$2$1(InterfaceC1635 interfaceC1635, InterfaceC1165 interfaceC1165, InterfaceC4356<? super BasicTooltipKt$handleGestures$2$1> interfaceC4356) {
+        super(2, interfaceC4356);
+        this.$this_pointerInput = interfaceC1635;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final InterfaceC4356<C5175> create(Object obj, InterfaceC4356<?> interfaceC4356) {
+        BasicTooltipKt$handleGestures$2$1 basicTooltipKt$handleGestures$2$1 = new BasicTooltipKt$handleGestures$2$1(this.$this_pointerInput, null, interfaceC4356);
+        basicTooltipKt$handleGestures$2$1.L$0 = obj;
+        return basicTooltipKt$handleGestures$2$1;
+    }
+
+    @Override // p052.InterfaceC6553
+    public final Object invoke(InterfaceC5400 interfaceC5400, InterfaceC4356<? super C5175> interfaceC4356) {
+        return ((BasicTooltipKt$handleGestures$2$1) create(interfaceC5400, interfaceC4356)).invokeSuspend(C5175.f14739);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        int i = this.label;
+        if (i == 0) {
+            AbstractC5184.m10206(obj);
+            InterfaceC5400 interfaceC5400 = (InterfaceC5400) this.L$0;
+            InterfaceC1635 interfaceC1635 = this.$this_pointerInput;
+            AnonymousClass1 anonymousClass1 = new AnonymousClass1(interfaceC5400, null, null);
+            this.label = 1;
+            if (((C1627) interfaceC1635).m2995(anonymousClass1, this) == coroutineSingletons) {
+                return coroutineSingletons;
+            }
+        } else {
+            if (i != 1) {
+                C5919.m11250("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+            AbstractC5184.m10206(obj);
+        }
+        return C5175.f14739;
+    }
+}

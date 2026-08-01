@@ -1,0 +1,153 @@
+package com.android.p002dx.dex.code;
+
+import bsh.C3466;
+import com.android.p002dx.rop.code.RegisterSpecList;
+import com.android.p002dx.rop.code.SourcePosition;
+import com.android.p002dx.util.AnnotatedOutput;
+import com.android.p002dx.util.Hex;
+import com.android.p002dx.util.IntList;
+import top.suzhelan.qstory.hook.item.C6755;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class SwitchData extends VariableSizeInsn {
+    private final IntList cases;
+    private final boolean packed;
+    private final CodeAddress[] targets;
+    private final CodeAddress user;
+
+    public SwitchData(SourcePosition sourcePosition, CodeAddress codeAddress, IntList intList, CodeAddress[] codeAddressArr) {
+        super(sourcePosition, RegisterSpecList.EMPTY);
+        if (codeAddress == null) {
+            C3466.m5903("user == null");
+            throw null;
+        }
+        if (intList == null) {
+            C3466.m5903("cases == null");
+            throw null;
+        }
+        if (codeAddressArr == null) {
+            C3466.m5903("targets == null");
+            throw null;
+        }
+        int size = intList.size();
+        if (size != codeAddressArr.length) {
+            C6755.m11869("cases / targets mismatch");
+            throw null;
+        }
+        if (size > 65535) {
+            C6755.m11869("too many cases");
+            throw null;
+        }
+        this.user = codeAddress;
+        this.cases = intList;
+        this.targets = codeAddressArr;
+        this.packed = shouldPack(intList);
+    }
+
+    private static long packedCodeSize(IntList intList) {
+        long j = (((((long) intList.get(intList.size() - 1)) - ((long) intList.get(0))) + 1) * 2) + 4;
+        if (j <= 2147483647L) {
+            return j;
+        }
+        return -1L;
+    }
+
+    private static boolean shouldPack(IntList intList) {
+        if (intList.size() < 2) {
+            return true;
+        }
+        long jPackedCodeSize = packedCodeSize(intList);
+        return jPackedCodeSize >= 0 && jPackedCodeSize <= (sparseCodeSize(intList) * 5) / 4;
+    }
+
+    private static long sparseCodeSize(IntList intList) {
+        return (((long) intList.size()) * 4) + 2;
+    }
+
+    @Override // com.android.p002dx.dex.code.DalvInsn
+    public String argString() {
+        StringBuilder sb = new StringBuilder(100);
+        int length = this.targets.length;
+        for (int i = 0; i < length; i++) {
+            sb.append("\n    ");
+            sb.append(this.cases.get(i));
+            sb.append(": ");
+            sb.append(this.targets[i]);
+        }
+        return sb.toString();
+    }
+
+    @Override // com.android.p002dx.dex.code.DalvInsn
+    public int codeSize() {
+        boolean z = this.packed;
+        IntList intList = this.cases;
+        return (int) (z ? packedCodeSize(intList) : sparseCodeSize(intList));
+    }
+
+    public boolean isPacked() {
+        return this.packed;
+    }
+
+    @Override // com.android.p002dx.dex.code.DalvInsn
+    public String listingString0(boolean z) {
+        int address = this.user.getAddress();
+        StringBuilder sb = new StringBuilder(100);
+        int length = this.targets.length;
+        sb.append(this.packed ? "packed" : "sparse");
+        sb.append("-switch-payload // for switch @ ");
+        sb.append(Hex.m28u2(address));
+        for (int i = 0; i < length; i++) {
+            int address2 = this.targets[i].getAddress();
+            sb.append("\n  ");
+            sb.append(this.cases.get(i));
+            sb.append(": ");
+            sb.append(Hex.m30u4(address2));
+            sb.append(" // ");
+            sb.append(Hex.m25s4(address2 - address));
+        }
+        return sb.toString();
+    }
+
+    @Override // com.android.p002dx.dex.code.DalvInsn
+    public DalvInsn withRegisters(RegisterSpecList registerSpecList) {
+        return new SwitchData(getPosition(), this.user, this.cases, this.targets);
+    }
+
+    @Override // com.android.p002dx.dex.code.DalvInsn
+    public void writeTo(AnnotatedOutput annotatedOutput) {
+        int address;
+        int address2 = this.user.getAddress();
+        int iCodeSize = Dops.PACKED_SWITCH.getFormat().codeSize();
+        int length = this.targets.length;
+        int i = 0;
+        if (!this.packed) {
+            annotatedOutput.writeShort(512);
+            annotatedOutput.writeShort(length);
+            for (int i2 = 0; i2 < length; i2++) {
+                annotatedOutput.writeInt(this.cases.get(i2));
+            }
+            while (i < length) {
+                annotatedOutput.writeInt(this.targets[i].getAddress() - address2);
+                i++;
+            }
+            return;
+        }
+        int i3 = length == 0 ? 0 : this.cases.get(0);
+        int i4 = ((length == 0 ? 0 : this.cases.get(length - 1)) - i3) + 1;
+        annotatedOutput.writeShort(256);
+        annotatedOutput.writeShort(i4);
+        annotatedOutput.writeInt(i3);
+        int i5 = 0;
+        while (i < i4) {
+            if (this.cases.get(i5) > i3 + i) {
+                address = iCodeSize;
+            } else {
+                address = this.targets[i5].getAddress() - address2;
+                i5++;
+            }
+            annotatedOutput.writeInt(address);
+            i++;
+        }
+    }
+}

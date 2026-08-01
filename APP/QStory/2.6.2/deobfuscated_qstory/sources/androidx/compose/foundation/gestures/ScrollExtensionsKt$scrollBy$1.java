@@ -1,0 +1,56 @@
+package androidx.compose.foundation.gestures;
+
+import androidx.compose.foundation.MutatePriority;
+import kotlin.AbstractC5184;
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC4356;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import kotlin.jvm.internal.Ref$FloatRef;
+import p063.InterfaceC6861;
+import top.suzhelan.qstory.hook.item.C5919;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+@InterfaceC6861(c = "androidx.compose.foundation.gestures.ScrollExtensionsKt", f = "ScrollExtensions.kt", l = {83}, m = "scrollBy", v = 1)
+@Metadata(k = 3, mv = {2, 1, 0}, xi = 48)
+final class ScrollExtensionsKt$scrollBy$1 extends ContinuationImpl {
+    Object L$0;
+    int label;
+    /* synthetic */ Object result;
+
+    public ScrollExtensionsKt$scrollBy$1(InterfaceC4356<? super ScrollExtensionsKt$scrollBy$1> interfaceC4356) {
+        super(interfaceC4356);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.result = obj;
+        int i = this.label | Integer.MIN_VALUE;
+        this.label = i;
+        if ((i & Integer.MIN_VALUE) != 0) {
+            this.label = i - Integer.MIN_VALUE;
+        } else {
+            this = new ScrollExtensionsKt$scrollBy$1(this);
+        }
+        Object obj2 = this.result;
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        int i2 = this.label;
+        if (i2 != 0) {
+            if (i2 != 1) {
+                C5919.m11250("call to 'resume' before 'invoke' with coroutine");
+                return null;
+            }
+            Ref$FloatRef ref$FloatRef = (Ref$FloatRef) this.L$0;
+            AbstractC5184.m10206(obj2);
+            return new Float(ref$FloatRef.element);
+        }
+        AbstractC5184.m10206(obj2);
+        Ref$FloatRef ref$FloatRef2 = new Ref$FloatRef();
+        new ScrollExtensionsKt$scrollBy$2(ref$FloatRef2, 0.0f, null);
+        this.L$0 = ref$FloatRef2;
+        this.label = 1;
+        MutatePriority mutatePriority = MutatePriority.Default;
+        throw null;
+    }
+}

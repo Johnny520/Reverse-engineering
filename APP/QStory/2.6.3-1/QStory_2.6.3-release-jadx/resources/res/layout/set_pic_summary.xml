@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/card_shape"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置图片外显文本"/>
+    <EditText
+        android:theme="@style/Theme.MyAppTheme"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:id="@+id/summary_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="留空则为默认显示"/>
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/save_summary_btn"
+        android:background="@drawable/blue_shape"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="保存"/>
+</LinearLayout>

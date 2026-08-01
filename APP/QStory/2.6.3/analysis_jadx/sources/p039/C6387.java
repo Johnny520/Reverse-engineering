@@ -1,0 +1,42 @@
+package p039;
+
+import android.os.Bundle;
+import android.view.View;
+import androidx.compose.runtime.internal.C1245;
+import p019.C6263;
+import p026.AbstractC6311;
+import p033.AbstractC6337;
+import p033.C6335;
+import p287.AbstractC8405;
+import p305.C8623;
+
+/* JADX INFO: renamed from: 飘花落叶言世哲楪苏子兰.飘花落叶言子世兰哲苏楪, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public class C6387 extends AbstractC6311 {
+    @Override // p026.AbstractC6314
+    public final void loadHook(ClassLoader classLoader) {
+        try {
+            C6335 c6335M11854 = C6335.m11854(AbstractC6337.m11866(AbstractC8405.m13972(300)));
+            String strM13972 = AbstractC8405.m13972(301);
+            C1245 c1245 = c6335M11854.f17458;
+            c1245.f3618 = strM13972;
+            c1245.f3619 = new Class[]{View.class, Bundle.class};
+            c1245.f3617 = Void.TYPE;
+            m11831(c6335M11854.m11855(), new C6263(21));
+        } catch (Exception unused) {
+            C6335 c6335M11853 = C6335.m11853(AbstractC8405.m13972(302));
+            C1245 c12452 = c6335M11853.f17458;
+            c12452.f3617 = Boolean.TYPE;
+            c12452.f3619 = new Class[]{Bundle.class};
+            c6335M11853.f17458.f3618 = AbstractC8405.m13972(93);
+            m11830(c6335M11853.m11855(), new C8623(28));
+        }
+    }
+
+    @Override // p026.AbstractC6311
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰哲苏 */
+    public final String mo11235() {
+        return AbstractC8405.m13972(299);
+    }
+}

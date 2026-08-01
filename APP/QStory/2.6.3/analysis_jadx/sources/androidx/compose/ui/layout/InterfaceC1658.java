@@ -1,0 +1,53 @@
+package androidx.compose.ui.layout;
+
+import java.util.ArrayList;
+import java.util.List;
+import p205.AbstractC7897;
+
+/* JADX INFO: renamed from: androidx.compose.ui.layout.飘花落叶言子世兰苏楪哲, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC1658 {
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰苏哲 */
+    default int mo1104(InterfaceC1699 interfaceC1699, List list, int i) {
+        ArrayList arrayList = new ArrayList(list.size());
+        int size = list.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            arrayList.add(new C1654((InterfaceC1698) list.get(i2), IntrinsicMinMax.Min, IntrinsicWidthHeight.Height, 1));
+        }
+        return mo1106(new C1690(interfaceC1699, interfaceC1699.getLayoutDirection()), arrayList, AbstractC7897.m13324(0, i, 0, 0, 13)).mo1474();
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲 */
+    default int mo1105(InterfaceC1699 interfaceC1699, List list, int i) {
+        ArrayList arrayList = new ArrayList(list.size());
+        int size = list.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            arrayList.add(new C1654((InterfaceC1698) list.get(i2), IntrinsicMinMax.Max, IntrinsicWidthHeight.Width, 1));
+        }
+        return mo1106(new C1690(interfaceC1699, interfaceC1699.getLayoutDirection()), arrayList, AbstractC7897.m13324(0, 0, 0, i, 7)).mo1473();
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    InterfaceC1657 mo1106(InterfaceC1653 interfaceC1653, List list, long j);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪苏世哲兰 */
+    default int mo1107(InterfaceC1699 interfaceC1699, List list, int i) {
+        ArrayList arrayList = new ArrayList(list.size());
+        int size = list.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            arrayList.add(new C1654((InterfaceC1698) list.get(i2), IntrinsicMinMax.Min, IntrinsicWidthHeight.Width, 1));
+        }
+        return mo1106(new C1690(interfaceC1699, interfaceC1699.getLayoutDirection()), arrayList, AbstractC7897.m13324(0, 0, 0, i, 7)).mo1473();
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪苏哲世兰 */
+    default int mo1108(InterfaceC1699 interfaceC1699, List list, int i) {
+        ArrayList arrayList = new ArrayList(list.size());
+        int size = list.size();
+        for (int i2 = 0; i2 < size; i2++) {
+            arrayList.add(new C1654((InterfaceC1698) list.get(i2), IntrinsicMinMax.Max, IntrinsicWidthHeight.Height, 1));
+        }
+        return mo1106(new C1690(interfaceC1699, interfaceC1699.getLayoutDirection()), arrayList, AbstractC7897.m13324(0, i, 0, 0, 13)).mo1474();
+    }
+}

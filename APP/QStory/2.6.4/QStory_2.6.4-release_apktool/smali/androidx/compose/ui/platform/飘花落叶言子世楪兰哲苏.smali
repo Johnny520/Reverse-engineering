@@ -1,0 +1,113 @@
+.class public final Landroidx/compose/ui/platform/飘花落叶言子世楪兰哲苏;
+.super Ljava/lang/Object;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+
+# static fields
+.field public static final 飘花落叶言子楪世苏哲兰:Landroidx/compose/ui/platform/飘花落叶言子世楪兰哲苏;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroidx/compose/ui/platform/飘花落叶言子世楪兰哲苏;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Landroidx/compose/ui/platform/飘花落叶言子世楪兰哲苏;->飘花落叶言子楪世苏哲兰:Landroidx/compose/ui/platform/飘花落叶言子世楪兰哲苏;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final 飘花落叶言子楪世苏哲兰(Landroid/view/View;Landroidx/compose/ui/input/pointer/飘花落叶言子楪哲世兰苏;)V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    instance-of v0, p2, Landroidx/compose/ui/input/pointer/飘花落叶言子楪世苏哲兰;
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    check-cast p2, Landroidx/compose/ui/input/pointer/飘花落叶言子楪世苏哲兰;
+
+    .line 10
+    .line 11
+    iget p2, p2, Landroidx/compose/ui/input/pointer/飘花落叶言子楪世苏哲兰;->飘花落叶言子楪世苏兰哲:I
+
+    .line 12
+    .line 13
+    invoke-static {p0, p2}, Landroid/view/PointerIcon;->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_0
+    const/16 p2, 0x3e8
+
+    .line 19
+    .line 20
+    invoke-static {p0, p2}, Landroid/view/PointerIcon;->getSystemIcon(Landroid/content/Context;I)Landroid/view/PointerIcon;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object p0
+
+    .line 24
+    :goto_0
+    invoke-virtual {p1}, Landroid/view/View;->getPointerIcon()Landroid/view/PointerIcon;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object p2
+
+    .line 28
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/飘花落叶言子楪苏世哲兰;->飘花落叶言子楪世苏哲兰(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p2
+
+    .line 32
+    if-nez p2, :cond_1
+
+    .line 33
+    .line 34
+    invoke-virtual {p1, p0}, Landroid/view/View;->setPointerIcon(Landroid/view/PointerIcon;)V
+
+    .line 35
+    .line 36
+    .line 37
+    :cond_1
+    return-void
+.end method

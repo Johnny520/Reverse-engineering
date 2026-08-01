@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<top.suzhelan.sticker.sdk.widget.CustomCard android:theme="@style/AppTheme" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dp" app:cardElevation="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_cover" android:layout_width="match_parent" android:layout_height="@dimen/sticker_cover_height" android:src="@drawable/ic_sticker_default" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?textAppearanceTitleSmall" android:textStyle="bold" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textAppearance="?textAppearanceBodySmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/tv_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <top.suzhelan.sticker.sdk.widget.CustomChipGroup android:id="@id/cg_tags" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" app:chipSpacingHorizontal="2.0dp" app:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+                <TextView android:textAppearance="?textAppearanceLabelSmall" android:textColor="?android:textColorSecondary" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <View android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+                <TextView android:textAppearance="?textAppearanceLabelSmall" android:textColor="?android:textColorSecondary" android:id="@id/tv_download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</top.suzhelan.sticker.sdk.widget.CustomCard>

@@ -1,0 +1,404 @@
+.class public Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;
+.super Ljava/lang/Object;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+# interfaces
+.implements Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Slicing"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing$SlicingIterable;
+    }
+.end annotation
+
+.annotation runtime Lnet/bytebuddy/build/HashCodeAndEqualsPlugin$Enhance;
+.end annotation
+
+
+# instance fields
+.field private final batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+.field private final maximum:I
+
+.field private final minimum:I
+
+
+# direct methods
+.method public constructor <init>(IILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p1, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->minimum:I
+
+    .line 5
+    .line 6
+    iput p2, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->maximum:I
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public static withMaximum(ILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    invoke-static {v0, p0, p1}, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->withinRange(IILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object p0
+
+    .line 6
+    return-object p0
+.end method
+
+.method public static withMinimum(ILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+    .locals 1
+
+    .line 1
+    const v0, 0x7fffffff
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p0, v0, p1}, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->withinRange(IILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p0
+
+    .line 8
+    return-object p0
+.end method
+
+.method public static withinRange(IILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+    .locals 1
+
+    .line 1
+    if-lez p0, :cond_1
+
+    .line 2
+    .line 3
+    if-gt p0, p1, :cond_0
+
+    .line 4
+    .line 5
+    new-instance v0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;
+
+    .line 6
+    .line 7
+    invoke-direct {v0, p0, p1, p2}, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;-><init>(IILnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object v0
+
+    .line 11
+    :cond_0
+    const-string p2, "Minimum must not be bigger than maximum: "
+
+    .line 12
+    .line 13
+    const-string v0, " >"
+
+    .line 14
+    .line 15
+    invoke-static {p0, p1, p2, v0}, Lnet/bytebuddy/matcher/飘花落叶言子楪世苏哲兰;->飘花落叶言子楪苏哲世兰(IILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p0
+
+    .line 19
+    invoke-static {p0}, L飘花落叶言苏哲子楪兰世/飘花落叶言子楪世哲兰苏;->飘花落叶言子楪世兰苏哲(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 23
+    return-object p0
+
+    .line 24
+    :cond_1
+    const-string p1, "Minimum must be a positive number: "
+
+    .line 25
+    .line 26
+    invoke-static {p0, p1}, Lnet/bytebuddy/matcher/飘花落叶言子楪世苏哲兰;->飘花落叶言子楪苏哲兰世(ILjava/lang/String;)Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    invoke-static {p0}, L飘花落叶言苏哲子楪兰世/飘花落叶言子楪世哲兰苏;->飘花落叶言子楪世兰苏哲(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public batch(Ljava/util/List;)Ljava/lang/Iterable;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/Class<",
+            "*>;>;)",
+            "Ljava/lang/Iterable<",
+            "+",
+            "Ljava/util/List<",
+            "Ljava/lang/Class<",
+            "*>;>;>;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing$SlicingIterable;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->minimum:I
+
+    .line 4
+    .line 5
+    iget v2, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->maximum:I
+
+    .line 6
+    .line 7
+    iget-object p0, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 8
+    .line 9
+    invoke-interface {p0, p1}, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;->batch(Ljava/util/List;)Ljava/lang/Iterable;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    invoke-direct {v0, v1, v2, p0}, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing$SlicingIterable;-><init>(IILjava/lang/Iterable;)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 4
+    .param p1    # Ljava/lang/Object;
+        .annotation runtime Lnet/bytebuddy/utility/nullability/MaybeNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    const/4 v1, 0x0
+
+    .line 6
+    if-nez p1, :cond_1
+
+    .line 7
+    .line 8
+    return v1
+
+    .line 9
+    :cond_1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v3
+
+    .line 17
+    if-eq v2, v3, :cond_2
+
+    .line 18
+    .line 19
+    return v1
+
+    .line 20
+    :cond_2
+    iget v2, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->minimum:I
+
+    .line 21
+    .line 22
+    check-cast p1, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;
+
+    .line 23
+    .line 24
+    iget v3, p1, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->minimum:I
+
+    .line 25
+    .line 26
+    if-eq v2, v3, :cond_3
+
+    .line 27
+    .line 28
+    return v1
+
+    .line 29
+    :cond_3
+    iget v2, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->maximum:I
+
+    .line 30
+    .line 31
+    iget v3, p1, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->maximum:I
+
+    .line 32
+    .line 33
+    if-eq v2, v3, :cond_4
+
+    .line 34
+    .line 35
+    return v1
+
+    .line 36
+    :cond_4
+    iget-object p0, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 37
+    .line 38
+    iget-object p1, p1, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 39
+    .line 40
+    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 41
+    .line 42
+    .line 43
+    move-result p0
+
+    .line 44
+    if-nez p0, :cond_5
+
+    .line 45
+    .line 46
+    return v1
+
+    .line 47
+    :cond_5
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 10
+    .line 11
+    iget v1, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->minimum:I
+
+    .line 12
+    .line 13
+    add-int/2addr v0, v1
+
+    .line 14
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 15
+    .line 16
+    iget v1, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->maximum:I
+
+    .line 17
+    .line 18
+    add-int/2addr v0, v1
+
+    .line 19
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 20
+    .line 21
+    iget-object p0, p0, Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator$Slicing;->batchAllocator:Lnet/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator;
+
+    .line 22
+    .line 23
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p0
+
+    .line 27
+    add-int/2addr p0, v0
+
+    .line 28
+    return p0
+.end method

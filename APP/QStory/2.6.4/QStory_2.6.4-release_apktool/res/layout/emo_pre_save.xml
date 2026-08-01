@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/bg_plugin" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/font_plugin" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="是否保存如下图片" />
+    <ImageView android:id="@id/emo_pre_container" android:layout_width="160.0dp" android:layout_height="160.0dp" />
+    <ScrollView android:layout_width="160.0dp" android:layout_height="200.0dp">
+        <RadioGroup android:orientation="vertical" android:id="@id/emo_pre_list_choser" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <Button android:id="@id/createNew" android:layout_width="160.0dp" android:layout_height="40.0dp" android:text="新建项目" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+package p225;
+
+import android.content.Context;
+import android.graphics.Point;
+import android.util.Log;
+import android.view.Display;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import java.util.ArrayList;
+import p222.AbstractC7988;
+
+/* JADX INFO: renamed from: 飘花落叶言楪世哲苏子兰.飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C7997 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    public static Integer f22091;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    public ViewTreeObserverOnPreDrawListenerC8000 f22092;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public final ArrayList f22093 = new ArrayList();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final View f22094;
+
+    public C7997(ImageView imageView) {
+        this.f22094 = imageView;
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final int m13452(int i, int i2, int i3) {
+        int i4 = i2 - i3;
+        if (i4 > 0) {
+            return i4;
+        }
+        int i5 = i - i3;
+        if (i5 > 0) {
+            return i5;
+        }
+        View view = this.f22094;
+        if (view.isLayoutRequested() || i2 != -2) {
+            return 0;
+        }
+        if (Log.isLoggable("ViewTarget", 4)) {
+            Log.i("ViewTarget", "Glide treats LayoutParams.WRAP_CONTENT as a request for an image the size of this device's screen dimensions. If you want to load the original image and are ok with the corresponding memory cost and OOMs (depending on the input size), use override(Target.SIZE_ORIGINAL). Otherwise, use LayoutParams.MATCH_PARENT, set layout_width and layout_height to fixed dimension, or use .override() with fixed dimensions.");
+        }
+        Context context = view.getContext();
+        if (f22091 == null) {
+            WindowManager windowManager = (WindowManager) context.getSystemService("window");
+            AbstractC7988.m13441(windowManager, "Argument must not be null");
+            Display defaultDisplay = windowManager.getDefaultDisplay();
+            Point point = new Point();
+            defaultDisplay.getSize(point);
+            f22091 = Integer.valueOf(Math.max(point.x, point.y));
+        }
+        return f22091.intValue();
+    }
+}

@@ -1,0 +1,51 @@
+package top.suzhelan.qstory.ui.components;
+
+import androidx.compose.ui.focus.C1468;
+import com.bumptech.glide.AbstractC3056;
+import kotlin.AbstractC5184;
+import kotlin.C5175;
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC4356;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlinx.coroutines.InterfaceC5400;
+import p052.InterfaceC6553;
+import p063.InterfaceC6861;
+import top.suzhelan.qstory.hook.item.C5919;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+@InterfaceC6861(c = "top.suzhelan.qstory.ui.components.SettingSearchDialogKt$SettingSearchDialog$1$1", f = "SettingSearchDialog.kt", l = {}, m = "invokeSuspend", v = 2)
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, d2 = {"Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;", "Lkotlin/飘花落叶言子楪兰苏哲世;", "<anonymous>", "(Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;)V"}, k = 3, mv = {2, 3, 0})
+final class SettingSearchDialogKt$SettingSearchDialog$1$1 extends SuspendLambda implements InterfaceC6553 {
+    final /* synthetic */ C1468 $focusRequester;
+    int label;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public SettingSearchDialogKt$SettingSearchDialog$1$1(C1468 c1468, InterfaceC4356<? super SettingSearchDialogKt$SettingSearchDialog$1$1> interfaceC4356) {
+        super(2, interfaceC4356);
+        this.$focusRequester = c1468;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final InterfaceC4356<C5175> create(Object obj, InterfaceC4356<?> interfaceC4356) {
+        return new SettingSearchDialogKt$SettingSearchDialog$1$1(this.$focusRequester, interfaceC4356);
+    }
+
+    @Override // p052.InterfaceC6553
+    public final Object invoke(InterfaceC5400 interfaceC5400, InterfaceC4356<? super C5175> interfaceC4356) {
+        return ((SettingSearchDialogKt$SettingSearchDialog$1$1) create(interfaceC5400, interfaceC4356)).invokeSuspend(C5175.f14739);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        if (this.label != 0) {
+            C5919.m11250(AbstractC3056.m6668(-3937693499584152999L));
+            return null;
+        }
+        AbstractC5184.m10206(obj);
+        C1468.m2622(this.$focusRequester);
+        return C5175.f14739;
+    }
+}

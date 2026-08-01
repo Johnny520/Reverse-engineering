@@ -1,0 +1,125 @@
+package top.yukonga.miuix.kmp.utils;
+
+import androidx.compose.runtime.AbstractC2202;
+import kotlin.AbstractC6017;
+import kotlin.C6008;
+import kotlin.Metadata;
+import kotlin.coroutines.InterfaceC5189;
+import kotlin.coroutines.intrinsics.CoroutineSingletons;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.internal.Ref$LongRef;
+import kotlinx.coroutines.AbstractC6231;
+import kotlinx.coroutines.InterfaceC6233;
+import p068.InterfaceC7383;
+import p079.InterfaceC7691;
+import top.suzhelan.qstory.hook.item.C6755;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@InterfaceC7691(m555c = "top.yukonga.miuix.kmp.utils.MiuixOverscrollEffect$startSpringAnimationX$1", m556f = "OverscrollFactory.kt", m557l = {154}, m558m = "invokeSuspend", m559v = 2)
+@Metadata(m150d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n¢\u0006\u0004\b\u0002\u0010\u0003"}, m151d2 = {"Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;", "Lkotlin/飘花落叶言子楪兰苏哲世;", "<anonymous>", "(Lkotlinx/coroutines/飘花落叶言子世楪哲兰苏;)V"}, m152k = 3, m153mv = {2, 3, 0})
+final class MiuixOverscrollEffect$startSpringAnimationX$1 extends SuspendLambda implements InterfaceC7383 {
+    final /* synthetic */ float $initialVelocity;
+    int I$0;
+    private /* synthetic */ Object L$0;
+    Object L$1;
+    int label;
+    final /* synthetic */ C6907 this$0;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public MiuixOverscrollEffect$startSpringAnimationX$1(C6907 c6907, float f, InterfaceC5189<? super MiuixOverscrollEffect$startSpringAnimationX$1> interfaceC5189) {
+        super(2, interfaceC5189);
+        this.this$0 = c6907;
+        this.$initialVelocity = f;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static final boolean invokeSuspend$lambda$0(Ref$LongRef ref$LongRef, C6907 c6907, long j) {
+        if (ref$LongRef.element == -1) {
+            ref$LongRef.element = j;
+            return false;
+        }
+        ref$LongRef.element = j;
+        boolean zM11969 = c6907.f16966.m11969((j - r0) / 1.0E9f);
+        c6907.m11992((float) c6907.f16966.f16878);
+        c6907.f16959 = AbstractC6882.m11973(c6907.f16962, c6907.f16967) * Math.signum(c6907.f16962);
+        return zM11969;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final InterfaceC5189<C6008> create(Object obj, InterfaceC5189<?> interfaceC5189) {
+        MiuixOverscrollEffect$startSpringAnimationX$1 miuixOverscrollEffect$startSpringAnimationX$1 = new MiuixOverscrollEffect$startSpringAnimationX$1(this.this$0, this.$initialVelocity, interfaceC5189);
+        miuixOverscrollEffect$startSpringAnimationX$1.L$0 = obj;
+        return miuixOverscrollEffect$startSpringAnimationX$1;
+    }
+
+    @Override // p068.InterfaceC7383
+    public final Object invoke(InterfaceC6233 interfaceC6233, InterfaceC5189<? super C6008> interfaceC5189) {
+        return ((MiuixOverscrollEffect$startSpringAnimationX$1) create(interfaceC6233, interfaceC5189)).invokeSuspend(C6008.f15084);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Removed duplicated region for block: B:14:0x003d A[Catch: all -> 0x0019, TRY_ENTER, TryCatch #0 {all -> 0x0019, blocks: (B:6:0x0015, B:19:0x0061, B:14:0x003d, B:16:0x0043), top: B:30:0x0015 }] */
+    /* JADX WARN: Removed duplicated region for block: B:27:0x0092 A[DONT_GENERATE] */
+    /* JADX WARN: Type inference failed for: r10v17 */
+    /* JADX WARN: Type inference failed for: r10v4 */
+    /* JADX WARN: Type inference failed for: r10v6, types: [int] */
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:17:0x005e -> B:19:0x0061). Please report as a decompilation issue!!! */
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    public final Object invokeSuspend(Object obj) {
+        Ref$LongRef ref$LongRef;
+        ?? BooleanValue;
+        InterfaceC6233 interfaceC6233 = (InterfaceC6233) this.L$0;
+        CoroutineSingletons coroutineSingletons = CoroutineSingletons.COROUTINE_SUSPENDED;
+        int i = this.label;
+        int i2 = 0;
+        if (i == 0) {
+            AbstractC6017.m10769(obj);
+            C6907 c6907 = this.this$0;
+            c6907.f16966.m11970(c6907.f16962, this.$initialVelocity);
+            Ref$LongRef ref$LongRef2 = new Ref$LongRef();
+            ref$LongRef2.element = -1L;
+            ref$LongRef = ref$LongRef2;
+            BooleanValue = 0;
+            if (BooleanValue == 0) {
+            }
+            return C6008.f15084;
+        }
+        if (i != 1) {
+            C6755.m11870("call to 'resume' before 'invoke' with coroutine");
+            return null;
+        }
+        ref$LongRef = (Ref$LongRef) this.L$1;
+        try {
+            AbstractC6017.m10769(obj);
+            BooleanValue = ((Boolean) obj).booleanValue();
+            if (BooleanValue == 0 || !AbstractC6231.m11054(interfaceC6233)) {
+                return C6008.f15084;
+            }
+            C6888 c6888 = new C6888(ref$LongRef, this.this$0, i2);
+            this.L$0 = interfaceC6233;
+            this.L$1 = ref$LongRef;
+            this.I$0 = BooleanValue;
+            this.label = 1;
+            obj = AbstractC2202.m3052(getContext()).mo2865(c6888, this);
+            if (obj == coroutineSingletons) {
+                return coroutineSingletons;
+            }
+            BooleanValue = ((Boolean) obj).booleanValue();
+            if (BooleanValue == 0) {
+            }
+            return C6008.f15084;
+        } finally {
+            float fAbs = Math.abs(this.this$0.f16962);
+            this.this$0.getClass();
+            if (fAbs <= 1.0f) {
+                C6907 c69072 = this.this$0;
+                c69072.m11992(0.0f);
+                c69072.f16959 = 0.0f;
+            }
+        }
+    }
+}

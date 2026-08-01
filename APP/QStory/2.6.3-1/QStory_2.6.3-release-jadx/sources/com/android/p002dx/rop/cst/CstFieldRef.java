@@ -1,0 +1,31 @@
+package com.android.p002dx.rop.cst;
+
+import com.android.p002dx.rop.type.Type;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class CstFieldRef extends CstMemberRef {
+    public CstFieldRef(CstType cstType, CstNat cstNat) {
+        super(cstType, cstNat);
+    }
+
+    public static CstFieldRef forPrimitiveType(Type type) {
+        return new CstFieldRef(CstType.forBoxedPrimitiveType(type), CstNat.PRIMITIVE_TYPE_NAT);
+    }
+
+    @Override // com.android.p002dx.rop.cst.CstMemberRef, com.android.p002dx.rop.cst.Constant
+    public int compareTo0(Constant constant) {
+        int iCompareTo0 = super.compareTo0(constant);
+        return iCompareTo0 != 0 ? iCompareTo0 : getNat().getDescriptor().compareTo((Constant) ((CstFieldRef) constant).getNat().getDescriptor());
+    }
+
+    @Override // com.android.p002dx.rop.type.TypeBearer
+    public Type getType() {
+        return getNat().getFieldType();
+    }
+
+    @Override // com.android.p002dx.rop.cst.Constant
+    public String typeName() {
+        return "field";
+    }
+}

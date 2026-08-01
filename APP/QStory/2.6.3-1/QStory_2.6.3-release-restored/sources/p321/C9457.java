@@ -1,0 +1,38 @@
+package p321;
+
+import android.graphics.RectF;
+import java.util.Arrays;
+
+/* JADX INFO: renamed from: 飘花落叶言楪苏兰世子哲.飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C9457 implements InterfaceC9454 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final float f24569;
+
+    public C9457(float f) {
+        this.f24569 = f;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C9457) && this.f24569 == ((C9457) obj).f24569;
+    }
+
+    public final int hashCode() {
+        return Arrays.hashCode(new Object[]{Float.valueOf(this.f24569)});
+    }
+
+    public final String toString() {
+        return this.f24569 + "px";
+    }
+
+    @Override // p321.InterfaceC9454
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    public final float mo14871(RectF rectF) {
+        return this.f24569;
+    }
+}

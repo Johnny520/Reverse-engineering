@@ -1,0 +1,11 @@
+﻿package com.google.protobuf;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class RpcUtil$AlreadyCalledException extends RuntimeException {
+    private static final long serialVersionUID = 5469741279507848266L;
+
+    public RpcUtil$AlreadyCalledException() {
+        super("This RpcCallback was already called and cannot be called multiple times.");
+    }
+}

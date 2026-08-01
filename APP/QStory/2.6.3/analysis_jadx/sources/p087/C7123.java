@@ -1,0 +1,16 @@
+package p087;
+
+import p089.InterfaceC7184;
+
+/* JADX INFO: renamed from: 飘花落叶言世苏兰哲子楪.飘花落叶言子楪苏哲兰世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C7123 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final InterfaceC7184 f19060;
+
+    public C7123(InterfaceC7184 interfaceC7184) {
+        this.f19060 = interfaceC7184;
+    }
+}

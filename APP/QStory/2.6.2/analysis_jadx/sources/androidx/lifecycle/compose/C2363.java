@@ -1,0 +1,22 @@
+package androidx.lifecycle.compose;
+
+import androidx.lifecycle.AbstractC2402;
+import androidx.lifecycle.InterfaceC2388;
+
+/* JADX INFO: renamed from: androidx.lifecycle.compose.飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C2363 implements InterfaceC2388 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲苏兰世, reason: contains not printable characters */
+    public final AbstractC2402 f6993;
+
+    public C2363(AbstractC2402 abstractC2402) {
+        this.f6993 = abstractC2402;
+    }
+
+    @Override // androidx.lifecycle.InterfaceC2388
+    public final AbstractC2402 getLifecycle() {
+        return this.f6993;
+    }
+}

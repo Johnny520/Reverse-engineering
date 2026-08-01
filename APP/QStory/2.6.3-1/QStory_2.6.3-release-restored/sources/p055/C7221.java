@@ -1,0 +1,46 @@
+package p055;
+
+import de.robv.android.xposed.XposedBridge;
+import java.lang.reflect.Method;
+import p042.AbstractC7140;
+import p052.AbstractC7187;
+import p054.C7202;
+
+/* JADX INFO: renamed from: 飘花落叶言世哲楪苏子兰.飘花落叶言子世哲兰楪苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@Deprecated
+public class C7221 extends AbstractC7140 {
+    @Override // p042.AbstractC7143
+    public final void loadHook(ClassLoader classLoader) throws ClassNotFoundException {
+        Class<?> clsLoadClass;
+        Class<?> clsLoadClass2;
+        int i = AbstractC7187.f17853;
+        if (i >= 5282) {
+            clsLoadClass = classLoader.loadClass("com.tencent.mobileqq.QQSettingMe");
+            clsLoadClass2 = classLoader.loadClass("com.tencent.mobileqq.QQSettingMeView").getSuperclass();
+        } else if (i >= 4938) {
+            clsLoadClass = classLoader.loadClass("com.tencent.mobileqq.QQSettingMe");
+            clsLoadClass2 = classLoader.loadClass("com.tencent.mobileqq.BaseQQSettingMeView");
+        } else {
+            clsLoadClass = classLoader.loadClass("com.tencent.mobileqq.activity.QQSettingMe");
+            clsLoadClass2 = classLoader.loadClass("com.tencent.mobileqq.activity.BaseQQSettingMeView");
+        }
+        while (clsLoadClass != null) {
+            for (Method method : clsLoadClass.getDeclaredMethods()) {
+                method.setAccessible(true);
+                if (method.getReturnType() == clsLoadClass2) {
+                    XposedBridge.hookMethod(method, new C7202(9));
+                    return;
+                }
+            }
+            clsLoadClass = clsLoadClass.getSuperclass();
+        }
+    }
+
+    @Override // p042.AbstractC7140
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰哲苏 */
+    public final String mo11794() {
+        return "重启生效,该项仅在旧版侧滑栏生效";
+    }
+}

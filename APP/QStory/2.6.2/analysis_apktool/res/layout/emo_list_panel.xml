@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_round" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="500.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/emo_title" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/PathBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/textlines" android:showDividers="middle" />
+    </HorizontalScrollView>
+    <Button android:id="@id/SaveToLocal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="保存到本地" />
+    <com.lxj.xpopup.widget.VerticalRecyclerView android:id="@id/recyclerView" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

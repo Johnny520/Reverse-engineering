@@ -1,0 +1,29 @@
+package p070;
+
+import kotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$VersionRequirement;
+
+/* JADX INFO: renamed from: 飘花落叶言世楪哲兰子苏.飘花落叶言子楪苏兰哲世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract /* synthetic */ class AbstractC6910 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final /* synthetic */ int[] f18424;
+
+    static {
+        int[] iArr = new int[ProtoBuf$VersionRequirement.Level.values().length];
+        try {
+            iArr[ProtoBuf$VersionRequirement.Level.WARNING.ordinal()] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            iArr[ProtoBuf$VersionRequirement.Level.ERROR.ordinal()] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            iArr[ProtoBuf$VersionRequirement.Level.HIDDEN.ordinal()] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        f18424 = iArr;
+    }
+}

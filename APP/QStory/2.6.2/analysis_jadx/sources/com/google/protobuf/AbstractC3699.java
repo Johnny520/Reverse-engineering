@@ -1,0 +1,18 @@
+package com.google.protobuf;
+
+import java.util.Collections;
+import java.util.Map;
+
+/* JADX INFO: renamed from: com.google.protobuf.飘花落叶言苏子世哲兰楪, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC3699 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C3698 f11499;
+
+    static {
+        Map map = Collections.EMPTY_MAP;
+        f11499 = new C3698();
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:id="@id/tv_result_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="功能名称" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tv_result_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="功能描述" />
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:id="@id/tv_result_type" android:background="@drawable/bg_tag_function" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="功能" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+</LinearLayout>

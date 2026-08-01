@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/pay_tips" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/orderIsBeingGenerated" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="30.0sp" android:gravity="center" android:id="@id/processText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="订单生成中" />
+        <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <WebView android:id="@id/pay_webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="500.0dp" />
+    <Button android:textSize="15.0sp" android:id="@id/btn_createOrder" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="赞助20" />
+    <Button android:textSize="15.0sp" android:id="@id/btn_confirm_payment" android:padding="15.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="查询支付结果" />
+</LinearLayout>

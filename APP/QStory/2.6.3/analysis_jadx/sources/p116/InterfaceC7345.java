@@ -1,0 +1,21 @@
+package p116;
+
+import java.util.Map;
+import p052.InterfaceC6543;
+
+/* JADX INFO: renamed from: 飘花落叶言子世哲苏兰楪.飘花落叶言子楪苏世哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC7345 {
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰苏哲 */
+    InterfaceC7338 mo1481(String str, InterfaceC6543 interfaceC6543);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰 */
+    Object mo1483(String str);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲 */
+    Map mo1484();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    boolean mo1485(Object obj);
+}

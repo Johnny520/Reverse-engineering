@@ -1,0 +1,47 @@
+package net.bytebuddy.matcher;
+
+import androidx.profileinstaller.AbstractC3275;
+import net.bytebuddy.build.HashCodeAndEqualsPlugin;
+import net.bytebuddy.matcher.ElementMatcher;
+import net.bytebuddy.utility.nullability.MaybeNull;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@HashCodeAndEqualsPlugin.Enhance
+public class FailSafeMatcher<T> extends ElementMatcher.Junction.AbstractBase<T> {
+    private final boolean fallback;
+    private final ElementMatcher<? super T> matcher;
+
+    public FailSafeMatcher(ElementMatcher<? super T> elementMatcher, boolean z) {
+        this.matcher = elementMatcher;
+        this.fallback = z;
+    }
+
+    public boolean equals(@MaybeNull Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        FailSafeMatcher failSafeMatcher = (FailSafeMatcher) obj;
+        return this.fallback == failSafeMatcher.fallback && this.matcher.equals(failSafeMatcher.matcher);
+    }
+
+    public int hashCode() {
+        return AbstractC3275.m5146(this.matcher, getClass().hashCode() * 31, 31) + (this.fallback ? 1 : 0);
+    }
+
+    @Override // net.bytebuddy.matcher.ElementMatcher
+    public boolean matches(@MaybeNull T t) {
+        try {
+            return this.matcher.matches(t);
+        } catch (Exception unused) {
+            return this.fallback;
+        }
+    }
+
+    public String toString() {
+        return "failSafe(try(" + this.matcher + ") or " + this.fallback + ")";
+    }
+}

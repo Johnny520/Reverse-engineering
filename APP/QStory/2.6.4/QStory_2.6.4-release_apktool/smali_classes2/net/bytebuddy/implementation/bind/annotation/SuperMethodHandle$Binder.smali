@@ -1,0 +1,606 @@
+.class public final enum Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+.super Ljava/lang/Enum;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+# interfaces
+.implements Lnet/bytebuddy/implementation/bind/annotation/TargetMethodAnnotationDrivenBinder$ParameterBinder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "Binder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;",
+        ">;",
+        "Lnet/bytebuddy/implementation/bind/annotation/TargetMethodAnnotationDrivenBinder$ParameterBinder<",
+        "Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final synthetic $VALUES:[Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+.field private static final FALLBACK_TO_DEFAULT:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+.field public static final enum INSTANCE:Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+.field private static final NULL_IF_IMPOSSIBLE:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 2
+    .line 3
+    const-string v1, "INSTANCE"
+
+    .line 4
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    invoke-direct {v0, v1, v2}, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;-><init>(Ljava/lang/String;I)V
+
+    .line 7
+    .line 8
+    .line 9
+    sput-object v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->INSTANCE:Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 10
+    .line 11
+    filled-new-array {v0}, [Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    sput-object v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->$VALUES:[Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 16
+    .line 17
+    const-class v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;
+
+    .line 18
+    .line 19
+    invoke-static {v0}, Lnet/bytebuddy/description/type/TypeDescription$ForLoadedType;->of(Ljava/lang/Class;)Lnet/bytebuddy/description/type/TypeDescription;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v0
+
+    .line 23
+    invoke-interface {v0}, Lnet/bytebuddy/description/type/TypeDescription;->getDeclaredMethods()Lnet/bytebuddy/description/method/MethodList;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    const-string v1, "fallbackToDefault"
+
+    .line 28
+    .line 29
+    invoke-static {v1}, Lnet/bytebuddy/matcher/ElementMatchers;->named(Ljava/lang/String;)Lnet/bytebuddy/matcher/ElementMatcher$Junction;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    invoke-interface {v0, v1}, Lnet/bytebuddy/matcher/FilterableList;->filter(Lnet/bytebuddy/matcher/ElementMatcher;)Lnet/bytebuddy/matcher/FilterableList;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v1
+
+    .line 37
+    check-cast v1, Lnet/bytebuddy/description/method/MethodList;
+
+    .line 38
+    .line 39
+    invoke-interface {v1}, Lnet/bytebuddy/matcher/FilterableList;->getOnly()Ljava/lang/Object;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v1
+
+    .line 43
+    check-cast v1, Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 44
+    .line 45
+    sput-object v1, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->FALLBACK_TO_DEFAULT:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 46
+    .line 47
+    const-string v1, "nullIfImpossible"
+
+    .line 48
+    .line 49
+    invoke-static {v1}, Lnet/bytebuddy/matcher/ElementMatchers;->named(Ljava/lang/String;)Lnet/bytebuddy/matcher/ElementMatcher$Junction;
+
+    .line 50
+    .line 51
+    .line 52
+    move-result-object v1
+
+    .line 53
+    invoke-interface {v0, v1}, Lnet/bytebuddy/matcher/FilterableList;->filter(Lnet/bytebuddy/matcher/ElementMatcher;)Lnet/bytebuddy/matcher/FilterableList;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object v0
+
+    .line 57
+    check-cast v0, Lnet/bytebuddy/description/method/MethodList;
+
+    .line 58
+    .line 59
+    invoke-interface {v0}, Lnet/bytebuddy/matcher/FilterableList;->getOnly()Ljava/lang/Object;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object v0
+
+    .line 63
+    check-cast v0, Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 64
+    .line 65
+    sput-object v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->NULL_IF_IMPOSSIBLE:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 66
+    .line 67
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+    .locals 1
+
+    .line 1
+    const-class v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public static values()[Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->$VALUES:[Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, [Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->clone()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;
+
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public bind(Lnet/bytebuddy/description/annotation/AnnotationDescription$Loadable;Lnet/bytebuddy/description/method/MethodDescription;Lnet/bytebuddy/description/method/ParameterDescription;Lnet/bytebuddy/implementation/Implementation$Target;Lnet/bytebuddy/implementation/bytecode/assign/Assigner;Lnet/bytebuddy/implementation/bytecode/assign/Assigner$Typing;)Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lnet/bytebuddy/description/annotation/AnnotationDescription$Loadable<",
+            "Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;",
+            ">;",
+            "Lnet/bytebuddy/description/method/MethodDescription;",
+            "Lnet/bytebuddy/description/method/ParameterDescription;",
+            "Lnet/bytebuddy/implementation/Implementation$Target;",
+            "Lnet/bytebuddy/implementation/bytecode/assign/Assigner;",
+            "Lnet/bytebuddy/implementation/bytecode/assign/Assigner$Typing;",
+            ")",
+            "Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-interface {p3}, Lnet/bytebuddy/description/method/ParameterDescription;->getType()Lnet/bytebuddy/description/type/TypeDescription$Generic;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    invoke-interface {p0}, Lnet/bytebuddy/description/type/TypeDefinition;->asErasure()Lnet/bytebuddy/description/type/TypeDescription;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    sget-object p5, Lnet/bytebuddy/utility/JavaType;->METHOD_HANDLE:Lnet/bytebuddy/utility/JavaType;
+
+    .line 10
+    .line 11
+    invoke-virtual {p5}, Lnet/bytebuddy/utility/JavaType;->getTypeStub()Lnet/bytebuddy/description/type/TypeDescription;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p5
+
+    .line 15
+    invoke-interface {p0, p5}, Lnet/bytebuddy/description/type/TypeDescription;->isAssignableFrom(Lnet/bytebuddy/description/type/TypeDescription;)Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result p0
+
+    .line 19
+    if-eqz p0, :cond_5
+
+    .line 20
+    .line 21
+    invoke-interface {p2}, Lnet/bytebuddy/description/method/MethodDescription;->isMethod()Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result p0
+
+    .line 25
+    const-class p3, Ljava/lang/Boolean;
+
+    .line 26
+    .line 27
+    if-eqz p0, :cond_3
+
+    .line 28
+    .line 29
+    sget-object p0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->FALLBACK_TO_DEFAULT:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 30
+    .line 31
+    invoke-interface {p1, p0}, Lnet/bytebuddy/description/annotation/AnnotationDescription;->getValue(Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;)Lnet/bytebuddy/description/annotation/AnnotationValue;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object p0
+
+    .line 35
+    invoke-interface {p0, p3}, Lnet/bytebuddy/description/annotation/AnnotationValue;->resolve(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object p0
+
+    .line 39
+    check-cast p0, Ljava/lang/Boolean;
+
+    .line 40
+    .line 41
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 42
+    .line 43
+    .line 44
+    move-result p0
+
+    .line 45
+    if-eqz p0, :cond_0
+
+    .line 46
+    .line 47
+    invoke-interface {p2}, Lnet/bytebuddy/description/method/MethodDescription;->asSignatureToken()Lnet/bytebuddy/description/method/MethodDescription$SignatureToken;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object p0
+
+    .line 51
+    invoke-interface {p4, p0}, Lnet/bytebuddy/implementation/Implementation$Target;->invokeDominant(Lnet/bytebuddy/description/method/MethodDescription$SignatureToken;)Lnet/bytebuddy/implementation/Implementation$SpecialMethodInvocation;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object p0
+
+    .line 55
+    goto :goto_0
+
+    .line 56
+    :cond_0
+    invoke-interface {p2}, Lnet/bytebuddy/description/method/MethodDescription;->asSignatureToken()Lnet/bytebuddy/description/method/MethodDescription$SignatureToken;
+
+    .line 57
+    .line 58
+    .line 59
+    move-result-object p0
+
+    .line 60
+    invoke-interface {p4, p0}, Lnet/bytebuddy/implementation/Implementation$Target;->invokeSuper(Lnet/bytebuddy/description/method/MethodDescription$SignatureToken;)Lnet/bytebuddy/implementation/Implementation$SpecialMethodInvocation;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object p0
+
+    .line 64
+    :goto_0
+    invoke-interface {p2}, Lnet/bytebuddy/description/method/MethodDescription;->asTypeToken()Lnet/bytebuddy/description/method/MethodDescription$TypeToken;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object p2
+
+    .line 68
+    invoke-interface {p0, p2}, Lnet/bytebuddy/implementation/Implementation$SpecialMethodInvocation;->withCheckedCompatibilityTo(Lnet/bytebuddy/description/method/MethodDescription$TypeToken;)Lnet/bytebuddy/implementation/Implementation$SpecialMethodInvocation;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p0
+
+    .line 72
+    invoke-interface {p0}, Lnet/bytebuddy/implementation/bytecode/StackManipulation;->isValid()Z
+
+    .line 73
+    .line 74
+    .line 75
+    move-result p2
+
+    .line 76
+    if-eqz p2, :cond_1
+
+    .line 77
+    .line 78
+    new-instance p1, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;
+
+    .line 79
+    .line 80
+    invoke-interface {p0}, Lnet/bytebuddy/implementation/Implementation$SpecialMethodInvocation;->toMethodHandle()Lnet/bytebuddy/utility/JavaConstant$MethodHandle;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object p0
+
+    .line 84
+    invoke-virtual {p0}, Lnet/bytebuddy/utility/JavaConstant$MethodHandle;->toStackManipulation()Lnet/bytebuddy/implementation/bytecode/StackManipulation;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object p0
+
+    .line 88
+    invoke-direct {p1, p0}, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;-><init>(Lnet/bytebuddy/implementation/bytecode/StackManipulation;)V
+
+    .line 89
+    .line 90
+    .line 91
+    return-object p1
+
+    .line 92
+    :cond_1
+    sget-object p0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->NULL_IF_IMPOSSIBLE:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 93
+    .line 94
+    invoke-interface {p1, p0}, Lnet/bytebuddy/description/annotation/AnnotationDescription;->getValue(Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;)Lnet/bytebuddy/description/annotation/AnnotationValue;
+
+    .line 95
+    .line 96
+    .line 97
+    move-result-object p0
+
+    .line 98
+    invoke-interface {p0, p3}, Lnet/bytebuddy/description/annotation/AnnotationValue;->resolve(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 99
+    .line 100
+    .line 101
+    move-result-object p0
+
+    .line 102
+    check-cast p0, Ljava/lang/Boolean;
+
+    .line 103
+    .line 104
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 105
+    .line 106
+    .line 107
+    move-result p0
+
+    .line 108
+    if-eqz p0, :cond_2
+
+    .line 109
+    .line 110
+    new-instance p0, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;
+
+    .line 111
+    .line 112
+    sget-object p1, Lnet/bytebuddy/implementation/bytecode/constant/NullConstant;->INSTANCE:Lnet/bytebuddy/implementation/bytecode/constant/NullConstant;
+
+    .line 113
+    .line 114
+    invoke-direct {p0, p1}, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;-><init>(Lnet/bytebuddy/implementation/bytecode/StackManipulation;)V
+
+    .line 115
+    .line 116
+    .line 117
+    return-object p0
+
+    .line 118
+    :cond_2
+    sget-object p0, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Illegal;->INSTANCE:Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Illegal;
+
+    .line 119
+    .line 120
+    return-object p0
+
+    .line 121
+    :cond_3
+    sget-object p0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle$Binder;->NULL_IF_IMPOSSIBLE:Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;
+
+    .line 122
+    .line 123
+    invoke-interface {p1, p0}, Lnet/bytebuddy/description/annotation/AnnotationDescription;->getValue(Lnet/bytebuddy/description/method/MethodDescription$InDefinedShape;)Lnet/bytebuddy/description/annotation/AnnotationValue;
+
+    .line 124
+    .line 125
+    .line 126
+    move-result-object p0
+
+    .line 127
+    invoke-interface {p0, p3}, Lnet/bytebuddy/description/annotation/AnnotationValue;->resolve(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 128
+    .line 129
+    .line 130
+    move-result-object p0
+
+    .line 131
+    check-cast p0, Ljava/lang/Boolean;
+
+    .line 132
+    .line 133
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 134
+    .line 135
+    .line 136
+    move-result p0
+
+    .line 137
+    if-eqz p0, :cond_4
+
+    .line 138
+    .line 139
+    new-instance p0, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;
+
+    .line 140
+    .line 141
+    sget-object p1, Lnet/bytebuddy/implementation/bytecode/constant/NullConstant;->INSTANCE:Lnet/bytebuddy/implementation/bytecode/constant/NullConstant;
+
+    .line 142
+    .line 143
+    invoke-direct {p0, p1}, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Anonymous;-><init>(Lnet/bytebuddy/implementation/bytecode/StackManipulation;)V
+
+    .line 144
+    .line 145
+    .line 146
+    return-object p0
+
+    .line 147
+    :cond_4
+    sget-object p0, Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Illegal;->INSTANCE:Lnet/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding$Illegal;
+
+    .line 148
+    .line 149
+    return-object p0
+
+    .line 150
+    :cond_5
+    const-string p0, "Cannot assign MethodHandle type to "
+
+    .line 151
+    .line 152
+    invoke-static {p3, p0}, L飘花落叶言世哲苏子兰楪/飘花落叶言子楪苏哲世兰;->飘花落叶言子楪苏哲世兰(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 153
+    .line 154
+    .line 155
+    const/4 p0, 0x0
+
+    .line 156
+    return-object p0
+.end method
+
+.method public getHandledType()Ljava/lang/Class;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/Class<",
+            "Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    const-class p0, Lnet/bytebuddy/implementation/bind/annotation/SuperMethodHandle;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

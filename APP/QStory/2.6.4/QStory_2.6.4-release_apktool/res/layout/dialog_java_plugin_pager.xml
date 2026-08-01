@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme" android:orientation="vertical" android:id="@id/activity_plugin_root" android:background="@color/plugin_dialog" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/plugin_dialog_text_color" android:id="@id/btn_back" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="← 返回" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/plugin_dialog_text_color" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="注: 使用脚本你需要为自己所加载脚本负责 自行辨别脚本是否包含了危险功能" />
+    <LinearLayout android:orientation="vertical" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/plugin_dialog_text_color" android:id="@id/plugin_path" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="脚本存放路径" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <Button android:textSize="12.0sp" android:textColor="@color/plugin_action_btn_text" android:id="@id/create_demo_plugin" android:background="@drawable/plugin_action_btn_shape" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="创建示例" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@color/plugin_action_btn_text" android:id="@id/scriptDevelopmentDocumentation_btn" android:background="@drawable/plugin_action_btn_shape" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="开发文档" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/pb_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/box" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

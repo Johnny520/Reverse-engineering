@@ -1,0 +1,43 @@
+package bsh;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.nio.file.Path;
+import java.util.function.Predicate;
+import org.apache.commons.io.filefilter.WildcardFilter;
+import top.suzhelan.qstory.hook.item.chat.C5858;
+
+/* JADX INFO: renamed from: bsh.飘花落叶言子楪兰世哲苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class C2643 implements Predicate {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public final /* synthetic */ Object f7912;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final /* synthetic */ int f7913;
+
+    public /* synthetic */ C2643(Object obj, int i) {
+        this.f7913 = i;
+        this.f7912 = obj;
+    }
+
+    @Override // java.util.function.Predicate
+    public final boolean test(Object obj) {
+        int i = this.f7913;
+        Object obj2 = this.f7912;
+        switch (i) {
+            case 0:
+                Method method = (Method) obj2;
+                Method method2 = (Method) obj;
+                return method.getName().equals(method2.getName()) && (method2.getModifiers() & 1026) == 0 && AbstractC2661.m5333(method.getParameterTypes(), method2.getParameterTypes());
+            case 1:
+                return ((Field) obj).getType() == ((Class) obj2);
+            case 2:
+                return ((Boolean) ((C5858) obj2).invoke(obj)).booleanValue();
+            default:
+                return WildcardFilter.lambda$accept$2((Path) obj2, (String) obj);
+        }
+    }
+}

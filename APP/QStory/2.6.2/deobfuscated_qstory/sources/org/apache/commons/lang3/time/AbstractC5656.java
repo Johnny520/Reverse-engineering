@@ -1,0 +1,40 @@
+package org.apache.commons.lang3.time;
+
+import java.util.TimeZone;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/* JADX INFO: renamed from: org.apache.commons.lang3.time.飘花落叶言子世苏哲兰楪, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class AbstractC5656 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final Pattern f15558 = Pattern.compile("^(?:(?i)GMT)?([+-])?(\\d\\d?)?(:?(\\d\\d?))?$");
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public static final TimeZone f15557 = new GmtTimeZone(false, 0, 0);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static TimeZone m10988(String str) {
+        if (!"Z".equals(str) && !"UTC".equals(str)) {
+            Matcher matcher = f15558.matcher(str);
+            if (!matcher.matches()) {
+                return null;
+            }
+            String strGroup = matcher.group(2);
+            boolean z = false;
+            int i = strGroup != null ? Integer.parseInt(strGroup) : 0;
+            String strGroup2 = matcher.group(4);
+            int i2 = strGroup2 != null ? Integer.parseInt(strGroup2) : 0;
+            if (i != 0 || i2 != 0) {
+                String strGroup3 = matcher.group(1);
+                if (strGroup3 != null && strGroup3.charAt(0) == '-') {
+                    z = true;
+                }
+                return new GmtTimeZone(z, i, i2);
+            }
+        }
+        return f15557;
+    }
+}

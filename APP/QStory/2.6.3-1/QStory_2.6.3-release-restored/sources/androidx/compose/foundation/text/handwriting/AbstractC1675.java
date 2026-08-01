@@ -1,0 +1,16 @@
+package androidx.compose.foundation.text.handwriting;
+
+import android.os.Build;
+
+/* JADX INFO: renamed from: androidx.compose.foundation.text.handwriting.飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC1675 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final boolean f2715;
+
+    static {
+        f2715 = Build.VERSION.SDK_INT >= 34;
+    }
+}

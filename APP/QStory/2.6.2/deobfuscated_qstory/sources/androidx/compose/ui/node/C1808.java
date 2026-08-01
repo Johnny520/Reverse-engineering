@@ -1,0 +1,48 @@
+package androidx.compose.ui.node;
+
+import androidx.compose.runtime.collection.C1224;
+import androidx.compose.ui.AbstractC2128;
+import androidx.compose.ui.InterfaceC2124;
+import kotlin.jvm.internal.AbstractC4394;
+
+/* JADX INFO: renamed from: androidx.compose.ui.node.飘花落叶言子苏楪世哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1808 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+    public final /* synthetic */ C1811 f5276;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰苏哲, reason: contains not printable characters */
+    public boolean f5277;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    public C1224 f5278;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    public C1224 f5279;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public int f5280;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public AbstractC2128 f5281;
+
+    public C1808(C1811 c1811, AbstractC2128 abstractC2128, int i, C1224 c1224, C1224 c12242, boolean z) {
+        this.f5276 = c1811;
+        this.f5281 = abstractC2128;
+        this.f5280 = i;
+        this.f5279 = c1224;
+        this.f5278 = c12242;
+        this.f5277 = z;
+    }
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final boolean m3403(int i, int i2) {
+        C1224 c1224 = this.f5279;
+        int i3 = this.f5280;
+        InterfaceC2124 interfaceC2124 = (InterfaceC2124) c1224.f3520[i + i3];
+        InterfaceC2124 interfaceC21242 = (InterfaceC2124) this.f5278.f3520[i3 + i2];
+        return AbstractC4394.m8917(interfaceC2124, interfaceC21242) || interfaceC2124.getClass() == interfaceC21242.getClass();
+    }
+}

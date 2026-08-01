@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/tv_grabHbParamTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="抢红包参数" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="提示：领取成功后自动记录在自己的聊天框中" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="延迟(单位毫秒)" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/delay_hb_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="单位毫秒 默认无延迟" android:inputType="number" />
+            <CheckBox android:theme="@style/Theme.MyAppTheme" android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/grab_hb_toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="抢红包提示 (抢到了会提示)" />
+            <CheckBox android:theme="@style/Theme.MyAppTheme" android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/grab_fail_toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取失败提示" />
+            <CheckBox android:theme="@style/Theme.MyAppTheme" android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/ordinary_hb_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="普通红包,拼手气红包" />
+            <CheckBox android:theme="@style/Theme.MyAppTheme" android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/exclusive_hb_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="专属红包" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="期望领取平均金额(单位:分，100=1.00元，0或不填则不限制)" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/hb_average" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" android:hint="例如:100表示1.00元，0或不填不限制" android:inputType="number" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="不抢的群群号 多个群以 | 分隔 用英文的|" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/redpack_blacklistTroop" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" android:hint="例如:948759593|954720846|255413638" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="红包出现以下关键词时不会自动领取 使用 | 分隔 用英文的|" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/redpack_blacklistText" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" android:hint="例如:测|挂|谁领谁是|傻|儿" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="领取成功后回复语 支持随机 多条使用|分隔" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/hb_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" android:hint="例如:谢谢老板|新年快乐" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="回复延迟，抢红包成功后发送回复语的延迟(毫秒）" />
+            <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/hb_reply_delay" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" android:hint="默认无延迟" android:inputType="number" />
+            <Button android:textColor="@color/black" android:id="@id/save_red_pack_param_btn" android:background="@drawable/blue_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="保存" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

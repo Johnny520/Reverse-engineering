@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/plugin_dialog_menu_text_color" android:id="@id/plugin_menu_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="脚本菜单名称" />
+    <TextView android:textSize="10.0sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="点击脚本名称可以重新加载" />
+</LinearLayout>

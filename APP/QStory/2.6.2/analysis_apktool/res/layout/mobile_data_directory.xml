@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="QStory 正在迁移数据目录到新目录" />
+    <ProgressBar android:id="@id/plugin_progress_bar" android:layout_width="match_parent" android:layout_height="70.0dp" android:layout_marginTop="20.0dp" android:indeterminateDrawable="@drawable/record_progress" />
+    <TextView android:textSize="13.0sp" android:gravity="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="如果数据多可能会占用较多时间 请勿离开该界面" />
+</LinearLayout>

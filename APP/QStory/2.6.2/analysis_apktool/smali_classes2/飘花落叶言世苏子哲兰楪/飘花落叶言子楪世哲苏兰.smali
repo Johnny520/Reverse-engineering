@@ -1,0 +1,60 @@
+.class public final L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲苏兰;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements L飘花落叶言世子哲楪兰苏/飘花落叶言子楪世苏哲兰;
+
+
+# static fields
+.field public static final 飘花落叶言子楪哲苏兰世:L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲苏兰;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲苏兰;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲苏兰;->飘花落叶言子楪哲苏兰世:L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲苏兰;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    sget-object p0, L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲兰苏;->飘花落叶言子楪哲苏兰世:L飘花落叶言世苏子哲兰楪/飘花落叶言子楪世哲兰苏;
+
+    .line 2
+    .line 3
+    sget-object p0, L飘花落叶言世子兰苏哲楪/飘花落叶言子楪世兰苏哲;->飘花落叶言子楪世兰哲苏:Lkotlin/飘花落叶言子楪苏世哲兰;
+
+    .line 4
+    .line 5
+    invoke-interface {p0}, Lkotlin/飘花落叶言子楪苏世哲兰;->getValue()Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    check-cast p0, L飘花落叶言世子兰苏哲楪/飘花落叶言子楪世兰苏哲;
+
+    .line 10
+    .line 11
+    return-object p0
+.end method

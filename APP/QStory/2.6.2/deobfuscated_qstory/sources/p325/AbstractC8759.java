@@ -1,0 +1,15 @@
+package p325;
+
+import androidx.compose.foundation.text.C0984;
+import com.bumptech.glide.AbstractC3056;
+import java.util.List;
+import p253.AbstractC8189;
+
+/* JADX INFO: renamed from: 飘花落叶言苏世哲兰子楪.飘花落叶言子楪哲兰世苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class AbstractC8759 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final List f24679 = AbstractC8189.m13659(AbstractC3056.m6688("send_msg", "\u53d1\u9001\u6587\u672c\u6d88\u606f", "\u53d1\u9001\u6587\u672c\u6d88\u606f\u3002\u7fa4\u804a\u65f6\u586b group_uin\uff0c\u79c1\u804a\u65f6\u586b user_uin", "content", "\u53d1\u9001\u5185\u5bb9", new C0984(23)), AbstractC3056.m6688("send_pic", "\u53d1\u9001\u56fe\u7247\u6d88\u606f", "\u53d1\u9001\u56fe\u7247\u6d88\u606f\uff0cpath \u4e3a\u56fe\u7247\u8def\u5f84", "path", "\u56fe\u7247\u6587\u4ef6\u8def\u5f84", new C0984(22)), AbstractC3056.m6688("send_card", "\u53d1\u9001\u5361\u7247\u6d88\u606f", "\u53d1\u9001\u5361\u7247\u6d88\u606f\uff0ccard_text \u4e3a\u5361\u7247\u6587\u672c", "card_text", "\u5361\u7247\u6587\u672c\u5185\u5bb9", new C0984(24)), AbstractC3056.m6688("send_file", "\u53d1\u9001\u6587\u4ef6", "\u53d1\u9001\u6587\u4ef6\uff0cpath \u4e3a\u672c\u5730\u6587\u4ef6\u8def\u5f84", "path", "\u6587\u4ef6\u8def\u5f84", new C0984(20)), new C8755("send_pai", "\u53d1\u9001\u62cd\u4e00\u62cd", "\u53d1\u9001\u62cd\u4e00\u62cd\u3002\u7fa4\u804a\u65f6 group_uin \u5fc5\u586b\uff0c\u79c1\u804a\u65f6\u7559\u7a7a", AbstractC3056.m6659(AbstractC8189.m13659(AbstractC3056.m6700("group_uin", "\u7fa4\u53f7\uff0c\u79c1\u804a\u65f6\u53ef\u7559\u7a7a"), AbstractC3056.m6700("uin", "\u76ee\u6807 QQ \u53f7")), AbstractC8189.m13660("uin")), new C8762(2)), new C8755("send_proto", "\u53d1\u9001 Proto \u5305", "\u53d1\u9001 Proto \u6570\u636e\u5305", AbstractC3056.m6659(AbstractC8189.m13659(AbstractC3056.m6700("cmd", "\u534f\u8bae\u547d\u4ee4\u540d"), AbstractC3056.m6700("json_body", "FunProtoData \u7684 JSON \u5b57\u7b26\u4e32")), AbstractC8189.m13659("cmd", "json_body")), new C8762(1)), AbstractC3056.m6688("send_voice", "\u53d1\u9001\u8bed\u97f3", "\u53d1\u9001\u8bed\u97f3\u6d88\u606f\uff0cpath \u4e3a\u8bed\u97f3\u6587\u4ef6\u8def\u5f84", "path", "\u8bed\u97f3\u6587\u4ef6\u8def\u5f84", new C0984(21)), AbstractC3056.m6688("send_video", "\u53d1\u9001\u89c6\u9891", "\u53d1\u9001\u89c6\u9891\u6d88\u606f\uff0cpath \u4e3a\u89c6\u9891\u6587\u4ef6\u8def\u5f84", "path", "\u89c6\u9891\u6587\u4ef6\u8def\u5f84", new C0984(25)), new C8755("send_like", "\u53d1\u9001\u70b9\u8d5e", "\u5411\u6307\u5b9a\u7528\u6237\u53d1\u9001\u70b9\u8d5e\uff0ccount \u9ed8\u8ba4 20", AbstractC3056.m6659(AbstractC8189.m13659(AbstractC3056.m6700("user_uin", "\u76ee\u6807 QQ \u53f7"), AbstractC3056.m6664("count", "\u70b9\u8d5e\u6b21\u6570\uff0c\u9ed8\u8ba4 20")), AbstractC8189.m13660("user_uin")), new C8762(0)));
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:hl_cornerRadius="24dp"
+    app:hl_layoutBackground="@android:color/transparent"
+    app:hl_shadowColor="@color/online_plugin_glow_shadow"
+    app:hl_shadowLimit="12dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/glow_tip_container"
+        android:background="@color/online_plugin_card_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="14dp">
+        <TextView
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:gravity="center"
+            android:id="@+id/tv_glow_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提示"/>
+    </LinearLayout>
+</com.lihang.ShadowLayout>

@@ -1,0 +1,115 @@
+package com.android.p002dx.rop.annotation;
+
+import bsh.C3466;
+import com.android.p002dx.rop.cst.CstType;
+import com.android.p002dx.util.MutabilityControl;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.TreeMap;
+import p160.C8376;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class Annotations extends MutabilityControl implements Comparable<Annotations> {
+    public static final Annotations EMPTY;
+    private final TreeMap<CstType, Annotation> annotations = new TreeMap<>();
+
+    static {
+        Annotations annotations = new Annotations();
+        EMPTY = annotations;
+        annotations.setImmutable();
+    }
+
+    public static Annotations combine(Annotations annotations, Annotations annotations2) {
+        Annotations annotations3 = new Annotations();
+        annotations3.addAll(annotations);
+        annotations3.addAll(annotations2);
+        annotations3.setImmutable();
+        return annotations3;
+    }
+
+    public void add(Annotation annotation) {
+        throwIfImmutable();
+        if (annotation == null) {
+            C3466.m5903("annotation == null");
+            return;
+        }
+        CstType type = annotation.getType();
+        if (this.annotations.containsKey(type)) {
+            C8376.m13323(type.toHuman(), "duplicate type: ");
+        } else {
+            this.annotations.put(type, annotation);
+        }
+    }
+
+    public void addAll(Annotations annotations) {
+        throwIfImmutable();
+        if (annotations == null) {
+            C3466.m5903("toAdd == null");
+            return;
+        }
+        Iterator<Annotation> it = annotations.annotations.values().iterator();
+        while (it.hasNext()) {
+            add(it.next());
+        }
+    }
+
+    @Override // java.lang.Comparable
+    public int compareTo(Annotations annotations) {
+        Iterator<Annotation> it = this.annotations.values().iterator();
+        Iterator<Annotation> it2 = annotations.annotations.values().iterator();
+        while (it.hasNext() && it2.hasNext()) {
+            int iCompareTo2 = it.next().compareTo(it2.next());
+            if (iCompareTo2 != 0) {
+                return iCompareTo2;
+            }
+        }
+        if (it.hasNext()) {
+            return 1;
+        }
+        return it2.hasNext() ? -1 : 0;
+    }
+
+    public boolean equals(Object obj) {
+        if (obj instanceof Annotations) {
+            return this.annotations.equals(((Annotations) obj).annotations);
+        }
+        return false;
+    }
+
+    public Collection<Annotation> getAnnotations() {
+        return Collections.unmodifiableCollection(this.annotations.values());
+    }
+
+    public int hashCode() {
+        return this.annotations.hashCode();
+    }
+
+    public int size() {
+        return this.annotations.size();
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder("annotations{");
+        boolean z = true;
+        for (Annotation annotation : this.annotations.values()) {
+            if (z) {
+                z = false;
+            } else {
+                sb.append(", ");
+            }
+            sb.append(annotation.toHuman());
+        }
+        sb.append("}");
+        return sb.toString();
+    }
+
+    public static Annotations combine(Annotations annotations, Annotation annotation) {
+        Annotations annotations2 = new Annotations();
+        annotations2.addAll(annotations);
+        annotations2.add(annotation);
+        annotations2.setImmutable();
+        return annotations2;
+    }
+}

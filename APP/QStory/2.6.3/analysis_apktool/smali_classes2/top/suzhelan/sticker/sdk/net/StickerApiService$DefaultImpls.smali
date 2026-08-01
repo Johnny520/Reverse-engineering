@@ -1,0 +1,71 @@
+.class public final Ltop/suzhelan/sticker/sdk/net/StickerApiService$DefaultImpls;
+.super Ljava/lang/Object;
+.source "r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltop/suzhelan/sticker/sdk/net/StickerApiService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DefaultImpls"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static synthetic getStickerList$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;IILjava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+    .locals 0
+
+    .line 1
+    invoke-static/range {p0 .. p6}, Ltop/suzhelan/sticker/sdk/net/StickerApiService;->getStickerList$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;IILjava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public static synthetic getTags$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;IILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2, p3}, Ltop/suzhelan/sticker/sdk/net/StickerApiService;->getTags$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;IILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public static synthetic searchStickers$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;Ljava/lang/String;IIILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+    .locals 0
+
+    .line 1
+    invoke-static/range {p0 .. p5}, Ltop/suzhelan/sticker/sdk/net/StickerApiService;->searchStickers$default(Ltop/suzhelan/sticker/sdk/net/StickerApiService;Ljava/lang/String;IIILjava/lang/Object;)Lretrofit2/飘花落叶言子楪世兰苏哲;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

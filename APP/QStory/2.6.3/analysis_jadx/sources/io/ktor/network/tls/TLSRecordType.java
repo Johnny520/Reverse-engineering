@@ -1,0 +1,74 @@
+package io.ktor.network.tls;
+
+import java.util.Iterator;
+import kotlin.Metadata;
+import kotlin.enums.AbstractC4364;
+import kotlin.enums.InterfaceC4365;
+import net.bytebuddy.description.method.MethodDescription;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@Metadata(d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0010\b\n\u0002\b\r\b\u0086\u0081\u0002\u0018\u0000 \t2\b\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\nB\u0011\b\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0002¢\u0006\u0004\b\u0004\u0010\u0005R\u0017\u0010\u0003\u001a\u00020\u00028\u0006¢\u0006\f\n\u0004\b\u0003\u0010\u0006\u001a\u0004\b\u0007\u0010\bj\u0002\b\u000bj\u0002\b\fj\u0002\b\rj\u0002\b\u000e¨\u0006\u000f"}, d2 = {"Lio/ktor/network/tls/TLSRecordType;", "", "", "code", MethodDescription.CONSTRUCTOR_INTERNAL_NAME, "(Ljava/lang/String;II)V", "I", "getCode", "()I", "Companion", "io/ktor/network/tls/飘花落叶言子楪苏兰哲世", "ChangeCipherSpec", "Alert", "Handshake", "ApplicationData", "ktor-network-tls"}, k = 1, mv = {2, 0, 0}, xi = 48)
+public final class TLSRecordType {
+    private static final /* synthetic */ InterfaceC4365 $ENTRIES;
+    private static final /* synthetic */ TLSRecordType[] $VALUES;
+    public static final C4044 Companion;
+    private static final TLSRecordType[] byCode;
+    private final int code;
+    public static final TLSRecordType ChangeCipherSpec = new TLSRecordType("ChangeCipherSpec", 0, 20);
+    public static final TLSRecordType Alert = new TLSRecordType("Alert", 1, 21);
+    public static final TLSRecordType Handshake = new TLSRecordType("Handshake", 2, 22);
+    public static final TLSRecordType ApplicationData = new TLSRecordType("ApplicationData", 3, 23);
+
+    private static final /* synthetic */ TLSRecordType[] $values() {
+        return new TLSRecordType[]{ChangeCipherSpec, Alert, Handshake, ApplicationData};
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    static {
+        Object next;
+        TLSRecordType[] tLSRecordTypeArr$values = $values();
+        $VALUES = tLSRecordTypeArr$values;
+        $ENTRIES = AbstractC4364.m8866(tLSRecordTypeArr$values);
+        Companion = new C4044();
+        TLSRecordType[] tLSRecordTypeArr = new TLSRecordType[256];
+        for (int i = 0; i < 256; i++) {
+            Iterator<E> it = getEntries().iterator();
+            while (true) {
+                if (it.hasNext()) {
+                    next = it.next();
+                    if (((TLSRecordType) next).code == i) {
+                        break;
+                    }
+                } else {
+                    next = null;
+                    break;
+                }
+            }
+            tLSRecordTypeArr[i] = next;
+        }
+        byCode = tLSRecordTypeArr;
+    }
+
+    private TLSRecordType(String str, int i, int i2) {
+        this.code = i2;
+    }
+
+    public static InterfaceC4365 getEntries() {
+        return $ENTRIES;
+    }
+
+    public static TLSRecordType valueOf(String str) {
+        return (TLSRecordType) Enum.valueOf(TLSRecordType.class, str);
+    }
+
+    public static TLSRecordType[] values() {
+        return (TLSRecordType[]) $VALUES.clone();
+    }
+
+    public final int getCode() {
+        return this.code;
+    }
+}

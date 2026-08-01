@@ -1,0 +1,123 @@
+.class final Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;
+.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime L飘花落叶言世子苏兰哲楪/飘花落叶言子楪世哲苏兰;
+    c = "kotlinx.coroutines.channels.TickerChannelsKt"
+    f = "TickerChannels.kt"
+    l = {
+        0x50,
+        0x54,
+        0x5a,
+        0x5c
+    }
+    m = "fixedPeriodTicker"
+    v = 0x1
+.end annotation
+
+
+# instance fields
+.field J$0:J
+
+.field J$1:J
+
+.field J$2:J
+
+.field J$3:J
+
+.field J$4:J
+
+.field J$5:J
+
+.field J$6:J
+
+.field L$0:Ljava/lang/Object;
+
+.field label:I
+
+.field synthetic result:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Lkotlin/coroutines/飘花落叶言子楪世哲苏兰;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/coroutines/\u98d8\u82b1\u843d\u53f6\u8a00\u5b50\u696a\u4e16\u54f2\u82cf\u5170<",
+            "-",
+            "Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/飘花落叶言子楪世哲苏兰;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    iput-object p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->result:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    iget p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+
+    .line 4
+    .line 5
+    const/high16 v0, -0x80000000
+
+    .line 6
+    .line 7
+    or-int/2addr p1, v0
+
+    .line 8
+    iput p1, p0, Lkotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1;->label:I
+
+    .line 9
+    .line 10
+    const-wide/16 v2, 0x0
+
+    .line 11
+    .line 12
+    const/4 v4, 0x0
+
+    .line 13
+    const-wide/16 v0, 0x0
+
+    .line 14
+    .line 15
+    move-object v5, p0
+
+    .line 16
+    invoke-static/range {v0 .. v5}, Lkotlinx/coroutines/channels/飘花落叶言子楪哲苏世兰;->飘花落叶言子楪世哲苏兰(JJLkotlinx/coroutines/channels/飘花落叶言子楪兰苏哲世;Lkotlin/coroutines/jvm/internal/ContinuationImpl;)Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object p0
+
+    .line 20
+    return-object p0
+.end method

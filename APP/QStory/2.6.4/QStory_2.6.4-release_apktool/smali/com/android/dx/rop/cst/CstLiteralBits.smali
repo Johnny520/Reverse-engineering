@@ -1,0 +1,124 @@
+.class public abstract Lcom/android/dx/rop/cst/CstLiteralBits;
+.super Lcom/android/dx/rop/cst/TypedConstant;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/android/dx/rop/cst/TypedConstant;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public fitsIn16Bits()Z
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/android/dx/rop/cst/CstLiteralBits;->fitsInInt()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    if-nez v0, :cond_0
+
+    .line 7
+    .line 8
+    return v1
+
+    .line 9
+    :cond_0
+    invoke-virtual {p0}, Lcom/android/dx/rop/cst/CstLiteralBits;->getIntBits()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    int-to-short v0, p0
+
+    .line 14
+    if-ne v0, p0, :cond_1
+
+    .line 15
+    .line 16
+    const/4 p0, 0x1
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    return v1
+.end method
+
+.method public fitsIn8Bits()Z
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/android/dx/rop/cst/CstLiteralBits;->fitsInInt()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    if-nez v0, :cond_0
+
+    .line 7
+    .line 8
+    return v1
+
+    .line 9
+    :cond_0
+    invoke-virtual {p0}, Lcom/android/dx/rop/cst/CstLiteralBits;->getIntBits()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p0
+
+    .line 13
+    int-to-byte v0, p0
+
+    .line 14
+    if-ne v0, p0, :cond_1
+
+    .line 15
+    .line 16
+    const/4 p0, 0x1
+
+    .line 17
+    return p0
+
+    .line 18
+    :cond_1
+    return v1
+.end method
+
+.method public abstract fitsInInt()Z
+.end method
+
+.method public abstract getIntBits()I
+.end method
+
+.method public abstract getLongBits()J
+.end method

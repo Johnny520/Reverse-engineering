@@ -1,0 +1,17 @@
+package com.google.protobuf;
+
+import java.util.List;
+
+/* JADX INFO: renamed from: com.google.protobuf.飘花落叶言世苏子哲楪兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC4279 {
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏 */
+    public abstract List mo8067();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲 */
+    public abstract C4248 mo8068();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    public abstract List mo8069();
+}

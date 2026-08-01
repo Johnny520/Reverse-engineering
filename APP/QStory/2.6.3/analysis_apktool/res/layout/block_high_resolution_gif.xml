@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/card_shape" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/BlockHighResolutionGIF_Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="该消息疑似高分辨率卡屏消息" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/BlockHighResolutionGIF_Sender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发送者 : " app:layout_constraintStart_toEndOf="@id/BlockHighResolutionGIF_Avatar" app:layout_constraintTop_toBottomOf="@id/BlockHighResolutionGIF_Title" />
+    <ImageView android:id="@id/BlockHighResolutionGIF_Avatar" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/user" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/BlockHighResolutionGIF_Title" />
+    <Button android:id="@id/BlockHighResolutionGIF_noLongerProcessed" android:background="@drawable/blue_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="不再拦截" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

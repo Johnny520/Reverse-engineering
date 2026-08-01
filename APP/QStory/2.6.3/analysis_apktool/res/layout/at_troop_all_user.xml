@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="艾特全体" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="艾特显示的文本" />
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/at_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="默认'@全体成员'" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="艾特显示的消息" />
+    <EditText android:theme="@style/Theme.MyAppTheme" android:textSize="17.0sp" android:textColor="@color/black" android:id="@id/at_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="140.0dp" />
+    <Button android:textColor="@color/black" android:id="@id/send_at_all_message" android:background="@drawable/blue_shape" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="发送" />
+</LinearLayout>

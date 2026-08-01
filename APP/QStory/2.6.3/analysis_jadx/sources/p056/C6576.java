@@ -1,0 +1,110 @@
+package p056;
+
+import io.ktor.client.plugins.AbstractC3933;
+import java.util.List;
+import kotlin.InterfaceC5184;
+import kotlin.jvm.internal.AbstractC4395;
+import p087.AbstractC7144;
+import p087.C7129;
+import p087.C7135;
+import p087.InterfaceC7079;
+import p088.C7150;
+import p088.C7152;
+import p089.InterfaceC7184;
+import p090.InterfaceC7186;
+import p090.InterfaceC7187;
+import p090.InterfaceC7188;
+import p090.InterfaceC7189;
+import p091.InterfaceC7191;
+import p144.C7547;
+
+/* JADX INFO: renamed from: 飘花落叶言世子楪兰苏哲.飘花落叶言世子哲兰苏楪, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class C6576 implements InterfaceC7079 {
+    private static final InterfaceC7191 descriptor;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C6576 f17949;
+
+    static {
+        C6576 c6576 = new C6576();
+        f17949 = c6576;
+        C7129 c7129 = new C7129("io.modelcontextprotocol.kotlin.sdk.Tool.Input", c6576, 3);
+        c7129.m12409("properties", true);
+        c7129.m12409("required", true);
+        c7129.m12409("type", true);
+        descriptor = c7129;
+    }
+
+    @Override // p087.InterfaceC7079
+    public final InterfaceC7184[] childSerializers() {
+        return new InterfaceC7184[]{C7150.f19112, AbstractC3933.m8313((InterfaceC7184) C6571.f17941[1].getValue()), C7135.f19089};
+    }
+
+    @Override // p089.InterfaceC7184
+    public final Object deserialize(InterfaceC7187 interfaceC7187) {
+        InterfaceC7191 interfaceC7191 = descriptor;
+        InterfaceC7189 interfaceC7189Mo10676 = interfaceC7187.mo10676(interfaceC7191);
+        InterfaceC5184[] interfaceC5184Arr = C6571.f17941;
+        interfaceC7189Mo10676.getClass();
+        boolean z = true;
+        int i = 0;
+        C7152 c7152 = null;
+        List list = null;
+        String strMo10686 = null;
+        while (z) {
+            int iMo10718 = interfaceC7189Mo10676.mo10718(interfaceC7191);
+            if (iMo10718 == -1) {
+                z = false;
+            } else if (iMo10718 == 0) {
+                c7152 = (C7152) interfaceC7189Mo10676.mo10674(interfaceC7191, 0, C7150.f19112, c7152);
+                i |= 1;
+            } else if (iMo10718 == 1) {
+                list = (List) interfaceC7189Mo10676.mo10675(interfaceC7191, 1, (InterfaceC7184) interfaceC5184Arr[1].getValue(), list);
+                i |= 2;
+            } else {
+                if (iMo10718 != 2) {
+                    C7547.m12767(iMo10718);
+                    return null;
+                }
+                strMo10686 = interfaceC7189Mo10676.mo10686(interfaceC7191, 2);
+                i |= 4;
+            }
+        }
+        interfaceC7189Mo10676.mo10678(interfaceC7191);
+        return new C6571(i, strMo10686, list, c7152);
+    }
+
+    @Override // p089.InterfaceC7184
+    public final InterfaceC7191 getDescriptor() {
+        return descriptor;
+    }
+
+    @Override // p089.InterfaceC7184
+    public final void serialize(InterfaceC7186 interfaceC7186, Object obj) {
+        C6571 c6571 = (C6571) obj;
+        c6571.getClass();
+        String str = c6571.f17942;
+        List list = c6571.f17943;
+        C7152 c7152 = c6571.f17944;
+        InterfaceC7191 interfaceC7191 = descriptor;
+        InterfaceC7188 interfaceC7188Mo10710 = interfaceC7186.mo10710(interfaceC7191);
+        InterfaceC5184[] interfaceC5184Arr = C6571.f17941;
+        if (interfaceC7188Mo10710.mo10713(interfaceC7191) || !AbstractC4395.m8907(c7152, AbstractC6602.f17976)) {
+            interfaceC7188Mo10710.mo10719(interfaceC7191, 0, C7150.f19112, c7152);
+        }
+        if (interfaceC7188Mo10710.mo10713(interfaceC7191) || list != null) {
+            interfaceC7188Mo10710.mo10715(interfaceC7191, 1, (InterfaceC7184) interfaceC5184Arr[1].getValue(), list);
+        }
+        if (interfaceC7188Mo10710.mo10713(interfaceC7191) || !AbstractC4395.m8907(str, "object")) {
+            interfaceC7188Mo10710.mo10735(interfaceC7191, 2, str);
+        }
+        interfaceC7188Mo10710.mo10711(interfaceC7191);
+    }
+
+    @Override // p087.InterfaceC7079
+    public final InterfaceC7184[] typeParametersSerializers() {
+        return AbstractC7144.f19103;
+    }
+}

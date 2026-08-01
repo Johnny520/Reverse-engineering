@@ -1,0 +1,154 @@
+package com.android.dx.cf.code;
+
+import bsh.C2632;
+import com.android.dx.rop.cst.CstType;
+import com.android.dx.rop.type.StdTypeList;
+import com.android.dx.rop.type.TypeList;
+import com.android.dx.util.FixedSizeList;
+import com.android.dx.util.IntList;
+import top.suzhelan.qstory.hook.item.C5919;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public final class ByteCatchList extends FixedSizeList {
+    public static final ByteCatchList EMPTY = new ByteCatchList(0);
+
+    /* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+    public static class Item {
+        private final int endPc;
+        private final CstType exceptionClass;
+        private final int handlerPc;
+        private final int startPc;
+
+        public Item(int i, int i2, int i3, CstType cstType) {
+            if (i < 0) {
+                C5919.m11249("startPc < 0");
+                throw null;
+            }
+            if (i2 < i) {
+                C5919.m11249("endPc < startPc");
+                throw null;
+            }
+            if (i3 < 0) {
+                C5919.m11249("handlerPc < 0");
+                throw null;
+            }
+            this.startPc = i;
+            this.endPc = i2;
+            this.handlerPc = i3;
+            this.exceptionClass = cstType;
+        }
+
+        public boolean covers(int i) {
+            return i >= this.startPc && i < this.endPc;
+        }
+
+        public int getEndPc() {
+            return this.endPc;
+        }
+
+        public CstType getExceptionClass() {
+            CstType cstType = this.exceptionClass;
+            return cstType != null ? cstType : CstType.OBJECT;
+        }
+
+        public int getHandlerPc() {
+            return this.handlerPc;
+        }
+
+        public int getStartPc() {
+            return this.startPc;
+        }
+    }
+
+    public ByteCatchList(int i) {
+        super(i);
+    }
+
+    private static boolean typeNotFound(Item item, Item[] itemArr, int i) {
+        CstType exceptionClass = item.getExceptionClass();
+        for (int i2 = 0; i2 < i; i2++) {
+            CstType exceptionClass2 = itemArr[i2].getExceptionClass();
+            if (exceptionClass2 == exceptionClass || exceptionClass2 == CstType.OBJECT) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public int byteLength() {
+        return (size() * 8) + 2;
+    }
+
+    public Item get(int i) {
+        return (Item) get0(i);
+    }
+
+    public ByteCatchList listFor(int i) {
+        int size = size();
+        Item[] itemArr = new Item[size];
+        int i2 = 0;
+        for (int i3 = 0; i3 < size; i3++) {
+            Item item = get(i3);
+            if (item.covers(i) && typeNotFound(item, itemArr, i2)) {
+                itemArr[i2] = item;
+                i2++;
+            }
+        }
+        if (i2 == 0) {
+            return EMPTY;
+        }
+        ByteCatchList byteCatchList = new ByteCatchList(i2);
+        for (int i4 = 0; i4 < i2; i4++) {
+            byteCatchList.set(i4, itemArr[i4]);
+        }
+        byteCatchList.setImmutable();
+        return byteCatchList;
+    }
+
+    public void set(int i, Item item) {
+        if (item != null) {
+            set0(i, item);
+        } else {
+            C2632.m5298("item == null");
+        }
+    }
+
+    public TypeList toRopCatchList() {
+        int size = size();
+        if (size == 0) {
+            return StdTypeList.EMPTY;
+        }
+        StdTypeList stdTypeList = new StdTypeList(size);
+        for (int i = 0; i < size; i++) {
+            stdTypeList.set(i, get(i).getExceptionClass().getClassType());
+        }
+        stdTypeList.setImmutable();
+        return stdTypeList;
+    }
+
+    public IntList toTargetList(int i) {
+        if (i < -1) {
+            C5919.m11249("noException < -1");
+            return null;
+        }
+        int i2 = i >= 0 ? 1 : 0;
+        int size = size();
+        if (size == 0) {
+            return i2 != 0 ? IntList.makeImmutable(i) : IntList.EMPTY;
+        }
+        IntList intList = new IntList(size + i2);
+        for (int i3 = 0; i3 < size; i3++) {
+            intList.add(get(i3).getHandlerPc());
+        }
+        if (i2 != 0) {
+            intList.add(i);
+        }
+        intList.setImmutable();
+        return intList;
+    }
+
+    public void set(int i, int i2, int i3, int i4, CstType cstType) {
+        set0(i, new Item(i2, i3, i4, cstType));
+    }
+}

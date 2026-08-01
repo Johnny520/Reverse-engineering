@@ -1,0 +1,36 @@
+package p087;
+
+import p089.InterfaceC7184;
+import p090.InterfaceC7186;
+import p090.InterfaceC7187;
+import p091.C7192;
+import p091.InterfaceC7191;
+
+/* JADX INFO: renamed from: 飘花落叶言世苏兰哲子楪.飘花落叶言子苏兰楪哲世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C7135 implements InterfaceC7184 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public static final C7135 f19089 = new C7135();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public static final C7125 f19088 = new C7125("kotlin.String", C7192.f19184);
+
+    @Override // p089.InterfaceC7184
+    public final Object deserialize(InterfaceC7187 interfaceC7187) {
+        return interfaceC7187.mo10662();
+    }
+
+    @Override // p089.InterfaceC7184
+    public final InterfaceC7191 getDescriptor() {
+        return f19088;
+    }
+
+    @Override // p089.InterfaceC7184
+    public final void serialize(InterfaceC7186 interfaceC7186, Object obj) {
+        String str = (String) obj;
+        str.getClass();
+        interfaceC7186.mo10649(str);
+    }
+}

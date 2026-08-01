@@ -1,0 +1,43 @@
+package com.android.p002dx.rop.cst;
+
+import com.android.p002dx.rop.type.Type;
+import com.android.p002dx.util.Hex;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class CstLong extends CstLiteral64 {
+    public static final CstLong VALUE_0 = make(0);
+    public static final CstLong VALUE_1 = make(1);
+
+    private CstLong(long j) {
+        super(j);
+    }
+
+    public static CstLong make(long j) {
+        return new CstLong(j);
+    }
+
+    @Override // com.android.p002dx.rop.type.TypeBearer
+    public Type getType() {
+        return Type.LONG;
+    }
+
+    public long getValue() {
+        return getLongBits();
+    }
+
+    @Override // com.android.p002dx.util.ToHuman
+    public String toHuman() {
+        return Long.toString(getLongBits());
+    }
+
+    public String toString() {
+        long longBits = getLongBits();
+        return "long{0x" + Hex.m31u8(longBits) + " / " + longBits + '}';
+    }
+
+    @Override // com.android.p002dx.rop.cst.Constant
+    public String typeName() {
+        return "long";
+    }
+}

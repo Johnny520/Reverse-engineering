@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/AppTheme" android:orientation="vertical" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitleSmall" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新建目录" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <EditText android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:textColorHint="?android:textColorHint" android:id="@id/et_new_dir_name" android:background="@drawable/bg_download_dir_input" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="0.0dp" android:layout_height="48.0dp" android:hint="输入目录名称" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+        <top.suzhelan.sticker.sdk.widget.CustomMaterialButton android:textSize="13.0sp" android:id="@id/btn_create_and_download" android:layout_width="wrap_content" android:layout_height="48.0dp" android:minWidth="80.0dp" android:text="下载" android:layout_marginStart="8.0dp" style="@style/Widget.Material3.Button.TonalButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="8.0dp">
+        <View android:background="#1a000000" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="或选择已有目录" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+        <View android:background="#1a000000" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <top.suzhelan.sticker.sdk.widget.CustomRecycleView android:id="@id/rv_dir_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="240.0dp" />
+    <TextView android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/tv_empty_hint" android:padding="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="暂无本地目录" />
+</LinearLayout>

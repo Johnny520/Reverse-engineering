@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="16dp"
+        android:top="14dp"
+        android:right="16dp"
+        android:bottom="22dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#0ef5b7c4"/>
+            <corners android:radius="36dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="20dp"
+        android:top="18dp"
+        android:right="20dp"
+        android:bottom="26dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#14f3a9ba"/>
+            <corners android:radius="34dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="24dp"
+        android:top="22dp"
+        android:right="24dp"
+        android:bottom="30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#1bf1a4b6"/>
+            <corners android:radius="31dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="27dp"
+        android:top="25dp"
+        android:right="27dp"
+        android:bottom="33dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#22ffffff"/>
+            <corners android:radius="28dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="30dp"
+        android:top="28dp"
+        android:right="30dp"
+        android:bottom="36dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/simple_loading_dialog_gradient_start"
+                android:endColor="@color/simple_loading_dialog_gradient_end"
+                android:angle="135"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+</layer-list>

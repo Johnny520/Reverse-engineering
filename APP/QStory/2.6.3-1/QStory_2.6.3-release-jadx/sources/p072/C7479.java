@@ -1,0 +1,57 @@
+package p072;
+
+import java.util.List;
+import kotlin.AbstractC6019;
+import kotlin.InterfaceC6016;
+import kotlin.LazyThreadSafetyMode;
+import kotlin.collections.EmptyList;
+import p103.AbstractC7973;
+import p104.C7981;
+import p105.InterfaceC8010;
+
+/* JADX INFO: renamed from: 飘花落叶言世子楪兰苏哲.飘花落叶言子兰楪哲苏世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+@InterfaceC8010
+public final class C7479 implements InterfaceC7625 {
+    public static final C7478 Companion = new C7478();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    public static final InterfaceC6016[] f18388 = {AbstractC6019.m10774(LazyThreadSafetyMode.PUBLICATION, new C7460(10)), null, null};
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    public final C7981 f18389;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public final String f18390;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final List f18391;
+
+    public C7479(int i, String str, List list, C7981 c7981) {
+        if (1 != (i & 1)) {
+            AbstractC7973.m12979(i, 1, C7481.f18395.getDescriptor());
+            throw null;
+        }
+        this.f18391 = list;
+        if ((i & 2) == 0) {
+            this.f18390 = null;
+        } else {
+            this.f18390 = str;
+        }
+        if ((i & 4) == 0) {
+            this.f18389 = AbstractC7431.f18321;
+        } else {
+            this.f18389 = c7981;
+        }
+    }
+
+    public C7479(EmptyList emptyList) {
+        C7981 c7981 = AbstractC7431.f18321;
+        emptyList.getClass();
+        c7981.getClass();
+        this.f18391 = emptyList;
+        this.f18390 = null;
+        this.f18389 = c7981;
+    }
+}

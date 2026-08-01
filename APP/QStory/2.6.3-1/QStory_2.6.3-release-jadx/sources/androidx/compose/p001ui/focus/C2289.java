@@ -1,0 +1,38 @@
+package androidx.compose.p001ui.focus;
+
+import androidx.compose.p001ui.AbstractC2961;
+import androidx.compose.p001ui.node.AbstractC2571;
+import kotlin.Metadata;
+import net.bytebuddy.description.method.MethodDescription;
+
+/* JADX INFO: renamed from: androidx.compose.ui.focus.飘花落叶言子世楪哲苏兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(m150d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÁ\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0003\u0010\u0004¨\u0006\u0005"}, m151d2 = {"Landroidx/compose/ui/focus/飘花落叶言子世楪哲苏兰;", "Landroidx/compose/ui/node/飘花落叶言子世兰哲楪苏;", "Landroidx/compose/ui/focus/飘花落叶言子世楪兰苏哲;", MethodDescription.CONSTRUCTOR_INTERNAL_NAME, "()V", "ui"}, m152k = 1, m153mv = {2, 1, 0}, m155xi = 48)
+public final class C2289 extends AbstractC2571 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲苏兰世, reason: contains not printable characters */
+    public static final C2289 f4499 = new C2289();
+
+    private C2289() {
+    }
+
+    public final boolean equals(Object obj) {
+        return obj == this;
+    }
+
+    public final int hashCode() {
+        return 1739042953;
+    }
+
+    @Override // androidx.compose.p001ui.node.AbstractC2571
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰 */
+    public final /* bridge */ /* synthetic */ void mo1656(AbstractC2961 abstractC2961) {
+    }
+
+    @Override // androidx.compose.p001ui.node.AbstractC2571
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲 */
+    public final AbstractC2961 mo1657() {
+        return new C2287(0, null, 15);
+    }
+}

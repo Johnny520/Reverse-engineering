@@ -1,0 +1,661 @@
+.class public final Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;
+.super Ljava/lang/Object;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+
+# instance fields
+.field public 飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+.field public 飘花落叶言子楪世哲兰苏:I
+
+.field public 飘花落叶言子楪世哲苏兰:I
+
+.field public 飘花落叶言子楪世苏兰哲:I
+
+.field public final synthetic 飘花落叶言子楪世苏哲兰:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    .line 17
+    iput p1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏哲兰:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(IIILandroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏哲兰:I
+
+    .line 3
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 5
+    .line 6
+    .line 7
+    iput p1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏兰哲:I
+
+    .line 8
+    .line 9
+    iput p2, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲苏兰:I
+
+    .line 10
+    .line 11
+    iput p3, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 12
+    .line 13
+    iput-object p4, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    return-void
+.end method
+
+.method public constructor <init>(L飘花落叶言子世苏楪兰哲/飘花落叶言子世哲楪苏兰;)V
+    .locals 1
+
+    const/4 v0, 0x3
+
+    iput v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏哲兰:I
+
+    .line 16
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .locals 4
+
+    .line 1
+    iget v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏哲兰:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-super {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+
+    .line 11
+    :pswitch_0
+    const-string p0, ""
+
+    .line 12
+    .line 13
+    return-object p0
+
+    .line 14
+    :pswitch_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 15
+    .line 16
+    const-string v1, "SelectionInfo(id=1, range=("
+
+    .line 17
+    .line 18
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    iget v1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏兰哲:I
+
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    const/16 v2, 0x2d
+
+    .line 27
+    .line 28
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 29
+    .line 30
+    .line 31
+    iget-object v3, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    check-cast v3, Landroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;
+
+    .line 34
+    .line 35
+    invoke-static {v3, v1}, Landroidx/compose/foundation/text/selection/飘花落叶言子世楪哲兰苏;->飘花落叶言子楪哲苏世兰(Landroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;I)Landroidx/compose/ui/text/style/ResolvedTextDirection;
+
+    .line 36
+    .line 37
+    .line 38
+    move-result-object v1
+
+    .line 39
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 40
+    .line 41
+    .line 42
+    const/16 v1, 0x2c
+
+    .line 43
+    .line 44
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 45
+    .line 46
+    .line 47
+    iget v1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲苏兰:I
+
+    .line 48
+    .line 49
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    .line 50
+    .line 51
+    .line 52
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-static {v3, v1}, Landroidx/compose/foundation/text/selection/飘花落叶言子世楪哲兰苏;->飘花落叶言子楪哲苏世兰(Landroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;I)Landroidx/compose/ui/text/style/ResolvedTextDirection;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object v1
+
+    .line 59
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 60
+    .line 61
+    .line 62
+    const-string v1, "), prevOffset="
+
+    .line 63
+    .line 64
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 65
+    .line 66
+    .line 67
+    iget p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 68
+    .line 69
+    const/16 v1, 0x29
+
+    .line 70
+    .line 71
+    invoke-static {v0, p0, v1}, Landroidx/activity/飘花落叶言子楪哲苏兰世;->飘花落叶言子楪哲兰苏世(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object p0
+
+    .line 75
+    return-object p0
+
+    .line 76
+    nop
+
+    .line 77
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public 飘花落叶言子楪世兰哲苏(I)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast v0, L飘花落叶言子世苏楪兰哲/飘花落叶言子世哲楪苏兰;
+
+    .line 4
+    .line 5
+    iget-object v0, v0, L飘花落叶言子世苏楪兰哲/飘花落叶言子世哲楪苏兰;->飘花落叶言子楪世兰苏哲:[Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    iget p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 8
+    .line 9
+    add-int/2addr p0, p1
+
+    .line 10
+    aget-object p0, v0, p0
+
+    .line 11
+    .line 12
+    return-object p0
+.end method
+
+.method public 飘花落叶言子楪世兰苏哲(I)I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast v0, L飘花落叶言子世苏楪兰哲/飘花落叶言子世哲楪苏兰;
+
+    .line 4
+    .line 5
+    iget-object v0, v0, L飘花落叶言子世苏楪兰哲/飘花落叶言子世哲楪苏兰;->飘花落叶言子楪世哲苏兰:[I
+
+    .line 6
+    .line 7
+    iget p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲苏兰:I
+
+    .line 8
+    .line 9
+    add-int/2addr p0, p1
+
+    .line 10
+    aget p0, v0, p0
+
+    .line 11
+    .line 12
+    return p0
+.end method
+
+.method public 飘花落叶言子楪世哲兰苏()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 2
+    .line 3
+    iget p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲苏兰:I
+
+    .line 4
+    .line 5
+    sub-int/2addr v0, p0
+
+    .line 6
+    return v0
+.end method
+
+.method public 飘花落叶言子楪世哲苏兰(Landroidx/recyclerview/widget/RecyclerView;Z)V
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 3
+    .line 4
+    iget-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 5
+    .line 6
+    check-cast v0, [I
+
+    .line 7
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    const/4 v1, -0x1
+
+    .line 11
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([II)V
+
+    .line 12
+    .line 13
+    .line 14
+    :cond_0
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子世楪兰苏哲:Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;
+
+    .line 15
+    .line 16
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子世楪哲兰苏:Landroidx/recyclerview/widget/飘花落叶言子世兰哲楪苏;
+
+    .line 17
+    .line 18
+    if-eqz v1, :cond_3
+
+    .line 19
+    .line 20
+    if-eqz v0, :cond_3
+
+    .line 21
+    .line 22
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子楪兰哲苏世:Z
+
+    .line 23
+    .line 24
+    if-eqz v1, :cond_3
+
+    .line 25
+    .line 26
+    if-eqz p2, :cond_1
+
+    .line 27
+    .line 28
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子楪兰世哲苏:Landroidx/appcompat/widget/飘花落叶言子楪兰世哲苏;
+
+    .line 29
+    .line 30
+    invoke-virtual {v1}, Landroidx/appcompat/widget/飘花落叶言子楪兰世哲苏;->飘花落叶言子世楪苏哲兰()Z
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v1
+
+    .line 34
+    if-nez v1, :cond_2
+
+    .line 35
+    .line 36
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子世楪哲兰苏:Landroidx/recyclerview/widget/飘花落叶言子世兰哲楪苏;
+
+    .line 37
+    .line 38
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/飘花落叶言子世兰哲楪苏;->飘花落叶言子楪世哲苏兰()I
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v1
+
+    .line 42
+    invoke-virtual {v0, v1, p0}, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子楪兰苏世哲(ILandroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;)V
+
+    .line 43
+    .line 44
+    .line 45
+    goto :goto_0
+
+    .line 46
+    :cond_1
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子世兰楪哲苏()Z
+
+    .line 47
+    .line 48
+    .line 49
+    move-result v1
+
+    .line 50
+    if-nez v1, :cond_2
+
+    .line 51
+    .line 52
+    iget v1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世苏兰哲:I
+
+    .line 53
+    .line 54
+    iget v2, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲苏兰:I
+
+    .line 55
+    .line 56
+    iget-object v3, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子苏兰哲世楪:Landroidx/recyclerview/widget/飘花落叶言子苏兰哲楪世;
+
+    .line 57
+    .line 58
+    invoke-virtual {v0, v1, v2, v3, p0}, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子楪兰世哲苏(IILandroidx/recyclerview/widget/飘花落叶言子苏兰哲楪世;Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;)V
+
+    .line 59
+    .line 60
+    .line 61
+    :cond_2
+    :goto_0
+    iget p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 62
+    .line 63
+    iget v1, v0, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子世楪苏哲兰:I
+
+    .line 64
+    .line 65
+    if-le p0, v1, :cond_3
+
+    .line 66
+    .line 67
+    iput p0, v0, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子世楪苏哲兰:I
+
+    .line 68
+    .line 69
+    iput-boolean p2, v0, Landroidx/recyclerview/widget/飘花落叶言子苏世哲楪兰;->飘花落叶言子世楪苏兰哲:Z
+
+    .line 70
+    .line 71
+    iget-object p0, p1, Landroidx/recyclerview/widget/RecyclerView;->飘花落叶言子楪哲兰苏世:Landroidx/recyclerview/widget/飘花落叶言子苏哲兰楪世;
+
+    .line 72
+    .line 73
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/飘花落叶言子苏哲兰楪世;->飘花落叶言子楪哲世兰苏()V
+
+    .line 74
+    .line 75
+    .line 76
+    :cond_3
+    return-void
+.end method
+
+.method public 飘花落叶言子楪世苏兰哲(I)Landroidx/compose/foundation/text/selection/飘花落叶言子楪兰世苏哲;
+    .locals 3
+
+    .line 1
+    new-instance v0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪兰世苏哲;
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    check-cast p0, Landroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;
+
+    .line 6
+    .line 7
+    invoke-static {p0, p1}, Landroidx/compose/foundation/text/selection/飘花落叶言子世楪哲兰苏;->飘花落叶言子楪哲苏世兰(Landroidx/compose/ui/text/飘花落叶言子世哲楪兰苏;I)Landroidx/compose/ui/text/style/ResolvedTextDirection;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    const-wide/16 v1, 0x1
+
+    .line 12
+    .line 13
+    invoke-direct {v0, p0, p1, v1, v2}, Landroidx/compose/foundation/text/selection/飘花落叶言子楪兰世苏哲;-><init>(Landroidx/compose/ui/text/style/ResolvedTextDirection;IJ)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-object v0
+.end method
+
+.method public 飘花落叶言子楪世苏哲兰(II)V
+    .locals 5
+
+    .line 1
+    if-ltz p1, :cond_3
+
+    .line 2
+    .line 3
+    if-ltz p2, :cond_2
+
+    .line 4
+    .line 5
+    iget v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 6
+    .line 7
+    mul-int/lit8 v1, v0, 0x2
+
+    .line 8
+    .line 9
+    iget-object v2, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    check-cast v2, [I
+
+    .line 12
+    .line 13
+    const/4 v3, 0x4
+
+    .line 14
+    if-nez v2, :cond_0
+
+    .line 15
+    .line 16
+    new-array v0, v3, [I
+
+    .line 17
+    .line 18
+    iput-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    const/4 v2, -0x1
+
+    .line 21
+    invoke-static {v0, v2}, Ljava/util/Arrays;->fill([II)V
+
+    .line 22
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_0
+    array-length v4, v2
+
+    .line 26
+    if-lt v1, v4, :cond_1
+
+    .line 27
+    .line 28
+    mul-int/2addr v0, v3
+
+    .line 29
+    new-array v0, v0, [I
+
+    .line 30
+    .line 31
+    iput-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 32
+    .line 33
+    array-length v3, v2
+
+    .line 34
+    const/4 v4, 0x0
+
+    .line 35
+    invoke-static {v2, v4, v0, v4, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 36
+    .line 37
+    .line 38
+    :cond_1
+    :goto_0
+    iget-object v0, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世兰苏哲:Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    check-cast v0, [I
+
+    .line 41
+    .line 42
+    aput p1, v0, v1
+
+    .line 43
+    .line 44
+    add-int/lit8 v1, v1, 0x1
+
+    .line 45
+    .line 46
+    aput p2, v0, v1
+
+    .line 47
+    .line 48
+    iget p1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 49
+    .line 50
+    add-int/lit8 p1, p1, 0x1
+
+    .line 51
+    .line 52
+    iput p1, p0, Landroidx/compose/foundation/text/selection/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪世哲兰苏:I
+
+    .line 53
+    .line 54
+    return-void
+
+    .line 55
+    :cond_2
+    const-string p0, "Pixel distance must be non-negative"
+
+    .line 56
+    .line 57
+    invoke-static {p0}, L飘花落叶言苏哲子楪兰世/飘花落叶言子楪世哲兰苏;->飘花落叶言子楪世兰苏哲(Ljava/lang/String;)V
+
+    .line 58
+    .line 59
+    .line 60
+    return-void
+
+    .line 61
+    :cond_3
+    const-string p0, "Layout positions must be non-negative"
+
+    .line 62
+    .line 63
+    invoke-static {p0}, L飘花落叶言苏哲子楪兰世/飘花落叶言子楪世哲兰苏;->飘花落叶言子楪世兰苏哲(Ljava/lang/String;)V
+
+    .line 64
+    .line 65
+    .line 66
+    return-void
+.end method

@@ -1,0 +1,32 @@
+package p310;
+
+import java.math.BigDecimal;
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+/* JADX INFO: renamed from: 飘花落叶言楪子哲苏兰世.飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C9399 implements Function {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲兰世苏, reason: contains not printable characters */
+    public final /* synthetic */ BiFunction f24272;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲苏兰世, reason: contains not printable characters */
+    public final /* synthetic */ int f24273;
+
+    public /* synthetic */ C9399(BiFunction biFunction, int i) {
+        this.f24273 = i;
+        this.f24272 = biFunction;
+    }
+
+    @Override // java.util.function.Function
+    public final Object apply(Object obj) {
+        switch (this.f24273) {
+            case 0:
+                return (BigDecimal) this.f24272.apply(obj, BigDecimal.class);
+            default:
+                return this.f24272.apply((String) obj, new String[0]);
+        }
+    }
+}

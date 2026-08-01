@@ -1,0 +1,146 @@
+.class public final Llin/xposed/hook/view/main/itemview/NoticeLog;
+.super Llin/xposed/hook/view/main/itemview/base/OtherViewItemInfo;
+.source "r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\u0008\u0007\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u0008\u0010\u0006\u001a\u00020\u0007H\u0016J\u0008\u0010\u0008\u001a\u00020\tH\u0016\u00a8\u0006\n"
+    }
+    d2 = {
+        "Llin/xposed/hook/view/main/itemview/NoticeLog;",
+        "Llin/xposed/hook/view/main/itemview/base/OtherViewItemInfo;",
+        "context",
+        "Landroid/content/Context;",
+        "<init>",
+        "(Landroid/content/Context;)V",
+        "getLeftText",
+        "",
+        "getOnClick",
+        "Landroid/view/View$OnClickListener;",
+        "app_publishRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x3,
+        0x0
+    }
+    xi = 0x32
+.end annotation
+
+
+# static fields
+.field public static final $stable:I = 0x8
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 2
+
+    .line 1
+    const-wide v0, -0x36a538e5051405a7L    # -2.3886556037440912E45
+
+    .line 2
+    .line 3
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {v0, v1}, Lcom/bumptech/glide/飘花落叶言子楪世哲兰苏;->飘花落叶言子世楪苏兰哲(J)Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-direct {p0, p1}, Llin/xposed/hook/view/main/itemview/base/OtherViewItemInfo;-><init>(Landroid/content/Context;)V
+
+    .line 13
+    .line 14
+    .line 15
+    return-void
+.end method
+
+.method private static final getOnClick$lambda$0(Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    new-instance p0, L飘花落叶言世楪哲苏子兰/飘花落叶言子楪苏世兰哲;
+
+    .line 2
+    .line 3
+    const/16 v0, 0x1a
+
+    .line 4
+    .line 5
+    invoke-direct {p0, v0}, L飘花落叶言世楪哲苏子兰/飘花落叶言子楪苏世兰哲;-><init>(I)V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-virtual {p0}, L飘花落叶言世楪哲苏子兰/飘花落叶言子楪苏世兰哲;->飘花落叶言子楪哲苏兰世()V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public static synthetic 飘花落叶言子楪世苏哲兰(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Llin/xposed/hook/view/main/itemview/NoticeLog;->getOnClick$lambda$0(Landroid/view/View;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public getLeftText()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    const-wide v0, -0x36a57894051405a7L    # -2.366465110032443E45
+
+    .line 2
+    .line 3
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {v0, v1}, Lcom/bumptech/glide/飘花落叶言子楪世哲兰苏;->飘花落叶言子世楪苏兰哲(J)Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p0
+
+    .line 10
+    return-object p0
+.end method
+
+.method public getOnClick()Landroid/view/View$OnClickListener;
+    .locals 1
+
+    .line 1
+    new-instance p0, Llin/xposed/hook/javaplugin/dialog/飘花落叶言子楪世哲苏兰;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x6
+
+    .line 4
+    invoke-direct {p0, v0}, Llin/xposed/hook/javaplugin/dialog/飘花落叶言子楪世哲苏兰;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object p0
+.end method

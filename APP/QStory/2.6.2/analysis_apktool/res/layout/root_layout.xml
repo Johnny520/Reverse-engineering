@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/setting_title_bar" />
+    <FrameLayout android:id="@id/itemList_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

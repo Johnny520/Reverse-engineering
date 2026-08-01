@@ -1,0 +1,27 @@
+package p377;
+
+import java.util.Objects;
+
+/* JADX INFO: renamed from: 飘花落叶言苏子世楪哲兰.飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C9754 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public long f25477;
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C9754) && this.f25477 == ((C9754) obj).f25477;
+    }
+
+    public final int hashCode() {
+        return Objects.hash(Long.valueOf(this.f25477));
+    }
+
+    public final String toString() {
+        return Long.toString(this.f25477);
+    }
+}

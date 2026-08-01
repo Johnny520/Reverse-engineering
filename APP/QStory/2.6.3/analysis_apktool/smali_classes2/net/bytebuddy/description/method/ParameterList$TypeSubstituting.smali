@@ -1,0 +1,197 @@
+.class public Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;
+.super Lnet/bytebuddy/description/method/ParameterList$AbstractBase;
+.source "r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/bytebuddy/description/method/ParameterList;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "TypeSubstituting"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lnet/bytebuddy/description/method/ParameterList$AbstractBase<",
+        "Lnet/bytebuddy/description/method/ParameterDescription$InGenericShape;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final declaringMethod:Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;
+
+.field private final parameterDescriptions:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "+",
+            "Lnet/bytebuddy/description/method/ParameterDescription;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private size:I
+
+.field private final visitor:Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor<",
+            "+",
+            "Lnet/bytebuddy/description/type/TypeDescription$Generic;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;Ljava/util/List;Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;",
+            "Ljava/util/List<",
+            "+",
+            "Lnet/bytebuddy/description/method/ParameterDescription;",
+            ">;",
+            "Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor<",
+            "+",
+            "Lnet/bytebuddy/description/type/TypeDescription$Generic;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lnet/bytebuddy/description/method/ParameterList$AbstractBase;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->declaringMethod:Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->parameterDescriptions:Ljava/util/List;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->visitor:Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic get(I)Ljava/lang/Object;
+    .locals 0
+
+    .line 19
+    invoke-virtual {p0, p1}, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->get(I)Lnet/bytebuddy/description/method/ParameterDescription$InGenericShape;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public get(I)Lnet/bytebuddy/description/method/ParameterDescription$InGenericShape;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lnet/bytebuddy/description/method/ParameterDescription$TypeSubstituting;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->declaringMethod:Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;
+
+    .line 4
+    .line 5
+    iget-object v2, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->parameterDescriptions:Ljava/util/List;
+
+    .line 6
+    .line 7
+    invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    check-cast p1, Lnet/bytebuddy/description/method/ParameterDescription;
+
+    .line 12
+    .line 13
+    iget-object p0, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->visitor:Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, v1, p1, p0}, Lnet/bytebuddy/description/method/ParameterDescription$TypeSubstituting;-><init>(Lnet/bytebuddy/description/method/MethodDescription$InGenericShape;Lnet/bytebuddy/description/method/ParameterDescription;Lnet/bytebuddy/description/type/TypeDescription$Generic$Visitor;)V
+
+    .line 16
+    .line 17
+    .line 18
+    return-object v0
+.end method
+
+.method public size()I
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->size:I
+
+    .line 2
+    .line 3
+    const/4 v1, -0x1
+
+    .line 4
+    if-nez v0, :cond_1
+
+    .line 5
+    .line 6
+    iget-object v0, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->parameterDescriptions:Ljava/util/List;
+
+    .line 7
+    .line 8
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-nez v0, :cond_0
+
+    .line 13
+    .line 14
+    move v0, v1
+
+    .line 15
+    :cond_0
+    iput v0, p0, Lnet/bytebuddy/description/method/ParameterList$TypeSubstituting;->size:I
+
+    .line 16
+    .line 17
+    :cond_1
+    if-ne v0, v1, :cond_2
+
+    .line 18
+    .line 19
+    const/4 p0, 0x0
+
+    .line 20
+    return p0
+
+    .line 21
+    :cond_2
+    return v0
+.end method

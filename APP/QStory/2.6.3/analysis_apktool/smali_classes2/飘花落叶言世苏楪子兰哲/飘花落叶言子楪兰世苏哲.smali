@@ -1,0 +1,37 @@
+.class public final L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰世苏哲;
+.super L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰苏世哲;
+.source "r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4"
+
+
+# static fields
+.field public static final 飘花落叶言子楪世哲苏兰:L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰世苏哲;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰世苏哲;
+
+    .line 2
+    .line 3
+    const-string v1, "Int"
+
+    .line 4
+    .line 5
+    sget-object v2, L飘花落叶言世苏楪子兰哲/飘花落叶言子楪苏世哲兰;->飘花落叶言子楪兰哲苏世:L飘花落叶言世苏楪子兰哲/飘花落叶言子楪苏世哲兰;
+
+    .line 6
+    .line 7
+    invoke-direct {v0, v1, v2}, L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰苏世哲;-><init>(Ljava/lang/String;L飘花落叶言世子哲楪兰苏/飘花落叶言子楪苏兰哲世;)V
+
+    .line 8
+    .line 9
+    .line 10
+    sput-object v0, L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰世苏哲;->飘花落叶言子楪世哲苏兰:L飘花落叶言世苏楪子兰哲/飘花落叶言子楪兰世苏哲;
+
+    .line 11
+    .line 12
+    return-void
+.end method

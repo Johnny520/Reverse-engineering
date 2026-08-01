@@ -1,0 +1,179 @@
+﻿package com.alibaba.fastjson2.reader;
+
+import com.alibaba.fastjson2.schema.JSONSchema;
+import java.util.function.Function;
+import java.util.function.Supplier;
+
+/* JADX INFO: renamed from: com.alibaba.fastjson2.reader.飘花落叶言子苏楪哲兰世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C2790 extends C2772 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰哲楪苏, reason: contains not printable characters */
+    public final long f8608;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰哲苏楪, reason: contains not printable characters */
+    public final long f8609;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰楪哲苏, reason: contains not printable characters */
+    public final long f8610;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰楪苏哲, reason: contains not printable characters */
+    public final long f8611;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰苏哲楪, reason: contains not printable characters */
+    public final long f8612;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世兰苏楪哲, reason: contains not printable characters */
+    public final long f8613;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲兰楪苏, reason: contains not printable characters */
+    public final long f8614;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲兰苏楪, reason: contains not printable characters */
+    public final long f8615;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲楪兰苏, reason: contains not printable characters */
+    public final long f8616;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲楪苏兰, reason: contains not printable characters */
+    public final long f8617;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲苏兰楪, reason: contains not printable characters */
+    public final long f8618;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世哲苏楪兰, reason: contains not printable characters */
+    public final long f8619;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪兰哲苏, reason: contains not printable characters */
+    public final AbstractC2762 f8620;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪兰苏哲, reason: contains not printable characters */
+    public final AbstractC2762 f8621;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪哲兰苏, reason: contains not printable characters */
+    public final AbstractC2762 f8622;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪哲苏兰, reason: contains not printable characters */
+    public final AbstractC2762 f8623;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪苏兰哲, reason: contains not printable characters */
+    public final AbstractC2762 f8624;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世楪苏哲兰, reason: contains not printable characters */
+    public final AbstractC2762 f8625;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏兰哲楪, reason: contains not printable characters */
+    public final long f8626;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏兰楪哲, reason: contains not printable characters */
+    public final long f8627;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏哲兰楪, reason: contains not printable characters */
+    public final long f8628;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏哲楪兰, reason: contains not printable characters */
+    public final long f8629;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏楪兰哲, reason: contains not printable characters */
+    public final AbstractC2762 f8630;
+
+    /* JADX INFO: renamed from: 飘花落叶言子世苏楪哲兰, reason: contains not printable characters */
+    public final AbstractC2762 f8631;
+
+    public C2790(Class cls, long j, JSONSchema jSONSchema, Supplier supplier, Function function, AbstractC2762... abstractC2762Arr) {
+        super(cls, null, null, j, jSONSchema, supplier, function, abstractC2762Arr);
+        AbstractC2762 abstractC2762 = abstractC2762Arr[0];
+        this.f8625 = abstractC2762;
+        AbstractC2762 abstractC27622 = abstractC2762Arr[1];
+        this.f8624 = abstractC27622;
+        AbstractC2762 abstractC27623 = abstractC2762Arr[2];
+        this.f8623 = abstractC27623;
+        AbstractC2762 abstractC27624 = abstractC2762Arr[3];
+        this.f8622 = abstractC27624;
+        AbstractC2762 abstractC27625 = abstractC2762Arr[4];
+        this.f8621 = abstractC27625;
+        AbstractC2762 abstractC27626 = abstractC2762Arr[5];
+        this.f8620 = abstractC27626;
+        AbstractC2762 abstractC27627 = abstractC2762Arr[6];
+        this.f8631 = abstractC27627;
+        AbstractC2762 abstractC27628 = abstractC2762Arr[7];
+        this.f8630 = abstractC27628;
+        this.f8629 = abstractC2762.f8411;
+        this.f8628 = abstractC27622.f8411;
+        this.f8627 = abstractC27623.f8411;
+        this.f8626 = abstractC27624.f8411;
+        this.f8617 = abstractC27625.f8411;
+        this.f8616 = abstractC27626.f8411;
+        this.f8619 = abstractC27627.f8411;
+        this.f8618 = abstractC27628.f8411;
+        this.f8614 = abstractC2762.f8410;
+        this.f8615 = abstractC27622.f8410;
+        this.f8611 = abstractC27623.f8410;
+        this.f8610 = abstractC27624.f8410;
+        this.f8613 = abstractC27625.f8410;
+        this.f8612 = abstractC27626.f8410;
+        this.f8608 = abstractC27627.f8410;
+        this.f8609 = abstractC27628.f8410;
+    }
+
+    @Override // com.alibaba.fastjson2.reader.C2772, com.alibaba.fastjson2.reader.InterfaceC2788
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    public final AbstractC2762 mo5464(long j) {
+        if (j == this.f8614) {
+            return this.f8625;
+        }
+        if (j == this.f8615) {
+            return this.f8624;
+        }
+        if (j == this.f8611) {
+            return this.f8623;
+        }
+        if (j == this.f8610) {
+            return this.f8622;
+        }
+        if (j == this.f8613) {
+            return this.f8621;
+        }
+        if (j == this.f8612) {
+            return this.f8620;
+        }
+        if (j == this.f8608) {
+            return this.f8631;
+        }
+        if (j == this.f8609) {
+            return this.f8630;
+        }
+        return null;
+    }
+
+    @Override // com.alibaba.fastjson2.reader.C2772, com.alibaba.fastjson2.reader.InterfaceC2788
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲世兰苏 */
+    public final AbstractC2762 mo5465(long j) {
+        if (j == this.f8629) {
+            return this.f8625;
+        }
+        if (j == this.f8628) {
+            return this.f8624;
+        }
+        if (j == this.f8627) {
+            return this.f8623;
+        }
+        if (j == this.f8626) {
+            return this.f8622;
+        }
+        if (j == this.f8617) {
+            return this.f8621;
+        }
+        if (j == this.f8616) {
+            return this.f8620;
+        }
+        if (j == this.f8619) {
+            return this.f8631;
+        }
+        if (j == this.f8618) {
+            return this.f8630;
+        }
+        return null;
+    }
+}

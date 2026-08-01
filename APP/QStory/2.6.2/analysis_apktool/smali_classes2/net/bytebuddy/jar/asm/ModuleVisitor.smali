@@ -1,0 +1,333 @@
+.class public abstract Lnet/bytebuddy/jar/asm/ModuleVisitor;
+.super Ljava/lang/Object;
+.source "r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776"
+
+
+# instance fields
+.field protected final api:I
+
+.field protected mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 52
+    invoke-direct {p0, p1, v0}, Lnet/bytebuddy/jar/asm/ModuleVisitor;-><init>(ILnet/bytebuddy/jar/asm/ModuleVisitor;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(ILnet/bytebuddy/jar/asm/ModuleVisitor;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/high16 v0, 0x90000
+
+    .line 5
+    .line 6
+    const/high16 v1, 0x10a0000
+
+    .line 7
+    .line 8
+    if-eq p1, v0, :cond_1
+
+    .line 9
+    .line 10
+    const/high16 v0, 0x80000
+
+    .line 11
+    .line 12
+    if-eq p1, v0, :cond_1
+
+    .line 13
+    .line 14
+    const/high16 v0, 0x70000
+
+    .line 15
+    .line 16
+    if-eq p1, v0, :cond_1
+
+    .line 17
+    .line 18
+    const/high16 v0, 0x60000
+
+    .line 19
+    .line 20
+    if-eq p1, v0, :cond_1
+
+    .line 21
+    .line 22
+    const/high16 v0, 0x50000
+
+    .line 23
+    .line 24
+    if-eq p1, v0, :cond_1
+
+    .line 25
+    .line 26
+    const/high16 v0, 0x40000
+
+    .line 27
+    .line 28
+    if-eq p1, v0, :cond_1
+
+    .line 29
+    .line 30
+    if-ne p1, v1, :cond_0
+
+    .line 31
+    .line 32
+    goto :goto_0
+
+    .line 33
+    :cond_0
+    invoke-static {p1}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->stringConcat$0(I)Ljava/lang/String;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object p0
+
+    .line 37
+    invoke-static {p0}, Ltop/suzhelan/qstory/hook/item/飘花落叶言子楪哲兰苏世;->飘花落叶言子楪苏世哲兰(Ljava/lang/String;)V
+
+    .line 38
+    .line 39
+    .line 40
+    const/4 p0, 0x0
+
+    .line 41
+    throw p0
+
+    .line 42
+    :cond_1
+    :goto_0
+    if-ne p1, v1, :cond_2
+
+    .line 43
+    .line 44
+    invoke-static {p0}, Lnet/bytebuddy/jar/asm/Constants;->checkAsmExperimental(Ljava/lang/Object;)V
+
+    .line 45
+    .line 46
+    .line 47
+    :cond_2
+    iput p1, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->api:I
+
+    .line 48
+    .line 49
+    iput-object p2, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 50
+    .line 51
+    return-void
+.end method
+
+.method private static synthetic stringConcat$0(I)Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "Unsupported api "
+
+    .line 2
+    .line 3
+    invoke-static {p0, v0}, L飘花落叶言世兰子哲楪苏/飘花落叶言子楪兰苏世哲;->飘花落叶言子楪苏兰世哲(ILjava/lang/String;)Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getDelegate()Lnet/bytebuddy/jar/asm/ModuleVisitor;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public visitEnd()V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitEnd()V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public varargs visitExport(Ljava/lang/String;I[Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2, p3}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitExport(Ljava/lang/String;I[Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public visitMainClass(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitMainClass(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public varargs visitOpen(Ljava/lang/String;I[Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2, p3}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitOpen(Ljava/lang/String;I[Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public visitPackage(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitPackage(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public varargs visitProvide(Ljava/lang/String;[Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitProvide(Ljava/lang/String;[Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public visitRequire(Ljava/lang/String;ILjava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2, p3}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitRequire(Ljava/lang/String;ILjava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public visitUse(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lnet/bytebuddy/jar/asm/ModuleVisitor;->mv:Lnet/bytebuddy/jar/asm/ModuleVisitor;
+
+    .line 2
+    .line 3
+    if-eqz p0, :cond_0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lnet/bytebuddy/jar/asm/ModuleVisitor;->visitUse(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :cond_0
+    return-void
+.end method

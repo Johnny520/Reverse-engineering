@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lihang.ShadowLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dp" app:hl_cornerRadius="8.0dp" app:hl_layoutBackground="@android:color/transparent" app:hl_shadowColor="@color/online_plugin_glow_shadow" app:hl_shadowLimit="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/online_plugin_card_bg" android:padding="4.0dp" android:layout_width="180.0dp" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/sort_time" android:background="?selectableItemBackground" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="按时间排序" />
+        <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/sort_download_desc" android:background="?selectableItemBackground" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="下载量由高到低" />
+        <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/sort_download_asc" android:background="?selectableItemBackground" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="下载量由低到高" />
+        <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@id/sort_random" android:background="?selectableItemBackground" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="随机脚本" />
+    </LinearLayout>
+</com.lihang.ShadowLayout>

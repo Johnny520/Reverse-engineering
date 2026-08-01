@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="text" android:layout_centerVertical="true" />
+    <CheckBox android:theme="@style/MyCheckBox" android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:scaleX="1.1" android:scaleY="1.1" android:layout_alignParentEnd="true" />
+</RelativeLayout>

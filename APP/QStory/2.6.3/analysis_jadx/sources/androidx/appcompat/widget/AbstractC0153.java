@@ -1,0 +1,10 @@
+package androidx.appcompat.widget;
+
+import android.widget.AdapterView;
+import android.widget.HorizontalScrollView;
+
+/* JADX INFO: renamed from: androidx.appcompat.widget.飘花落叶言子兰楪苏世哲, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0153 extends HorizontalScrollView implements AdapterView.OnItemSelectedListener {
+}

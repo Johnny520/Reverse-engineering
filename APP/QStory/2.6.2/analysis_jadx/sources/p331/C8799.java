@@ -1,0 +1,49 @@
+package p331;
+
+import com.alibaba.fastjson2.InterfaceC2915;
+import com.bumptech.glide.AbstractC3056;
+import java.time.LocalDateTime;
+import p279.InterfaceC8366;
+
+/* JADX INFO: renamed from: 飘花落叶言苏世子兰哲楪.飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public class C8799 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰哲苏, reason: contains not printable characters */
+    @InterfaceC8366(name = "sponsorEndDate", ordinal = 6)
+    public LocalDateTime f24756;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    @InterfaceC8366(name = "uin", ordinal = 1)
+    public String f24761 = AbstractC3056.m6668(-3937561652678100391L);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    @InterfaceC8366(name = "nickname", ordinal = 2)
+    public String f24760 = AbstractC3056.m6668(-3937627554656290215L);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    @InterfaceC8366(name = "identity", ordinal = 3)
+    public Integer f24759 = 0;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲兰苏, reason: contains not printable characters */
+    @InterfaceC8366(name = "identityName", ordinal = 4)
+    public String f24758 = AbstractC3056.m6668(-3937627554656290215L);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世兰苏哲, reason: contains not printable characters */
+    @InterfaceC8366(name = "label", ordinal = 5)
+    public String f24757 = AbstractC3056.m6668(-3937561979095614887L);
+
+    static {
+        AbstractC3056.m6668(-3937586675157566887L);
+        AbstractC3056.m6668(-3937662816337790375L);
+        AbstractC3056.m6668(-3937662717553542567L);
+        AbstractC3056.m6668(-3937636178950620583L);
+        AbstractC3056.m6668(-3937662756208248231L);
+        AbstractC3056.m6668(-3937662644539098535L);
+    }
+
+    public final String toString() {
+        return InterfaceC2915.m6317(this);
+    }
+}

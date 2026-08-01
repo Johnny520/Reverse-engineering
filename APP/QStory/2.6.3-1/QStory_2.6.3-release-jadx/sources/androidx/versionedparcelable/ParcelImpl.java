@@ -1,0 +1,30 @@
+package androidx.versionedparcelable;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.material.internal.C3995;
+import p165.C8404;
+import p165.InterfaceC8403;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public class ParcelImpl implements Parcelable {
+    public static final Parcelable.Creator<ParcelImpl> CREATOR = new C3995(2);
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲苏兰世, reason: contains not printable characters */
+    public final InterfaceC8403 f7989;
+
+    public ParcelImpl(Parcel parcel) {
+        this.f7989 = new C8404(parcel).m13364();
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        new C8404(parcel).m13365(this.f7989);
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_single_preview" android:layout_width="200.0dp" android:layout_height="200.0dp" android:contentDescription="singlePreview" />
+    <HorizontalScrollView android:id="@id/hsv_sticker_preview" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:paddingHorizontal="12.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_sticker_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_color" android:id="@id/tv_dir_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="选择保存到：" android:layout_marginStart="12.0dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxHeight="200.0dp">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_dir_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dp" />
+    </ScrollView>
+</LinearLayout>

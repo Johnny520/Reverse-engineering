@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <top.suzhelan.qstory.ui.views.CustomShadowLayout
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:gradient_offset_y="5dp"
+        app:hl_cornerRadius="18dp"
+        app:hl_layoutBackground="@color/simple_loading_dialog_bg"
+        app:hl_shadowColor="@color/simple_loading_dialog_glow"
+        app:hl_shadowLimit="30dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/simple_loading_dialog_text"
+                android:gravity="center"
+                android:id="@+id/simple_loading_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="解析已安装脚本..."/>
+            <ProgressBar
+                android:id="@+id/simple_loading"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:progress="0"
+                android:indeterminate="false"
+                android:progressTint="@color/simple_loading_dialog_progress"
+                android:progressBackgroundTint="@color/simple_loading_dialog_stroke"
+                style="@android:style/Widget.ProgressBar.Horizontal"/>
+        </LinearLayout>
+    </top.suzhelan.qstory.ui.views.CustomShadowLayout>
+</FrameLayout>

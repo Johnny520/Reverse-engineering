@@ -1,0 +1,104 @@
+.class public final Landroidx/fragment/app/飘花落叶言子世哲苏楪兰;
+.super Ljava/lang/Object;
+.source "r8-map-id-70bf64ddac3f904dcf61383bec717e6f4283f4f555a9f70f5d9ea129839b05ef"
+
+# interfaces
+.implements Landroidx/fragment/app/飘花落叶言子世哲楪兰苏;
+
+
+# instance fields
+.field public final synthetic 飘花落叶言子楪世苏兰哲:Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;
+
+.field public final 飘花落叶言子楪世苏哲兰:I
+
+
+# direct methods
+.method public constructor <init>(Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/fragment/app/飘花落叶言子世哲苏楪兰;->飘花落叶言子楪世苏兰哲:Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;
+
+    .line 5
+    .line 6
+    iput p2, p0, Landroidx/fragment/app/飘花落叶言子世哲苏楪兰;->飘花落叶言子楪世苏哲兰:I
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final 飘花落叶言子楪世苏哲兰(Ljava/util/ArrayList;Ljava/util/ArrayList;)Z
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Landroidx/fragment/app/飘花落叶言子世哲苏楪兰;->飘花落叶言子楪世苏兰哲:Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;
+
+    .line 2
+    .line 3
+    iget-object v1, v0, Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;->飘花落叶言子楪兰哲苏世:Landroidx/fragment/app/飘花落叶言子楪兰苏哲世;
+
+    .line 4
+    .line 5
+    iget p0, p0, Landroidx/fragment/app/飘花落叶言子世哲苏楪兰;->飘花落叶言子楪世苏哲兰:I
+
+    .line 6
+    .line 7
+    if-eqz v1, :cond_0
+
+    .line 8
+    .line 9
+    if-gez p0, :cond_0
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Landroidx/fragment/app/飘花落叶言子楪兰苏哲世;->飘花落叶言子楪世哲兰苏()Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    const/4 v2, -0x1
+
+    .line 16
+    const/4 v3, 0x0
+
+    .line 17
+    invoke-virtual {v1, v2, v3}, Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;->飘花落叶言子世哲兰苏楪(II)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    if-eqz v1, :cond_0
+
+    .line 22
+    .line 23
+    return v3
+
+    .line 24
+    :cond_0
+    const/4 v1, 0x1
+
+    .line 25
+    invoke-virtual {v0, p1, p2, p0, v1}, Landroidx/fragment/app/飘花落叶言子世哲苏兰楪;->飘花落叶言子世兰楪苏哲(Ljava/util/ArrayList;Ljava/util/ArrayList;II)Z
+
+    .line 26
+    .line 27
+    .line 28
+    move-result p0
+
+    .line 29
+    return p0
+.end method

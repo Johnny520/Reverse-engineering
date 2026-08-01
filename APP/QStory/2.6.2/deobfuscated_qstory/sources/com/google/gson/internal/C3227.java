@@ -1,0 +1,12 @@
+package com.google.gson.internal;
+
+/* JADX INFO: renamed from: com.google.gson.internal.飘花落叶言子楪兰世苏哲, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C3227 extends AbstractC3226 {
+    @Override // com.google.gson.internal.AbstractC3226
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰 */
+    public final Object mo7337(Class cls) {
+        throw new UnsupportedOperationException("Cannot allocate " + cls + ". Usage of JDK sun.misc.Unsafe is enabled, but it could not be used. Make sure your runtime is configured correctly.");
+    }
+}

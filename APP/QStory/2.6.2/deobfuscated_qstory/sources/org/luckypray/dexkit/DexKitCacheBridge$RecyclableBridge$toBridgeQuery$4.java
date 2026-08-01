@@ -1,0 +1,23 @@
+package org.luckypray.dexkit;
+
+import androidx.activity.AbstractC0053;
+import java.util.List;
+import kotlin.Metadata;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+import org.luckypray.dexkit.result.C5727;
+import p052.InterfaceC6557;
+
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+@Metadata(k = 3, mv = {1, 5, 1}, xi = 48)
+final /* synthetic */ class DexKitCacheBridge$RecyclableBridge$toBridgeQuery$4 extends FunctionReferenceImpl implements InterfaceC6557 {
+    public DexKitCacheBridge$RecyclableBridge$toBridgeQuery$4(Object obj) {
+        super(1, obj, InterfaceC5743.class, "build", "build(Lorg/luckypray/dexkit/DexKitBridge;)Ljava/util/List;", 0);
+    }
+
+    @Override // p052.InterfaceC6557
+    public final List<C5727> invoke(DexKitBridge dexKitBridge) {
+        dexKitBridge.getClass();
+        throw AbstractC0053.m158(this.receiver);
+    }
+}

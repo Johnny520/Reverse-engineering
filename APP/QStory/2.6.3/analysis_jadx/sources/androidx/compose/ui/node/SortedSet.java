@@ -1,0 +1,26 @@
+package androidx.compose.ui.node;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+import kotlin.Metadata;
+import net.bytebuddy.description.method.MethodDescription;
+
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0001\u0018\u0000*\u0004\b\u0000\u0010\u00012\b\u0012\u0004\u0012\u0002H\u00010\u0002B#\u0012\u001a\u0010\u0003\u001a\u0016\u0012\u0006\b\u0000\u0012\u00028\u00000\u0004j\n\u0012\u0006\b\u0000\u0012\u00028\u0000`\u0005¢\u0006\u0004\b\u0006\u0010\u0007¨\u0006\b"}, d2 = {"Landroidx/compose/ui/node/SortedSet;", "E", "Ljava/util/TreeSet;", "comparator", "Ljava/util/Comparator;", "Lkotlin/Comparator;", MethodDescription.CONSTRUCTOR_INTERNAL_NAME, "(Ljava/util/Comparator;)V", "ui"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public final class SortedSet<E> extends TreeSet<E> {
+    public static final int $stable = 8;
+
+    public SortedSet(Comparator<? super E> comparator) {
+        super(comparator);
+    }
+
+    public /* bridge */ int getSize() {
+        return super.size();
+    }
+
+    @Override // java.util.TreeSet, java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final /* bridge */ int size() {
+        return getSize();
+    }
+}

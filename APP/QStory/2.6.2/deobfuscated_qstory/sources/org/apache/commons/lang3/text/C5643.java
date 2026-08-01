@@ -1,0 +1,49 @@
+package org.apache.commons.lang3.text;
+
+import java.io.Writer;
+
+/* JADX INFO: renamed from: org.apache.commons.lang3.text.飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C5643 extends Writer {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪哲苏兰世, reason: contains not printable characters */
+    public final /* synthetic */ StrBuilder f15525;
+
+    public C5643(StrBuilder strBuilder) {
+        this.f15525 = strBuilder;
+    }
+
+    @Override // java.io.Writer
+    public final void write(int i) {
+        this.f15525.append((char) i);
+    }
+
+    @Override // java.io.Writer
+    public final void write(char[] cArr, int i, int i2) {
+        this.f15525.append(cArr, i, i2);
+    }
+
+    @Override // java.io.Writer
+    public final void write(char[] cArr) {
+        this.f15525.append(cArr);
+    }
+
+    @Override // java.io.Writer
+    public final void write(String str) {
+        this.f15525.append(str);
+    }
+
+    @Override // java.io.Writer
+    public final void write(String str, int i, int i2) {
+        this.f15525.append(str, i, i2);
+    }
+
+    @Override // java.io.Writer, java.io.Closeable, java.lang.AutoCloseable
+    public final void close() {
+    }
+
+    @Override // java.io.Writer, java.io.Flushable
+    public final void flush() {
+    }
+}

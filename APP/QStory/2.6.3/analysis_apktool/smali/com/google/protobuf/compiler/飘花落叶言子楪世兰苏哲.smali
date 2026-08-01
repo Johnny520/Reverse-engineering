@@ -1,0 +1,121 @@
+.class public interface abstract Lcom/google/protobuf/compiler/飘花落叶言子楪世兰苏哲;
+.super Ljava/lang/Object;
+.source "r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4"
+
+# interfaces
+.implements Lcom/google/protobuf/飘花落叶言世苏哲楪兰子;
+
+
+# virtual methods
+.method public abstract synthetic findInitializationErrors()Ljava/util/List;
+.end method
+
+.method public abstract synthetic getAllFields()Ljava/util/Map;
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/飘花落叶言世苏哲子楪兰;
+    .locals 0
+
+    .line 1
+    invoke-interface {p0}, Lcom/google/protobuf/飘花落叶言世苏哲楪兰子;->getDefaultInstanceForType()Lcom/google/protobuf/飘花落叶言世苏楪哲子兰;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/飘花落叶言世苏楪哲子兰;
+.end method
+
+.method public abstract synthetic getDescriptorForType()Lcom/google/protobuf/飘花落叶言楪子哲世苏兰;
+.end method
+
+.method public abstract getError()Ljava/lang/String;
+.end method
+
+.method public abstract getErrorBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract synthetic getField(Lcom/google/protobuf/飘花落叶言楪子兰世苏哲;)Ljava/lang/Object;
+.end method
+
+.method public abstract getFile(I)Lcom/google/protobuf/compiler/PluginProtos$CodeGeneratorResponse$File;
+.end method
+
+.method public abstract getFileCount()I
+.end method
+
+.method public abstract getFileList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/protobuf/compiler/PluginProtos$CodeGeneratorResponse$File;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getFileOrBuilder(I)L飘花落叶言楪哲世苏子兰/飘花落叶言子楪世哲苏兰;
+.end method
+
+.method public abstract getFileOrBuilderList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "+",
+            "L\u98d8\u82b1\u843d\u53f6\u8a00\u696a\u54f2\u4e16\u82cf\u5b50\u5170/\u98d8\u82b1\u843d\u53f6\u8a00\u5b50\u696a\u4e16\u54f2\u82cf\u5170;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getInitializationErrorString()Ljava/lang/String;
+.end method
+
+.method public abstract getMaximumEdition()I
+.end method
+
+.method public abstract getMinimumEdition()I
+.end method
+
+.method public abstract synthetic getOneofFieldDescriptor(Lcom/google/protobuf/飘花落叶言楪世子苏哲兰;)Lcom/google/protobuf/飘花落叶言楪子兰世苏哲;
+.end method
+
+.method public abstract synthetic getRepeatedField(Lcom/google/protobuf/飘花落叶言楪子兰世苏哲;I)Ljava/lang/Object;
+.end method
+
+.method public abstract synthetic getRepeatedFieldCount(Lcom/google/protobuf/飘花落叶言楪子兰世苏哲;)I
+.end method
+
+.method public abstract getSupportedFeatures()J
+.end method
+
+.method public abstract synthetic getUnknownFields()Lcom/google/protobuf/飘花落叶言苏子兰世哲楪;
+.end method
+
+.method public abstract hasError()Z
+.end method
+
+.method public abstract synthetic hasField(Lcom/google/protobuf/飘花落叶言楪子兰世苏哲;)Z
+.end method
+
+.method public abstract hasMaximumEdition()Z
+.end method
+
+.method public abstract hasMinimumEdition()Z
+.end method
+
+.method public abstract synthetic hasOneof(Lcom/google/protobuf/飘花落叶言楪世子苏哲兰;)Z
+.end method
+
+.method public abstract hasSupportedFeatures()Z
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

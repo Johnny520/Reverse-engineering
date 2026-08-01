@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/card_shape" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5月8日之前赞助过 但是受到了数据库丢失的影响？\n请输入之前的转账信息 以重新改变赞助的用户状态" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="转账单号:" />
+        <EditText android:textSize="13.0sp" android:id="@id/order_id_edit" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单时间:" />
+        <EditText android:textSize="13.0sp" android:id="@id/order_time_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="例如：2024-4-6 22:16:13" />
+    </LinearLayout>
+    <Button android:textSize="13.0sp" android:id="@id/start_upgrade_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="确认" />
+    <TextView android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="注意 赞助用户会绑定到当前的QQ号上" />
+</LinearLayout>

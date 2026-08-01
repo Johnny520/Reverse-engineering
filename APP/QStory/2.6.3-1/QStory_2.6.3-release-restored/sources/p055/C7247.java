@@ -1,0 +1,15 @@
+package p055;
+
+import p035.C7092;
+import p042.AbstractC7140;
+import p049.AbstractC7166;
+
+/* JADX INFO: renamed from: 飘花落叶言世哲楪苏子兰.飘花落叶言子楪兰哲世苏, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes2.dex */
+public class C7247 extends AbstractC7140 {
+    @Override // p042.AbstractC7143
+    public final void loadHook(ClassLoader classLoader) {
+        m12389(AbstractC7166.m12425("com.tencent.mobileqq.emotionintegrate.AIOEmotionFragment").getMethod("onResume", null), new C7092(12));
+    }
+}

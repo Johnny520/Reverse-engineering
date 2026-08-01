@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_sort_by_random"
+            android:title="随机脚本"/>
+        <item
+            android:id="@+id/menu_sort_by_time"
+            android:title="按时间排序"/>
+        <item
+            android:id="@+id/menu_sort_by_download_desc"
+            android:title="下载量由高到低"/>
+        <item
+            android:id="@+id/menu_sort_by_download_asc"
+            android:title="下载量由低到高"/>
+    </group>
+</menu>

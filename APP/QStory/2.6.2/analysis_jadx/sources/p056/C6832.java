@@ -1,0 +1,46 @@
+package p056;
+
+import androidx.activity.AbstractC0053;
+import kotlin.jvm.internal.AbstractC4394;
+import p087.AbstractC7143;
+import p089.InterfaceC7180;
+
+/* JADX INFO: renamed from: 飘花落叶言世子楪兰苏哲.飘花落叶言楪苏兰世哲子, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-cb39a6809a634dd4ad3d163e22b2e3b526599fa3253f8854b17de2b335a1a776 */
+/* JADX INFO: loaded from: classes2.dex */
+@InterfaceC7180
+public final class C6832 implements InterfaceC6835 {
+    public static final C6833 Companion = new C6833();
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏哲兰, reason: contains not printable characters */
+    public final String f18280;
+
+    public /* synthetic */ C6832(int i, String str) {
+        if (1 == (i & 1)) {
+            this.f18280 = str;
+        } else {
+            AbstractC7143.m12393(i, 1, C6837.f18283.getDescriptor());
+            throw null;
+        }
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C6832) && AbstractC4394.m8917(this.f18280, ((C6832) obj).f18280);
+    }
+
+    public final int hashCode() {
+        return this.f18280.hashCode();
+    }
+
+    public final String toString() {
+        return AbstractC0053.m155(new StringBuilder("StringId(value="), this.f18280, ')');
+    }
+
+    public C6832(String str) {
+        str.getClass();
+        this.f18280 = str;
+    }
+}

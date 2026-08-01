@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4.0dp" app:cardCornerRadius="8.0dp" app:cardElevation="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/pluginIcon" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/ic_plugin_icon" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textAppearance="?textAppearanceTitleSmall" android:textStyle="bold" android:ellipsize="end" android:id="@id/plugin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="plugin name" android:maxLines="1" android:textIsSelectable="true" />
+                <TextView android:textAppearance="?textAppearanceBodySmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/plugin_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="plugin version" android:maxLines="1" />
+                <TextView android:textAppearance="?textAppearanceBodySmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/plugin_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="plugin author" android:maxLines="1" />
+            </LinearLayout>
+            <Switch android:layout_gravity="center_vertical" android:id="@id/plugin_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/switch_custom_thumb_shape" android:track="@drawable/switch_custom_track_shape" android:showText="false" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/plugin_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/record_progress" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearanceBodySmall" android:ellipsize="end" android:id="@id/plugin_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:text="plugin description" android:maxLines="3" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textAppearance="?textAppearanceLabelSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/plugin_create_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="创建时间" android:maxLines="1" />
+            <View android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:id="@id/btn_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dp" android:text="菜单" style="@style/Widget.Material3.Button.TextButton" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

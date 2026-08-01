@@ -1,0 +1,15 @@
+package androidx.compose.foundation.gestures;
+
+import p126.C8150;
+
+/* JADX INFO: renamed from: androidx.compose.foundation.gestures.飘花落叶言子苏楪哲兰世, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-447c03deab370cabd87f71de7ff996ccc1a6dc9764ce389c731d875d052048e4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1406 extends AbstractC1362 {
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世哲苏兰, reason: contains not printable characters */
+    public long f1962;
+
+    /* JADX INFO: renamed from: 飘花落叶言子楪世苏兰哲, reason: contains not printable characters */
+    public C8150 f1963;
+}
