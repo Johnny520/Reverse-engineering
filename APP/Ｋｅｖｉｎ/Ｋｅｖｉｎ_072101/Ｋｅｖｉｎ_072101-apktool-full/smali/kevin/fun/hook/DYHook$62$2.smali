@@ -1,0 +1,726 @@
+.class Lkevin/fun/hook/DYHook$62$2;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lkevin/fun/hook/DYHook$62;->afterHookedMethod(Lde/robv/android/xposed/XC_MethodHook$MethodHookParam;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final this$1:Lkevin/fun/hook/DYHook$62;
+
+.field private final val$isColorful:Z
+
+.field private final val$rootView:Landroid/view/View;
+
+.field private final val$targetColor:I
+
+.field private final val$targetTextSize:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method constructor <init>(Lkevin/fun/hook/DYHook$62;Landroid/view/View;ZII)V
+    .locals 2
+
+    iput-object p1, p0, Lkevin/fun/hook/DYHook$62$2;->this$1:Lkevin/fun/hook/DYHook$62;
+
+    iput-object p2, p0, Lkevin/fun/hook/DYHook$62$2;->val$rootView:Landroid/view/View;
+
+    iput-boolean p3, p0, Lkevin/fun/hook/DYHook$62$2;->val$isColorful:Z
+
+    iput p4, p0, Lkevin/fun/hook/DYHook$62$2;->val$targetColor:I
+
+    iput p5, p0, Lkevin/fun/hook/DYHook$62$2;->val$targetTextSize:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {}, Landroidx/loader/ۣۦ۟ۡ;->۟ۦ۠ۨ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-ltz v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    const-string v0, "1xdQ"
+
+    invoke-static {v0}, Lkevin/fun/hook/webdav/۟۟ۤۥۢ;->۟ۡ۠ۢ۠(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+
+    invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    :sswitch_3
+    return-void
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۣ۟۠ۨۡ(Ljava/lang/Object;)I
+    .locals 2
+
+    invoke-static {}, Landroidx/loader/ۣ۟۟ۧ۠;->ۡۥۢۦ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-gez v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62$2;
+
+    iget v0, p0, Lkevin/fun/hook/DYHook$62$2;->val$targetTextSize:I
+
+    :sswitch_3
+    return v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۟ۡ۟ۥۥ(Ljava/lang/Object;)Z
+    .locals 2
+
+    invoke-static {}, Lcom/tencent/mmkv/ۣ۟۟۠ۧ;->ۡ۟ۨۨ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-gtz v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62$2;
+
+    iget-boolean v0, p0, Lkevin/fun/hook/DYHook$62$2;->val$isColorful:Z
+
+    :sswitch_3
+    return v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۣ۟۟ۧ(Ljava/lang/Object;)I
+    .locals 2
+
+    invoke-static {}, Landroidx/emoji2/ۢۧۡۧ;->ۡ۟ۦ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-gtz v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62$2;
+
+    iget v0, p0, Lkevin/fun/hook/DYHook$62$2;->val$targetColor:I
+
+    :sswitch_3
+    return v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۟ۤ۟ۤۤ(Ljava/lang/Object;)Lkevin/fun/hook/DYHook;
+    .locals 2
+
+    invoke-static {}, Landroidx/lifecycle/process/۠ۢۧۡ;->ۣ۟ۡۢۦ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-ltz v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62;
+
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62;->access$0(Lkevin/fun/hook/DYHook$62;)Lkevin/fun/hook/DYHook;
+
+    move-result-object v0
+
+    :sswitch_3
+    return-object v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۟ۦۧ۠ۨ(Ljava/lang/Object;)Lkevin/fun/hook/DYHook$62;
+    .locals 2
+
+    invoke-static {}, Landroidx/documentfile/ۡۢ۟ۥ;->۟۟ۧۢۡ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-ltz v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62$2;
+
+    iget-object v0, p0, Lkevin/fun/hook/DYHook$62$2;->this$1:Lkevin/fun/hook/DYHook$62;
+
+    :sswitch_3
+    return-object v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۣۣۤۦ(Ljava/lang/Object;Ljava/lang/Object;ZII)V
+    .locals 2
+
+    invoke-static {}, Landroidx/loader/ۥۧۨۤ;->ۣۡۧۨ()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-gez v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook;
+
+    check-cast p1, Landroid/view/View;
+
+    invoke-static {p0, p1, p2, p3, p4}, Lkevin/fun/hook/DYHook;->_$$Nest$mapplyTimestampStyle(Lkevin/fun/hook/DYHook;Landroid/view/View;ZII)V
+
+    :sswitch_3
+    return-void
+
+    :sswitch_4
+    const/16 v0, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v0, v0, 0x6dd
+
+    sparse-switch v0, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v0, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+.method public static ۦۥ۟۟(Ljava/lang/Object;)Landroid/view/View;
+    .locals 2
+
+    invoke-static {}, Lkevin/fun/hook/webdav/۟۟ۤۥۢ;->ۣ۟ۢۡ۟()I
+
+    move-result v1
+
+    const/16 v0, 0x650
+
+    :goto_0
+    xor-int/lit16 v0, v0, 0x661
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :cond_0
+    :sswitch_0
+    const/16 v0, 0x68e
+
+    goto :goto_0
+
+    :sswitch_1
+    if-gez v1, :cond_0
+
+    const/16 v0, 0x6ad
+
+    goto :goto_0
+
+    :sswitch_2
+    check-cast p0, Lkevin/fun/hook/DYHook$62$2;
+
+    iget-object v0, p0, Lkevin/fun/hook/DYHook$62$2;->val$rootView:Landroid/view/View;
+
+    :sswitch_3
+    return-object v0
+
+    :sswitch_4
+    const/4 v0, 0x0
+
+    const/16 v1, 0x6cc
+
+    :goto_1
+    xor-int/lit16 v1, v1, 0x6dd
+
+    sparse-switch v1, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const/16 v1, 0x6eb
+
+    goto :goto_1
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xe -> :sswitch_0
+        0x31 -> :sswitch_1
+        0xcc -> :sswitch_2
+        0xef -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        0x11 -> :sswitch_5
+        0x36 -> :sswitch_3
+    .end sparse-switch
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 9
+
+    const/4 v1, 0x0
+
+    const/4 v6, 0x0
+
+    const-string v4, "\u06e8\u06e8\u06e1"
+
+    move-object v0, v1
+
+    move-object v2, v1
+
+    move-object v3, v1
+
+    move v5, v6
+
+    move v7, v6
+
+    move v8, v6
+
+    :goto_0
+    invoke-static {v4}, Lkevin/fun/hook/audio/۟۟ۤ۠ۦ;->ۥۢ۟ۡ(Ljava/lang/Object;)I
+
+    move-result v1
+
+    sparse-switch v1, :sswitch_data_0
+
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62$2;->۟ۡ۟ۥۥ(Ljava/lang/Object;)Z
+
+    move-result v5
+
+    const-string v1, "\u06e1\u06e4\u06e3"
+
+    move-object v4, v1
+
+    goto :goto_0
+
+    :sswitch_0
+    invoke-static {v3, v2, v5, v8, v7}, Lkevin/fun/hook/DYHook$62$2;->ۣۣۤۦ(Ljava/lang/Object;Ljava/lang/Object;ZII)V
+
+    const-string v1, "\u06e6\u06e7\u06e7"
+
+    move-object v4, v1
+
+    goto :goto_0
+
+    :sswitch_1
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62$2;->ۣ۟۟ۧ(Ljava/lang/Object;)I
+
+    move-result v6
+
+    const-string v1, "\u06e4\u06e0\u06e3"
+
+    move-object v4, v1
+
+    move v8, v6
+
+    goto :goto_0
+
+    :sswitch_2
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62$2;->۟ۦۧ۠ۨ(Ljava/lang/Object;)Lkevin/fun/hook/DYHook$62;
+
+    move-result-object v0
+
+    const-string v1, "\u06e3\u06e4\u06e8"
+
+    move-object v4, v1
+
+    goto :goto_0
+
+    :sswitch_3
+    invoke-static {v0}, Lkevin/fun/hook/DYHook$62$2;->۟ۤ۟ۤۤ(Ljava/lang/Object;)Lkevin/fun/hook/DYHook;
+
+    move-result-object v1
+
+    const-string v4, "\u06e5\u06e4\u06e4"
+
+    move-object v3, v1
+
+    goto :goto_0
+
+    :sswitch_4
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62$2;->ۣ۟۠ۨۡ(Ljava/lang/Object;)I
+
+    move-result v6
+
+    const-string v1, "\u06e8\u06e8\u06df"
+
+    move-object v4, v1
+
+    move v7, v6
+
+    goto :goto_0
+
+    :sswitch_5
+    invoke-static {p0}, Lkevin/fun/hook/DYHook$62$2;->ۦۥ۟۟(Ljava/lang/Object;)Landroid/view/View;
+
+    move-result-object v1
+
+    const-string v4, "\u06df\u06e3\u06df"
+
+    move-object v2, v1
+
+    goto :goto_0
+
+    :sswitch_6
+    return-void
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0x1aaf20 -> :sswitch_1
+        0x1ab6a7 -> :sswitch_3
+        0x1ab9e7 -> :sswitch_4
+        0x1abe25 -> :sswitch_5
+        0x1ac246 -> :sswitch_6
+        0x1ac9df -> :sswitch_0
+        0x1ac9e1 -> :sswitch_2
+    .end sparse-switch
+.end method

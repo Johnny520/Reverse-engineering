@@ -1,0 +1,17 @@
+version: 3.0.2
+apkFileName: Ｋｅｖｉｎ_072101.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 72101
+  versionName: 072101
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- webp

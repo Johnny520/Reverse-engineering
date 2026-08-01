@@ -1,0 +1,5 @@
+URL	类别	静态用途	证据位置
+https://api.suyanw.cn/api/bd.php	第三方图片接口	图片内容来源；由混淆类返回	apktool-full/smali/androidx/vectordrawable/animated/ۣ۟ۧۨ.smali
+https://api.suyanw.cn/api/weimei.php	第三方图片接口	图片内容来源；由混淆类返回	apktool-full/smali/androidx/lifecycle/livedata/ۣ۟۠ۥۤ.smali
+https://www.iesdouyin.com/aweme/v1/play/?video_id=	抖音媒体播放地址	按 video_id 拼接媒体播放请求	apktool-full/smali/androidx/loader/ۣۦ۟ۡ.smali
+https://www.xiaohongshu.com/	小红书站点根地址	小红书链接处理/跳转相关常量	apktool-full/smali/androidx/appcompat/resources/ۦۨۦۢ.smali

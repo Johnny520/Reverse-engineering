@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="root_mode_options">
+        <item>Root</item>
+        <item>NoRoot</item>
+    </string-array>
+    <string-array name="xposed_scope">
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.xingin.xhs</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.imaginstudio.imagetools.pixellab</item>
+    </string-array>
+</resources>
