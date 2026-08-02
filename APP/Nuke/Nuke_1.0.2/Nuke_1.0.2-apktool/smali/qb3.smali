@@ -1,0 +1,25 @@
+.class public final Lqb3;
+.super Ljava/lang/Object;
+.source "r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4"
+
+
+# instance fields
+.field public final a:Landroid/view/View;
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lqb3;->a:Landroid/view/View;
+
+    .line 5
+    .line 6
+    return-void
+.end method

@@ -1,0 +1,16 @@
+.class public interface abstract Lm02;
+.super Ljava/lang/Object;
+.source "r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4"
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Ll02;->a:Ll02;
+
+    .line 2
+    .line 3
+    return-void
+.end method

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="about_module_project_lines">
+        <item>Nuke是一个免费的Xposed模块</item>
+        <item>前身为NewMiko @MikoCIBuilds</item>
+        <item>有事请联系作者邮箱 mingxi169@gmail.com</item>
+    </array>
+    <array name="about_module_thanks_descriptions">
+        <item>主要开发者</item>
+        <item>参与模块UI设计，后端，管理系统开发</item>
+        <item>参与后端开发</item>
+        <item>参与模块前身开发</item>
+        <item>提供部分功能代码</item>
+        <item>还有不愿意透露姓名者为我们提供代码</item>
+    </array>
+    <array name="about_module_thanks_github_usernames">
+        <item>dartcv</item>
+        <item>Guang233</item>
+        <item>Admilkk</item>
+        <item>HdShare</item>
+        <item>cooolia</item>
+        <item />
+    </array>
+    <array name="about_module_thanks_names">
+        <item>dartcv</item>
+        <item>Guang233</item>
+        <item>Admilkk</item>
+        <item>HdShare</item>
+        <item>cooolia</item>
+        <item>？？？</item>
+    </array>
+    <array name="xposedscope">
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+    </array>
+</resources>

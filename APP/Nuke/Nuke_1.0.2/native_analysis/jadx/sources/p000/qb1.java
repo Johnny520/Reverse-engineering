@@ -1,0 +1,13 @@
+package p000;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class qb1 extends oc1 {
+
+    /* JADX INFO: renamed from: k */
+    public final int f8872k;
+
+    public qb1(int i) {
+        this.f8872k = i;
+    }
+}

@@ -1,0 +1,39 @@
+package defpackage;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class lf2 {
+    public final LinkedHashMap a;
+    public final List b;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public lf2(LinkedHashMap linkedHashMap, List list) {
+        this.a = linkedHashMap;
+        this.b = list;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof lf2)) {
+            return false;
+        }
+        lf2 lf2Var = (lf2) obj;
+        return this.a.equals(lf2Var.a) && this.b.equals(lf2Var.b);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final int hashCode() {
+        return this.b.hashCode() + ((this.a.hashCode() + (Integer.hashCode(1) * 31)) * 31);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final String toString() {
+        return "ScriptConfigSchema(schemaVersion=1, properties=" + this.a + ", sections=" + this.b + ")";
+    }
+}

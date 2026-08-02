@@ -1,0 +1,19 @@
+version: 3.0.2
+apkFileName: Nuke_1.0.2.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 27
+  targetSdkVersion: 37
+versionInfo:
+  versionCode: 234
+  versionName: 1.0.2
+resourcesInfo:
+  packageId: 121
+doNotCompress:
+- arsc
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

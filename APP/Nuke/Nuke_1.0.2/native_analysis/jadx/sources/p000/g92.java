@@ -1,0 +1,11 @@
+package p000;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public interface g92 {
+    /* JADX INFO: renamed from: a */
+    d92 mo866a(Object obj, int i, int i2, ov1 ov1Var);
+
+    /* JADX INFO: renamed from: b */
+    boolean mo867b(Object obj, ov1 ov1Var);
+}

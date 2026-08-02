@@ -1,0 +1,21 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class b33 {
+    public final long a;
+    public final long b;
+    public final boolean c;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public b33(long j, long j2, boolean z) {
+        this.a = j;
+        this.b = j2;
+        this.c = z;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final b33 a(b33 b33Var) {
+        return new b33(rs1.e(this.a, b33Var.a), Math.max(this.b, b33Var.b), this.c || b33Var.c);
+    }
+}

@@ -1,0 +1,17 @@
+.class public interface abstract Ld92;
+.super Ljava/lang/Object;
+.source "r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4"
+
+
+# virtual methods
+.method public abstract b()I
+.end method
+
+.method public abstract d()Ljava/lang/Class;
+.end method
+
+.method public abstract e()V
+.end method
+
+.method public abstract get()Ljava/lang/Object;
+.end method

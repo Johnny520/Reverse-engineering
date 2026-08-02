@@ -1,0 +1,15 @@
+package p000;
+
+/* JADX INFO: renamed from: wx */
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC0863wx {
+    /* JADX INFO: renamed from: a */
+    void mo1176a(yo2 yo2Var);
+
+    /* JADX INFO: renamed from: d */
+    boolean mo1179d(yo2 yo2Var);
+
+    /* JADX INFO: renamed from: h */
+    void mo1183h(yo2 yo2Var, int i, Object obj);
+}

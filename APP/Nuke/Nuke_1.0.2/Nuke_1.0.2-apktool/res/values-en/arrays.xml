@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="about_module_project_lines">
+        <item>Nuke is a free Xposed module</item>
+        <item>Formerly NewMiko @MikoCIBuilds</item>
+        <item>Contact the author at mingxi169@gmail.com</item>
+    </string-array>
+    <string-array name="about_module_thanks_descriptions">
+        <item>Lead developer</item>
+        <item>Participated in module UI design, backend, and admin system development</item>
+        <item>Participated in backend development</item>
+        <item>Participated in predecessor module development</item>
+        <item>Provided code for some features</item>
+        <item>Other anonymous contributors also provided code</item>
+    </string-array>
+    <string-array name="about_module_thanks_github_usernames">
+        <item>dartcv</item>
+        <item>Guang233</item>
+        <item>Admilkk</item>
+        <item>HdShare</item>
+        <item>cooolia</item>
+        <item></item>
+    </string-array>
+    <string-array name="about_module_thanks_names">
+        <item>dartcv</item>
+        <item>Guang233</item>
+        <item>Admilkk</item>
+        <item>HdShare</item>
+        <item>cooolia</item>
+        <item>？？？</item>
+    </string-array>
+    <string-array name="xposedscope">
+        <item>com.tencent.mm</item>
+    </string-array>
+</resources>

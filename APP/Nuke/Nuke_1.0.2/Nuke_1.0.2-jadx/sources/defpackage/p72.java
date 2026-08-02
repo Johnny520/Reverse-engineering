@@ -1,0 +1,26 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public enum p72 {
+    IGNORE_CASE(2),
+    /* JADX INFO: Fake field, exist only in values array */
+    MULTILINE(8),
+    /* JADX INFO: Fake field, exist only in values array */
+    LITERAL(16),
+    /* JADX INFO: Fake field, exist only in values array */
+    UNIX_LINES(1),
+    /* JADX INFO: Fake field, exist only in values array */
+    COMMENTS(4),
+    /* JADX INFO: Fake field, exist only in values array */
+    DOT_MATCHES_ALL(32),
+    /* JADX INFO: Fake field, exist only in values array */
+    CANON_EQ(128);
+
+    public final int h;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    p72(int i) {
+        this.h = i;
+    }
+}

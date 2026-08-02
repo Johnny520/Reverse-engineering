@@ -1,0 +1,41 @@
+package defpackage;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class os2 implements Parcelable.ClassLoaderCreator {
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public static ps2 a(Parcel parcel, ClassLoader classLoader) {
+        if (classLoader == null) {
+            classLoader = os2.class.getClassLoader();
+        }
+        int i = parcel.readInt();
+        if (i == 0) {
+            return new ps2();
+        }
+        lz1 lz1VarE = ur2.i.e();
+        for (int i2 = 0; i2 < i; i2++) {
+            lz1VarE.add(parcel.readValue(classLoader));
+        }
+        return new ps2(lz1VarE.c());
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // android.os.Parcelable.Creator
+    public final Object createFromParcel(Parcel parcel) {
+        return a(parcel, null);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // android.os.Parcelable.Creator
+    public final Object[] newArray(int i) {
+        return new ps2[i];
+    }
+
+    @Override // android.os.Parcelable.ClassLoaderCreator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel, ClassLoader classLoader) {
+        return a(parcel, classLoader);
+    }
+}

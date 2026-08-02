@@ -1,0 +1,34 @@
+package defpackage;
+
+import java.lang.reflect.Method;
+
+/* JADX INFO: compiled from: r8-map-id-1fdf33e95b2c98e9913e3f754a675e277db58555c92b1678ad704849f4b90bb4 */
+/* JADX INFO: loaded from: classes.dex */
+public final class ft {
+    public final int a;
+    public final Method b;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public ft(Method method, int i) {
+        this.a = i;
+        this.b = method;
+        method.setAccessible(true);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof ft)) {
+            return false;
+        }
+        ft ftVar = (ft) obj;
+        return this.a == ftVar.a && this.b.getName().equals(ftVar.b.getName());
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final int hashCode() {
+        return this.b.getName().hashCode() + (this.a * 31);
+    }
+}
