@@ -11,7 +11,7 @@
 | 目录 | 位置 | 分析对象 | 内容类型 |
 |---|---|---|---|
 | [FkWeChat](#fkwechat) | `APP/FkWeChat` | 微信 Xposed 模块 `me.yun.fkwechat` | 解包 + JADX 反编译 + native ELF 分析 |
-| [Nuke](#nuke) | `APP/Nuke` | Xposed 模块 `me.dartcv.nuke` | 反编译 + 后端接口还原 + native 库分析 |
+| [Nuke](#nuke) | `APP/Nuke` | Xposed 模块 `me.dartcv.nuke`（v1.0.0 / v1.0.2） | 反编译 + 后端接口还原 + native 库分析 |
 | [QStory](#qstory) | `APP/QStory` | QQ 工具 APK（多版本） | 反混淆 + 恶意行为分析 |
 | [WAuxiliary](#wauxiliary) | `APP/WAuxiliary` | 微信辅助 Xposed 模块 `me.hd.wauxv` | 反混淆源码工程 |
 | [dyyds](#dyyds) | `APP/dyyds` | 抖音 `com.ss.android.ugc.aweme.yyds` | 反编译 + 解密脚本 |
@@ -54,7 +54,9 @@
 
 ## Nuke
 
-针对 Xposed 模块 **Nuke v1.0.0**（包名 `me.dartcv.nuke`）的反编译与后端接口还原分析。
+针对 Xposed 模块 **Nuke v1.0.0 / v1.0.2**（包名 `me.dartcv.nuke`）的反编译、后端接口还原与 native 分析。
+
+### Nuke v1.0.0
 
 **分析对象特征**
 - 后端：`https://www.guang233.com/`
@@ -74,6 +76,30 @@
 | `database_indicator_search.txt` | 数据库关键词搜索记录 |
 | `Nuke_APK_reverse_report.md` | 逆向分析报告 |
 | `README_nuke_bulk_register.md` | 批量注册/同步脚本的接口协议说明 |
+
+### Nuke v1.0.2
+
+新增 `APP/Nuke/Nuke_1.0.2/`，包含 APK、Apktool/JADX 反编译结果、native release 解包与协议分析产物。
+
+**版本与 native 信息**
+- versionCode：`234`
+- native generation：`2026071502`
+- APK 内置 `libnuke_bridge.so` 与 `bootstrap.nkr`
+- `bootstrap.nkr` 解包后包含 `release.nkm` 和 `libnuke_engine_2026071502_da53b572650c.so`
+
+**目录内容**（实际位置：`APP/Nuke/Nuke_1.0.2/`）
+
+| 路径 | 说明 |
+|---|---|
+| `Nuke_1.0.2.apk` | 原始 APK |
+| `Nuke_1.0.2-extracted/` | APK 原始 ZIP 解包结果 |
+| `Nuke_1.0.2-apktool/` | Apktool 输出（Smali、资源与打包元数据） |
+| `Nuke_1.0.2-jadx/` | JADX 反编译源码与资源 |
+| `Nuke_1.0.2-bootstrap/` | 从 `bootstrap.nkr` 解出的 release 元数据与 ARM64 engine |
+| `native_analysis/` | bridge、engine、DEX 及 AArch64 交叉引用分析产物 |
+| `nuke_probe/` / `nuke_unidbg/` | Rust signer 探针与 Unidbg 模拟实验工程 |
+| `WeKit-reference/` | Nuke 1.0.2 协议、Rust/Python 参考与逆向报告；部分内容来自 [Ujhhgtg](https://github.com/Ujhhgtg) |
+| `MODULE_FOLDERS.md` / `AI_HANDOFF.md` | 目录说明与分析交接文档 |
 
 ---
 
@@ -105,7 +131,7 @@
 
 ## WAuxiliary
 
-针对微信辅助 Xposed 模块 **WAuxiliary**（包名 `me.hd.wauxv`）的反混淆源码工程，包含版本：
+针对微信辅助 Xposed 模块 **WAuxiliary**（包名 `me.hd.wauxv`）的反混淆源码工程。`APP/WAuxiliary/` 中相关内容来自 [Ujhhgtg](https://github.com/Ujhhgtg)，包含版本：
 
 - `WAuxiliary1.2.6.r1238.198c77c/`
 - `WAuxiliary1.2.7.r1418.e65079c/`
@@ -182,7 +208,7 @@
 
 ## 微X
 
-微信 Xposed 模块源码工程 **WeChatXRemap**，是一个完整的 Android Gradle 项目。
+微信 Xposed 模块源码工程 **WeChatXRemap**，是一个完整的 Android Gradle 项目。`APP/微X/` 中相关内容来自 [Ujhhgtg](https://github.com/Ujhhgtg)。
 
 **目录内容**（实际位置：`APP/微X/`）
 
