@@ -1,0 +1,51 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface WCLGThemeManageViewController : NSObject
+- (void)viewDidLoad;
+- (void)viewWillAppear:(id)arg0;
+- (void)viewDidLayoutSubviews;
+- (void)reload;
+- (void)loadCatalogIconsIfNeeded;
+- (void)segChanged;
+- (id)current;
+- (id)currentType;
+- (NSInteger)activeThemeId;
+- (BOOL)isActiveItem:(id)arg0;
+- (void)updateCurrentStatus;
+- (void)updateEmpty;
+- (NSInteger)tableView:(id)arg0 numberOfRowsInSection:(id)arg1;
+- (id)tableView:(id)arg0 cellForRowAtIndexPath:(id)arg1;
+- (void)tableView:(id)arg0 didSelectRowAtIndexPath:(id)arg1;
+- (void)deactivateCurrentTheme;
+- (void)presentActionsForTheme:(id)arg0 sourceView:(id)arg1;
+- (void)confirmRevoke:(id)arg0;
+- (void)applyTheme:(id)arg0;
+- (void)removeLocal:(id)arg0;
+- (void)revoke:(id)arg0;
+- (void)toast:(id)arg0;
+- (void)dismissSelf;
+- (id)seg;
+- (void)setSeg:(id)arg0;
+- (id)segBar;
+- (void)setSegBar:(id)arg0;
+- (id)currentLabel;
+- (void)setCurrentLabel:(id)arg0;
+- (id)bg;
+- (void)setBg:(id)arg0;
+- (id)tableView;
+- (void)setTableView:(id)arg0;
+- (id)emptyLabel;
+- (void)setEmptyLabel:(id)arg0;
+- (id)bubbles;
+- (void)setBubbles:(id)arg0;
+- (id)cards;
+- (void)setCards:(id)arg0;
+- (id)catalogIconURLs;
+- (void)setCatalogIconURLs:(id)arg0;
+- (BOOL)loadingCatalogIcons;
+- (void)setLoadingCatalogIcons:(id)arg0;
+- (BOOL)catalogIconsLoaded;
+- (void)setCatalogIconsLoaded:(id)arg0;
+- (void).cxx_destruct;
+@end

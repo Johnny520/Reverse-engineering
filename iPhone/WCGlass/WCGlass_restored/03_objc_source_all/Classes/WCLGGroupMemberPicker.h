@@ -1,0 +1,66 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface WCLGGroupMemberPicker : NSObject
++ (void)presentForGroupID:(id)arg0 title:(id)arg1 preselectedMembers:(id)arg2 sessionUsernames:(id)arg3 fromController:(id)arg4 onComplete:(id)arg5;
++ (void)presentSingleSelectWithTitle:(id)arg0 excludeMembers:(id)arg1 fromController:(id)arg2 onPick:(id)arg3;
+- (void)viewDidLoad;
+- (void)setupSingleSelect;
+- (void)onSingleModeChanged:(id)arg0;
+- (void)buildSessionRows;
+- (void)ensureContactsLoaded;
+- (void)ensureLabelsLoaded;
+- (void)ensureChatroomsLoaded;
+- (void)applyFilter;
+- (void)onModeChanged:(id)arg0;
+- (void)updateDoneTitle;
+- (void)onCancel;
+- (void)onDone;
+- (void)searchBar:(id)arg0 textDidChange:(id)arg1;
+- (void)searchBarSearchButtonClicked:(id)arg0;
+- (NSInteger)tableView:(id)arg0 numberOfRowsInSection:(id)arg1;
+- (id)tableView:(id)arg0 cellForRowAtIndexPath:(id)arg1;
+- (id)tableView:(id)arg0 titleForHeaderInSection:(id)arg1;
+- (void)tableView:(id)arg0 didSelectRowAtIndexPath:(id)arg1;
+- (id)groupID;
+- (void)setGroupID:(id)arg0;
+- (id)onComplete;
+- (void)setOnComplete:(id)arg0;
+- (id)selected;
+- (void)setSelected:(id)arg0;
+- (id)sessionUsernames;
+- (void)setSessionUsernames:(id)arg0;
+- (id)sessionRows;
+- (void)setSessionRows:(id)arg0;
+- (id)contactRows;
+- (void)setContactRows:(id)arg0;
+- (id)filteredRows;
+- (void)setFilteredRows:(id)arg0;
+- (id)labels;
+- (void)setLabels:(id)arg0;
+- (id)chatroomRows;
+- (void)setChatroomRows:(id)arg0;
+- (BOOL)contactsLoaded;
+- (void)setContactsLoaded:(id)arg0;
+- (BOOL)labelsLoaded;
+- (void)setLabelsLoaded:(id)arg0;
+- (BOOL)chatroomsLoaded;
+- (void)setChatroomsLoaded:(id)arg0;
+- (BOOL)singleSelect;
+- (void)setSingleSelect:(id)arg0;
+- (id)onPick;
+- (void)setOnPick:(id)arg0;
+- (id)excluded;
+- (void)setExcluded:(id)arg0;
+- (NSInteger)mode;
+- (void)setMode:(id)arg0;
+- (id)segmented;
+- (void)setSegmented:(id)arg0;
+- (id)tableView;
+- (void)setTableView:(id)arg0;
+- (id)searchBar;
+- (void)setSearchBar:(id)arg0;
+- (id)searchText;
+- (void)setSearchText:(id)arg0;
+- (void).cxx_destruct;
+@end

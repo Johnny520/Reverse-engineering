@@ -1,0 +1,21 @@
+开始：JEB 原生代码分析与 C 源码导出
+异常：'ascii' codec can't encode characters in position 0-8: ordinal not in range(128)
+Traceback (most recent call last):
+  File "__pyclasspath__/JebExportWCGlass.py", line 26, in run
+    log('项目：%s' % project)
+  File "__pyclasspath__/JebExportWCGlass.py", line 20, in log
+    f.write(message + '\n')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-8: ordinal not in range(128)
+
+START: JEB native analysis and C source export
+Project: Project:{WCGlass_arm64_plain.dylib}
+Native code units: 1
+Unit[0]: arm64-image / <type 'com.pnfsoftware.jebglobal.K'>
+Methods=6229 internal=5937 classes=0 strings=6181
+Decompiler: <type 'com.pnfsoftware.jebglobal.aba'>
+START: JEB native analysis and C source export
+Project: Project:{WCGlass_arm64_plain.dylib}
+Native code units: 1
+Unit[0]: arm64-image / <type 'com.pnfsoftware.jebglobal.K'>
+Methods=6229 internal=5937 classes=0 strings=6181
+Decompiler: <type 'com.pnfsoftware.jebglobal.aba'>

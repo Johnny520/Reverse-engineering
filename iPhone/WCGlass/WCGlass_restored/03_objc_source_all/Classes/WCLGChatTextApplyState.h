@@ -1,0 +1,47 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface WCLGChatTextApplyState : NSObject
+- (id)init;
+- (NSUInteger)viewModelToken;
+- (void)setViewModelToken:(id)arg0;
+- (NSUInteger)stableIdentityHash;
+- (void)setStableIdentityHash:(id)arg0;
+- (NSUInteger)identityGeneration;
+- (void)setIdentityGeneration:(id)arg0;
+- (NSUInteger)contentGeneration;
+- (void)setContentGeneration:(id)arg0;
+- (NSUInteger)targetGeneration;
+- (void)setTargetGeneration:(id)arg0;
+- (NSUInteger)layoutGeneration;
+- (void)setLayoutGeneration:(id)arg0;
+- (NSUInteger)layoutDepth;
+- (void)setLayoutDepth:(id)arg0;
+- (NSUInteger)lastAppliedLayoutGeneration;
+- (void)setLastAppliedLayoutGeneration:(id)arg0;
+- (NSUInteger)lastApplySignature;
+- (void)setLastApplySignature:(id)arg0;
+- (NSUInteger)targetStructureSignature;
+- (void)setTargetStructureSignature:(id)arg0;
+- (NSUInteger)contentSignature;
+- (void)setContentSignature:(id)arg0;
+- (NSUInteger)nextFallbackScanLayoutGeneration;
+- (void)setNextFallbackScanLayoutGeneration:(id)arg0;
+- (id)contentView;
+- (void)setContentView:(id)arg0;
+- (id)bodyView;
+- (void)setBodyView:(id)arg0;
+- (id)targets;
+- (void)setTargets:(id)arg0;
+- (NSUInteger)resolvedColorSignature;
+- (void)setResolvedColorSignature:(id)arg0;
+- (BOOL)resolvedDarkMode;
+- (void)setResolvedDarkMode:(id)arg0;
+- (BOOL)resolvedOutgoing;
+- (void)setResolvedOutgoing:(id)arg0;
+- (BOOL)resolvedPayment;
+- (void)setResolvedPayment:(id)arg0;
+- (id)resolvedColor;
+- (void)setResolvedColor:(id)arg0;
+- (void).cxx_destruct;
+@end

@@ -1,0 +1,1049 @@
+
+==== 0xdff64 ====
+function 0xdff64-0xe04d0 (requested IMP 0xdff64)
+0x000dff64: sub      sp, sp, #0xd0
+0x000dff68: stp      x28, x27, [sp, #0x70]
+0x000dff6c: stp      x26, x25, [sp, #0x80]
+0x000dff70: stp      x24, x23, [sp, #0x90]
+0x000dff74: stp      x22, x21, [sp, #0xa0]
+0x000dff78: stp      x20, x19, [sp, #0xb0]
+0x000dff7c: stp      x29, x30, [sp, #0xc0]
+0x000dff80: add      x29, sp, #0xc0
+0x000dff84: str      w3, [sp, #0x1c]
+0x000dff88: mov      x21, x2
+0x000dff8c: mov      x24, x1
+0x000dff90: mov      x19, x0
+0x000dff94: mov      w25, #0x5594
+0x000dff98: movk     w25, #0xdc79, lsl #16 ; '�\x03R\x10\x0c'
+0x000dff9c: mov      w26, #0xcdc7 ; '��\x03\x13��\x03\x15��S\x11� \x01'
+0x000dffa0: movk     w26, #0x8af3, lsl #16 ; 'Rk\x01\x0cJKe'
+0x000dffa4: mov      w27, #0xfa2b ; '9I!@9)u\x1cRi!'
+0x000dffa8: movk     w27, #0x6c1e, lsl #16 ; '?��\x03\x1d�*l\x11��\x03'
+0x000dffac: mov      w28, #0x5e06 ; '�RJ\x01\x0cJj\t'
+0x000dffb0: movk     w28, #0x4750, lsl #16
+0x000dffb4: bl       #0x461ca8 ; _objc_retain
+0x000dffb8: mov      x0, x24
+0x000dffbc: bl       #0x461ca8 ; _objc_retain
+0x000dffc0: mov      x0, x21
+0x000dffc4: bl       #0x461ca8 ; _objc_retain
+0x000dffc8: adrp     x8, #0x4be000
+0x000dffcc: ldr      x1, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x000dffd0: str      x1, [sp, #0x60]
+0x000dffd4: str      x19, [sp, #0x20]
+0x000dffd8: mov      x0, x19
+0x000dffdc: bl       #0x461c6c ; _objc_msgSend
+0x000dffe0: mov      w19, #0xf1ce
+0x000dffe4: movk     w19, #0x2e33, lsl #16
+0x000dffe8: str      x0, [sp, #0x58]
+0x000dffec: add      x8, sp, #0x34
+0x000dfff0: mov      w22, #0xe399
+0x000dfff4: movk     w22, #0x2c64, lsl #16
+0x000dfff8: str      w19, [sp, #0x34]
+0x000dfffc: str      x8, [sp, #0x28]
+0x000e0000: mov      w20, #0x5e05
+0x000e0004: movk     w20, #0x4750, lsl #16
+0x000e0008: ldr      w8, [sp, #0x34]
+0x000e000c: cmp      w8, w22
+0x000e0010: b.le     #0xe005c ; '�z�RI�r\x1f\x01\tkL\x04'
+0x000e0014: cmp      w8, w20
+0x000e0018: b.le     #0xe0130 ; 'Is�R���r\x1f\x01\tk'
+0x000e001c: mov      w9, #0xfa2a
+0x000e0020: movk     w9, #0x6c1e, lsl #16 ; '?��\x03\x1d�*l\x11��\x03'
+0x000e0024: cmp      w8, w9
+0x000e0028: b.gt     #0xe0170
+0x000e002c: cmp      w8, w28
+0x000e0030: b.eq     #0xe0358
+0x000e0034: mov      w9, #0x3596
+0x000e0038: movk     w9, #0x6184, lsl #16 ; '.\x15�R�\x01\x0eJ�%'
+0x000e003c: cmp      w8, w9
+0x000e0040: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0044: ldr      x1, [sp, #0x60]
+0x000e0048: mov      x0, x21
+0x000e004c: bl       #0x461c6c ; _objc_msgSend
+0x000e0050: ldr      x8, [sp, #0x28]
+0x000e0054: str      w25, [x8]
+0x000e0058: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e005c: mov      w9, #0x9bd5
+0x000e0060: movk     w9, #0xcf8a, lsl #16
+0x000e0064: cmp      w8, w9
+0x000e0068: b.gt     #0xe00f0 ; '�z�RI�r\x1f\x01\tk'
+0x000e006c: mov      w9, #0x903a
+0x000e0070: movk     w9, #0xb70e, lsl #16 ; '@��%'
+0x000e0074: cmp      w8, w9
+0x000e0078: b.le     #0xe019c ; 'i>�R���r\x1f\x01\tk\x01\x17'
+0x000e007c: mov      w9, #0x903b ; '��\x03\x15�\x0bc\x11�@\x06'
+0x000e0080: movk     w9, #0xb70e, lsl #16 ; '@��%'
+0x000e0084: cmp      w8, w9
+0x000e0088: b.eq     #0xe02f0 ; '�3@��\x03\x18�]\x06\x0e�\x1f�'
+0x000e008c: mov      w9, #0xa12d
+0x000e0090: movk     w9, #0xb978, lsl #16 ; '*\x11@9�\x12�RJ\x01\x0cJj\x11'
+0x000e0094: cmp      w8, w9
+0x000e0098: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e009c: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e00a0: ldr      w8, [x8, #0x760] ; mem=0x4eb760
+0x000e00a4: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e00a8: ldr      w9, [x9, #0x764] ; mem=0x4eb764
+0x000e00ac: orr      w8, w8, w9
+0x000e00b0: mov      w9, #0x36ec
+0x000e00b4: movk     w9, #0xa63d, lsl #16
+0x000e00b8: mov      w10, #0x22d8
+0x000e00bc: movk     w10, #0x434, lsl #16
+0x000e00c0: madd     w8, w8, w9, w10
+0x000e00c4: mov      w9, #0xa625
+0x000e00c8: movk     w9, #0x97af, lsl #16
+0x000e00cc: umull    x8, w8, w9
+0x000e00d0: lsr      x8, x8, #0x3f
+0x000e00d4: mov      w9, #0xbc57 ; '9\x10z\x1eR�%'
+0x000e00d8: movk     w9, #0xa5c1, lsl #16 ; ']\x11��\x03\x1d��]\x11��\x03'
+0x000e00dc: cmp      w8, w9
+0x000e00e0: mov      w8, #0xe39a ; '@9�\x01\x0fJ\x0c\x0e'
+0x000e00e4: movk     w8, #0x2c64, lsl #16
+0x000e00e8: csel     w8, w8, w28, eq
+0x000e00ec: b        #0xe0430 ; '�\x17@�(\x01'
+0x000e00f0: mov      w9, #0x9bd6
+0x000e00f4: movk     w9, #0xcf8a, lsl #16
+0x000e00f8: cmp      w8, w9
+0x000e00fc: b.eq     #0xe031c
+0x000e0100: cmp      w8, w25
+0x000e0104: b.eq     #0xe03c8
+0x000e0108: mov      w9, #0xf01 ; 'oolbox.framework/AudioToolbox'
+0x000e010c: movk     w9, #0x9d2, lsl #16
+0x000e0110: cmp      w8, w9
+0x000e0114: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0118: ldr      x0, [sp, #0x48]
+0x000e011c: bl       #0xc268c ; '�C\x02��o\x03��g\x04��_\x05��W\x06��O\x07��{\x08��\x03\x02��\x03'
+0x000e0120: ldr      x8, [sp, #0x28]
+0x000e0124: str      w27, [x8]
+0x000e0128: str      xzr, [sp, #0x40]
+0x000e012c: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0130: mov      w9, #0xe39a ; '@9�\x01\x0fJ\x0c\x0e'
+0x000e0134: movk     w9, #0x2c64, lsl #16
+0x000e0138: cmp      w8, w9
+0x000e013c: b.eq     #0xe043c ; '��Z��\x1e'
+0x000e0140: cmp      w8, w19
+0x000e0144: b.eq     #0xe0464 ; '�/@�\x1f\x01'
+0x000e0148: mov      w9, #0xb88b ; '��\x03\x14��X\x11��\x01'
+0x000e014c: movk     w9, #0x43bc, lsl #16 ; '�\x01\x06J\x15&'
+0x000e0150: cmp      w8, w9
+0x000e0154: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0158: ldrb     w8, [sp, #0x57]
+0x000e015c: cmp      w8, #0 ; '����\x0c'
+0x000e0160: mov      w8, #0x19f3
+0x000e0164: movk     w8, #0xac0d, lsl #16
+0x000e0168: csel     w8, w8, w26, ne
+0x000e016c: b        #0xe0478 ; '�\x17@�(\x01'
+0x000e0170: cmp      w8, w27
+0x000e0174: b.eq     #0xe03b0 ; '�\x03D�:\x06\x0e��\x17@�\x1a\x01'
+0x000e0178: mov      w9, #0x9940 ; '�{A��O¨�\x03_��\x03'
+0x000e017c: movk     w9, #0x70df, lsl #16
+0x000e0180: cmp      w8, w9
+0x000e0184: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0188: ldr      x8, [sp, #0x28]
+0x000e018c: str      w27, [x8]
+0x000e0190: ldr      x8, [sp, #0x48]
+0x000e0194: str      x8, [sp, #0x40]
+0x000e0198: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e019c: mov      w9, #0x19f3
+0x000e01a0: movk     w9, #0xac0d, lsl #16
+0x000e01a4: cmp      w8, w9
+0x000e01a8: b.ne     #0xe0488
+0x000e01ac: ldr      x1, [sp, #0x60]
+0x000e01b0: ldr      x27, [sp, #0x20]
+0x000e01b4: mov      x0, x27
+0x000e01b8: bl       #0x461c6c ; _objc_msgSend
+0x000e01bc: adrp     x8, #0x4c4000
+0x000e01c0: ldr      x8, [x8, #0x2f0] ; mem=0x4c42f0
+0x000e01c4: adrp     x9, #0x4bf000
+0x000e01c8: ldr      x1, [x9, #0xa40] ; mem=0x4bfa40 -> 'dataWithLength:'
+0x000e01cc: add      x2, x0, #0x10
+0x000e01d0: mov      x0, x8
+0x000e01d4: bl       #0x461c6c ; _objc_msgSend
+0x000e01d8: mov      x29, x29
+0x000e01dc: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x000e01e0: str      x0, [sp, #0x48]
+0x000e01e4: stur     xzr, [x29, #-0x58]
+0x000e01e8: mov      x0, x24
+0x000e01ec: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e01f0: adrp     x8, #0x4bf000
+0x000e01f4: ldr      x25, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x000e01f8: mov      x1, x25
+0x000e01fc: bl       #0x461c6c ; _objc_msgSend
+0x000e0200: mov      x23, x0
+0x000e0204: ldr      x1, [sp, #0x60]
+0x000e0208: mov      x0, x24
+0x000e020c: bl       #0x461c6c ; _objc_msgSend
+0x000e0210: mov      x19, x24
+0x000e0214: mov      x24, x0
+0x000e0218: mov      x0, x21
+0x000e021c: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e0220: mov      x1, x25
+0x000e0224: bl       #0x461c6c ; _objc_msgSend
+0x000e0228: mov      x26, x0
+0x000e022c: mov      x0, x27
+0x000e0230: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e0234: mov      x1, x25
+0x000e0238: bl       #0x461c6c ; _objc_msgSend
+0x000e023c: mov      x25, x0
+0x000e0240: ldr      x1, [sp, #0x60]
+0x000e0244: mov      x0, x27
+0x000e0248: bl       #0x461c6c ; _objc_msgSend
+0x000e024c: mov      x27, x0
+0x000e0250: ldr      x0, [sp, #0x48]
+0x000e0254: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e0258: adrp     x8, #0x4bf000
+0x000e025c: ldr      x1, [x8, #0xa48] ; mem=0x4bfa48 -> 'mutableBytes'
+0x000e0260: ldr      x0, [sp, #0x48]
+0x000e0264: bl       #0x461c6c ; _objc_msgSend
+0x000e0268: mov      x28, x0
+0x000e026c: ldr      x1, [sp, #0x60]
+0x000e0270: ldr      x0, [sp, #0x48]
+0x000e0274: bl       #0x461c6c ; _objc_msgSend
+0x000e0278: sub      x8, x29, #0x58
+0x000e027c: stp      x0, x8, [sp, #8]
+0x000e0280: str      x28, [sp]
+0x000e0284: mov      w28, #0x5e06 ; '�RJ\x01\x0cJj\t'
+0x000e0288: movk     w28, #0x4750, lsl #16
+0x000e028c: ldr      w0, [sp, #0x1c]
+0x000e0290: mov      w1, #0 ; '����\x0c'
+0x000e0294: mov      w2, #1 ; '���\x0c'
+0x000e0298: mov      x3, x23
+0x000e029c: mov      x4, x24
+0x000e02a0: mov      x24, x19
+0x000e02a4: mov      w19, #0xf1ce
+0x000e02a8: movk     w19, #0x2e33, lsl #16
+0x000e02ac: mov      x5, x26
+0x000e02b0: mov      w26, #0xcdc7 ; '��\x03\x13��\x03\x15��S\x11� \x01'
+0x000e02b4: movk     w26, #0x8af3, lsl #16 ; 'Rk\x01\x0cJKe'
+0x000e02b8: mov      x6, x25
+0x000e02bc: mov      w25, #0x5594
+0x000e02c0: movk     w25, #0xdc79, lsl #16 ; '�\x03R\x10\x0c'
+0x000e02c4: mov      x7, x27
+0x000e02c8: mov      w27, #0xfa2b ; '9I!@9)u\x1cRi!'
+0x000e02cc: movk     w27, #0x6c1e, lsl #16 ; '?��\x03\x1d�*l\x11��\x03'
+0x000e02d0: bl       #0x461468 ; _CCCrypt
+0x000e02d4: cmp      w0, #0 ; '����\x0c'
+0x000e02d8: mov      w8, #0xf01 ; 'oolbox.framework/AudioToolbox'
+0x000e02dc: movk     w8, #0x9d2, lsl #16
+0x000e02e0: mov      w9, #0xa12d
+0x000e02e4: movk     w9, #0xb978, lsl #16 ; '*\x11@9�\x12�RJ\x01\x0cJj\x11'
+0x000e02e8: csel     w8, w9, w8, eq
+0x000e02ec: b        #0xe0430 ; '�\x17@�(\x01'
+0x000e02f0: ldr      x1, [sp, #0x60]
+0x000e02f4: mov      x0, x24
+0x000e02f8: bl       #0x461c6c ; _objc_msgSend
+0x000e02fc: cmp      x0, #0x20
+0x000e0300: ldr      x8, [sp, #0x28]
+0x000e0304: mov      w9, #0x9bd6
+0x000e0308: movk     w9, #0xcf8a, lsl #16
+0x000e030c: csel     w9, w9, w26, eq
+0x000e0310: str      w9, [x8]
+0x000e0314: str      xzr, [sp, #0x38]
+0x000e0318: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e031c: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e0320: ldr      w8, [x8, #0x750] ; mem=0x4eb750
+0x000e0324: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e0328: ldr      w9, [x9, #0x754] ; mem=0x4eb754
+0x000e032c: sub      w8, w8, w9
+0x000e0330: mov      w9, #0x7799
+0x000e0334: movk     w9, #0xfffb, lsl #16 ; '��\x03\x14�\x1bG\x11��'
+0x000e0338: orr      w8, w8, w9
+0x000e033c: mov      w9, #0x539
+0x000e0340: movk     w9, #0x26a5, lsl #16
+0x000e0344: cmp      w8, w9
+0x000e0348: mov      w8, #0x3596
+0x000e034c: movk     w8, #0x6184, lsl #16 ; '.\x15�R�\x01\x0eJ�%'
+0x000e0350: csel     w8, w25, w8, ne
+0x000e0354: b        #0xe0430 ; '�\x17@�(\x01'
+0x000e0358: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e035c: ldr      w8, [x8, #0x768] ; mem=0x4eb768
+0x000e0360: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e0364: ldr      w9, [x9, #0x76c] ; mem=0x4eb76c
+0x000e0368: and      w8, w8, w9
+0x000e036c: mov      w9, #0x3c6a
+0x000e0370: movk     w9, #0xe203, lsl #16 ; '��\x01@9�\x19�R\x08\x01\tJ�%'
+0x000e0374: and      w23, w8, w9
+0x000e0378: ldur     x2, [x29, #-0x58]
+0x000e037c: adrp     x8, #0x4bf000
+0x000e0380: ldr      x1, [x8, #0xa58] ; mem=0x4bfa58 -> 'setLength:'
+0x000e0384: ldr      x0, [sp, #0x48]
+0x000e0388: bl       #0x461c6c ; _objc_msgSend
+0x000e038c: ldr      x0, [sp, #0x48]
+0x000e0390: bl       #0x461ca8 ; _objc_retain
+0x000e0394: mov      w8, #0xa4b3 ; '��\x03\x16��]\x11��\x1a'
+0x000e0398: movk     w8, #0xfa74, lsl #16
+0x000e039c: cmp      w23, w8
+0x000e03a0: mov      w8, #0x9940 ; '�{A��O¨�\x03_��\x03'
+0x000e03a4: movk     w8, #0x70df, lsl #16
+0x000e03a8: csel     w8, w8, w28, ne
+0x000e03ac: b        #0xe0430 ; '�\x17@�(\x01'
+0x000e03b0: ldp      x23, x0, [sp, #0x40]
+0x000e03b4: bl       #0x461c9c ; _objc_release
+0x000e03b8: ldr      x8, [sp, #0x28]
+0x000e03bc: str      w26, [x8]
+0x000e03c0: str      x23, [sp, #0x38]
+0x000e03c4: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e03c8: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e03cc: ldr      w8, [x8, #0x758] ; mem=0x4eb758
+0x000e03d0: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e03d4: ldr      w9, [x9, #0x75c] ; mem=0x4eb75c
+0x000e03d8: sub      w8, w8, w9
+0x000e03dc: mov      w9, #0x2e1c
+0x000e03e0: movk     w9, #0xb2f5, lsl #16
+0x000e03e4: mul      w8, w8, w9
+0x000e03e8: mov      w9, #0xb8b8
+0x000e03ec: movk     w9, #0x14c4, lsl #16
+0x000e03f0: orr      w8, w8, w9
+0x000e03f4: mov      w9, #0x558f
+0x000e03f8: movk     w9, #0xd11f, lsl #16
+0x000e03fc: add      w23, w8, w9
+0x000e0400: ldr      x1, [sp, #0x60]
+0x000e0404: mov      x0, x21
+0x000e0408: bl       #0x461c6c ; _objc_msgSend
+0x000e040c: cmp      x0, #0x10
+0x000e0410: cset     w8, eq
+0x000e0414: strb     w8, [sp, #0x57]
+0x000e0418: mov      w8, #0xdc4d
+0x000e041c: movk     w8, #0x2a2b, lsl #16
+0x000e0420: cmp      w23, w8
+0x000e0424: mov      w8, #0xb88b ; '��\x03\x14��X\x11��\x01'
+0x000e0428: movk     w8, #0x43bc, lsl #16 ; '�\x01\x06J\x15&'
+0x000e042c: csel     w8, w8, w25, hi
+0x000e0430: ldr      x9, [sp, #0x28]
+0x000e0434: str      w8, [x9]
+0x000e0438: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e043c: ldur     x2, [x29, #-0x58]
+0x000e0440: adrp     x8, #0x4bf000
+0x000e0444: ldr      x1, [x8, #0xa58] ; mem=0x4bfa58 -> 'setLength:'
+0x000e0448: ldr      x0, [sp, #0x48]
+0x000e044c: bl       #0x461c6c ; _objc_msgSend
+0x000e0450: ldr      x0, [sp, #0x48]
+0x000e0454: bl       #0x461ca8 ; _objc_retain
+0x000e0458: ldr      x8, [sp, #0x28]
+0x000e045c: str      w28, [x8]
+0x000e0460: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0464: ldr      x8, [sp, #0x58]
+0x000e0468: cmp      x8, #0 ; '����\x0c'
+0x000e046c: mov      w8, #0x903b ; '��\x03\x15�\x0bc\x11�@\x06'
+0x000e0470: movk     w8, #0xb70e, lsl #16 ; '@��%'
+0x000e0474: csel     w8, w26, w8, eq
+0x000e0478: ldr      x9, [sp, #0x28]
+0x000e047c: str      w8, [x9]
+0x000e0480: str      xzr, [sp, #0x38]
+0x000e0484: b        #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0488: cmp      w8, w26
+0x000e048c: b.ne     #0xe0008 ; '�7@�\x1f\x01\x16km\x02'
+0x000e0490: ldr      x22, [sp, #0x38]
+0x000e0494: mov      x0, x21
+0x000e0498: bl       #0x461c9c ; _objc_release
+0x000e049c: mov      x0, x24
+0x000e04a0: bl       #0x461c9c ; _objc_release
+0x000e04a4: ldr      x0, [sp, #0x20]
+0x000e04a8: bl       #0x461c9c ; _objc_release
+0x000e04ac: mov      x0, x22
+0x000e04b0: ldp      x29, x30, [sp, #0xc0]
+0x000e04b4: ldp      x20, x19, [sp, #0xb0]
+0x000e04b8: ldp      x22, x21, [sp, #0xa0]
+0x000e04bc: ldp      x24, x23, [sp, #0x90]
+0x000e04c0: ldp      x26, x25, [sp, #0x80]
+0x000e04c4: ldp      x28, x27, [sp, #0x70]
+0x000e04c8: add      sp, sp, #0xd0
+0x000e04cc: b        #0x461be8 ; _objc_autoreleaseReturnValue
+
+==== 0xe0e24 ====
+function 0xe0e24-0xe12cc (requested IMP 0xe0e24)
+0x000e0e24: sub      sp, sp, #0xd0
+0x000e0e28: stp      x28, x27, [sp, #0x70]
+0x000e0e2c: stp      x26, x25, [sp, #0x80]
+0x000e0e30: stp      x24, x23, [sp, #0x90]
+0x000e0e34: stp      x22, x21, [sp, #0xa0]
+0x000e0e38: stp      x20, x19, [sp, #0xb0]
+0x000e0e3c: stp      x29, x30, [sp, #0xc0]
+0x000e0e40: add      x29, sp, #0xc0
+0x000e0e44: mov      x19, x1
+0x000e0e48: mov      x20, x0
+0x000e0e4c: adrp     x8, #0x4a0000
+0x000e0e50: ldr      x8, [x8, #0x760] ; mem=0x4a0760
+0x000e0e54: ldr      x8, [x8] ; mem=0x4a0000
+0x000e0e58: stur     x8, [x29, #-0x58]
+0x000e0e5c: mov      w24, #0xf5bc ; '�\x03\x1d��I\x11��\x03'
+0x000e0e60: movk     w24, #0xd080, lsl #16 ; '!\x08�RI\x11'
+0x000e0e64: mov      w26, #0x9af4
+0x000e0e68: movk     w26, #0xb0a9, lsl #16 ; '����\x03\x1d�\x07[\x11��\x03'
+0x000e0e6c: mov      w22, #0x949f ; '�\x08�\t�\x08\x01@9�\x02'
+0x000e0e70: movk     w22, #0x5375, lsl #16
+0x000e0e74: bl       #0x461ca8 ; _objc_retain
+0x000e0e78: mov      x0, x19
+0x000e0e7c: bl       #0x461ca8 ; _objc_retain
+0x000e0e80: adrp     x8, #0x4be000
+0x000e0e84: ldr      x1, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x000e0e88: str      x1, [sp, #0x38]
+0x000e0e8c: mov      x0, x20
+0x000e0e90: bl       #0x461c6c ; _objc_msgSend
+0x000e0e94: mov      w9, #0x1359
+0x000e0e98: movk     w9, #0xfe5a, lsl #16
+0x000e0e9c: str      x0, [sp, #0x30]
+0x000e0ea0: add      x8, sp, #0x14
+0x000e0ea4: mov      w28, #0x77b4 ; 'M\x08�R�\x01\rJLm'
+0x000e0ea8: movk     w28, #0x1e2d, lsl #16
+0x000e0eac: str      w9, [sp, #0x14]
+0x000e0eb0: mov      w27, #0xf5bb ; '��\x03\x1d��I\x11��\x03'
+0x000e0eb4: movk     w27, #0xd080, lsl #16 ; '!\x08�RI\x11'
+0x000e0eb8: str      x8, [sp, #8]
+0x000e0ebc: mov      w25, #0x949e
+0x000e0ec0: movk     w25, #0x5375, lsl #16
+0x000e0ec4: ldr      w8, [sp, #0x14]
+0x000e0ec8: cmp      w8, w28
+0x000e0ecc: b.gt     #0xe0f24
+0x000e0ed0: cmp      w8, w27
+0x000e0ed4: b.le     #0xe0ff4
+0x000e0ed8: cmp      w8, w24
+0x000e0edc: b.eq     #0xe1160
+0x000e0ee0: mov      w9, #0xdd89
+0x000e0ee4: movk     w9, #0xf608, lsl #16 ; '�\x03\x1a��\x03\x13��\x03\x17�e\x04'
+0x000e0ee8: cmp      w8, w9
+0x000e0eec: b.eq     #0xe10b4
+0x000e0ef0: mov      w9, #0x1359
+0x000e0ef4: movk     w9, #0xfe5a, lsl #16
+0x000e0ef8: cmp      w8, w9
+0x000e0efc: b.ne     #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e0f00: ldr      x8, [sp, #0x30]
+0x000e0f04: cmp      x8, #0 ; '����\x0c'
+0x000e0f08: mov      w8, #0x63b6
+0x000e0f0c: movk     w8, #0xb61e, lsl #16 ; 'B��gA��#�l�\x03_�\x11'
+0x000e0f10: csel     w8, w26, w8, eq
+0x000e0f14: ldr      x9, [sp, #8]
+0x000e0f18: str      w8, [x9]
+0x000e0f1c: str      xzr, [sp, #0x20]
+0x000e0f20: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e0f24: cmp      w8, w25
+0x000e0f28: b.gt     #0xe1038
+0x000e0f2c: mov      w9, #0xaa85 ; '\\\x11\x14�\x03'
+0x000e0f30: movk     w9, #0x2f00, lsl #16
+0x000e0f34: cmp      w8, w9
+0x000e0f38: b.eq     #0xe1258 ; '�\x03\x13��\x02\x0e��\x03\x14��\x02\x0e��\x0f@�_\x02\x0e��\x07@�\x16\x01'
+0x000e0f3c: mov      w9, #0xbdcf
+0x000e0f40: movk     w9, #0x3ad2, lsl #16
+0x000e0f44: cmp      w8, w9
+0x000e0f48: b.ne     #0xe127c ; '���R�ţr\x1f\x01\tk���T�\x0f@���Z��\x1d'
+0x000e0f4c: movi     v0.16b, #0 ; '����\x0c'
+0x000e0f50: stp      q0, q0, [sp, #0x40]
+0x000e0f54: mov      x0, x20
+0x000e0f58: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e0f5c: adrp     x8, #0x4bf000
+0x000e0f60: ldr      x21, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x000e0f64: mov      x1, x21
+0x000e0f68: bl       #0x461c6c ; _objc_msgSend
+0x000e0f6c: mov      x22, x0
+0x000e0f70: ldr      x1, [sp, #0x38]
+0x000e0f74: mov      x0, x20
+0x000e0f78: bl       #0x461c6c ; _objc_msgSend
+0x000e0f7c: mov      x23, x0
+0x000e0f80: mov      x0, x19
+0x000e0f84: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e0f88: mov      x1, x21
+0x000e0f8c: bl       #0x461c6c ; _objc_msgSend
+0x000e0f90: mov      x21, x0
+0x000e0f94: ldr      x1, [sp, #0x38]
+0x000e0f98: mov      x0, x19
+0x000e0f9c: bl       #0x461c6c ; _objc_msgSend
+0x000e0fa0: mov      x4, x0
+0x000e0fa4: add      x5, sp, #0x40
+0x000e0fa8: mov      w0, #2
+0x000e0fac: mov      x1, x22
+0x000e0fb0: mov      w22, #0x949f ; '�\x08�\t�\x08\x01@9�\x02'
+0x000e0fb4: movk     w22, #0x5375, lsl #16
+0x000e0fb8: mov      x2, x23
+0x000e0fbc: mov      x3, x21
+0x000e0fc0: bl       #0x461474 ; _CCHmac
+0x000e0fc4: adrp     x8, #0x4c4000
+0x000e0fc8: ldr      x0, [x8, #0x130] ; mem=0x4c4130
+0x000e0fcc: adrp     x8, #0x4bf000
+0x000e0fd0: ldr      x1, [x8, #0xa70] ; mem=0x4bfa70 -> 'dataWithBytes:length:'
+0x000e0fd4: add      x2, sp, #0x40
+0x000e0fd8: mov      w3, #0x20
+0x000e0fdc: bl       #0x461c6c ; _objc_msgSend
+0x000e0fe0: mov      x29, x29
+0x000e0fe4: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x000e0fe8: ldr      x8, [sp, #8]
+0x000e0fec: str      w24, [x8]
+0x000e0ff0: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e0ff4: cmp      w8, w26
+0x000e0ff8: b.eq     #0xe1064 ; '�\x13@��\x0f'
+0x000e0ffc: mov      w9, #0x63b6
+0x000e1000: movk     w9, #0xb61e, lsl #16 ; 'B��gA��#�l�\x03_�\x11'
+0x000e1004: cmp      w8, w9
+0x000e1008: b.ne     #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e100c: ldr      x1, [sp, #0x38]
+0x000e1010: mov      x0, x19
+0x000e1014: bl       #0x461c6c ; _objc_msgSend
+0x000e1018: cmp      x0, #0 ; '����\x0c'
+0x000e101c: ldr      x8, [sp, #8]
+0x000e1020: mov      w9, #0xdd89
+0x000e1024: movk     w9, #0xf608, lsl #16 ; '�\x03\x1a��\x03\x13��\x03\x17�e\x04'
+0x000e1028: csel     w9, w26, w9, eq
+0x000e102c: str      w9, [x8]
+0x000e1030: str      xzr, [sp, #0x20]
+0x000e1034: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e1038: cmp      w8, w22
+0x000e103c: b.eq     #0xe1100
+0x000e1040: mov      w9, #0x96e1
+0x000e1044: movk     w9, #0x6fe7, lsl #16 ; '�9k\x11��\x03'
+0x000e1048: cmp      w8, w9
+0x000e104c: b.ne     #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e1050: ldr      x8, [sp, #8]
+0x000e1054: str      w26, [x8]
+0x000e1058: ldr      x8, [sp, #0x28]
+0x000e105c: str      x8, [sp, #0x20]
+0x000e1060: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e1064: ldr      x8, [sp, #0x20]
+0x000e1068: str      x8, [sp, #0x18]
+0x000e106c: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e1070: ldr      w8, [x8, #0x7c0] ; mem=0x4eb7c0
+0x000e1074: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e1078: ldr      w9, [x9, #0x7c4] ; mem=0x4eb7c4
+0x000e107c: sub      w8, w8, w9
+0x000e1080: mov      w9, #0xdce4
+0x000e1084: movk     w9, #0x3461, lsl #16
+0x000e1088: eor      w8, w8, w9
+0x000e108c: mov      w9, #0x82ac ; 'pf\x11��\x04'
+0x000e1090: movk     w9, #0xb23b, lsl #16 ; '���T�\x03Y���v��\x03\x1b��\x03\x16��\x03\x19�\x04\x02�R�Z\x11��\x03'
+0x000e1094: mul      w8, w8, w9
+0x000e1098: mov      w9, #0xc224 ; '�\x05@9J\r'
+0x000e109c: movk     w9, #0xacb5, lsl #16
+0x000e10a0: cmp      w8, w9
+0x000e10a4: mov      w8, #0xaa85 ; '\\\x11\x14�\x03'
+0x000e10a8: movk     w8, #0x2f00, lsl #16
+0x000e10ac: csel     w8, w22, w8, hi
+0x000e10b0: b        #0xe124c ; '�\x07@�(\x01'
+0x000e10b4: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e10b8: ldr      w8, [x8, #0x7b0] ; mem=0x4eb7b0
+0x000e10bc: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e10c0: ldr      w9, [x9, #0x7b4] ; mem=0x4eb7b4
+0x000e10c4: udiv     w8, w8, w9
+0x000e10c8: mov      w9, #0xc9e3
+0x000e10cc: movk     w9, #0xa82e, lsl #16
+0x000e10d0: umull    x8, w8, w9
+0x000e10d4: lsr      x8, x8, #0x3f
+0x000e10d8: mov      w9, #0x6532
+0x000e10dc: movk     w9, #0x1fe1, lsl #16
+0x000e10e0: mul      w8, w8, w9
+0x000e10e4: mov      w9, #0x8c79 ; 'OA��Wè�\x03_��\x03'
+0x000e10e8: movk     w9, #0x67d8, lsl #16
+0x000e10ec: cmp      w8, w9
+0x000e10f0: mov      w8, #0xbdcf
+0x000e10f4: movk     w8, #0x3ad2, lsl #16
+0x000e10f8: csel     w8, w8, w24, hi
+0x000e10fc: b        #0xe124c ; '�\x07@�(\x01'
+0x000e1100: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e1104: ldr      w8, [x8, #0x7c8] ; mem=0x4eb7c8
+0x000e1108: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e110c: ldr      w9, [x9, #0x7cc] ; mem=0x4eb7cc
+0x000e1110: sub      w8, w8, w9
+0x000e1114: mov      w9, #0x2af8
+0x000e1118: movk     w9, #0x5aa6, lsl #16
+0x000e111c: orr      w8, w8, w9
+0x000e1120: mov      w9, #0xd38d
+0x000e1124: movk     w9, #0x7b3a, lsl #16 ; 'B��\x039��\x03\x16��\x03\x17�\x04\x02�RHh\x11��\x03'
+0x000e1128: mul      w21, w8, w9
+0x000e112c: mov      x0, x19
+0x000e1130: bl       #0x461c9c ; _objc_release
+0x000e1134: mov      x0, x20
+0x000e1138: bl       #0x461c9c ; _objc_release
+0x000e113c: ldr      x0, [sp, #0x18]
+0x000e1140: bl       #0x461be8 ; _objc_autoreleaseReturnValue
+0x000e1144: mov      w8, #0xf0fc ; '/\x12�R�\x01\x0fJ\x0e&'
+0x000e1148: movk     w8, #0xd532, lsl #16 ; '�R\x08\x01\nJ(\x0e'
+0x000e114c: cmp      w21, w8
+0x000e1150: mov      w8, #0x77b5
+0x000e1154: movk     w8, #0x1e2d, lsl #16
+0x000e1158: csel     w8, w8, w22, lo
+0x000e115c: b        #0xe124c ; '�\x07@�(\x01'
+0x000e1160: adrp     x8, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e1164: ldr      w8, [x8, #0x7b8] ; mem=0x4eb7b8
+0x000e1168: adrp     x9, #0x4eb000 ; '���ݻ�ܲ\x1b!�\x1a�\n'
+0x000e116c: ldr      w9, [x9, #0x7bc] ; mem=0x4eb7bc
+0x000e1170: orr      w8, w8, w9
+0x000e1174: mov      w9, #0x24ee
+0x000e1178: movk     w9, #0x3566, lsl #16
+0x000e117c: eor      w8, w8, w9
+0x000e1180: mov      w9, #0x5336
+0x000e1184: movk     w9, #0xc99b, lsl #16 ; '9�\x15@9Q\x14�R\x10\x02\x11J0\x14'
+0x000e1188: mul      w26, w8, w9
+0x000e118c: movi     v0.16b, #0 ; '����\x0c'
+0x000e1190: stp      q0, q0, [sp, #0x40]
+0x000e1194: mov      x0, x20
+0x000e1198: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e119c: adrp     x8, #0x4bf000
+0x000e11a0: ldr      x21, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x000e11a4: mov      x1, x21
+0x000e11a8: bl       #0x461c6c ; _objc_msgSend
+0x000e11ac: mov      x22, x0
+0x000e11b0: ldr      x1, [sp, #0x38]
+0x000e11b4: mov      x0, x20
+0x000e11b8: bl       #0x461c6c ; _objc_msgSend
+0x000e11bc: mov      x23, x0
+0x000e11c0: mov      x0, x19
+0x000e11c4: bl       #0x461cb4 ; _objc_retainAutorelease
+0x000e11c8: mov      x1, x21
+0x000e11cc: bl       #0x461c6c ; _objc_msgSend
+0x000e11d0: mov      x21, x0
+0x000e11d4: ldr      x1, [sp, #0x38]
+0x000e11d8: mov      x0, x19
+0x000e11dc: bl       #0x461c6c ; _objc_msgSend
+0x000e11e0: mov      x4, x0
+0x000e11e4: add      x5, sp, #0x40
+0x000e11e8: mov      w0, #2
+0x000e11ec: mov      x1, x22
+0x000e11f0: mov      w22, #0x949f ; '�\x08�\t�\x08\x01@9�\x02'
+0x000e11f4: movk     w22, #0x5375, lsl #16
+0x000e11f8: mov      x2, x23
+0x000e11fc: mov      x3, x21
+0x000e1200: bl       #0x461474 ; _CCHmac
+0x000e1204: adrp     x8, #0x4c4000
+0x000e1208: ldr      x0, [x8, #0x130] ; mem=0x4c4130
+0x000e120c: adrp     x8, #0x4bf000
+0x000e1210: ldr      x1, [x8, #0xa70] ; mem=0x4bfa70 -> 'dataWithBytes:length:'
+0x000e1214: add      x2, sp, #0x40
+0x000e1218: mov      w3, #0x20
+0x000e121c: bl       #0x461c6c ; _objc_msgSend
+0x000e1220: mov      x29, x29
+0x000e1224: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x000e1228: str      x0, [sp, #0x28]
+0x000e122c: mov      w8, #0x1a69
+0x000e1230: movk     w8, #0x36bf, lsl #16
+0x000e1234: cmp      w26, w8
+0x000e1238: mov      w26, #0x9af4
+0x000e123c: movk     w26, #0xb0a9, lsl #16 ; '����\x03\x1d�\x07[\x11��\x03'
+0x000e1240: mov      w8, #0x96e1
+0x000e1244: movk     w8, #0x6fe7, lsl #16 ; '�9k\x11��\x03'
+0x000e1248: csel     w8, w8, w24, ne
+0x000e124c: ldr      x9, [sp, #8]
+0x000e1250: str      w8, [x9]
+0x000e1254: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e1258: mov      x0, x19
+0x000e125c: bl       #0x461c9c ; _objc_release
+0x000e1260: mov      x0, x20
+0x000e1264: bl       #0x461c9c ; _objc_release
+0x000e1268: ldr      x0, [sp, #0x18]
+0x000e126c: bl       #0x461be8 ; _objc_autoreleaseReturnValue
+0x000e1270: ldr      x8, [sp, #8]
+0x000e1274: str      w22, [x8]
+0x000e1278: b        #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e127c: mov      w9, #0x77b5
+0x000e1280: movk     w9, #0x1e2d, lsl #16
+0x000e1284: cmp      w8, w9
+0x000e1288: b.ne     #0xe0ec4 ; '�\x17@�\x1f\x01\x1ck�\x02'
+0x000e128c: ldr      x0, [sp, #0x18]
+0x000e1290: ldur     x8, [x29, #-0x58]
+0x000e1294: adrp     x9, #0x4a0000
+0x000e1298: ldr      x9, [x9, #0x760] ; mem=0x4a0760
+0x000e129c: ldr      x9, [x9] ; mem=0x4a0000
+0x000e12a0: cmp      x9, x8
+0x000e12a4: b.ne     #0xe12c8 ; '|\x01\x0e��o���g\x01��_\x02��W\x03��O\x04��{\x05��C\x01��\x03\x01��\x1d'
+0x000e12a8: ldp      x29, x30, [sp, #0xc0]
+0x000e12ac: ldp      x20, x19, [sp, #0xb0]
+0x000e12b0: ldp      x22, x21, [sp, #0xa0]
+0x000e12b4: ldp      x24, x23, [sp, #0x90]
+0x000e12b8: ldp      x26, x25, [sp, #0x80]
+0x000e12bc: ldp      x28, x27, [sp, #0x70]
+0x000e12c0: add      sp, sp, #0xd0
+0x000e12c4: ret      
+0x000e12c8: bl       #0x4618b8 ; ___stack_chk_fail
+
+==== 0x2e5ce8 ====
+function 0x2e5ce8-0x2e5ecc (requested IMP 0x2e5ce8)
+0x002e5ce8: sub      sp, sp, #0x90
+0x002e5cec: stp      x28, x27, [sp, #0x30]
+0x002e5cf0: stp      x26, x25, [sp, #0x40]
+0x002e5cf4: stp      x24, x23, [sp, #0x50]
+0x002e5cf8: stp      x22, x21, [sp, #0x60]
+0x002e5cfc: stp      x20, x19, [sp, #0x70]
+0x002e5d00: stp      x29, x30, [sp, #0x80]
+0x002e5d04: add      x29, sp, #0x80
+0x002e5d08: mov      x21, x2
+0x002e5d0c: mov      x20, x1
+0x002e5d10: mov      x19, x0
+0x002e5d14: bl       #0x461ca8 ; _objc_retain
+0x002e5d18: mov      x0, x20
+0x002e5d1c: bl       #0x461ca8 ; _objc_retain
+0x002e5d20: mov      x0, x21
+0x002e5d24: bl       #0x461ca8 ; _objc_retain
+0x002e5d28: adrp     x8, #0x4be000
+0x002e5d2c: ldr      x22, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x002e5d30: mov      x0, x19
+0x002e5d34: mov      x1, x22
+0x002e5d38: bl       #0x461c6c ; _objc_msgSend
+0x002e5d3c: cbz      x0, #0x2e5e8c
+0x002e5d40: mov      x0, x20
+0x002e5d44: mov      x1, x22
+0x002e5d48: bl       #0x461c6c ; _objc_msgSend
+0x002e5d4c: cmp      x0, #0x20
+0x002e5d50: b.ne     #0x2e5e8c
+0x002e5d54: mov      x0, x21
+0x002e5d58: mov      x1, x22
+0x002e5d5c: bl       #0x461c6c ; _objc_msgSend
+0x002e5d60: cmp      x0, #0x10
+0x002e5d64: b.ne     #0x2e5e8c
+0x002e5d68: mov      x0, x19
+0x002e5d6c: mov      x1, x22
+0x002e5d70: bl       #0x461c6c ; _objc_msgSend
+0x002e5d74: str      xzr, [sp, #0x28]
+0x002e5d78: adrp     x8, #0x4c4000
+0x002e5d7c: ldr      x8, [x8, #0x2f0] ; mem=0x4c42f0
+0x002e5d80: adrp     x9, #0x4bf000
+0x002e5d84: ldr      x1, [x9, #0xa40] ; mem=0x4bfa40 -> 'dataWithLength:'
+0x002e5d88: add      x2, x0, #0x10
+0x002e5d8c: mov      x0, x8
+0x002e5d90: bl       #0x461c6c ; _objc_msgSend
+0x002e5d94: mov      x29, x29
+0x002e5d98: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x002e5d9c: mov      x23, x0
+0x002e5da0: mov      x0, x20
+0x002e5da4: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002e5da8: adrp     x8, #0x4bf000
+0x002e5dac: ldr      x25, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x002e5db0: mov      x1, x25
+0x002e5db4: bl       #0x461c6c ; _objc_msgSend
+0x002e5db8: str      x0, [sp, #0x20]
+0x002e5dbc: mov      x0, x20
+0x002e5dc0: mov      x1, x22
+0x002e5dc4: bl       #0x461c6c ; _objc_msgSend
+0x002e5dc8: mov      x26, x0
+0x002e5dcc: mov      x0, x21
+0x002e5dd0: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002e5dd4: mov      x1, x25
+0x002e5dd8: bl       #0x461c6c ; _objc_msgSend
+0x002e5ddc: mov      x27, x0
+0x002e5de0: mov      x0, x19
+0x002e5de4: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002e5de8: mov      x1, x25
+0x002e5dec: bl       #0x461c6c ; _objc_msgSend
+0x002e5df0: mov      x25, x0
+0x002e5df4: mov      x0, x19
+0x002e5df8: mov      x1, x22
+0x002e5dfc: bl       #0x461c6c ; _objc_msgSend
+0x002e5e00: mov      x28, x0
+0x002e5e04: mov      x0, x23
+0x002e5e08: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002e5e0c: adrp     x8, #0x4bf000
+0x002e5e10: ldr      x1, [x8, #0xa48] ; mem=0x4bfa48 -> 'mutableBytes'
+0x002e5e14: bl       #0x461c6c ; _objc_msgSend
+0x002e5e18: mov      x24, x0
+0x002e5e1c: mov      x0, x23
+0x002e5e20: mov      x1, x22
+0x002e5e24: bl       #0x461c6c ; _objc_msgSend
+0x002e5e28: add      x8, sp, #0x28 ; '__TEXT'
+0x002e5e2c: stp      x0, x8, [sp, #8]
+0x002e5e30: str      x24, [sp]
+0x002e5e34: mov      w0, #1 ; '���\x0c'
+0x002e5e38: mov      w1, #0 ; '����\x0c'
+0x002e5e3c: mov      w2, #1 ; '���\x0c'
+0x002e5e40: ldr      x3, [sp, #0x20]
+0x002e5e44: mov      x4, x26
+0x002e5e48: mov      x5, x27
+0x002e5e4c: mov      x6, x25
+0x002e5e50: mov      x7, x28
+0x002e5e54: bl       #0x461468 ; _CCCrypt
+0x002e5e58: mov      x22, #0 ; '����\x0c'
+0x002e5e5c: cbnz     w0, #0x2e5e80 ; '�\x03\x17���\x05�\x02'
+0x002e5e60: ldr      x2, [sp, #0x28]
+0x002e5e64: adrp     x8, #0x4bf000
+0x002e5e68: ldr      x1, [x8, #0xa58] ; mem=0x4bfa58 -> 'setLength:'
+0x002e5e6c: mov      x0, x23
+0x002e5e70: bl       #0x461c6c ; _objc_msgSend
+0x002e5e74: mov      x0, x23
+0x002e5e78: bl       #0x461ca8 ; _objc_retain
+0x002e5e7c: mov      x22, x23
+0x002e5e80: mov      x0, x23
+0x002e5e84: bl       #0x461c9c ; _objc_release
+0x002e5e88: b        #0x2e5e90 ; '�\x03\x15���\x05��\x03\x14���\x05��\x03\x13�~�\x05��\x03\x16��{H��OG��WF��_E��gD��oC��C\x02�H�\x05\x14�o���g\x01��_\x02��W\x03��O\x04��{\x05��C\x01��C\x02��\x03\x07��\x03\x06��\x03\x05���9��\x03\x03��\x03\x02��\r'
+0x002e5e8c: mov      x22, #0 ; '����\x0c'
+0x002e5e90: mov      x0, x21
+0x002e5e94: bl       #0x461c9c ; _objc_release
+0x002e5e98: mov      x0, x20
+0x002e5e9c: bl       #0x461c9c ; _objc_release
+0x002e5ea0: mov      x0, x19
+0x002e5ea4: bl       #0x461c9c ; _objc_release
+0x002e5ea8: mov      x0, x22
+0x002e5eac: ldp      x29, x30, [sp, #0x80]
+0x002e5eb0: ldp      x20, x19, [sp, #0x70]
+0x002e5eb4: ldp      x22, x21, [sp, #0x60]
+0x002e5eb8: ldp      x24, x23, [sp, #0x50]
+0x002e5ebc: ldp      x26, x25, [sp, #0x40]
+0x002e5ec0: ldp      x28, x27, [sp, #0x30]
+0x002e5ec4: add      sp, sp, #0x90
+0x002e5ec8: b        #0x461be8 ; _objc_autoreleaseReturnValue
+
+==== 0x2ed1f4 ====
+function 0x2ed1f4-0x2ed314 (requested IMP 0x2ed1f4)
+0x002ed1f4: sub      sp, sp, #0x70
+0x002ed1f8: stp      x24, x23, [sp, #0x30]
+0x002ed1fc: stp      x22, x21, [sp, #0x40]
+0x002ed200: stp      x20, x19, [sp, #0x50]
+0x002ed204: stp      x29, x30, [sp, #0x60]
+0x002ed208: add      x29, sp, #0x60
+0x002ed20c: mov      x19, x1
+0x002ed210: mov      x20, x0
+0x002ed214: adrp     x8, #0x4a0000
+0x002ed218: ldr      x8, [x8, #0x760] ; mem=0x4a0760
+0x002ed21c: ldr      x8, [x8] ; mem=0x4a0000
+0x002ed220: str      x8, [sp, #0x28]
+0x002ed224: movi     v0.16b, #0 ; '����\x0c'
+0x002ed228: stp      q0, q0, [sp]
+0x002ed22c: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002ed230: adrp     x8, #0x4bf000
+0x002ed234: ldr      x21, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x002ed238: mov      x0, x19
+0x002ed23c: bl       #0x461ca8 ; _objc_retain
+0x002ed240: mov      x0, x20
+0x002ed244: bl       #0x461ca8 ; _objc_retain
+0x002ed248: mov      x1, x21
+0x002ed24c: bl       #0x461c6c ; _objc_msgSend
+0x002ed250: mov      x22, x0
+0x002ed254: adrp     x8, #0x4be000
+0x002ed258: ldr      x23, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x002ed25c: mov      x0, x20
+0x002ed260: mov      x1, x23
+0x002ed264: bl       #0x461c6c ; _objc_msgSend
+0x002ed268: mov      x24, x0
+0x002ed26c: mov      x0, x20
+0x002ed270: bl       #0x461c9c ; _objc_release
+0x002ed274: mov      x0, x19
+0x002ed278: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002ed27c: mov      x1, x21
+0x002ed280: bl       #0x461c6c ; _objc_msgSend
+0x002ed284: mov      x20, x0
+0x002ed288: mov      x0, x19
+0x002ed28c: mov      x1, x23
+0x002ed290: bl       #0x461c6c ; _objc_msgSend
+0x002ed294: mov      x21, x0
+0x002ed298: mov      x0, x19
+0x002ed29c: bl       #0x461c9c ; _objc_release
+0x002ed2a0: mov      x5, sp
+0x002ed2a4: mov      w0, #2
+0x002ed2a8: mov      x1, x22
+0x002ed2ac: mov      x2, x24
+0x002ed2b0: mov      x3, x20
+0x002ed2b4: mov      x4, x21
+0x002ed2b8: bl       #0x461474 ; _CCHmac
+0x002ed2bc: adrp     x8, #0x4c4000
+0x002ed2c0: ldr      x0, [x8, #0x130] ; mem=0x4c4130
+0x002ed2c4: adrp     x8, #0x4bf000
+0x002ed2c8: ldr      x1, [x8, #0xa70] ; mem=0x4bfa70 -> 'dataWithBytes:length:'
+0x002ed2cc: mov      x2, sp
+0x002ed2d0: mov      w3, #0x20
+0x002ed2d4: bl       #0x461c6c ; _objc_msgSend
+0x002ed2d8: mov      x29, x29
+0x002ed2dc: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x002ed2e0: ldr      x8, [sp, #0x28]
+0x002ed2e4: adrp     x9, #0x4a0000
+0x002ed2e8: ldr      x9, [x9, #0x760] ; mem=0x4a0760
+0x002ed2ec: ldr      x9, [x9] ; mem=0x4a0000
+0x002ed2f0: cmp      x9, x8
+0x002ed2f4: b.ne     #0x2ed310 ; 'j�\x05�'
+0x002ed2f8: ldp      x29, x30, [sp, #0x60]
+0x002ed2fc: ldp      x20, x19, [sp, #0x50]
+0x002ed300: ldp      x22, x21, [sp, #0x40]
+0x002ed304: ldp      x24, x23, [sp, #0x30]
+0x002ed308: add      sp, sp, #0x70
+0x002ed30c: b        #0x461be8 ; _objc_autoreleaseReturnValue
+0x002ed310: bl       #0x4618b8 ; ___stack_chk_fail
+
+==== 0x2f2c2c ====
+function 0x2f2c2c-0x2f2e10 (requested IMP 0x2f2c2c)
+0x002f2c2c: sub      sp, sp, #0x90
+0x002f2c30: stp      x28, x27, [sp, #0x30]
+0x002f2c34: stp      x26, x25, [sp, #0x40]
+0x002f2c38: stp      x24, x23, [sp, #0x50]
+0x002f2c3c: stp      x22, x21, [sp, #0x60]
+0x002f2c40: stp      x20, x19, [sp, #0x70]
+0x002f2c44: stp      x29, x30, [sp, #0x80]
+0x002f2c48: add      x29, sp, #0x80
+0x002f2c4c: mov      x22, x3
+0x002f2c50: mov      x21, x2
+0x002f2c54: mov      x20, x1
+0x002f2c58: mov      x19, x0
+0x002f2c5c: bl       #0x461ca8 ; _objc_retain
+0x002f2c60: mov      x0, x20
+0x002f2c64: bl       #0x461ca8 ; _objc_retain
+0x002f2c68: mov      x0, x21
+0x002f2c6c: bl       #0x461ca8 ; _objc_retain
+0x002f2c70: adrp     x8, #0x4be000
+0x002f2c74: ldr      x23, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x002f2c78: mov      x0, x19
+0x002f2c7c: mov      x1, x23
+0x002f2c80: bl       #0x461c6c ; _objc_msgSend
+0x002f2c84: cbz      x0, #0x2f2dd0
+0x002f2c88: mov      x0, x20
+0x002f2c8c: mov      x1, x23
+0x002f2c90: bl       #0x461c6c ; _objc_msgSend
+0x002f2c94: cmp      x0, #0x20
+0x002f2c98: b.ne     #0x2f2dd0
+0x002f2c9c: mov      x0, x21
+0x002f2ca0: mov      x1, x23
+0x002f2ca4: bl       #0x461c6c ; _objc_msgSend
+0x002f2ca8: cmp      x0, #0x10
+0x002f2cac: b.ne     #0x2f2dd0
+0x002f2cb0: mov      x0, x19
+0x002f2cb4: mov      x1, x23
+0x002f2cb8: bl       #0x461c6c ; _objc_msgSend
+0x002f2cbc: str      xzr, [sp, #0x28]
+0x002f2cc0: adrp     x8, #0x4c4000
+0x002f2cc4: ldr      x8, [x8, #0x2f0] ; mem=0x4c42f0
+0x002f2cc8: adrp     x9, #0x4bf000
+0x002f2ccc: ldr      x1, [x9, #0xa40] ; mem=0x4bfa40 -> 'dataWithLength:'
+0x002f2cd0: add      x2, x0, #0x10
+0x002f2cd4: mov      x0, x8
+0x002f2cd8: bl       #0x461c6c ; _objc_msgSend
+0x002f2cdc: mov      x29, x29
+0x002f2ce0: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x002f2ce4: mov      x24, x0
+0x002f2ce8: mov      x0, x20
+0x002f2cec: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f2cf0: adrp     x8, #0x4bf000
+0x002f2cf4: ldr      x26, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x002f2cf8: mov      x1, x26
+0x002f2cfc: bl       #0x461c6c ; _objc_msgSend
+0x002f2d00: str      x0, [sp, #0x20]
+0x002f2d04: mov      x0, x20
+0x002f2d08: mov      x1, x23
+0x002f2d0c: bl       #0x461c6c ; _objc_msgSend
+0x002f2d10: str      x0, [sp, #0x18]
+0x002f2d14: mov      x0, x21
+0x002f2d18: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f2d1c: mov      x1, x26
+0x002f2d20: bl       #0x461c6c ; _objc_msgSend
+0x002f2d24: mov      x28, x0
+0x002f2d28: mov      x0, x19
+0x002f2d2c: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f2d30: mov      x1, x26
+0x002f2d34: bl       #0x461c6c ; _objc_msgSend
+0x002f2d38: mov      x26, x0
+0x002f2d3c: mov      x0, x19
+0x002f2d40: mov      x1, x23
+0x002f2d44: bl       #0x461c6c ; _objc_msgSend
+0x002f2d48: mov      x25, x0
+0x002f2d4c: mov      x0, x24
+0x002f2d50: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f2d54: adrp     x8, #0x4bf000
+0x002f2d58: ldr      x1, [x8, #0xa48] ; mem=0x4bfa48 -> 'mutableBytes'
+0x002f2d5c: bl       #0x461c6c ; _objc_msgSend
+0x002f2d60: mov      x27, x0
+0x002f2d64: mov      x0, x24
+0x002f2d68: mov      x1, x23
+0x002f2d6c: bl       #0x461c6c ; _objc_msgSend
+0x002f2d70: add      x8, sp, #0x28 ; '__TEXT'
+0x002f2d74: stp      x0, x8, [sp, #8]
+0x002f2d78: str      x27, [sp]
+0x002f2d7c: mov      x0, x22
+0x002f2d80: mov      w1, #0 ; '����\x0c'
+0x002f2d84: mov      w2, #1 ; '���\x0c'
+0x002f2d88: ldp      x4, x3, [sp, #0x18]
+0x002f2d8c: mov      x5, x28
+0x002f2d90: mov      x6, x26
+0x002f2d94: mov      x7, x25
+0x002f2d98: bl       #0x461468 ; _CCCrypt
+0x002f2d9c: mov      x22, #0 ; '����\x0c'
+0x002f2da0: cbnz     w0, #0x2f2dc4 ; '�\x03\x18���\x05�\x02'
+0x002f2da4: ldr      x2, [sp, #0x28]
+0x002f2da8: adrp     x8, #0x4bf000
+0x002f2dac: ldr      x1, [x8, #0xa58] ; mem=0x4bfa58 -> 'setLength:'
+0x002f2db0: mov      x0, x24
+0x002f2db4: bl       #0x461c6c ; _objc_msgSend
+0x002f2db8: mov      x0, x24
+0x002f2dbc: bl       #0x461ca8 ; _objc_retain
+0x002f2dc0: mov      x22, x24
+0x002f2dc4: mov      x0, x24
+0x002f2dc8: bl       #0x461c9c ; _objc_release
+0x002f2dcc: b        #0x2f2dd4 ; '�\x03\x15���\x05��\x03\x14���\x05��\x03\x13���\x05��\x03\x16��{H��OG��WF��_E��gD��oC��C\x02�w�\x05\x14�_���W\x01��O\x02��{\x03���'
+0x002f2dd0: mov      x22, #0 ; '����\x0c'
+0x002f2dd4: mov      x0, x21
+0x002f2dd8: bl       #0x461c9c ; _objc_release
+0x002f2ddc: mov      x0, x20
+0x002f2de0: bl       #0x461c9c ; _objc_release
+0x002f2de4: mov      x0, x19
+0x002f2de8: bl       #0x461c9c ; _objc_release
+0x002f2dec: mov      x0, x22
+0x002f2df0: ldp      x29, x30, [sp, #0x80]
+0x002f2df4: ldp      x20, x19, [sp, #0x70]
+0x002f2df8: ldp      x22, x21, [sp, #0x60]
+0x002f2dfc: ldp      x24, x23, [sp, #0x50]
+0x002f2e00: ldp      x26, x25, [sp, #0x40]
+0x002f2e04: ldp      x28, x27, [sp, #0x30]
+0x002f2e08: add      sp, sp, #0x90
+0x002f2e0c: b        #0x461be8 ; _objc_autoreleaseReturnValue
+
+==== 0x2f3020 ====
+function 0x2f3020-0x2f3140 (requested IMP 0x2f3020)
+0x002f3020: sub      sp, sp, #0x70
+0x002f3024: stp      x24, x23, [sp, #0x30]
+0x002f3028: stp      x22, x21, [sp, #0x40]
+0x002f302c: stp      x20, x19, [sp, #0x50]
+0x002f3030: stp      x29, x30, [sp, #0x60]
+0x002f3034: add      x29, sp, #0x60
+0x002f3038: mov      x19, x1
+0x002f303c: mov      x20, x0
+0x002f3040: adrp     x8, #0x4a0000
+0x002f3044: ldr      x8, [x8, #0x760] ; mem=0x4a0760
+0x002f3048: ldr      x8, [x8] ; mem=0x4a0000
+0x002f304c: str      x8, [sp, #0x28]
+0x002f3050: movi     v0.16b, #0 ; '����\x0c'
+0x002f3054: stp      q0, q0, [sp]
+0x002f3058: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f305c: adrp     x8, #0x4bf000
+0x002f3060: ldr      x21, [x8, #0xa50] ; mem=0x4bfa50 -> 'bytes'
+0x002f3064: mov      x0, x19
+0x002f3068: bl       #0x461ca8 ; _objc_retain
+0x002f306c: mov      x0, x20
+0x002f3070: bl       #0x461ca8 ; _objc_retain
+0x002f3074: mov      x1, x21
+0x002f3078: bl       #0x461c6c ; _objc_msgSend
+0x002f307c: mov      x22, x0
+0x002f3080: adrp     x8, #0x4be000
+0x002f3084: ldr      x23, [x8, #0x338] ; mem=0x4be338 -> 'length'
+0x002f3088: mov      x0, x20
+0x002f308c: mov      x1, x23
+0x002f3090: bl       #0x461c6c ; _objc_msgSend
+0x002f3094: mov      x24, x0
+0x002f3098: mov      x0, x20
+0x002f309c: bl       #0x461c9c ; _objc_release
+0x002f30a0: mov      x0, x19
+0x002f30a4: bl       #0x461cb4 ; _objc_retainAutorelease
+0x002f30a8: mov      x1, x21
+0x002f30ac: bl       #0x461c6c ; _objc_msgSend
+0x002f30b0: mov      x20, x0
+0x002f30b4: mov      x0, x19
+0x002f30b8: mov      x1, x23
+0x002f30bc: bl       #0x461c6c ; _objc_msgSend
+0x002f30c0: mov      x21, x0
+0x002f30c4: mov      x0, x19
+0x002f30c8: bl       #0x461c9c ; _objc_release
+0x002f30cc: mov      x5, sp
+0x002f30d0: mov      w0, #2
+0x002f30d4: mov      x1, x22
+0x002f30d8: mov      x2, x24
+0x002f30dc: mov      x3, x20
+0x002f30e0: mov      x4, x21
+0x002f30e4: bl       #0x461474 ; _CCHmac
+0x002f30e8: adrp     x8, #0x4c4000
+0x002f30ec: ldr      x0, [x8, #0x130] ; mem=0x4c4130
+0x002f30f0: adrp     x8, #0x4bf000
+0x002f30f4: ldr      x1, [x8, #0xa70] ; mem=0x4bfa70 -> 'dataWithBytes:length:'
+0x002f30f8: mov      x2, sp
+0x002f30fc: mov      w3, #0x20
+0x002f3100: bl       #0x461c6c ; _objc_msgSend
+0x002f3104: mov      x29, x29
+0x002f3108: bl       #0x461ccc ; _objc_retainAutoreleasedReturnValue
+0x002f310c: ldr      x8, [sp, #0x28]
+0x002f3110: adrp     x9, #0x4a0000
+0x002f3114: ldr      x9, [x9, #0x760] ; mem=0x4a0760
+0x002f3118: ldr      x9, [x9] ; mem=0x4a0000
+0x002f311c: cmp      x9, x8
+0x002f3120: b.ne     #0x2f313c ; '߹\x05��#�m�o\x01��g\x02��_\x03��W\x04��O\x05��{\x06���\x01��\x03\x02��\x03\x04��\x03\x03��\x03\x02��\x03'
+0x002f3124: ldp      x29, x30, [sp, #0x60]
+0x002f3128: ldp      x20, x19, [sp, #0x50]
+0x002f312c: ldp      x22, x21, [sp, #0x40]
+0x002f3130: ldp      x24, x23, [sp, #0x30]
+0x002f3134: add      sp, sp, #0x70
+0x002f3138: b        #0x461be8 ; _objc_autoreleaseReturnValue
+0x002f313c: bl       #0x4618b8 ; ___stack_chk_fail

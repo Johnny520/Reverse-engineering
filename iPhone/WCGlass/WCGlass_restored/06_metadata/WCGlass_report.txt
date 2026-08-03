@@ -1,0 +1,129 @@
+Source: D:\folder\codex\解密\WCGlass.dylib
+Size: 11848688 bytes
+SHA-256: 76ba59a63ba3606753cddd7c63c557d9a3765baecb85fe3d1f39384e62227320
+Universal slices: 2
+
+[arm64]
+  FAT offset/size: 0x4000 / 0x598740
+  CPU type/subtype: 0x100000c / 0x0
+  Mach-O filetype: 6 (MH_DYLIB=6)
+  UUID: 49197697-5e57-3cd4-8a02-475ab68ed7aa
+  LC_ENCRYPTION_INFO_64: {'offset': 16384, 'size': 4833280, 'id': 0}
+  Plaintext verdict: YES (cryptid=0)
+  Recovered symbols/classes/stubs: 454 / 78 / 206
+  Sections:
+    __TEXT,__text addr=0x4000 size=0x45d45c fileoff=0x4000 entropy=6.768
+    __TEXT,__stubs addr=0x46145c size=0x9a8 fileoff=0x46145c entropy=3.907
+    __TEXT,__init_offsets addr=0x461e04 size=0x84 fileoff=0x461e04 entropy=4.786
+    __TEXT,__objc_methlist addr=0x461e88 size=0x6e40 fileoff=0x461e88 entropy=5.926
+    __TEXT,__gcc_except_tab addr=0x468cc8 size=0x13d34 fileoff=0x468cc8 entropy=5.647
+    __TEXT,__objc_methname addr=0x47c9fc size=0x14965 fileoff=0x47c9fc entropy=4.986
+    __TEXT,__const addr=0x491370 size=0x13a0 fileoff=0x491370 entropy=5.404
+    __TEXT,__cstring addr=0x492710 size=0x3689 fileoff=0x492710 entropy=5.038
+    __TEXT,__objc_classname addr=0x495d99 size=0x9e3 fileoff=0x495d99 entropy=5.005
+    __TEXT,__objc_methtype addr=0x49677c size=0x3222 fileoff=0x49677c entropy=5.339
+    __TEXT,__ustring addr=0x49999e size=0x440 fileoff=0x49999e entropy=6.236
+    __TEXT,__unwind_info addr=0x499de0 size=0x5ed0 fileoff=0x499de0 entropy=6.670
+    __TEXT,__eh_frame addr=0x49fcb0 size=0x178 fileoff=0x49fcb0 entropy=4.461
+    __DATA_CONST,__got addr=0x4a0000 size=0x920 fileoff=0x4a0000 entropy=2.624
+    __DATA_CONST,__const addr=0x4a0920 size=0x57b8 fileoff=0x4a0920 entropy=3.059
+    __DATA_CONST,__cfstring addr=0x4a60d8 size=0x3f00 fileoff=0x4a60d8 entropy=2.576
+    __DATA_CONST,__objc_classlist addr=0x4a9fd8 size=0x270 fileoff=0x4a9fd8 entropy=3.062
+    __DATA_CONST,__objc_protolist addr=0x4aa248 size=0xb8 fileoff=0x4aa248 entropy=3.047
+    __DATA_CONST,__objc_imageinfo addr=0x4aa300 size=0x8 fileoff=0x4aa300 entropy=0.544
+    __DATA,__objc_const addr=0x4ac000 size=0x12308 fileoff=0x4ac000 entropy=3.231
+    __DATA,__objc_selrefs addr=0x4be308 size=0x5d50 fileoff=0x4be308 entropy=3.802
+    __DATA,__objc_protorefs addr=0x4c4058 size=0x8 fileoff=0x4c4058 entropy=1.549
+    __DATA,__objc_classrefs addr=0x4c4060 size=0x690 fileoff=0x4c4060 entropy=3.218
+    __DATA,__objc_superrefs addr=0x4c46f0 size=0x168 fileoff=0x4c46f0 entropy=3.044
+    __DATA,__objc_ivar addr=0x4c4858 size=0x74c fileoff=0x4c4858 entropy=1.954
+    __DATA,__objc_data addr=0x4c4fa8 size=0x1860 fileoff=0x4c4fa8 entropy=2.716
+    __DATA,__data addr=0x4c6810 size=0xb4a00 fileoff=0x4c6810 entropy=5.333
+    __DATA,__thread_vars addr=0x57b210 size=0x30 fileoff=0x57b210 entropy=1.025
+    __DATA,__thread_bss addr=0x57b240 size=0x10 fileoff=0x0 entropy=0.000
+    __DATA,__bss addr=0x57b250 size=0x7d38 fileoff=0x0 entropy=0.000
+    __DATA,__common addr=0x582f88 size=0x131 fileoff=0x0 entropy=0.000
+  Dependencies:
+    /Library/MobileSubstrate/DynamicLibraries/WCGlass.dylib
+    /usr/lib/libobjc.A.dylib
+    /System/Library/Frameworks/Foundation.framework/Foundation
+    /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+    /System/Library/Frameworks/UIKit.framework/UIKit
+    /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+    /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+    /System/Library/Frameworks/Security.framework/Security
+    /System/Library/Frameworks/SafariServices.framework/SafariServices
+    /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+    /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+    /System/Library/Frameworks/WebKit.framework/WebKit
+    /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+    /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+    /usr/lib/libc++.1.dylib
+    /usr/lib/libSystem.B.dylib
+    /Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate
+
+[arm64e]
+  FAT offset/size: 0x5a0000 / 0x5acbf0
+  CPU type/subtype: 0x100000c / 0x80000002
+  Mach-O filetype: 6 (MH_DYLIB=6)
+  UUID: 6dc8031f-9ea1-36b5-87cc-d7c30042dbf8
+  LC_ENCRYPTION_INFO_64: {'offset': 16384, 'size': 4915200, 'id': 0}
+  Plaintext verdict: YES (cryptid=0)
+  Recovered symbols/classes/stubs: 454 / 78 / 206
+  Sections:
+    __TEXT,__text addr=0x4000 size=0x46fee0 fileoff=0x4000 entropy=6.785
+    __TEXT,__auth_stubs addr=0x473ee0 size=0xce0 fileoff=0x473ee0 entropy=4.153
+    __TEXT,__init_offsets addr=0x474bc0 size=0x84 fileoff=0x474bc0 entropy=4.729
+    __TEXT,__objc_methlist addr=0x474c48 size=0x6e40 fileoff=0x474c48 entropy=5.905
+    __TEXT,__gcc_except_tab addr=0x47ba88 size=0x13dec fileoff=0x47ba88 entropy=5.651
+    __TEXT,__objc_methname addr=0x48f874 size=0x14965 fileoff=0x48f874 entropy=4.986
+    __TEXT,__const addr=0x4a41e0 size=0x14e0 fileoff=0x4a41e0 entropy=5.254
+    __TEXT,__cstring addr=0x4a56c0 size=0x3689 fileoff=0x4a56c0 entropy=5.038
+    __TEXT,__objc_classname addr=0x4a8d49 size=0x9e3 fileoff=0x4a8d49 entropy=5.005
+    __TEXT,__objc_methtype addr=0x4a972c size=0x3222 fileoff=0x4a972c entropy=5.339
+    __TEXT,__ustring addr=0x4ac94e size=0x440 fileoff=0x4ac94e entropy=6.236
+    __TEXT,__unwind_info addr=0x4acd90 size=0x5ea0 fileoff=0x4acd90 entropy=6.674
+    __TEXT,__eh_frame addr=0x4b2c30 size=0xf0 fileoff=0x4b2c30 entropy=4.380
+    __DATA_CONST,__auth_got addr=0x4b4000 size=0x680 fileoff=0x4b4000 entropy=2.493
+    __DATA_CONST,__got addr=0x4b4680 size=0x2a0 fileoff=0x4b4680 entropy=2.575
+    __DATA_CONST,__auth_ptr addr=0x4b4920 size=0x8 fileoff=0x4b4920 entropy=1.549
+    __DATA_CONST,__const addr=0x4b4928 size=0x57b8 fileoff=0x4b4928 entropy=3.454
+    __DATA_CONST,__cfstring addr=0x4ba0e0 size=0x3f00 fileoff=0x4ba0e0 entropy=3.003
+    __DATA_CONST,__objc_classlist addr=0x4bdfe0 size=0x270 fileoff=0x4bdfe0 entropy=3.070
+    __DATA_CONST,__objc_protolist addr=0x4be250 size=0xb8 fileoff=0x4be250 entropy=3.023
+    __DATA_CONST,__objc_imageinfo addr=0x4be308 size=0x8 fileoff=0x4be308 entropy=0.544
+    __DATA,__objc_const addr=0x4c0000 size=0x12308 fileoff=0x4c0000 entropy=3.215
+    __DATA,__objc_selrefs addr=0x4d2308 size=0x5d50 fileoff=0x4d2308 entropy=3.809
+    __DATA,__objc_protorefs addr=0x4d8058 size=0x8 fileoff=0x4d8058 entropy=2.000
+    __DATA,__objc_classrefs addr=0x4d8060 size=0x690 fileoff=0x4d8060 entropy=3.222
+    __DATA,__objc_superrefs addr=0x4d86f0 size=0x168 fileoff=0x4d86f0 entropy=3.014
+    __DATA,__objc_ivar addr=0x4d8858 size=0x74c fileoff=0x4d8858 entropy=1.954
+    __DATA,__objc_data addr=0x4d8fa8 size=0x1860 fileoff=0x4d8fa8 entropy=3.442
+    __DATA,__data addr=0x4da810 size=0xb4b10 fileoff=0x4da810 entropy=5.547
+    __DATA,__thread_vars addr=0x58f320 size=0x30 fileoff=0x58f320 entropy=1.025
+    __DATA,__thread_bss addr=0x58f350 size=0x10 fileoff=0x0 entropy=0.000
+    __DATA,__bss addr=0x58f360 size=0x7d48 fileoff=0x0 entropy=0.000
+    __DATA,__common addr=0x5970a8 size=0x131 fileoff=0x0 entropy=0.000
+  Dependencies:
+    /Library/MobileSubstrate/DynamicLibraries/WCGlass.dylib
+    /usr/lib/libobjc.A.dylib
+    /System/Library/Frameworks/Foundation.framework/Foundation
+    /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+    /System/Library/Frameworks/UIKit.framework/UIKit
+    /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+    /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+    /System/Library/Frameworks/Security.framework/Security
+    /System/Library/Frameworks/SafariServices.framework/SafariServices
+    /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+    /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+    /System/Library/Frameworks/WebKit.framework/WebKit
+    /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+    /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+    /usr/lib/libc++.1.dylib
+    /usr/lib/libSystem.B.dylib
+    /Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate
+
+Conclusion:
+  Both slices have LC_ENCRYPTION_INFO_64 cryptid=0.
+  WCGlass.dylib is already plaintext/decrypted at the Mach-O/FairPlay layer.
+  The generated universal plain copy is byte-identical to the source; thin files are analysis extracts.
