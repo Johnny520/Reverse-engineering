@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="id" name="mBtnReboot" id="0x7f010000" />
+    <public type="id" name="mBtnWifi" id="0x7f010001" />
+    <public type="id" name="mLayoutHideIcon" id="0x7f010002" />
+    <public type="id" name="mRbHide" id="0x7f010003" />
+    <public type="id" name="mTestTip" id="0x7f010004" />
+    <public type="id" name="mTvAdapter" id="0x7f010005" />
+    <public type="id" name="mTvAdapterList" id="0x7f010006" />
+    <public type="id" name="mTvQQOne" id="0x7f010007" />
+    <public type="id" name="mTvQQTwo" id="0x7f010008" />
+    <public type="id" name="mTvTip" id="0x7f010009" />
+    <public type="id" name="mTvUsed" id="0x7f01000a" />
+    <public type="id" name="mTvUsedTitle" id="0x7f01000b" />
+    <public type="id" name="mTvVersion" id="0x7f01000c" />
+    <public type="id" name="mTvWechat" id="0x7f01000d" />
+    <public type="id" name="mTvWechatTitle" id="0x7f01000e" />
+    <public type="layout" name="main_activity" id="0x7f020000" />
+    <public type="mipmap" name="ic_launcher_background" id="0x7f030000" />
+    <public type="mipmap" name="ic_launcher_foreground" id="0x7f030001" />
+    <public type="mipmap" name="ic_launcher_round" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="icon_hide_tip" id="0x7f040001" />
+    <public type="string" name="mp" id="0x7f040002" />
+    <public type="string" name="used" id="0x7f040003" />
+</resources>

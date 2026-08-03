@@ -1,0 +1,29 @@
+{
+  "notice": {"alway": false, "title": "提示", "intro": "", "exit": false, "show": false, "f": true, "url": "", "time": 2, "v": 2},
+  "conf": {
+    "showReward": false,
+    "rewardOpen": false,
+    "downUrl": "https://www.123865.com/s/W1a9-mNbJH",
+    "downToast": "提取码:AS6G",
+    "payUsedUrl": "https://eud770xzuy.feishu.cn/wiki/QcSiwapxIiihjJk1a5ocDwcXnog",
+    "usedUrl": "https://eud770xzuy.feishu.cn/wiki/QcSiwapxIiihjJk1a5ocDwcXnog",
+    "introUrl": "https://eud770xzuy.feishu.cn/wiki/I52QwGWQFilO3qkxvNfcptYTnTC",
+    "updateRecord": "https://eud770xzuy.feishu.cn/wiki/HaEuw8ysGiwDdKkHmN6cEnsOnbS",
+    "qqGroup": "",
+    "mainTip": "暂不适配play版本<br>请关注公众号: <a href='copy:Skyhand的猪手圈'>Skyhand的猪手圈</a> 获取最新信息~",
+    "rewardTip": "",
+    "oldTip": "如果发现bug,请先更新模块到最新版本~",
+    "normalTip": ""
+  },
+  "appText": "",
+  "update": {
+    "f": false,
+    "vn": "1.2.7",
+    "vc": 32,
+    "rp": true,
+    "du": "https://www.123865.com/s/W1a9-mNbJH",
+    "dt": "提取码:AS6G",
+    "intro": "对比1.2.6更新记录：<br>1. 修复 笔记可能不显示保存LivePhoto<br>2. 修复 保存评论Livephoto可能失败<br>3. 新增 保存单张笔记无水印Livephoto<br>4. 新增 可自定义模拟首页附近的位置<br>5. 修复 可能无法去除首页第一页的直播笔记<br>6. 新增 可去除分享链接的用户信息追踪",
+    "time": 3
+  }
+}

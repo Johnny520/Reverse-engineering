@@ -1,0 +1,69 @@
+.class Lcom/tendcloud/tenddata/z$1;
+.super Ljava/lang/ThreadLocal;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tendcloud/tenddata/z;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/ThreadLocal<",
+        "Ljava/util/concurrent/ConcurrentLinkedQueue<",
+        "Lcom/tendcloud/tenddata/z$a;",
+        ">;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic this$0:Lcom/tendcloud/tenddata/z;
+
+
+# direct methods
+.method public constructor <init>(Lcom/tendcloud/tenddata/z;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/tendcloud/tenddata/z$1;->this$0:Lcom/tendcloud/tenddata/z;
+
+    invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic initialValue()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/tendcloud/tenddata/z$1;->initialValue()Ljava/util/concurrent/ConcurrentLinkedQueue;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public initialValue()Ljava/util/concurrent/ConcurrentLinkedQueue;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/concurrent/ConcurrentLinkedQueue<",
+            "Lcom/tendcloud/tenddata/z$a;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Ljava/util/concurrent/ConcurrentLinkedQueue;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentLinkedQueue;-><init>()V
+
+    return-object v0
+.end method

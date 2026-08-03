@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">红薯猪手</string>
+    <string name="icon_hide_tip">"隐藏之后可从xp框架的模块管理里面打开，或小红书首页-侧边栏-红薯猪手-模块-打开app主界面。
+
+是否确认隐藏?
+(ps: 可能对魅族Flyme不生效)"</string>
+    <string name="mp">"微信搜索关注公众号《Skyhand的猪手圈》，及时接收版本更新等动态。
+点击复制名字"</string>
+    <string name="used">点击查看使用方法</string>
+</resources>
