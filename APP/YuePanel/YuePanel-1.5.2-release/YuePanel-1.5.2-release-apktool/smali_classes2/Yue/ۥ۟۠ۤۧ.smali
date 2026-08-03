@@ -1,0 +1,88 @@
+.class public final LYue/ۥ۟۠ۤۧ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LYue/ۥ۠ۨۦۡ;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public ۥ()Ljava/lang/String;
+    .locals 1
+    .annotation build LYue/ۥۡۢۥ۠;
+    .end annotation
+
+    const-string v0, "For tests Dispatchers.setMain from kotlinx-coroutines-test module can be used"
+
+    return-object v0
+.end method
+
+.method public ۥ۟(Ljava/util/List;)LYue/ۥ۠ۨۥۥ;
+    .locals 3
+    .param p1    # Ljava/util/List;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+    .annotation build LYue/ۥۡۢۥ۠;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "+",
+            "LYue/\u06e5\u06e0\u06e8\u06e6\u06e1;",
+            ">;)",
+            "LYue/\u06e5\u06e0\u06e8\u06e5\u06e5;"
+        }
+    .end annotation
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    new-instance v0, LYue/ۥ۠ۤ۠ۦ;
+
+    const/4 v1, 0x1
+
+    invoke-static {p1, v1}, LYue/ۥ۠ۤۡ;->ۥ۟۟۟(Landroid/os/Looper;Z)Landroid/os/Handler;
+
+    move-result-object p1
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, p1, v2, v1, v2}, LYue/ۥ۠ۤ۠ۦ;-><init>(Landroid/os/Handler;Ljava/lang/String;ILYue/ۥ۟ۨۥۢ;)V
+
+    return-object v0
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "The main looper is not available"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public ۥ۟۟()I
+    .locals 1
+
+    const v0, 0x3fffffff    # 1.9999999f
+
+    return v0
+.end method

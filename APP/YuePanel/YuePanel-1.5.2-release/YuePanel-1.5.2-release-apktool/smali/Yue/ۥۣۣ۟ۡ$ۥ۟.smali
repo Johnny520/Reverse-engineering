@@ -1,0 +1,28 @@
+.class public interface abstract annotation LYue/ۥۣۣ۟ۡ$ۥ۟;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation build LYue/ۥۡۦۥۧ;
+.end annotation
+
+.annotation runtime LYue/ۥۡۦۨۡ;
+    value = .enum LYue/ۥۣ۟۠ۧ;->ۥ۟۟۠ۤ:LYue/ۥۣ۟۠ۧ;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LYue/ۥۣۣ۟ۡ;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2609
+    name = "\u06e5\u06df"
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+.end annotation

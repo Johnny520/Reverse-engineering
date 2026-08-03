@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090076" android:background="@color/APKTOOL_RENAMED_0x40060026" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.kongzue.dialogx.util.views.MaxRelativeLayout android:id="@id/APKTOOL_RENAMED_0x40090063" android:background="@drawable/APKTOOL_RENAMED_0x40080106" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="35.0dp" android:layout_marginEnd="35.0dp" android:elevation="27.0dp">
+            <LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="21.0dp" android:textColor="@color/APKTOOL_RENAMED_0x40060024" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/APKTOOL_RENAMED_0x4009027a" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.kongzue.dialogx.util.views.DialogScrollView android:id="@id/APKTOOL_RENAMED_0x400901de" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="16.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006002d" android:layout_gravity="center_horizontal" android:id="@id/APKTOOL_RENAMED_0x40090279" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="This is content text." android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+                            <RelativeLayout android:id="@id/APKTOOL_RENAMED_0x40090071" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            <EditText android:theme="@style/APKTOOL_RENAMED_0x40110125" android:textSize="18.0dp" android:textColor="@color/APKTOOL_RENAMED_0x40060030" android:layout_gravity="center_horizontal" android:id="@id/APKTOOL_RENAMED_0x40090281" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="" android:maxLines="1" android:inputType="text" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+                        </LinearLayout>
+                    </com.kongzue.dialogx.util.views.DialogScrollView>
+                    <FrameLayout android:id="@id/APKTOOL_RENAMED_0x40090074" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end|center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x4009006f" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+                    <TextView android:textSize="15.0dp" android:textColor="@color/APKTOOL_RENAMED_0x40060044" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x4009007a" android:background="@drawable/APKTOOL_RENAMED_0x40080087" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="Other" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+                    <Space android:id="@id/APKTOOL_RENAMED_0x4009021f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="15.0dp" android:textColor="@color/APKTOOL_RENAMED_0x40060044" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x40090079" android:background="@drawable/APKTOOL_RENAMED_0x40080087" android:clickable="true" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="Cancel" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+                    <TextView android:textSize="15.0dp" android:textColor="@color/APKTOOL_RENAMED_0x40060044" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x4009007b" android:background="@drawable/APKTOOL_RENAMED_0x40080087" android:clickable="true" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="OK" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.kongzue.dialogx.util.views.MaxRelativeLayout>
+    </RelativeLayout>
+</com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout>

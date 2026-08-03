@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/______res_0x4011027e"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    class="com.google.android.material.snackbar.SnackbarContentLayout">
+    <TextView
+        android:textAppearance="@style/______res_0x401101d7"
+        android:ellipsize="end"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/______res_0x4009021b"
+        android:paddingLeft="@dimen/______res_0x40070085"
+        android:paddingTop="@dimen/______res_0x40070086"
+        android:paddingRight="@dimen/______res_0x40070085"
+        android:paddingBottom="@dimen/______res_0x40070086"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="@integer/______res_0x400a0006"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"/>
+    <Button
+        android:textColor="?attr/______res_0x400400de"
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/______res_0x4009021a"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/______res_0x40070082"
+        android:minWidth="48dp"
+        android:layout_marginStart="@dimen/______res_0x40070082"
+        style="?attr/______res_0x40040072"/>
+</view>

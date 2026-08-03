@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/_____res_0x40090166"
+    android:paddingTop="@dimen/______res_0x4007028d"
+    android:paddingBottom="@dimen/______res_0x4007028b"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <com.google.android.material.button.MaterialButton
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start"
+            android:id="@+id/______res_0x40090167"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/______res_0x4007028c"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/_____res_0x400800c9"
+            app:iconGravity="0x4"
+            app:iconPadding="4dp"
+            style="?attr/______res_0x400402ca"/>
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@+id/______res_0x40090169"
+        android:layout_width="@dimen/______res_0x400702c2"
+        android:layout_height="@dimen/______res_0x4007028c"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:contentDescription="@string/______res_0x4010006d"
+        app:icon="@drawable/______res_0x400800c7"
+        style="?attr/______res_0x400402c7"/>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@+id/______res_0x40090168"
+        android:layout_width="@dimen/______res_0x400702c2"
+        android:layout_height="@dimen/______res_0x4007028c"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:contentDescription="@string/______res_0x4010006c"
+        app:icon="@drawable/______res_0x400800c6"
+        style="?attr/______res_0x400402c7"/>
+</LinearLayout>

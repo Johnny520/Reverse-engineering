@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="______res_0x40100000">Navigate home</string>
+    <string name="______res_0x40100001">Navigate up</string>
+    <string name="_____res_0x40100002">More options</string>
+    <string name="______res_0x40100003">Done</string>
+    <string name="______res_0x40100004">See all</string>
+    <string name="______res_0x40100005">Choose an app</string>
+    <string name="______res_0x40100006">OFF</string>
+    <string name="______res_0x40100007">ON</string>
+    <string name="______res_0x40100008">Alt+</string>
+    <string name="______res_0x40100009">Ctrl+</string>
+    <string name="______res_0x4010000a">delete</string>
+    <string name="______res_0x4010000b">enter</string>
+    <string name="______res_0x4010000c">Function+</string>
+    <string name="_____res_0x4010000d">Meta+</string>
+    <string name="______res_0x4010000e">Shift+</string>
+    <string name="______res_0x4010000f">space</string>
+    <string name="______res_0x40100010">Sym+</string>
+    <string name="______res_0x40100011">Menu+</string>
+    <string name="______res_0x40100012">Search…</string>
+    <string name="______res_0x40100013">Clear query</string>
+    <string name="______res_0x40100014">Search query</string>
+    <string name="______res_0x40100015">Search</string>
+    <string name="______res_0x40100016">Submit query</string>
+    <string name="______res_0x40100017">Voice search</string>
+    <string name="_____res_0x40100018">Share with</string>
+    <string name="______res_0x40100019">Share with %s</string>
+    <string name="______res_0x4010001a">Collapse</string>
+    <string name="______res_0x40100024">Answer</string>
+    <string name="______res_0x40100025">Video</string>
+    <string name="______res_0x40100026">Decline</string>
+    <string name="______res_0x40100027">Hang up</string>
+    <string name="______res_0x40100028">Incoming call</string>
+    <string name="______res_0x40100029">On-going call</string>
+    <string name="______res_0x4010002a">Screening an incoming call</string>
+    <string name="______res_0x401000a1">Search</string>
+    <string name="______res_0x401000a7">999+</string>
+</resources>

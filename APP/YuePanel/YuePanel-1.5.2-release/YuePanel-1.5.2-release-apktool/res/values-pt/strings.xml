@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APKTOOL_RENAMED_0x40100000">Navegar para a página inicial</string>
+    <string name="APKTOOL_RENAMED_0x40100001">Navegar para cima</string>
+    <string name="APKTOOL_RENAMED_0x40100002">Mais opções</string>
+    <string name="APKTOOL_RENAMED_0x40100003">Concluído</string>
+    <string name="APKTOOL_RENAMED_0x40100004">Ver tudo</string>
+    <string name="APKTOOL_RENAMED_0x40100005">Selecionar um app</string>
+    <string name="APKTOOL_RENAMED_0x40100006">DESATIVADO</string>
+    <string name="APKTOOL_RENAMED_0x40100007">ATIVADO</string>
+    <string name="APKTOOL_RENAMED_0x40100008">Alt+</string>
+    <string name="APKTOOL_RENAMED_0x40100009">Ctrl+</string>
+    <string name="APKTOOL_RENAMED_0x4010000a">delete</string>
+    <string name="APKTOOL_RENAMED_0x4010000b">enter</string>
+    <string name="APKTOOL_RENAMED_0x4010000c">Function+</string>
+    <string name="APKTOOL_RENAMED_0x4010000d">Meta+</string>
+    <string name="APKTOOL_RENAMED_0x4010000e">Shift+</string>
+    <string name="APKTOOL_RENAMED_0x4010000f">espaço</string>
+    <string name="APKTOOL_RENAMED_0x40100010">Sym+</string>
+    <string name="APKTOOL_RENAMED_0x40100011">Menu+</string>
+    <string name="APKTOOL_RENAMED_0x40100012">Pesquisar…</string>
+    <string name="APKTOOL_RENAMED_0x40100013">Limpar consulta</string>
+    <string name="APKTOOL_RENAMED_0x40100014">Consulta de pesquisa</string>
+    <string name="APKTOOL_RENAMED_0x40100015">Pesquisar</string>
+    <string name="APKTOOL_RENAMED_0x40100016">Enviar consulta</string>
+    <string name="APKTOOL_RENAMED_0x40100017">Pesquisa por voz</string>
+    <string name="APKTOOL_RENAMED_0x40100018">Compartilhar com</string>
+    <string name="APKTOOL_RENAMED_0x40100019">Compartilhar com %s</string>
+    <string name="APKTOOL_RENAMED_0x4010001a">Recolher</string>
+    <string name="APKTOOL_RENAMED_0x40100024">Atender</string>
+    <string name="APKTOOL_RENAMED_0x40100025">Vídeo</string>
+    <string name="APKTOOL_RENAMED_0x40100026">Recusar</string>
+    <string name="APKTOOL_RENAMED_0x40100027">Desligar</string>
+    <string name="APKTOOL_RENAMED_0x40100028">Chamada recebida</string>
+    <string name="APKTOOL_RENAMED_0x40100029">Chamada em andamento</string>
+    <string name="APKTOOL_RENAMED_0x4010002a">Filtrando uma ligação recebida</string>
+    <string name="APKTOOL_RENAMED_0x401000a1">Pesquisar</string>
+    <string name="APKTOOL_RENAMED_0x401000a7">999+</string>
+</resources>

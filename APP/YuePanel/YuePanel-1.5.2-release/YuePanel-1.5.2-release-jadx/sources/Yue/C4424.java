@@ -1,0 +1,10 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥ۠۟ۢۧ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C4424 {
+
+    /* JADX INFO: renamed from: ۥ */
+    @InterfaceC6399
+    public static final String f887 = "kotlinx.coroutines.io.parallelism";
+}

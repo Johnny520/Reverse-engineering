@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_RENAMED_0x4004019d="@null" app:APKTOOL_RENAMED_0x40040208="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputEditText android:layout_width="@dimen/APKTOOL_RENAMED_0x40070224" android:layout_height="@dimen/APKTOOL_RENAMED_0x40070222" android:textCursorDrawable="@drawable/APKTOOL_RENAMED_0x400800c1" />
+    <TextView android:id="@id/APKTOOL_RENAMED_0x4009014c" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.google.android.material.textfield.TextInputLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="@color/______res_0x4006019a"
+        android:alpha="@dimen/______res_0x40070236"/>
+</selector>

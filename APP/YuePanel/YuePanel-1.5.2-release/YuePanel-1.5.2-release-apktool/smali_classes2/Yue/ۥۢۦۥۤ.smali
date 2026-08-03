@@ -1,0 +1,8 @@
+.class public interface abstract synthetic LYue/ۥۢۦۥۤ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lorg/jspecify/annotations/NullMarked;
+.end annotation

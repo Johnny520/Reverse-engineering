@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/APKTOOL_RENAMED_0x400901b6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp">
+        <TextView android:textSize="20.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x400901b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="名字" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/APKTOOL_RENAMED_0x400901b4" android:background="@drawable/APKTOOL_RENAMED_0x4008011c" android:visibility="gone" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+        <ProgressBar android:id="@id/APKTOOL_RENAMED_0x400901ba" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="80.0dp">
+        <TextView android:textSize="10.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="right" android:id="@id/APKTOOL_RENAMED_0x400901b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_weight="1.0" />
+        <SeekBar android:id="@id/APKTOOL_RENAMED_0x400901b7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0" />
+        <TextView android:textSize="10.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x400901b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:20" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+package org.luckypray.dexkit.result.base;
+
+/* JADX INFO: loaded from: classes2.dex */
+@Yue.InterfaceC4201(d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\t\n\u0002\u0010\t\n\u0000\b&\u0018\u00002\u00020\u0001B!\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0005\u0012\b\b\u0002\u0010\u0006\u001a\u00020\u0005¢\u0006\u0002\u0010\u0007J\r\u0010\b\u001a\u00020\u0003H\u0000¢\u0006\u0002\b\rJ\u0006\u0010\u000e\u001a\u00020\u000fJ\u0018\u0010\u000e\u001a\u00020\u000f2\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0005H\u0004R\u0014\u0010\u0002\u001a\u00020\u0003X\u0084\u0004¢\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u0014\u0010\u0006\u001a\u00020\u0005X\u0084\u0004¢\u0006\b\n\u0000\u001a\u0004\b\n\u0010\u000bR\u0014\u0010\u0004\u001a\u00020\u0005X\u0084\u0004¢\u0006\b\n\u0000\u001a\u0004\b\f\u0010\u000b¨\u0006\u0010"}, d2 = {"Lorg/luckypray/dexkit/result/base/BaseData;", "", "bridge", "Lorg/luckypray/dexkit/DexKitBridge;", "id", "", "dexId", "(Lorg/luckypray/dexkit/DexKitBridge;II)V", "getBridge", "()Lorg/luckypray/dexkit/DexKitBridge;", "getDexId", "()I", "getId", "getBridge$dexkit_android_release", "getEncodeId", "", "dexkit-android_release"}, k = 1, mv = {1, 5, 1}, xi = 48)
+public abstract class BaseData {
+
+    @Yue.InterfaceC4418
+    private final org.luckypray.dexkit.DexKitBridge bridge;
+    private final int dexId;
+    private final int id;
+
+    public BaseData(@Yue.InterfaceC4418 org.luckypray.dexkit.DexKitBridge r2, int r3, int r4) {
+            r1 = this;
+            java.lang.String r0 = "bridge"
+            Yue.C3329.m13906(r2, r0)
+            r1.<init>()
+            r1.bridge = r2
+            r1.id = r3
+            r1.dexId = r4
+            return
+    }
+
+    public /* synthetic */ BaseData(org.luckypray.dexkit.DexKitBridge r2, int r3, int r4, int r5, Yue.C1769 r6) {
+            r1 = this;
+            r6 = r5 & 2
+            r0 = -1
+            if (r6 == 0) goto L6
+            r3 = r0
+        L6:
+            r5 = r5 & 4
+            if (r5 == 0) goto Lb
+            r4 = r0
+        Lb:
+            r1.<init>(r2, r3, r4)
+            return
+    }
+
+    @Yue.InterfaceC4418
+    public final org.luckypray.dexkit.DexKitBridge getBridge() {
+            r1 = this;
+            org.luckypray.dexkit.DexKitBridge r0 = r1.bridge
+            return r0
+    }
+
+    public final /* synthetic */ org.luckypray.dexkit.DexKitBridge getBridge$dexkit_android_release() {
+            r1 = this;
+            org.luckypray.dexkit.DexKitBridge r0 = r1.bridge
+            return r0
+    }
+
+    public final int getDexId() {
+            r1 = this;
+            int r0 = r1.dexId
+            return r0
+    }
+
+    public final long getEncodeId() {
+            r2 = this;
+            int r0 = r2.id
+            if (r0 < 0) goto Lb
+            int r1 = r2.dexId
+            long r0 = r2.getEncodeId(r1, r0)
+            return r0
+        Lb:
+            java.lang.IllegalStateException r0 = new java.lang.IllegalStateException
+            java.lang.String r1 = "not has id"
+            java.lang.String r1 = r1.toString()
+            r0.<init>(r1)
+            throw r0
+    }
+
+    public final long getEncodeId(int r3, int r4) {
+            r2 = this;
+            long r0 = (long) r3
+            r3 = 32
+            long r0 = r0 << r3
+            long r3 = (long) r4
+            long r3 = r3 | r0
+            return r3
+    }
+
+    public final int getId() {
+            r1 = this;
+            int r0 = r1.id
+            return r0
+    }
+}

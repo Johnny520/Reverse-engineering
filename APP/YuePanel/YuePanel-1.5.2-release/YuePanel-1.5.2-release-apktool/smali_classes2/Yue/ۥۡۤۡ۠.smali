@@ -1,0 +1,15 @@
+.class public LYue/ۥۡۤۡ۠;
+.super LYue/ۥ۟ۧۥۦ;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    sget-object v0, LYue/ۥۣۣۡۢ;->ۥ۟۟۠ۦ:LYue/ۥۣۣۡۢ;
+
+    invoke-direct {p0, v0}, LYue/ۥ۟ۧۥۦ;-><init>(LYue/ۥۣۣۡۢ;)V
+
+    return-void
+.end method

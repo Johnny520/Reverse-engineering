@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+            <ImageView android:id="@id/APKTOOL_RENAMED_0x40090225" android:background="@drawable/APKTOOL_RENAMED_0x4008007a" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+            <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="15.0dp">
+                <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090226" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="名字" />
+                <TextView android:textSize="10.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090227" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账号" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.8">
+            <LinearLayout android:gravity="right|center" android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090223" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp">
+                <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看执行日志" />
+                <View android:background="@color/APKTOOL_RENAMED_0x40060031" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090221" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加一个任务" />
+                <View android:background="@color/APKTOOL_RENAMED_0x40060031" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" />
+    <TextView android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下面是你添加过的列表 点击可以编辑列表，长按可以控制开启/关闭" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090222" android:layout_width="match_parent" android:layout_height="400.0dp" android:layout_marginTop="10.0dp" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left|center" android:orientation="horizontal" android:background="@drawable/APKTOOL_RENAMED_0x400800cb" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="48.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="60.0px" android:layout_height="60.0px" android:src="@drawable/APKTOOL_RENAMED_0x4008007a" />
+    <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="YuePanel" />
+    <TextView android:textSize="20.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="right" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=">" />
+</LinearLayout>

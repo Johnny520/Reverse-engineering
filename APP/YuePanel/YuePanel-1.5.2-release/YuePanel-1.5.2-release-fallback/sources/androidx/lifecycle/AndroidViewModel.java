@@ -1,0 +1,27 @@
+package androidx.lifecycle;
+
+/* JADX INFO: loaded from: classes.dex */
+@Yue.InterfaceC4201(d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0005\b\u0016\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004J\u0017\u0010\u0005\u001a\u0002H\u0006\"\b\b\u0000\u0010\u0006*\u00020\u0003H\u0016¢\u0006\u0002\u0010\u0007R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004¢\u0006\u0002\n\u0000¨\u0006\b"}, d2 = {"Landroidx/lifecycle/AndroidViewModel;", "Landroidx/lifecycle/ViewModel;", "application", "Landroid/app/Application;", "(Landroid/app/Application;)V", "getApplication", "T", "()Landroid/app/Application;", "lifecycle-viewmodel_release"}, k = 1, mv = {1, 8, 0}, xi = 48)
+public class AndroidViewModel extends androidx.lifecycle.ViewModel {
+
+    @Yue.InterfaceC4418
+    private final android.app.Application application;
+
+    public AndroidViewModel(@Yue.InterfaceC4418 android.app.Application r2) {
+            r1 = this;
+            java.lang.String r0 = "application"
+            Yue.C3329.m13906(r2, r0)
+            r1.<init>()
+            r1.application = r2
+            return
+    }
+
+    @Yue.InterfaceC4418
+    public <T extends android.app.Application> T getApplication() {
+            r2 = this;
+            android.app.Application r0 = r2.application
+            java.lang.String r1 = "null cannot be cast to non-null type T of androidx.lifecycle.AndroidViewModel.getApplication"
+            Yue.C3329.m13904(r0, r1)
+            return r0
+    }
+}

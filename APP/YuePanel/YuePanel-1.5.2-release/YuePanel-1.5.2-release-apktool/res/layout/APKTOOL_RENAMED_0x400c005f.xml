@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:layout_width="@dimen/APKTOOL_RENAMED_0x40070223" android:layout_height="@dimen/APKTOOL_RENAMED_0x40070222" android:importantForAccessibility="no" style="?APKTOOL_RENAMED_0x400402d1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

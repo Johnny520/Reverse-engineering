@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/APKTOOL_RENAMED_0x400800b1" android:paddingLeft="20.0dp" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:elevation="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/APKTOOL_RENAMED_0x40090054" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="10.0dp">
+            <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090059" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试" android:singleLine="true" />
+            <TextView android:textSize="8.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090058" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center" android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090052" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/APKTOOL_RENAMED_0x40090055" android:layout_width="30.0dp" android:layout_height="45.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x40080119" />
+            <ProgressBar android:id="@id/APKTOOL_RENAMED_0x40090053" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090056" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp">
+        <TextView android:textSize="8.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x4009005a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更新时间：1999-9-9 9:09" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="0.8" />
+            <android.widget.Button android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090050" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="下载" android:singleLine="true" android:layout_weight="0.1" />
+            <android.widget.Button android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090051" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="播放" android:singleLine="true" android:layout_weight="0.1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

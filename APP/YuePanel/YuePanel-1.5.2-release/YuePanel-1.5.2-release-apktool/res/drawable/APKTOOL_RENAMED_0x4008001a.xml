@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:interpolator="?APKTOOL_RENAMED_0x40040314" android:duration="@integer/APKTOOL_RENAMED_0x400a0019" android:valueFrom="0.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="trimPathEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" />

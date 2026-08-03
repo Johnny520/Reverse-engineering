@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="?APKTOOL_RENAMED_0x400400ec" android:alpha="@dimen/APKTOOL_RENAMED_0x40070233" />
+</selector>

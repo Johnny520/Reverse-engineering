@@ -1,0 +1,98 @@
+package net.bytebuddy.matcher;
+
+import java.lang.Iterable;
+
+/* JADX INFO: loaded from: classes2.dex */
+@net.bytebuddy.build.HashCodeAndEqualsPlugin.Enhance
+public class CollectionErasureMatcher<T extends java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDefinition>> extends net.bytebuddy.matcher.ElementMatcher.Junction.ForNonNullValues<T> {
+    private final net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> matcher;
+
+    public CollectionErasureMatcher(net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r1) {
+            r0 = this;
+            r0.<init>()
+            r0.matcher = r1
+            return
+    }
+
+    public boolean doMatch(T r3) {
+            r2 = this;
+            java.util.ArrayList r0 = new java.util.ArrayList
+            r0.<init>()
+            java.util.Iterator r3 = r3.iterator()
+        L9:
+            boolean r1 = r3.hasNext()
+            if (r1 == 0) goto L1d
+            java.lang.Object r1 = r3.next()
+            net.bytebuddy.description.type.TypeDefinition r1 = (net.bytebuddy.description.type.TypeDefinition) r1
+            net.bytebuddy.description.type.TypeDescription r1 = r1.asErasure()
+            r0.add(r1)
+            goto L9
+        L1d:
+            net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r3 = r2.matcher
+            boolean r3 = r3.matches(r0)
+            return r3
+    }
+
+    @Override // net.bytebuddy.matcher.ElementMatcher.Junction.ForNonNullValues
+    public /* bridge */ /* synthetic */ boolean doMatch(java.lang.Object r1) {
+            r0 = this;
+            java.lang.Iterable r1 = (java.lang.Iterable) r1
+            boolean r1 = r0.doMatch(r1)
+            return r1
+    }
+
+    @Override // net.bytebuddy.matcher.ElementMatcher.Junction.ForNonNullValues
+    public boolean equals(@net.bytebuddy.utility.nullability.MaybeNull java.lang.Object r5) {
+            r4 = this;
+            boolean r0 = super.equals(r5)
+            r1 = 0
+            if (r0 != 0) goto L8
+            return r1
+        L8:
+            r0 = 1
+            if (r4 != r5) goto Lc
+            return r0
+        Lc:
+            if (r5 != 0) goto Lf
+            return r1
+        Lf:
+            java.lang.Class r2 = r4.getClass()
+            java.lang.Class r3 = r5.getClass()
+            if (r2 == r3) goto L1a
+            return r1
+        L1a:
+            net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r2 = r4.matcher
+            net.bytebuddy.matcher.CollectionErasureMatcher r5 = (net.bytebuddy.matcher.CollectionErasureMatcher) r5
+            net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r5 = r5.matcher
+            boolean r5 = r2.equals(r5)
+            if (r5 != 0) goto L27
+            return r1
+        L27:
+            return r0
+    }
+
+    @Override // net.bytebuddy.matcher.ElementMatcher.Junction.ForNonNullValues
+    public int hashCode() {
+            r2 = this;
+            int r0 = super.hashCode()
+            int r0 = r0 * 31
+            net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r1 = r2.matcher
+            int r1 = r1.hashCode()
+            int r0 = r0 + r1
+            return r0
+    }
+
+    public java.lang.String toString() {
+            r2 = this;
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r0.<init>()
+            java.lang.String r1 = "erasures("
+            r0.append(r1)
+            net.bytebuddy.matcher.ElementMatcher<? super java.lang.Iterable<? extends net.bytebuddy.description.type.TypeDescription>> r1 = r2.matcher
+            r0.append(r1)
+            r1 = 41
+            r0.append(r1)
+            java.lang.String r0 = r0.toString()
+            return r0
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.CheckableImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/______res_0x4009017d"
+    android:layout_width="@dimen/______res_0x400702c2"
+    android:layout_height="@dimen/______res_0x400702c2"
+    android:layout_marginTop="@dimen/______res_0x40070286"
+    android:layout_marginBottom="@dimen/______res_0x40070285"
+    style="?attr/_____res_0x400402c5"/>

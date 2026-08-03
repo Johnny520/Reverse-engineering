@@ -1,0 +1,30 @@
+.class public final synthetic LYue/ۥۣۢۤ۟;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0xd8
+
+    invoke-static {v0}, Lcom/nmmedit/protect/NativeUtil;->classesInit0(I)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final native compare(Ljava/lang/Object;Ljava/lang/Object;)I
+.end method

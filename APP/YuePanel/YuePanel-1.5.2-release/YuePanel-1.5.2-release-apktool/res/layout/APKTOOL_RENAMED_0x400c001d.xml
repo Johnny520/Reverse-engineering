@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="提取音频" />
+    <EditText android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:textColorHint="@color/APKTOOL_RENAMED_0x4006033b" android:id="@id/APKTOOL_RENAMED_0x4009004a" android:background="@drawable/APKTOOL_RENAMED_0x40080079" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:hint="输入链接以解析" android:maxLines="3" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <android.widget.Button android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090049" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="保存" />
+        <android.widget.Button android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090048" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确定" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dp" android:text="支持提取快手/抖音/b站/小红书等的视频，然后转换为音频保存到本地" />
+</LinearLayout>

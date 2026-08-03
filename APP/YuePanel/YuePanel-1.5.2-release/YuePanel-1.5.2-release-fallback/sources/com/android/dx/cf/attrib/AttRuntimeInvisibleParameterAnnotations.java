@@ -1,0 +1,13 @@
+package com.android.dx.cf.attrib;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class AttRuntimeInvisibleParameterAnnotations extends com.android.dx.cf.attrib.BaseParameterAnnotations {
+    public static final java.lang.String ATTRIBUTE_NAME = "RuntimeInvisibleParameterAnnotations";
+
+    public AttRuntimeInvisibleParameterAnnotations(com.android.dx.rop.annotation.AnnotationsList r2, int r3) {
+            r1 = this;
+            java.lang.String r0 = "RuntimeInvisibleParameterAnnotations"
+            r1.<init>(r0, r2, r3)
+            return
+    }
+}

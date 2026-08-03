@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="______res_0x4011000b" parent="@style/______res_0x4011000c">
+    </style>
+    <style name="______res_0x40110214" parent="@style/______res_0x40110212">
+    </style>
+    <style name="______res_0x40110215" parent="@style/______res_0x40110212">
+    </style>
+    <style name="______res_0x40110216" parent="@style/______res_0x4011021b">
+    </style>
+    <style name="______res_0x40110217" parent="@style/______res_0x4011021c">
+    </style>
+    <style name="______res_0x40110218" parent="@style/______res_0x4011021d">
+    </style>
+    <style name="______res_0x40110219" parent="@style/_____res_0x4011021e">
+    </style>
+    <style name="______res_0x4011021a" parent="@style/______res_0x40110227">
+    </style>
+    <style name="______res_0x40110236" parent="@style/______res_0x4011022e">
+    </style>
+    <style name="______res_0x40110237" parent="@style/______res_0x4011022f">
+    </style>
+    <style name="______res_0x40110238" parent="@style/______res_0x40110230">
+    </style>
+    <style name="______res_0x40110239" parent="@style/______res_0x40110231">
+    </style>
+    <style name="______res_0x4011023a" parent="@style/______res_0x40110232">
+    </style>
+    <style name="______res_0x4011023b" parent="@style/______res_0x40110233">
+    </style>
+    <style name="______res_0x4011023c" parent="@style/_____res_0x40110234">
+    </style>
+    <style name="______res_0x4011023d" parent="@style/______res_0x40110235">
+    </style>
+    <style name="______res_0x40110240" parent="@style/______res_0x4011023e">
+    </style>
+    <style name="______res_0x40110241" parent="@style/_____res_0x4011023f">
+    </style>
+    <style name="______res_0x40110250" parent="@style/______res_0x4011024c">
+    </style>
+    <style name="______res_0x40110251" parent="@style/______res_0x4011024d">
+    </style>
+    <style name="______res_0x40110252" parent="@style/______res_0x4011024e">
+    </style>
+    <style name="______res_0x40110253" parent="@style/______res_0x4011024c">
+    </style>
+    <style name="______res_0x40110254" parent="@style/______res_0x4011024e">
+    </style>
+    <style name="______res_0x40110255" parent="@style/______res_0x40110260">
+    </style>
+    <style name="_____res_0x40110256" parent="@style/_____res_0x40110261">
+    </style>
+    <style name="______res_0x40110257" parent="@style/______res_0x40110262">
+    </style>
+    <style name="______res_0x40110258" parent="@style/______res_0x40110263">
+    </style>
+    <style name="______res_0x40110259" parent="@style/______res_0x40110264">
+    </style>
+    <style name="______res_0x4011025a" parent="@style/______res_0x40110265">
+    </style>
+    <style name="______res_0x4011025b" parent="@style/______res_0x40110266">
+    </style>
+    <style name="______res_0x4011025c" parent="@style/______res_0x40110267">
+    </style>
+    <style name="______res_0x4011025d" parent="@style/______res_0x40110268">
+    </style>
+    <style name="______res_0x4011025e" parent="@style/______res_0x40110279">
+    </style>
+    <style name="______res_0x4011025f" parent="@style/______res_0x4011027a">
+    </style>
+    <style name="______res_0x4011027b" parent="@style/______res_0x4011025e">
+        <item name="android:statusBarColor">?attr/______res_0x40040105</item>
+        <item name="______res_0x400400ec">@color/______res_0x40060024</item>
+        <item name="______res_0x400400f1">@color/______res_0x40060024</item>
+        <item name="_____res_0x400400fe">@color/______res_0x40060325</item>
+        <item name="______res_0x40040105">@color/______res_0x40060327</item>
+        <item name="______res_0x40040106">@color/______res_0x40060337</item>
+        <item name="______res_0x4004010a">@color/______res_0x40060337</item>
+    </style>
+    <style name="______res_0x40110280" parent="@style/______res_0x4011027e">
+    </style>
+    <style name="_____res_0x401102a3" parent="@style/______res_0x401102a2">
+    </style>
+    <style name="_____res_0x401103f0" parent="@style/______res_0x401103f2">
+    </style>
+    <style name="______res_0x401103f5" parent="@style/______res_0x401103f6">
+    </style>
+    <style name="______res_0x401103fe" parent="@style/______res_0x401103fc">
+    </style>
+    <style name="______res_0x40110401" parent="@style/______res_0x401103ff">
+    </style>
+    <style name="______res_0x40110442" parent="@style/_____res_0x4011043e">
+    </style>
+    <style name="______res_0x40110450" parent="@style/______res_0x4011044e">
+    </style>
+    <style name="_____res_0x4011046a" parent="@style/______res_0x4011046b">
+    </style>
+</resources>

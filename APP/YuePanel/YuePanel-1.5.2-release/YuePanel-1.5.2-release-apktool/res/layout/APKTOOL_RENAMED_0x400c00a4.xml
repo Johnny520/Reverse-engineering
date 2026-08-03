@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/APKTOOL_RENAMED_0x4009029b" android:layout_width="60.0dp" android:layout_height="60.0dp" android:src="@drawable/APKTOOL_RENAMED_0x4008008c" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp">
+            <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x4009029c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="作者名字" android:singleLine="true" />
+            <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x4009029a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="描述" android:maxLines="5" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" />
+    <TextView android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下面是你的插眼列表，点击可快速插入" />
+    <TextView android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006008a" android:gravity="right" android:id="@id/APKTOOL_RENAMED_0x40090299" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="首次插眼该用户" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x400900c6" android:layout_width="match_parent" android:layout_height="300.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x400900b5" android:background="@color/APKTOOL_RENAMED_0x40060325" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dp" android:text="创建一个列表" />
+        <TextView android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x4009013c" android:background="@color/APKTOOL_RENAMED_0x40060031" android:padding="10.0dp" android:layout_width="90.0dp" android:layout_height="wrap_content" android:text="确认" />
+    </LinearLayout>
+</LinearLayout>

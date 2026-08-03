@@ -25,6 +25,13 @@
 | [XHS](#xhs) | `APP/XHS` | 小红书 Xposed 模块 | 静态恢复 + 字符串池解码 |
 | [挖红薯呀](#挖红薯呀) | `APP/挖红薯呀` | 小红书 Xposed 模块 `top.anjao2024.xp1whs` | 静态解密 + 云端鉴权还原 |
 | [Ｋｅｖｉｎ](#ｋｅｖｉｎ) | `APP/Ｋｅｖｉｎ` | 多平台 Xposed 模块 `kevin.fun` | 静态恢复 + 云端分析 |
+| [Hchat](#hchat) | `APP/Hchat` | 微信增强 Xposed 模块 `h.Hchat` | 静态恢复 + 插件系统分析 |
+| [OKK](#okk) | `APP/OKK` | 微信 Xposed 模块 `com.abc.module`（OKK） | 反混淆 + 语义化源码恢复 |
+| [YuePanel](#yuepanel) | `APP/YuePanel` | 多平台 Xposed 模块 `com.yuexin.panel` | 反编译 + NMM 原生保护分析 |
+| [FloatingClouds](#floatingclouds) | `APP/FloatingClouds` | 微信 Xposed 模块 `top.mmjz.floatingclouds` | 静态恢复 |
+| [红薯猪手](#红薯猪手) | `APP/红薯猪手` | 小红书 Xposed 模块 `com.skyhand.redbookhelper` | 静态恢复 + 配置解密 |
+| [FunBox](#funbox) | `APP/FunBox` | Xposed/Zygisk 模块 `have.fun` | 反编译 + native ELF 分析 |
+| [CherryWeChat](#cherrywechat) | `APP/CherryWeChat` | 微信 Xposed 模块 `io.github.cherrywechat` | 反编译 + Lua 脚本系统分析 |
 
 ---
 
@@ -409,6 +416,173 @@
 - 内置下载管理器（`DownloadManager`）与 WebDAV 备份/恢复（`WebDAVConfig` / `WebDAVDialog`）功能；
 - 源码混淆为控制流平坦化 + 短数组 XOR 字符串池，`hook/audio/C1117.java` 为短数组 XOR 恢复函数；
 - 云端验证：激活验证走 Cloudflare Workers（`tg-verify-api.kevin0529422.workers.dev/activate`），VIP 白名单为自建域名静态 `vip_list.json`，激活有效性由服务端判定，客户端仅缓存展示层状态。
+
+---
+
+## Hchat
+
+针对微信增强 Xposed/LSPosed 模块 **Hchat**（包名 `h.Hchat`，`alt-entry` 分支 release，目标宿主 `com.tencent.mm`）的完整静态恢复分析。
+
+**分析对象特征**
+- 模块描述：`微信功能增强模块`；Xposed 入口 `h.Hchat.ModuleEntry`
+- 大型微信自动化/增强模块：内置 BeanShell 脚本插件系统、微信数据库/联系人/群聊/朋友圈/消息 API、AI 自动回复（智聊 OpenAI 兼容 + 小智 WebSocket/TTS）、QQ 音乐点歌、Silk/AAC 音频转换、插件市场、崩溃收集与微信保活服务
+- 字符串与配置全部明文，无字符串/配置解密层；唯一加解密为脚本插件「编译快照」缓存的 AES 加密（`ScriptPluginRuntime.snapshotKeyBytes`）
+- Native 库：`libdexkit.so`（运行时定位）、`libhchat_crash.so`（崩溃捕获）、`libsilk_codec.so`（Silk 编解码）
+
+**目录内容**（实际位置：`APP/Hchat/Hchat-26-8-01/`）
+
+| 路径 | 说明 |
+|---|---|
+| `Hchat-alt-entry-release-signed.apk` | 原始 APK |
+| `Hchat-alt-entry-release-signed-restored-sources/` | 主交付目录，6,467 个可读 Java + 资源 |
+| `Hchat-alt-entry-release-signed-jadx/` / `-fallback/` / `-apktool/` | JADX 原始输出 / 指令级 fallback / apktool Smali |
+| `hchat_cloud_plugin.py` | 云端插件市场查询/下载工具 |
+| `cloud_plugin_demo/` | 实测下载的云端插件示例 |
+| `hchat_urls.txt` | URL 清单 |
+| `Hchat-alt-entry-release-signed-解密说明.md` | 完整静态恢复说明 |
+
+---
+
+## OKK
+
+针对微信 Xposed/LSPosed 模块 **OKK**（包名 `com.abc.module`，应用名 `OKK`，模块描述 `OKK Fuck WeChat`，目标宿主 `com.tencent.mm`）的反混淆与语义化源码恢复。
+
+**分析对象特征**
+- 版本：`1.2.1`（versionCode 13）；Xposed 元数据保留旧工程名 `AChat 1.1.7`
+- 功能：消息防撤回、撤回提示/媒体保护、消息编辑、滑动引用/复读、复制/转发/重发/删除/保存、时间显示、朋友圈防删除/防评论、移除朋友圈广告等
+- 保护：Kotlin + R8/ProGuard 名称压缩，无加固壳；核心包 `b0~f0` 已恢复为 `com.abc.*` 语义化命名
+- Native：`libdexkit.so`（DexKit 运行时定位微信类）
+- 配置与日志默认目录：`/storage/emulated/0/Android/media/com.tencent.mm/OKK/`
+
+**目录内容**（实际位置：`APP/OKK/OKK_1.2.1_fix4/`）
+
+| 路径 | 说明 |
+|---|---|
+| `OKK_1.2.1_fix4.apk` | 原始 APK |
+| `OKK_1.2.1_fix4_readable/` | 主交付目录，语义化可读 Java（1,411 个） |
+| `OKK_1.2.1_fix4_readable_simple/` | 指令顺序 Java 对照 |
+| `OKK_1.2.1_fix4_decompiled/` / `-apktool/` / `-analysis/` | 原始反混淆结果 / Smali / 扫描映射 |
+| `OKK_1.2.1_fix4_semantic.jobf` / `-jobf` | JADX 语义映射与原始映射 |
+| `analyze_okk.py` / `build_semantic_mapping.py` / `generate_okk_report.py` / `scan_binary_strings.py` / `validate_okk_output.py` | 分析与校验脚本 |
+| `OKK_1.2.1_fix4_api_scan.txt` | API 扫描结果 |
+| `OKK_1.2.1_fix4_完整解密说明.md` | 完整解密与源码说明 |
+
+---
+
+## YuePanel
+
+针对多平台 Xposed/LSPosed 模块 **YuePanel 1.5.2**（包名 `com.yuexin.panel`，作者 YueXin/月信，作用域抖音/QQ/TIM/微信）的静态恢复与 NMM 原生保护分析。
+
+**分析对象特征**
+- 模块描述：`给抖音/QQ/Tim/微信添加更多功能`
+- 使用 **NMM 原生保护框架**：2,415 处原生字符串加密桩调用（`yue_xin_awa(int)`）、大量原生方法体、1,123 处类初始化挂钩、签名校验（`SignatureGuard`/`libmiao.so`）、文件加解密（`YPNK2:`/`YPNV2:` 前缀）、DES/Base64 工具（`liburl_encode.so`）
+- 命名混淆使用不可打印字符（`ۥ۟۟...`），JADX 已重命名为 `Cxxxx`/`fxxxx`
+- Native：`libyuexin.so` / `libyuexinya.so` / `libmiao.so` / `liburl_encode.so` / `libdexkit.so`
+- 结论：Java 层完整还原；native 字符串/方法体/签名/文件加解密实现需 ELF 逆向（JEB/Ghidra + 提取密钥）
+
+**目录内容**（实际位置：`APP/YuePanel/YuePanel-1.5.2-release-build2/`）
+
+| 路径 | 说明 |
+|---|---|
+| `YuePanel-1.5.2-release-build2.apk` | 原始 APK |
+| `YuePanel-1.5.2-release-build2-restored-sources/` | 主交付目录，6,340 个可读 Java + 资源 |
+| `YuePanel-1.5.2-release-build2-jadx/` / `-fallback/` / `-apktool/` | JADX 输出 / 指令级 fallback / apktool Smali |
+| `yue_libs/` | 提取的 arm64 native 库（`libyuexin` 等） |
+| `yue_urls.txt` | URL 清单 |
+| `YuePanel-1.5.2-release-build2-解密说明.md` | 完整静态恢复说明 |
+
+---
+
+## FloatingClouds
+
+针对微信 Xposed/LSPosed 模块 **FloatingClouds 3.1.5**（包名 `top.mmjz.floatingclouds`，目标宿主 `com.tencent.mm`）的完整静态恢复分析。
+
+**分析对象特征**
+- 功能：密友伪装（`MaskItemBean`）、隐藏密友消息通知、聊天记录存储隐藏、朋友圈隐藏、远程 kill switch（`kill_switch.json` 轮询）、热更新阻断等
+- 无任何字符串/配置加密层，无 `javax.crypto`/AES/DES/RSA/MessageDigest 调用，无控制流平坦化
+- Native：`libdexkit.so`（LuckyPray DexKit 运行时，用于定位微信混淆类）
+
+**目录内容**（实际位置：`APP/FloatingClouds/FloatingClouds-3.1.5-release/`）
+
+| 路径 | 说明 |
+|---|---|
+| `FloatingClouds-3.1.5-release.apk` | 原始 APK |
+| `FloatingClouds-3.1.5-restored-sources/` | 主交付目录，1,215 个可读 Java + 资源 |
+| `FloatingClouds-3.1.5-jadx/` / `-fallback/` / `-apktool/` | JADX 输出 / 指令级 fallback / apktool Smali |
+| `url_hits.txt` | URL 命中清单 |
+| `FloatingClouds-3.1.5-解密说明.md` | 完整静态恢复说明 |
+
+---
+
+## 红薯猪手
+
+针对小红书 Xposed/LSPosed 模块 **红薯猪手 1.2.7**（包名 `com.skyhand.redbookhelper`，目标宿主 `com.xingin.xhs`）的静态恢复与配置解密分析。
+
+**分析对象特征**
+- 无 `.so`，单 `classes.dex`；模块字符串解码器与远程配置 AES/字符位移解码器已定位
+- 交付纯明文源码：移除解码器，配置直接读取明文快照（8 份 JSON）
+- `decrypted-config/` 含当前远程配置明文：全局配置、适配索引、屏蔽列表与 5 个小红书版本适配表
+- 内置 TalkingData SDK（`com.tendcloud.tenddata`）
+
+**目录内容**（实际位置：`APP/红薯猪手/红薯猪手_1.2.7/`）
+
+| 路径 | 说明 |
+|---|---|
+| `红薯猪手_1.2.7.apk` | 原始 APK |
+| `红薯猪手_1.2.7-纯明文源码/` | 主交付目录，纯明文 Java + 8 份配置 JSON |
+| `红薯猪手_1.2.7-restored-sources/` | 行为参考 Java（保留动态远程配置协议） |
+| `红薯猪手_1.2.7-decrypted-config/` | 当前远程配置明文 JSON |
+| `红薯猪手_1.2.7-jadx/` / `-fallback/` / `-apktool/` | JADX 输出 / 指令级 fallback / apktool Smali |
+| `红薯猪手_1.2.7-解密说明.md` | 完整静态恢复说明 |
+
+---
+
+## FunBox
+
+针对 Xposed/LSPosed/LSPatch + Zygisk 模块 **FunBox v2162**（包名 `have.fun`，作者 Hicore）的反编译与 native ELF 分析。
+
+**分析对象特征**
+- 版本：`v2162`（versionCode 2162）；仅 `arm64-v8a`
+- 支持 Xposed/LSPosed/LSPatch 与 Zygisk（`unknown/module.prop` 模块 ID `funbox`，KernelSU/Magisk 风格 WebUI）
+- 动态 Dex 生成：DexMaker（`internal/dexmaker/`）、运行时 Dex 处理（`internal/dexbridge/`）、Dex 格式组件
+- Native：5 个 arm64 ELF，含 `libloader.so`（`FunLoader.load()` JNI，实现 Xposed Hook 后端）
+
+**目录内容**（实际位置：`APP/FunBox/FunBox_v2162/`）
+
+| 路径 | 说明 |
+|---|---|
+| `FunBox_v2162.Apk` | 原始 APK |
+| `FunBox_v2162_readable/` | 主阅读目录，可读重建 Java（203 个） |
+| `FunBox_v2162_readable_simple/` | 指令优先 Java 对照 |
+| `FunBox_v2162_decompiled/` / `-apktool/` / `-analysis/` | 初始反混淆 / 全量解包 / native 与 URL 分析 |
+| `FunBox_v2162_semantic.jobf` / `-jobf` | JADX 语义映射与原始映射 |
+| `analyze_funbox_native.py` / `build_funbox_semantic_mapping.py` / `cloud_data_exporter` 等 | 分析与导出脚本 |
+| `FunBox_v2162_api_scan.txt` | API 扫描结果 |
+| `FunBox_v2162_完整解密说明.md` | 完整解包与可读代码说明 |
+
+---
+
+## CherryWeChat
+
+针对微信 Xposed 模块 **CherryWeChat**（包名 `io.github.cherrywechat`，版本 `v1.0.1-47-g56d8c93`，versionCode 10724）的反编译与 Lua 脚本系统分析。
+
+**分析对象特征**
+- Xposed 入口 `io.github.cherrywechat.HookEntry`；内置 **Lua 运行时**（`lua/`）与脚本装载/Java 桥接/调度，暴露配置、文件、网络、消息、微信与 Xposed API（`assets/lua/` 含示例脚本）
+- 网络层 `NetworkNativeBridge` 提供 `decryptData` / `getHeaders` JNI 接口，解密与请求头生成交由 native 层
+- 字符串池恢复：`p000/AbstractC0295Gu.m625r(long)` 用内置 `f996a` 字符池 + 位运算恢复运行时字符串
+- Native（arm64-v8a）：Cherry、DexKit、LuaJIT、OpenSSL、Sentry 等
+
+**目录内容**（实际位置：`APP/CherryWeChat/CherryWeChat_v1.0.1-47-g56d8c93/`）
+
+| 路径 | 说明 |
+|---|---|
+| `CherryWeChat_v1.0.1-47-g56d8c93.apk` | 原始 APK |
+| `CherryWeChat_v1.0.1-47-g56d8c93_decompiled/` | 主阅读目录，JADX 反编译 Java（3,077 个） |
+| `CherryWeChat_v1.0.1-47-g56d8c93_simple/` | JADX 简化反编译 Java 对照 |
+| `CherryWeChat_v1.0.1-47-g56d8c93_apktool/` | Apktool 完整解包 |
+| `CherryWeChat_v1.0.1-47-g56d8c93_analysis/` | URL 清单、native 库清单与关键配置导出 |
+| `build_cherry_report.py` / `decode_cherry_strings.py` 等 | 分析与字符串解码脚本 |
+| `CherryWeChat_v1.0.1-47-g56d8c93_完整解密说明.md` | 完整解包与可读代码说明 |
 
 ---
 

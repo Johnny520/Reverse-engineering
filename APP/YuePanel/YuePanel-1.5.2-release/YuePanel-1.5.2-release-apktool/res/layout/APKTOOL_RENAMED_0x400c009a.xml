@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/APKTOOL_RENAMED_0x40060045" android:paddingLeft="10.0dp" android:paddingTop="15.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x400901f9" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="90.0px" android:layout_height="90.0px" android:layout_marginRight="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x4008007a" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x400901fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置自动续火花" />
+        <TextView android:textSize="18.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="right" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=">" />
+    </LinearLayout>
+    <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x400901fb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp">
+        <ImageView android:layout_width="90.0px" android:layout_height="90.0px" android:layout_marginRight="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x40080116" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="一键开启/关闭" />
+        <TextView android:textSize="10.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="right" android:id="@id/APKTOOL_RENAMED_0x40090228" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="当前:关闭" />
+    </LinearLayout>
+</LinearLayout>

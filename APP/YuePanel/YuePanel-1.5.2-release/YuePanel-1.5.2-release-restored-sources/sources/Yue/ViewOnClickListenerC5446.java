@@ -1,0 +1,19 @@
+package Yue;
+
+import android.view.View;
+import com.nmmedit.protect.NativeUtil;
+
+/* JADX INFO: renamed from: Yue.ۥ۠ۥۢۨ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class ViewOnClickListenerC5446 implements View.OnClickListener {
+
+    /* JADX INFO: renamed from: ۥۣ۟۟۠, reason: contains not printable characters */
+    public final /* synthetic */ DialogC5448 f13389;
+
+    static {
+        NativeUtil.classesInit0(1052);
+    }
+
+    @Override // android.view.View.OnClickListener
+    public final native void onClick(View view);
+}

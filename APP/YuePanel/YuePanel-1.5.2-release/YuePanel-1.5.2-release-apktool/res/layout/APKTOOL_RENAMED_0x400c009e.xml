@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/APKTOOL_RENAMED_0x400800b1" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="10.0dp" android:elevation="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp">
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033b" android:id="@id/APKTOOL_RENAMED_0x4009028a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传的语音" android:singleLine="true" />
+            <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033b" android:id="@id/APKTOOL_RENAMED_0x4009028b" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传中..." />
+        </LinearLayout>
+        <CheckBox android:id="@id/APKTOOL_RENAMED_0x40090286" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+    </LinearLayout>
+</LinearLayout>

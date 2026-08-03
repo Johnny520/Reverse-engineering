@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/APKTOOL_RENAMED_0x4009014a" layout="@layout/APKTOOL_RENAMED_0x400c005d" />
+    <include layout="@layout/APKTOOL_RENAMED_0x400c005f" />
+    <include android:id="@id/APKTOOL_RENAMED_0x4009014d" layout="@layout/APKTOOL_RENAMED_0x400c005d" />
+</LinearLayout>

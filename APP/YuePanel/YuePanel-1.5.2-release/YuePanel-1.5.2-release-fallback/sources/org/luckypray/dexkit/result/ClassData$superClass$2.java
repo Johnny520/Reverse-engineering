@@ -1,0 +1,53 @@
+package org.luckypray.dexkit.result;
+
+/* JADX INFO: loaded from: classes2.dex */
+@Yue.InterfaceC4201(d1 = {"\u0000\b\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u0004\u0018\u00010\u0001H\n¢\u0006\u0002\b\u0002"}, d2 = {"<anonymous>", "Lorg/luckypray/dexkit/result/ClassData;", "invoke"}, k = 3, mv = {1, 5, 1}, xi = 48)
+public final class ClassData$superClass$2 extends Yue.AbstractC3560 implements Yue.InterfaceC2823<org.luckypray.dexkit.result.ClassData> {
+    final /* synthetic */ org.luckypray.dexkit.DexKitBridge $bridge;
+    final /* synthetic */ int $dexId;
+    final /* synthetic */ org.luckypray.dexkit.result.ClassData this$0;
+
+    public ClassData$superClass$2(org.luckypray.dexkit.result.ClassData r1, org.luckypray.dexkit.DexKitBridge r2, int r3) {
+            r0 = this;
+            r0.this$0 = r1
+            r0.$bridge = r2
+            r0.$dexId = r3
+            r1 = 0
+            r0.<init>(r1)
+            return
+    }
+
+    @Override // Yue.InterfaceC2823
+    public /* bridge */ /* synthetic */ org.luckypray.dexkit.result.ClassData invoke() {
+            r1 = this;
+            org.luckypray.dexkit.result.ClassData r0 = r1.invoke2()
+            return r0
+    }
+
+    @Override // Yue.InterfaceC2823
+    @Yue.InterfaceC4543
+    /* JADX INFO: renamed from: invoke, reason: avoid collision after fix types in other method */
+    public final org.luckypray.dexkit.result.ClassData invoke2() {
+            r5 = this;
+            org.luckypray.dexkit.result.ClassData r0 = r5.this$0
+            java.lang.Integer r0 = org.luckypray.dexkit.result.ClassData.access$getSuperClassId$p(r0)
+            if (r0 == 0) goto L27
+            org.luckypray.dexkit.DexKitBridge r1 = r5.$bridge
+            org.luckypray.dexkit.result.ClassData r2 = r5.this$0
+            int r3 = r5.$dexId
+            int r0 = r0.intValue()
+            long r2 = org.luckypray.dexkit.result.ClassData.access$getEncodeId(r2, r3, r0)
+            r0 = 1
+            long[] r0 = new long[r0]
+            r4 = 0
+            r0[r4] = r2
+            org.luckypray.dexkit.result.ClassDataList r0 = r1.getTypeByIds$dexkit_android_release(r0)
+            java.lang.Object r0 = r0.firstOrNull()
+            org.luckypray.dexkit.result.ClassData r0 = (org.luckypray.dexkit.result.ClassData) r0
+            goto L28
+        L27:
+            r0 = 0
+        L28:
+            return r0
+    }
+}

@@ -1,0 +1,40 @@
+.class public final synthetic LYue/ۥۡۦۦۥ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic ۥۣ۟۟۠:LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;
+
+.field public final synthetic ۥ۟۟۠ۤ:I
+
+
+# direct methods
+.method public synthetic constructor <init>(LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LYue/ۥۡۦۦۥ;->ۥۣ۟۟۠:LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;
+
+    iput p2, p0, LYue/ۥۡۦۦۥ;->ۥ۟۟۠ۤ:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    iget-object v0, p0, LYue/ۥۡۦۦۥ;->ۥۣ۟۟۠:LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;
+
+    iget v1, p0, LYue/ۥۡۦۦۥ;->ۥ۟۟۠ۤ:I
+
+    invoke-static {v0, v1}, LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;->ۥ۟(LYue/ۥۡۦۦۣ$ۥ۟۟۟۠;I)V
+
+    return-void
+.end method

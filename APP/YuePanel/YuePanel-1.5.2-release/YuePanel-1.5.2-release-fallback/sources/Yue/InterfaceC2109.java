@@ -1,0 +1,9 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥ۠۠ۥۨ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC2109 {
+    boolean isEmojiCompatEnabled();
+
+    void setEmojiCompatEnabled(boolean r1);
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x40090076" android:background="@color/APKTOOL_RENAMED_0x40060026" android:layout_width="match_parent" android:layout_height="match_parent" app:APKTOOL_RENAMED_0x4004003b="false" app:APKTOOL_RENAMED_0x40040064="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kongzue.dialogx.util.views.MaxRelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x4009006e" android:background="@drawable/APKTOOL_RENAMED_0x40080112" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:clickable="true" android:layout_width="100.0dp" android:layout_height="wrap_content" android:elevation="5.0dp">
+        <RelativeLayout android:id="@id/APKTOOL_RENAMED_0x40090071" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.kongzue.dialogx.util.views.PopMenuListView android:id="@id/APKTOOL_RENAMED_0x4009012b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/APKTOOL_RENAMED_0x40090071" />
+    </com.kongzue.dialogx.util.views.MaxRelativeLayout>
+</com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout>

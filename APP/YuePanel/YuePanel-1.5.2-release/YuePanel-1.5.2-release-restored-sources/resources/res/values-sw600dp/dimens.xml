@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="______res_0x40070000">24dp</dimen>
+    <dimen name="______res_0x40070001">80dp</dimen>
+    <dimen name="______res_0x40070002">64dp</dimen>
+    <dimen name="____res_0x40070003">8dp</dimen>
+    <dimen name="_____res_0x40070004">8dp</dimen>
+    <dimen name="______res_0x40070017">580dp</dimen>
+    <dimen name="______res_0x4007004e">16dp</dimen>
+    <dimen name="______res_0x40070050">20dp</dimen>
+    <dimen name="______res_0x4007007b">320dp</dimen>
+    <dimen name="______res_0x4007007e">0dp</dimen>
+    <dimen name="______res_0x40070080">2dp</dimen>
+    <dimen name="______res_0x40070082">24dp</dimen>
+    <dimen name="______res_0x40070083">576dp</dimen>
+    <dimen name="______res_0x40070084">320dp</dimen>
+    <dimen name="______res_0x40070087">@dimen/______res_0x40070086</dimen>
+    <dimen name="_____res_0x4007008a">160dp</dimen>
+    <dimen name="______res_0x40070258">64dp</dimen>
+    <dimen name="______res_0x40070305">64dp</dimen>
+</resources>

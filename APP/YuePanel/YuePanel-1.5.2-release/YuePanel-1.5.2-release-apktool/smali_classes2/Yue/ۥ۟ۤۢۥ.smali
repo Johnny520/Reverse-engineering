@@ -1,0 +1,29 @@
+.class public final LYue/ۥ۟ۤۢۥ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final ۥ(S)C
+    .locals 1
+    .annotation build LYue/ۥ۠ۥۣۢ;
+    .end annotation
+
+    .annotation build LYue/ۥۢ۟ۡۡ;
+        version = "1.5"
+    .end annotation
+
+    .annotation build LYue/ۥۢۥ۠ۧ;
+        markerClass = {
+            LYue/ۥ۠ۡۥ۟;
+        }
+    .end annotation
+
+    const v0, 0xffff
+
+    and-int/2addr p0, v0
+
+    int-to-char p0, p0
+
+    return p0
+.end method

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:background="@color/APKTOOL_RENAMED_0x40060023" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x400900a9" android:paddingTop="60.0dp" android:paddingBottom="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp">
+            <androidx.cardview.widget.CardView android:id="@id/APKTOOL_RENAMED_0x40090084" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:alpha="0.0" android:translationY="30.0dp" app:APKTOOL_RENAMED_0x40040095="@color/APKTOOL_RENAMED_0x4006003f" app:APKTOOL_RENAMED_0x40040096="20.0dp" app:APKTOOL_RENAMED_0x40040097="2.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17.0sp" android:textColor="@color/APKTOOL_RENAMED_0x4006033c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="YuePanel" />
+                    <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060339" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="目前已适配" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/APKTOOL_RENAMED_0x40090080" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:alpha="0.0" android:translationY="30.0dp" app:APKTOOL_RENAMED_0x40040095="@color/APKTOOL_RENAMED_0x4006003f" app:APKTOOL_RENAMED_0x40040096="20.0dp" app:APKTOOL_RENAMED_0x40040097="2.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060339" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="抖音/抖音极速版" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_RENAMED_0x4006033c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="抖音适配版本3700 - 3990\n抖音极速版适配3820 - 3990" android:lineSpacingExtra="4.0dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/APKTOOL_RENAMED_0x40090081" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:alpha="0.0" android:translationY="30.0dp" app:APKTOOL_RENAMED_0x40040095="@color/APKTOOL_RENAMED_0x4006003f" app:APKTOOL_RENAMED_0x40040096="20.0dp" app:APKTOOL_RENAMED_0x40040097="2.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060339" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QQ" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_RENAMED_0x4006033c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QQ适配版本9160 - 9270" android:lineSpacingExtra="4.0dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/APKTOOL_RENAMED_0x40090082" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:alpha="0.0" android:translationY="30.0dp" app:APKTOOL_RENAMED_0x40040095="@color/APKTOOL_RENAMED_0x4006003f" app:APKTOOL_RENAMED_0x40040096="20.0dp" app:APKTOOL_RENAMED_0x40040097="2.0dp">
+                <LinearLayout android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060339" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/APKTOOL_RENAMED_0x4006033c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信适配版本8057 - 8071" android:lineSpacingExtra="4.0dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/APKTOOL_RENAMED_0x40090083" android:layout_width="match_parent" android:layout_height="62.0dp" android:alpha="0.0" android:translationY="30.0dp" app:APKTOOL_RENAMED_0x40040095="@color/APKTOOL_RENAMED_0x4006003a" app:APKTOOL_RENAMED_0x40040096="16.0dp" app:APKTOOL_RENAMED_0x40040097="0.0dp">
+                <TextView android:textSize="17.0sp" android:textColor="@color/APKTOOL_RENAMED_0x40060339" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x4009007c" android:layout_width="match_parent" android:layout_height="match_parent" android:text="加入群聊" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

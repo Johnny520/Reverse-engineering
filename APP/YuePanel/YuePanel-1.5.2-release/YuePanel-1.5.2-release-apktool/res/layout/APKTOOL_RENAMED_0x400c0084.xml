@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x4009017a" android:paddingLeft="@dimen/APKTOOL_RENAMED_0x4007027e" android:paddingRight="@dimen/APKTOOL_RENAMED_0x4007027e" android:baselineAligned="false" android:paddingStart="@dimen/APKTOOL_RENAMED_0x4007027e" android:paddingEnd="@dimen/APKTOOL_RENAMED_0x4007027e" style="?APKTOOL_RENAMED_0x400402c2">
+        <FrameLayout android:id="@id/APKTOOL_RENAMED_0x4009017c" android:paddingLeft="@dimen/APKTOOL_RENAMED_0x40070284" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:paddingStart="@dimen/APKTOOL_RENAMED_0x40070284">
+            <include layout="@layout/APKTOOL_RENAMED_0x400c0087" />
+            <include layout="@layout/APKTOOL_RENAMED_0x400c0086" />
+        </FrameLayout>
+        <include layout="@layout/APKTOOL_RENAMED_0x400c0088" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/APKTOOL_RENAMED_0x40070280" style="?APKTOOL_RENAMED_0x400402c1" />
+</merge>

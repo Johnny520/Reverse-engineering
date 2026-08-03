@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+    <include
+        android:id="@+id/______res_0x4009014a"
+        layout="@layout/______res_0x400c005d"/>
+    <include layout="@layout/______res_0x400c005f"/>
+    <include
+        android:id="@+id/______res_0x4009014d"
+        layout="@layout/______res_0x400c005d"/>
+</LinearLayout>

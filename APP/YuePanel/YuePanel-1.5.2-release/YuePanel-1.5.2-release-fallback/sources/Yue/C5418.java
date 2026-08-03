@@ -1,0 +1,20 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥۣۡۧ۟, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C5418 implements java.util.function.IntFunction {
+    static {
+            r0 = 420(0x1a4, float:5.89E-43)
+            com.nmmedit.protect.NativeUtil.classesInit0(r0)
+            return
+    }
+
+    public /* synthetic */ C5418() {
+            r0 = this;
+            r0.<init>()
+            return
+    }
+
+    @Override // java.util.function.IntFunction
+    public final native java.lang.Object apply(int r1);
+}

@@ -1,0 +1,21 @@
+package Yue;
+
+import android.view.View;
+import com.kongzue.dialogx.interfaces.BaseDialog;
+import com.kongzue.dialogx.interfaces.OnDialogButtonClickListener;
+import com.nmmedit.protect.NativeUtil;
+
+/* JADX INFO: renamed from: Yue.ۥۢ۟ۥۢ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C7524 implements OnDialogButtonClickListener {
+
+    /* JADX INFO: renamed from: ۥ */
+    public final /* synthetic */ String f2926;
+
+    static {
+        NativeUtil.classesInit0(8);
+    }
+
+    @Override // com.kongzue.dialogx.interfaces.OnDialogButtonClickListener
+    public final native boolean onClick(BaseDialog baseDialog, View view);
+}

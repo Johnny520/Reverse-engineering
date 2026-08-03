@@ -1,0 +1,38 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥۡۦۨ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C5398 extends Yue.AbstractC3402 {
+
+    /* JADX INFO: renamed from: ۥ۟۟۠ۧ, reason: contains not printable characters */
+    @Yue.InterfaceC4418
+    public final Yue.InterfaceC1598<Yue.C6593> f20043;
+
+    public C5398(@Yue.InterfaceC4418 Yue.InterfaceC1598<? super Yue.C6593> r1) {
+            r0 = this;
+            r0.<init>()
+            r0.f20043 = r1
+            return
+    }
+
+    @Override // Yue.InterfaceC2825
+    public /* bridge */ /* synthetic */ Yue.C6593 invoke(java.lang.Throwable r1) {
+            r0 = this;
+            java.lang.Throwable r1 = (java.lang.Throwable) r1
+            r0.mo4448(r1)
+            Yue.ۥۣۢ۠ۤ r1 = Yue.C6593.f23016
+            return r1
+    }
+
+    @Override // Yue.AbstractC1419
+    /* JADX INFO: renamed from: ۥ۟۟ۦۤ */
+    public void mo4448(@Yue.InterfaceC4543 java.lang.Throwable r2) {
+            r1 = this;
+            Yue.ۥ۟ۧۤۢ<Yue.ۥۣۢ۠ۤ> r2 = r1.f20043
+            Yue.ۥۡۦۧۤ$ۥ r0 = Yue.C5388.f20029
+            Yue.ۥۣۢ۠ۤ r0 = Yue.C6593.f23016
+            java.lang.Object r0 = Yue.C5388.m20377(r0)
+            r2.resumeWith(r0)
+            return
+    }
+}

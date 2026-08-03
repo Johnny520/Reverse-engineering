@@ -1,0 +1,98 @@
+package com.google.android.material.sidesheet;
+
+import Yue.InterfaceC6391;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+
+/* JADX INFO: loaded from: classes.dex */
+final class LeftSheetDelegate extends SheetDelegate {
+    final SideSheetBehavior<? extends View> sheetBehavior;
+
+    public LeftSheetDelegate(@InterfaceC6391 SideSheetBehavior<? extends View> sideSheetBehavior) {
+        this.sheetBehavior = sideSheetBehavior;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int calculateInnerMargin(@InterfaceC6391 ViewGroup.MarginLayoutParams marginLayoutParams) {
+        return marginLayoutParams.leftMargin;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public float calculateSlideOffset(int i) {
+        float hiddenOffset = getHiddenOffset();
+        return (i - hiddenOffset) / (getExpandedOffset() - hiddenOffset);
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getCoplanarSiblingAdjacentMargin(@InterfaceC6391 ViewGroup.MarginLayoutParams marginLayoutParams) {
+        return marginLayoutParams.leftMargin;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getExpandedOffset() {
+        return Math.max(0, this.sheetBehavior.getParentInnerEdge() + this.sheetBehavior.getInnerMargin());
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getHiddenOffset() {
+        return (-this.sheetBehavior.getChildWidth()) - this.sheetBehavior.getInnerMargin();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getMaxViewPositionHorizontal() {
+        return this.sheetBehavior.getInnerMargin();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getMinViewPositionHorizontal() {
+        return -this.sheetBehavior.getChildWidth();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public <V extends View> int getOuterEdge(@InterfaceC6391 V v) {
+        return v.getRight() + this.sheetBehavior.getInnerMargin();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getParentInnerEdge(@InterfaceC6391 CoordinatorLayout coordinatorLayout) {
+        return coordinatorLayout.getLeft();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public int getSheetEdge() {
+        return 1;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public boolean isExpandingOutwards(float f) {
+        return f > 0.0f;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public boolean isReleasedCloseToInnerEdge(@InterfaceC6391 View view) {
+        return view.getRight() < (getExpandedOffset() - getHiddenOffset()) / 2;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public boolean isSwipeSignificant(float f, float f2) {
+        return SheetUtils.isSwipeMostlyHorizontal(f, f2) && Math.abs(f) > ((float) this.sheetBehavior.getSignificantVelocityThreshold());
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public boolean shouldHide(@InterfaceC6391 View view, float f) {
+        return Math.abs(((float) view.getLeft()) + (f * this.sheetBehavior.getHideFriction())) > this.sheetBehavior.getHideThreshold();
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public void updateCoplanarSiblingAdjacentMargin(@InterfaceC6391 ViewGroup.MarginLayoutParams marginLayoutParams, int i) {
+        marginLayoutParams.leftMargin = i;
+    }
+
+    @Override // com.google.android.material.sidesheet.SheetDelegate
+    public void updateCoplanarSiblingLayoutParams(@InterfaceC6391 ViewGroup.MarginLayoutParams marginLayoutParams, int i, int i2) {
+        if (i <= this.sheetBehavior.getParentWidth()) {
+            marginLayoutParams.leftMargin = i2;
+        }
+    }
+}

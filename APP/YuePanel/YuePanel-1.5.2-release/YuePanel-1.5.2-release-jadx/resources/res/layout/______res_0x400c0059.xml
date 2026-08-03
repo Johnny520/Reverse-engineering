@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/______res_0x40090265"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/______res_0x40090262"
+        style="?attr/______res_0x400402b7">
+        <ImageView
+            android:id="@android:id/icon"
+            style="?attr/______res_0x400402b6"/>
+        <androidx.appcompat.widget.DialogTitle
+            android:id="@+id/______res_0x40090044"
+            style="?attr/______res_0x400402b8"/>
+    </LinearLayout>
+    <android.widget.Space
+        android:id="@+id/______res_0x40090261"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/______res_0x400700a3"/>
+</LinearLayout>

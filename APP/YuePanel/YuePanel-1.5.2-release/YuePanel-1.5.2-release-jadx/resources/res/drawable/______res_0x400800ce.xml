@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_checked="true"
+        android:id="@+id/______res_0x4009008f"
+        android:drawable="@drawable/______res_0x400800de"/>
+    <item
+        android:id="@+id/______res_0x4009011a"
+        android:drawable="@drawable/______res_0x400800de"
+        app:state_indeterminate="true"/>
+    <item
+        android:state_checked="false"
+        android:id="@+id/______res_0x40090282"
+        android:drawable="@drawable/_____res_0x400800df"/>
+    <transition
+        android:drawable="@drawable/______res_0x400800cf"
+        android:toId="@+id/______res_0x40090282"
+        android:fromId="@+id/______res_0x4009008f"/>
+    <transition
+        android:drawable="@drawable/______res_0x400800d7"
+        android:toId="@+id/______res_0x4009008f"
+        android:fromId="@+id/______res_0x40090282"/>
+    <transition
+        android:drawable="@drawable/______res_0x400800cf"
+        android:toId="@+id/______res_0x40090282"
+        android:fromId="@+id/______res_0x4009011a"/>
+    <transition
+        android:drawable="@drawable/______res_0x400800d7"
+        android:toId="@+id/______res_0x4009011a"
+        android:fromId="@+id/______res_0x40090282"/>
+</animated-selector>

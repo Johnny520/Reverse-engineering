@@ -1,0 +1,10 @@
+package android.view.inspector;
+
+/* JADX INFO: loaded from: classes.dex */
+public /* synthetic */ interface InspectionCompanion {
+    static {
+            java.lang.NoClassDefFoundError r0 = new java.lang.NoClassDefFoundError
+            r0.<init>()
+            throw r0
+    }
+}

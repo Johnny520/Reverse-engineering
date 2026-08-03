@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textSize="16.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="选择保存的目录" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x400900d0" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="创建目录" />
+                <View android:background="@color/APKTOOL_RENAMED_0x40060031" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x400900d1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5.0dp">
+                <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="返回上一级" />
+                <View android:background="@color/APKTOOL_RENAMED_0x40060031" android:layout_width="match_parent" android:layout_height="1.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="13.0dp" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x400900ce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前目录：" />
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x400900d2" android:layout_width="match_parent" android:layout_height="260.0dp" />
+</LinearLayout>

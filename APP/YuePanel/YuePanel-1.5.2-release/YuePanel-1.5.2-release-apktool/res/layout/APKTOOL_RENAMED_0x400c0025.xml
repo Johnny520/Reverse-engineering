@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/APKTOOL_RENAMED_0x4008008b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginTop="10.0px" android:layout_marginRight="50.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/APKTOOL_RENAMED_0x4009009e" android:paddingLeft="50.0px" android:paddingTop="40.0px" android:paddingRight="50.0px" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:padding="10.0px" android:layout_width="74.0px" android:layout_height="74.0px" android:src="@drawable/APKTOOL_RENAMED_0x4008008c" />
+            <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060024" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评论插眼" />
+        </LinearLayout>
+        <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="40.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090098" android:paddingLeft="50.0px" android:paddingTop="40.0px" android:paddingRight="50.0px" android:paddingBottom="40.0px" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:padding="10.0px" android:layout_width="74.0px" android:layout_height="74.0px" android:src="@drawable/APKTOOL_RENAMED_0x4008007a" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060024" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看评论信息" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/APKTOOL_RENAMED_0x4009020d" android:layout_width="160.0px" android:layout_height="160.0px" android:layout_marginRight="10.0dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x400901fd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="作者名字" android:singleLine="true" />
+            <TextView android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090206" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="描述" android:maxLines="3" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x40090209" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点赞\n9999" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x40090205" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评论\n9999" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x40090204" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收藏\n9999" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x4009020a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="转发\n9999" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:gravity="center" android:id="@id/APKTOOL_RENAMED_0x400901c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐\n9999" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="5.0dp" />
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x40090203" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="发布地址:成都 男同市 男同县" />
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x4009020c" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="发布时间:999:999:999" />
+        <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginBottom="10.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="背景音乐" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x400901fe" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="复制" />
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x400901ff" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090292" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视频封面" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/APKTOOL_RENAMED_0x40090295" android:layout_width="80.0dp" android:layout_height="match_parent" android:layout_marginRight="10.0dp" />
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090296" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090297" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前图集" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090208" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="下载(动图)" />
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090207" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载(图片)" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090298" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <TextView android:textSize="14.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前视频" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x4009020f" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:text="复制" />
+            <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090210" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/APKTOOL_RENAMED_0x4006033d" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" />
+    <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x4006033a" android:id="@id/APKTOOL_RENAMED_0x4009020b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+        <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090201" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:text="复制文案" android:layout_weight="1.0" />
+        <android.widget.Button android:id="@id/APKTOOL_RENAMED_0x40090200" android:background="@drawable/APKTOOL_RENAMED_0x4008007b" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:text="查看文章" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

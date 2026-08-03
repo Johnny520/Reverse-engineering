@@ -1,0 +1,38 @@
+.class public interface abstract annotation LYue/ۥۣۡۦۧ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation build LYue/ۥۡۦۧ۠;
+    value = {
+        .enum LYue/ۥۡۦۧ۠$ۥ;->ۥ۟۟۠ۥ:LYue/ۥۡۦۧ۠$ۥ;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation LYue/ۥۣۡۦۧ;
+        defaultValue = ""
+    .end subannotation
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract defaultValue()Ljava/lang/String;
+.end method
+
+.method public abstract value()I
+.end method

@@ -1,0 +1,66 @@
+.class public final LYue/ۥۣ۠ۢۤ;
+.super LYue/ۥۡۧۥ;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "LYue/\u06e5\u06e1\u06e7\u06e5<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(LYue/ۥ۟ۧۦۥ;LYue/ۥ۟ۧۤۢ;)V
+    .locals 0
+    .param p1    # LYue/ۥ۟ۧۦۥ;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+    .param p2    # LYue/ۥ۟ۧۤۢ;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LYue/\u06e5\u06df\u06e7\u06e6\u06e5;",
+            "LYue/\u06e5\u06df\u06e7\u06e4\u06e2<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, LYue/ۥۡۧۥ;-><init>(LYue/ۥ۟ۧۦۥ;LYue/ۥ۟ۧۤۢ;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public ۥ۟۟ۤۡ(Ljava/lang/Throwable;)Z
+    .locals 1
+    .param p1    # Ljava/lang/Throwable;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+
+    instance-of v0, p1, LYue/ۥ۟ۤۥۦ;
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_0
+    invoke-virtual {p0, p1}, LYue/ۥ۠ۦ۠۟;->ۥۣ۟۟ۦ(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    return p1
+.end method

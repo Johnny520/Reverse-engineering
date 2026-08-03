@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/APKTOOL_RENAMED_0x400800b3" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginRight="50.0px" android:layout_marginBottom="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090130" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="70.0px" android:layout_height="70.0px" android:layout_marginRight="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x400800af" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060341" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看视频信息" />
+    </LinearLayout>
+    <View android:background="@color/APKTOOL_RENAMED_0x4006034e" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="15.0dp" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090131" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="70.0px" android:layout_height="70.0px" android:layout_marginRight="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x40080116" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060341" android:id="@id/APKTOOL_RENAMED_0x40090133" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存视频" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:id="@id/APKTOOL_RENAMED_0x40090132" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="70.0px" android:layout_height="70.0px" android:layout_marginRight="10.0dp" android:src="@drawable/APKTOOL_RENAMED_0x40080116" />
+        <TextView android:textSize="15.0dp" android:textStyle="bold" android:textColor="@color/APKTOOL_RENAMED_0x40060341" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存图集" />
+    </LinearLayout>
+</LinearLayout>

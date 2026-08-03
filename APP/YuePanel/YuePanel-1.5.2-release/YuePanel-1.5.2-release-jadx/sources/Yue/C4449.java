@@ -1,0 +1,15 @@
+package Yue;
+
+import android.widget.CompoundButton;
+import com.nmmedit.protect.NativeUtil;
+
+/* JADX INFO: renamed from: Yue.ۥ۠۟ۤۧ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C4449 implements CompoundButton.OnCheckedChangeListener {
+    static {
+        NativeUtil.classesInit0(128);
+    }
+
+    @Override // android.widget.CompoundButton.OnCheckedChangeListener
+    public final native void onCheckedChanged(CompoundButton compoundButton, boolean z);
+}

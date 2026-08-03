@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:color="?attr/______res_0x400400f5"
+        android:alpha="@dimen/______res_0x400701d8"/>
+    <item
+        android:state_selected="true"
+        android:state_pressed="false"
+        android:color="?attr/______res_0x400400f5"
+        android:alpha="@dimen/______res_0x400701ea"/>
+    <item
+        android:state_pressed="false"
+        android:color="?attr/______res_0x400400f5"
+        android:alpha="@dimen/______res_0x400701e9"
+        android:state_hovered="true"/>
+</selector>

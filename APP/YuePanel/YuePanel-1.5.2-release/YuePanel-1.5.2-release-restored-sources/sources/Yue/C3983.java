@@ -1,0 +1,20 @@
+package Yue;
+
+import com.kongzue.dialogx.interfaces.OnMenuItemClickListener;
+import com.nmmedit.protect.NativeUtil;
+import org.json.JSONObject;
+
+/* JADX INFO: renamed from: Yue.ۥ۟ۥۨ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C3983 implements OnMenuItemClickListener {
+
+    /* JADX INFO: renamed from: ۥ */
+    public final /* synthetic */ JSONObject f594;
+
+    static {
+        NativeUtil.classesInit0(669);
+    }
+
+    @Override // com.kongzue.dialogx.interfaces.OnMenuItemClickListener
+    public final native boolean onClick(Object obj, CharSequence charSequence, int i);
+}

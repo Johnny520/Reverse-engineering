@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checkable="false" android:state_pressed="true" android:color="?APKTOOL_RENAMED_0x400400e8" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019e" />
+    <item android:state_focused="true" android:state_checkable="false" android:color="?APKTOOL_RENAMED_0x400400e8" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019c" />
+    <item android:state_checkable="false" android:color="?APKTOOL_RENAMED_0x400400e8" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019d" android:state_hovered="true" />
+    <item android:state_checkable="false" android:color="?APKTOOL_RENAMED_0x400400e8" android:alpha="@dimen/APKTOOL_RENAMED_0x400701d5" />
+    <item android:state_checked="true" android:state_pressed="true" android:color="?APKTOOL_RENAMED_0x400400f5" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019e" />
+    <item android:state_focused="true" android:state_checked="true" android:color="?APKTOOL_RENAMED_0x400400f2" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019c" />
+    <item android:state_checked="true" android:color="?APKTOOL_RENAMED_0x400400f2" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019d" android:state_hovered="true" />
+    <item android:state_checked="true" android:color="?APKTOOL_RENAMED_0x400400f2" android:alpha="@dimen/APKTOOL_RENAMED_0x400701d5" />
+    <item android:state_pressed="true" android:color="?APKTOOL_RENAMED_0x400400f2" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019e" />
+    <item android:state_focused="true" android:color="?APKTOOL_RENAMED_0x400400f5" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019c" />
+    <item android:color="?APKTOOL_RENAMED_0x400400f5" android:alpha="@dimen/APKTOOL_RENAMED_0x4007019d" android:state_hovered="true" />
+    <item android:color="?APKTOOL_RENAMED_0x400400f5" android:alpha="@dimen/APKTOOL_RENAMED_0x400701d5" />
+</selector>

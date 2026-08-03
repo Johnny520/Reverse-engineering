@@ -1,0 +1,86 @@
+.class public final LYue/ۥۣۡۡۤ;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static final ۥ(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLYue/ۥۣ۠ۡ۟;)LYue/ۥۣۡۡۢ;
+    .locals 1
+    .param p0    # Landroidx/activity/OnBackPressedDispatcher;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+    .param p1    # Landroidx/lifecycle/LifecycleOwner;
+        .annotation build LYue/ۥۡۢۧ۟;
+        .end annotation
+    .end param
+    .param p3    # LYue/ۥۣ۠ۡ۟;
+        .annotation build LYue/ۥۡۢۥ۠;
+        .end annotation
+    .end param
+    .annotation build LYue/ۥۡۢۥ۠;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/activity/OnBackPressedDispatcher;",
+            "Landroidx/lifecycle/LifecycleOwner;",
+            "Z",
+            "LYue/\u06e5\u06e0\u06e3\u06e1\u06df<",
+            "-",
+            "LYue/\u06e5\u06e1\u06e3\u06e1\u06e2;",
+            "LYue/\u06e5\u06e2\u06e3\u06e0\u06e4;",
+            ">;)",
+            "LYue/\u06e5\u06e1\u06e3\u06e1\u06e2;"
+        }
+    .end annotation
+
+    const-string v0, "<this>"
+
+    invoke-static {p0, v0}, LYue/ۥ۠ۥۧ۠;->ۥ۟۟۠۟(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "onBackPressed"
+
+    invoke-static {p3, v0}, LYue/ۥ۠ۥۧ۠;->ۥ۟۟۠۟(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v0, LYue/ۥۣۡۡۤ$ۥ;
+
+    invoke-direct {v0, p2, p3}, LYue/ۥۣۡۡۤ$ۥ;-><init>(ZLYue/ۥۣ۠ۡ۟;)V
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0, p1, v0}, Landroidx/activity/OnBackPressedDispatcher;->ۥۣ۟۟۟(Landroidx/lifecycle/LifecycleOwner;LYue/ۥۣۡۡۢ;)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p0, v0}, Landroidx/activity/OnBackPressedDispatcher;->ۥ۟۟۟ۢ(LYue/ۥۣۡۡۢ;)V
+
+    :goto_0
+    return-object v0
+.end method
+
+.method public static synthetic ۥ۟(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLYue/ۥۣ۠ۡ۟;ILjava/lang/Object;)LYue/ۥۣۡۡۢ;
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x1
+
+    if-eqz p5, :cond_0
+
+    const/4 p1, 0x0
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x2
+
+    if-eqz p4, :cond_1
+
+    const/4 p2, 0x1
+
+    :cond_1
+    invoke-static {p0, p1, p2, p3}, LYue/ۥۣۡۡۤ;->ۥ(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLYue/ۥۣ۠ۡ۟;)LYue/ۥۣۡۡۢ;
+
+    move-result-object p0
+
+    return-object p0
+.end method

@@ -1,0 +1,14 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥ۠ۦۡۢ, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes2.dex */
+@java.lang.annotation.Target({})
+@java.lang.annotation.Retention(java.lang.annotation.RetentionPolicy.SOURCE)
+@Yue.InterfaceC5792(version = "1.2")
+@Yue.InterfaceC5401(Yue.EnumC0409.f947)
+@Yue.InterfaceC4308
+@java.lang.annotation.Documented
+@Yue.InterfaceC6109(allowedTargets = {Yue.EnumC0410.f965})
+public @interface InterfaceC3423 {
+    java.lang.String name();
+}

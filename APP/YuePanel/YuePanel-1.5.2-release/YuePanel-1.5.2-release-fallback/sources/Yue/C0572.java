@@ -1,0 +1,58 @@
+package Yue;
+
+/* JADX INFO: renamed from: Yue.ۥ۟ۡۨ۠, reason: contains not printable characters */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C0572 extends Yue.AbstractC3820 {
+
+    /* JADX INFO: renamed from: ۥۣ۟۟۠, reason: contains not printable characters */
+    @Yue.InterfaceC4418
+    public final long[] f1494;
+
+    /* JADX INFO: renamed from: ۥ۟۟۠ۤ, reason: contains not printable characters */
+    public int f1495;
+
+    public C0572(@Yue.InterfaceC4418 long[] r2) {
+            r1 = this;
+            java.lang.String r0 = "array"
+            Yue.C3329.m13906(r2, r0)
+            r1.<init>()
+            r1.f1494 = r2
+            return
+    }
+
+    @Override // java.util.Iterator
+    public boolean hasNext() {
+            r2 = this;
+            int r0 = r2.f1495
+            long[] r1 = r2.f1494
+            int r1 = r1.length
+            if (r0 >= r1) goto L9
+            r0 = 1
+            goto La
+        L9:
+            r0 = 0
+        La:
+            return r0
+    }
+
+    @Override // Yue.AbstractC3820
+    /* JADX INFO: renamed from: ۥ۟, reason: contains not printable characters */
+    public long mo2037() {
+            r3 = this;
+            long[] r0 = r3.f1494     // Catch: java.lang.ArrayIndexOutOfBoundsException -> Lb
+            int r1 = r3.f1495     // Catch: java.lang.ArrayIndexOutOfBoundsException -> Lb
+            int r2 = r1 + 1
+            r3.f1495 = r2     // Catch: java.lang.ArrayIndexOutOfBoundsException -> Lb
+            r1 = r0[r1]     // Catch: java.lang.ArrayIndexOutOfBoundsException -> Lb
+            return r1
+        Lb:
+            r0 = move-exception
+            int r1 = r3.f1495
+            int r1 = r1 + (-1)
+            r3.f1495 = r1
+            java.util.NoSuchElementException r1 = new java.util.NoSuchElementException
+            java.lang.String r0 = r0.getMessage()
+            r1.<init>(r0)
+            throw r1
+    }
+}
