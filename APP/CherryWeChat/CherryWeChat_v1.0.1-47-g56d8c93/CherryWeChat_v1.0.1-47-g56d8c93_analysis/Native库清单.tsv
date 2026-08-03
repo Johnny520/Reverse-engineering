@@ -1,0 +1,11 @@
+﻿库	字节数	说明
+libc++_shared.so	1292904	NDK C++ 运行时
+libcherry.so	103480	Cherry 原生实现；HookEntry 显式加载的 Native 库之一
+libcrypto.so	2132912	OpenSSL crypto 库
+libdecrepit.so	84984	OpenSSL 兼容组件
+libdexkit.so	290408	DexKit 运行时 Dex/符号检索库
+libluajit.so	752496	LuaJIT 运行时
+libpki.so	1176880	PKI/证书相关库
+libsentry-android.so	16832	Sentry Android 桥接库
+libsentry.so	704344	Sentry Native SDK
+libssl.so	829680	OpenSSL TLS 库

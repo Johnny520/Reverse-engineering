@@ -1,0 +1,11 @@
+package p000;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* JADX INFO: renamed from: Dm */
+/* JADX INFO: loaded from: classes.dex */
+@Retention(RetentionPolicy.RUNTIME)
+public @interface InterfaceC0158Dm {
+    String[] names();
+}

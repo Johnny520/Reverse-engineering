@@ -1,0 +1,25 @@
+package p000;
+
+import android.view.animation.Interpolator;
+
+/* JADX INFO: renamed from: Tl */
+/* JADX INFO: loaded from: classes.dex */
+public final class InterpolatorC0844Tl implements Interpolator {
+
+    /* JADX INFO: renamed from: a */
+    public final /* synthetic */ int f2690a;
+
+    @Override // android.animation.TimeInterpolator
+    public final float getInterpolation(float f) {
+        switch (this.f2690a) {
+            case 0:
+                return f * f * f * f * f;
+            case 1:
+            case 2:
+            case 3:
+            default:
+                float f2 = f - 1.0f;
+                return (f2 * f2 * f2 * f2 * f2) + 1.0f;
+        }
+    }
+}

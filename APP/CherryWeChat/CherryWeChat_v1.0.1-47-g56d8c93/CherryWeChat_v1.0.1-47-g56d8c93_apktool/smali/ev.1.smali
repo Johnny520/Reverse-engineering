@@ -1,0 +1,46 @@
+.class public final Lev;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LrE;
+.implements Lkv;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/recyclerview/widget/RecyclerView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/recyclerview/widget/RecyclerView;)V
+    .locals 0
+
+    iput-object p1, p0, Lev;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(I)V
+    .locals 2
+
+    iget-object v0, p0, Lev;->a:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->dispatchChildDetached(Landroid/view/View;)V
+
+    invoke-virtual {v1}, Landroid/view/View;->clearAnimation()V
+
+    :cond_0
+    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->removeViewAt(I)V
+
+    return-void
+.end method

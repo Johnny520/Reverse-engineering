@@ -1,0 +1,29 @@
+package p000;
+
+/* JADX INFO: renamed from: Ls */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0508Ls extends AbstractC0233Fb {
+
+    /* JADX INFO: renamed from: d */
+    public /* synthetic */ Object f1662d;
+
+    /* JADX INFO: renamed from: e */
+    public final /* synthetic */ C0594Ns f1663e;
+
+    /* JADX INFO: renamed from: f */
+    public int f1664f;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C0508Ls(C0594Ns c0594Ns, AbstractC0233Fb abstractC0233Fb) {
+        super(abstractC0233Fb);
+        this.f1663e = c0594Ns;
+    }
+
+    @Override // p000.AbstractC2571u5
+    /* JADX INFO: renamed from: i */
+    public final Object mo448i(Object obj) {
+        this.f1662d = obj;
+        this.f1664f |= Integer.MIN_VALUE;
+        return this.f1663e.m1169b(null, null, 0L, null, this);
+    }
+}

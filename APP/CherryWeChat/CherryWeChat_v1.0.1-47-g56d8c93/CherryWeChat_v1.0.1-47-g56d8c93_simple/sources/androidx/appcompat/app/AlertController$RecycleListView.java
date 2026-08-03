@@ -1,0 +1,24 @@
+package androidx.appcompat.app;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.util.AttributeSet;
+import android.widget.ListView;
+import p000.AbstractC0982Wu;
+
+/* JADX INFO: loaded from: classes.dex */
+public class AlertController$RecycleListView extends ListView {
+
+    /* JADX INFO: renamed from: a */
+    public final int f3684a;
+
+    /* JADX INFO: renamed from: b */
+    public final int f3685b;
+
+    public AlertController$RecycleListView(Context r2, AttributeSet r3) {
+        super(r2, r3);
+        TypedArray r22 = r2.obtainStyledAttributes(r3, AbstractC0982Wu.f3085t);
+        this.f3685b = r22.getDimensionPixelOffset(0, -1);
+        this.f3684a = r22.getDimensionPixelOffset(1, -1);
+    }
+}

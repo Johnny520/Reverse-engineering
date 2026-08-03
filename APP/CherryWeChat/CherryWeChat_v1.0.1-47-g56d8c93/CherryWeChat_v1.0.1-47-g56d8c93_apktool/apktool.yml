@@ -1,0 +1,20 @@
+version: 3.0.2
+apkFileName: CherryWeChat_v1.0.1-47-g56d8c93.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 10724
+  versionName: v1.0.1-47-g56d8c93
+resourcesInfo:
+  packageId: 85
+doNotCompress:
+- arsc
+- dex
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
