@@ -277,11 +277,16 @@
 | `DY Helper_1.4.15-restored-sources/` | 可读源码副本 |
 | `DY Helper_1.4.15-urls.tsv` | 提取的 URL 清单 |
 | `DY Helper_1.4.15-解密说明.md` | 解包与云端分析说明 |
+| `DY Helper_1.4.15-云端捐赠信息调用逻辑.md` | 云端捐赠/Beta 名单调用逻辑分析 |
+| `DY Helper_1.4.15-破解云端.md` | 云端授权机制信任模型与攻击面分析 |
+| `DY Helper_1.4.15-云端查询工具使用说明.md` + `query_beta_users.py` | Beta 名单查询工具（作者 GitHub 云端 `beta_users.json`，约 628 用户） |
+| `beta_users_cache.json` | 云端 Beta 名单缓存 |
 
 **分析结论**
 - 黑名单与更新服务托管于 GitHub Raw（`yyhh73144-max/dyhelperUser` 的 `blacklist_users.json` / `update.json`），Java 与 native 两套黑名单交叉校验；
 - 大量业务接口为抖音/头条体系（`aweme.snssdk.com`、`vassets-backend.douyin.com`、`stark-gate.zijieapi.com` 等），对应农场、宠物、社交宠物与任务功能，参数与签名来自被 Hook 的抖音客户端；
-- Beta 申请载荷与会话由 native 层生成（AES/CBC/PKCS5Padding、URL-safe Base64），并有运行环境完整性检查 `nativeIsRuntimeTrusted()`。
+- Beta 申请载荷与会话由 native 层生成（AES/CBC/PKCS5Padding、URL-safe Base64），并有运行环境完整性检查 `nativeIsRuntimeTrusted()`；
+- 授权体系为「服务端名单 + native 校验」模型：名单托管于 GitHub Raw，`libdy_protect.so` 负责验签/过期检查/名单匹配，通过后下发 `opaque_ticket` 本地缓存。
 
 ---
 
@@ -344,10 +349,14 @@
 | `XHS_260731175346-解密说明.md` / `-云端与长连接分析.md` | 解密与云端分析 |
 | `XHS_260731175346-urls.tsv` / `-unresolved-m1313.tsv` | URL 与未解析调用清单 |
 | `restore-xhs.ps1` | 恢复脚本 |
+| `XHS_260731175346-云端信息调用逻辑.md` | 小红书云端信息调用逻辑分析 |
+| `XHS_260731175346-破解云端.md` | 云端限制（撤回/媒体保护）绕过机制分析 |
+| `XHS_260731175346-云端查询工具使用说明.md` + `query_xhs_user.py` | 小红书用户云端公开数据查询工具（网页版 `__INITIAL_STATE__`） |
 
 **分析结论**
 - 字符串池解码器为 `xhss.AbstractC0775.m1313(long)`（底层 `AbstractC0561.m1006`），恢复副本已回填 1444 处可静态解析调用并移除解码器实现；
-- 确认加密原语：PBKDF2WithHmacSHA256、GZIP、AES/CBC/PKCS5Padding；密文还与派生密钥 XOR、字节反转并输出无填充 Base64。
+- 确认加密原语：PBKDF2WithHmacSHA256、GZIP、AES/CBC/PKCS5Padding；密文还与派生密钥 XOR、字节反转并输出无填充 Base64；
+- 云端绕过机制：不信任小红书云端、无自建服务器，而是在长连接进程 Hook `getServerRevokeMsg` 实现防撤回，并篡改 `note.mediaSaveConfig` 解锁保存/去水印，核心逻辑在 `libnative.so`。
 
 ---
 
@@ -364,11 +373,15 @@
 | `挖红薯呀3.0_3.0.1-apktool-full/` | apktool 全量解包 |
 | `restored-sources/` / `decrypted-sources/` | 明文源码副本（动态字符串已回填） |
 | `挖红薯呀3.0_3.0.1-解密说明.md` | 静态解密说明 |
+| `云端接口调用逻辑.md` | 云端接口调用逻辑分析 |
+| `破解云端-授权验证分析.md` | 激活码授权验证协议（`verify.php`）与 HMAC 签名还原 |
+| `云端数据获取工具使用说明.md` + `get_user_cloud_data.py` | 云端授权数据查询工具（复现客户端验签请求） |
 
 **分析结论**
 - 动态字符串为四字节循环 XOR（KEY = `[75, 120, 112, 49]`），已还原 254 处；
 - 云端鉴权集中在 `anjao2024.top`：`auth_public/verify.php`、`auth/verify.php`（密钥验证）与 `auth_notice/version_check.php`（版本检查），请求/响应均带 HMAC-SHA256 签名，响应签名校验失败返回 `sign_verify_failed`；
-- 内置两套固定签名密钥（`WHS-X-` / `WHS-Y-` 前缀）与本地许可证缓存（`xp1_license` SharedPreferences）。
+- 内置两套固定签名密钥（`WHS-X-` / `WHS-Y-` 前缀）与本地许可证缓存（`xp1_license` SharedPreferences）；
+- 授权是否有效由服务器 `code==200` 判定；HMAC 密钥为对称且硬编码于 APK（`n90.java`），签名算法可完整还原，工具脚本可离线构造请求签名并二次验签响应。
 
 ---
 
@@ -386,11 +399,16 @@
 | `Ｋｅｖｉｎ_072101-restored-sources/` | 可读源码副本 |
 | `Ｋｅｖｉｎ_072101-urls.tsv` | URL 清单 |
 | `Ｋｅｖｉｎ_072101-解密说明.md` / `-云端与加密分析.md` | 解密与云端分析 |
+| `kevin-decode-report.tsv` | 解码报告 |
+| `Ｋｅｖｉｎ_072101-云端用户信息调用逻辑.md` | 云端用户信息调用逻辑分析 |
+| `Ｋｅｖｉｎ_072101-破解云端.md` | 云端验证机制（Cloudflare Workers 激活 + VIP 白名单）解构 |
+| `kevin_cloud_query.py` + `kevin_cloud_query_使用说明.md` | VIP 白名单查询工具（`vip_list.json`） |
 
 **分析结论**
 - 模块按目标宿主分发 Hook：`DYHook`（抖音）、`XhsHook`（小红书）、`KSHook`（快手）、`PPHook`（PixelLab），并含 TikTok 作用域；
 - 内置下载管理器（`DownloadManager`）与 WebDAV 备份/恢复（`WebDAVConfig` / `WebDAVDialog`）功能；
-- 源码混淆为控制流平坦化 + 短数组 XOR 字符串池，`hook/audio/C1117.java` 为短数组 XOR 恢复函数。
+- 源码混淆为控制流平坦化 + 短数组 XOR 字符串池，`hook/audio/C1117.java` 为短数组 XOR 恢复函数；
+- 云端验证：激活验证走 Cloudflare Workers（`tg-verify-api.kevin0529422.workers.dev/activate`），VIP 白名单为自建域名静态 `vip_list.json`，激活有效性由服务端判定，客户端仅缓存展示层状态。
 
 ---
 
