@@ -1,0 +1,63 @@
+package a;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class G5 {
+
+    public static class a {
+        public static void a(android.widget.EdgeEffect r0, float r1, float r2) {
+                r0.onPull(r1, r2)
+                return
+        }
+    }
+
+    public static class b {
+        public static android.widget.EdgeEffect a(android.content.Context r1, android.util.AttributeSet r2) {
+                android.widget.EdgeEffect r0 = new android.widget.EdgeEffect     // Catch: java.lang.Throwable -> L6
+                r0.<init>(r1, r2)     // Catch: java.lang.Throwable -> L6
+                return r0
+            L6:
+                android.widget.EdgeEffect r2 = new android.widget.EdgeEffect
+                r2.<init>(r1)
+                return r2
+        }
+
+        public static float b(android.widget.EdgeEffect r0) {
+                float r0 = r0.getDistance()     // Catch: java.lang.Throwable -> L5
+                return r0
+            L5:
+                r0 = 0
+                return r0
+        }
+
+        public static float c(android.widget.EdgeEffect r0, float r1, float r2) {
+                float r0 = r0.onPullDistance(r1, r2)     // Catch: java.lang.Throwable -> L5
+                return r0
+            L5:
+                r0.onPull(r1, r2)
+                r0 = 0
+                return r0
+        }
+    }
+
+    public static float a(android.widget.EdgeEffect r2) {
+            int r0 = android.os.Build.VERSION.SDK_INT
+            r1 = 31
+            if (r0 < r1) goto Lb
+            float r2 = a.G5.b.b(r2)
+            return r2
+        Lb:
+            r2 = 0
+            return r2
+    }
+
+    public static float b(android.widget.EdgeEffect r2, float r3, float r4) {
+            int r0 = android.os.Build.VERSION.SDK_INT
+            r1 = 31
+            if (r0 < r1) goto Lb
+            float r2 = a.G5.b.c(r2, r3, r4)
+            return r2
+        Lb:
+            a.G5.a.a(r2, r3, r4)
+            return r3
+    }
+}

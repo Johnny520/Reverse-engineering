@@ -1,0 +1,20 @@
+version: 3.0.2
+apkFileName: FloatingClouds-3.1.5-release.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 316
+  versionName: 3.1.5
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

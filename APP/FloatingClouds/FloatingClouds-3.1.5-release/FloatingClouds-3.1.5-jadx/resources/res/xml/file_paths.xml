@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="fc_logs"
+        path="fc_logs/"/>
+    <external-path
+        name="fc_logs_ext"
+        path="fc_logs/"/>
+    <external-path
+        name="all_ext"
+        path="."/>
+</paths>

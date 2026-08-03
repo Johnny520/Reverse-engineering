@@ -1,0 +1,42 @@
+package p000a;
+
+/* JADX INFO: renamed from: a.k9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0669k9 extends AbstractC0493b4 {
+
+    /* JADX INFO: renamed from: d */
+    public int f2499d;
+
+    /* JADX INFO: renamed from: e */
+    public final /* synthetic */ InterfaceC0136H7 f2500e;
+
+    /* JADX INFO: renamed from: f */
+    public final /* synthetic */ InterfaceC0474a4 f2501f;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C0669k9(InterfaceC0474a4 interfaceC0474a4, InterfaceC0911x4 interfaceC0911x4, InterfaceC0136H7 interfaceC0136H7, InterfaceC0474a4 interfaceC0474a42) {
+        super(interfaceC0474a4, interfaceC0911x4);
+        this.f2500e = interfaceC0136H7;
+        this.f2501f = interfaceC0474a42;
+    }
+
+    @Override // p000a.AbstractC0399W1
+    /* JADX INFO: renamed from: h */
+    public final Object mo148h(Object obj) throws Throwable {
+        int i = this.f2499d;
+        if (i != 0) {
+            if (i != 1) {
+                throw new IllegalStateException("This coroutine had already completed");
+            }
+            this.f2499d = 2;
+            C0920xd.m2207b(obj);
+            return obj;
+        }
+        this.f2499d = 1;
+        C0920xd.m2207b(obj);
+        InterfaceC0136H7 interfaceC0136H7 = this.f2500e;
+        C0631i9.m1480c(interfaceC0136H7, "null cannot be cast to non-null type kotlin.Function2<R of kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted, kotlin.coroutines.Continuation<T of kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted>, kotlin.Any?>");
+        C0198Kf.m548a(interfaceC0136H7);
+        return interfaceC0136H7.mo146e(this.f2501f, this);
+    }
+}
