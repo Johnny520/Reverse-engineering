@@ -1,0 +1,6 @@
+id=funbox
+name=FunBox For Zygisk
+version=v2162
+versionCode=2162
+author=Hicore
+description=表情包、语音包模块，请通过WebUI或Action选择作用域

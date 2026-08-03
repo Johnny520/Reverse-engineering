@@ -1,0 +1,43 @@
+package p005f;
+
+import p004e.AbstractC0033j;
+import p004e.AbstractC0039p;
+import p013n.C0202d;
+
+/* JADX INFO: renamed from: f.A */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0050A extends AbstractC0039p {
+
+    /* JADX INFO: renamed from: a */
+    public static final C0050A f279a = new C0050A();
+
+    @Override // p004e.AbstractC0039p
+    /* JADX INFO: renamed from: d */
+    public final int mo176d() {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // p004e.AbstractC0039p
+    /* JADX INFO: renamed from: g */
+    public final String mo178g(AbstractC0033j abstractC0033j) {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // p004e.AbstractC0039p
+    /* JADX INFO: renamed from: h */
+    public final String mo179h(AbstractC0033j abstractC0033j) {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // p004e.AbstractC0039p
+    /* JADX INFO: renamed from: i */
+    public final boolean mo180i(AbstractC0033j abstractC0033j) {
+        return true;
+    }
+
+    @Override // p004e.AbstractC0039p
+    /* JADX INFO: renamed from: u */
+    public final void mo181u(C0202d c0202d, AbstractC0033j abstractC0033j) {
+        throw new RuntimeException("unsupported");
+    }
+}

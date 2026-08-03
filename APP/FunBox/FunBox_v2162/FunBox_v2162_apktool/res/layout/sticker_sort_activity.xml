@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/global_color_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:paddingStart="8.0dp" android:paddingEnd="16.0dp">
+            <ImageView android:id="@id/btn_back" android:background="?android:selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/sticker_panel_icon_back" android:contentDescription="@null" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp">
+                <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/global_color_font" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="排序表情" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/global_color_desc" android:ellipsize="end" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="13.0sp" android:textColor="#ff3d7eff" android:id="@id/tv_selected_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#11000000" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:padding="6.0dp" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|bottom" android:orientation="horizontal" android:id="@id/toolbar" android:background="@drawable/sticker_sort_toolbar_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="56.0dp" android:layout_marginBottom="92.0dp" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" android:layout_marginEnd="20.0dp" android:elevation="8.0dp">
+        <ImageView android:id="@id/btn_select_all" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/sticker_sort_ic_select_all" android:contentDescription="@null" />
+        <ImageView android:id="@id/btn_undo" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/sticker_sort_ic_undo" android:contentDescription="@null" />
+        <ImageView android:id="@id/btn_redo" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/sticker_sort_ic_redo" android:contentDescription="@null" />
+        <ImageView android:id="@id/btn_delete" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/global_icon_delete" android:contentDescription="@null" />
+        <View android:background="#1f000000" android:layout_width="1.0dp" android:layout_height="24.0dp" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_save" android:background="@drawable/sticker_sort_save_bg" android:layout_width="wrap_content" android:layout_height="40.0dp" android:paddingStart="14.0dp" android:paddingEnd="16.0dp">
+            <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/sticker_sort_ic_save" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存" android:layout_marginStart="6.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/fab" android:background="@drawable/sticker_sort_fab_bg" android:padding="15.0dp" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_marginBottom="20.0dp" android:src="@drawable/sticker_sort_ic_tune" android:contentDescription="@null" android:layout_marginEnd="20.0dp" android:elevation="6.0dp" />
+</FrameLayout>

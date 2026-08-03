@@ -1,0 +1,47 @@
+package fun.box001.internal.dexformat.util;
+
+import fun.box001.internal.dexformat.AbstractC0033j;
+import fun.box001.internal.dexformat.AbstractC0039p;
+import fun.box001.internal.dexformat.output.C0202d;
+
+/* JADX INFO: renamed from: f.A */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0050A extends AbstractC0039p {
+
+    /* JADX INFO: renamed from: a */
+    public static final C0050A f279a = null;
+
+    static {
+        f279a = new C0050A();
+    }
+
+    @Override // fun.box001.internal.dexformat.AbstractC0039p
+    /* JADX INFO: renamed from: d */
+    public final int mo176d() {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // fun.box001.internal.dexformat.AbstractC0039p
+    /* JADX INFO: renamed from: g */
+    public final String mo178g(AbstractC0033j r2) {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // fun.box001.internal.dexformat.AbstractC0039p
+    /* JADX INFO: renamed from: h */
+    public final String mo179h(AbstractC0033j r2) {
+        throw new RuntimeException("unsupported");
+    }
+
+    @Override // fun.box001.internal.dexformat.AbstractC0039p
+    /* JADX INFO: renamed from: i */
+    public final boolean mo180i(AbstractC0033j r1) {
+        return true;
+    }
+
+    @Override // fun.box001.internal.dexformat.AbstractC0039p
+    /* JADX INFO: renamed from: u */
+    public final void mo181u(C0202d r1, AbstractC0033j r2) {
+        throw new RuntimeException("unsupported");
+    }
+}

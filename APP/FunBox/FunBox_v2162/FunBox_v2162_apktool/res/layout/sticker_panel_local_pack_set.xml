@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="表情包命名" />
+    <EditText android:gravity="center" android:id="@id/sticker_pack_name" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="表情包外显" />
+    <EditText android:gravity="center" android:id="@id/sticker_out_show" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <CheckBox android:gravity="center" android:id="@id/sticker_in_recent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="表情发送进入最近列表" />
+    <CheckBox android:gravity="center" android:id="@id/sticker_random_show" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="随机展示表情顺序(仅影响显示)" />
+</LinearLayout>

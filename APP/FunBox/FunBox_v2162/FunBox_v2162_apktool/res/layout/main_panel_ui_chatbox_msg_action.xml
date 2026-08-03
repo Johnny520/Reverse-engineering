@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/sw_enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="启用复读按钮" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <TextView android:textColor="@color/global_color_desc" android:id="@id/tv_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="在 QQ 群聊消息气泡角落显示复读按钮，可单独自定义按钮图标。" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="按钮图标" />
+            <ImageView android:id="@id/iv_icon_preview" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:padding="6.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="8.0dp" android:src="@drawable/chatbox_item_def_icon" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dp" android:text="选择图标" android:textAllCaps="false" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+            <Button android:id="@id/btn_reset_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:text="恢复默认" android:textAllCaps="false" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

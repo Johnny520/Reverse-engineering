@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/tv_title" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="搜索表情" />
+    <EditText android:id="@id/ed_keyword" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="输入关键词" android:layout_toLeftOf="@id/iv_settings" android:layout_toRightOf="@id/tv_title" android:imeOptions="actionSearch" />
+    <ImageView android:id="@id/iv_settings" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/main_ui_icon_set" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:foreground="@drawable/design_ui_ripple">
+    <CheckBox
+        android:textSize="16sp"
+        android:textColor="@color/global_color_font"
+        android:gravity="center"
+        android:id="@+id/cb_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="内容"
+        android:textDirection="ltr"
+        android:layoutDirection="rtl"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+</LinearLayout>

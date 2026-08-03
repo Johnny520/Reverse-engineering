@@ -1,0 +1,19 @@
+﻿对象	语义名称	职责
+fun.box001.loader.XPEntry	Xposed/LSPosed/LSPatch 入口	assets/xposed_init 指向；识别运行环境、准备模块路径、进入 FunLoader
+fun.box001.loader.ZygiskEntry	Zygisk Java 入口	加载 libshooker.so，Hook LoadedApk.createAppFactory 后进入核心加载链
+fun.box001.loader.ZygiskAppFactoryCallback	Zygisk AppFactory 回调	由 SHooker Hook 后接收 ApplicationInfo 与 ClassLoader
+fun.box001.loader.FunLoader	原生核心加载器 JNI 声明	load() 由 libloader.so 实现；Java 层只保留 JNI 声明
+fun.box001.loader.utils.FileUtils	文件/ZIP 工具	复制、递归删除、MD5、写入临时库、读取 ZIP Entry
+fun.box001.shared.Env	运行时全局环境	保存包名、进程名、数据目录、模块路径、ClassLoader 与加载类型
+fun.box001.shared.hook.XHooker	Hook 后端抽象入口	按 Xposed 或 SHooker 后端选择实现
+com.shooker.SHooker	ART Hook JNI 封装	初始化、替换方法、反优化、受信任 ClassLoader/DexFile 等接口
+fun.box001.internal.dexbridge.RuntimeDexGenerator	DexBridge/运行时 Dex 工具	模块路径和动态加载准备逻辑；来自原 a.b
+fun.box001.internal.dexmaker	DexMaker 组件	动态生成 Dex 的辅助类；原 c 包
+fun.box001.internal.dexformat	Dex 格式组件	Dex 编码、常量、指令、类型项等辅助代码；原 e-n 包
+fun.box001.internal.hookbackend.xposed.XposedHookBackend	Xposed Hook 后端	XPEntry 中设置为当前 Hook 实现
+fun.box001.internal.hookbackend.xposed.SHookerHookBackend	SHooker Hook 后端	ZygiskEntry 中设置为当前 Hook 实现
+libloader.so	原生装载链	包含 FunBox-String-v2 字符串并承接 FunLoader.load()
+libfun.so	原生功能逻辑	含 FunBox req3 AEAD/salt/key 字符串与 DexKit/ART 类加载器相关符号
+libfvm.so	原生 VM/核心逻辑	约 5.4 MiB；导出大量 x.*、y.* 符号
+libshooker.so	ART Hook 实现	导出 Java_com_shooker_SHooker__1init、_replace、_deoptimize 等 JNI 接口
+libmaphider.so	内存映射隐藏辅助	导出 my_hide

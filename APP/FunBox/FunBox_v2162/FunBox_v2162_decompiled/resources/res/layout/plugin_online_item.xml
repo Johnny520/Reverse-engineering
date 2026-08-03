@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/plugin_item_bg"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/global_color_font"
+        android:gravity="left"
+        android:id="@+id/tv_title"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="脚本名称"/>
+    <TextView
+        android:textColor="@color/global_color_desc"
+        android:gravity="left"
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="类型:"/>
+    <TextView
+        android:textColor="@color/global_color_desc"
+        android:gravity="left"
+        android:id="@+id/tv_extra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="作者: 版本:"/>
+    <LinearLayout
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp">
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/global_color_desc"
+            android:id="@+id/tv_upload_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传时间: -"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/global_color_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  |  "/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/global_color_desc"
+            android:id="@+id/tv_download_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载次数: 0"/>
+    </LinearLayout>
+</LinearLayout>

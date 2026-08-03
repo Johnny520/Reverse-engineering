@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/sw_enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="启用表情面板" />
+    <TextView android:textColor="@color/global_color_desc" android:gravity="center_horizontal" android:id="@id/tv_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="@string/sticker_panel_desc" />
+</LinearLayout>

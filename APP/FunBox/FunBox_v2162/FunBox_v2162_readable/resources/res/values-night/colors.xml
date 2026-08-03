@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aabase_title">#70fcee</color>
+    <color name="aabconfirm_btn">#c1f8fe</color>
+    <color name="aabk">#ffff</color>
+    <color name="ai_action_text">#8fb2ff</color>
+    <color name="ai_card_background">#141c2a</color>
+    <color name="ai_card_stroke">#34598a</color>
+    <color name="ai_chip_background">#22385c</color>
+    <color name="ai_chip_stroke">#4e73b9</color>
+    <color name="ai_chip_text">#afc6ff</color>
+    <color name="ai_danger_text">#ff9b9b</color>
+    <color name="ai_input_background">#0f1725</color>
+    <color name="ai_input_hint">#7e90b4</color>
+    <color name="ai_input_stroke">#334d79</color>
+    <color name="ai_input_text">#f4f7ff</color>
+    <color name="ai_primary_gradient_end">#8672ff</color>
+    <color name="ai_primary_gradient_start">#5f8cff</color>
+    <color name="ai_secondary_text">#9aa8c0</color>
+    <color name="dy_background_color">#242424</color>
+    <color name="fun_checkbox_checked">#c1f8fe</color>
+    <color name="fun_checkbox_disabled">#66ffffff</color>
+    <color name="fun_checkbox_unchecked">#a0a0a0</color>
+    <color name="global_color_background">#ff000000</color>
+    <color name="global_color_desc">#77ff7e</color>
+    <color name="global_color_font">#ffffffff</color>
+    <color name="plugin_item_border">#44ffffff</color>
+    <color name="wx_background_color">#191919</color>
+</resources>

@@ -1,0 +1,17 @@
+version: 3.0.2
+apkFileName: FunBox_v2162.Apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 2162
+  versionName: v2162
+resourcesInfo:
+  packageId: 51
+doNotCompress:
+- arsc
+- png
+- webp

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/container_header" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp">
+            <RelativeLayout android:id="@id/container_title" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="50.0dp" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/container_toolbar" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" android:elevation="6.0dp" />
+        <RelativeLayout android:id="@id/container_select" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="50.0dp" android:layout_height="match_parent" android:layout_marginBottom="5.0dp" android:layout_below="@id/container_header" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" />
+        <RelativeLayout android:id="@id/container_main" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp" android:layout_toRightOf="@id/container_select" android:layout_below="@id/container_header" />
+    </RelativeLayout>
+</RelativeLayout>

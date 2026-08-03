@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/sw_reply_with_image_enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="启用回复带图/图文消息" />
+    <Switch android:id="@id/sw_open_emoji_by_pic_enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="总是以图片消息打开表情" />
+    <Switch android:id="@id/sw_upload_transparent_head_enable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:text="半透明头像上传（需重启App）" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/panel_custom_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10.0dp">
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="图片外显" />
+        <EditText android:id="@id/ed_custom_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@id/btn_custom_title_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="配置图片外显" />
+    <Button android:id="@id/btn_upload_apng_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:text="替换上传apng动态头像(覆盖层)" />
+</LinearLayout>

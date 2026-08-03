@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/sticker_out_show_set_use_global" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用全局设置" />
+    <EditText android:id="@id/sticker_out_show_set_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="输入外显的文字" />
+</LinearLayout>

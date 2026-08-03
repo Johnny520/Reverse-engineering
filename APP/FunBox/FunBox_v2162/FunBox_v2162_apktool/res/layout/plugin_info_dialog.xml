@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:id="@id/tv_desc" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60.0dp" />
+    <View android:background="@color/global_color_font" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.15" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/btn_stop" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="终止脚本" />
+        <View android:background="@color/global_color_font" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.1" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff4444" android:gravity="center" android:id="@id/btn_delete" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="删除脚本" />
+        <View android:background="@color/global_color_font" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.1" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/btn_share" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="分享脚本" />
+        <View android:background="@color/global_color_font" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.1" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/btn_edit" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="编辑信息" />
+    </LinearLayout>
+</LinearLayout>

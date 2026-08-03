@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/global_color_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/base_info" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="80.0dp" android:layout_toStartOf="@id/btn_invoke_source">
+        <ImageView android:id="@id/iv_avatar" android:layout_width="60.0dp" android:layout_height="60.0dp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:ellipsize="marquee" android:id="@id/tv_uin" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QQ号:484887952[Dadaonanxun]" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/iv_avatar" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:ellipsize="marquee" android:id="@id/tv_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="昵称:小明[资料名:xxxxxx]" android:scrollHorizontally="true" android:singleLine="true" android:layout_below="@id/tv_uin" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/iv_avatar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/btn_invoke_source" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_invoke_source_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/fastmenu_icon_right_btn" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="调用原功能" android:layout_below="@id/iv_invoke_source_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#229966" android:gravity="center_horizontal" android:id="@id/tv_user_mark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="用户标记" android:layout_below="@id/base_info" android:layout_marginStart="10.0dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#f0f0f0" android:layout_below="@id/tv_user_mark" android:showDividers="middle">
+        <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="2.0dp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="操作区" />
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_margin="4.0dp">
+            <LinearLayout android:orientation="horizontal" android:id="@id/panel_operator_area" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        </HorizontalScrollView>
+        <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="2.0dp" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="行为日志" />
+        <View android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="2.0dp" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/panel_oplog" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

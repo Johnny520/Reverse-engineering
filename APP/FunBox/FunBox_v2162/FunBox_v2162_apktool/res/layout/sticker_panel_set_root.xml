@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_show_at_right" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="右侧显示表情包列表" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_auto_close" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="发送图片后自动关闭面板" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_send_by_emoji" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="以表情方式发送表情面板图片" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_custom_title" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="使用自定义标题作为外显" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_group_float_icon_setting" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前悬浮图标" />
+                    <ImageView android:id="@id/iv_group_float_icon" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:padding="6.0dp" android:layout_width="52.0dp" android:layout_height="52.0dp" android:layout_marginTop="8.0dp" android:src="@drawable/chatbox_item_def_icon" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/btn_change_group_float_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dp" android:text="选择图标" android:textAllCaps="false" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                    <Button android:id="@id/btn_reset_group_float_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:minWidth="0.0dp" android:text="恢复默认" android:textAllCaps="false" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_show_recent_usage_badge" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="最近使用显示发送次数角标" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_show_local_usage_badge" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="本地表情显示发送次数角标" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_online_not_recent" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="在线表情发送时不加入最近列表" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_recent" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏最近列表" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_shared_tab" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏在线表情页" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_search_tab" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏搜索在线表情页" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_local_search_tab" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏搜索本地表情页" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_input_tab" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏表情包导入页" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:id="@id/view_hide_ai_draw_divider" android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_hide_ai_draw_tab" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="隐藏 AI 分类" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <Switch android:textColor="@color/global_color_font" android:id="@id/sw_tab_two_columns" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="表情包列表以两列显示" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" />
+            <View android:background="#20808080" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+                <TextView android:textSize="15.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="表情显示列数：" />
+                <SeekBar android:id="@id/sb_col_count" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="9" android:layout_weight="1.0" android:min="0" />
+                <TextView android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/tv_col_count" android:layout_width="32.0dp" android:layout_height="wrap_content" android:text="5" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btn_sort" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="排序表情包列表" android:layout_weight="1.0" android:layout_marginEnd="5.0dp" />
+                <Button android:id="@id/btn_clear_cache" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="清除缩略图缓存" android:layout_weight="1.0" android:layout_marginStart="5.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

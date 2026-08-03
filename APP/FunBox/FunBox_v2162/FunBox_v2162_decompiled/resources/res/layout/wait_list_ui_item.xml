@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/global_color_font"
+        android:gravity="center_horizontal"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务:打死南浔(9/99)"/>
+    <TextView
+        android:textColor="@color/global_color_desc"
+        android:gravity="center_horizontal"
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:text="当前处理速度:123张/分钟"/>
+    <ProgressBar
+        android:id="@+id/pg"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="9dp"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+</LinearLayout>

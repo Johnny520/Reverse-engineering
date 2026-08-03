@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:id="@id/desc" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="01/01 00:00:00 被管理禁言" />
+    <TextView android:textSize="12.0sp" android:textColor="#888888" android:id="@id/operator" android:padding="3.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OP: 1071791(帅气的豆子)   Extra: 8天" android:layout_below="@id/desc" />
+    <View android:background="#999999" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_below="@id/operator" />
+</RelativeLayout>

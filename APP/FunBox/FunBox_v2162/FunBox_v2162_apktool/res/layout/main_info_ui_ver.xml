@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/design_ui_radius_bg_4" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/global_color_font" android:id="@id/core_ver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="模块版本:v354" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <TextView android:textColor="@color/global_color_font" android:id="@id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="宿主版本:9.9.9" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <TextView android:textColor="@color/global_color_font" android:id="@id/wx_hotpatch_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="热更版本(微信):" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <TextView android:textColor="@color/global_color_font" android:id="@id/load_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="加载方式" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <TextView android:textColor="@color/global_color_font" android:id="@id/server_ver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:text="服务器最新版本" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_update" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="更新到最新版本" android:layout_marginEnd="10.0dp" />
+    </LinearLayout>
+</LinearLayout>

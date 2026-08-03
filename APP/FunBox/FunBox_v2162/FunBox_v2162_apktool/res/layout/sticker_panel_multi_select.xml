@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/multi_edit_title" android:background="@color/global_color_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="表情包批量选择" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/btn_save" android:layout_below="@id/multi_edit_title">
+        <LinearLayout android:orientation="vertical" android:id="@id/multi_edit" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <Button android:id="@id/btn_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="保存" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

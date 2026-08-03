@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/redpacket_wx_advantage_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_fun_open" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="总开关" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="限制配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_fun_limit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="限制开关" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="领取延迟(毫秒):" />
+                <EditText android:id="@id/redpacket_wx_limit_delay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2000-3000" android:hint="例如: 2000-3000" android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="功能配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_auto_self" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取自己" />
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_auto_private" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取私聊" />
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_auto_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取群聊" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="14.0sp" android:id="@id/redpacket_wx_btn_private_whitegroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配置领取私聊" />
+                <Button android:textSize="14.0sp" android:id="@id/redpacket_wx_btn_group_whitegroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配置领取群聊" />
+                <Button android:textSize="14.0sp" android:id="@id/redpacket_wx_btn_blackword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="红包屏蔽词" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="回复配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_auto_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取成功自动回复" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="回复内容:" />
+                <EditText android:textSize="14.0sp" android:id="@id/redpacket_wx_reply_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="已领取" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="其它配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/redpacket_wx_other_show_toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="操作后弹出提示" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="统计信息" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:id="@id/redpacket_wx_statistics_info" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="累计领取: 0个红包，共0.00元" />
+            <Button android:textSize="14.0sp" android:id="@id/redpacket_wx_btn_reset_statistics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重置统计" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

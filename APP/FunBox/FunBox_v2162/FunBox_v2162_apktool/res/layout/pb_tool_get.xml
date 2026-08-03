@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="12.0sp" android:gravity="center" android:id="@id/type_simple" android:layout_width="0.0dp" android:layout_height="wrap_content" android:checked="true" android:text="概要" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:gravity="center" android:id="@id/type_remote" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="远程" android:layout_weight="1.0" />
+        <RadioButton android:textSize="12.0sp" android:gravity="center" android:id="@id/type_local" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="本地" android:layout_weight="1.0" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/remote_sub_area" android:paddingTop="2.0dp" android:paddingBottom="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textSize="12.0sp" android:id="@id/remote_sub_full" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="完整" />
+            <RadioButton android:textSize="12.0sp" android:id="@id/remote_sub_elem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="元素" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@color/plugin_item_border" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginBottom="10.0dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0">
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <EditText android:textSize="13.0sp" android:textColor="@color/global_color_font" android:id="@id/result" android:background="@drawable/pb_result_bg" android:padding="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dp" android:fontFamily="monospace" />
+                <LinearLayout android:orientation="vertical" android:id="@id/remote_elem_cards" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="40.0dp" android:foreground="@drawable/design_ui_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="16.0sp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/cb_item" android:layout_width="match_parent" android:layout_height="40.0dp" android:text="内容" android:textDirection="ltr" android:layoutDirection="rtl" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+</LinearLayout>

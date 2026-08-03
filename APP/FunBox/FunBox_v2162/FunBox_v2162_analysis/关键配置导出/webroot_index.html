@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f6f7f9">
+    <title>FunBox 作用域</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="page">
+    <header class="topbar">
+        <div class="brand-mark" aria-hidden="true">F</div>
+        <div>
+            <h1>FunBox</h1>
+            <p>作用域管理</p>
+        </div>
+    </header>
+
+    <nav id="user-tabs" class="user-tabs" role="tablist" aria-label="用户" hidden></nav>
+
+    <section class="scope-section" aria-labelledby="scope-title">
+        <div class="section-heading">
+            <h2 id="scope-title">应用作用域</h2>
+            <span id="scope-count" class="scope-count">正在读取</span>
+        </div>
+
+        <div class="scope-list" id="scope-list" aria-busy="true">
+            <label class="scope-item" data-scope="qq">
+                <span class="app-icon app-icon-qq">
+                    <img src="ksu://icon/com.tencent.mobileqq" alt="" aria-hidden="true">
+                    <span aria-hidden="true">QQ</span>
+                </span>
+                <span class="app-details">
+                    <strong>QQ</strong>
+                    <small>com.tencent.mobileqq</small>
+                    <small class="scope-note" hidden>该用户未安装</small>
+                </span>
+                <span class="switch">
+                    <input type="checkbox" disabled aria-label="QQ 作用域">
+                    <span class="switch-track" aria-hidden="true"></span>
+                </span>
+            </label>
+
+            <label class="scope-item" data-scope="wx">
+                <span class="app-icon app-icon-wx">
+                    <img src="ksu://icon/com.tencent.mm" alt="" aria-hidden="true">
+                    <span aria-hidden="true">微</span>
+                </span>
+                <span class="app-details">
+                    <strong>微信</strong>
+                    <small>com.tencent.mm</small>
+                    <small class="scope-note" hidden>该用户未安装</small>
+                </span>
+                <span class="switch">
+                    <input type="checkbox" disabled aria-label="微信作用域">
+                    <span class="switch-track" aria-hidden="true"></span>
+                </span>
+            </label>
+
+            <label class="scope-item" data-scope="tim">
+                <span class="app-icon app-icon-tim">
+                    <img src="ksu://icon/com.tencent.tim" alt="" aria-hidden="true">
+                    <span aria-hidden="true">T</span>
+                </span>
+                <span class="app-details">
+                    <strong>TIM</strong>
+                    <small>com.tencent.tim</small>
+                    <small class="scope-note" hidden>该用户未安装</small>
+                </span>
+                <span class="switch">
+                    <input type="checkbox" disabled aria-label="TIM 作用域">
+                    <span class="switch-track" aria-hidden="true"></span>
+                </span>
+            </label>
+
+            <label class="scope-item" data-scope="dy">
+                <span class="app-icon app-icon-dy">
+                    <img src="ksu://icon/com.ss.android.ugc.aweme" alt="" aria-hidden="true">
+                    <span aria-hidden="true">抖</span>
+                </span>
+                <span class="app-details">
+                    <strong>抖音</strong>
+                    <small>com.ss.android.ugc.aweme</small>
+                    <small class="scope-note" hidden>该用户未安装</small>
+                </span>
+                <span class="switch">
+                    <input type="checkbox" disabled aria-label="抖音作用域">
+                    <span class="switch-track" aria-hidden="true"></span>
+                </span>
+            </label>
+        </div>
+
+        <div id="error-panel" class="error-panel" hidden>
+            <p id="error-message">读取作用域失败</p>
+            <button id="retry-button" type="button">重新加载</button>
+        </div>
+    </section>
+
+    <p class="restart-note">作用域变更将在对应应用下次启动时生效</p>
+    <div id="live-status" class="sr-only" role="status" aria-live="polite"></div>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

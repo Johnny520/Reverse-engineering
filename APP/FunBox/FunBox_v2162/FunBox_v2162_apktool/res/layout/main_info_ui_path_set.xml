@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="top" android:id="@id/path_editor" android:layout_width="match_parent" android:layout_height="150.0dp" android:singleLine="false" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#886555" android:id="@id/btn_private_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="私有路径" />
+        <TextView android:textColor="#886555" android:id="@id/btn_media_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="media路径" android:layout_marginStart="16.0sp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0sp">
+        <TextView android:textColor="#886555" android:id="@id/btn_content_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用通用存储框架选取目录" android:layout_marginStart="16.0sp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/aabase_title" android:id="@id/btn_save" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="4.0dp" android:text="保存修改" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/transfer_wx_advantage_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_fun_open" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="总开关" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="限制配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_fun_limit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="限制开关" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="领取延迟(毫秒):" />
+                <EditText android:id="@id/transfer_wx_limit_delay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="功能配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_auto_confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="大于金额时自动接收" />
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_auto_refuse" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="小于金额时自动退还" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最低金额(分):" />
+                <EditText android:textSize="14.0sp" android:id="@id/transfer_wx_min_fee" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="回复配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_confirm_auto_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="接收成功自动回复" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="回复内容:" />
+                <EditText android:textSize="14.0sp" android:id="@id/transfer_wx_confirm_reply_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="已接收" />
+            </LinearLayout>
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_refuse_auto_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="退还成功自动回复" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="回复内容:" />
+                <EditText android:textSize="14.0sp" android:id="@id/transfer_wx_refuse_reply_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="已退还" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/global_color_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="其它配置" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Switch android:textSize="14.0sp" android:id="@id/transfer_wx_other_show_toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="操作后弹出提示" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

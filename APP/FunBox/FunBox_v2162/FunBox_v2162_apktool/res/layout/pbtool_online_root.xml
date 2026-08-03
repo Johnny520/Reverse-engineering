@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="200.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="3.0">
+            <TextView android:textColor="@color/global_color_font" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="用户列表" />
+            <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/list_user" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/wx_background_color" android:showDividers="middle" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="7.0">
+            <TextView android:textColor="@color/global_color_font" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="预设列表" />
+            <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/list_preset" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/wx_background_color" android:showDividers="middle" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新增" />
+        <Button android:id="@id/btn_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="移除选中" />
+        <Button android:id="@id/btn_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保存修改" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_read_edit_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="读取发送框内容" />
+        <Button android:id="@id/btn_write_to_edit_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="写出到发送框" />
+    </LinearLayout>
+    <EditText android:textSize="12.0sp" android:gravity="top" android:id="@id/content_extra" android:layout_width="match_parent" android:layout_height="100.0dp" android:hint="元数据" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <EditText android:textSize="12.0sp" android:gravity="top" android:id="@id/content_box" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="内容" />
+    </ScrollView>
+</LinearLayout>

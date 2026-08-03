@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/add_open_menu" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="在长按红包添加打开红包" />
+    <LinearLayout android:orientation="vertical" android:id="@id/advantage_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Switch android:id="@id/global_auto_open" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动领取红包" />
+        <Switch android:id="@id/auto_open_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动领取普通/拼手气红包" />
+        <Switch android:id="@id/auto_open_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动领取口令红包" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@id/password_dont_send_key" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="不发口令领取口令红包(不保证成功)" />
+            <Switch android:id="@id/password_replace_keyword" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="替换领取口令红包时发送的口令" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="替换为:" />
+                <EditText android:id="@id/password_replace_keyword_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <Switch android:id="@id/auto_open_target" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动领取专属红包" />
+        <Switch android:id="@id/auto_open_voice" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动领取语音红包" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@id/voice_dynamic_delay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="语音红包以文字长度动态延迟领取" />
+            <Switch android:id="@id/voice_dont_send_voice" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取语音红包不发送语音" />
+            <Switch android:id="@id/voice_auto_revoke" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取语音红包后自动撤回语音" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_set_blackword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置红包屏蔽词" />
+            <Button android:id="@id/btn_set_whitegroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置群聊白名单" />
+        </LinearLayout>
+        <Switch android:id="@id/auto_open_limit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领取红包限制" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="平均每个红包小于(分)时不领取:" />
+                <EditText android:id="@id/auto_open_limit_count_min_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+            </LinearLayout>
+            <Switch android:id="@id/limit_ignore_admin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="群主/管理发的红包不领" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="领取红包延迟(毫秒):" />
+                <EditText android:id="@id/auto_open_limit_delay_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius2" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@id/notify_toast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领到红包后弹出Toast提示" />
+            <Switch android:id="@id/notify_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领到红包后以消息提示" />
+            <Switch android:id="@id/notify_auto_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="领到红包后自动回复" />
+            <Switch android:id="@id/notify_auto_log" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="记录所有收到的红包信息(白名单群聊)" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动回复内容\n(用:分割,每一条文本都有概率发出)\n回复内容写null则为不回复\n可使用重复内容调整概率" />
+                <EditText android:id="@id/notify_auto_reply_text_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="延迟回复时间(秒):" />
+                <EditText android:id="@id/notify_auto_reply_delay" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

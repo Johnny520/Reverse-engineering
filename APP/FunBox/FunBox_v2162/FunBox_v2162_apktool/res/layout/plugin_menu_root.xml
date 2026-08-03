@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/panel" android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="26.0sp" android:textColor="@color/global_color_font" android:gravity="center_horizontal" android:id="@id/title" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FunBox脚本菜单" />
+        <ScrollView android:background="@drawable/design_ui_radius_bg_4_little_no_transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_below="@id/title">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/global_color_font" android:showDividers="beginning|middle|end" android:dividerPadding="4.0dp" />
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

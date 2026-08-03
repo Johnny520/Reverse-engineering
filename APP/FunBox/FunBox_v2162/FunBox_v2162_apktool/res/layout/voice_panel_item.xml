@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="60.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/voice_panel_icon_music_file" android:layout_marginStart="10.0dp" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/global_color_font" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="60.0dp" android:text="语音文件标题" android:singleLine="true" android:layout_marginStart="10.0dp" android:layout_toStartOf="@id/iv_send" android:layout_toEndOf="@id/iv_icon" />
+    <ImageView android:id="@id/iv_send" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="10.0dp" android:src="@drawable/voice_panel_icon_send" android:layout_alignParentRight="true" android:contentDescription="发送语音" />
+</RelativeLayout>

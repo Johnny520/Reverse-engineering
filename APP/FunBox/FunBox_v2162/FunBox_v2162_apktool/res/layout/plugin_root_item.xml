@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/plugin_item_bg" android:padding="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="启用" />
+            <CheckBox android:id="@id/cb_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#5b01b5" android:id="@id/btn_open_settings" android:background="@drawable/text_underline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="打开设置" />
+    </LinearLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/global_color_font" android:gravity="left" android:id="@id/tv_title" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="原神TTS配音(fish-speech)" android:layout_toLeftOf="@id/layout_enable" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/layout_enable" android:layout_below="@id/tv_title">
+        <TextView android:textColor="@color/global_color_desc" android:gravity="left" android:id="@id/tv_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:text="类型:TTS文字转语音" android:layout_marginStart="10.0dp" />
+        <TextView android:textColor="@color/global_color_desc" android:gravity="left" android:id="@id/tv_extra" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dp" android:text="作者:Hicore  版本号：v1" android:layout_marginStart="10.0dp" />
+    </LinearLayout>
+</RelativeLayout>

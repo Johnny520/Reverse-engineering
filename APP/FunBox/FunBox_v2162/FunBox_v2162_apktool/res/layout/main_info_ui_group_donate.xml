@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/group_panel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textColor="@color/global_color_font" android:id="@id/base_info_join_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="加入交流群" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:gravity="center" android:id="@id/group_qq" android:background="@drawable/main_info_icon_qq" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:contentDescription="加入QQ群" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+            <View android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/group_telegram" android:background="@drawable/main_info_icon_telegram" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:contentDescription="加入Telegram群" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/donate_panel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="20.0sp" android:textColor="@color/global_color_font" android:id="@id/base_info_donate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="请作者喝奶茶" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:gravity="center" android:background="@drawable/main_info_icon_aifadian" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:contentDescription="爱发电捐赠" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

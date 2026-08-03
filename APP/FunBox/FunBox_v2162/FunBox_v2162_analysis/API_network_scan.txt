@@ -1,0 +1,4 @@
+扫描范围：可读 Java 源码与 WebUI 脚本
+关键词：retrofit, okhttpclient, request.builder, newcall(, baseurl, websocket, wss://, http://, https://
+
+未命中 Retrofit、OkHttpClient、Request.Builder、newCall、BaseUrl、WebSocket 或 HTTP(S) 业务请求构造。

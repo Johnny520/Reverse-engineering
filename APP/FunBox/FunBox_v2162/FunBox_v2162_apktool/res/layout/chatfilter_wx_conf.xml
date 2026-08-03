@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/global_color_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="300.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/design_shape_radius" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.8">
+            <ScrollView android:id="@id/group_scroll" android:layout_width="match_parent" android:layout_height="250.0dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/group_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@id/btn_add_group" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="添加分组" android:layout_weight="1.0" />
+                <Button android:id="@id/btn_del_group" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="删除选中" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="0.0dp" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/global_color_font" android:padding="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分组名称" />
+                <EditText android:id="@id/ed_group_name" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/global_color_font" android:padding="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分组图标(点击下面设置)" />
+                <ImageView android:id="@id/iv_avatar" android:layout_width="64.0dp" android:layout_height="64.0dp" />
+                <Button android:id="@id/btn_clear_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清除图标" />
+                <CheckBox android:id="@id/cb_group_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="启用分组" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/cb_group_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分组置顶" />
+                    <CheckBox android:id="@id/cb_group_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分组置底" />
+                </LinearLayout>
+                <CheckBox android:id="@id/cb_show_mute_unread_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="免打扰聊天显示角标" />
+                <CheckBox android:id="@id/cb_keep_chats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="保留聊天" />
+                <CheckBox android:id="@id/cb_block_message_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="阻止消息通知" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView android:textSize="16.0dp" android:textColor="@color/global_color_font" android:gravity="center_horizontal" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="管理分组内容" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/search_box" android:layout_width="120.0dp" android:layout_height="48.0dp" android:hint="搜索" android:singleLine="true" />
+        <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <RadioButton android:id="@id/cb_content_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="群组" android:layout_marginStart="48.0dp" />
+            <RadioButton android:id="@id/cb_content_friend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="好友" />
+            <RadioButton android:id="@id/cb_content_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="其他" />
+        </RadioGroup>
+        <TextView android:textSize="15.0dp" android:textColor="@color/global_color_font" android:gravity="center" android:id="@id/btn_select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全选" android:layout_centerInParent="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView android:background="@drawable/design_shape_radius" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/contact_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?android:dividerVertical" android:showDividers="middle" android:dividerPadding="8.0dp" />
+    </ScrollView>
+</LinearLayout>

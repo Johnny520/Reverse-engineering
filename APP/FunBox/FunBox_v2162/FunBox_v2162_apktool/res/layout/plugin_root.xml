@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="本地脚本" />
+        <Button android:id="@id/btn_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="创建新脚本" />
+        <Button android:id="@id/btn_online" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="在线脚本" />
+    </LinearLayout>
+    <TextView android:textColor="#007aff" android:gravity="center_horizontal" android:id="@id/btn_open_sdk" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="查看脚本sdk" />
+    <LinearLayout android:orientation="vertical" android:id="@id/btn_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
