@@ -1,0 +1,26 @@
+{
+  "pluginId": "p_25a015db1b0643edacc651943af5b50f",
+  "name": "批量退群工具",
+  "author": "蒸蚌+GLM",
+  "version": "1.1.1",
+  "versionId": "v_9c277d959cb941e18cec013e596f39cc",
+  "createdAt": "2026-08-02T16:33:19.460Z",
+  "description": "",
+  "downloadCount": 4,
+  "likeCount": 0,
+  "commentCount": 0,
+  "files": [
+    {
+      "name": "main.java",
+      "sha256": "910f72ec79a0d0fb3dd05fedba7109700e7449b543f2b917355da46529b980e2"
+    },
+    {
+      "name": "info.prop",
+      "sha256": "eec6580bdc181f5100173c42c0d2be0fe884abc08cd614f5740d5776161dab7a"
+    },
+    {
+      "name": "README.md",
+      "sha256": "15dc4c170a920f1274ee914450a8ef4c90933dd646fdb22c64ce6ea68022c7d8"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+package androidx.window.reflection;
+
+import androidx.window.extensions.core.util.function.Consumer;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public interface Consumer2<T> extends Consumer<T> {
+    void accept(T t9);
+}

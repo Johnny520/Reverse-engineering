@@ -1,0 +1,52 @@
+package wb;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public final class g5 implements androidx.compose.ui.input.pointer.PointerInputEventHandler {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ int f16303a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final /* synthetic */ fg.l f16304b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final /* synthetic */ wb.e5 f16305c;
+
+    public /* synthetic */ g5(fg.l r1, wb.e5 r2, int r3) {
+            r0 = this;
+            r0.f16303a = r3
+            r0.f16304b = r1
+            r0.f16305c = r2
+            r0.<init>()
+            return
+    }
+
+    @Override // androidx.compose.ui.input.pointer.PointerInputEventHandler
+    public final java.lang.Object invoke(s1.x r6, wf.c r7) {
+            r5 = this;
+            int r0 = r5.f16303a
+            switch(r0) {
+                case 0: goto L15;
+                default: goto L5;
+            }
+        L5:
+            wb.f5 r0 = new wb.f5
+            r1 = 0
+            r2 = 1
+            fg.l r3 = r5.f16304b
+            wb.e5 r4 = r5.f16305c
+            r0.<init>(r3, r4, r1, r2)
+            java.lang.Object r6 = a.a.n(r6, r0, r7)
+            return r6
+        L15:
+            wb.f5 r0 = new wb.f5
+            r1 = 0
+            r2 = 0
+            fg.l r3 = r5.f16304b
+            wb.e5 r4 = r5.f16305c
+            r0.<init>(r3, r4, r1, r2)
+            java.lang.Object r6 = a.a.n(r6, r0, r7)
+            return r6
+    }
+}

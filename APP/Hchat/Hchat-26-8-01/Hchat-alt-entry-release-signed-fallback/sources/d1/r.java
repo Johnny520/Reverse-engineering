@@ -1,0 +1,24 @@
+package d1;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public interface r {
+    boolean a();
+
+    default void b(x2.p r1) {
+            r0 = this;
+            return
+    }
+
+    void c(boolean r1);
+
+    default void d(e1.c r1) {
+            r0 = this;
+            return
+    }
+
+    default void e(x2.p r1) {
+            r0 = this;
+            return
+    }
+}

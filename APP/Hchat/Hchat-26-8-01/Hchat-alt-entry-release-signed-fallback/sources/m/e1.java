@@ -1,0 +1,16 @@
+package m;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public final class e1 extends m.f1 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final m.e1 f8131a = null;
+
+    static {
+            m.e1 r0 = new m.e1
+            r0.<init>()
+            m.e1.f8131a = r0
+            return
+    }
+}

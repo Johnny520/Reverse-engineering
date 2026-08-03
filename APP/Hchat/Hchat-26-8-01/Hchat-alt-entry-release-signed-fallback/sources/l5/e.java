@@ -1,0 +1,131 @@
+package l5;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public final class e extends l5.a0 implements t5.g, t5.e {
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public final /* synthetic */ int f7859d;
+
+    public /* synthetic */ e(k5.u r1, f5.f r2, int r3, int r4) {
+            r0 = this;
+            r0.f7859d = r4
+            r0.<init>(r1, r2, r3)
+            return
+    }
+
+    @Override // t5.n
+    public final long g() {
+            r2 = this;
+            int r0 = r2.f7859d
+            switch(r0) {
+                case 0: goto L15;
+                case 1: goto L10;
+                case 2: goto Lb;
+                default: goto L5;
+            }
+        L5:
+            int r0 = r2.k()
+        L9:
+            long r0 = (long) r0
+            return r0
+        Lb:
+            int r0 = r2.k()
+            goto L9
+        L10:
+            int r0 = r2.k()
+            goto L9
+        L15:
+            int r0 = r2.k()
+            goto L9
+    }
+
+    @Override // t5.g
+    public final int h() {
+            r2 = this;
+            int r0 = r2.f7859d
+            switch(r0) {
+                case 0: goto L2c;
+                case 1: goto L1f;
+                case 2: goto L12;
+                default: goto L5;
+            }
+        L5:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 1
+            int r0 = r0.O(r1)
+            return r0
+        L12:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 1
+            int r0 = r0.O(r1)
+            return r0
+        L1f:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 1
+            int r0 = r0.O(r1)
+            return r0
+        L2c:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 1
+            java.lang.Object r0 = r0.f310h
+            byte[] r0 = (byte[]) r0
+            r0 = r0[r1]
+            r0 = r0 & 15
+            return r0
+    }
+
+    @Override // t5.e
+    public final int k() {
+            r2 = this;
+            int r0 = r2.f7859d
+            switch(r0) {
+                case 0: goto L2f;
+                case 1: goto L1f;
+                case 2: goto L12;
+                default: goto L5;
+            }
+        L5:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 2
+            int r0 = r0.J(r1)
+            return r0
+        L12:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 2
+            int r0 = r0.M(r1)
+            return r0
+        L1f:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 2
+            int r0 = r0.M(r1)
+            short r0 = (short) r0
+            int r0 = r0 << 16
+            return r0
+        L2f:
+            k5.u r0 = r2.f7847a
+            androidx.lifecycle.x r0 = r0.f7264b
+            int r1 = r2.f7849c
+            int r1 = r1 + 1
+            java.lang.Object r0 = r0.f310h
+            byte[] r0 = (byte[]) r0
+            r0 = r0[r1]
+            int r0 = r0 << 24
+            int r0 = r0 >> 28
+            return r0
+    }
+}

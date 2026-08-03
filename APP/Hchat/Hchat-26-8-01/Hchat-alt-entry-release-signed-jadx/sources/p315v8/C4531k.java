@@ -1,0 +1,33 @@
+package p315v8;
+
+/* JADX INFO: renamed from: v8.k */
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C4531k implements InterfaceC4534n {
+
+    /* JADX INFO: renamed from: a */
+    public final C4526f f14964a;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public C4531k(C4526f c4526f) {
+        this.f14964a = c4526f;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C4531k) && this.f14964a.equals(((C4531k) obj).f14964a);
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final int hashCode() {
+        return this.f14964a.hashCode();
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public final String toString() {
+        return "Ready(plan=" + this.f14964a + ")";
+    }
+}

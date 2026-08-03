@@ -1,0 +1,10 @@
+package p362y6;
+
+/* JADX INFO: renamed from: y6.b */
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC5998b {
+
+    /* JADX INFO: renamed from: a */
+    public static final EnumC5997a f24364a = EnumC5997a.f24362g;
+}

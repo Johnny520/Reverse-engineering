@@ -1,0 +1,70 @@
+package com.alibaba.fastjson2.reader;
+
+import com.alibaba.fastjson2.JSONReader;
+import com.alibaba.fastjson2.util.TypeUtils;
+import java.lang.reflect.Method;
+import java.math.BigInteger;
+import java.util.Locale;
+import java.util.function.BiConsumer;
+import p012ah.C0086a;
+import p068eh.AbstractC0921a;
+
+/* JADX INFO: compiled from: r8-map-id-410253dec230a6d44f261a3a84880494196f082735db3c71240f387861686496 */
+/* JADX INFO: loaded from: classes.dex */
+final class FieldReaderBigIntegerFunc<T, V> extends FieldReader<T> {
+    final BiConsumer<T, V> function;
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    public FieldReaderBigIntegerFunc(String str, Class<V> cls, int i9, long j3, String str2, Locale locale, Object obj, Method method, BiConsumer<T, V> biConsumer) {
+        super(str, cls, cls, i9, j3, str2, locale, obj, method, null);
+        this.function = biConsumer;
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // com.alibaba.fastjson2.reader.FieldReader
+    public void accept(T t9, int i9) {
+        try {
+            this.function.accept(t9, (V) BigInteger.valueOf(i9));
+        } catch (Exception e6) {
+            C0086a.m465x(AbstractC0921a.m2255r(new StringBuilder("set "), super.toString(), " error"), e6);
+        }
+    }
+
+    /* JADX DEBUG: Don't trust debug lines info. Lines numbers was adjusted: min line is 1 */
+    @Override // com.alibaba.fastjson2.reader.FieldReader
+    public void readFieldValue(JSONReader jSONReader, T t9) throws Exception {
+        BigInteger bigInteger;
+        try {
+            bigInteger = jSONReader.readBigInteger();
+        } catch (Exception e6) {
+            if ((jSONReader.features(this.features) & JSONReader.Feature.NullOnError.mask) == 0) {
+                throw e6;
+            }
+            bigInteger = null;
+        }
+        this.function.accept(t9, bigInteger);
+    }
+
+    @Override // com.alibaba.fastjson2.reader.FieldReader
+    public Object readFieldValue(JSONReader jSONReader) {
+        return jSONReader.readBigInteger();
+    }
+
+    @Override // com.alibaba.fastjson2.reader.FieldReader
+    public void accept(T t9, Object obj) {
+        try {
+            this.function.accept(t9, TypeUtils.toBigInteger(obj));
+        } catch (Exception e6) {
+            C0086a.m465x(AbstractC0921a.m2255r(new StringBuilder("set "), super.toString(), " error"), e6);
+        }
+    }
+
+    @Override // com.alibaba.fastjson2.reader.FieldReader
+    public void accept(T t9, long j3) {
+        try {
+            this.function.accept(t9, (V) BigInteger.valueOf(j3));
+        } catch (Exception e6) {
+            C0086a.m465x(AbstractC0921a.m2255r(new StringBuilder("set "), super.toString(), " error"), e6);
+        }
+    }
+}
