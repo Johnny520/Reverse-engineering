@@ -1,0 +1,47 @@
+原始混淆名	语义化类名	输出文件	说明
+b0.a	AppFingerprint	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/AppFingerprint.java	收集宿主微信版本、ABI、构建信息等兼容性指纹。
+b0.c	DexKitManager	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/DexKitManager.java	初始化 DexKit、管理缓存并执行混淆类/方法定位。
+b0.k	FeatureProbeCatalog	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/FeatureProbeCatalog.java	定义各功能的探针和兼容性检查项目。
+b0.m	DiagnosticLevel	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/DiagnosticLevel.java	诊断结果级别枚举。
+b0.n	DiagnosticItem	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/DiagnosticItem.java	单项诊断结果模型。
+b0.s	CompatibilityReport	OKK_1.2.1_fix4_readable/sources/com/abc/internal/probe/CompatibilityReport.java	汇总微信版本、探针命中和功能可用性。
+c0.B1	ThemeWallpaperConfig	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/ThemeWallpaperConfig.java	保存壁纸路径、启用状态和透明度。
+c0.D0	HomeAvatarHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/HomeAvatarHook.java	在微信主页注入头像、昵称、状态及快捷抽屉入口。
+c0.F0	InputStatsConfig	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/InputStatsConfig.java	输入/发消息统计配置。
+c0.G1	WallpaperOverlayHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/WallpaperOverlayHook.java	给微信页面添加自定义壁纸和透明度遮罩。
+c0.H	SettingsEntryHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/SettingsEntryHook.java	向微信设置或加号菜单注入 OKK 设置入口。
+c0.I0	InputStatsDatabase	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/InputStatsDatabase.java	统计当天已发送消息数量。
+c0.L1	VirtualLocationHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/VirtualLocationHook.java	替换定位结果，支持地图选点和经纬度配置。
+c0.N0	GroupMemberTitleHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/GroupMemberTitleHook.java	识别群主/管理员/成员并绘制群头衔。
+c0.O1	MapPickerResultHandler	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MapPickerResultHandler.java	接收地图选点结果并保存虚拟定位。
+c0.Z	CustomBubbleHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/CustomBubbleHook.java	替换左右聊天气泡 9.png 皮肤。
+c0.a0	MessageDetailHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MessageDetailHook.java	显示消息绝对时间、相对时间等详情。
+c0.c0	HotUpdateBlocker	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/HotUpdateBlocker.java	屏蔽宿主热更新逻辑。
+c0.d1	MomentsAdsBlocker	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MomentsAdsBlocker.java	过滤朋友圈广告。
+c0.e0	DownloadRedirector	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/DownloadRedirector.java	将下载保存位置重定向到配置目录。
+c0.g	MomentsCommentProtectHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MomentsCommentProtectHook.java	拦截朋友圈评论删除/撤回并保留删除标记。
+c0.h1	ConfigStore	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/ConfigStore.java	模块总配置中心；读写 achat_config.properties，并保存默认开关。
+c0.j	InputStatsMessageHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/InputStatsMessageHook.java	
+c0.k	MomentsHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MomentsHook.java	朋友圈数据库保护和删除拦截主逻辑。
+c0.m	MessageActionDispatcher	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MessageActionDispatcher.java	处理复制、转发、重发、删除、保存等消息动作。
+c0.n	MessageDatabaseHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MessageDatabaseHook.java	定位消息表字段和数据库写入点。
+c0.n0	MessageEditHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/MessageEditHook.java	给聊天消息增加编辑入口并修改消息数据库内容。
+c0.o	AntiRevokeProcessor	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/AntiRevokeProcessor.java	处理消息撤回通知、替换文案和媒体保护。
+c0.q0	FoldBannerPinHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/FoldBannerPinHook.java	固定/折叠微信顶部横幅区域。
+c0.q1	RealNameTailHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/RealNameTailHook.java	在联系人/群成员界面追加实名尾标。
+c0.r	PcAutoLoginConfig	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/PcAutoLoginConfig.java	Windows/PC 登录确认页自动选择与自动点击配置。
+c0.v1	RoundAvatarHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/RoundAvatarHook.java	统一处理头像圆角/圆形裁剪。
+c0.w1	AvatarHook	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/AvatarHook.java	定位并 Hook 微信头像相关渲染点。
+c0.y	BottomTabConfig	OKK_1.2.1_fix4_readable/sources/com/abc/core/features/BottomTabConfig.java	管理底部 Tab 标题、悬浮样式、角标和图标。
+d0.c	SettingsAction	OKK_1.2.1_fix4_readable/sources/com/abc/ui/SettingsAction.java	设置页点击动作分发：目录、壁纸、群组链接等。
+d0.e	SettingsCallback	OKK_1.2.1_fix4_readable/sources/com/abc/ui/SettingsCallback.java	设置页保存、诊断复制、快捷项保存等回调。
+d0.s	FloatingBottomTabView	OKK_1.2.1_fix4_readable/sources/com/abc/ui/FloatingBottomTabView.java	自绘悬浮底部导航栏。
+e0.a	FeatureInstallResult	OKK_1.2.1_fix4_readable/sources/com/abc/core/status/FeatureInstallResult.java	单个功能安装结果数据。
+e0.b	FeatureInstallStatus	OKK_1.2.1_fix4_readable/sources/com/abc/core/status/FeatureInstallStatus.java	功能状态枚举。
+e0.c	FeatureStatusRegistry	OKK_1.2.1_fix4_readable/sources/com/abc/core/status/FeatureStatusRegistry.java	记录各 Hook 安装成功、失败和无效状态。
+f0.V	SettingsUiBuilder	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/SettingsUiBuilder.java	动态构建全部 OKK 设置界面。
+f0.W	FeatureInstallTask	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/FeatureInstallTask.java	按编号执行单项 Hook 安装任务。
+f0.Z	FeatureInstaller	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/FeatureInstaller.java	模块功能总安装器，集中注册所有 Hook。
+f0.c0	ModuleBootstrap	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/ModuleBootstrap.java	微信进程就绪后保存上下文并启动模块。
+f0.f0	SettingsEntryInjector	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/SettingsEntryInjector.java	向不同版本微信 UI 注入设置入口。
+f0.i	HookDiagnostics	OKK_1.2.1_fix4_readable/sources/com/abc/core/runtime/HookDiagnostics.java	诊断 UI、活动跟踪和 Hook 状态展示。

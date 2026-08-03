@@ -1,0 +1,29 @@
+{
+  "domains": {
+    "android.googlesource.com": [
+      "lib/arm64-v8a/libdexkit.so",
+      "lib/armeabi-v7a/libdexkit.so"
+    ],
+    "schemas.android.com": [
+      "classes.dex"
+    ],
+    "t.me": [
+      "classes.dex"
+    ]
+  },
+  "urls": {
+    "http://schemas.android.com/apk/res-auto": [
+      "classes.dex"
+    ],
+    "http://schemas.android.com/apk/res/android": [
+      "classes.dex"
+    ],
+    "https://android.googlesource.com/toolchain/llvm-project": [
+      "lib/arm64-v8a/libdexkit.so",
+      "lib/armeabi-v7a/libdexkit.so"
+    ],
+    "https://t.me/OKK_Group": [
+      "classes.dex"
+    ]
+  }
+}

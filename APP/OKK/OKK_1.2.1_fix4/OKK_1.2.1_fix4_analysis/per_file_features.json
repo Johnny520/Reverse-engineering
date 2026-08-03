@@ -1,0 +1,2160 @@
+{
+  "com/abc/core/hooks/ModuleLog.java": {
+    "keys": [
+      "text",
+      "charset",
+      "msg",
+      "module_log_enabled"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "日志记录",
+      "OKK 日志区已就绪 · 记录=",
+      "开",
+      "关",
+      "日志已清空",
+      "日志记录已",
+      "开启",
+      "关闭",
+      "（暂无日志，打开开关后模块运行会写入）"
+    ]
+  },
+  "com/abc/loader/HookEntry.java": {
+    "keys": [
+      "lpparam"
+    ]
+  },
+  "com/abc/loader/ModernHookEntry.java": {
+    "keys": [
+      "param"
+    ],
+    "tech": [
+      "com.tencent.mm"
+    ]
+  },
+  "p049b0/AbstractC0553c.java": {
+    "keys": [
+      "context",
+      "bridge",
+      "strings",
+      "dexkit",
+      "arm64",
+      "armeabi",
+      "x86_64",
+      "x86",
+      "achat_dexkit"
+    ],
+    "tech": [
+      "[OKK-DexKit] "
+    ]
+  },
+  "p049b0/AbstractC0561k.java": {
+    "keys": [
+      "probe"
+    ],
+    "ui": [
+      "设置入口",
+      "隐藏首页分隔线",
+      "折叠顶栏",
+      "底栏图标",
+      "悬浮底栏",
+      "圆角头像",
+      "首页头像入口",
+      "主题壁纸",
+      "防撤回",
+      "聊天增强",
+      "删除清引用",
+      "修改消息",
+      "输入统计",
+      "朋友圈防删",
+      "朋友圈评论防撤回",
+      "朋友圈广告",
+      "资料页 ID",
+      "实名尾字",
+      "群员头衔",
+      "禁用热更新",
+      "虚拟定位",
+      "PC 自动登录",
+      "地图选点",
+      "下载重定向",
+      "功能"
+    ]
+  },
+  "p049b0/AbstractC0567q.java": {
+    "keys": [
+      "null",
+      "wxid_"
+    ],
+    "tech": [
+      "config class DexKit "
+    ]
+  },
+  "p049b0/C0551a.java": {
+    "keys": [
+      "fingerprint"
+    ],
+    "tech": [
+      "wechatSummary",
+      ", wechatSummary="
+    ]
+  },
+  "p049b0/C0552b.java": {
+    "keys": [
+      "bridge"
+    ]
+  },
+  "p049b0/C0555e.java": {
+    "keys": [
+      "ctx",
+      "param",
+      "args"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin.setting.ui.setting_new.settings.SettingGroupPersonalInfo",
+      "com.tencent.mm.plugin.setting.ui.setting_new.MainSettingsUI",
+      "com.tencent.mm.plugin.setting.ui.setting.SettingsUI",
+      "com.tencent.tinker.loader.shareutil.ShareTinkerInternals",
+      "com.tencent.mm.ui.LauncherUI",
+      "com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI",
+      "com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI2",
+      "com.tencent.mm.ui.LauncherUIBottomTabView",
+      "com.tencent.mm.ui.MainTabUI",
+      "com.tencent.mm.pluginsdk.ui.chat.ChatFooter",
+      "com.tencent.mm.ui.widget.MMNeat7extView",
+      "com.tencent.mm.view.x2c.X2CTextView",
+      "com.tencent.mm.plugin.profile.ui.ContactInfoUI"
+    ]
+  },
+  "p049b0/C0556f.java": {
+    "keys": [
+      "error"
+    ]
+  },
+  "p049b0/C0562l.java": {
+    "keys": [
+      "name"
+    ]
+  },
+  "p049b0/C0564n.java": {
+    "keys": [
+      "title",
+      "level",
+      "detail"
+    ]
+  },
+  "p049b0/C0566p.java": {
+    "keys": [
+      "receiver",
+      "name",
+      "instance"
+    ]
+  },
+  "p049b0/C0569s.java": {
+    "tech": [
+      "WeChatVersion(versionName="
+    ],
+    "ui": [
+      "未验证",
+      "可能可用（偏高）",
+      "可能可用（偏低）",
+      "主适配"
+    ]
+  },
+  "p050c0/AbstractC0597J.java": {
+    "tech": [
+      "WeChat"
+    ],
+    "ui": [
+      "微信",
+      "通讯录",
+      "发现",
+      "我"
+    ]
+  },
+  "p050c0/AbstractC0600K.java": {
+    "keys": [
+      "content"
+    ]
+  },
+  "p050c0/AbstractC0604L0.java": {
+    "keys": [
+      "voiceinfo",
+      "videoinfo2"
+    ]
+  },
+  "p050c0/AbstractC0610N0.java": {
+    "keys": [
+      "member_title_owner",
+      "member_title_member",
+      "member_title_admin",
+      "field_roomowner",
+      "member_title",
+      "dexkit",
+      "abc_",
+      "member_title_show_member",
+      "room",
+      "sender",
+      "roomowner"
+    ],
+    "tech": [
+      "com.tencent.mm.storage.u2",
+      "com.tencent.mm.storage.t2",
+      "com.tencent.mm.model.z",
+      "com.tencent.mm.model.s"
+    ],
+    "ui": [
+      "群主",
+      "成员",
+      "管理员"
+    ]
+  },
+  "p050c0/AbstractC0626U.java": {
+    "keys": [
+      "padding",
+      "bubble_path_right",
+      "bubble_path_left",
+      "right",
+      "righ",
+      "left"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ]
+  },
+  "p050c0/AbstractC0637Z0.java": {
+    "keys": [
+      "f146203o"
+    ]
+  },
+  "p050c0/AbstractC0642b0.java": {
+    "keys": [
+      "roomdata",
+      "close",
+      "nickname",
+      "alias"
+    ],
+    "ui": [
+      "对方"
+    ]
+  },
+  "p050c0/AbstractC0680o.java": {
+    "keys": [
+      "message",
+      "wxid_",
+      "replacemsg",
+      "sysmsg",
+      "pattern",
+      "input",
+      "filehelper",
+      "fmessage",
+      "medianote",
+      "newsapp",
+      "weixin",
+      "text",
+      "xwechat_files",
+      "emulated",
+      "cdnmidimgurl",
+      "aeskey",
+      "length",
+      "revokemsg",
+      "revoke",
+      "replacement",
+      "session"
+    ],
+    "tech": [
+      "WeChat"
+    ],
+    "ui": [
+      "撤回了一条消息",
+      "撤回一条消息",
+      "消息已撤回",
+      "你撤回了一条消息",
+      "你撤回一条消息",
+      "{name}撤回了一条消息",
+      "{name}撤回了上一条消息 {content}",
+      "{name}撤回了上一条消息",
+      "对方",
+      "你",
+      "^[\"“'「]?([^\"”'」\\n]{1,40}?)[\"”'」]?\\s*撤回",
+      "[\"“'「]?([^\"”'」\\n]{1,40}?)[\"”'」]?\\s*撤回了",
+      "已阻止撤回",
+      "[已阻止]"
+    ]
+  },
+  "p050c0/C0570A.java": {
+    "keys": [
+      "param",
+      "args",
+      "view",
+      "clazz",
+      "update",
+      "input",
+      "updated"
+    ],
+    "tech": [
+      "com.tencent.mm.storage."
+    ],
+    "ui": [
+      "小时前",
+      "分钟前"
+    ]
+  },
+  "p050c0/C0571A0.java": {
+    "keys": [
+      "view",
+      "outline"
+    ]
+  },
+  "p050c0/C0574B0.java": {
+    "keys": [
+      "args",
+      "status_bar_height",
+      "dimen",
+      "android"
+    ],
+    "tech": [
+      "hooked tab ViewPager ",
+      "hookTabViewPagerSwipe fail: "
+    ]
+  },
+  "p050c0/C0575B1.java": {
+    "keys": [
+      "theme_wallpaper_enabled",
+      "theme_wallpaper_alpha",
+      "theme_wallpaper_path",
+      "theme_wallpaper_updated"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ]
+  },
+  "p050c0/C0577C0.java": {
+    "keys": [
+      "activity"
+    ]
+  },
+  "p050c0/C0580D0.java": {
+    "keys": [
+      "f190364a",
+      "achat_home_avatar_v3",
+      "achat_home_avatar_v3_avatar",
+      "achat_home_avatar_v3_nick",
+      "achat_home_avatar_v3_status",
+      "status_bar_height",
+      "dimen",
+      "android",
+      "home_avatar_entry",
+      "activity"
+    ],
+    "tech": [
+      "com.tencent.mm.pluginsdk.ui.u",
+      "com.tencent.mm.plugin.textstatus.ui.TextStatusDoWhatActivityV2",
+      "com.tencent.mm.plugin.textstatus.ui.TextStatusDoWhatActivity",
+      "com.tencent.mm.plugin.textstatus.ui.TextStatusNewActivity",
+      "com.tencent.mm.plugin.textstatus.ui.TextStatusEditActivityV2",
+      "com.tencent.mm.plugin.textstatus.ui.TextStatusEditActivity",
+      "com.tencent.mm.plugin.textstatus.ui.flutter.StatusFlutterPublishActivity"
+    ],
+    "ui": [
+      "头像",
+      "我",
+      "在线"
+    ]
+  },
+  "p050c0/C0581D1.java": {
+    "keys": [
+      "module_log_enabled"
+    ]
+  },
+  "p050c0/C0585F.java": {
+    "keys": [
+      "args"
+    ]
+  },
+  "p050c0/C0586F0.java": {
+    "keys": [
+      "input_stats_template",
+      "input_stats_enabled",
+      "input_stats_count_send"
+    ],
+    "ui": [
+      "今日已发${totalMsg}条"
+    ]
+  },
+  "p050c0/C0588G.java": {
+    "keys": [
+      "strings",
+      "action_bar",
+      "input",
+      "f190271a"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.LauncherUIBottomTabView",
+      "com.tencent.mm.ui.FrostedContentView",
+      "hooked ",
+      "hooked unread int ",
+      "com.tencent.mm.ui.LauncherUI"
+    ]
+  },
+  "p050c0/C0590G1.java": {
+    "keys": [
+      "activity",
+      "achat_global_bg_overlay_v4",
+      "achat_global_bg_overlay",
+      "k7n",
+      "o7q",
+      "achat_page_bg_under_content_v1",
+      "chatting",
+      "achat_under_wallpaper_v1",
+      "setting",
+      "f190374k"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+      "com.tencent.mm.ui.chatting.gallery.ImageGalleryGridUI",
+      "com.tencent.mm.plugin.sns.ui.SnsOnlineVideoActivity",
+      "com.tencent.mm.plugin.sns.ui.SnsBrowseUI",
+      "com.tencent.mm.plugin.sns.ui.SnsGalleryUI",
+      "com.tencent.mm.plugin.scanner.ui.BaseScanUI",
+      "com.tencent.mm.plugin.voip.ui.VideoActivity",
+      "com.tencent.mm.plugin.gallery.ui.ImagePreviewUI",
+      "com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI",
+      "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI",
+      "com.tencent.mm.plugin.location_soso.SoSoProxyUI",
+      "com.tencent.mm.R$id",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK",
+      "com.tencent.mm.ui.LauncherUI"
+    ],
+    "ui": [
+      "未启用：请打开「启用壁纸」",
+      "无图片：请先选择壁纸",
+      "请回到微信首页再点应用",
+      "已应用 ",
+      " 处 · 不透明度",
+      "%（顶层遮罩）",
+      "应用失败："
+    ]
+  },
+  "p050c0/C0591H.java": {
+    "keys": [
+      "view",
+      "icon_tv",
+      "name",
+      "abc_module_settings_entry"
+    ]
+  },
+  "p050c0/C0593H1.java": {
+    "keys": [
+      "args",
+      "theme_wallpaper_path",
+      "theme_wallpaper_enabled",
+      "theme_wallpaper_updated"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ]
+  },
+  "p050c0/C0595I0.java": {
+    "keys": [
+      "abc_input_stats",
+      "date",
+      "talker",
+      "field_talker",
+      "username",
+      "field_username",
+      "rowid",
+      "field_rowid"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.widget.cedit.api.MMFlexEditText",
+      "com.tencent.mm.pluginsdk.ui.chat.ChatFooter"
+    ]
+  },
+  "p050c0/C0596I1.java": {
+    "keys": [
+      "args",
+      "focus"
+    ],
+    "tech": [
+      "hook:"
+    ]
+  },
+  "p050c0/C0598J0.java": {
+    "keys": [
+      "template"
+    ],
+    "ui": [
+      "今日已发${totalMsg}条"
+    ]
+  },
+  "p050c0/C0599J1.java": {
+    "keys": [
+      "f190366c",
+      "f190364a"
+    ],
+    "tech": [
+      "OKK-ThemeWpHook: "
+    ]
+  },
+  "p050c0/C0605L1.java": {
+    "keys": [
+      "map_pick_request",
+      "virtual_location_enabled",
+      "virtual_location_latitude",
+      "true",
+      "virtual_location_longitude",
+      "location",
+      "gps",
+      "network",
+      "passive",
+      "virtual_location_updated"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ]
+  },
+  "p050c0/C0606M.java": {
+    "keys": [
+      "method",
+      "send",
+      "resend",
+      "forward",
+      "repeat",
+      "field",
+      "nested"
+    ]
+  },
+  "p050c0/C0607M0.java": {
+    "keys": [
+      "canvas",
+      "paint"
+    ]
+  },
+  "p050c0/C0611N1.java": {
+    "keys": [
+      "dexkit",
+      "abc_"
+    ],
+    "tech": [
+      "hooked ",
+      "DexKit:",
+      "hooked onLocationChanged via ",
+      "DexKit miss onLocationChanged label="
+    ]
+  },
+  "p050c0/C0614O1.java": {
+    "keys": [
+      "map_pick_result",
+      "map_pick_request"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "OKK：解析地图结果失败",
+      "OKK：已选点 %.5f, %.5f"
+    ]
+  },
+  "p050c0/C0617P1.java": {
+    "keys": [
+      "text"
+    ]
+  },
+  "p050c0/C0619Q0.java": {
+    "keys": [
+      "brc",
+      "user"
+    ],
+    "ui": [
+      "未下载",
+      "已下载",
+      "下载中",
+      "已过期",
+      "微信网页版",
+      "个人名片",
+      "转文字",
+      "以下为新消息",
+      "撤回了一条消息",
+      "小时之前",
+      "分钟前",
+      "刚刚"
+    ]
+  },
+  "p050c0/C0620Q1.java": {
+    "keys": [
+      "activity",
+      "extras"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin."
+    ]
+  },
+  "p050c0/C0621R0.java": {
+    "keys": [
+      "wxid_",
+      "field_talker",
+      "talker",
+      "field_sender",
+      "sender",
+      "field_content",
+      "content"
+    ]
+  },
+  "p050c0/C0625T0.java": {
+    "keys": [
+      "template"
+    ]
+  },
+  "p050c0/C0627U0.java": {
+    "keys": [
+      "value"
+    ]
+  },
+  "p050c0/C0630W.java": {
+    "keys": [
+      "method"
+    ]
+  },
+  "p050c0/C0634Y.java": {
+    "keys": [
+      "parent",
+      "child"
+    ]
+  },
+  "p050c0/C0636Z.java": {
+    "keys": [
+      "args",
+      "bubble_path_right",
+      "bubble_path_left",
+      "bubble_enabled"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "气泡皮肤导入成功！",
+      "导入失败: "
+    ]
+  },
+  "p050c0/C0639a0.java": {
+    "keys": [
+      "c3g",
+      "c3h",
+      "conversation",
+      "chatting",
+      "dexkit",
+      "abc_chat_",
+      "field_type",
+      "static",
+      "detail_horizontal_margin",
+      "detail_left_margin",
+      "detail_right_margin",
+      "detail_text_color_light",
+      "detail_text_color",
+      "detail_text_color_dark",
+      "detail_enabled",
+      "detail_template",
+      "detail_time_pattern",
+      "detail_text_size",
+      "detail_click_show",
+      "options",
+      "timetv",
+      "avatariv",
+      "usertv",
+      "time",
+      "avatar",
+      "history",
+      "nomore",
+      "mask",
+      "checkbox",
+      "check",
+      "field_content",
+      "activity"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.chatting.adapter",
+      "DexKit did not find adapter bind method",
+      "DexKit:",
+      "com.tencent.mm.ui.chatting.component",
+      "DexKit did not find quote component",
+      "com.tencent.mm.ui.chatting.viewitems",
+      "DexKit did not find getCurrentMsg2",
+      "found getCurrentMsg2 via DexKit:",
+      "hooked adapter bind via ",
+      "hooked quote component constructors via ",
+      "com.tencent.mm.R$id",
+      "DexKit native loaded via library path",
+      "DexKit native loaded from module apk",
+      "com.tencent.mm.ui.chatting",
+      "DexKit did not find swipe row container",
+      "found swipe row container via DexKit:",
+      "hooked swipe row dispatch via ",
+      "swipe row dispatch hook failed via "
+    ],
+    "ui": [
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日",
+      "周",
+      "刚刚",
+      "分钟前",
+      "小时前",
+      "昨天 ",
+      "前天 ",
+      "天前",
+      "1个月前",
+      "个月前",
+      "1年前",
+      "年前",
+      "\\d{1,3}分钟前",
+      "\\d{1,3}小时前",
+      "昨天",
+      "前天",
+      "选择 .9.png 气泡皮肤"
+    ]
+  },
+  "p050c0/C0641b.java": {
+    "keys": [
+      "method",
+      "name",
+      "result"
+    ]
+  },
+  "p050c0/C0644c.java": {
+    "keys": [
+      "field_commentflag",
+      "args",
+      "commentflag"
+    ],
+    "ui": [
+      "朋友圈评论 update 改写为[已删除]",
+      "拦截 SnsComment setCommentDeleted",
+      "拦截朋友圈评论软删除标志"
+    ]
+  },
+  "p050c0/C0645c0.java": {
+    "keys": [
+      "disable_hot_update"
+    ],
+    "tech": [
+      "com.tencent.tinker.lib.service.TinkerPatchForeService",
+      "com.tencent.tinker.lib.service.TinkerPatchService",
+      "com.tencent.tinker.lib.service.TinkerPatchService$InnerService",
+      "com.tencent.tinker.lib.service.DefaultTinkerResultService"
+    ]
+  },
+  "p050c0/C0646c1.java": {
+    "keys": [
+      "uxinfo",
+      "aid",
+      "type",
+      "action"
+    ]
+  },
+  "p050c0/C0647d.java": {
+    "keys": [
+      "args"
+    ],
+    "tech": [
+      "DexKit:execSQL"
+    ]
+  },
+  "p050c0/C0648d0.java": {
+    "keys": [
+      "args",
+      "download_redirect_tree_uri"
+    ],
+    "tech": [
+      "SAF copy hook failed: "
+    ]
+  },
+  "p050c0/C0649d1.java": {
+    "keys": [
+      "remove_moments_ads"
+    ]
+  },
+  "p050c0/C0650e.java": {
+    "ui": [
+      "拦截朋友圈评论删除并标记[已删除]("
+    ]
+  },
+  "p050c0/C0651e0.java": {
+    "keys": [
+      "fail",
+      "download_redirect_enabled",
+      "download_redirect_dir",
+      "dir"
+    ],
+    "tech": [
+      "WeChat",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/download"
+    ],
+    "ui": [
+      "保存",
+      "下载",
+      "失败",
+      "已保存",
+      "已保存到: "
+    ]
+  },
+  "p050c0/C0653f.java": {
+    "keys": [
+      "args",
+      "achat_profile_id"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.base.preference.Preference",
+      "com.tencent.mm.protocal.protobuf.SnsObject"
+    ],
+    "ui": [
+      "获取失败",
+      "微信 ID: ",
+      "点击复制",
+      "朋友圈评论防删: 合并回 CommentUserList + [已删除]"
+    ]
+  },
+  "p050c0/C0655f1.java": {
+    "keys": [
+      "profile_id",
+      "kintent_talker",
+      "wxid_",
+      "input",
+      "talker",
+      "username"
+    ],
+    "tech": [
+      "hooked ",
+      "com.tencent.mm.ui.base.preference.r",
+      "com.tencent.mm.ui.base.preference.Preference"
+    ]
+  },
+  "p050c0/C0656g.java": {
+    "keys": [
+      "args",
+      "commentflag",
+      "field_commentflag",
+      "f233756s",
+      "f233744d",
+      "username",
+      "f233750m",
+      "anti_moments_comment_revoke",
+      "dexkit",
+      "abc_cmt_",
+      "f233748h",
+      "content",
+      "wxid_"
+    ],
+    "tech": [
+      "DexKit miss ",
+      "hooked "
+    ],
+    "ui": [
+      "[已删除]",
+      "(已删除)",
+      "[已删除] "
+    ]
+  },
+  "p050c0/C0661h1.java": {
+    "keys": [
+      "anti_revoke",
+      "true",
+      "revoke_notice_enabled",
+      "anti_revoke_keep_self",
+      "false",
+      "anti_revoke_notice_text",
+      "media_protect_enabled",
+      "anti_moments_delete",
+      "swipe_quote",
+      "swipe_repeat",
+      "quote_delete_clear",
+      "bubble_enabled",
+      "settings_entry_enabled",
+      "module_log_enabled",
+      "bottom_tab_hide_title",
+      "detail_enabled",
+      "detail_template",
+      "detail_time_pattern",
+      "detail_text_size",
+      "detail_left_margin",
+      "detail_right_margin",
+      "detail_text_color_light",
+      "detail_text_color_dark",
+      "detail_click_show",
+      "input_stats_enabled",
+      "input_stats_count_send",
+      "input_stats_template",
+      "round_avatar_enabled",
+      "round_avatar_radius",
+      "anti_moments_comment_revoke",
+      "virtual_location_enabled",
+      "virtual_location_latitude",
+      "virtual_location_longitude",
+      "auto_login_win_enabled",
+      "auto_login_win_sync_msg",
+      "auto_login_win_show_device",
+      "auto_login_win_auto_device",
+      "auto_login_win_auto_click",
+      "remove_moments_ads",
+      "profile_id",
+      "home_avatar_entry",
+      "home_drawer_shortcuts",
+      "home_drawer_signature",
+      "home_status_custom",
+      "theme_wallpaper_enabled",
+      "theme_wallpaper_alpha",
+      "theme_wallpaper_path",
+      "disable_hot_update",
+      "real_name_tail",
+      "real_name_tail_color",
+      "member_title",
+      "member_title_show_member",
+      "member_title_owner",
+      "member_title_admin",
+      "member_title_member",
+      "edit_message",
+      "hide_home_divider",
+      "fold_banner_fixed",
+      "bottom_tab_floating",
+      "bottom_tab_floating_labels",
+      "bottom_tab_floating_badge",
+      "bottom_tab_title_chats",
+      "bottom_tab_title_contacts",
+      "bottom_tab_title_discover",
+      "bottom_tab_title_me",
+      "night_mode_follow",
+      "night_mode",
+      "updated",
+      "key",
+      "yes",
+      "default",
+      "value"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK",
+      "/storage/emulated/0/Android/media/com.tencent.mm/AChat"
+    ],
+    "ui": [
+      "{name}撤回了一条消息",
+      "今日已发${totalMsg}条",
+      "OKK 快捷面板",
+      "群主",
+      "管理员",
+      "成员",
+      "微信",
+      "通讯录",
+      "发现",
+      "我",
+      "MM-dd 周一 HH:mm:ss"
+    ]
+  },
+  "p050c0/C0662i.java": {
+    "keys": [
+      "args",
+      "content"
+    ],
+    "tech": [
+      "com.tencent.mm.protocal.protobuf.TimeLineObject"
+    ],
+    "ui": [
+      "[已删除]",
+      "(已删除)"
+    ]
+  },
+  "p050c0/C0664i1.java": {
+    "keys": [
+      "args"
+    ]
+  },
+  "p050c0/C0665j.java": {
+    "keys": [
+      "args",
+      "field_type",
+      "field_content",
+      "field_talker",
+      "message",
+      "type",
+      "content",
+      "abc_input_stats",
+      "f150798r",
+      "f206693n",
+      "f66769b",
+      "f66756a",
+      "f231704f"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.LauncherUIBottomTabView"
+    ]
+  },
+  "p050c0/C0667j1.java": {
+    "keys": [
+      "event"
+    ]
+  },
+  "p050c0/C0668k.java": {
+    "keys": [
+      "dexkit",
+      "abc_moments_"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin.sns.storage",
+      "DexKit missed ",
+      "hooked rawQuery via ",
+      "hook rawQuery failed ",
+      "DexKit native loaded via library path",
+      "DexKit native loaded from module apk",
+      "hooked delete via ",
+      "hook delete failed ",
+      "hooked execSQL via ",
+      "hook execSQL failed ",
+      "hooked update via ",
+      "hook update failed "
+    ]
+  },
+  "p050c0/C0670k1.java": {
+    "keys": [
+      "set",
+      "quote_delete_clear",
+      "dexkit",
+      "abc_"
+    ],
+    "tech": [
+      "com.tencent.mm.pluginsdk.ui.chat.ChatFooter",
+      "com.tencent.mm.pluginsdk.ui.chat."
+    ]
+  },
+  "p050c0/C0674m.java": {
+    "keys": [
+      "args",
+      "download_redirect_tree_uri",
+      "download_redirect_enabled",
+      "delete",
+      "update",
+      "rcontact",
+      "message",
+      "username",
+      "nickname",
+      "alias",
+      "f191135q",
+      "achat_profile_id",
+      "clipboard",
+      "wxid",
+      "achat_real_name_tail",
+      "room_name"
+    ],
+    "ui": [
+      "下载目录已设置：",
+      "设置目录失败：",
+      "无法解析所选目录，请重试",
+      "已复制 ",
+      "无法获取微信 ID",
+      "实名: ",
+      "正在获取...",
+      "无法打开设置",
+      "打开失败: "
+    ]
+  },
+  "p050c0/C0675m0.java": {
+    "keys": [
+      "args"
+    ]
+  },
+  "p050c0/C0677n.java": {
+    "keys": [
+      "type",
+      "content",
+      "talker",
+      "session",
+      "newmsgid",
+      "dexkit",
+      "abc_"
+    ],
+    "tech": [
+      " wxid=",
+      "DexKit did not find doRevokeMsg",
+      "DexKit descriptor could not resolve: ",
+      "DexKit:",
+      "com.tencent.mm.storage",
+      "DexKit did not find send-tip cache method",
+      "hooked send-tip cache method: ",
+      "hooked source revoke via ",
+      "DexKit native loaded via library path",
+      "DexKit native loaded from module apk"
+    ],
+    "ui": [
+      "对方"
+    ]
+  },
+  "p050c0/C0678n0.java": {
+    "keys": [
+      "wxid_",
+      "field_content",
+      "content",
+      "chatting",
+      "raw",
+      "drawable",
+      "type",
+      "icons_filled_edit_photo_pencil",
+      "update",
+      "message",
+      "edit_message",
+      "dexkit",
+      "abc_",
+      "input",
+      "field_type"
+    ],
+    "tech": [
+      "com.tencent.mm.storage.",
+      "create menu hook fail ",
+      "selection hook fail "
+    ],
+    "ui": [
+      "当前消息不可修改",
+      "修改消息",
+      "确定",
+      "已修改本地显示",
+      "取消",
+      "无法弹出编辑框",
+      "修改",
+      "\\d{1,2}月\\d{1,2}日\\s+\\d{1,2}:\\d{2}",
+      "\\d{1,2}[-/]\\d{1,2}\\s+周.\\s+.*",
+      "分钟前",
+      "小时前",
+      "昨天",
+      "前天",
+      "未下载",
+      "转文字",
+      "微信网页版",
+      "个人名片"
+    ]
+  },
+  "p050c0/C0679n1.java": {
+    "keys": [
+      "name"
+    ]
+  },
+  "p050c0/C0683p.java": {
+    "keys": [
+      "anti_revoke",
+      "revoke_notice_enabled",
+      "anti_revoke_keep_self",
+      "anti_revoke_notice_text",
+      "media_protect_enabled",
+      "anti_moments_delete",
+      "swipe_quote",
+      "bubble_enabled",
+      "settings_entry_enabled"
+    ],
+    "ui": [
+      "{name}撤回了一条消息"
+    ]
+  },
+  "p050c0/C0684p0.java": {
+    "keys": [
+      "args"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.conversation.l5"
+    ]
+  },
+  "p050c0/C0687q0.java": {
+    "keys": [
+      "lt5",
+      "fold",
+      "f200744h",
+      "banner"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.conversation.",
+      "com.tencent.mm.ui.conversation.l5"
+    ]
+  },
+  "p050c0/C0688q1.java": {
+    "keys": [
+      "string",
+      "real_name_tail_color",
+      "doscene",
+      "achat_real_name_tail",
+      "real_name_tail",
+      "dexkit",
+      "abc_"
+    ],
+    "tech": [
+      "hooked scene#",
+      "hooked ",
+      "skip hook ",
+      "scene callback hooks=",
+      "com.tencent.mm.ui.base.preference.Preference",
+      "com.tencent.mm.modelbase.s1",
+      "com.tencent.mm.modelbase.n1",
+      "com.tencent.mm.kernel.h",
+      "com.tencent.mm.model.bh",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/real_names.json"
+    ],
+    "ui": [
+      "实名: ",
+      "点击获取",
+      "获取实名尾字"
+    ]
+  },
+  "p050c0/C0689r.java": {
+    "keys": [
+      "auto_login_win_enabled",
+      "auto_login_win_sync_msg",
+      "auto_login_win_show_device",
+      "auto_login_win_auto_device",
+      "auto_login_win_auto_click"
+    ]
+  },
+  "p050c0/C0695t.java": {
+    "keys": [
+      "init"
+    ]
+  },
+  "p050c0/C0697t1.java": {
+    "keys": [
+      "content"
+    ]
+  },
+  "p050c0/C0698u.java": {
+    "keys": [
+      "args"
+    ]
+  },
+  "p050c0/C0700u1.java": {
+    "keys": [
+      "message"
+    ]
+  },
+  "p050c0/C0703v1.java": {
+    "keys": [
+      "default",
+      "round_avatar_enabled",
+      "round_avatar_radius",
+      "public"
+    ]
+  },
+  "p050c0/C0704w.java": {
+    "ui": [
+      "登录",
+      "登入",
+      "確認",
+      "确认"
+    ]
+  },
+  "p050c0/C0706w1.java": {
+    "keys": [
+      "dexkit",
+      "abc_avatar_"
+    ],
+    "tech": [
+      "hooked "
+    ]
+  },
+  "p050c0/C0708x0.java": {
+    "keys": [
+      "round_avatar_radius"
+    ],
+    "ui": [
+      "我",
+      "已保存圆度 "
+    ]
+  },
+  "p050c0/C0709x1.java": {
+    "keys": [
+      "source"
+    ]
+  },
+  "p050c0/C0710y.java": {
+    "keys": [
+      "bottom_tab_hide_title",
+      "bottom_tab_floating",
+      "bottom_tab_floating_labels",
+      "bottom_tab_floating_badge",
+      "bottom_tab_title_chats",
+      "bottom_tab_title_contacts",
+      "bottom_tab_title_discover",
+      "bottom_tab_title_me"
+    ],
+    "ui": [
+      "微信",
+      "通讯录",
+      "发现",
+      "我"
+    ]
+  },
+  "p050c0/EnumC0583E0.java": {
+    "keys": [
+      "qrcode",
+      "pay",
+      "service",
+      "favorite"
+    ],
+    "ui": [
+      "我的二维码",
+      "展示个人二维码",
+      "收付款",
+      "付款码 / 收款",
+      "服务",
+      "支付与服务",
+      "收藏",
+      "我的收藏"
+    ]
+  },
+  "p050c0/RunnableC0573B.java": {
+    "keys": [
+      "timeout"
+    ]
+  },
+  "p050c0/RunnableC0701v.java": {
+    "keys": [
+      "map_view_type"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin.location.ui.RedirectUI"
+    ],
+    "ui": [
+      "OKK：请在地图上选择位置",
+      "OKK：打开微信地图失败 "
+    ]
+  },
+  "p050c0/ViewTreeObserverOnPreDrawListenerC0587F1.java": {
+    "keys": [
+      "activity"
+    ]
+  },
+  "p052d0/C0741b.java": {
+    "keys": [
+      "fav",
+      "mall",
+      "offline",
+      "setting"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin.fav.ui.FavoriteIndexUI",
+      "com.tencent.mm.plugin.mall.ui.MallIndexUIv2",
+      "com.tencent.mm.plugin.offline.ui.WalletOfflineEntranceUI",
+      "com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI",
+      "com.tencent.mm.plugin.setting.ui.setting.ColorfulSelfQRCodeUI"
+    ],
+    "ui": [
+      "无法打开「"
+    ]
+  },
+  "p052d0/C0742c.java": {
+    "keys": [
+      "theme_wallpaper_path",
+      "theme_wallpaper_updated",
+      "theme_wallpaper_enabled"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/download",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "设置入口未就绪",
+      "无法打开链接",
+      "无法打开目录选择器",
+      "已恢复默认：/storage/emulated/0/Android/media/com.tencent.mm/OKK/download",
+      "选择壁纸",
+      "选择完成后点「应用壁纸」",
+      "已清除壁纸，恢复默认"
+    ]
+  },
+  "p052d0/C0744e.java": {
+    "keys": [
+      "home_drawer_signature",
+      "home_drawer_signature_tip_shown",
+      "true",
+      "home_drawer_shortcuts",
+      "member_title_owner",
+      "member_title_admin",
+      "member_title_member",
+      "clipboard"
+    ],
+    "tech": [
+      "$hookSum",
+      "WeChat: ",
+      "Hooks: "
+    ],
+    "ui": [
+      "OKK 快捷面板",
+      "签名已保存",
+      "已保存 ",
+      " 个快捷",
+      "至少保留 1 个快捷",
+      "群主",
+      "管理员",
+      "成员",
+      "已保存群头衔文案",
+      "=== OKK 诊断报告 ===\nModule: v1.2.1\n",
+      "\n\n--- 日志片段 ---\n",
+      "诊断信息已复制"
+    ]
+  },
+  "p052d0/C0753n.java": {
+    "keys": [
+      "panel",
+      "dim"
+    ]
+  },
+  "p052d0/C0754o.java": {
+    "keys": [
+      "view",
+      "outline"
+    ]
+  },
+  "p052d0/C0755p.java": {
+    "keys": [
+      "animation"
+    ]
+  },
+  "p052d0/C0756q.java": {
+    "keys": [
+      "animation"
+    ]
+  },
+  "p052d0/C0758s.java": {
+    "keys": [
+      "labels",
+      "canvas",
+      "event"
+    ],
+    "ui": [
+      "微信",
+      "通讯录",
+      "发现",
+      "我"
+    ]
+  },
+  "p054e0/C0767a.java": {
+    "keys": [
+      "detail"
+    ]
+  },
+  "p054e0/C0769c.java": {
+    "keys": [
+      "detail"
+    ],
+    "tech": [
+      "/sdcard/Android/media/com.tencent.mm/OKK",
+      "hook_features.txt"
+    ],
+    "ui": [
+      "功能安装失败: ",
+      "功能安装成功: ",
+      "功能部分生效: "
+    ]
+  },
+  "p056f0/AbstractC0805P.java": {
+    "keys": [
+      "path"
+    ]
+  },
+  "p056f0/AbstractC0814Z.java": {
+    "keys": [
+      "query",
+      "add",
+      "invoke",
+      "ready",
+      "show",
+      "insert",
+      "delete",
+      "replace",
+      "update",
+      "void",
+      "boolean",
+      "openim_card_type_name",
+      "err_not_started",
+      "method",
+      "draw",
+      "reason"
+    ],
+    "tech": [
+      "com.tencent.wcdb.database.SQLiteDatabase",
+      "android.database.sqlite.SQLiteDatabase",
+      "database capture hooks=",
+      "text rebind hook installed",
+      "text rebind hook fail: ",
+      "wechat context menu hooks=",
+      "wechat menu item click hook installed",
+      "menu item click hook skipped (long-press path still works)",
+      "com.tencent.mm.ui.chatting.viewitems",
+      "com.tencent.mm.ui.chatting",
+      "wechat concrete menu hooks create=",
+      "wechat concrete menu selection hook fail: ",
+      "com.tencent.mm.ui.MainTabUI",
+      "hooked MainTabUI.d",
+      "hooked MainTabUI void methods=",
+      "com.tencent.mm.ui.MainTabUI$TabsAdapter",
+      "com.tencent.mm.ui.LauncherUIBottomTabView",
+      "com.tencent.mm.ui.FrostedContentView",
+      "hooked unread bool ",
+      "hooked unread text ",
+      "unread via DexKit main=",
+      "DexKit resolution incomplete for main/friend, using signature fallback (sync-only)",
+      "hooked setVisibility for bottom tab",
+      "hooked FrostedContentView.a",
+      "hooked FrostedContentView.setBottomBlurAreaHeight",
+      "hooked ActionBar text1 setText overloads=",
+      "com.tencent.mm.ui.ga",
+      "hooked ga.C0",
+      "ga.C0 hook: ",
+      "hooked AbsListView dispatchTouchEvent for auto hide",
+      "AbsListView touch hook fail: ",
+      "hooked RecyclerView dispatchTouchEvent for auto hide",
+      "RecyclerView touch hook fail: ",
+      "hooked FrostedContentView dispatchTouchEvent for auto hide",
+      "FrostedContentView touch hook fail: ",
+      "com.tencent.mm.pluginsdk.ui.u",
+      "com.tencent.mm.ui.LauncherUI",
+      "hooked LauncherUI.onResume",
+      "hooked LauncherUI.onWindowFocusChanged",
+      "hooked LauncherUI.onBackPressed",
+      "hooked TabsAdapter.onPageSelected",
+      "hooked MainTabUI.d -> edge swipe",
+      "MainTabUI.d hook fail: ",
+      "hooked LauncherUI.startChatting hide avatar",
+      "com.tencent.mm.ui.NewChattingTabUI",
+      "hooked NewChattingTabUI avatar visibility",
+      "hooked Dialog.show",
+      "Dialog.show hook: ",
+      "DexKit hook setup failed: ",
+      "static doRevokeMsg fallback not found (DexKit primary for 69-76)",
+      "hooked ",
+      "com.tencent.mm.storage.",
+      "com.tencent.mm.pluginsdk.ui.chat.ChatFooter",
+      "hooked ChatFooter constructors: ",
+      "ChatFooter hook skipped: ",
+      "com.tencent.mm.ui.widget.MMNeat7extView",
+      "com.tencent.mm.ui.chatting.adapter.k",
+      "com.tencent.mm.ui.chatting.component.ma",
+      "hooked MMNeat7extView setBackground methods: ",
+      "MMNeat7extView background hook skipped: ",
+      "com.tencent.mm.view.x2c.X2CTextView",
+      "hooked X2CTextView recall cleanup methods: ",
+      "X2CTextView recall cleanup hook skipped: ",
+      "hooked MMNeat setText recall cleanup methods: ",
+      "MMNeat recall text cleanup hook skipped: ",
+      "DexKit setup failed: ",
+      "DexKit clearQuote not found, keep reflection=",
+      "ChatFooter hooked clearMethod=",
+      "ChatFooter hook failed: ",
+      "IME delete hook installed (always; gate at runtime)",
+      "IME hook failed: ",
+      "DexKit clearQuote: ",
+      "onKey hooked: ",
+      "onKey DexKit: no method",
+      "onKey DexKit fail: ",
+      "DexKit clearQuote alt: ",
+      "DexKit clearQuote fail: ",
+      "com.tencent.mm.plugin.sns.storage.SnsSqliteDB",
+      "DexKit:update",
+      "DexKit:rawQuery",
+      "DexKit:execSQL",
+      "DexKit:delete",
+      "DexKit installed ",
+      " sns db hooks",
+      "com.tencent.mm.plugin.sns.storage.n2",
+      " hooks on ",
+      "com.tencent.mm.plugin.sns.storage.SnsCommentStorage",
+      "SnsCommentStorage DexKit fail: ",
+      "com.tencent.mm.plugin.sns.storage.SnsComment",
+      "com.tencent.mm.plugin.sns.storage.SnsInfo",
+      "install done hooks=",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/real_names.json",
+      "com.tencent.mm.plugin.remittance.model.i",
+      "com.tencent.mm.plugin.remittance.model.NetSceneBeforeTransfer",
+      "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
+      "com.tencent.mm.ui.base.preference.r",
+      "com.tencent.mm.ui.base.preference.Preference",
+      "profile page hooked",
+      "hooked android.location.Location getters",
+      "android.location.Location hook failed: ",
+      "DexKit onLocationChanged hooks: ",
+      "hooked u.a",
+      "com.tencent.mm.pluginsdk.ui.x",
+      "hooked drawable ctor",
+      "hooked drawable.draw",
+      "com.tencent.mm.sdk.platformtools.x",
+      "hooked BitmapUtil.",
+      "DexKit.b",
+      "hooked DexKit BitmapUtil ",
+      "DexKit fail: ",
+      "done hooks="
+    ],
+    "ui": [
+      "主 tab 未读方法未命中;",
+      "发现 tab 评论/点赞方法未命中;",
+      "朋友圈红点方法未命中;",
+      "文字指示方法未命中;",
+      "全部未读方法均已解析",
+      "朋友圈评论防撤回已安装 hooks=",
+      "不适配: ",
+      "功能跳过: "
+    ]
+  },
+  "p056f0/C0807S.java": {
+    "keys": [
+      "outline"
+    ]
+  },
+  "p056f0/C0809U.java": {
+    "keys": [
+      "theme_wallpaper_alpha"
+    ],
+    "ui": [
+      "不透明度 "
+    ]
+  },
+  "p056f0/C0810V.java": {
+    "keys": [
+      "primary",
+      "iterator",
+      "ctx",
+      "night_mode",
+      "night_mode_follow",
+      "host",
+      "status_bar_height",
+      "dimen",
+      "android",
+      "navigation_bar_height",
+      "render",
+      "module_log_enabled",
+      "anti_revoke",
+      "act",
+      "member_title_show_member",
+      "member_title_owner",
+      "member_title_admin",
+      "member_title_member",
+      "bubble_enabled",
+      "bubble_path_left",
+      "bubble_path_right",
+      "download_redirect_enabled",
+      "auto_login_win_sync_msg",
+      "auto_login_win_show_device",
+      "auto_login_win_auto_click",
+      "bottom_tab_floating_labels",
+      "bottom_tab_floating_badge",
+      "bottom_tab_title_chats",
+      "bottom_tab_title_contacts",
+      "bottom_tab_title_discover",
+      "bottom_tab_title_me",
+      "round_avatar_radius",
+      "real_name_tail_color",
+      "input_stats_template",
+      "anti_revoke_notice_text",
+      "revoke_notice_enabled",
+      "anti_revoke_keep_self",
+      "virtual_location_enabled",
+      "virtual_location_latitude",
+      "virtual_location_longitude",
+      "input_stats_count_send",
+      "detail_click_show",
+      "detail_template",
+      "detail_time_pattern",
+      "detail_text_size",
+      "detail_text_color_light",
+      "detail_text_color_dark",
+      "swipe_quote",
+      "quote_delete_clear",
+      "edit_message",
+      "member_title",
+      "real_name_tail",
+      "detail_enabled",
+      "input_stats_enabled",
+      "anti_moments_delete",
+      "anti_moments_comment_revoke",
+      "remove_moments_ads",
+      "round_avatar_enabled",
+      "theme_wallpaper_enabled",
+      "home_avatar_entry",
+      "auto_login_win_enabled",
+      "disable_hot_update",
+      "bottom_tab_hide_title",
+      "bottom_tab_floating",
+      "fold_banner_fixed",
+      "hide_home_divider",
+      "profile_id"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/left.9.png",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK/right.9.png"
+    ],
+    "ui": [
+      "点击占位符自动添加以下字段：",
+      "正方",
+      "圆形",
+      "自定义",
+      "方圆",
+      "圆度 ",
+      "功能设置",
+      "即开关即生效 · 复杂的项目可点击右侧 ⚙ 进行配置",
+      "模块诊断",
+      "微信版本与模块 Hook 运行状态总览",
+      "关于",
+      "模块版本信息 · 皮肤主题与高级设置",
+      "未检测",
+      "未知",
+      "模块已激活运行",
+      "微信",
+      "适配检测总结",
+      "当前微信",
+      "未生成报告",
+      "探针汇总",
+      "无",
+      "未按预期加载",
+      "重新检查适配点",
+      "用户点击：重新检查适配",
+      "正在检查中…",
+      "模块运行日志",
+      "日志控制台",
+      "复制完整诊断信息",
+      "外观配色",
+      "当前微信：深色主题",
+      "当前微信：浅色主题",
+      "跟随微信深色",
+      "已跟随微信设置（关闭上方跟身后可手动切换）",
+      "手动切换 OKK 界面深浅配色",
+      "夜间模式",
+      "系统入口",
+      "模块日志输出",
+      "开启后记录 Hook 详细行为日志",
+      "模块信息",
+      "模块名称",
+      "软件版本",
+      "目标作用域",
+      "适配版本范围",
+      "微信 8.0.69–8.0.76（国服 / Play）",
+      "当前运行微信",
+      "配置文件路径",
+      "重置",
+      "重置所有功能",
+      "确定要重置所有功能吗？\n所有开关、壁纸、气泡、虚拟定位、签名等设置将恢复默认，重启微信后完全生效。",
+      "已重置所有功能，重启微信后完全生效",
+      "取消",
+      "将所有设置恢复为默认 >",
+      "防撤回",
+      "拦截撤回指令，保留原消息",
+      "防撤回设置",
+      "显示普通成员徽章",
+      "关闭后仅显示群主与管理员",
+      "群主头衔文案",
+      "群主",
+      "管理员头衔文案",
+      "管理员",
+      "成员头衔文案",
+      "成员",
+      "保存头衔文案",
+      "启用自定义气泡",
+      "替换微信默认对话气泡背景",
+      "左侧气泡 (接收)",
+      "选择左侧气泡 (.9.png)",
+      "右侧气泡 (发送)",
+      "选择右侧气泡 (.9.png)",
+      "提示：选择本地的 .9.png 气泡文件将自动复制到模块目录并生效。建议先在其他软件做好 9patch 处理。",
+      "启用下载重定向",
+      "微信接收的聊天文件保存到自定义目录",
+      "保存目录",
+      "选择保存目录",
+      "恢复默认目录",
+      "提示：选择后新下载的聊天文件将保存到该目录。默认目录为 AChat/download。",
+      "同步最近聊天消息",
+      "自动勾选同步选项",
+      "显示登录设备名称",
+      "勾选显示设备名",
+      "自动点击登录按钮",
+      "页面载入后自动点击登录",
+      "显示底栏标题",
+      "关闭后仅保留图标格",
+      "显示未读角标",
+      "开启数字/红点未读提醒",
+      "第 1 格标题",
+      "第 2 格标题",
+      "通讯录",
+      "第 3 格标题",
+      "发现",
+      "第 4 格标题",
+      "我",
+      "保存底栏标题",
+      "已保存，重启微信生效",
+      "推荐方圆 0.36",
+      "保存头像圆度",
+      "更换壁纸图片",
+      "选择壁纸图片",
+      "清除壁纸（恢复默认）",
+      "清除壁纸（当前无壁纸）",
+      "不透明度 ",
+      "应用壁纸",
+      "文字颜色 (Hex)",
+      "保存实名颜色",
+      "今日已发${totalMsg}条",
+      "已填入并保存",
+      "已保存输入框提示",
+      "已保存实名颜色",
+      "{name}撤回了一条消息",
+      "已保存模板",
+      "显示撤回提示",
+      "在聊天中追加系统撤回提示文案",
+      "保留自己撤回",
+      "自己撤回的消息也同样拦截保存",
+      "撤回提示模板",
+      "保存提示模板",
+      "纬度",
+      "经度",
+      "填入当前真实位置",
+      "在微信地图中选点",
+      "保存修改后的坐标",
+      "输入提示",
+      "统计发送数量",
+      "将发出的消息计入当日统计",
+      "保存",
+      "点击气泡才显示",
+      "默认隐藏，点击聊天气泡后才展开时间",
+      "文本格式",
+      "变量说明：${time} 精确时间 · ${relativeTime} 相对时间 · ${type} 消息类型 · ${msgId} 消息ID · ${msgSvrId} 服务器ID",
+      "时间格式",
+      "字体大小",
+      "日间文字颜色",
+      "夜间文字颜色",
+      "保存格式设置",
+      "已保存消息时间设置",
+      "下载重定向设置",
+      "悬浮底栏配置",
+      "群员头衔文案",
+      "实名信息样式",
+      "消息底部格式",
+      "输入框提示",
+      "气泡皮肤设置",
+      "圆形头像设置",
+      "主题壁纸配置",
+      "虚拟定位设置",
+      "PC 登录自动化选项",
+      "滑动手势引用",
+      "消息左滑快速引用回复",
+      "删除键清引用",
+      "输入框为空时按删除键取消引用",
+      "长按修改消息",
+      "仅修改本地显示文本，对方不可见",
+      "群员头衔",
+      "群昵称旁显示群主/管理员/成员徽章",
+      "实名信息",
+      "群聊/个人聊天界面补充显示实名",
+      "消息底部时间",
+      "消息旁显示精细发送时间",
+      "输入框统计",
+      "输入框实时统计当日已发消息数",
+      "朋友圈防删除",
+      "好友动态删除后本地仍可见",
+      "朋友圈评论防撤回",
+      "对方删除评论后本地保留",
+      "去除朋友圈广告",
+      "自动拦截朋友圈 ADInfo 广告",
+      "气泡皮肤",
+      "使用自定义 9.png 气泡皮肤",
+      "圆形头像",
+      "自定义头像圆角度（方圆/全圆）",
+      "主题壁纸",
+      "主界面/设置背景壁纸与透明度",
+      "侧边栏",
+      "会话首页左上角显示入口，打开快捷侧边栏",
+      "虚拟定位",
+      "改写腾讯定位服务经纬度",
+      "PC 自动登录",
+      "登录确认页自动勾选并提交",
+      "屏蔽热更新",
+      "禁用 Tinker 补丁热更新",
+      "下载重定向",
+      "隐藏底栏标题",
+      "底栏标签隐藏文字仅保留图标",
+      "悬浮底栏",
+      "圆角胶囊底栏与四个自定义标题",
+      "折叠置顶固定",
+      "固定首页折叠置顶聊天列表项",
+      "屏蔽首页分割线",
+      "隐藏会话行之间的细分割线",
+      "资料页显示 ID",
+      "联系人与群资料页补充显示 wxid",
+      " 已开启",
+      "OKK 打开失败: "
+    ]
+  },
+  "p056f0/C0811W.java": {
+    "keys": [
+      "insert",
+      "installed",
+      "advert",
+      "load",
+      "tinker",
+      "hide_home_divider",
+      "dz8",
+      "none",
+      "f200744h",
+      "banner",
+      "fold",
+      "init"
+    ],
+    "tech": [
+      "com.tencent.mm.sdk.platformtools.u6",
+      "com.tencent.mm.platformtools.ExportFileUtil",
+      "hooked ExportFileUtil.m",
+      "hooked Toast.makeText",
+      "hooked ScopedStorageUtil.c ",
+      "com.tencent.mm.ui.LauncherUIBottomTabView",
+      "class not found: com.tencent.mm.ui.LauncherUIBottomTabView",
+      "hooked com.tencent.mm.ui.LauncherUIBottomTabView constructors/attach",
+      "hooked Activity.onResume",
+      "com.tencent.mm.ui.LauncherUI",
+      "hooked LauncherUI.onCreate",
+      "hooked LauncherUI.closeChatting",
+      "hooked LauncherUI.startChatting",
+      "com.tencent.mm.ui.NewChattingTabUI",
+      "hooked NewChattingTabUI.r",
+      "hooked NewChattingTabUI.q",
+      "hooked NewChattingTabUI.f",
+      "com.tencent.mm.pluginsdk.ui.chat.ChatFooter",
+      "hooked ChatFooter constructors: ",
+      "ChatFooter hook skipped: ",
+      "com.tencent.mm.ui.widget.cedit.api.MMFlexEditText",
+      "hooked MMFlexEditText constructors: ",
+      "MMFlexEditText hook skipped: ",
+      "hooked TextView.setHint(CharSequence)",
+      "TextView.setHint hook skipped: ",
+      "com.tencent.wcdb.database.SQLiteDatabase",
+      "android.database.sqlite.SQLiteDatabase",
+      "hooked ",
+      "com.tencent.mm.plugin.sns.storage.ADInfo",
+      "hooked ADInfo paths count=",
+      "ADInfo hook fail: ",
+      "com.tencent.tinker.loader.shareutil.ShareTinkerInternals",
+      "ShareTinkerInternals hooks=",
+      "com.tencent.tinker.loader.TinkerLoader",
+      "/data/data/com.tencent.mm/tinker",
+      "/data/user/0/com.tencent.mm/tinker",
+      "settings entry hooks installed count=",
+      "modern cleanup onCreate hook fail: ",
+      "modern settings list injection disabled; cleanup hooks=",
+      "plus helper resolved via DexKit: ",
+      "plus helper DexKit candidates rejected: ",
+      "com.tencent.mm.ui.rg",
+      "plus helper class not resolved (DexKit + fallback both failed)",
+      "plus menu display hooked ",
+      "plus display hook fail ",
+      "plus adapter factory hooked ",
+      "plus adapter factory hook fail: ",
+      "plus click hook fail: ",
+      "home plus menu hooked count=",
+      "com.tencent.mm.ui.mg",
+      "plus adapter count hooked ",
+      "plus adapter count hook fail: ",
+      "plus adapter view hooked ",
+      "plus adapter view hook fail: ",
+      "home plus adapter hooked count=",
+      "plus data manager rebuild hooked ",
+      "plus data manager hook fail ",
+      "plus data manager hooked count=",
+      "com.tencent.mm.R$id",
+      "com.tencent.mm.ui.conversation.MainUI",
+      "com.tencent.mm.ui.conversation.ConversationListView",
+      "hooked com.tencent.mm.ui.conversation.MainUI.onResume only",
+      "MainUI.onResume hook failed: ",
+      "hooked ConversationListView.setFoldBanner",
+      "hooked View.setVisibility",
+      "hooked View.setTranslationY",
+      "hooked View.setAlpha",
+      "hooked ConversationListView.onScroll/layoutChildren",
+      "list hooks: ",
+      "com.tencent.mm.ui.conversation.l5",
+      "hooked FolderHelper.",
+      "hooked MainUI lifecycle for lt5",
+      "hooked ViewGroup.addView for lt5",
+      "com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI",
+      "no onCreate method found on com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI",
+      "hooks ready for com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI",
+      "class not found: com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI (",
+      "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
+      "com.tencent.mm.chatroom.ui.ChatroomInfoUI"
+    ],
+    "ui": [
+      "加号菜单入口已注入",
+      "加号菜单入口注入失败，模块无可见入口",
+      "严重：加号菜单入口注入失败，模块将没有可见入口"
+    ]
+  },
+  "p056f0/C0813Y.java": {
+    "keys": [
+      "act",
+      "virtual_location_enabled",
+      "bottom_tab_floating",
+      "theme_wallpaper_enabled"
+    ]
+  },
+  "p056f0/C0817b.java": {
+    "keys": [
+      "title"
+    ]
+  },
+  "p056f0/C0818b0.java": {
+    "keys": [
+      "args"
+    ]
+  },
+  "p056f0/C0820c0.java": {
+    "keys": [
+      "cache"
+    ],
+    "tech": [
+      "core hooks already installed, skip (",
+      "install core hooks via ",
+      "/sdcard/Android/media/com.tencent.mm/OKK/hook_alive.txt",
+      "WeChatVersion",
+      "seen wechat source=libxposed process=",
+      "com.tencent.tinker.loader.app.TinkerApplication",
+      "Tinker startup hooks installed: ",
+      "com.tencent.mm.app.Application",
+      "hooked ",
+      "WARNING: failed to hook Application.onCreate"
+    ],
+    "ui": [
+      "开始加载核心 Hook · ",
+      "适配指纹 needPopup=",
+      "已先按旧缓存恢复功能，稍后可更新 DEX 缓存",
+      "将在主界面弹出适配检查（重装/首次）"
+    ]
+  },
+  "p056f0/C0826f0.java": {
+    "ui": [
+      " (rg.s 未赋值且无数据管理器渲染 map)"
+    ]
+  },
+  "p056f0/C0829h.java": {
+    "keys": [
+      "activity",
+      "lifecycle",
+      "started"
+    ]
+  },
+  "p056f0/C0830i.java": {
+    "keys": [
+      "paused",
+      "activity",
+      "fingerprint"
+    ],
+    "tech": [
+      "com.tencent.mm.ui.LauncherUI",
+      "wechatSummary"
+    ],
+    "ui": [
+      "运行时安装失败",
+      "本次未安装",
+      "运行时部分生效"
+    ]
+  },
+  "p056f0/C0840s.java": {
+    "tech": [
+      "hook onResume failed: ",
+      "hook onActivityResult failed: ",
+      "wechat "
+    ],
+    "ui": [
+      "今日已发${totalMsg}条",
+      " range=微信 8.0.69–8.0.76（国服 / Play）",
+      "当前微信: "
+    ]
+  },
+  "p056f0/C0843v.java": {
+    "keys": [
+      "map_view_type",
+      "map_pick_request",
+      "map_pick_result"
+    ],
+    "tech": [
+      "com.tencent.mm.plugin.location.ui.RedirectUI",
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "无法获取当前位置，请开启系统定位权限",
+      "已自动填入",
+      "请在地图上选择位置",
+      "已发送选点请求，请在微信中确认",
+      "已保存坐标并激活",
+      " 已开启"
+    ]
+  },
+  "p056f0/DialogC0823e.java": {
+    "keys": [
+      "host",
+      "title",
+      "bar"
+    ],
+    "ui": [
+      "正在检查：",
+      "功能适配检查",
+      "准备中…",
+      "正在检测各功能在当前微信上的适配点…"
+    ]
+  },
+  "p056f0/DialogC0827g.java": {
+    "keys": [
+      "host",
+      "clipboard"
+    ],
+    "ui": [
+      "适配完成",
+      "正常 ",
+      " · 需关注 ",
+      " · 不适配 ",
+      "当前版本命中全部已知适配点，可直接使用。",
+      "以下仅展示需关注或不适配的项目；未列出的功能默认按正常处理。",
+      "复制报告",
+      "已复制",
+      "完成"
+    ]
+  },
+  "p056f0/EnumC0796G.java": {
+    "ui": [
+      "聊天增强",
+      "朋友圈防护",
+      "视觉外观",
+      "增强辅助",
+      "界面细节"
+    ]
+  },
+  "p056f0/EnumC0806Q.java": {
+    "ui": [
+      "功能",
+      "诊断",
+      "关于"
+    ]
+  },
+  "p056f0/RunnableC0819c.java": {
+    "ui": [
+      "适配完成 ",
+      "报告已更新（安装策略下次启动生效）"
+    ]
+  },
+  "p056f0/RunnableC0845x.java": {
+    "keys": [
+      "map_pick_result",
+      "lat",
+      "lon"
+    ],
+    "tech": [
+      "/storage/emulated/0/Android/media/com.tencent.mm/OKK"
+    ],
+    "ui": [
+      "选点成功"
+    ]
+  },
+  "p056f0/ViewOnClickListenerC0834m.java": {
+    "keys": [
+      "render"
+    ]
+  }
+}

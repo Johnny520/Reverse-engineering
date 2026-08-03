@@ -1,0 +1,44 @@
+package p084u0;
+
+import android.content.Context;
+import android.graphics.Typeface;
+import android.text.TextPaint;
+import p056f0.AbstractC0805P;
+
+/* JADX INFO: renamed from: u0.c */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1098c extends AbstractC0805P {
+
+    /* JADX INFO: renamed from: b */
+    public final /* synthetic */ Context f4229b;
+
+    /* JADX INFO: renamed from: c */
+    public final /* synthetic */ TextPaint f4230c;
+
+    /* JADX INFO: renamed from: d */
+    public final /* synthetic */ AbstractC0805P f4231d;
+
+    /* JADX INFO: renamed from: e */
+    public final /* synthetic */ C1099d f4232e;
+
+    public C1098c(C1099d r1, Context r2, TextPaint r3, AbstractC0805P r4) {
+        this.f4232e = r1;
+        this.f4229b = r2;
+        this.f4230c = r3;
+        this.f4231d = r4;
+    }
+
+    @Override // p056f0.AbstractC0805P
+    /* JADX INFO: renamed from: M */
+    public final void mo2059M(int r2) {
+        this.f4231d.mo2059M(r2);
+    }
+
+    @Override // p056f0.AbstractC0805P
+    /* JADX INFO: renamed from: N */
+    public final void mo2060N(Typeface r4, boolean r5) {
+        TextPaint r02 = this.f4230c;
+        this.f4232e.m2591g(this.f4229b, r02, r4);
+        this.f4231d.mo2060N(r4, r5);
+    }
+}

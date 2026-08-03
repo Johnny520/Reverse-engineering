@@ -1,0 +1,448 @@
+﻿
+com/abc/core/hooks/ModuleLog.java
+ keys: text,charset,msg,module_log_enabled
+ ui: ��־��¼ | OKK ��־���Ѿ��� �� ��¼= | �� | �� | ��־����� | ��־��¼�� | ���� | �ر�
+
+com/abc/loader/HookEntry.java
+ keys: lpparam
+ ui: 
+
+com/abc/loader/ModernHookEntry.java
+ keys: param
+ ui: 
+
+p049b0/AbstractC0553c.java
+ keys: context,bridge,strings,dexkit,arm64,armeabi,x86_64,x86,achat_dexkit
+ ui: 
+
+p049b0/AbstractC0561k.java
+ keys: probe
+ ui: ������� | ������ҳ�ָ��� | �۵����� | ����ͼ�� | �������� | Բ��ͷ�� | ��ҳͷ����� | �����ֽ
+
+p049b0/AbstractC0567q.java
+ keys: null,wxid_
+ ui: 
+
+p049b0/C0551a.java
+ keys: fingerprint
+ ui: 
+
+p049b0/C0552b.java
+ keys: bridge
+ ui: 
+
+p049b0/C0555e.java
+ keys: ctx,param,args
+ ui: 
+
+p049b0/C0556f.java
+ keys: error
+ ui: 
+
+p049b0/C0562l.java
+ keys: name
+ ui: 
+
+p049b0/C0564n.java
+ keys: title,level,detail
+ ui: 
+
+p049b0/C0566p.java
+ keys: receiver,name,instance
+ ui: 
+
+p049b0/C0569s.java
+ keys: 
+ ui: δ��֤ | ���ܿ��ã�ƫ�ߣ� | ���ܿ��ã�ƫ�ͣ� | ������
+
+p050c0/AbstractC0597J.java
+ keys: 
+ ui: ΢�� | ͨѶ¼ | ���� | ��
+
+p050c0/AbstractC0600K.java
+ keys: content
+ ui: 
+
+p050c0/AbstractC0604L0.java
+ keys: voiceinfo,videoinfo2
+ ui: 
+
+p050c0/AbstractC0610N0.java
+ keys: member_title_owner,member_title_member,member_title_admin,field_roomowner,member_title,dexkit,abc_,member_title_show_member,room,sender,roomowner
+ ui: Ⱥ�� | ��Ա | ����Ա
+
+p050c0/AbstractC0626U.java
+ keys: padding,bubble_path_right,bubble_path_left,right,righ,left
+ ui: 
+
+p050c0/AbstractC0637Z0.java
+ keys: f146203o
+ ui: 
+
+p050c0/AbstractC0642b0.java
+ keys: roomdata,close,nickname,alias
+ ui: �Է�
+
+p050c0/AbstractC0680o.java
+ keys: message,wxid_,replacemsg,sysmsg,pattern,input,filehelper,fmessage,medianote,newsapp,weixin,text,xwechat_files,emulated,cdnmidimgurl,aeskey,length,revokemsg,revoke,replacement,session
+ ui: ������һ����Ϣ | ����һ����Ϣ | ��Ϣ�ѳ��� | �㳷����һ����Ϣ | �㳷��һ����Ϣ | {name}������һ����Ϣ | {name}��������һ����Ϣ {content} | {name}��������һ����Ϣ
+
+p050c0/C0570A.java
+ keys: param,args,view,clazz,update,input,updated
+ ui: Сʱǰ | ����ǰ
+
+p050c0/C0571A0.java
+ keys: view,outline
+ ui: 
+
+p050c0/C0574B0.java
+ keys: args,status_bar_height,dimen,android
+ ui: 
+
+p050c0/C0575B1.java
+ keys: theme_wallpaper_enabled,theme_wallpaper_alpha,theme_wallpaper_path,theme_wallpaper_updated
+ ui: 
+
+p050c0/C0577C0.java
+ keys: activity
+ ui: 
+
+p050c0/C0580D0.java
+ keys: f190364a,achat_home_avatar_v3,achat_home_avatar_v3_avatar,achat_home_avatar_v3_nick,achat_home_avatar_v3_status,status_bar_height,dimen,android,home_avatar_entry,activity
+ ui: ͷ�� | �� | ����
+
+p050c0/C0581D1.java
+ keys: module_log_enabled
+ ui: 
+
+p050c0/C0585F.java
+ keys: args
+ ui: 
+
+p050c0/C0586F0.java
+ keys: input_stats_template,input_stats_enabled,input_stats_count_send
+ ui: �����ѷ�${totalMsg}��
+
+p050c0/C0588G.java
+ keys: strings,action_bar,input,f190271a
+ ui: 
+
+p050c0/C0590G1.java
+ keys: activity,achat_global_bg_overlay_v4,achat_global_bg_overlay,k7n,o7q,achat_page_bg_under_content_v1,chatting,achat_under_wallpaper_v1,setting,f190374k
+ ui: δ���ã���򿪡����ñ�ֽ�� | ��ͼƬ������ѡ���ֽ | ��ص�΢����ҳ�ٵ�Ӧ�� | ��Ӧ��  |  �� �� ��͸���� | %���������֣� | Ӧ��ʧ�ܣ�
+
+p050c0/C0591H.java
+ keys: view,icon_tv,name,abc_module_settings_entry
+ ui: 
+
+p050c0/C0593H1.java
+ keys: args,theme_wallpaper_path,theme_wallpaper_enabled,theme_wallpaper_updated
+ ui: 
+
+p050c0/C0595I0.java
+ keys: abc_input_stats,date,talker,field_talker,username,field_username,rowid,field_rowid
+ ui: 
+
+p050c0/C0596I1.java
+ keys: args,focus
+ ui: 
+
+p050c0/C0598J0.java
+ keys: template
+ ui: �����ѷ�${totalMsg}��
+
+p050c0/C0599J1.java
+ keys: f190366c,f190364a
+ ui: 
+
+p050c0/C0605L1.java
+ keys: map_pick_request,virtual_location_enabled,virtual_location_latitude,true,virtual_location_longitude,location,gps,network,passive,virtual_location_updated
+ ui: 
+
+p050c0/C0606M.java
+ keys: method,send,resend,forward,repeat,field,nested
+ ui: 
+
+p050c0/C0607M0.java
+ keys: canvas,paint
+ ui: 
+
+p050c0/C0611N1.java
+ keys: dexkit,abc_
+ ui: 
+
+p050c0/C0614O1.java
+ keys: map_pick_result,map_pick_request
+ ui: OKK��������ͼ���ʧ�� | OKK����ѡ�� %.5f, %.5f
+
+p050c0/C0617P1.java
+ keys: text
+ ui: 
+
+p050c0/C0619Q0.java
+ keys: brc,user
+ ui: δ���� | ������ | ������ | �ѹ��� | ΢����ҳ�� | ������Ƭ | ת���� | ����Ϊ����Ϣ
+
+p050c0/C0620Q1.java
+ keys: activity,extras
+ ui: 
+
+p050c0/C0621R0.java
+ keys: wxid_,field_talker,talker,field_sender,sender,field_content,content
+ ui: 
+
+p050c0/C0625T0.java
+ keys: template
+ ui: 
+
+p050c0/C0627U0.java
+ keys: value
+ ui: 
+
+p050c0/C0630W.java
+ keys: method
+ ui: 
+
+p050c0/C0634Y.java
+ keys: parent,child
+ ui: 
+
+p050c0/C0636Z.java
+ keys: args,bubble_path_right,bubble_path_left,bubble_enabled
+ ui: ����Ƥ�����ɹ��� | ����ʧ��: 
+
+p050c0/C0639a0.java
+ keys: c3g,c3h,conversation,chatting,dexkit,abc_chat_,field_type,static,detail_horizontal_margin,detail_left_margin,detail_right_margin,detail_text_color_light,detail_text_color,detail_text_color_dark,detail_enabled,detail_template,detail_time_pattern,detail_text_size,detail_click_show,options,timetv,avatariv,usertv,time,avatar,history,nomore,mask,checkbox,check,field_content,activity
+ ui: ��һ | �ܶ� | ���� | ���� | ���� | ���� | ���� | ��
+
+p050c0/C0641b.java
+ keys: method,name,result
+ ui: 
+
+p050c0/C0644c.java
+ keys: field_commentflag,args,commentflag
+ ui: ����Ȧ���� update ��дΪ[��ɾ��] | ���� SnsComment setCommentDeleted | ��������Ȧ������ɾ����־
+
+p050c0/C0645c0.java
+ keys: disable_hot_update
+ ui: 
+
+p050c0/C0646c1.java
+ keys: uxinfo,aid,type,action
+ ui: 
+
+p050c0/C0647d.java
+ keys: args
+ ui: 
+
+p050c0/C0648d0.java
+ keys: args,download_redirect_tree_uri
+ ui: 
+
+p050c0/C0649d1.java
+ keys: remove_moments_ads
+ ui: 
+
+p050c0/C0650e.java
+ keys: 
+ ui: ��������Ȧ����ɾ�������[��ɾ��](
+
+p050c0/C0651e0.java
+ keys: fail,download_redirect_enabled,download_redirect_dir,dir
+ ui: ���� | ���� | ʧ�� | �ѱ��� | �ѱ��浽: 
+
+p050c0/C0653f.java
+ keys: args,achat_profile_id
+ ui: ��ȡʧ�� | ΢�� ID:  | ������� | ����Ȧ���۷�ɾ: �ϲ��� CommentUserList + [��ɾ��]
+
+p050c0/C0655f1.java
+ keys: profile_id,kintent_talker,wxid_,input,talker,username
+ ui: 
+
+p050c0/C0656g.java
+ keys: args,commentflag,field_commentflag,f233756s,f233744d,username,f233750m,anti_moments_comment_revoke,dexkit,abc_cmt_,f233748h,content,wxid_
+ ui: [��ɾ��] | (��ɾ��) | [��ɾ��] 
+
+p050c0/C0661h1.java
+ keys: anti_revoke,true,revoke_notice_enabled,anti_revoke_keep_self,false,anti_revoke_notice_text,media_protect_enabled,anti_moments_delete,swipe_quote,swipe_repeat,quote_delete_clear,bubble_enabled,settings_entry_enabled,module_log_enabled,bottom_tab_hide_title,detail_enabled,detail_template,detail_time_pattern,detail_text_size,detail_left_margin,detail_right_margin,detail_text_color_light,detail_text_color_dark,detail_click_show,input_stats_enabled,input_stats_count_send,input_stats_template,round_avatar_enabled,round_avatar_radius,anti_moments_comment_revoke,virtual_location_enabled,virtual_location_latitude,virtual_location_longitude,auto_login_win_enabled,auto_login_win_sync_msg,auto_login_win_show_device,auto_login_win_auto_device,auto_login_win_auto_click,remove_moments_ads,profile_id
+ ui: {name}������һ����Ϣ | �����ѷ�${totalMsg}�� | OKK ������ | Ⱥ�� | ����Ա | ��Ա | ΢�� | ͨѶ¼
+
+p050c0/C0662i.java
+ keys: args,content
+ ui: [��ɾ��] | (��ɾ��)
+
+p050c0/C0664i1.java
+ keys: args
+ ui: 
+
+p050c0/C0665j.java
+ keys: args,field_type,field_content,field_talker,message,type,content,abc_input_stats,f150798r,f206693n,f66769b,f66756a,f231704f
+ ui: 
+
+p050c0/C0667j1.java
+ keys: event
+ ui: 
+
+p050c0/C0668k.java
+ keys: dexkit,abc_moments_
+ ui: 
+
+p050c0/C0670k1.java
+ keys: set,quote_delete_clear,dexkit,abc_
+ ui: 
+
+p050c0/C0674m.java
+ keys: args,download_redirect_tree_uri,download_redirect_enabled,delete,update,rcontact,message,username,nickname,alias,f191135q,achat_profile_id,clipboard,wxid,achat_real_name_tail,room_name
+ ui: ����Ŀ¼�����ã� | ����Ŀ¼ʧ�ܣ� | �޷�������ѡĿ¼�������� | �Ѹ���  | �޷���ȡ΢�� ID | ʵ��:  | ���ڻ�ȡ... | �޷�������
+
+p050c0/C0675m0.java
+ keys: args
+ ui: 
+
+p050c0/C0677n.java
+ keys: type,content,talker,session,newmsgid,dexkit,abc_
+ ui: �Է�
+
+p050c0/C0678n0.java
+ keys: wxid_,field_content,content,chatting,raw,drawable,type,icons_filled_edit_photo_pencil,update,message,edit_message,dexkit,abc_,input,field_type
+ ui: ��ǰ��Ϣ�����޸� | �޸���Ϣ | ȷ�� | ���޸ı�����ʾ | ȡ�� | �޷������༭�� | �޸� | \d{1,2}��\d{1,2}��\s+\d{1,2}:\d{2}
+
+p050c0/C0679n1.java
+ keys: name
+ ui: 
+
+p050c0/C0683p.java
+ keys: anti_revoke,revoke_notice_enabled,anti_revoke_keep_self,anti_revoke_notice_text,media_protect_enabled,anti_moments_delete,swipe_quote,bubble_enabled,settings_entry_enabled
+ ui: {name}������һ����Ϣ
+
+p050c0/C0684p0.java
+ keys: args
+ ui: 
+
+p050c0/C0687q0.java
+ keys: lt5,fold,f200744h,banner
+ ui: 
+
+p050c0/C0688q1.java
+ keys: string,real_name_tail_color,doscene,achat_real_name_tail,real_name_tail,dexkit,abc_
+ ui: ʵ��:  | �����ȡ | ��ȡʵ��β��
+
+p050c0/C0689r.java
+ keys: auto_login_win_enabled,auto_login_win_sync_msg,auto_login_win_show_device,auto_login_win_auto_device,auto_login_win_auto_click
+ ui: 
+
+p050c0/C0695t.java
+ keys: init
+ ui: 
+
+p050c0/C0697t1.java
+ keys: content
+ ui: 
+
+p050c0/C0698u.java
+ keys: args
+ ui: 
+
+p050c0/C0700u1.java
+ keys: message
+ ui: 
+
+p050c0/C0703v1.java
+ keys: default,round_avatar_enabled,round_avatar_radius,public
+ ui: 
+
+p050c0/C0704w.java
+ keys: 
+ ui: ��¼ | ���� | �_�J | ȷ��
+
+p050c0/C0706w1.java
+ keys: dexkit,abc_avatar_
+ ui: 
+
+p050c0/C0708x0.java
+ keys: round_avatar_radius
+ ui: �� | �ѱ���Բ�� 
+
+p050c0/C0709x1.java
+ keys: source
+ ui: 
+
+p050c0/C0710y.java
+ keys: bottom_tab_hide_title,bottom_tab_floating,bottom_tab_floating_labels,bottom_tab_floating_badge,bottom_tab_title_chats,bottom_tab_title_contacts,bottom_tab_title_discover,bottom_tab_title_me
+ ui: ΢�� | ͨѶ¼ | ���� | ��
+
+p050c0/EnumC0583E0.java
+ keys: qrcode,pay,service,favorite
+ ui: �ҵĶ�ά�� | չʾ���˶�ά�� | �ո��� | ������ / �տ� | ���� | ֧������� | �ղ� | �ҵ��ղ�
+
+p050c0/RunnableC0573B.java
+ keys: timeout
+ ui: 
+
+p050c0/RunnableC0701v.java
+ keys: map_view_type
+ ui: OKK�����ڵ�ͼ��ѡ��λ�� | OKK����΢�ŵ�ͼʧ�� 
+
+p050c0/ViewTreeObserverOnPreDrawListenerC0587F1.java
+ keys: activity
+ ui: 
+
+p052d0/C0741b.java
+ keys: fav,mall,offline,setting
+ ui: �޷��򿪡�
+
+p052d0/C0742c.java
+ keys: theme_wallpaper_path,theme_wallpaper_updated,theme_wallpaper_enabled
+ ui: �������δ���� | �޷������� | �޷���Ŀ¼ѡ���� | �ѻָ�Ĭ�ϣ�/storage/emulated/0/Android/media/com.tencent.mm/OKK/download | ѡ���ֽ | ѡ����ɺ�㡸Ӧ�ñ�ֽ�� | �������ֽ���ָ�Ĭ��
+
+p052d0/C0744e.java
+ keys: home_drawer_signature,home_drawer_signature_tip_shown,true,home_drawer_shortcuts,member_title_owner,member_title_admin,member_title_member,clipboard
+ ui: OKK ������ | ǩ���ѱ��� | �ѱ���  |  ����� | ���ٱ��� 1 ����� | Ⱥ�� | ����Ա | ��Ա
+
+p052d0/C0753n.java
+ keys: panel,dim
+ ui: 
+
+p052d0/C0754o.java
+ keys: view,outline
+ ui: 
+
+p052d0/C0755p.java
+ keys: animation
+ ui: 
+
+p052d0/C0756q.java
+ keys: animation
+ ui: 
+
+p052d0/C0758s.java
+ keys: labels,canvas,event
+ ui: ΢�� | ͨѶ¼ | ���� | ��
+
+p054e0/C0767a.java
+ keys: detail
+ ui: 
+
+p054e0/C0769c.java
+ keys: detail
+ ui: ���ܰ�װʧ��:  | ���ܰ�װ�ɹ�:  | ���ܲ�����Ч: 
+
+p056f0/AbstractC0805P.java
+ keys: path
+ ui: 
+
+p056f0/AbstractC0814Z.java
+ keys: query,add,invoke,ready,show,insert,delete,replace,update,void,boolean,openim_card_type_name,err_not_started,method,draw,reason
+ ui: �� tab δ������δ����; | ���� tab ����/���޷���δ����; | ����Ȧ��㷽��δ����; | ����ָʾ����δ����; | ȫ��δ���������ѽ��� | ����Ȧ���۷������Ѱ�װ hooks= | ������:  | ��������: 
+
+p056f0/C0807S.java
+ keys: outline
+ ui: 
+
+p056f0/C0809U.java
+ keys: theme_wallpaper_alpha
+ ui: ��͸���� 
+
+p056f0/C0810V.java
+ keys: primary,iterator,ctx,night_mode,night_mode_follow,host,status_bar_height,dimen,android,navigation_bar_height,render,module_log_enabled,anti_revoke,act,member_title_show_member,member_title_owner,member_title_admin,member_title_member,bubble_enabled,bubble_path_left,bubble_path_right,download_redirect_enabled,auto_login_win_sync_msg,auto_login_win_show_device,auto_login_win_auto_click,bottom_tab_floating_labels,bottom_tab_floating_badge,bottom_tab_title_chats,bottom_tab_title_contacts,bottom_tab_title_discover,bottom_tab_title_me,round_avatar_radius,real_name_tail_color,input_stats_template,anti_revoke_notice_text,revoke_notice_enabled,anti_revoke_keep_self,virtual_location_enabled,virtual_location_latitude,virtual_location_longitude
+ ui: 

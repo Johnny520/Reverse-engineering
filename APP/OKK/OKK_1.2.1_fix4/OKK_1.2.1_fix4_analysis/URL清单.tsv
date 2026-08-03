@@ -1,0 +1,5 @@
+URL	类型	引用位置
+http://schemas.android.com/apk/res-auto	Android XML 命名空间	classes.dex | smali/com/google/android/material/chip/Chip.smali:472
+http://schemas.android.com/apk/res/android	Android XML 命名空间	classes.dex | smali/com/google/android/material/chip/Chip.smali:149
+https://t.me/OKK_Group	应用外链	classes.dex | p052d0/C0742c.java:85 | smali/d0.1/c.smali:537
+https://android.googlesource.com/toolchain/llvm-project	DexKit 原生库编译工具链标识	lib/arm64-v8a/libdexkit.so | lib/armeabi-v7a/libdexkit.so

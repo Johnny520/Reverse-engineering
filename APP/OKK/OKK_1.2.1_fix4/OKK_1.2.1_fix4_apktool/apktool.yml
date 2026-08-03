@@ -1,0 +1,19 @@
+version: 3.0.2
+apkFileName: OKK_1.2.1_fix4.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 13
+  versionName: 1.2.1
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

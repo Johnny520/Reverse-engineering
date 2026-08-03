@@ -1,0 +1,21 @@
+package p034S;
+
+/* JADX INFO: renamed from: S.p */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0336p {
+
+    /* JADX INFO: renamed from: a */
+    public final int f653a;
+
+    /* JADX INFO: renamed from: b */
+    public final byte[] f654b;
+
+    /* JADX INFO: renamed from: c */
+    public final boolean f655c;
+
+    public C0336p(int i2, byte[] bArr, boolean z2) {
+        this.f653a = i2;
+        this.f654b = bArr;
+        this.f655c = z2;
+    }
+}

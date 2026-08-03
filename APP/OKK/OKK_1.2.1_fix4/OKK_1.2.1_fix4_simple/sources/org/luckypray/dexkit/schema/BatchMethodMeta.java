@@ -1,0 +1,151 @@
+package org.luckypray.dexkit.schema;
+
+import com.google.flatbuffers.AbstractC0735d;
+import com.google.flatbuffers.C0733b;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import p031Q0.AbstractC0304d;
+import p031Q0.AbstractC0307g;
+import p034S.AbstractC0324d;
+
+/* JADX INFO: renamed from: org.luckypray.dexkit.schema.-BatchMethodMeta */
+/* JADX INFO: loaded from: classes.dex */
+public final class BatchMethodMeta extends AbstractC0735d {
+    public static final Companion Companion = null;
+
+    /* JADX INFO: renamed from: org.luckypray.dexkit.schema.-BatchMethodMeta$Companion */
+    public static final class Companion {
+        private Companion() {
+        }
+
+        public final void addMethods(C0733b r2, int r3) {
+            AbstractC0307g.m703e(r2, "builder");
+            r2.m1925h(1, r3);
+        }
+
+        public final void addUnionKey(C0733b r2, int r3) {
+            AbstractC0307g.m703e(r2, "builder");
+            r2.m1925h(0, r3);
+        }
+
+        public final int createBatchMethodMeta(C0733b r2, int r3, int r4) {
+            AbstractC0307g.m703e(r2, "builder");
+            r2.m1936s(2);
+            addMethods(r2, r4);
+            addUnionKey(r2, r3);
+            return endBatchMethodMeta(r2);
+        }
+
+        public final int createMethodsVector(C0733b r3, int[] r4) {
+            AbstractC0307g.m703e(r3, "builder");
+            AbstractC0307g.m703e(r4, "data");
+            r3.m1937t(4, r4.length, 4);
+            int r02 = r4.length;
+        L3:
+            r02 = r02 - 1;
+            if ((-1) >= r02) goto L7;
+            r3.m1924g(r4[r02]);
+            goto L3
+        L7:
+            return r3.m1930m();
+        }
+
+        public final int endBatchMethodMeta(C0733b r2) {
+            AbstractC0307g.m703e(r2, "builder");
+            return r2.m1929l();
+        }
+
+        public final BatchMethodMeta getRootAsBatchMethodMeta(ByteBuffer r2) {
+            AbstractC0307g.m703e(r2, "_bb");
+            return getRootAsBatchMethodMeta(r2, new BatchMethodMeta());
+        }
+
+        public final void startBatchMethodMeta(C0733b r2) {
+            AbstractC0307g.m703e(r2, "builder");
+            r2.m1936s(2);
+        }
+
+        public final void startMethodsVector(C0733b r2, int r3) {
+            AbstractC0307g.m703e(r2, "builder");
+            r2.m1937t(4, r3, 4);
+        }
+
+        public final void validateVersion() {
+        }
+
+        public /* synthetic */ Companion(AbstractC0304d r1) {
+            this();
+        }
+
+        public final BatchMethodMeta getRootAsBatchMethodMeta(ByteBuffer r3, BatchMethodMeta r4) {
+            AbstractC0307g.m703e(r3, "_bb");
+            AbstractC0307g.m703e(r4, "obj");
+            int r02 = AbstractC0324d.m719b(r3, ByteOrder.LITTLE_ENDIAN);
+            return r4.__assign(r3.position() + r02, r3);
+        }
+    }
+
+    static {
+        Companion = new Companion(null);
+    }
+
+    public BatchMethodMeta() {
+    }
+
+    public final BatchMethodMeta __assign(int r2, ByteBuffer r3) {
+        AbstractC0307g.m703e(r3, "_bb");
+        __init(r2, r3);
+        return this;
+    }
+
+    public final void __init(int r2, ByteBuffer r3) {
+        AbstractC0307g.m703e(r3, "_bb");
+        __reset(r2, r3);
+    }
+
+    public final int getMethodsLength() {
+        int r02 = __offset(6);
+        if (r02 != 0) goto L7;
+        return 0;
+    L7:
+        return __vector_len(r02);
+    }
+
+    public final String getUnionKey() {
+        int r02 = __offset(4);
+        if (r02 != 0) goto L7;
+        return null;
+    L7:
+        return __string(r02 + this.bb_pos);
+    }
+
+    public final ByteBuffer getUnionKeyAsByteBuffer() {
+        ByteBuffer r02 = __vector_as_bytebuffer(4, 1);
+        AbstractC0307g.m702d(r02, "__vector_as_bytebuffer(4, 1)");
+        return r02;
+    }
+
+    public final MethodMeta methods(int r2) {
+        return methods(new MethodMeta(), r2);
+    }
+
+    public final ByteBuffer unionKeyInByteBuffer(ByteBuffer r3) {
+        AbstractC0307g.m703e(r3, "_bb");
+        ByteBuffer r32 = __vector_in_bytebuffer(r3, 4, 1);
+        AbstractC0307g.m702d(r32, "__vector_in_bytebuffer(_bb, 4, 1)");
+        return r32;
+    }
+
+    public final MethodMeta methods(MethodMeta r3, int r4) {
+        AbstractC0307g.m703e(r3, "obj");
+        int r02 = __offset(6);
+        if (r02 == 0) goto L5;
+        int r42 = r4 * 4;
+        int r43 = __indirect(r42 + __vector(r02));
+        ByteBuffer r03 = this.f2573bb;
+        AbstractC0307g.m702d(r03, "bb");
+        return r3.__assign(r43, r03);
+    L5:
+        return null;
+    }
+}

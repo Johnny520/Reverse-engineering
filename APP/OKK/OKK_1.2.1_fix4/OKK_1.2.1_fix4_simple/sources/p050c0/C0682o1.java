@@ -1,0 +1,31 @@
+package p050c0;
+
+/* JADX INFO: renamed from: c0.o1 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0682o1 extends AbstractC0685p1 {
+
+    /* JADX INFO: renamed from: a */
+    public static final C0682o1 f2140a = null;
+
+    static {
+        f2140a = new C0682o1();
+    }
+
+    public final boolean equals(Object r2) {
+        if (this != r2) goto L6;
+        return true;
+    L6:
+        if ((r2 instanceof C0682o1) == true) goto L9;
+        return false;
+    L9:
+        return true;
+    }
+
+    public final int hashCode() {
+        return 1879227679;
+    }
+
+    public final String toString() {
+        return "NoRealName";
+    }
+}
