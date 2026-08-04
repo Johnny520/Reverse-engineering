@@ -1,0 +1,78 @@
+### WCPureExtension.dylib
+/Library/MobileSubstrate/DynamicLibraries/WCPureExtension.dylib
+SBR reset failed. Switching SBR to pure upsampling mode.
+pure silence mono
+pure silence stereo
+Pure channel mapping detected:
+mark main input as a pre-processed input and activate clean source input stream
+clean_src
+(clean effects)
+pure-ftpd
+Pure-FTPd server is used as an output protocol. It is known issue this implementation may produce incorrect content and it cannot be fixed at this moment.
+x-Purevoice
+Start time ignored in a purely relative script.
+clean_effects
+v32@?0@"WCPureExtensionRedEnvelopParam"8Q16^B24
+DisableSettingViewGRXXSJQDPure:
+DisableMeViewEmojiPure:
+DisableMeViewKBPure:
+DisableMeViewPayPure:
+DisableSettingViewCJPure:
+DisableSettingViewGHPure:
+DisableSettingViewQSNPure:
+DisableMeViewFavoritesPure:
+DisableMeViewPYQPure:
+DisableMeViewSPHPure:
+DisableSettingViewDSFXXGXQDPure:
+DisableSettingViewGRXXYQXPure:
+disableSettingViewDSFXXGXQDPure
+changeLanguageAndCleanAllCache
+disableMeViewEmojiPure
+disableMeViewFavoritesPure
+disableMeViewKBPure
+disableMeViewPYQPure
+disableMeViewPayPure
+disableMeViewSPHPure
+disableSettingViewCJPure
+disableSettingViewGHPure
+disableSettingViewGRXXSJQDPure
+disableSettingViewGRXXYQXPure
+disableSettingViewQSNPure
+saveEmoticonToEmoticonDirForMd5:data:isCleanable:
+setDisableMeViewEmojiPure:
+setDisableMeViewFavoritesPure:
+setDisableMeViewKBPure:
+setDisableMeViewPYQPure:
+setDisableMeViewPayPure:
+setDisableMeViewSPHPure:
+setDisableSettingViewCJPure:
+setDisableSettingViewDSFXXGXQDPure:
+setDisableSettingViewGHPure:
+setDisableSettingViewGRXXSJQDPure:
+setDisableSettingViewGRXXYQXPure:
+setDisableSettingViewQSNPure:
+WCPureExtensionAutoDownloadSettingsController
+WCPureExtensionBubbleSettingsController
+WCPureExtensionCssSettingsController
+WCPureExtensionDisableSettingsController
+WCPureExtensionEmojiSettingsController
+WCPureExtensionEnableSettingsController
+WCPureExtensionFriendsCheckSettingsController
+WCPureExtensionGroupSelectsController
+WCPureExtensionRedEnvelopesSettingsController
+WCPureExtensionReMsgSettingsController
+WCPureExtensionReveiverSettingsController
+WCPureExtensionShortcutSettingsController
+WCPureExtensionVoiceSettingsController
+WCPureExtensionManager
+WCPureExtensionRedEnvelopParam
+WCPureExtensionRedEnvelopParamPool
+WCPureExtensionSettings
+WCPureExtension_BackgRoundBlur
+WCPureExtensionBackgroundLockAuthViewController
+WCPureExtension_GestureRecognizer
+cleanup
+clean_buffers
+clean
+var_cleanup
+WCPureExtension.dylib

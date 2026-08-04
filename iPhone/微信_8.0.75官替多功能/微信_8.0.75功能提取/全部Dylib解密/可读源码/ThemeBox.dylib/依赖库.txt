@@ -1,0 +1,15 @@
+/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+/System/Library/Frameworks/Foundation.framework/Foundation
+/System/Library/Frameworks/MetalKit.framework/MetalKit
+/System/Library/Frameworks/Metal.framework/Metal
+/System/Library/Frameworks/CoreText.framework/CoreText
+/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+/System/Library/Frameworks/WebKit.framework/WebKit
+/System/Library/Frameworks/UIKit.framework/UIKit
+/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+/System/Library/Frameworks/CoreServices.framework/CoreServices
+/usr/lib/libobjc.A.dylib
+/usr/lib/libc++.1.dylib
+/usr/lib/libSystem.B.dylib
+/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation

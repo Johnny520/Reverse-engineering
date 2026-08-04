@@ -1,0 +1,333 @@
+0x0000000000004000	type=0x0E	sect=1	__ZL15CHConstructor49v
+0x0000000000004080	type=0x0E	sect=1	____ZL15CHConstructor49v_block_invoke
+0x0000000000004290	type=0x0E	sect=1	__ZL12CHLoadClass_P19CHClassDeclaration_P10objc_class
+0x00000000000042E0	type=0x0E	sect=1	__ZL45$MoreViewController_addFunctionSection_methodP18MoreViewControllerP13objc_selector
+0x00000000000046BC	type=0x0E	sect=1	__ZL47$MoreViewController_pushPluginController_methodP18MoreViewControllerP13objc_selector
+0x0000000000004810	type=0x0E	sect=1	__ZL48$MoreViewController_pushPluginController_closureP18MoreViewControllerP13objc_selector
+0x00000000000048B4	type=0x0E	sect=1	-[WCPluginsViewController initWithNibName:bundle:]
+0x0000000000004B58	type=0x0E	sect=1	-[WCPluginsViewController viewDidLoad]
+0x0000000000004C20	type=0x0E	sect=1	-[WCPluginsViewController initData]
+0x0000000000004CE4	type=0x0E	sect=1	-[WCPluginsViewController initNavHeaderIfNeed]
+0x0000000000004ED8	type=0x0E	sect=1	_CGRectMake
+0x0000000000004F24	type=0x0E	sect=1	-[WCPluginsViewController shouldAutorotate]
+0x0000000000004F40	type=0x0E	sect=1	-[WCPluginsViewController viewWillLayoutSubviews]
+0x000000000000511C	type=0x0E	sect=1	-[WCPluginsViewController reloadTableData]
+0x000000000000527C	type=0x0E	sect=1	___42-[WCPluginsViewController reloadTableData]_block_invoke
+0x000000000000547C	type=0x1E	sect=1	___copy_helper_block_e8_32s40s
+0x00000000000054D4	type=0x1E	sect=1	___destroy_helper_block_e8_32s40s
+0x0000000000005518	type=0x0E	sect=1	-[WCPluginsViewController switchChanged:]
+0x0000000000005698	type=0x0E	sect=1	-[WCPluginsViewController getSwitchKeyValue:]
+0x0000000000005728	type=0x0E	sect=1	-[WCPluginsViewController pushPluginController:]
+0x0000000000005844	type=0x0E	sect=1	-[WCPluginsViewController initTableView]
+0x0000000000005924	type=0x0E	sect=1	-[WCPluginsViewController getHeaderView]
+0x0000000000005DA0	type=0x0E	sect=1	-[WCPluginsViewController addNormalCellForSel:title:rightValue:userInfo:]
+0x0000000000005F4C	type=0x0E	sect=1	-[WCPluginsViewController addSwitchCellForSel:title:on:userInfo:]
+0x0000000000006040	type=0x0E	sect=1	-[WCPluginsViewController tableViewManager]
+0x0000000000006064	type=0x0E	sect=1	-[WCPluginsViewController setTableViewManager:]
+0x00000000000060A0	type=0x0E	sect=1	-[WCPluginsViewController navHeaderView]
+0x00000000000060C4	type=0x0E	sect=1	-[WCPluginsViewController setNavHeaderView:]
+0x0000000000006100	type=0x0E	sect=1	-[WCPluginsViewController dataSource]
+0x0000000000006124	type=0x0E	sect=1	-[WCPluginsViewController setDataSource:]
+0x0000000000006160	type=0x0E	sect=1	-[WCPluginsViewController .cxx_destruct]
+0x00000000000061D0	type=0x0E	sect=1	-[WCPluginModel isController]
+0x00000000000061F0	type=0x0E	sect=1	-[WCPluginModel setIsController:]
+0x0000000000006218	type=0x0E	sect=1	-[WCPluginModel title]
+0x0000000000006234	type=0x0E	sect=1	-[WCPluginModel setTitle:]
+0x0000000000006268	type=0x0E	sect=1	-[WCPluginModel version]
+0x0000000000006284	type=0x0E	sect=1	-[WCPluginModel setVersion:]
+0x00000000000062B8	type=0x0E	sect=1	-[WCPluginModel controller]
+0x00000000000062D4	type=0x0E	sect=1	-[WCPluginModel setController:]
+0x0000000000006308	type=0x0E	sect=1	-[WCPluginModel key]
+0x0000000000006324	type=0x0E	sect=1	-[WCPluginModel setKey:]
+0x0000000000006358	type=0x0E	sect=1	-[WCPluginModel .cxx_destruct]
+0x00000000000063C0	type=0x0E	sect=1	+[WCPluginsMgr sharedInstance]
+0x0000000000006470	type=0x0E	sect=1	___30+[WCPluginsMgr sharedInstance]_block_invoke
+0x00000000000064C4	type=0x0E	sect=1	-[WCPluginsMgr registerControllerWithTitle:version:controller:]
+0x00000000000065FC	type=0x0E	sect=1	-[WCPluginsMgr registerSwitchWithTitle:key:]
+0x00000000000066EC	type=0x0E	sect=1	-[WCPluginsMgr plugins]
+0x000000000000675C	type=0x0E	sect=1	-[WCPluginsMgr setPlugins:]
+0x0000000000006790	type=0x0E	sect=1	-[WCPluginsMgr .cxx_destruct]
+0x00000000000067C0	type=0x0E	sect=1	_compatibilityInitializeAvailabilityCheck
+0x00000000000067C8	type=0x1E	sect=1	___isPlatformVersionAtLeast
+0x0000000000006950	type=0x0E	sect=1	_initializeAvailabilityCheck
+0x0000000000006958	type=0x0E	sect=1	__initializeAvailabilityCheck
+0x0000000000006C78	type=0x0E	sect=1	_OUTLINED_FUNCTION_0
+0x0000000000006C80	type=0x0E	sect=1	___isPlatformVersionAtLeast.cold.1
+0x0000000000006C94	type=0x0E	sect=1	___isPlatformVersionAtLeast.cold.2
+0x0000000000007040	type=0x1E	sect=4	_objc_msgSend$PushViewController:animated:
+0x0000000000007060	type=0x1E	sect=4	_objc_msgSend$addCell:
+0x0000000000007080	type=0x1E	sect=4	_objc_msgSend$addNormalCellForSel:title:rightValue:userInfo:
+0x00000000000070A0	type=0x1E	sect=4	_objc_msgSend$addObject:
+0x00000000000070C0	type=0x1E	sect=4	_objc_msgSend$addSection:
+0x00000000000070E0	type=0x1E	sect=4	_objc_msgSend$addSubview:
+0x0000000000007100	type=0x1E	sect=4	_objc_msgSend$addSwitchCellForSel:title:on:userInfo:
+0x0000000000007120	type=0x1E	sect=4	_objc_msgSend$alloc
+0x0000000000007140	type=0x1E	sect=4	_objc_msgSend$array
+0x0000000000007160	type=0x1E	sect=4	_objc_msgSend$arrayWithArray:
+0x0000000000007180	type=0x1E	sect=4	_objc_msgSend$backgroundColor
+0x00000000000071A0	type=0x1E	sect=4	_objc_msgSend$boldSystemFontOfSize:
+0x00000000000071C0	type=0x1E	sect=4	_objc_msgSend$boolForKey:
+0x00000000000071E0	type=0x1E	sect=4	_objc_msgSend$bounds
+0x0000000000007200	type=0x1E	sect=4	_objc_msgSend$cellInfo
+0x0000000000007220	type=0x1E	sect=4	_objc_msgSend$controller
+0x0000000000007240	type=0x1E	sect=4	_objc_msgSend$dataSource
+0x0000000000007260	type=0x1E	sect=4	_objc_msgSend$enumerateObjectsUsingBlock:
+0x0000000000007280	type=0x1E	sect=4	_objc_msgSend$frame
+0x00000000000072A0	type=0x1E	sect=4	_objc_msgSend$getCurrentNavigationController
+0x00000000000072C0	type=0x1E	sect=4	_objc_msgSend$getHeaderView
+0x00000000000072E0	type=0x1E	sect=4	_objc_msgSend$getSectionAt:
+0x0000000000007300	type=0x1E	sect=4	_objc_msgSend$getSuperContainerView
+0x0000000000007320	type=0x1E	sect=4	_objc_msgSend$getSwitchKeyValue:
+0x0000000000007340	type=0x1E	sect=4	_objc_msgSend$getTableView
+0x0000000000007360	type=0x1E	sect=4	_objc_msgSend$imageNamed:
+0x0000000000007380	type=0x1E	sect=4	_objc_msgSend$init
+0x00000000000073A0	type=0x1E	sect=4	_objc_msgSend$initData
+0x00000000000073C0	type=0x1E	sect=4	_objc_msgSend$initNavHeaderIfNeed
+0x00000000000073E0	type=0x1E	sect=4	_objc_msgSend$initTableView
+0x0000000000007400	type=0x1E	sect=4	_objc_msgSend$initWithFrame:
+0x0000000000007420	type=0x1E	sect=4	_objc_msgSend$initWithFrame:style:
+0x0000000000007440	type=0x1E	sect=4	_objc_msgSend$initWithImage:
+0x0000000000007460	type=0x1E	sect=4	_objc_msgSend$isController
+0x0000000000007480	type=0x1E	sect=4	_objc_msgSend$isOn
+0x00000000000074A0	type=0x1E	sect=4	_objc_msgSend$key
+0x00000000000074C0	type=0x1E	sect=4	_objc_msgSend$labelColor
+0x00000000000074E0	type=0x1E	sect=4	_objc_msgSend$labelSubColor
+0x0000000000007500	type=0x1E	sect=4	_objc_msgSend$mainScreen
+0x0000000000007520	type=0x1E	sect=4	_objc_msgSend$navHeaderView
+0x0000000000007540	type=0x1E	sect=4	_objc_msgSend$navigationBarHeight
+0x0000000000007560	type=0x1E	sect=4	_objc_msgSend$new
+0x0000000000007580	type=0x1E	sect=4	_objc_msgSend$normalCellForSel:target:leftImage:title:WithDisclosureIndicator:
+0x00000000000075A0	type=0x1E	sect=4	_objc_msgSend$normalCellForSel:target:leftImage:title:pathKey:
+0x00000000000075C0	type=0x1E	sect=4	_objc_msgSend$normalCellForSel:target:title:rightValue:
+0x00000000000075E0	type=0x1E	sect=4	_objc_msgSend$normalCellForSel:target:title:rightValue:WithDisclosureIndicator:
+0x0000000000007600	type=0x1E	sect=4	_objc_msgSend$normalStatusBarHeight
+0x0000000000007620	type=0x1E	sect=4	_objc_msgSend$plugins
+0x0000000000007640	type=0x1E	sect=4	_objc_msgSend$reloadData
+0x0000000000007660	type=0x1E	sect=4	_objc_msgSend$reloadTableData
+0x0000000000007680	type=0x1E	sect=4	_objc_msgSend$respondsToSelector:
+0x00000000000076A0	type=0x1E	sect=4	_objc_msgSend$sectionWithHeader:Footer:
+0x00000000000076C0	type=0x1E	sect=4	_objc_msgSend$setAutomaticallyAdjustsScrollViewInsets:
+0x00000000000076E0	type=0x1E	sect=4	_objc_msgSend$setBackgroundColor:
+0x0000000000007700	type=0x1E	sect=4	_objc_msgSend$setBool:forKey:
+0x0000000000007720	type=0x1E	sect=4	_objc_msgSend$setContentInsetAdjustmentBehavior:
+0x0000000000007740	type=0x1E	sect=4	_objc_msgSend$setController:
+0x0000000000007760	type=0x1E	sect=4	_objc_msgSend$setDataSource:
+0x0000000000007780	type=0x1E	sect=4	_objc_msgSend$setFont:
+0x00000000000077A0	type=0x1E	sect=4	_objc_msgSend$setFrame:
+0x00000000000077C0	type=0x1E	sect=4	_objc_msgSend$setHidesBottomBarWhenPushed:
+0x00000000000077E0	type=0x1E	sect=4	_objc_msgSend$setIsController:
+0x0000000000007800	type=0x1E	sect=4	_objc_msgSend$setKey:
+0x0000000000007820	type=0x1E	sect=4	_objc_msgSend$setNavHeaderView:
+0x0000000000007840	type=0x1E	sect=4	_objc_msgSend$setNumberOfLines:
+0x0000000000007860	type=0x1E	sect=4	_objc_msgSend$setTableHeaderView:
+0x0000000000007880	type=0x1E	sect=4	_objc_msgSend$setText:
+0x00000000000078A0	type=0x1E	sect=4	_objc_msgSend$setTextAlignment:
+0x00000000000078C0	type=0x1E	sect=4	_objc_msgSend$setTextColor:
+0x00000000000078E0	type=0x1E	sect=4	_objc_msgSend$setTitle:
+0x0000000000007900	type=0x1E	sect=4	_objc_msgSend$setUserInfo:
+0x0000000000007920	type=0x1E	sect=4	_objc_msgSend$setVersion:
+0x0000000000007940	type=0x1E	sect=4	_objc_msgSend$sharedInstance
+0x0000000000007960	type=0x1E	sect=4	_objc_msgSend$standardUserDefaults
+0x0000000000007980	type=0x1E	sect=4	_objc_msgSend$switchCellForSel:target:title:on:
+0x00000000000079A0	type=0x1E	sect=4	_objc_msgSend$synchronize
+0x00000000000079C0	type=0x1E	sect=4	_objc_msgSend$systemFontOfSize:
+0x00000000000079E0	type=0x1E	sect=4	_objc_msgSend$tableViewManager
+0x0000000000007A00	type=0x1E	sect=4	_objc_msgSend$title
+0x0000000000007A20	type=0x1E	sect=4	_objc_msgSend$userInfo
+0x0000000000007A40	type=0x1E	sect=4	_objc_msgSend$valueForKey:
+0x0000000000007A60	type=0x1E	sect=4	_objc_msgSend$version
+0x0000000000007A80	type=0x1E	sect=4	_objc_msgSend$view
+0x0000000000007AA0	type=0x0E	sect=5	GCC_except_table3
+0x0000000000007AF4	type=0x0E	sect=5	GCC_except_table4
+0x0000000000007B18	type=0x0E	sect=5	GCC_except_table5
+0x000000000000C178	type=0x1E	sect=16	___block_descriptor_32_e5_v8?0l
+0x000000000000C198	type=0x0E	sect=16	___block_literal_global
+0x000000000000C1B8	type=0x1E	sect=16	___block_descriptor_48_e8_32s40s_e30_v32?0"WCPluginModel"8Q16^B24l
+0x000000000000C1E8	type=0x1E	sect=16	___block_descriptor_40_e5_v8?0l
+0x000000000000C308	type=0x0E	sect=20	__OBJC_METACLASS_RO_$_WCPluginsViewController
+0x000000000000C350	type=0x0E	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginsViewController
+0x000000000000C550	type=0x0E	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginsViewController
+0x000000000000C5B8	type=0x0E	sect=20	__OBJC_$_PROP_LIST_WCPluginsViewController
+0x000000000000C5F0	type=0x0E	sect=20	__OBJC_CLASS_RO_$_WCPluginsViewController
+0x000000000000C638	type=0x0E	sect=20	__OBJC_METACLASS_RO_$_WCPluginModel
+0x000000000000C680	type=0x0E	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginModel
+0x000000000000C790	type=0x0E	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginModel
+0x000000000000C838	type=0x0E	sect=20	__OBJC_$_PROP_LIST_WCPluginModel
+0x000000000000C890	type=0x0E	sect=20	__OBJC_CLASS_RO_$_WCPluginModel
+0x000000000000C8D8	type=0x0E	sect=20	__OBJC_$_CLASS_METHODS_WCPluginsMgr
+0x000000000000C8F8	type=0x0E	sect=20	__OBJC_METACLASS_RO_$_WCPluginsMgr
+0x000000000000C940	type=0x0E	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginsMgr
+0x000000000000C9C0	type=0x0E	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginsMgr
+0x000000000000C9E8	type=0x0E	sect=20	__OBJC_$_PROP_LIST_WCPluginsMgr
+0x000000000000CA00	type=0x0E	sect=20	__OBJC_CLASS_RO_$_WCPluginsMgr
+0x000000000000CD78	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginsViewController._tableViewManager
+0x000000000000CD7C	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginsViewController._navHeaderView
+0x000000000000CD80	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginsViewController._dataSource
+0x000000000000CD84	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginModel._isController
+0x000000000000CD88	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginModel._title
+0x000000000000CD8C	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginModel._version
+0x000000000000CD90	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginModel._controller
+0x000000000000CD94	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginModel._key
+0x000000000000CD98	type=0x1E	sect=24	_OBJC_IVAR_$_WCPluginsMgr._plugins
+0x000000000000CE90	type=0x0E	sect=26	__dyld_private
+0x000000000000CE98	type=0x0E	sect=27	__ZL19MoreViewController$
+0x000000000000CEB0	type=0x0E	sect=27	__ZL44$MoreViewController_addFunctionSection_super
+0x000000000000CEB8	type=0x0E	sect=27	__ZL46$MoreViewController_pushPluginController_super
+0x000000000000CEC0	type=0x0E	sect=27	_sharedInstance.instance
+0x000000000000CEC8	type=0x0E	sect=27	_sharedInstance.onceToken
+0x000000000000CED0	type=0x0E	sect=27	__MergedGlobals
+0x0000000000000000	type=0x64	sect=0	/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/
+0x0000000000000000	type=0x64	sect=0	wcplugins.mm
+0x0000000000000000	type=0x66	sect=0	/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/wcplugins.o
+0x0000000000004000	type=0x24	sect=1	__ZL15CHConstructor49v
+0x0000000000004080	type=0x24	sect=1	____ZL15CHConstructor49v_block_invoke
+0x0000000000004290	type=0x24	sect=1	__ZL12CHLoadClass_P19CHClassDeclaration_P10objc_class
+0x00000000000042E0	type=0x24	sect=1	__ZL45$MoreViewController_addFunctionSection_methodP18MoreViewControllerP13objc_selector
+0x00000000000046BC	type=0x24	sect=1	__ZL47$MoreViewController_pushPluginController_methodP18MoreViewControllerP13objc_selector
+0x0000000000004810	type=0x24	sect=1	__ZL48$MoreViewController_pushPluginController_closureP18MoreViewControllerP13objc_selector
+0x0000000000000000	type=0x20	sect=0	___block_descriptor_32_e5_v8?0l
+0x000000000000C198	type=0x26	sect=16	___block_literal_global
+0x000000000000CE98	type=0x26	sect=27	__ZL19MoreViewController$
+0x000000000000CEB0	type=0x26	sect=27	__ZL44$MoreViewController_addFunctionSection_super
+0x000000000000CEB8	type=0x26	sect=27	__ZL46$MoreViewController_pushPluginController_super
+0x0000000000000000	type=0x64	sect=0	/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/
+0x0000000000000000	type=0x64	sect=0	WCPluginsViewController.m
+0x0000000000000000	type=0x66	sect=0	/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsViewController.o
+0x00000000000048B4	type=0x24	sect=1	-[WCPluginsViewController initWithNibName:bundle:]
+0x0000000000004B58	type=0x24	sect=1	-[WCPluginsViewController viewDidLoad]
+0x0000000000004C20	type=0x24	sect=1	-[WCPluginsViewController initData]
+0x0000000000004CE4	type=0x24	sect=1	-[WCPluginsViewController initNavHeaderIfNeed]
+0x0000000000004ED8	type=0x24	sect=1	_CGRectMake
+0x0000000000004F24	type=0x24	sect=1	-[WCPluginsViewController shouldAutorotate]
+0x0000000000004F40	type=0x24	sect=1	-[WCPluginsViewController viewWillLayoutSubviews]
+0x000000000000511C	type=0x24	sect=1	-[WCPluginsViewController reloadTableData]
+0x000000000000527C	type=0x24	sect=1	___42-[WCPluginsViewController reloadTableData]_block_invoke
+0x000000000000547C	type=0x24	sect=1	___copy_helper_block_e8_32s40s
+0x00000000000054D4	type=0x24	sect=1	___destroy_helper_block_e8_32s40s
+0x0000000000005518	type=0x24	sect=1	-[WCPluginsViewController switchChanged:]
+0x0000000000005698	type=0x24	sect=1	-[WCPluginsViewController getSwitchKeyValue:]
+0x0000000000005728	type=0x24	sect=1	-[WCPluginsViewController pushPluginController:]
+0x0000000000005844	type=0x24	sect=1	-[WCPluginsViewController initTableView]
+0x0000000000005924	type=0x24	sect=1	-[WCPluginsViewController getHeaderView]
+0x0000000000005DA0	type=0x24	sect=1	-[WCPluginsViewController addNormalCellForSel:title:rightValue:userInfo:]
+0x0000000000005F4C	type=0x24	sect=1	-[WCPluginsViewController addSwitchCellForSel:title:on:userInfo:]
+0x0000000000006040	type=0x24	sect=1	-[WCPluginsViewController tableViewManager]
+0x0000000000006064	type=0x24	sect=1	-[WCPluginsViewController setTableViewManager:]
+0x00000000000060A0	type=0x24	sect=1	-[WCPluginsViewController navHeaderView]
+0x00000000000060C4	type=0x24	sect=1	-[WCPluginsViewController setNavHeaderView:]
+0x0000000000006100	type=0x24	sect=1	-[WCPluginsViewController dataSource]
+0x0000000000006124	type=0x24	sect=1	-[WCPluginsViewController setDataSource:]
+0x0000000000006160	type=0x24	sect=1	-[WCPluginsViewController .cxx_destruct]
+0x0000000000000000	type=0x20	sect=0	___block_descriptor_48_e8_32s40s_e30_v32?0"WCPluginModel"8Q16^B24l
+0x000000000000C308	type=0x26	sect=20	__OBJC_METACLASS_RO_$_WCPluginsViewController
+0x000000000000C350	type=0x26	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginsViewController
+0x000000000000C550	type=0x26	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginsViewController
+0x000000000000C5B8	type=0x26	sect=20	__OBJC_$_PROP_LIST_WCPluginsViewController
+0x000000000000C5F0	type=0x26	sect=20	__OBJC_CLASS_RO_$_WCPluginsViewController
+0x0000000000000000	type=0x20	sect=0	_OBJC_CLASS_$_WCPluginsViewController
+0x0000000000000000	type=0x20	sect=0	_OBJC_METACLASS_$_WCPluginsViewController
+0x0000000000000000	type=0x64	sect=0	/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/
+0x0000000000000000	type=0x64	sect=0	WCPluginsMgr.m
+0x0000000000000000	type=0x66	sect=0	/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsMgr.o
+0x00000000000061D0	type=0x24	sect=1	-[WCPluginModel isController]
+0x00000000000061F0	type=0x24	sect=1	-[WCPluginModel setIsController:]
+0x0000000000006218	type=0x24	sect=1	-[WCPluginModel title]
+0x0000000000006234	type=0x24	sect=1	-[WCPluginModel setTitle:]
+0x0000000000006268	type=0x24	sect=1	-[WCPluginModel version]
+0x0000000000006284	type=0x24	sect=1	-[WCPluginModel setVersion:]
+0x00000000000062B8	type=0x24	sect=1	-[WCPluginModel controller]
+0x00000000000062D4	type=0x24	sect=1	-[WCPluginModel setController:]
+0x0000000000006308	type=0x24	sect=1	-[WCPluginModel key]
+0x0000000000006324	type=0x24	sect=1	-[WCPluginModel setKey:]
+0x0000000000006358	type=0x24	sect=1	-[WCPluginModel .cxx_destruct]
+0x00000000000063C0	type=0x24	sect=1	+[WCPluginsMgr sharedInstance]
+0x0000000000006470	type=0x24	sect=1	___30+[WCPluginsMgr sharedInstance]_block_invoke
+0x00000000000064C4	type=0x24	sect=1	-[WCPluginsMgr registerControllerWithTitle:version:controller:]
+0x00000000000065FC	type=0x24	sect=1	-[WCPluginsMgr registerSwitchWithTitle:key:]
+0x00000000000066EC	type=0x24	sect=1	-[WCPluginsMgr plugins]
+0x000000000000675C	type=0x24	sect=1	-[WCPluginsMgr setPlugins:]
+0x0000000000006790	type=0x24	sect=1	-[WCPluginsMgr .cxx_destruct]
+0x0000000000000000	type=0x20	sect=0	___block_descriptor_40_e5_v8?0l
+0x000000000000C638	type=0x26	sect=20	__OBJC_METACLASS_RO_$_WCPluginModel
+0x000000000000C680	type=0x26	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginModel
+0x000000000000C790	type=0x26	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginModel
+0x000000000000C838	type=0x26	sect=20	__OBJC_$_PROP_LIST_WCPluginModel
+0x000000000000C890	type=0x26	sect=20	__OBJC_CLASS_RO_$_WCPluginModel
+0x000000000000C8D8	type=0x26	sect=20	__OBJC_$_CLASS_METHODS_WCPluginsMgr
+0x000000000000C8F8	type=0x26	sect=20	__OBJC_METACLASS_RO_$_WCPluginsMgr
+0x000000000000C940	type=0x26	sect=20	__OBJC_$_INSTANCE_METHODS_WCPluginsMgr
+0x000000000000C9C0	type=0x26	sect=20	__OBJC_$_INSTANCE_VARIABLES_WCPluginsMgr
+0x000000000000C9E8	type=0x26	sect=20	__OBJC_$_PROP_LIST_WCPluginsMgr
+0x000000000000CA00	type=0x26	sect=20	__OBJC_CLASS_RO_$_WCPluginsMgr
+0x0000000000000000	type=0x20	sect=0	_OBJC_METACLASS_$_WCPluginModel
+0x0000000000000000	type=0x20	sect=0	_OBJC_CLASS_$_WCPluginModel
+0x0000000000000000	type=0x20	sect=0	_OBJC_METACLASS_$_WCPluginsMgr
+0x0000000000000000	type=0x20	sect=0	_OBJC_CLASS_$_WCPluginsMgr
+0x000000000000CEC0	type=0x26	sect=27	_sharedInstance.instance
+0x000000000000CEC8	type=0x26	sect=27	_sharedInstance.onceToken
+0x000000000000CE18	type=0x0F	sect=25	_OBJC_CLASS_$_WCPluginModel
+0x000000000000CE68	type=0x0F	sect=25	_OBJC_CLASS_$_WCPluginsMgr
+0x000000000000CDA0	type=0x0F	sect=25	_OBJC_CLASS_$_WCPluginsViewController
+0x000000000000CDF0	type=0x0F	sect=25	_OBJC_METACLASS_$_WCPluginModel
+0x000000000000CE40	type=0x0F	sect=25	_OBJC_METACLASS_$_WCPluginsMgr
+0x000000000000CDC8	type=0x0F	sect=25	_OBJC_METACLASS_$_WCPluginsViewController
+0x0000000000000000	type=0x01	sect=0	_NSClassFromString
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_NSMutableArray
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_NSObject
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_NSUserDefaults
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIFont
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIImage
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIImageView
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UILabel
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIScreen
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIView
+0x0000000000000000	type=0x01	sect=0	_OBJC_CLASS_$_UIViewController
+0x0000000000000000	type=0x01	sect=0	_OBJC_METACLASS_$_NSObject
+0x0000000000000000	type=0x01	sect=0	_OBJC_METACLASS_$_UIViewController
+0x0000000000000000	type=0x01	sect=0	__NSConcreteGlobalBlock
+0x0000000000000000	type=0x01	sect=0	__NSConcreteStackBlock
+0x0000000000000000	type=0x01	sect=0	__Unwind_Resume
+0x0000000000000000	type=0x01	sect=0	___CFConstantStringClassReference
+0x0000000000000000	type=0x01	sect=0	___gxx_personality_v0
+0x0000000000000000	type=0x01	sect=0	___stack_chk_fail
+0x0000000000000000	type=0x01	sect=0	___stack_chk_guard
+0x0000000000000000	type=0x01	sect=0	__availability_version_check
+0x0000000000000000	type=0x01	sect=0	__dispatch_main_q
+0x0000000000000000	type=0x01	sect=0	__objc_empty_cache
+0x0000000000000000	type=0x01	sect=0	_class_addMethod
+0x0000000000000000	type=0x01	sect=0	_class_getInstanceMethod
+0x0000000000000000	type=0x01	sect=0	_class_getMethodImplementation
+0x0000000000000000	type=0x01	sect=0	_class_getSuperclass
+0x0000000000000000	type=0x01	sect=0	_dispatch_after
+0x0000000000000000	type=0x01	sect=0	_dispatch_once
+0x0000000000000000	type=0x01	sect=0	_dispatch_once_f
+0x0000000000000000	type=0x01	sect=0	_dispatch_time
+0x0000000000000000	type=0x01	sect=0	_dlsym
+0x0000000000000000	type=0x01	sect=0	_fclose
+0x0000000000000000	type=0x01	sect=0	_fopen
+0x0000000000000000	type=0x01	sect=0	_fread
+0x0000000000000000	type=0x01	sect=0	_free
+0x0000000000000000	type=0x01	sect=0	_fseek
+0x0000000000000000	type=0x01	sect=0	_ftell
+0x0000000000000000	type=0x01	sect=0	_malloc
+0x0000000000000000	type=0x01	sect=0	_memcpy
+0x0000000000000000	type=0x01	sect=0	_method_getImplementation
+0x0000000000000000	type=0x01	sect=0	_method_getTypeEncoding
+0x0000000000000000	type=0x01	sect=0	_method_setImplementation
+0x0000000000000000	type=0x01	sect=0	_objc_alloc
+0x0000000000000000	type=0x01	sect=0	_objc_autoreleasePoolPop
+0x0000000000000000	type=0x01	sect=0	_objc_autoreleasePoolPush
+0x0000000000000000	type=0x01	sect=0	_objc_autoreleaseReturnValue
+0x0000000000000000	type=0x01	sect=0	_objc_getClass
+0x0000000000000000	type=0x01	sect=0	_objc_msgSend
+0x0000000000000000	type=0x01	sect=0	_objc_msgSendSuper2
+0x0000000000000000	type=0x01	sect=0	_objc_release
+0x0000000000000000	type=0x01	sect=0	_objc_retain
+0x0000000000000000	type=0x01	sect=0	_objc_retainAutoreleaseReturnValue
+0x0000000000000000	type=0x01	sect=0	_objc_retainAutoreleasedReturnValue
+0x0000000000000000	type=0x01	sect=0	_objc_storeStrong
+0x0000000000000000	type=0x01	sect=0	_object_getClass
+0x0000000000000000	type=0x01	sect=0	_rewind
+0x0000000000000000	type=0x01	sect=0	_sscanf
+0x0000000000000000	type=0x01	sect=0	_strlen
+0x0000000000000000	type=0x01	sect=0	dyld_stub_binder

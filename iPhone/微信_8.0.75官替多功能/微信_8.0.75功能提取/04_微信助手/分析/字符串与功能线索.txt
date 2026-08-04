@@ -1,0 +1,176 @@
+### MiYou.dylib
+/Library/MobileSubstrate/DynamicLibraries/MiYou.dylib
+MiYouJiaYi:
+deleteMiYouList
+T@"<MiYouMessageToolBarDelagate>",&,N,V_delegate
+MiYouFloatingViewNewMsg:
+T@"MiYouTaskModel",&,N,V_model
+TB,N,V_mIsOpenMiYou
+WeChatMiYouSeting
+_mIsOpenMiYou
+addMiYouSettingSection
+mIsOpenMiYou
+miYouSettingController
+setMIsOpenMiYou:
+v32@?0@"MiYouTaskModel"8Q16^B24
+MiYouHudView
+MiYouKeywordTipsController
+MiYouToolActionsViewController
+MiYouToastView
+MiYouFloatingView
+MiYouIconsViewController
+MiYouRepayMsgViewController
+MiYouPriUtil
+MiYouTaskModel
+MiYouKeyDeleteViewController
+MiYouDanMuView
+MiYouTaskViewController
+MiYouMessageToolBar
+MiYouAddTaskViewController
+MiYouKeywordListViewController
+MiYouMessageAction
+MiYouViewController
+MiYouSlideView
+MiYouMassSendWriteViewController
+MiYouSettingViewController
+MiYouConfig
+MiYouNotificationViewController
+MiYouTableViewCell
+@"MiYouTaskModel"
+@"<MiYouMessageToolBarDelagate>"
+_OBJC_CLASS_$_MiYouAddTaskViewController
+_OBJC_CLASS_$_MiYouConfig
+_OBJC_CLASS_$_MiYouDanMuView
+_OBJC_CLASS_$_MiYouFloatingView
+_OBJC_CLASS_$_MiYouHudView
+_OBJC_CLASS_$_MiYouIconsViewController
+_OBJC_CLASS_$_MiYouKeyDeleteViewController
+_OBJC_CLASS_$_MiYouKeywordListViewController
+_OBJC_CLASS_$_MiYouKeywordTipsController
+_OBJC_CLASS_$_MiYouMassSendWriteViewController
+_OBJC_CLASS_$_MiYouMessageAction
+_OBJC_CLASS_$_MiYouMessageToolBar
+_OBJC_CLASS_$_MiYouNotificationViewController
+_OBJC_CLASS_$_MiYouPriUtil
+_OBJC_CLASS_$_MiYouRepayMsgViewController
+_OBJC_CLASS_$_MiYouSettingViewController
+_OBJC_CLASS_$_MiYouSlideView
+_OBJC_CLASS_$_MiYouTableViewCell
+_OBJC_CLASS_$_MiYouTaskModel
+_OBJC_CLASS_$_MiYouTaskViewController
+_OBJC_CLASS_$_MiYouToastView
+_OBJC_CLASS_$_MiYouToolActionsViewController
+_OBJC_CLASS_$_MiYouViewController
+_OBJC_METACLASS_$_MiYouAddTaskViewController
+_OBJC_METACLASS_$_MiYouConfig
+_OBJC_METACLASS_$_MiYouDanMuView
+_OBJC_METACLASS_$_MiYouFloatingView
+_OBJC_METACLASS_$_MiYouHudView
+_OBJC_METACLASS_$_MiYouIconsViewController
+_OBJC_METACLASS_$_MiYouKeyDeleteViewController
+_OBJC_METACLASS_$_MiYouKeywordListViewController
+_OBJC_METACLASS_$_MiYouKeywordTipsController
+_OBJC_METACLASS_$_MiYouMassSendWriteViewController
+_OBJC_METACLASS_$_MiYouMessageAction
+_OBJC_METACLASS_$_MiYouMessageToolBar
+_OBJC_METACLASS_$_MiYouNotificationViewController
+_OBJC_METACLASS_$_MiYouPriUtil
+_OBJC_METACLASS_$_MiYouRepayMsgViewController
+_OBJC_METACLASS_$_MiYouSettingViewController
+_OBJC_METACLASS_$_MiYouSlideView
+_OBJC_METACLASS_$_MiYouTableViewCell
+_OBJC_METACLASS_$_MiYouTaskModel
+_OBJC_METACLASS_$_MiYouTaskViewController
+_OBJC_METACLASS_$_MiYouToastView
+_OBJC_METACLASS_$_MiYouToolActionsViewController
+_OBJC_METACLASS_$_MiYouViewController
+MiYou.dylib
+
+### wcplugins.dylib
+/Library/MobileSubstrate/DynamicLibraries/wcplugins.dylib
+v32@?0@"WCPluginModel"8Q16^B24
+WCPluginsViewController
+WCPluginModel
+WCPluginsMgr
+CLASS_$_WCPlugin
+7METACLASS_$_WCPlugin
+_OBJC_CLASS_$_WCPluginModel
+_OBJC_CLASS_$_WCPluginsMgr
+_OBJC_CLASS_$_WCPluginsViewController
+_OBJC_METACLASS_$_WCPluginModel
+_OBJC_METACLASS_$_WCPluginsMgr
+_OBJC_METACLASS_$_WCPluginsViewController
+-[WCPluginsViewController initWithNibName:bundle:]
+-[WCPluginsViewController viewDidLoad]
+-[WCPluginsViewController initData]
+-[WCPluginsViewController initNavHeaderIfNeed]
+-[WCPluginsViewController shouldAutorotate]
+-[WCPluginsViewController viewWillLayoutSubviews]
+-[WCPluginsViewController reloadTableData]
+___42-[WCPluginsViewController reloadTableData]_block_invoke
+-[WCPluginsViewController switchChanged:]
+-[WCPluginsViewController getSwitchKeyValue:]
+-[WCPluginsViewController pushPluginController:]
+-[WCPluginsViewController initTableView]
+-[WCPluginsViewController getHeaderView]
+-[WCPluginsViewController addNormalCellForSel:title:rightValue:userInfo:]
+-[WCPluginsViewController addSwitchCellForSel:title:on:userInfo:]
+-[WCPluginsViewController tableViewManager]
+-[WCPluginsViewController setTableViewManager:]
+-[WCPluginsViewController navHeaderView]
+-[WCPluginsViewController setNavHeaderView:]
+-[WCPluginsViewController dataSource]
+-[WCPluginsViewController setDataSource:]
+-[WCPluginsViewController .cxx_destruct]
+-[WCPluginModel isController]
+-[WCPluginModel setIsController:]
+-[WCPluginModel title]
+-[WCPluginModel setTitle:]
+-[WCPluginModel version]
+-[WCPluginModel setVersion:]
+-[WCPluginModel controller]
+-[WCPluginModel setController:]
+-[WCPluginModel key]
+-[WCPluginModel setKey:]
+-[WCPluginModel .cxx_destruct]
++[WCPluginsMgr sharedInstance]
+___30+[WCPluginsMgr sharedInstance]_block_invoke
+-[WCPluginsMgr registerControllerWithTitle:version:controller:]
+-[WCPluginsMgr registerSwitchWithTitle:key:]
+-[WCPluginsMgr plugins]
+-[WCPluginsMgr setPlugins:]
+-[WCPluginsMgr .cxx_destruct]
+"WCPluginModel"8Q16^B24l
+__OBJC_METACLASS_RO_$_WCPluginsViewController
+__OBJC_$_INSTANCE_METHODS_WCPluginsViewController
+__OBJC_$_INSTANCE_VARIABLES_WCPluginsViewController
+__OBJC_$_PROP_LIST_WCPluginsViewController
+__OBJC_CLASS_RO_$_WCPluginsViewController
+__OBJC_METACLASS_RO_$_WCPluginModel
+__OBJC_$_INSTANCE_METHODS_WCPluginModel
+__OBJC_$_INSTANCE_VARIABLES_WCPluginModel
+__OBJC_$_PROP_LIST_WCPluginModel
+__OBJC_CLASS_RO_$_WCPluginModel
+__OBJC_$_CLASS_METHODS_WCPluginsMgr
+__OBJC_METACLASS_RO_$_WCPluginsMgr
+__OBJC_$_INSTANCE_METHODS_WCPluginsMgr
+__OBJC_$_INSTANCE_VARIABLES_WCPluginsMgr
+__OBJC_$_PROP_LIST_WCPluginsMgr
+__OBJC_CLASS_RO_$_WCPluginsMgr
+_OBJC_IVAR_$_WCPluginsViewController._tableViewManager
+_OBJC_IVAR_$_WCPluginsViewController._navHeaderView
+_OBJC_IVAR_$_WCPluginsViewController._dataSource
+_OBJC_IVAR_$_WCPluginModel._isController
+_OBJC_IVAR_$_WCPluginModel._title
+_OBJC_IVAR_$_WCPluginModel._version
+_OBJC_IVAR_$_WCPluginModel._controller
+_OBJC_IVAR_$_WCPluginModel._key
+_OBJC_IVAR_$_WCPluginsMgr._plugins
+/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/
+wcplugins.mm
+/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/wcplugins.o
+WCPluginsViewController.m
+/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsViewController.o
+WCPluginsMgr.m
+/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsMgr.o
+wcplugins.dylib

@@ -1,0 +1,7409 @@
+{
+  "name": "Lab",
+  "folder": "07_Lab",
+  "files": [
+    {
+      "source": "Payload/WeChat.app/000ThemeLab.dylib",
+      "output": "75功能提取\\07_Lab\\主文件\\000ThemeLab.dylib",
+      "size": 6436352,
+      "sha256": "37eac42ee9b5fc640b61974b15e4a9ba14db31936271eca782a1cceee095a7d6",
+      "macho": {
+        "format": "Mach-O 64-bit",
+        "arch": "arm64",
+        "cpu_subtype": 0,
+        "filetype": 6,
+        "ncmds": 39,
+        "sizeofcmds": 5184,
+        "flags": "0x918085",
+        "uuid": "0E56E34B-E139-39E3-A839-D6866587A13F",
+        "dylib_id": "@rpath/000ThemeLab.dylib",
+        "cryptoff": 16384,
+        "cryptsize": 2654208,
+        "cryptid": 0,
+        "dependencies": [
+          "/usr/lib/libobjc.A.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Foundation",
+          "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+          "/System/Library/Frameworks/UIKit.framework/UIKit",
+          "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers",
+          "/System/Library/Frameworks/Photos.framework/Photos",
+          "/System/Library/Frameworks/ImageIO.framework/ImageIO",
+          "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+          "/System/Library/Frameworks/Security.framework/Security",
+          "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore",
+          "/System/Library/Frameworks/WebKit.framework/WebKit",
+          "/System/Library/Frameworks/CoreText.framework/CoreText",
+          "/usr/lib/libcompression.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+          "/System/Library/Frameworks/CoreLocation.framework/CoreLocation",
+          "/System/Library/Frameworks/PhotosUI.framework/PhotosUI",
+          "@executable_path/libsubstrate.dylib"
+        ],
+        "sections": [
+          {
+            "segment": "__TEXT",
+            "section": "__text",
+            "addr": 16384,
+            "size": 2098556,
+            "offset": 16384,
+            "align": 2,
+            "flags": "0x80000400"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__stubs",
+            "addr": 2114940,
+            "size": 3048,
+            "offset": 2114940,
+            "align": 2,
+            "flags": "0x80000408"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_stubs",
+            "addr": 2118016,
+            "size": 94176,
+            "offset": 2118016,
+            "align": 5,
+            "flags": "0x80000400"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__init_offsets",
+            "addr": 2212192,
+            "size": 4,
+            "offset": 2212192,
+            "align": 2,
+            "flags": "0x16"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methlist",
+            "addr": 2212200,
+            "size": 40952,
+            "offset": 2212200,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__const",
+            "addr": 2253152,
+            "size": 48016,
+            "offset": 2253152,
+            "align": 4,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__gcc_except_tab",
+            "addr": 2301168,
+            "size": 40908,
+            "offset": 2301168,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methname",
+            "addr": 2342076,
+            "size": 101521,
+            "offset": 2342076,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__cstring",
+            "addr": 2443597,
+            "size": 89762,
+            "offset": 2443597,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_classname",
+            "addr": 2533359,
+            "size": 2207,
+            "offset": 2533359,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methtype",
+            "addr": 2535566,
+            "size": 12217,
+            "offset": 2535566,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__ustring",
+            "addr": 2547784,
+            "size": 99598,
+            "offset": 2547784,
+            "align": 1,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__unwind_info",
+            "addr": 2647384,
+            "size": 14896,
+            "offset": 2647384,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__eh_frame",
+            "addr": 2662280,
+            "size": 160,
+            "offset": 2662280,
+            "align": 3,
+            "flags": "0x6800000b"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__got",
+            "addr": 2670592,
+            "size": 3096,
+            "offset": 2670592,
+            "align": 3,
+            "flags": "0x6"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__const",
+            "addr": 2673688,
+            "size": 27872,
+            "offset": 2673688,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__cfstring",
+            "addr": 2701560,
+            "size": 149984,
+            "offset": 2701560,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_classlist",
+            "addr": 2851544,
+            "size": 784,
+            "offset": 2851544,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_protolist",
+            "addr": 2852328,
+            "size": 152,
+            "offset": 2852328,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_imageinfo",
+            "addr": 2852480,
+            "size": 8,
+            "offset": 2852480,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_arraydata",
+            "addr": 2852488,
+            "size": 35736,
+            "offset": 2852488,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_arrayobj",
+            "addr": 2888224,
+            "size": 11808,
+            "offset": 2888224,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_doubleobj",
+            "addr": 2900032,
+            "size": 1024,
+            "offset": 2900032,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_intobj",
+            "addr": 2901056,
+            "size": 2616,
+            "offset": 2901056,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_dictobj",
+            "addr": 2903672,
+            "size": 17680,
+            "offset": 2903672,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_const",
+            "addr": 2932736,
+            "size": 53968,
+            "offset": 2932736,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_selrefs",
+            "addr": 2986704,
+            "size": 31536,
+            "offset": 2986704,
+            "align": 3,
+            "flags": "0x10000005"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_protorefs",
+            "addr": 3018240,
+            "size": 8,
+            "offset": 3018240,
+            "align": 3,
+            "flags": "0x1000000b"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_classrefs",
+            "addr": 3018248,
+            "size": 1832,
+            "offset": 3018248,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_superrefs",
+            "addr": 3020080,
+            "size": 576,
+            "offset": 3020080,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_ivar",
+            "addr": 3020656,
+            "size": 2092,
+            "offset": 3020656,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_data",
+            "addr": 3022752,
+            "size": 7840,
+            "offset": 3022752,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__data",
+            "addr": 3030592,
+            "size": 2680,
+            "offset": 3030592,
+            "align": 4,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__thread_vars",
+            "addr": 3033272,
+            "size": 72,
+            "offset": 3033272,
+            "align": 3,
+            "flags": "0x13"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__thread_bss",
+            "addr": 3033344,
+            "size": 3,
+            "offset": 0,
+            "align": 0,
+            "flags": "0x12"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__bss",
+            "addr": 3033360,
+            "size": 86664,
+            "offset": 0,
+            "align": 4,
+            "flags": "0x1"
+          }
+        ],
+        "symbols": [
+          {
+            "address": 90260802,
+            "type": 60,
+            "section": 0,
+            "desc": 0,
+            "name": "radr://5614542"
+          },
+          {
+            "address": 3029112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLDeviceIdentity"
+          },
+          {
+            "address": 3029232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLDeviceService"
+          },
+          {
+            "address": 3029192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLDeviceSign"
+          },
+          {
+            "address": 3028752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLFeatureAuthorization"
+          },
+          {
+            "address": 3028672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLFeatureVerificationGroup"
+          },
+          {
+            "address": 3029392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLNetworkSecurity"
+          },
+          {
+            "address": 3029032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLSign"
+          },
+          {
+            "address": 3029312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TLTMX3Package"
+          },
+          {
+            "address": 3023672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMBubblePackConfig"
+          },
+          {
+            "address": 3023792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMBubblePackEngine"
+          },
+          {
+            "address": 3023752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMBubblePackPackage"
+          },
+          {
+            "address": 3023032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMChatCanvasOverlay"
+          },
+          {
+            "address": 3030552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMDIY"
+          },
+          {
+            "address": 3030472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMDIYSlot"
+          },
+          {
+            "address": 3022912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMFloatTabBarView"
+          },
+          {
+            "address": 3030352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMFontManager"
+          },
+          {
+            "address": 3023192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMG26ChatMoreButton"
+          },
+          {
+            "address": 3025232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMG26LicenseRedeemViewController"
+          },
+          {
+            "address": 3023072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMG26MessagesBackButton"
+          },
+          {
+            "address": 3023912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMGlassSettingsViewController"
+          },
+          {
+            "address": 3024192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMMainWrapperVC"
+          },
+          {
+            "address": 3025312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMMergeAdvancedVC"
+          },
+          {
+            "address": 3025032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$_TMQuoteBeautifyVC"
+          },
+          {
+            "address": 3027952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K0mH4wS8tJ2qP6"
+          },
+          {
+            "address": 3029792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K0wY2xA5bD7eF3"
+          },
+          {
+            "address": 3024832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K1aBcDe4F6G9H2"
+          },
+          {
+            "address": 3024392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K1fGhIj2K4L7M9"
+          },
+          {
+            "address": 3025112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K1nF8wR6qL4xH2"
+          },
+          {
+            "address": 3030232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K1sX5yN9wR3pK7"
+          },
+          {
+            "address": 3025472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K1tW5nR9vL3xJ8"
+          },
+          {
+            "address": 3026632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2cDeFg3H5I8J0"
+          },
+          {
+            "address": 3027512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2dEfGh8I1J4K7"
+          },
+          {
+            "address": 3026712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2pJ2i4ieR6sB8C"
+          },
+          {
+            "address": 3025392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2qL8vN5pR0xH6"
+          },
+          {
+            "address": 3029632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2sU4vX7yA9cZ5"
+          },
+          {
+            "address": 3025152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2wT5nR8vL6xJ4"
+          },
+          {
+            "address": 3025432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K2xR7nP4wV6yQ9"
+          },
+          {
+            "address": 3027272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3fGhIj5K7L0M2"
+          },
+          {
+            "address": 3024912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3hR7wN2mP9vQ5"
+          },
+          {
+            "address": 3028472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3kLmNp5Q8R1S4"
+          },
+          {
+            "address": 3024072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3mF9wR1qL5xJ7"
+          },
+          {
+            "address": 3028152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3mH7xQ1sK9yN6"
+          },
+          {
+            "address": 3028592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K3pWzLtF2D7C4B"
+          },
+          {
+            "address": 3024552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K4aBcDe1F3G6H8"
+          },
+          {
+            "address": 3025552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K4hT8mL1nR6yK0"
+          },
+          {
+            "address": 3030072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K4nR8wP2vJ6tL0"
+          },
+          {
+            "address": 3029472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K4rY6tL9wQ2nH5"
+          },
+          {
+            "address": 3023352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K5nLwQvU7F9G3H"
+          },
+          {
+            "address": 3025352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K5pN9wQ2vR7xJ4h"
+          },
+          {
+            "address": 3025072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K5qT9wN3mR0xJ7"
+          },
+          {
+            "address": 3025672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K5vL9pQ1xN7yR3"
+          },
+          {
+            "address": 3027432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K5vWxYz7A0B3C6"
+          },
+          {
+            "address": 3029712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K6gI8hK1lN3oP7"
+          },
+          {
+            "address": 3025592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K6pV2wQ9xN3yR7"
+          },
+          {
+            "address": 3030192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K6pW0rT4vL8nJ2"
+          },
+          {
+            "address": 3024992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K6rJ0wN4pQ8xL2"
+          },
+          {
+            "address": 3024672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K6wXyZa3B5C8D1"
+          },
+          {
+            "address": 3028872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7mRnVxQ8B3A9E"
+          },
+          {
+            "address": 3027072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7nOpQr4S6T9U1"
+          },
+          {
+            "address": 3028112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7pJ3vR9wN5tL8"
+          },
+          {
+            "address": 3026392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7qL2vN8pR4xH0"
+          },
+          {
+            "address": 3029952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7qR3wN5pJ9tL2"
+          },
+          {
+            "address": 3025632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K7wR2vN5pQ9xJ3"
+          },
+          {
+            "address": 3029552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8fB0jD3kE6mG1"
+          },
+          {
+            "address": 3027352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8nOpQr6S9T1U4"
+          },
+          {
+            "address": 3024952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8nW4rQ1vL6xJ3"
+          },
+          {
+            "address": 3026512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8pH4xQ2sK6yN0"
+          },
+          {
+            "address": 3024352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8pQrStU3V5W1X"
+          },
+          {
+            "address": 3029912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K8tQ2vH6mJ0xL4"
+          },
+          {
+            "address": 3025912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K9mF3wR7qL1xJ4"
+          },
+          {
+            "address": 3030152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K9mH3xQ7sK1yN5"
+          },
+          {
+            "address": 3025512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__K9wR3vN7pQ2xJ5"
+          },
+          {
+            "address": 3028352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KA4bPSRwH9GqE7O"
+          },
+          {
+            "address": 3024872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KAAHdcUTTStuULG"
+          },
+          {
+            "address": 3026952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KGSsX4e7rqS3ZLT"
+          },
+          {
+            "address": 3027712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KL7RgT1JtkiSBVE"
+          },
+          {
+            "address": 3024112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KaYbCdE6F0G2H4"
+          },
+          {
+            "address": 3026752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KalZaffSIAotoDv"
+          },
+          {
+            "address": 3022832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KbVryXal4MnMbuT"
+          },
+          {
+            "address": 3023472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KdEfHmN0L2M7O9"
+          },
+          {
+            "address": 3024792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KdG6pRtUrjN9uAY"
+          },
+          {
+            "address": 3024752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__Kgq65Us8Q3NDVu8"
+          },
+          {
+            "address": 3028952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KhNqYjS6E1F8A0"
+          },
+          {
+            "address": 3024712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KiJkLm9N2O4P7Q"
+          },
+          {
+            "address": 3023952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KiJkLmN7O9P1Q3"
+          },
+          {
+            "address": 3024632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KjKlMn5O7P0Q3R"
+          },
+          {
+            "address": 3023432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KjYkZbA1I8J4K6"
+          },
+          {
+            "address": 3028512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__Kk47CYpqU4Hw7D8"
+          },
+          {
+            "address": 3023232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KkLmNp3Q6R8S1T"
+          },
+          {
+            "address": 3027872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KkxeIj5g2q3XZvX"
+          },
+          {
+            "address": 3024592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__Klp4qNaridFJhmo"
+          },
+          {
+            "address": 3024272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KqV3sP6mX8rN2wT"
+          },
+          {
+            "address": 3024032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KqW8mR3vN5pJ7t"
+          },
+          {
+            "address": 3027152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KrStUv0W3X5Y8Z"
+          },
+          {
+            "address": 3023992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KrStUvW5X8Y0Z2"
+          },
+          {
+            "address": 3022752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KsStUv8W1X4Y6Z"
+          },
+          {
+            "address": 3023552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KxTpMaR4C6D0E2"
+          },
+          {
+            "address": 3027672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_CLASS_$__KxbzW9gguJy7RRF"
+          },
+          {
+            "address": 3020740,
+            "type": 15,
+            "section": 31,
+            "desc": 0,
+            "name": "_OBJC_IVAR_$_TMG26MessagesBackButton._tmG26BadgeLabel"
+          },
+          {
+            "address": 3020748,
+            "type": 15,
+            "section": 31,
+            "desc": 0,
+            "name": "_OBJC_IVAR_$_TMG26MessagesBackButton._tmG26NativeHeight"
+          },
+          {
+            "address": 3020744,
+            "type": 15,
+            "section": 31,
+            "desc": 0,
+            "name": "_OBJC_IVAR_$_TMG26MessagesBackButton._tmG26TargetWidth"
+          },
+          {
+            "address": 3029072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLDeviceIdentity"
+          },
+          {
+            "address": 3029272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLDeviceService"
+          },
+          {
+            "address": 3029152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLDeviceSign"
+          },
+          {
+            "address": 3028792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLFeatureAuthorization"
+          },
+          {
+            "address": 3028712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLFeatureVerificationGroup"
+          },
+          {
+            "address": 3029432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLNetworkSecurity"
+          },
+          {
+            "address": 3028992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLSign"
+          },
+          {
+            "address": 3029352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TLTMX3Package"
+          },
+          {
+            "address": 3023632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMBubblePackConfig"
+          },
+          {
+            "address": 3023832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMBubblePackEngine"
+          },
+          {
+            "address": 3023712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMBubblePackPackage"
+          },
+          {
+            "address": 3022992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMChatCanvasOverlay"
+          },
+          {
+            "address": 3030512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMDIY"
+          },
+          {
+            "address": 3030432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMDIYSlot"
+          },
+          {
+            "address": 3022952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMFloatTabBarView"
+          },
+          {
+            "address": 3030392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMFontManager"
+          },
+          {
+            "address": 3023152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMG26ChatMoreButton"
+          },
+          {
+            "address": 3025272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMG26LicenseRedeemViewController"
+          },
+          {
+            "address": 3023112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMG26MessagesBackButton"
+          },
+          {
+            "address": 3023872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMGlassSettingsViewController"
+          },
+          {
+            "address": 3024232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMMainWrapperVC"
+          },
+          {
+            "address": 3025792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMMergeAdvancedVC"
+          },
+          {
+            "address": 3025752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$_TMQuoteBeautifyVC"
+          },
+          {
+            "address": 3028032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K0mH4wS8tJ2qP6"
+          },
+          {
+            "address": 3029832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K0wY2xA5bD7eF3"
+          },
+          {
+            "address": 3027592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K1aBcDe4F6G9H2"
+          },
+          {
+            "address": 3024472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K1fGhIj2K4L7M9"
+          },
+          {
+            "address": 3028192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K1nF8wR6qL4xH2"
+          },
+          {
+            "address": 3030312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K1sX5yN9wR3pK7"
+          },
+          {
+            "address": 3025872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K1tW5nR9vL3xJ8"
+          },
+          {
+            "address": 3026672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2cDeFg3H5I8J0"
+          },
+          {
+            "address": 3027552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2dEfGh8I1J4K7"
+          },
+          {
+            "address": 3026832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2pJ2i4ieR6sB8C"
+          },
+          {
+            "address": 3025992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2qL8vN5pR0xH6"
+          },
+          {
+            "address": 3029672,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2sU4vX7yA9cZ5"
+          },
+          {
+            "address": 3028312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2wT5nR8vL6xJ4"
+          },
+          {
+            "address": 3026272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K2xR7nP4wV6yQ9"
+          },
+          {
+            "address": 3027312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3fGhIj5K7L0M2"
+          },
+          {
+            "address": 3025712,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3hR7wN2mP9vQ5"
+          },
+          {
+            "address": 3028432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3kLmNp5Q8R1S4"
+          },
+          {
+            "address": 3026472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3mF9wR1qL5xJ7"
+          },
+          {
+            "address": 3028272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3mH7xQ1sK9yN6"
+          },
+          {
+            "address": 3028632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K3pWzLtF2D7C4B"
+          },
+          {
+            "address": 3027032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K4aBcDe1F3G6H8"
+          },
+          {
+            "address": 3026072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K4hT8mL1nR6yK0"
+          },
+          {
+            "address": 3030032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K4nR8wP2vJ6tL0"
+          },
+          {
+            "address": 3029512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K4rY6tL9wQ2nH5"
+          },
+          {
+            "address": 3023312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K5nLwQvU7F9G3H"
+          },
+          {
+            "address": 3026232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K5pN9wQ2vR7xJ4h"
+          },
+          {
+            "address": 3028072,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K5qT9wN3mR0xJ7"
+          },
+          {
+            "address": 3027992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K5vL9pQ1xN7yR3"
+          },
+          {
+            "address": 3027472,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K5vWxYz7A0B3C6"
+          },
+          {
+            "address": 3029752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K6gI8hK1lN3oP7"
+          },
+          {
+            "address": 3026112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K6pV2wQ9xN3yR7"
+          },
+          {
+            "address": 3030272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K6pW0rT4vL8nJ2"
+          },
+          {
+            "address": 3026192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K6rJ0wN4pQ8xL2"
+          },
+          {
+            "address": 3026352,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K6wXyZa3B5C8D1"
+          },
+          {
+            "address": 3028832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7mRnVxQ8B3A9E"
+          },
+          {
+            "address": 3027112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7nOpQr4S6T9U1"
+          },
+          {
+            "address": 3028232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7pJ3vR9wN5tL8"
+          },
+          {
+            "address": 3026432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7qL2vN8pR4xH0"
+          },
+          {
+            "address": 3029992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7qR3wN5pJ9tL2"
+          },
+          {
+            "address": 3026152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K7wR2vN5pQ9xJ3"
+          },
+          {
+            "address": 3029592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8fB0jD3kE6mG1"
+          },
+          {
+            "address": 3027392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8nOpQr6S9T1U4"
+          },
+          {
+            "address": 3026312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8nW4rQ1vL6xJ3"
+          },
+          {
+            "address": 3026552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8pH4xQ2sK6yN0"
+          },
+          {
+            "address": 3024432,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8pQrStU3V5W1X"
+          },
+          {
+            "address": 3029872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K8tQ2vH6mJ0xL4"
+          },
+          {
+            "address": 3025952,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K9mF3wR7qL1xJ4"
+          },
+          {
+            "address": 3030112,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K9mH3xQ7sK1yN5"
+          },
+          {
+            "address": 3026032,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__K9wR3vN7pQ2xJ5"
+          },
+          {
+            "address": 3028392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KA4bPSRwH9GqE7O"
+          },
+          {
+            "address": 3026912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KAAHdcUTTStuULG"
+          },
+          {
+            "address": 3026992,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KGSsX4e7rqS3ZLT"
+          },
+          {
+            "address": 3027832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KL7RgT1JtkiSBVE"
+          },
+          {
+            "address": 3024512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KaYbCdE6F0G2H4"
+          },
+          {
+            "address": 3026872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KalZaffSIAotoDv"
+          },
+          {
+            "address": 3022872,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KbVryXal4MnMbuT"
+          },
+          {
+            "address": 3023512,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KdEfHmN0L2M7O9"
+          },
+          {
+            "address": 3027752,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KdG6pRtUrjN9uAY"
+          },
+          {
+            "address": 3027632,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__Kgq65Us8Q3NDVu8"
+          },
+          {
+            "address": 3028912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KhNqYjS6E1F8A0"
+          },
+          {
+            "address": 3027232,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KiJkLm9N2O4P7Q"
+          },
+          {
+            "address": 3024152,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KiJkLmN7O9P1Q3"
+          },
+          {
+            "address": 3026592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KjKlMn5O7P0Q3R"
+          },
+          {
+            "address": 3023392,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KjYkZbA1I8J4K6"
+          },
+          {
+            "address": 3028552,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__Kk47CYpqU4Hw7D8"
+          },
+          {
+            "address": 3023272,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KkLmNp3Q6R8S1T"
+          },
+          {
+            "address": 3027912,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KkxeIj5g2q3XZvX"
+          },
+          {
+            "address": 3026792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__Klp4qNaridFJhmo"
+          },
+          {
+            "address": 3025832,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KqV3sP6mX8rN2wT"
+          },
+          {
+            "address": 3025192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KqW8mR3vN5pJ7t"
+          },
+          {
+            "address": 3027192,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KrStUv0W3X5Y8Z"
+          },
+          {
+            "address": 3024312,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KrStUvW5X8Y0Z2"
+          },
+          {
+            "address": 3022792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KsStUv8W1X4Y6Z"
+          },
+          {
+            "address": 3023592,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KxTpMaR4C6D0E2"
+          },
+          {
+            "address": 3027792,
+            "type": 15,
+            "section": 32,
+            "desc": 0,
+            "name": "_OBJC_METACLASS_$__KxbzW9gguJy7RRF"
+          },
+          {
+            "address": 1851324,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TLClientCodeHash"
+          },
+          {
+            "address": 2698720,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLDeviceBindingDidBecomeReadyNotification"
+          },
+          {
+            "address": 2698576,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLDeviceIdentityErrorDomain"
+          },
+          {
+            "address": 2698712,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLDeviceSignErrorDomain"
+          },
+          {
+            "address": 2697584,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLFeatureAuthorizationChangedNotification"
+          },
+          {
+            "address": 2697592,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLFeatureAuthorizationErrorDomain"
+          },
+          {
+            "address": 2696648,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLNetworkServiceDeviceBindingErrorKey"
+          },
+          {
+            "address": 2696632,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLNetworkServiceErrorDomain"
+          },
+          {
+            "address": 2696640,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TLNetworkServiceHTTPStatusCodeKey"
+          },
+          {
+            "address": 1768728,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMAttachNameplateToLabelEx"
+          },
+          {
+            "address": 800480,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMCurrentWxid"
+          },
+          {
+            "address": 679340,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMDIYDirectory"
+          },
+          {
+            "address": 1948636,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMFontsDirectory"
+          },
+          {
+            "address": 1096336,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMForceReloadVisibleChat"
+          },
+          {
+            "address": 679568,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMPluginEnabledBackupPath"
+          },
+          {
+            "address": 679872,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMQuoteIconAssetsDirectory"
+          },
+          {
+            "address": 678752,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMStringFromCStr"
+          },
+          {
+            "address": 801144,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_TMVerifyActiveThemeAuthorization"
+          },
+          {
+            "address": 2699000,
+            "type": 15,
+            "section": 16,
+            "desc": 0,
+            "name": "_TMWidgetGlobalFontChangedNotification"
+          },
+          {
+            "address": 2085536,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z10decode_ise12quant_methodjPKhPhj"
+          },
+          {
+            "address": 2083824,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z10encode_ise12quant_methodjPKhPhj"
+          },
+          {
+            "address": 2038172,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z11rgba_unpack5vint4S_RS_S0_"
+          },
+          {
+            "address": 2086432,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z13float_to_sf16f"
+          },
+          {
+            "address": 2086296,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z13sf16_to_floatt"
+          },
+          {
+            "address": 2041576,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z14compress_blockRK16astcenc_contextiRK11image_blockPhR27compression_working_buffers"
+          },
+          {
+            "address": 2053196,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z14unpack_weightsRK21block_size_descriptorRK25symbolic_compressed_blockRK15decimation_infobPiS8_"
+          },
+          {
+            "address": 2079956,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z16load_image_block15astcenc_profileRK13astcenc_imageR11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle"
+          },
+          {
+            "address": 2038028,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z17rgba_delta_unpack5vint4S_RS_S0_"
+          },
+          {
+            "address": 2081992,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z17store_image_blockR13astcenc_imageRK11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle"
+          },
+          {
+            "address": 2057844,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc_config"
+          },
+          {
+            "address": 2060456,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z20astcenc_context_freeP15astcenc_context"
+          },
+          {
+            "address": 2028688,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method"
+          },
+          {
+            "address": 2097456,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block"
+          },
+          {
+            "address": 2096172,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPh"
+          },
+          {
+            "address": 2058968,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z21astcenc_context_allocPK14astcenc_configjPP15astcenc_context"
+          },
+          {
+            "address": 2053040,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_swizzleR8avg_args"
+          },
+          {
+            "address": 2086744,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z21init_partition_tablesR21block_size_descriptorbj"
+          },
+          {
+            "address": 2060584,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmj"
+          },
+          {
+            "address": 2062336,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22astcenc_compress_resetP15astcenc_context"
+          },
+          {
+            "address": 2063904,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22astcenc_get_block_infoP15astcenc_contextPKhP18astcenc_block_info"
+          },
+          {
+            "address": 2089912,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22is_legal_2d_block_sizejj"
+          },
+          {
+            "address": 2090048,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22is_legal_3d_block_sizejjj"
+          },
+          {
+            "address": 2098992,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22prepare_angular_tablesv"
+          },
+          {
+            "address": 2038264,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5vint4S4_"
+          },
+          {
+            "address": 2089412,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z23get_2d_percentile_tablejj"
+          },
+          {
+            "address": 2062744,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z24astcenc_decompress_imageP15astcenc_contextPKhmP13astcenc_imagePK15astcenc_swizzlej"
+          },
+          {
+            "address": 2063428,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z24astcenc_decompress_resetP15astcenc_context"
+          },
+          {
+            "address": 2065132,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z24astcenc_get_error_string13astcenc_error"
+          },
+          {
+            "address": 2021480,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_"
+          },
+          {
+            "address": 2053524,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z25decompress_symbolic_block15astcenc_profileRK21block_size_descriptoriiiRK25symbolic_compressed_blockR11image_block"
+          },
+          {
+            "address": 2083768,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z25get_ise_sequence_bitcountj12quant_method"
+          },
+          {
+            "address": 2081524,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z25load_image_block_fast_ldr15astcenc_profileRK13astcenc_imageR11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle"
+          },
+          {
+            "address": 2020544,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_"
+          },
+          {
+            "address": 2022296,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z26init_block_size_descriptorjjjbjfR21block_size_descriptor"
+          },
+          {
+            "address": 2020148,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11image_blockjjP17partition_metrics"
+          },
+          {
+            "address": 2018056,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11image_blockjP17partition_metrics"
+          },
+          {
+            "address": 2016316,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11image_blockP17partition_metrics"
+          },
+          {
+            "address": 2049680,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z29compute_pixel_region_varianceR16astcenc_contextiRK17pixel_region_args"
+          },
+          {
+            "address": 2076192,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_"
+          },
+          {
+            "address": 2090204,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z30compute_ideal_endpoint_formatsRK14partition_infoRK11image_blockRK9endpointsPKaPKfjjjPA4_hPiP12quant_methodSG_R27compression_working_buffers"
+          },
+          {
+            "address": 2065792,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z30find_best_partition_candidatesRK21block_size_descriptorRK11image_blockjjPjj"
+          },
+          {
+            "address": 2077888,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z30recompute_ideal_colors_2planesRK11image_blockRK21block_size_descriptorRK15decimation_infoPKhS9_R9endpointsR7vfloat4SD_i"
+          },
+          {
+            "address": 2099140,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z32compute_angular_endpoints_1planebRK21block_size_descriptorPKfjR27compression_working_buffers"
+          },
+          {
+            "address": 2018692,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoRK11image_blockP17partition_metrics"
+          },
+          {
+            "address": 2100748,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z33compute_angular_endpoints_2planesRK21block_size_descriptorPKfjR27compression_working_buffers"
+          },
+          {
+            "address": 2073656,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z34compute_error_of_weight_set_1planeRK21endpoints_and_weightsRK15decimation_infoPKf"
+          },
+          {
+            "address": 2074388,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z35compute_error_of_weight_set_2planesRK21endpoints_and_weightsS1_RK15decimation_infoPKfS6_"
+          },
+          {
+            "address": 2074840,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf"
+          },
+          {
+            "address": 2070036,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z39compute_ideal_colors_and_weights_1planeRK11image_blockRK14partition_infoR21endpoints_and_weights"
+          },
+          {
+            "address": 2071868,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_"
+          },
+          {
+            "address": 2075732,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method"
+          },
+          {
+            "address": 2056160,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z40compute_symbolic_block_difference_1planeRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block"
+          },
+          {
+            "address": 2055476,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z40compute_symbolic_block_difference_2planeRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block"
+          },
+          {
+            "address": 2056976,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__Z51compute_symbolic_block_difference_1plane_1partitionRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block"
+          },
+          {
+            "address": 3033264,
+            "type": 15,
+            "section": 33,
+            "desc": 128,
+            "name": "__ZGVZ10select_msb7vfloat4S_6vmask4E3msb"
+          },
+          {
+            "address": 3033104,
+            "type": 15,
+            "section": 33,
+            "desc": 128,
+            "name": "__ZGVZ4mask6vmask4E5shift"
+          },
+          {
+            "address": 2086260,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__ZN4astc4randEPy"
+          },
+          {
+            "address": 2086244,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__ZN4astc9rand_initEPy"
+          },
+          {
+            "address": 3033248,
+            "type": 15,
+            "section": 33,
+            "desc": 128,
+            "name": "__ZZ10select_msb7vfloat4S_6vmask4E3msb"
+          },
+          {
+            "address": 3033088,
+            "type": 15,
+            "section": 33,
+            "desc": 128,
+            "name": "__ZZ4mask6vmask4E5shift"
+          },
+          {
+            "address": 1907976,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f0mH4xQ8sK2yN6"
+          },
+          {
+            "address": 1746308,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f1iphVfnC1bvVhG"
+          },
+          {
+            "address": 682980,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f2Xk9Lp5Mv3Qr7W"
+          },
+          {
+            "address": 679012,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f2nO4pQ7rS9tU"
+          },
+          {
+            "address": 1746340,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f2thlxmzdWK7JM2"
+          },
+          {
+            "address": 1850496,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f3Qm7Xk9Rp2Wv"
+          },
+          {
+            "address": 680100,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f3UMoGb3el0yUSQ"
+          },
+          {
+            "address": 1739204,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f3Vk7Yp1Lq8Ns"
+          },
+          {
+            "address": 680404,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f3lphIRxFt0vpFB"
+          },
+          {
+            "address": 1908208,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f3nR7wP1vJ5tL9"
+          },
+          {
+            "address": 678604,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f4KIkJUtWk0TCCf"
+          },
+          {
+            "address": 1742604,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f4bC6dE9fG1hI"
+          },
+          {
+            "address": 679796,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f5pW9nL3tR7xK2"
+          },
+          {
+            "address": 1741908,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f5tU7vW0xY2zA"
+          },
+          {
+            "address": 1770800,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f6Ft9GenZjeH3Af"
+          },
+          {
+            "address": 684600,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f6Hn4Wj1Fy8Tz0K"
+          },
+          {
+            "address": 1767252,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f6bC8dE1fG3hI"
+          },
+          {
+            "address": 1850676,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f6zA1bC4dE6fG"
+          },
+          {
+            "address": 680176,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f764No4INd9MUgr"
+          },
+          {
+            "address": 1772132,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f7G2RPJyAt0ADEp"
+          },
+          {
+            "address": 1850508,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f7rS9tU2vW4xY"
+          },
+          {
+            "address": 679492,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f8Qm3Xk7Rp1Wv"
+          },
+          {
+            "address": 1851952,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f8jK0lM3nO5pQ"
+          },
+          {
+            "address": 1908440,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f8mX4vK6rQ1nH7"
+          },
+          {
+            "address": 682532,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f9Qr7Xk2Wp5Mv3L"
+          },
+          {
+            "address": 1739172,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__f9Rc4Tn2Mw6Qp"
+          },
+          {
+            "address": 1772836,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fAJIgYBhuJzkgGF"
+          },
+          {
+            "address": 682396,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fEWVsu8uNR367VN"
+          },
+          {
+            "address": 1739200,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fEnwSaUDiGmBk1q"
+          },
+          {
+            "address": 1768092,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fEq4hmWcp5xGuKv"
+          },
+          {
+            "address": 679188,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fExNAowuqX0TH6B"
+          },
+          {
+            "address": 680328,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fEzGNdWGfxrPsJK"
+          },
+          {
+            "address": 679264,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fFgVvSetDOxvpbP"
+          },
+          {
+            "address": 681388,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fJeJM04CEuW3bg2"
+          },
+          {
+            "address": 678056,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fJqLsFFPXK0cFxc"
+          },
+          {
+            "address": 1751604,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fMm11bxsRZfwh2K"
+          },
+          {
+            "address": 1742732,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fNvu1HzBKknLz9t"
+          },
+          {
+            "address": 680024,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fNzRjLtL2drcZwo"
+          },
+          {
+            "address": 679644,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fOBcjNqfCWaiof3"
+          },
+          {
+            "address": 1742600,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fQ3iyAt8bUZOVIY"
+          },
+          {
+            "address": 1745604,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fVE09CNf3q3RF7Q"
+          },
+          {
+            "address": 679948,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fVfljbxCWyRMJyA"
+          },
+          {
+            "address": 679416,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fWUxv3cPx4cefWP"
+          },
+          {
+            "address": 1770968,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fWq8nT3vR6pK"
+          },
+          {
+            "address": 680848,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fat1EKz6btuppLX"
+          },
+          {
+            "address": 1745812,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fcd35W6vAgAT9y8"
+          },
+          {
+            "address": 1761384,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fioHANJrlexv4Di"
+          },
+          {
+            "address": 1767292,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fq8uifaK5OxZEg7"
+          },
+          {
+            "address": 679720,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fsHTV0U9WCLGtP9"
+          },
+          {
+            "address": 1746304,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fuYNmCPpAxdw99y"
+          },
+          {
+            "address": 1742976,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fvgkRaq8ljfDIaa"
+          },
+          {
+            "address": 680252,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fx5grEY9bNfgIon"
+          },
+          {
+            "address": 681628,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fyMsR2lauKKnlhu"
+          },
+          {
+            "address": 678464,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fzRoVWJGiu8YaQo"
+          },
+          {
+            "address": 681472,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fzVMymtbtWpeytg"
+          },
+          {
+            "address": 681200,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "__fzco2EnwJ2Qmi1c"
+          },
+          {
+            "address": 3033112,
+            "type": 15,
+            "section": 33,
+            "desc": 0,
+            "name": "_color_scrambled_pquant_to_uquant_tables"
+          },
+          {
+            "address": 2282720,
+            "type": 15,
+            "section": 6,
+            "desc": 0,
+            "name": "_color_unquant_to_uquant_tables"
+          },
+          {
+            "address": 2291424,
+            "type": 15,
+            "section": 6,
+            "desc": 0,
+            "name": "_color_uquant_to_scrambled_pquant_tables"
+          },
+          {
+            "address": 1966052,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_miniz_def_alloc_func"
+          },
+          {
+            "address": 1966060,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_miniz_def_free_func"
+          },
+          {
+            "address": 1966068,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_miniz_def_realloc_func"
+          },
+          {
+            "address": 1965588,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_adler32"
+          },
+          {
+            "address": 1967228,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_compress"
+          },
+          {
+            "address": 1967004,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_compress2"
+          },
+          {
+            "address": 1967236,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_compressBound"
+          },
+          {
+            "address": 1965884,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_crc32"
+          },
+          {
+            "address": 1966540,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflate"
+          },
+          {
+            "address": 1966916,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflateBound"
+          },
+          {
+            "address": 1966384,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflateEnd"
+          },
+          {
+            "address": 1966092,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflateInit"
+          },
+          {
+            "address": 1966112,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflateInit2"
+          },
+          {
+            "address": 1966456,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_deflateReset"
+          },
+          {
+            "address": 1968824,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_error"
+          },
+          {
+            "address": 1966048,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_free"
+          },
+          {
+            "address": 1967616,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_inflate"
+          },
+          {
+            "address": 1968468,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_inflateEnd"
+          },
+          {
+            "address": 1967532,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_inflateInit"
+          },
+          {
+            "address": 1967324,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_inflateInit2"
+          },
+          {
+            "address": 1967540,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_inflateReset"
+          },
+          {
+            "address": 1968788,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_uncompress"
+          },
+          {
+            "address": 1968540,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_uncompress2"
+          },
+          {
+            "address": 1966080,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_version"
+          },
+          {
+            "address": 2013944,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_add_mem_to_archive_file_in_place"
+          },
+          {
+            "address": 2013952,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_add_mem_to_archive_file_in_place_v2"
+          },
+          {
+            "address": 2014820,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_clear_last_error"
+          },
+          {
+            "address": 2015244,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_end"
+          },
+          {
+            "address": 2014728,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_extract_archive_file_to_heap"
+          },
+          {
+            "address": 2014476,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_extract_archive_file_to_heap_v2"
+          },
+          {
+            "address": 2014992,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_archive_file_start_offset"
+          },
+          {
+            "address": 2014980,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_archive_size"
+          },
+          {
+            "address": 2014940,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_central_dir_size"
+          },
+          {
+            "address": 2015020,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_cfile"
+          },
+          {
+            "address": 2014876,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_error_string"
+          },
+          {
+            "address": 2014848,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_last_error"
+          },
+          {
+            "address": 2014748,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_mode"
+          },
+          {
+            "address": 2014760,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_get_type"
+          },
+          {
+            "address": 2014912,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_is_zip64"
+          },
+          {
+            "address": 2014800,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_peek_last_error"
+          },
+          {
+            "address": 2015048,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_read_archive_data"
+          },
+          {
+            "address": 1986684,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_end"
+          },
+          {
+            "address": 1995332,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_iter_new"
+          },
+          {
+            "address": 1994632,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_callback"
+          },
+          {
+            "address": 1996932,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_cfile"
+          },
+          {
+            "address": 1996656,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_file"
+          },
+          {
+            "address": 1993172,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_heap"
+          },
+          {
+            "address": 1992816,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_mem"
+          },
+          {
+            "address": 1992672,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_file_to_mem_no_alloc"
+          },
+          {
+            "address": 1996116,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_iter_free"
+          },
+          {
+            "address": 1994732,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_iter_new"
+          },
+          {
+            "address": 1995416,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_iter_read"
+          },
+          {
+            "address": 1993276,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_callback"
+          },
+          {
+            "address": 1996744,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_cfile"
+          },
+          {
+            "address": 1996324,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_file"
+          },
+          {
+            "address": 1992828,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_heap"
+          },
+          {
+            "address": 1992800,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_mem"
+          },
+          {
+            "address": 1991644,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_extract_to_mem_no_alloc"
+          },
+          {
+            "address": 1993112,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_file_stat"
+          },
+          {
+            "address": 2015096,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_get_filename"
+          },
+          {
+            "address": 2014968,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_get_num_files"
+          },
+          {
+            "address": 1986964,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_init"
+          },
+          {
+            "address": 1989992,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_init_cfile"
+          },
+          {
+            "address": 1989504,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_init_file"
+          },
+          {
+            "address": 1989516,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_init_file_v2"
+          },
+          {
+            "address": 1989240,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_init_mem"
+          },
+          {
+            "address": 1990488,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_is_file_a_directory"
+          },
+          {
+            "address": 1990248,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_is_file_encrypted"
+          },
+          {
+            "address": 1990340,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_is_file_supported"
+          },
+          {
+            "address": 1990604,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_locate_file"
+          },
+          {
+            "address": 1990648,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_reader_locate_file_v2"
+          },
+          {
+            "address": 2014772,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_set_last_error"
+          },
+          {
+            "address": 1999328,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_validate_archive"
+          },
+          {
+            "address": 1997020,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_validate_file"
+          },
+          {
+            "address": 1999900,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_validate_file_archive"
+          },
+          {
+            "address": 1999684,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_validate_mem_archive"
+          },
+          {
+            "address": 2009096,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_cfile"
+          },
+          {
+            "address": 2009312,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_file"
+          },
+          {
+            "address": 2009600,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_from_zip_reader"
+          },
+          {
+            "address": 2002176,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_mem"
+          },
+          {
+            "address": 2002240,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_mem_ex"
+          },
+          {
+            "address": 2002292,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_mem_ex_v2"
+          },
+          {
+            "address": 2006464,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_add_read_buf_callback"
+          },
+          {
+            "address": 2001664,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_end"
+          },
+          {
+            "address": 2012644,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_finalize_archive"
+          },
+          {
+            "address": 2013776,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_finalize_heap_archive"
+          },
+          {
+            "address": 2000412,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init"
+          },
+          {
+            "address": 2001672,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_cfile"
+          },
+          {
+            "address": 2001140,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_file"
+          },
+          {
+            "address": 2001148,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_file_v2"
+          },
+          {
+            "address": 2002168,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_from_reader"
+          },
+          {
+            "address": 2001788,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_from_reader_v2"
+          },
+          {
+            "address": 2001132,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_heap"
+          },
+          {
+            "address": 2000420,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_heap_v2"
+          },
+          {
+            "address": 2000112,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_writer_init_v2"
+          },
+          {
+            "address": 1986656,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_mz_zip_zero_struct"
+          },
+          {
+            "address": 2298428,
+            "type": 15,
+            "section": 6,
+            "desc": 0,
+            "name": "_quant_and_xfer_tables"
+          },
+          {
+            "address": 2296968,
+            "type": 15,
+            "section": 6,
+            "desc": 0,
+            "name": "_quant_mode_table"
+          },
+          {
+            "address": 1968876,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compress"
+          },
+          {
+            "address": 1973480,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compress_buffer"
+          },
+          {
+            "address": 1973996,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compress_mem_to_heap"
+          },
+          {
+            "address": 1974264,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compress_mem_to_mem"
+          },
+          {
+            "address": 1973836,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compress_mem_to_output"
+          },
+          {
+            "address": 1975240,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compressor_alloc"
+          },
+          {
+            "address": 1975252,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_compressor_free"
+          },
+          {
+            "address": 1974348,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_create_comp_flags_from_zip_params"
+          },
+          {
+            "address": 1973828,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_get_adler32"
+          },
+          {
+            "address": 1973820,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_get_prev_return_status"
+          },
+          {
+            "address": 1973540,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_init"
+          },
+          {
+            "address": 1975228,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_write_image_to_png_file_in_memory"
+          },
+          {
+            "address": 1974480,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tdefl_write_image_to_png_file_in_memory_ex"
+          },
+          {
+            "address": 1979904,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompress"
+          },
+          {
+            "address": 1986284,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompress_mem_to_callback"
+          },
+          {
+            "address": 1985796,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompress_mem_to_heap"
+          },
+          {
+            "address": 1986120,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompress_mem_to_mem"
+          },
+          {
+            "address": 1986620,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompressor_alloc"
+          },
+          {
+            "address": 1986652,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tinfl_decompressor_free"
+          },
+          {
+            "address": 2101248,
+            "type": 15,
+            "section": 1,
+            "desc": 0,
+            "name": "_tm_astc_encode_4x4"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_CACurrentMediaTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_CATransform3DMakeScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CCCryptorGCMOneshotDecrypt"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CCCryptorGCMOneshotEncrypt"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CCHmac"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CC_SHA256"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CC_SHA256_Final"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CC_SHA256_Init"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_CC_SHA256_Update"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFBooleanGetTypeID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDataGetTypeID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDictionaryGetValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDictionaryGetValueIfPresent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFErrorGetCode"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFGetTypeID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFStringConvertEncodingToNSStringEncoding"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformConcat"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformIdentity"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformMakeRotation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformMakeScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformMakeTranslation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGAffineTransformScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGBitmapContextCreate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGBitmapContextCreateImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGColorEqualToColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGColorGetAlpha"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGColorSpaceCreateDeviceRGB"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGColorSpaceRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextAddEllipseInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextClip"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextDrawImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextFillEllipseInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextRestoreGState"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextSaveGState"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextSetBlendMode"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGContextSetInterpolationQuality"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGDataProviderCreateWithCFData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGDataProviderRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGFontCopyPostScriptName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGFontCreateWithDataProvider"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGFontCreateWithFontName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGFontRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGImageCreateWithImageInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGImageGetAlphaInfo"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGImageGetHeight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGImageGetWidth"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGImageRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_CGImageSourceCopyPropertiesAtIndex"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_CGImageSourceCreateThumbnailAtIndex"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_CGImageSourceCreateWithData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_CGImageSourceCreateWithURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_CGImageSourceGetCount"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGPathCreateCopyByTransformingPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGPathGetBoundingBox"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGPathRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGPointZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectContainsPoint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectEqualToRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetHeight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMaxX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMaxY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMidX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMidY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMinX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetMinY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectGetWidth"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectInset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectIntersection"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectIntersectsRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectIsEmpty"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectIsNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectUnion"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGRectZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CGSizeZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_CTFontCopyName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_CTFontCreateWithGraphicsFont"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_CTFontManagerRegisterFontsForURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_CTFontManagerUnregisterFontsForURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_MSHookMessageEx"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSBackgroundColorAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSCalendarIdentifierChinese"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSClassFromString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSDirectionalEdgeInsetsZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSFileSystemFreeSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSFileSystemSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSFontAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSForegroundColorAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSHomeDirectory"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSKernAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSLocalizedDescriptionKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSOSStatusErrorDomain"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSRunLoopCommonModes"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSSearchPathForDirectoriesInDomains"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSSelectorFromString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSStringFromCGSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSStringFromClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSStrokeColorAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSStrokeWidthAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSTemporaryDirectory"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSURLAuthenticationMethodServerTrust"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSURLErrorDomain"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSURLIsExcludedFromBackupKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSURLSessionTaskPriorityHigh"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSUnderlyingErrorKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CABasicAnimation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CADisplayLink"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAEmitterCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAEmitterLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAGradientLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAKeyframeAnimation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CALayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAMediaTimingFunction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CAShapeLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CATextLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CATransaction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_CATransition"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4352,
+            "name": "_OBJC_CLASS_$_CLLocationManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2560,
+            "name": "_OBJC_CLASS_$_JSContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSAttributedString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSBundle"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSByteCountFormatter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSCache"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSCalendar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSCharacterSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSCondition"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSConstantArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSConstantDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSConstantDoubleNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSConstantIntegerNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSDate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSDateFormatter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSError"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSFileManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSHTTPURLResponse"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSHashTable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSIndexPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSIndexSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSJSONSerialization"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSLayoutConstraint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSLocale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSLock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableAttributedString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableIndexSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableURLRequest"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSNotificationCenter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_CLASS_$_NSObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSOperationQueue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSProcessInfo"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSPropertyListSerialization"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSProxy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSRegularExpression"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSRunLoop"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSScanner"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSSortDescriptor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSThread"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSTimer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLComponents"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLCredential"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLRequest"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLSession"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLSessionConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSUUID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSUndoManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSUserDefaults"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHAsset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHAssetChangeRequest"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHFetchOptions"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHImageManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHImageRequestOptions"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_PHPhotoLibrary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_PHPickerConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_PHPickerFilter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_PHPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIActivityIndicatorView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIActivityViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIAlertAction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIAlertController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIApplication"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBarButtonItem"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBezierPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBlurEffect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIButton"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1088,
+            "name": "_OBJC_CLASS_$_UIButtonConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionViewCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionViewFlowLayout"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIColorPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDevice"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDocumentPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIFont"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImagePickerController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImageSymbolConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImageView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImpactFeedbackGenerator"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UILabel"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UILongPressGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UINavigationBar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UINavigationBarAppearance"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UINavigationController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIPanGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIPasteboard"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIPinchGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIRefreshControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIScreen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIScrollView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISearchBar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISegmentedControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1088,
+            "name": "_OBJC_CLASS_$_UISheetPresentationControllerDetent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISlider"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISwipeGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISwitch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITabBar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITabBarAppearance"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITabBarController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableViewCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableViewHeaderFooterView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITapGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITextField"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITextView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITraitCollection"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIVisualEffectView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIWindow"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIWindowScene"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_OBJC_CLASS_$_UTType"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_WKUserContentController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_WKUserScript"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_WKWebView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_WKWebViewConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_EHTYPE_$_NSException"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_EHTYPE_id"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_METACLASS_$_NSObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_METACLASS_$_NSProxy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIButton"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UITableViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIWindow"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecAccessControlCreateWithFlags"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecCertificateCopyData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecItemAdd"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecItemCopyMatching"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecItemDelete"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecItemUpdate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCopyExternalRepresentation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCopyKeyExchangeResult"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCopyPublicKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCreateRandomKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCreateSignature"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyCreateWithData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyGetTypeID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyIsAlgorithmSupported"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecKeyVerifySignature"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecRandomCopyBytes"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecTrustEvaluateWithError"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_SecTrustGetCertificateAtIndex"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIAccessibilityIsReduceMotionEnabled"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIAccessibilityIsReduceTransparencyEnabled"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIAccessibilityReduceTransparencyStatusDidChangeNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIAccessibilityTraitButton"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidBecomeActiveNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidEnterBackgroundNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidReceiveMemoryWarningNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationUserDidTakeScreenshotNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationWillEnterForegroundNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIEdgeInsetsZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontDescriptorTraitsAttribute"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightBold"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightHeavy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightLight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightMedium"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightRegular"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightSemibold"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightThin"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightTrait"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsBeginImageContextWithOptions"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsEndImageContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsGetCurrentContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsGetImageFromCurrentImageContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePNGRepresentation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerEditedImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerOriginalImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardAnimationDurationUserInfoKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardDidShowNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardFrameEndUserInfoKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardWillHideNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardWillShowNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIOffsetZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIRectFill"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIRectFillUsingBlendMode"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIScreenCapturedDidChangeNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIViewNoIntrinsicMetric"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIWindowLevelAlert"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_UTTypeData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_UTTypeImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__Block_object_assign"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__Block_object_dispose"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__NSConcreteGlobalBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__NSConcreteStackBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__Unwind_Resume"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNKSt9exception4whatEv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__118condition_variable10notify_allEv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__118condition_variableD1Ev"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__15mutex4lockEv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__15mutex6unlockEv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt3__15mutexD1Ev"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZNSt9exceptionD2Ev"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZTISt9exception"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZTVN10__cxxabiv117__class_type_infoE"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZTVN10__cxxabiv120__si_class_type_infoE"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZdaPv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__ZdlPv"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__Znam"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "__Znwm"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___CFConstantStringClassReference"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___NSArray0__struct"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___NSDictionary0__struct"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___assert_rtn"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___chkstk_darwin"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "___cxa_allocate_exception"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "___cxa_guard_acquire"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "___cxa_guard_release"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "___cxa_throw"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "___gxx_personality_v0"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___kCFBooleanFalse"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___kCFBooleanTrue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___memcpy_chk"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___memset_chk"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "___objc_personality_v0"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___sincos_stret"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___sincosf_stret"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___stack_chk_fail"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "___stack_chk_guard"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3904,
+            "name": "__availability_version_check"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__dispatch_main_q"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__dyld_get_image_header"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__dyld_get_image_name"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__dyld_get_image_vmaddr_slide"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__dyld_image_count"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "__objc_empty_cache"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "__tlv_bootstrap"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_arc4random_uniform"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_bzero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_calloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_addMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_copyIvarList"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getClassMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getInstanceMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getInstanceVariable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getSuperclass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_replaceMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3328,
+            "name": "_compression_encode_buffer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_cos"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_after"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_apply"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_async"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_get_global_queue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_once"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_once_f"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_queue_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_semaphore_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_semaphore_signal"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_semaphore_wait"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_sync"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dispatch_time"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dladdr"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dlopen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_dlsym"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_exit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fclose"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fflush"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fopen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fread"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_free"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_freopen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fseek"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fseeko"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_ftell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_ftello"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_fwrite"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_getpid"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_imp_implementationWithBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_ivar_getName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_ivar_getOffset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_ivar_getTypeEncoding"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAlignmentCenter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAlignmentLeft"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAlignmentRight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAnimationDiscrete"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAnimationLinear"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAAnimationPaced"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCACornerCurveContinuous"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAEmitterLayerAdditive"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAEmitterLayerRectangle"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAFillModeForwards"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAFillRuleEvenOdd"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAGradientLayerConic"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAGradientLayerRadial"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAGravityResizeAspect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAGravityResizeAspectFill"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCALineCapButt"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCALineCapRound"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCALineJoinRound"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCAMediaTimingFunctionEaseInEaseOut"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_kCATransitionFade"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFAllocatorDefault"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFBooleanFalse"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFBooleanTrue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImagePropertyGIFDelayTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImagePropertyGIFDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImagePropertyGIFUnclampedDelayTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImageSourceCreateThumbnailFromImageAlways"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImageSourceCreateThumbnailWithTransform"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_kCGImageSourceThumbnailMaxPixelSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4352,
+            "name": "_kCLLocationAccuracyHundredMeters"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_kCTFontFamilyNameKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrAccessControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrAccessible"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrAccessibleWhenUnlockedThisDeviceOnly"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrAccount"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrApplicationTag"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrIsExtractable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrIsPermanent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrIsSensitive"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeyClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeyClassPrivate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeyClassPublic"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeySizeInBits"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeyType"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrKeyTypeECSECPrimeRandom"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrService"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrTokenID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecAttrTokenIDSecureEnclave"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecClassGenericPassword"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecClassKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecKeyAlgorithmECDHKeyExchangeStandard"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecKeyAlgorithmECDSASignatureMessageX962SHA256"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecKeyKeyExchangeParameterRequestedSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecMatchLimit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecMatchLimitOne"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecPrivateKeyAttrs"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecRandomDefault"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecReturnData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecReturnRef"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2304,
+            "name": "_kSecValueData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_localtime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_logf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_mach_task_self_"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_malloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_memcmp"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_memcpy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_memset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_memset_pattern16"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_method_getImplementation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_method_setImplementation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_mktime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_alloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_alloc_init"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_allocateClassPair"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autorelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleasePoolPop"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleasePoolPush"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleaseReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_begin_catch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_copyWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_destroyWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_end_catch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_enumerationMutation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_exception_rethrow"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_getAssociatedObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_getClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_initWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_loadWeakRetained"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_moveWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_msgSend"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_msgSendSuper"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_msgSendSuper2"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_class"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_isKindOfClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_new"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_respondsToSelector"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_registerClassPair"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_release"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retain"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainAutorelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainAutoreleaseReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainAutoreleasedReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_setAssociatedObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_setProperty_nonatomic_copy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_storeStrong"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_storeWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_sync_enter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_sync_exit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_terminate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_unsafeClaimAutoreleasedReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_getClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_getClassName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_getIvar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_setIvar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_posix_memalign"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_realloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_remove"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_rewind"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_sel_registerName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_sin"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_sscanf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_stat"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_strcmp"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_strlen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_strstr"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_sysctl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_sysctlbyname"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_task_info"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_time"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_utime"
+          }
+        ],
+        "fat_container": {
+          "format": "Fat Mach-O",
+          "slices": [
+            {
+              "cputype": 16777228,
+              "cpusubtype": 0,
+              "offset": 16384,
+              "size": 3172704,
+              "align": 14
+            },
+            {
+              "cputype": 16777228,
+              "cpusubtype": 2147483650,
+              "offset": 3194880,
+              "size": 3241472,
+              "align": 14
+            }
+          ],
+          "selected": {
+            "cputype": 16777228,
+            "cpusubtype": 0,
+            "offset": 16384,
+            "size": 3172704,
+            "align": 14
+          }
+        }
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "source": "Payload/WeChat.app/libsubstrate.dylib",
+      "output": "75功能提取\\07_Lab\\依赖\\libsubstrate.dylib",
+      "size": 134160,
+      "sha256": "914ca66e90f2fa4caf7509ce848879e974f7f96ffb7f7c4e3d19fad92e84f7b7"
+    }
+  ]
+}

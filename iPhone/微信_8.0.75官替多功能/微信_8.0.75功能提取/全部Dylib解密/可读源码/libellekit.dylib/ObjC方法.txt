@@ -1,0 +1,12 @@
+seekToEndOfFile
+bundleIdentifier
+UTF8String
+stringByResolvingSymlinksInPath
+closeFile
+defaultManager
+fileExistsAtPath:
+fileHandleForWritingToURL:error:
+fileURLWithPath:
+initWithPath:
+stringByDeletingLastPathComponent
+writeData:

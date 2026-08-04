@@ -1,0 +1,13 @@
+### HBWechatHelper.dylib
+@rpath/HBWechatHelper.dylib
+T@"NSString",C,N,V_thehbversion
+PluginConfigBackuper
+PluginConfigBackup
+_thehbversion
+endHBWechatHelperNCMsgText
+firstHBWechatHelperNCMsgText
+setEndHBWechatHelperNCMsgText:
+setFirstHBWechatHelperNCMsgText:
+thehbversion
+_GetTheHBVersion
+HBWechatHelper.dylib

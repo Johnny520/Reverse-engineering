@@ -1,0 +1,6 @@
+dylib_count=18
+binary_hash_checks=18
+gzip_integrity_checks=36
+instruction_total=49619827
+errors=0
+result=PASS

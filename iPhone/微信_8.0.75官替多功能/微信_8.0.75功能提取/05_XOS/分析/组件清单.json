@@ -1,0 +1,3830 @@
+{
+  "name": "XOS",
+  "folder": "05_XOS",
+  "files": [
+    {
+      "source": "Payload/WeChat.app/XOS.dylib",
+      "output": "75功能提取\\05_XOS\\主文件\\XOS.dylib",
+      "size": 3329952,
+      "sha256": "68750621e5956eaffeed5d009ace78e3b5efb722f36f55172e086f9391f6e49c",
+      "macho": {
+        "format": "Mach-O 64-bit",
+        "arch": "arm64",
+        "cpu_subtype": 0,
+        "filetype": 6,
+        "ncmds": 42,
+        "sizeofcmds": 5488,
+        "flags": "0x100085",
+        "uuid": "D3578987-2172-3778-A36A-D5545DA4A98C",
+        "dylib_id": "@loader_path/.jbroot/Library/MobileSubstrate/DynamicLibraries/XOS.dylib",
+        "cryptoff": 16384,
+        "cryptsize": 2916352,
+        "cryptid": 0,
+        "dependencies": [
+          "/usr/lib/libobjc.A.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Foundation",
+          "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+          "/System/Library/Frameworks/UIKit.framework/UIKit",
+          "/System/Library/Frameworks/ImageIO.framework/ImageIO",
+          "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+          "/System/Library/Frameworks/Photos.framework/Photos",
+          "/System/Library/Frameworks/PhotosUI.framework/PhotosUI",
+          "/System/Library/Frameworks/SpriteKit.framework/SpriteKit",
+          "/System/Library/Frameworks/GLKit.framework/GLKit",
+          "/System/Library/Frameworks/CoreLocation.framework/CoreLocation",
+          "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore",
+          "/System/Library/Frameworks/CoreText.framework/CoreText",
+          "/System/Library/Frameworks/WebKit.framework/WebKit",
+          "/System/Library/Frameworks/CoreMotion.framework/CoreMotion",
+          "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+          "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox",
+          "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics",
+          "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AVFAudio.framework/AVFAudio",
+          "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+          "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+          "/usr/lib/libz.1.dylib",
+          "@executable_path/libsubstrate.dylib"
+        ],
+        "sections": [
+          {
+            "segment": "__TEXT",
+            "section": "__text",
+            "addr": 16384,
+            "size": 2089196,
+            "offset": 16384,
+            "align": 2,
+            "flags": "0x80000400"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__stubs",
+            "addr": 2105580,
+            "size": 2700,
+            "offset": 2105580,
+            "align": 2,
+            "flags": "0x80000408"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_stubs",
+            "addr": 2108288,
+            "size": 63424,
+            "offset": 2108288,
+            "align": 5,
+            "flags": "0x80000400"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__init_offsets",
+            "addr": 2171712,
+            "size": 140,
+            "offset": 2171712,
+            "align": 2,
+            "flags": "0x16"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methlist",
+            "addr": 2171856,
+            "size": 24008,
+            "offset": 2171856,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__gcc_except_tab",
+            "addr": 2195864,
+            "size": 312768,
+            "offset": 2195864,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__const",
+            "addr": 2508640,
+            "size": 3040,
+            "offset": 2508640,
+            "align": 4,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__cstring",
+            "addr": 2511680,
+            "size": 93968,
+            "offset": 2511680,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_classname",
+            "addr": 2605648,
+            "size": 2642,
+            "offset": 2605648,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methname",
+            "addr": 2608290,
+            "size": 72832,
+            "offset": 2608290,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__objc_methtype",
+            "addr": 2681122,
+            "size": 11640,
+            "offset": 2681122,
+            "align": 0,
+            "flags": "0x2"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__ustring",
+            "addr": 2692762,
+            "size": 197042,
+            "offset": 2692762,
+            "align": 1,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__TEXT",
+            "section": "__unwind_info",
+            "addr": 2889804,
+            "size": 36712,
+            "offset": 2889804,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__got",
+            "addr": 2932736,
+            "size": 2592,
+            "offset": 2932736,
+            "align": 3,
+            "flags": "0x6"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__const",
+            "addr": 2935328,
+            "size": 24760,
+            "offset": 2935328,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__cfstring",
+            "addr": 2960088,
+            "size": 137408,
+            "offset": 2960088,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_classlist",
+            "addr": 3097496,
+            "size": 552,
+            "offset": 3097496,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_catlist",
+            "addr": 3098048,
+            "size": 8,
+            "offset": 3098048,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_protolist",
+            "addr": 3098056,
+            "size": 200,
+            "offset": 3098056,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_imageinfo",
+            "addr": 3098256,
+            "size": 8,
+            "offset": 3098256,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_arraydata",
+            "addr": 3098264,
+            "size": 14800,
+            "offset": 3098264,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_arrayobj",
+            "addr": 3113064,
+            "size": 5280,
+            "offset": 3113064,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_doubleobj",
+            "addr": 3118344,
+            "size": 1200,
+            "offset": 3118344,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_intobj",
+            "addr": 3119544,
+            "size": 2352,
+            "offset": 3119544,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA_CONST",
+            "section": "__objc_dictobj",
+            "addr": 3121896,
+            "size": 3160,
+            "offset": 3121896,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_const",
+            "addr": 3129344,
+            "size": 64120,
+            "offset": 3129344,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_selrefs",
+            "addr": 3193464,
+            "size": 21888,
+            "offset": 3193464,
+            "align": 3,
+            "flags": "0x10000005"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_classrefs",
+            "addr": 3215352,
+            "size": 1784,
+            "offset": 3215352,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_superrefs",
+            "addr": 3217136,
+            "size": 328,
+            "offset": 3217136,
+            "align": 3,
+            "flags": "0x10000000"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_ivar",
+            "addr": 3217464,
+            "size": 1080,
+            "offset": 3217464,
+            "align": 2,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__objc_data",
+            "addr": 3218544,
+            "size": 5520,
+            "offset": 3218544,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__data",
+            "addr": 3224064,
+            "size": 4904,
+            "offset": 3224064,
+            "align": 3,
+            "flags": "0x0"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__common",
+            "addr": 3228968,
+            "size": 137,
+            "offset": 0,
+            "align": 3,
+            "flags": "0x1"
+          },
+          {
+            "segment": "__DATA",
+            "section": "__bss",
+            "addr": 3229112,
+            "size": 15024,
+            "offset": 0,
+            "align": 3,
+            "flags": "0x1"
+          }
+        ],
+        "symbols": [
+          {
+            "address": 90260802,
+            "type": 60,
+            "section": 0,
+            "desc": 0,
+            "name": "radr://5614542"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5632,
+            "name": "_AVAudioSessionCategoryPlayback"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_AVLayerVideoGravityResizeAspectFill"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_AVMetadataCommonKeyAlbumName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_AVMetadataCommonKeyArtist"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_AVMetadataCommonKeyTitle"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_AVPlayerItemDidPlayToEndTimeNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CACurrentMediaTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CAFrameRateRangeDefault"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CAFrameRateRangeMake"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CATransform3DIdentity"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CATransform3DMakeRotation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CATransform3DRotate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_CATransform3DScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_CCCrypt"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_CCHmac"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFAbsoluteTimeGetCurrent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDataCreateWithBytesNoCopy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDataGetBytePtr"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDataGetLength"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDictionaryCreateMutable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDictionaryGetValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFDictionarySetValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFNumberGetValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_CFRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformConcat"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformIdentity"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformIsIdentity"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformMakeRotation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformMakeScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformMakeTranslation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformRotate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformScale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGAffineTransformTranslate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGBitmapContextCreate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGColorEqualToColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGColorSpaceCreateDeviceRGB"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGColorSpaceRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextClearRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextDrawImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextFillEllipseInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextFillRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextScaleCTM"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextSetFillColorWithColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGContextSetShadowWithColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGDataProviderCopyData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGDataProviderCreateWithCFData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGDataProviderCreateWithData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGDataProviderRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGFontCopyPostScriptName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGFontCreateWithDataProvider"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGFontRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageCreate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageCreateWithImageInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetAlphaInfo"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetBitsPerPixel"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetBytesPerRow"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetDataProvider"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetHeight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageGetWidth"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGImageRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_CGImageSourceCopyPropertiesAtIndex"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_CGImageSourceCreateImageAtIndex"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_CGImageSourceCreateWithData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_CGImageSourceGetCount"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathAddCurveToPoint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathAddEllipseInRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathAddLineToPoint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathAddPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathAddRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathCloseSubpath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathCreateCopy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathCreateCopyByTransformingPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathCreateMutable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathCreateWithRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathEqualToPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathGetBoundingBox"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathGetPathBoundingBox"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathMoveToPoint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPathRelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGPointZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectContainsPoint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectEqualToRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetHeight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMaxX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMaxY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMidX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMidY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMinX"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetMinY"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectGetWidth"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectInset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectIntegral"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectIntersection"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectIntersectsRect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectIsEmpty"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectIsNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectOffset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectStandardize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectUnion"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGRectZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5888,
+            "name": "_CGSizeZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticDynamicParameterIDHapticIntensityControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticDynamicParameterIDHapticSharpnessControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticEventParameterIDHapticIntensity"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticEventParameterIDHapticSharpness"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticEventTypeHapticContinuous"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_CHHapticEventTypeHapticTransient"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6144,
+            "name": "_CMTimeGetSeconds"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3328,
+            "name": "_CTFontManagerRegisterGraphicsFont"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6656,
+            "name": "_MSHookMessageEx"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSBackgroundColorAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSCalendarIdentifierChinese"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSCalendarIdentifierGregorian"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSClassFromString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSFileModificationDate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSFileSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSFontAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_NSForegroundColorAttributeName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSHomeDirectory"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSLocalizedDescriptionKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSLog"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_NSRunLoopCommonModes"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSSearchPathForDirectoriesInDomains"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSSelectorFromString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSStringFromClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSTemporaryDirectory"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_NSURLAuthenticationMethodServerTrust"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5632,
+            "name": "_OBJC_CLASS_$_AVAudioPlayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5632,
+            "name": "_OBJC_CLASS_$_AVAudioSession"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_AVPlayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_AVPlayerItem"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_AVPlayerLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1536,
+            "name": "_OBJC_CLASS_$_AVURLAsset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAAnimationGroup"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CABasicAnimation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CADisplayLink"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAEmitterCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAEmitterLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAGradientLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAKeyframeAnimation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CALayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAMediaTimingFunction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CAShapeLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CATextLayer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_OBJC_CLASS_$_CATransaction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_CHHapticDynamicParameter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_CHHapticEngine"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_CHHapticEvent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_CHHapticEventParameter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4608,
+            "name": "_OBJC_CLASS_$_CHHapticPattern"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_CLGeocoder"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2816,
+            "name": "_OBJC_CLASS_$_CLLocation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3840,
+            "name": "_OBJC_CLASS_$_CMMotionManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_OBJC_CLASS_$_JSContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3072,
+            "name": "_OBJC_CLASS_$_JSValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSAttributedString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSBlockOperation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSBundle"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSCache"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSCalendar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSCharacterSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSConstantArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSConstantDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSConstantDoubleNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSConstantIntegerNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSCountedSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSDate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSDateComponents"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSDateFormatter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSError"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSFileHandle"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSFileManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSHTTPURLResponse"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSHashTable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSIndexPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSIndexSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSInvocation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSJSONSerialization"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSKeyedArchiver"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSKeyedUnarchiver"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSLayoutConstraint"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_NSLayoutManager"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSLocale"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableArray"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableAttributedString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableIndexSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSMutableSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSMutableURLRequest"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSNotificationCenter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSNull"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSNumber"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_CLASS_$_NSObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSOperationQueue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSPredicate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSRegularExpression"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSRunLoop"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSScanner"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSSet"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSString"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_NSTextContainer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_NSTextStorage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSThread"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSTimeZone"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSTimer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLCredential"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLRequest"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLSession"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLSessionConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSURLSessionWebSocketMessage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSUUID"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_CLASS_$_NSUserDefaults"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 512,
+            "name": "_OBJC_CLASS_$_NSValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1792,
+            "name": "_OBJC_CLASS_$_PHPhotoLibrary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_PHPickerConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_PHPickerFilter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 2048,
+            "name": "_OBJC_CLASS_$_PHPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIActivityIndicatorView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIAlertAction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIAlertController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIApplication"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBarButtonItem"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBezierPath"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIBlurEffect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIButton"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionReusableView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionViewCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UICollectionViewFlowLayout"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIColor"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIColorPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDevice"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDocumentPickerViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDragInteraction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDropInteraction"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIDropProposal"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIFont"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIGraphicsImageRenderer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImagePickerController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImageSymbolConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImageView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIImpactFeedbackGenerator"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UILabel"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UILongPressGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UINavigationBarAppearance"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UINavigationController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIPanGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIPasteboard"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIResponder"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIScreen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIScrollView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISearchBar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISegmentedControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISheetPresentationControllerDetent"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISlider"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIStackView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIStepper"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISwipeGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UISwitch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITabBar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITabBarController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableViewCell"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITableViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITapGestureRecognizer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITextField"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITextView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UITraitCollection"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIVisualEffectView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_CLASS_$_UIWindowScene"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_OBJC_CLASS_$_UTType"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKSnapshotConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKUserContentController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKUserScript"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKWebView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKWebViewConfiguration"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 3584,
+            "name": "_OBJC_CLASS_$_WKWebsiteDataStore"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_OBJC_EHTYPE_$_NSException"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_EHTYPE_id"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_OBJC_METACLASS_$_NSObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIButton"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIControl"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UILabel"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UITableViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIView"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_OBJC_METACLASS_$_UIViewController"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidBecomeActiveNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidEnterBackgroundNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationDidFinishLaunchingNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationWillEnterForegroundNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIApplicationWillResignActiveNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UICollectionElementKindSectionFooter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIEdgeInsetsZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontTextStyleFootnote"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightBlack"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightBold"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightHeavy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightLight"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightMedium"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightRegular"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIFontWeightSemibold"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsBeginImageContextWithOptions"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsEndImageContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsGetCurrentContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsGetImageFromCurrentImageContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsPopContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIGraphicsPushContext"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImageJPEGRepresentation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePNGRepresentation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerEditedImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerImageURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerMediaURL"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIImagePickerControllerOriginalImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardAnimationDurationUserInfoKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardFrameEndUserInfoKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardWillHideNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIKeyboardWillShowNotification"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UILayoutFittingCompressedSize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UITableViewAutomaticDimension"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UITransitionContextFromViewControllerKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UITransitionContextToViewControllerKey"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1024,
+            "name": "_UIWindowLevelNormal"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_UTTypeData"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_UTTypeImage"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_UTTypeItem"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4864,
+            "name": "_UTTypeMovie"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__Block_object_assign"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__Block_object_dispose"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__NSConcreteGlobalBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__NSConcreteStackBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__Unwind_Resume"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5120,
+            "name": "__ZSt9terminatev"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___CFConstantStringClassReference"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___NSArray0__struct"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___NSDictionary0__struct"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___chkstk_darwin"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5120,
+            "name": "___cxa_begin_catch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___exp10f"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5120,
+            "name": "___gxx_personality_v0"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___kCFBooleanFalse"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "___kCFBooleanTrue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "___objc_personality_v0"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___sincos_stret"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___sincosf_stret"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___stack_chk_fail"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "___stack_chk_guard"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dispatch_main_q"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dispatch_source_type_timer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dyld_get_image_header"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dyld_get_image_vmaddr_slide"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dyld_image_count"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "__dyld_register_func_for_add_image"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "__objc_empty_cache"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_arc4random"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_arc4random_uniform"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_atexit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_bzero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_calloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_addMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_addProperty"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_copyIvarList"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_copyMethodList"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_copyPropertyList"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getInstanceMethod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getInstanceVariable"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_class_getSuperclass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_cosf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_after"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_async"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_get_global_queue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_group_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_group_enter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_group_leave"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_group_notify"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_once"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_queue_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_resume"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_set_target_queue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_source_cancel"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_source_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_source_set_event_handler"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_source_set_timer"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dispatch_time"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dladdr"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dlopen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_dlsym"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_exit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_exp2"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_fmod"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_free"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_hypot"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_imp_implementationWithBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6400,
+            "name": "_inflate"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6400,
+            "name": "_inflateEnd"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6400,
+            "name": "_inflateInit2_"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_ivar_getName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_ivar_getOffset"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAAlignmentCenter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAAnimationLinear"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAEmitterLayerLine"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAEmitterLayerOutline"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAFillModeForwards"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAFillRuleEvenOdd"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAGravityResize"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAGravityResizeAspectFill"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCALineCapButt"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCALineCapRound"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCALineCapSquare"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCALineJoinRound"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAMediaTimingFunctionEaseInEaseOut"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 4096,
+            "name": "_kCAMediaTimingFunctionLinear"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFAllocatorDefault"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFAllocatorMalloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 768,
+            "name": "_kCFTypeDictionaryValueCallBacks"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_kCGImagePropertyGIFDelayTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_kCGImagePropertyGIFDictionary"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_kCGImagePropertyGIFUnclampedDelayTime"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_kCGImageSourceShouldAllowFloat"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 1280,
+            "name": "_kCGImageSourceShouldCache"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 6144,
+            "name": "_kCMTimeZero"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_log1pf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_mach_task_self_"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_malloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_memcpy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_method_getName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_mprotect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_alloc"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_alloc_init"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_allocateClassPair"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autorelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleasePoolPop"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleasePoolPush"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_autoreleaseReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_begin_catch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_copyWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_destroyWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_end_catch"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_enumerationMutation"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_exception_rethrow"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_getAssociatedObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_getClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_initWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_loadWeakRetained"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_msgSend"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_msgSendSuper2"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_class"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_isKindOfClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_new"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_opt_respondsToSelector"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_registerClassPair"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_release"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retain"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainAutorelease"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainAutoreleasedReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_retainBlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_setAssociatedObject"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_setProperty_nonatomic_copy"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_storeStrong"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_storeWeak"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_sync_enter"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_sync_exit"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_objc_unsafeClaimAutoreleasedReturnValue"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_getClass"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_object_getIvar"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_os_unfair_lock_lock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_os_unfair_lock_unlock"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_property_getName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_pthread_getspecific"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_pthread_key_create"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_pthread_setspecific"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_sel_getName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 256,
+            "name": "_sel_registerName"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_sin"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_sinf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_snprintf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_strcmp"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_strlen"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_strstr"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_sysconf"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_vm_protect"
+          },
+          {
+            "address": 0,
+            "type": 1,
+            "section": 0,
+            "desc": 5376,
+            "name": "_vm_region_64"
+          }
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "source": "Payload/WeChat.app/libsubstrate.dylib",
+      "output": "75功能提取\\05_XOS\\依赖\\libsubstrate.dylib",
+      "size": 134160,
+      "sha256": "914ca66e90f2fa4caf7509ce848879e974f7f96ffb7f7c4e3d19fad92e84f7b7"
+    }
+  ]
+}

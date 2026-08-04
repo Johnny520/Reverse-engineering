@@ -1,0 +1,1024 @@
+{
+  "format": "Mach-O 64-bit",
+  "arch": "arm64",
+  "cpu_subtype": 0,
+  "filetype": 6,
+  "ncmds": 17,
+  "sizeofcmds": 1688,
+  "flags": "0x110085",
+  "uuid": "FFA3562C-E21D-3FA1-A2DF-98D17214503E",
+  "dylib_id": "@executable_path/libsubstrate.dylib",
+  "cryptoff": null,
+  "cryptsize": null,
+  "cryptid": null,
+  "dependencies": [
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libstdc++.6.dylib",
+    "/usr/lib/libSystem.B.dylib"
+  ],
+  "sections": [
+    {
+      "segment": "__TEXT",
+      "section": "__text",
+      "addr": 16384,
+      "size": 67756,
+      "offset": 16384,
+      "align": 14,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stubs",
+      "addr": 84140,
+      "size": 1152,
+      "offset": 84140,
+      "align": 1,
+      "flags": "0x80000408"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stub_helper",
+      "addr": 85292,
+      "size": 1176,
+      "offset": 85292,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__cstring",
+      "addr": 86468,
+      "size": 1638,
+      "offset": 86468,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__unwind_info",
+      "addr": 88106,
+      "size": 72,
+      "offset": 88106,
+      "align": 0,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__got",
+      "addr": 98304,
+      "size": 72,
+      "offset": 98304,
+      "align": 3,
+      "flags": "0x6"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__la_symbol_ptr",
+      "addr": 98376,
+      "size": 768,
+      "offset": 98376,
+      "align": 3,
+      "flags": "0x7"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__mod_init_func",
+      "addr": 99144,
+      "size": 16,
+      "offset": 99144,
+      "align": 3,
+      "flags": "0x9"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__const",
+      "addr": 99168,
+      "size": 472,
+      "offset": 99168,
+      "align": 4,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__data",
+      "addr": 99648,
+      "size": 128,
+      "offset": 99648,
+      "align": 4,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__common",
+      "addr": 99776,
+      "size": 1,
+      "offset": 0,
+      "align": 0,
+      "flags": "0x1"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__bss",
+      "addr": 99792,
+      "size": 74,
+      "offset": 0,
+      "align": 4,
+      "flags": "0x1"
+    }
+  ],
+  "symbols": [
+    {
+      "address": 90260802,
+      "type": 60,
+      "section": 0,
+      "desc": 0,
+      "name": "radr://5614542"
+    },
+    {
+      "address": 16384,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSCloseImage"
+    },
+    {
+      "address": 49152,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSCloseTable"
+    },
+    {
+      "address": 32768,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSCloseTarget"
+    },
+    {
+      "address": 99776,
+      "type": 15,
+      "section": 11,
+      "desc": 0,
+      "name": "_MSDebug"
+    },
+    {
+      "address": 17400,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSFindAddress"
+    },
+    {
+      "address": 16600,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSFindSymbol"
+    },
+    {
+      "address": 16492,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSGetImageByName"
+    },
+    {
+      "address": 23372,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookClassPair"
+    },
+    {
+      "address": 82704,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookFunction"
+    },
+    {
+      "address": 22792,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookMessageEx"
+    },
+    {
+      "address": 17372,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSImageAddress"
+    },
+    {
+      "address": 16956,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSMapImage"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_CC_SHA1"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_NXFindBestFatArch"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs12_M_leak_hardEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs4_Rep10_M_destroyERKSaIcE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs4_Rep20_S_empty_rep_storageE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs4swapERSs"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs6appendEPKcm"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs6appendERKSs"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs6assignERKSs"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSs6insertEmPKcm"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSsC1EPKcRKSaIcE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSsC1EPKcmRKSaIcE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSsC1ERKSs"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE4syncEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE5imbueERKSt6locale"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE5uflowEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE6setbufEPcl"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPcl"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE7seekoffExSt12_Ios_SeekdirSt13_Ios_Openmode"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE7seekposESt4fposI11__mbstate_tESt13_Ios_Openmode"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE9pbackfailEi"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt15basic_streambufIcSt11char_traitsIcEE9underflowEv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt6localeC1Ev"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt6localeD1Ev"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt8ios_base4InitC1Ev"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZNSt8ios_base4InitD1Ev"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt17__throw_bad_allocv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt20__throw_length_errorPKc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZTVSt15basic_streambufIcSt11char_traitsIcEE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "__ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 640,
+      "name": "__ZdaPv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 640,
+      "name": "__ZdlPv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 640,
+      "name": "__Znam"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 640,
+      "name": "__Znwm"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___cxa_atexit"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___error"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___stack_chk_fail"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___stack_chk_guard"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___stderrp"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_get_all_image_infos"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_get_image_header"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_get_image_name"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_get_image_vmaddr_slide"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_image_count"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_close"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_free"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_new"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_open"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_send"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_asl_set"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_bzero"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_addMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_copyMethodList"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_getMethodImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_getName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_getSuperclass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_class_isMetaClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_close"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlclose"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlopen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlsym"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_exit"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_fcntl"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_fprintf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_free"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_fstat"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_getenv"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_getpagesize"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_getpid"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_lseek"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mach_task_self_"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_malloc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_memcmp"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_memcpy"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_memmove"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_memset"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_method_getImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_method_getName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_method_getTypeEncoding"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_method_setImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mkstemps"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mmap"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mprotect"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_munmap"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_object_getClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_open"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_sel_getName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_sel_isEqual"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_sel_registerName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_snprintf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_sprintf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_sscanf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strcmp"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strcpy"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strdup"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strlen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strncmp"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_strrchr"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_sys_dcache_flush"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_sys_icache_invalidate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_sysctlbyname"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_unlink"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vasprintf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vm_allocate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vm_deallocate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vm_remap"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_write"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "dyld_stub_binder"
+    }
+  ],
+  "source_in_ipa": "Payload/WeChat.app/libsubstrate.dylib",
+  "output_binary": "75功能提取\\全部Dylib解密\\原始已解密\\libsubstrate.dylib",
+  "size": 134160,
+  "sha256": "914ca66e90f2fa4caf7509ce848879e974f7f96ffb7f7c4e3d19fad92e84f7b7"
+}

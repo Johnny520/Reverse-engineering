@@ -1,0 +1,3 @@
+/usr/lib/libobjc.A.dylib
+/usr/lib/libstdc++.6.dylib
+/usr/lib/libSystem.B.dylib

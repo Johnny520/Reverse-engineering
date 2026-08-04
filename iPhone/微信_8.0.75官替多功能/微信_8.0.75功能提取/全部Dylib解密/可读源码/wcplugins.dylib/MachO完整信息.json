@@ -1,0 +1,2604 @@
+{
+  "format": "Mach-O 64-bit",
+  "arch": "arm64",
+  "cpu_subtype": 0,
+  "filetype": 6,
+  "ncmds": 20,
+  "sizeofcmds": 3184,
+  "flags": "0x100085",
+  "uuid": "3934F803-2EC2-3CDF-9052-967F8CA77E06",
+  "dylib_id": "/Library/MobileSubstrate/DynamicLibraries/wcplugins.dylib",
+  "cryptoff": 16384,
+  "cryptsize": 32768,
+  "cryptid": 0,
+  "dependencies": [
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/System/Library/Frameworks/UIKit.framework/UIKit",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+  ],
+  "sections": [
+    {
+      "segment": "__TEXT",
+      "section": "__text",
+      "addr": 16384,
+      "size": 11432,
+      "offset": 16384,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stubs",
+      "addr": 27816,
+      "size": 444,
+      "offset": 27816,
+      "align": 2,
+      "flags": "0x80000408"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stub_helper",
+      "addr": 28260,
+      "size": 468,
+      "offset": 28260,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_stubs",
+      "addr": 28736,
+      "size": 2656,
+      "offset": 28736,
+      "align": 5,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__gcc_except_tab",
+      "addr": 31392,
+      "size": 140,
+      "offset": 31392,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__cstring",
+      "addr": 31532,
+      "size": 520,
+      "offset": 31532,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_methname",
+      "addr": 32052,
+      "size": 2108,
+      "offset": 32052,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__ustring",
+      "addr": 34160,
+      "size": 114,
+      "offset": 34160,
+      "align": 1,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_classname",
+      "addr": 34274,
+      "size": 58,
+      "offset": 34274,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_methtype",
+      "addr": 34332,
+      "size": 206,
+      "offset": 34332,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__unwind_info",
+      "addr": 34540,
+      "size": 272,
+      "offset": 34540,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__eh_frame",
+      "addr": 34816,
+      "size": 116,
+      "offset": 34816,
+      "align": 3,
+      "flags": "0x6800000b"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__got",
+      "addr": 49152,
+      "size": 72,
+      "offset": 49152,
+      "align": 3,
+      "flags": "0x6"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__la_symbol_ptr",
+      "addr": 49224,
+      "size": 296,
+      "offset": 49224,
+      "align": 3,
+      "flags": "0x7"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__mod_init_func",
+      "addr": 49520,
+      "size": 8,
+      "offset": 49520,
+      "align": 3,
+      "flags": "0x9"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__const",
+      "addr": 49528,
+      "size": 144,
+      "offset": 49528,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__cfstring",
+      "addr": 49672,
+      "size": 224,
+      "offset": 49672,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_classlist",
+      "addr": 49896,
+      "size": 24,
+      "offset": 49896,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_imageinfo",
+      "addr": 49920,
+      "size": 8,
+      "offset": 49920,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_const",
+      "addr": 49928,
+      "size": 1856,
+      "offset": 49928,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_selrefs",
+      "addr": 51784,
+      "size": 720,
+      "offset": 51784,
+      "align": 3,
+      "flags": "0x10000005"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_classrefs",
+      "addr": 52504,
+      "size": 88,
+      "offset": 52504,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_superrefs",
+      "addr": 52592,
+      "size": 8,
+      "offset": 52592,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_ivar",
+      "addr": 52600,
+      "size": 36,
+      "offset": 52600,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_data",
+      "addr": 52640,
+      "size": 240,
+      "offset": 52640,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__data",
+      "addr": 52880,
+      "size": 8,
+      "offset": 52880,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__bss",
+      "addr": 52888,
+      "size": 96,
+      "offset": 0,
+      "align": 3,
+      "flags": "0x1"
+    }
+  ],
+  "symbols": [
+    {
+      "address": 16384,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL15CHConstructor49v"
+    },
+    {
+      "address": 16512,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "____ZL15CHConstructor49v_block_invoke"
+    },
+    {
+      "address": 17040,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL12CHLoadClass_P19CHClassDeclaration_P10objc_class"
+    },
+    {
+      "address": 17120,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL45$MoreViewController_addFunctionSection_methodP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 18108,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL47$MoreViewController_pushPluginController_methodP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 18448,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL48$MoreViewController_pushPluginController_closureP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 18612,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initWithNibName:bundle:]"
+    },
+    {
+      "address": 19288,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController viewDidLoad]"
+    },
+    {
+      "address": 19488,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initData]"
+    },
+    {
+      "address": 19684,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initNavHeaderIfNeed]"
+    },
+    {
+      "address": 20184,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "_CGRectMake"
+    },
+    {
+      "address": 20260,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController shouldAutorotate]"
+    },
+    {
+      "address": 20288,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController viewWillLayoutSubviews]"
+    },
+    {
+      "address": 20764,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController reloadTableData]"
+    },
+    {
+      "address": 21116,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "___42-[WCPluginsViewController reloadTableData]_block_invoke"
+    },
+    {
+      "address": 21628,
+      "type": 30,
+      "section": 1,
+      "desc": 128,
+      "name": "___copy_helper_block_e8_32s40s"
+    },
+    {
+      "address": 21716,
+      "type": 30,
+      "section": 1,
+      "desc": 128,
+      "name": "___destroy_helper_block_e8_32s40s"
+    },
+    {
+      "address": 21784,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController switchChanged:]"
+    },
+    {
+      "address": 22168,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController getSwitchKeyValue:]"
+    },
+    {
+      "address": 22312,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController pushPluginController:]"
+    },
+    {
+      "address": 22596,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initTableView]"
+    },
+    {
+      "address": 22820,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController getHeaderView]"
+    },
+    {
+      "address": 23968,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController addNormalCellForSel:title:rightValue:userInfo:]"
+    },
+    {
+      "address": 24396,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController addSwitchCellForSel:title:on:userInfo:]"
+    },
+    {
+      "address": 24640,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController tableViewManager]"
+    },
+    {
+      "address": 24676,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setTableViewManager:]"
+    },
+    {
+      "address": 24736,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController navHeaderView]"
+    },
+    {
+      "address": 24772,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setNavHeaderView:]"
+    },
+    {
+      "address": 24832,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController dataSource]"
+    },
+    {
+      "address": 24868,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setDataSource:]"
+    },
+    {
+      "address": 24928,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController .cxx_destruct]"
+    },
+    {
+      "address": 25040,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel isController]"
+    },
+    {
+      "address": 25072,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setIsController:]"
+    },
+    {
+      "address": 25112,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel title]"
+    },
+    {
+      "address": 25140,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setTitle:]"
+    },
+    {
+      "address": 25192,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel version]"
+    },
+    {
+      "address": 25220,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setVersion:]"
+    },
+    {
+      "address": 25272,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel controller]"
+    },
+    {
+      "address": 25300,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setController:]"
+    },
+    {
+      "address": 25352,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel key]"
+    },
+    {
+      "address": 25380,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setKey:]"
+    },
+    {
+      "address": 25432,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel .cxx_destruct]"
+    },
+    {
+      "address": 25536,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "+[WCPluginsMgr sharedInstance]"
+    },
+    {
+      "address": 25712,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "___30+[WCPluginsMgr sharedInstance]_block_invoke"
+    },
+    {
+      "address": 25796,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr registerControllerWithTitle:version:controller:]"
+    },
+    {
+      "address": 26108,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr registerSwitchWithTitle:key:]"
+    },
+    {
+      "address": 26348,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr plugins]"
+    },
+    {
+      "address": 26460,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr setPlugins:]"
+    },
+    {
+      "address": 26512,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr .cxx_destruct]"
+    },
+    {
+      "address": 26560,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "_compatibilityInitializeAvailabilityCheck"
+    },
+    {
+      "address": 26568,
+      "type": 30,
+      "section": 1,
+      "desc": 0,
+      "name": "___isPlatformVersionAtLeast"
+    },
+    {
+      "address": 26960,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "_initializeAvailabilityCheck"
+    },
+    {
+      "address": 26968,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "__initializeAvailabilityCheck"
+    },
+    {
+      "address": 27768,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "_OUTLINED_FUNCTION_0"
+    },
+    {
+      "address": 27776,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "___isPlatformVersionAtLeast.cold.1"
+    },
+    {
+      "address": 27796,
+      "type": 14,
+      "section": 1,
+      "desc": 0,
+      "name": "___isPlatformVersionAtLeast.cold.2"
+    },
+    {
+      "address": 28736,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$PushViewController:animated:"
+    },
+    {
+      "address": 28768,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addCell:"
+    },
+    {
+      "address": 28800,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addNormalCellForSel:title:rightValue:userInfo:"
+    },
+    {
+      "address": 28832,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addObject:"
+    },
+    {
+      "address": 28864,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addSection:"
+    },
+    {
+      "address": 28896,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addSubview:"
+    },
+    {
+      "address": 28928,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$addSwitchCellForSel:title:on:userInfo:"
+    },
+    {
+      "address": 28960,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$alloc"
+    },
+    {
+      "address": 28992,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$array"
+    },
+    {
+      "address": 29024,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$arrayWithArray:"
+    },
+    {
+      "address": 29056,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$backgroundColor"
+    },
+    {
+      "address": 29088,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$boldSystemFontOfSize:"
+    },
+    {
+      "address": 29120,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$boolForKey:"
+    },
+    {
+      "address": 29152,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$bounds"
+    },
+    {
+      "address": 29184,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$cellInfo"
+    },
+    {
+      "address": 29216,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$controller"
+    },
+    {
+      "address": 29248,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$dataSource"
+    },
+    {
+      "address": 29280,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$enumerateObjectsUsingBlock:"
+    },
+    {
+      "address": 29312,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$frame"
+    },
+    {
+      "address": 29344,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getCurrentNavigationController"
+    },
+    {
+      "address": 29376,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getHeaderView"
+    },
+    {
+      "address": 29408,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getSectionAt:"
+    },
+    {
+      "address": 29440,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getSuperContainerView"
+    },
+    {
+      "address": 29472,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getSwitchKeyValue:"
+    },
+    {
+      "address": 29504,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$getTableView"
+    },
+    {
+      "address": 29536,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$imageNamed:"
+    },
+    {
+      "address": 29568,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$init"
+    },
+    {
+      "address": 29600,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initData"
+    },
+    {
+      "address": 29632,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initNavHeaderIfNeed"
+    },
+    {
+      "address": 29664,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initTableView"
+    },
+    {
+      "address": 29696,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initWithFrame:"
+    },
+    {
+      "address": 29728,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initWithFrame:style:"
+    },
+    {
+      "address": 29760,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$initWithImage:"
+    },
+    {
+      "address": 29792,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$isController"
+    },
+    {
+      "address": 29824,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$isOn"
+    },
+    {
+      "address": 29856,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$key"
+    },
+    {
+      "address": 29888,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$labelColor"
+    },
+    {
+      "address": 29920,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$labelSubColor"
+    },
+    {
+      "address": 29952,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$mainScreen"
+    },
+    {
+      "address": 29984,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$navHeaderView"
+    },
+    {
+      "address": 30016,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$navigationBarHeight"
+    },
+    {
+      "address": 30048,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$new"
+    },
+    {
+      "address": 30080,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$normalCellForSel:target:leftImage:title:WithDisclosureIndicator:"
+    },
+    {
+      "address": 30112,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$normalCellForSel:target:leftImage:title:pathKey:"
+    },
+    {
+      "address": 30144,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$normalCellForSel:target:title:rightValue:"
+    },
+    {
+      "address": 30176,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$normalCellForSel:target:title:rightValue:WithDisclosureIndicator:"
+    },
+    {
+      "address": 30208,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$normalStatusBarHeight"
+    },
+    {
+      "address": 30240,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$plugins"
+    },
+    {
+      "address": 30272,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$reloadData"
+    },
+    {
+      "address": 30304,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$reloadTableData"
+    },
+    {
+      "address": 30336,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$respondsToSelector:"
+    },
+    {
+      "address": 30368,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$sectionWithHeader:Footer:"
+    },
+    {
+      "address": 30400,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setAutomaticallyAdjustsScrollViewInsets:"
+    },
+    {
+      "address": 30432,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setBackgroundColor:"
+    },
+    {
+      "address": 30464,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setBool:forKey:"
+    },
+    {
+      "address": 30496,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setContentInsetAdjustmentBehavior:"
+    },
+    {
+      "address": 30528,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setController:"
+    },
+    {
+      "address": 30560,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setDataSource:"
+    },
+    {
+      "address": 30592,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setFont:"
+    },
+    {
+      "address": 30624,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setFrame:"
+    },
+    {
+      "address": 30656,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setHidesBottomBarWhenPushed:"
+    },
+    {
+      "address": 30688,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setIsController:"
+    },
+    {
+      "address": 30720,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setKey:"
+    },
+    {
+      "address": 30752,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setNavHeaderView:"
+    },
+    {
+      "address": 30784,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setNumberOfLines:"
+    },
+    {
+      "address": 30816,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setTableHeaderView:"
+    },
+    {
+      "address": 30848,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setText:"
+    },
+    {
+      "address": 30880,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setTextAlignment:"
+    },
+    {
+      "address": 30912,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setTextColor:"
+    },
+    {
+      "address": 30944,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setTitle:"
+    },
+    {
+      "address": 30976,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setUserInfo:"
+    },
+    {
+      "address": 31008,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$setVersion:"
+    },
+    {
+      "address": 31040,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$sharedInstance"
+    },
+    {
+      "address": 31072,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$standardUserDefaults"
+    },
+    {
+      "address": 31104,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$switchCellForSel:target:title:on:"
+    },
+    {
+      "address": 31136,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$synchronize"
+    },
+    {
+      "address": 31168,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$systemFontOfSize:"
+    },
+    {
+      "address": 31200,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$tableViewManager"
+    },
+    {
+      "address": 31232,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$title"
+    },
+    {
+      "address": 31264,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$userInfo"
+    },
+    {
+      "address": 31296,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$valueForKey:"
+    },
+    {
+      "address": 31328,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$version"
+    },
+    {
+      "address": 31360,
+      "type": 30,
+      "section": 4,
+      "desc": 0,
+      "name": "_objc_msgSend$view"
+    },
+    {
+      "address": 31392,
+      "type": 14,
+      "section": 5,
+      "desc": 0,
+      "name": "GCC_except_table3"
+    },
+    {
+      "address": 31476,
+      "type": 14,
+      "section": 5,
+      "desc": 0,
+      "name": "GCC_except_table4"
+    },
+    {
+      "address": 31512,
+      "type": 14,
+      "section": 5,
+      "desc": 0,
+      "name": "GCC_except_table5"
+    },
+    {
+      "address": 49528,
+      "type": 30,
+      "section": 16,
+      "desc": 128,
+      "name": "___block_descriptor_32_e5_v8\u0001?0l"
+    },
+    {
+      "address": 49560,
+      "type": 14,
+      "section": 16,
+      "desc": 0,
+      "name": "___block_literal_global"
+    },
+    {
+      "address": 49592,
+      "type": 30,
+      "section": 16,
+      "desc": 128,
+      "name": "___block_descriptor_48_e8_32s40s_e30_v32\u0001?0\u0001\"WCPluginModel\"8Q16^B24l"
+    },
+    {
+      "address": 49640,
+      "type": 30,
+      "section": 16,
+      "desc": 128,
+      "name": "___block_descriptor_40_e5_v8\u0001?0l"
+    },
+    {
+      "address": 49928,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginsViewController"
+    },
+    {
+      "address": 50000,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginsViewController"
+    },
+    {
+      "address": 50512,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginsViewController"
+    },
+    {
+      "address": 50616,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginsViewController"
+    },
+    {
+      "address": 50672,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginsViewController"
+    },
+    {
+      "address": 50744,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginModel"
+    },
+    {
+      "address": 50816,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginModel"
+    },
+    {
+      "address": 51088,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginModel"
+    },
+    {
+      "address": 51256,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginModel"
+    },
+    {
+      "address": 51344,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginModel"
+    },
+    {
+      "address": 51416,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_CLASS_METHODS_WCPluginsMgr"
+    },
+    {
+      "address": 51448,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginsMgr"
+    },
+    {
+      "address": 51520,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginsMgr"
+    },
+    {
+      "address": 51648,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginsMgr"
+    },
+    {
+      "address": 51688,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginsMgr"
+    },
+    {
+      "address": 51712,
+      "type": 14,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginsMgr"
+    },
+    {
+      "address": 52600,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginsViewController._tableViewManager"
+    },
+    {
+      "address": 52604,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginsViewController._navHeaderView"
+    },
+    {
+      "address": 52608,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginsViewController._dataSource"
+    },
+    {
+      "address": 52612,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginModel._isController"
+    },
+    {
+      "address": 52616,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginModel._title"
+    },
+    {
+      "address": 52620,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginModel._version"
+    },
+    {
+      "address": 52624,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginModel._controller"
+    },
+    {
+      "address": 52628,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginModel._key"
+    },
+    {
+      "address": 52632,
+      "type": 30,
+      "section": 24,
+      "desc": 0,
+      "name": "_OBJC_IVAR_$_WCPluginsMgr._plugins"
+    },
+    {
+      "address": 52880,
+      "type": 14,
+      "section": 26,
+      "desc": 0,
+      "name": "__dyld_private"
+    },
+    {
+      "address": 52888,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL19MoreViewController$"
+    },
+    {
+      "address": 52912,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL44$MoreViewController_addFunctionSection_super"
+    },
+    {
+      "address": 52920,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL46$MoreViewController_pushPluginController_super"
+    },
+    {
+      "address": 52928,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "_sharedInstance.instance"
+    },
+    {
+      "address": 52936,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "_sharedInstance.onceToken"
+    },
+    {
+      "address": 52944,
+      "type": 14,
+      "section": 27,
+      "desc": 0,
+      "name": "__MergedGlobals"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "wcplugins.mm"
+    },
+    {
+      "address": 0,
+      "type": 102,
+      "section": 0,
+      "desc": 1,
+      "name": "/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/wcplugins.o"
+    },
+    {
+      "address": 16384,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL15CHConstructor49v"
+    },
+    {
+      "address": 16512,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "____ZL15CHConstructor49v_block_invoke"
+    },
+    {
+      "address": 17040,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL12CHLoadClass_P19CHClassDeclaration_P10objc_class"
+    },
+    {
+      "address": 17120,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL45$MoreViewController_addFunctionSection_methodP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 18108,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL47$MoreViewController_pushPluginController_methodP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 18448,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "__ZL48$MoreViewController_pushPluginController_closureP18MoreViewControllerP13objc_selector"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "___block_descriptor_32_e5_v8\u0001?0l"
+    },
+    {
+      "address": 49560,
+      "type": 38,
+      "section": 16,
+      "desc": 0,
+      "name": "___block_literal_global"
+    },
+    {
+      "address": 52888,
+      "type": 38,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL19MoreViewController$"
+    },
+    {
+      "address": 52912,
+      "type": 38,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL44$MoreViewController_addFunctionSection_super"
+    },
+    {
+      "address": 52920,
+      "type": 38,
+      "section": 27,
+      "desc": 0,
+      "name": "__ZL46$MoreViewController_pushPluginController_super"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "WCPluginsViewController.m"
+    },
+    {
+      "address": 0,
+      "type": 102,
+      "section": 0,
+      "desc": 1,
+      "name": "/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsViewController.o"
+    },
+    {
+      "address": 18612,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initWithNibName:bundle:]"
+    },
+    {
+      "address": 19288,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController viewDidLoad]"
+    },
+    {
+      "address": 19488,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initData]"
+    },
+    {
+      "address": 19684,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initNavHeaderIfNeed]"
+    },
+    {
+      "address": 20184,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "_CGRectMake"
+    },
+    {
+      "address": 20260,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController shouldAutorotate]"
+    },
+    {
+      "address": 20288,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController viewWillLayoutSubviews]"
+    },
+    {
+      "address": 20764,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController reloadTableData]"
+    },
+    {
+      "address": 21116,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "___42-[WCPluginsViewController reloadTableData]_block_invoke"
+    },
+    {
+      "address": 21628,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "___copy_helper_block_e8_32s40s"
+    },
+    {
+      "address": 21716,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "___destroy_helper_block_e8_32s40s"
+    },
+    {
+      "address": 21784,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController switchChanged:]"
+    },
+    {
+      "address": 22168,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController getSwitchKeyValue:]"
+    },
+    {
+      "address": 22312,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController pushPluginController:]"
+    },
+    {
+      "address": 22596,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController initTableView]"
+    },
+    {
+      "address": 22820,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController getHeaderView]"
+    },
+    {
+      "address": 23968,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController addNormalCellForSel:title:rightValue:userInfo:]"
+    },
+    {
+      "address": 24396,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController addSwitchCellForSel:title:on:userInfo:]"
+    },
+    {
+      "address": 24640,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController tableViewManager]"
+    },
+    {
+      "address": 24676,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setTableViewManager:]"
+    },
+    {
+      "address": 24736,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController navHeaderView]"
+    },
+    {
+      "address": 24772,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setNavHeaderView:]"
+    },
+    {
+      "address": 24832,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController dataSource]"
+    },
+    {
+      "address": 24868,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController setDataSource:]"
+    },
+    {
+      "address": 24928,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsViewController .cxx_destruct]"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "___block_descriptor_48_e8_32s40s_e30_v32\u0001?0\u0001\"WCPluginModel\"8Q16^B24l"
+    },
+    {
+      "address": 49928,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginsViewController"
+    },
+    {
+      "address": 50000,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginsViewController"
+    },
+    {
+      "address": 50512,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginsViewController"
+    },
+    {
+      "address": 50616,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginsViewController"
+    },
+    {
+      "address": 50672,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginsViewController"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginsViewController"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginsViewController"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "/Users/mao/Documents/IOSProjects/WeChatPlugin/wcplugins/wcplugins/"
+    },
+    {
+      "address": 0,
+      "type": 100,
+      "section": 0,
+      "desc": 0,
+      "name": "WCPluginsMgr.m"
+    },
+    {
+      "address": 0,
+      "type": 102,
+      "section": 0,
+      "desc": 1,
+      "name": "/Users/mao/Library/Developer/Xcode/DerivedData/wcplugins-ejhzeienblapwtaimupoeoepkrby/Build/Intermediates.noindex/wcplugins.build/Debug-iphoneos/wcplugins.build/Objects-normal/arm64/WCPluginsMgr.o"
+    },
+    {
+      "address": 25040,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel isController]"
+    },
+    {
+      "address": 25072,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setIsController:]"
+    },
+    {
+      "address": 25112,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel title]"
+    },
+    {
+      "address": 25140,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setTitle:]"
+    },
+    {
+      "address": 25192,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel version]"
+    },
+    {
+      "address": 25220,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setVersion:]"
+    },
+    {
+      "address": 25272,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel controller]"
+    },
+    {
+      "address": 25300,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setController:]"
+    },
+    {
+      "address": 25352,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel key]"
+    },
+    {
+      "address": 25380,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel setKey:]"
+    },
+    {
+      "address": 25432,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginModel .cxx_destruct]"
+    },
+    {
+      "address": 25536,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "+[WCPluginsMgr sharedInstance]"
+    },
+    {
+      "address": 25712,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "___30+[WCPluginsMgr sharedInstance]_block_invoke"
+    },
+    {
+      "address": 25796,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr registerControllerWithTitle:version:controller:]"
+    },
+    {
+      "address": 26108,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr registerSwitchWithTitle:key:]"
+    },
+    {
+      "address": 26348,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr plugins]"
+    },
+    {
+      "address": 26460,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr setPlugins:]"
+    },
+    {
+      "address": 26512,
+      "type": 36,
+      "section": 1,
+      "desc": 0,
+      "name": "-[WCPluginsMgr .cxx_destruct]"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "___block_descriptor_40_e5_v8\u0001?0l"
+    },
+    {
+      "address": 50744,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginModel"
+    },
+    {
+      "address": 50816,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginModel"
+    },
+    {
+      "address": 51088,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginModel"
+    },
+    {
+      "address": 51256,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginModel"
+    },
+    {
+      "address": 51344,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginModel"
+    },
+    {
+      "address": 51416,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_CLASS_METHODS_WCPluginsMgr"
+    },
+    {
+      "address": 51448,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_METACLASS_RO_$_WCPluginsMgr"
+    },
+    {
+      "address": 51520,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_METHODS_WCPluginsMgr"
+    },
+    {
+      "address": 51648,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_INSTANCE_VARIABLES_WCPluginsMgr"
+    },
+    {
+      "address": 51688,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_$_PROP_LIST_WCPluginsMgr"
+    },
+    {
+      "address": 51712,
+      "type": 38,
+      "section": 20,
+      "desc": 0,
+      "name": "__OBJC_CLASS_RO_$_WCPluginsMgr"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginModel"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginModel"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginsMgr"
+    },
+    {
+      "address": 0,
+      "type": 32,
+      "section": 0,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginsMgr"
+    },
+    {
+      "address": 52928,
+      "type": 38,
+      "section": 27,
+      "desc": 0,
+      "name": "_sharedInstance.instance"
+    },
+    {
+      "address": 52936,
+      "type": 38,
+      "section": 27,
+      "desc": 0,
+      "name": "_sharedInstance.onceToken"
+    },
+    {
+      "address": 52760,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginModel"
+    },
+    {
+      "address": 52840,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginsMgr"
+    },
+    {
+      "address": 52640,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_WCPluginsViewController"
+    },
+    {
+      "address": 52720,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginModel"
+    },
+    {
+      "address": 52800,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginsMgr"
+    },
+    {
+      "address": 52680,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_WCPluginsViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_NSClassFromString"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_NSMutableArray"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_OBJC_CLASS_$_NSObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_NSUserDefaults"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIFont"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIImage"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIImageView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UILabel"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIScreen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_UIViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_OBJC_METACLASS_$_NSObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_METACLASS_$_UIViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "__NSConcreteGlobalBlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "__NSConcreteStackBlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "__Unwind_Resume"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "___CFConstantStringClassReference"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "___gxx_personality_v0"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "___stack_chk_fail"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "___stack_chk_guard"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1344,
+      "name": "__availability_version_check"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "__dispatch_main_q"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__objc_empty_cache"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_class_addMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_class_getInstanceMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_class_getMethodImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_class_getSuperclass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_dispatch_after"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_dispatch_once"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_dispatch_once_f"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_dispatch_time"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_dlsym"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_fclose"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_fopen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_fread"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_free"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_fseek"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_ftell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_malloc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_memcpy"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_method_getImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_method_getTypeEncoding"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_method_setImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_alloc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_autoreleasePoolPop"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_autoreleasePoolPush"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_autoreleaseReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_getClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_msgSend"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_msgSendSuper2"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_release"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_retain"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_retainAutoreleaseReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_retainAutoreleasedReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_objc_storeStrong"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_object_getClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_rewind"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_sscanf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_strlen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "dyld_stub_binder"
+    }
+  ],
+  "source_in_ipa": "Payload/WeChat.app/Frameworks/wcplugins.dylib",
+  "output_binary": "75功能提取\\全部Dylib解密\\原始已解密\\wcplugins.dylib",
+  "size": 92480,
+  "sha256": "0772d4e774ed50e32acae6862f061431996dfe325a1631fb0bc9c861df0ae470"
+}

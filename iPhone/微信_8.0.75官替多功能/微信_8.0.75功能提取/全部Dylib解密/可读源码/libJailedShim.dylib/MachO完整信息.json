@@ -1,0 +1,417 @@
+{
+  "format": "Mach-O 64-bit",
+  "arch": "arm64",
+  "cpu_subtype": 0,
+  "filetype": 6,
+  "ncmds": 18,
+  "sizeofcmds": 1536,
+  "flags": "0x100085",
+  "uuid": "7AC162CA-D3D6-303C-AE12-AF4E184C00A7",
+  "dylib_id": "@executable_path/Frameworks/libellekit.dylib",
+  "cryptoff": 16384,
+  "cryptsize": 49152,
+  "cryptid": 0,
+  "dependencies": [
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libobjc.A.dylib"
+  ],
+  "sections": [
+    {
+      "segment": "__TEXT",
+      "section": "__text",
+      "addr": 16384,
+      "size": 32768,
+      "offset": 16384,
+      "align": 14,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stubs",
+      "addr": 49152,
+      "size": 240,
+      "offset": 49152,
+      "align": 2,
+      "flags": "0x80000408"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stub_helper",
+      "addr": 49392,
+      "size": 264,
+      "offset": 49392,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__const",
+      "addr": 49656,
+      "size": 8,
+      "offset": 49656,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__unwind_info",
+      "addr": 49664,
+      "size": 136,
+      "offset": 49664,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__got",
+      "addr": 65536,
+      "size": 32,
+      "offset": 65536,
+      "align": 3,
+      "flags": "0x6"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__la_symbol_ptr",
+      "addr": 65568,
+      "size": 160,
+      "offset": 65568,
+      "align": 3,
+      "flags": "0x7"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__data",
+      "addr": 65728,
+      "size": 72,
+      "offset": 65728,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__common",
+      "addr": 65800,
+      "size": 8,
+      "offset": 0,
+      "align": 3,
+      "flags": "0x1"
+    }
+  ],
+  "symbols": [
+    {
+      "address": 90260802,
+      "type": 60,
+      "section": 0,
+      "desc": 0,
+      "name": "radr://5614542"
+    },
+    {
+      "address": 16516,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LBHookMessage"
+    },
+    {
+      "address": 16392,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LHCloseImage"
+    },
+    {
+      "address": 16396,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LHFindSymbols"
+    },
+    {
+      "address": 17100,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LHHookFunctions"
+    },
+    {
+      "address": 16384,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LHOpenImage"
+    },
+    {
+      "address": 17108,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_LHPatchMemory"
+    },
+    {
+      "address": 17192,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSFindSymbol"
+    },
+    {
+      "address": 17188,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSGetImageByName"
+    },
+    {
+      "address": 17368,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookClassPair"
+    },
+    {
+      "address": 17612,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookFunction"
+    },
+    {
+      "address": 17616,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookMemory"
+    },
+    {
+      "address": 17364,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_MSHookMessageEx"
+    },
+    {
+      "address": 17120,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_close_image"
+    },
+    {
+      "address": 17124,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_find_private_syms"
+    },
+    {
+      "address": 17184,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_free_created_imp"
+    },
+    {
+      "address": 17168,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_hook_functions"
+    },
+    {
+      "address": 17164,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_hook_objc_message"
+    },
+    {
+      "address": 17176,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_interpose_imports"
+    },
+    {
+      "address": 17116,
+      "type": 15,
+      "section": 1,
+      "desc": 0,
+      "name": "_substitute_open_image"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "___error"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_get_image_name"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "__dyld_image_count"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_addMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_copyMethodList"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_getInstanceMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_getMethodImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_getSuperclass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_class_replaceMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlclose"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlopen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_dlsym"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_free"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mach_task_self_"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_method_exchangeImplementations"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_method_getImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_method_getName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1024,
+      "name": "_method_getTypeEncoding"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_mmap"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_pthread_mutex_lock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_pthread_mutex_unlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vm_page_size"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "_vm_remap"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 768,
+      "name": "dyld_stub_binder"
+    }
+  ],
+  "source_in_ipa": "Payload/WeChat.app/Frameworks/libJailedShim.dylib",
+  "output_binary": "75功能提取\\全部Dylib解密\\原始已解密\\libJailedShim.dylib",
+  "size": 94656,
+  "sha256": "bc56412c5ac6f22f81291b5d398bce51c4aed58de62131491f8833be967d52b6"
+}

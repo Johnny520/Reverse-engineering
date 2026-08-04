@@ -1,0 +1,3446 @@
+{
+  "format": "Mach-O 64-bit",
+  "arch": "arm64",
+  "cpu_subtype": 0,
+  "filetype": 6,
+  "ncmds": 34,
+  "sizeofcmds": 4192,
+  "flags": "0x100085",
+  "uuid": "DAC0AF22-35FF-3A94-889A-FAFEF36F63BF",
+  "dylib_id": "/Library/MobileSubstrate/DynamicLibraries/ThemeBox.dylib",
+  "cryptoff": 16384,
+  "cryptsize": 12779520,
+  "cryptid": 0,
+  "dependencies": [
+    "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/System/Library/Frameworks/MetalKit.framework/MetalKit",
+    "/System/Library/Frameworks/Metal.framework/Metal",
+    "/System/Library/Frameworks/CoreText.framework/CoreText",
+    "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+    "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+    "/System/Library/Frameworks/WebKit.framework/WebKit",
+    "/System/Library/Frameworks/UIKit.framework/UIKit",
+    "/System/Library/Frameworks/CoreMedia.framework/CoreMedia",
+    "/System/Library/Frameworks/CoreServices.framework/CoreServices",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libSystem.B.dylib",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+  ],
+  "sections": [
+    {
+      "segment": "__TEXT",
+      "section": "__text",
+      "addr": 16384,
+      "size": 12586364,
+      "offset": 16384,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stubs",
+      "addr": 12602748,
+      "size": 1704,
+      "offset": 12602748,
+      "align": 2,
+      "flags": "0x80000408"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__stub_helper",
+      "addr": 12604452,
+      "size": 1728,
+      "offset": 12604452,
+      "align": 2,
+      "flags": "0x80000400"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__const",
+      "addr": 12606192,
+      "size": 1352,
+      "offset": 12606192,
+      "align": 4,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_methname",
+      "addr": 12607544,
+      "size": 80763,
+      "offset": 12607544,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__cstring",
+      "addr": 12688307,
+      "size": 1051,
+      "offset": 12688307,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_classname",
+      "addr": 12689358,
+      "size": 2299,
+      "offset": 12689358,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__objc_methtype",
+      "addr": 12691657,
+      "size": 10889,
+      "offset": 12691657,
+      "align": 0,
+      "flags": "0x2"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__gcc_except_tab",
+      "addr": 12702548,
+      "size": 42776,
+      "offset": 12702548,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__unwind_info",
+      "addr": 12745324,
+      "size": 12920,
+      "offset": 12745324,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__TEXT",
+      "section": "__eh_frame",
+      "addr": 12758248,
+      "size": 23436,
+      "offset": 12758248,
+      "align": 3,
+      "flags": "0x6800000b"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__got",
+      "addr": 12795904,
+      "size": 392,
+      "offset": 12795904,
+      "align": 3,
+      "flags": "0x6"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__mod_init_func",
+      "addr": 12796296,
+      "size": 48,
+      "offset": 12796296,
+      "align": 3,
+      "flags": "0x9"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__const",
+      "addr": 12796344,
+      "size": 11328,
+      "offset": 12796344,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__cfstring",
+      "addr": 12807672,
+      "size": 32,
+      "offset": 12807672,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__objc_classlist",
+      "addr": 12807704,
+      "size": 592,
+      "offset": 12807704,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__objc_protolist",
+      "addr": 12808296,
+      "size": 168,
+      "offset": 12808296,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA_CONST",
+      "section": "__objc_imageinfo",
+      "addr": 12808464,
+      "size": 8,
+      "offset": 12808464,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__la_symbol_ptr",
+      "addr": 12812288,
+      "size": 1136,
+      "offset": 12812288,
+      "align": 3,
+      "flags": "0x7"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_const",
+      "addr": 12813424,
+      "size": 109784,
+      "offset": 12813424,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_selrefs",
+      "addr": 12923208,
+      "size": 23064,
+      "offset": 12923208,
+      "align": 3,
+      "flags": "0x10000005"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_classrefs",
+      "addr": 12946272,
+      "size": 1376,
+      "offset": 12946272,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_superrefs",
+      "addr": 12947648,
+      "size": 472,
+      "offset": 12947648,
+      "align": 3,
+      "flags": "0x10000000"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_ivar",
+      "addr": 12948120,
+      "size": 1724,
+      "offset": 12948120,
+      "align": 2,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__objc_data",
+      "addr": 12949848,
+      "size": 5920,
+      "offset": 12949848,
+      "align": 3,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__data",
+      "addr": 12955776,
+      "size": 970112,
+      "offset": 12955776,
+      "align": 4,
+      "flags": "0x0"
+    },
+    {
+      "segment": "__DATA",
+      "section": "__bss",
+      "addr": 13925888,
+      "size": 13504,
+      "offset": 0,
+      "align": 3,
+      "flags": "0x1"
+    }
+  ],
+  "symbols": [
+    {
+      "address": 90260802,
+      "type": 60,
+      "section": 0,
+      "desc": 0,
+      "name": "radr://5614542"
+    },
+    {
+      "address": 12949928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_TBContactUtil"
+    },
+    {
+      "address": 12951648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_TBScrollView"
+    },
+    {
+      "address": 12951688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBadgeView"
+    },
+    {
+      "address": 12951768,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxActionView"
+    },
+    {
+      "address": 12952568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxActionViewController"
+    },
+    {
+      "address": 12952648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxAnimatedViewController"
+    },
+    {
+      "address": 12952728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxAvatarViewController"
+    },
+    {
+      "address": 12951848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxBackgroundView"
+    },
+    {
+      "address": 12952888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxBaseViewController"
+    },
+    {
+      "address": 12950008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxBubble"
+    },
+    {
+      "address": 12952968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxBubbleEdgeViewController"
+    },
+    {
+      "address": 12953048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxBubbleViewController"
+    },
+    {
+      "address": 12950088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxCache"
+    },
+    {
+      "address": 12952808,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxCardViewController"
+    },
+    {
+      "address": 12953128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxChooseTabActionViewController"
+    },
+    {
+      "address": 12953288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxColorPickerController"
+    },
+    {
+      "address": 12953368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxColorViewController"
+    },
+    {
+      "address": 12950168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxConfig"
+    },
+    {
+      "address": 12951928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDetailView"
+    },
+    {
+      "address": 12953448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDetailViewController"
+    },
+    {
+      "address": 12950248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDownloadDelegate"
+    },
+    {
+      "address": 12953528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDownloadViewController"
+    },
+    {
+      "address": 12952048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDrawer"
+    },
+    {
+      "address": 12953608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDrawerActionViewController"
+    },
+    {
+      "address": 12953688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxDrawerController"
+    },
+    {
+      "address": 12953768,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxEditViewController"
+    },
+    {
+      "address": 12950328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxEmitterConfig"
+    },
+    {
+      "address": 12952088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxEmitterView"
+    },
+    {
+      "address": 12950408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxFont"
+    },
+    {
+      "address": 12953848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxFontViewController"
+    },
+    {
+      "address": 12951528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxHeadCardView"
+    },
+    {
+      "address": 12949848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxHeadCardViewController"
+    },
+    {
+      "address": 12953928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxHeadViewController"
+    },
+    {
+      "address": 12950488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxIconMap"
+    },
+    {
+      "address": 12950568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxImage"
+    },
+    {
+      "address": 12950648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxImageLoader"
+    },
+    {
+      "address": 12950768,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxImageMap"
+    },
+    {
+      "address": 12950808,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxInfo"
+    },
+    {
+      "address": 12950928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxLayout"
+    },
+    {
+      "address": 12954008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxLayoutViewController"
+    },
+    {
+      "address": 12954088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxListViewController"
+    },
+    {
+      "address": 12954168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxMaskViewController"
+    },
+    {
+      "address": 12951008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxMerge"
+    },
+    {
+      "address": 12951048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxMgr"
+    },
+    {
+      "address": 12952168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxOperateView"
+    },
+    {
+      "address": 12952248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxProfileCard"
+    },
+    {
+      "address": 12954248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxProfileViewController"
+    },
+    {
+      "address": 12952328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxSegmentedView"
+    },
+    {
+      "address": 12954328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxSeparatorViewController"
+    },
+    {
+      "address": 12954408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxSessionViewController"
+    },
+    {
+      "address": 12954488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxSettingViewController"
+    },
+    {
+      "address": 12954568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxStoreViewController"
+    },
+    {
+      "address": 12954648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTabActionViewController"
+    },
+    {
+      "address": 12952408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTabBar"
+    },
+    {
+      "address": 12954728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTabBarViewController"
+    },
+    {
+      "address": 12952488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTableViewCell"
+    },
+    {
+      "address": 12955288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTagView"
+    },
+    {
+      "address": 12951128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTheme"
+    },
+    {
+      "address": 12955368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxThemeView"
+    },
+    {
+      "address": 12955448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxThemeViewCell"
+    },
+    {
+      "address": 12955528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTitleView"
+    },
+    {
+      "address": 12954808,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxTitleViewController"
+    },
+    {
+      "address": 12955608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxToast"
+    },
+    {
+      "address": 12951208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxUtil"
+    },
+    {
+      "address": 12955688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxVideoView"
+    },
+    {
+      "address": 12954888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxVideoViewController"
+    },
+    {
+      "address": 12954968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeBoxViewController"
+    },
+    {
+      "address": 12953248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeColorPickerContext"
+    },
+    {
+      "address": 12955048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionAddGroupViewController"
+    },
+    {
+      "address": 12951288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionGroup"
+    },
+    {
+      "address": 12955128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionGroupViewController"
+    },
+    {
+      "address": 12951408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionInfo"
+    },
+    {
+      "address": 12951448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionMgr"
+    },
+    {
+      "address": 12955208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_CLASS_$_ThemeSessionSortViewController"
+    },
+    {
+      "address": 12949968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_TBContactUtil"
+    },
+    {
+      "address": 12951608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_TBScrollView"
+    },
+    {
+      "address": 12951728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBadgeView"
+    },
+    {
+      "address": 12951808,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxActionView"
+    },
+    {
+      "address": 12952608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxActionViewController"
+    },
+    {
+      "address": 12952688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxAnimatedViewController"
+    },
+    {
+      "address": 12952768,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxAvatarViewController"
+    },
+    {
+      "address": 12951888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxBackgroundView"
+    },
+    {
+      "address": 12952928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxBaseViewController"
+    },
+    {
+      "address": 12950048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxBubble"
+    },
+    {
+      "address": 12953008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxBubbleEdgeViewController"
+    },
+    {
+      "address": 12953088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxBubbleViewController"
+    },
+    {
+      "address": 12950128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxCache"
+    },
+    {
+      "address": 12952848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxCardViewController"
+    },
+    {
+      "address": 12953168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxChooseTabActionViewController"
+    },
+    {
+      "address": 12953328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxColorPickerController"
+    },
+    {
+      "address": 12953408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxColorViewController"
+    },
+    {
+      "address": 12950208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxConfig"
+    },
+    {
+      "address": 12951968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDetailView"
+    },
+    {
+      "address": 12953488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDetailViewController"
+    },
+    {
+      "address": 12950288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDownloadDelegate"
+    },
+    {
+      "address": 12953568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDownloadViewController"
+    },
+    {
+      "address": 12952008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDrawer"
+    },
+    {
+      "address": 12953648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDrawerActionViewController"
+    },
+    {
+      "address": 12953728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxDrawerController"
+    },
+    {
+      "address": 12953808,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxEditViewController"
+    },
+    {
+      "address": 12950368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxEmitterConfig"
+    },
+    {
+      "address": 12952128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxEmitterView"
+    },
+    {
+      "address": 12950448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxFont"
+    },
+    {
+      "address": 12953888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxFontViewController"
+    },
+    {
+      "address": 12951568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxHeadCardView"
+    },
+    {
+      "address": 12949888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxHeadCardViewController"
+    },
+    {
+      "address": 12953968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxHeadViewController"
+    },
+    {
+      "address": 12950528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxIconMap"
+    },
+    {
+      "address": 12950608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxImage"
+    },
+    {
+      "address": 12950688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxImageLoader"
+    },
+    {
+      "address": 12950728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxImageMap"
+    },
+    {
+      "address": 12950848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxInfo"
+    },
+    {
+      "address": 12950888,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxLayout"
+    },
+    {
+      "address": 12954048,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxLayoutViewController"
+    },
+    {
+      "address": 12954128,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxListViewController"
+    },
+    {
+      "address": 12954208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxMaskViewController"
+    },
+    {
+      "address": 12950968,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxMerge"
+    },
+    {
+      "address": 12951088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxMgr"
+    },
+    {
+      "address": 12952208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxOperateView"
+    },
+    {
+      "address": 12952288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxProfileCard"
+    },
+    {
+      "address": 12954288,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxProfileViewController"
+    },
+    {
+      "address": 12952368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxSegmentedView"
+    },
+    {
+      "address": 12954368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxSeparatorViewController"
+    },
+    {
+      "address": 12954448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxSessionViewController"
+    },
+    {
+      "address": 12954528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxSettingViewController"
+    },
+    {
+      "address": 12954608,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxStoreViewController"
+    },
+    {
+      "address": 12954688,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTabActionViewController"
+    },
+    {
+      "address": 12952448,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTabBar"
+    },
+    {
+      "address": 12954768,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTabBarViewController"
+    },
+    {
+      "address": 12952528,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTableViewCell"
+    },
+    {
+      "address": 12955328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTagView"
+    },
+    {
+      "address": 12951168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTheme"
+    },
+    {
+      "address": 12955408,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxThemeView"
+    },
+    {
+      "address": 12955488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxThemeViewCell"
+    },
+    {
+      "address": 12955568,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTitleView"
+    },
+    {
+      "address": 12954848,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxTitleViewController"
+    },
+    {
+      "address": 12955648,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxToast"
+    },
+    {
+      "address": 12951248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxUtil"
+    },
+    {
+      "address": 12955728,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxVideoView"
+    },
+    {
+      "address": 12954928,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxVideoViewController"
+    },
+    {
+      "address": 12955008,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeBoxViewController"
+    },
+    {
+      "address": 12953208,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeColorPickerContext"
+    },
+    {
+      "address": 12955088,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionAddGroupViewController"
+    },
+    {
+      "address": 12951328,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionGroup"
+    },
+    {
+      "address": 12955168,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionGroupViewController"
+    },
+    {
+      "address": 12951368,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionInfo"
+    },
+    {
+      "address": 12951488,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionMgr"
+    },
+    {
+      "address": 12955248,
+      "type": 15,
+      "section": 25,
+      "desc": 0,
+      "name": "_OBJC_METACLASS_$_ThemeSessionSortViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_AVAudioSessionCategoryAmbient"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_AVLayerVideoGravityResizeAspectFill"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_AVPlayerItemDidPlayToEndTimeNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_CACurrentMediaTime"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_CATransform3DIdentity"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_CATransform3DMakeScale"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_CATransform3DRotate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCrypt"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCryptorCreate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCryptorFinal"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCryptorGetOutputLength"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCryptorRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_CCCryptorUpdate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_CFErrorCopyDescription"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_CFNotificationCenterAddObserver"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_CFNotificationCenterGetLocalCenter"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_CFRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_CFStringTransform"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGAffineTransformIdentity"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGAffineTransformMakeScale"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGAffineTransformMakeTranslation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGColorGetAlpha"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGColorGetComponents"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGColorGetNumberOfComponents"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGColorSpaceCreateDeviceRGB"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGColorSpaceRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextAddArc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextAddPath"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextClip"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextDrawLinearGradient"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextDrawRadialGradient"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextRestoreGState"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextRotateCTM"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextSaveGState"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextScaleCTM"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGContextTranslateCTM"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGDataProviderCreateWithCFData"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGDataProviderCreateWithURL"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGDataProviderRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGFontCopyPostScriptName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGFontCreateWithDataProvider"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGFontRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGGradientCreateWithColorComponents"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGGradientCreateWithColors"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGGradientRelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGImageGetAlphaInfo"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectGetMaxX"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectGetMaxY"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectGetMidX"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectGetMinY"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectGetWidth"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectInset"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1792,
+      "name": "_CGRectZero"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_CTFontManagerRegisterGraphicsFont"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1280,
+      "name": "_CTFontManagerUnregisterGraphicsFont"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSClassFromString"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSFileCreationDate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_NSFontAttributeName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_NSForegroundColorAttributeName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSHomeDirectory"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSLocalizedDescriptionKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSLog"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSSearchPathForDirectoriesInDomains"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSSelectorFromString"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSStringFromClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSTemporaryDirectory"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_NSURLErrorDomain"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_AVAudioSession"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_AVPlayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_AVPlayerItem"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 1536,
+      "name": "_OBJC_CLASS_$_AVPlayerLayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAAnimationGroup"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CABasicAnimation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAEmitterCell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAEmitterLayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAGradientLayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAKeyframeAnimation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CALayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAMediaTimingFunction"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_OBJC_CLASS_$_CAShapeLayer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSArray"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSBundle"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSCache"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSCalendar"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSCharacterSet"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSData"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSDate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSDateComponents"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSDateFormatter"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSDictionary"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSError"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSException"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSFileCoordinator"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSFileHandle"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSFileManager"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSIndexPath"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSIndexSet"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSJSONSerialization"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSLayoutConstraint"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSMutableArray"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSMutableData"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSMutableDictionary"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSMutableSet"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSMutableString"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSMutableURLRequest"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSNotificationCenter"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSNull"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSNumber"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_OBJC_CLASS_$_NSObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSOperationQueue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSPredicate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSPropertyListSerialization"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSRegularExpression"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSScanner"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSString"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSThread"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSURL"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSURLRequest"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSURLSession"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSURLSessionConfiguration"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_CLASS_$_NSUserDefaults"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 512,
+      "name": "_OBJC_CLASS_$_NSValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIAction"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIActivityIndicatorView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIApplication"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIBarButtonItem"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIBezierPath"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIBlurEffect"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIButton"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UICollectionView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UICollectionViewCell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UICollectionViewFlowLayout"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIColor"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2368,
+      "name": "_OBJC_CLASS_$_UIColorPickerViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIContextMenuConfiguration"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIDevice"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIDocumentPickerViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIFont"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIGraphicsImageRenderer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIImage"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIImagePickerController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIImageView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIImpactFeedbackGenerator"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UILabel"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UILongPressGestureRecognizer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIMenu"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UINavigationBarAppearance"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UINavigationController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIPanGestureRecognizer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIPasteboard"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIProgressView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIScreen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIScrollView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UISearchBar"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UISearchController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UISegmentedControl"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UISlider"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIStackView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIStepper"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UISwitch"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITabBarAppearance"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITableView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITableViewCell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITableViewRowAction"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITapGestureRecognizer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITextField"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UITextView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIToolbar"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_CLASS_$_UIVisualEffectView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_OBJC_EHTYPE_$_NSException"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_OBJC_METACLASS_$_NSObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UICollectionViewCell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UIImageView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UIScrollView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UITableViewCell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UIView"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_OBJC_METACLASS_$_UIViewController"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIApplicationDidEnterBackgroundNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIApplicationDidReceiveMemoryWarningNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIApplicationWillEnterForegroundNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIEdgeInsetsZero"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIFontWeightMedium"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIFontWeightRegular"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIGraphicsBeginImageContextWithOptions"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIGraphicsEndImageContext"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIGraphicsGetCurrentContext"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIGraphicsGetImageFromCurrentImageContext"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIImageJPEGRepresentation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIImagePNGRepresentation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIImagePickerControllerMediaType"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIImagePickerControllerMediaURL"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIImagePickerControllerOriginalImage"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIKeyboardAnimationCurveUserInfoKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIKeyboardAnimationDurationUserInfoKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIKeyboardFrameEndUserInfoKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIKeyboardWillHideNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UIKeyboardWillShowNotification"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UITransitionContextFromViewControllerKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2304,
+      "name": "_UITransitionContextToViewControllerKey"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__Block_object_assign"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__Block_object_dispose"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__NSConcreteGlobalBlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__NSConcreteStackBlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__Unwind_Resume"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "___CFConstantStringClassReference"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "___NSArray0__"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3328,
+      "name": "___gxx_personality_v0"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "___memcpy_chk"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "___objc_personality_v0"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "___sincos_stret"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "___stack_chk_fail"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "___stack_chk_guard"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3648,
+      "name": "__availability_version_check"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__dispatch_main_q"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "__dispatch_source_type_timer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "__objc_empty_cache"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_arc4random_uniform"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_class_addMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_class_copyPropertyList"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_class_getInstanceMethod"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_class_getMethodImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_class_getSuperclass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_after"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_async"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_get_global_queue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_group_async"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_group_create"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_group_notify"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_once"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_once_f"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_resume"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_source_cancel"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_source_create"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_source_set_event_handler"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_source_set_timer"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dispatch_time"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_dlsym"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_exit"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_fclose"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_fopen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_fread"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_free"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_fseek"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_ftell"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerAdditive"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerLine"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerOutline"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerPoint"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerRectangle"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAEmitterLayerSurface"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 256,
+      "name": "_kCAMediaTimingFunctionEaseInEaseOut"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_kCFStringTransformStripCombiningMarks"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3840,
+      "name": "_kCFStringTransformToLatin"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2560,
+      "name": "_kCMTimeZero"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 2816,
+      "name": "_kUTTypeMovie"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_mach_absolute_time"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_mach_timebase_info"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_malloc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_memcpy"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_method_getImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_method_getTypeEncoding"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_method_setImplementation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_alloc"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_alloc_init"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_autorelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_autoreleasePoolPop"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_autoreleasePoolPush"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_autoreleaseReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_begin_catch"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_copyWeak"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_destroyWeak"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_end_catch"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_enumerationMutation"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_exception_rethrow"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_exception_throw"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_getAssociatedObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_getClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_initWeak"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_loadWeakRetained"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_msgSend"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_msgSendSuper2"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_release"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_retain"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_retainAutorelease"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_retainAutoreleasedReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_retainBlock"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_setAssociatedObject"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_setProperty_nonatomic_copy"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_storeStrong"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_storeWeak"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_terminate"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_objc_unsafeClaimAutoreleasedReturnValue"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_object_getClass"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_pow"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3072,
+      "name": "_property_getName"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_rewind"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_sscanf"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_strlen"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_sysctl"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "_uname"
+    },
+    {
+      "address": 0,
+      "type": 1,
+      "section": 0,
+      "desc": 3584,
+      "name": "dyld_stub_binder"
+    }
+  ],
+  "source_in_ipa": "Payload/WeChat.app/Frameworks/ThemeBox.dylib",
+  "output_binary": "75功能提取\\全部Dylib解密\\原始已解密\\ThemeBox.dylib",
+  "size": 14158144,
+  "sha256": "f228160fa3db4b8139815bb63c69bd96072868a09b17581c0ba197d669022a9c"
+}

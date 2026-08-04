@@ -1,6 +1,6 @@
-# 解密工作存档（APK 逆向分析）
+# 解密工作存档（移动端逆向分析）
 
-本仓库是移动端 Android 应用逆向工程与分析工作的存档，内容以**解密、反编译、还原、行为分析**为主。每个目录对应一个独立分析任务，包含原始 APK、反编译/反混淆源码、解密脚本、native 库分析以及分析报告。
+本仓库是移动端 Android / iOS 应用逆向工程与分析工作的存档，内容以**解密、反编译、还原、行为分析**为主。每个目录对应一个独立分析任务，包含原始安装包、反编译/反混淆源码、解密脚本、native 库分析以及分析报告。
 
 > ⚠️ **声明**
 > 本仓库内容仅用于**安全研究与逆向工程学习**目的。仓库中的部分样本（如 QStory、月虹一键隐藏 等）经分析被发现包含恶意或破坏性逻辑，相关分析报告仅用于安全研究参考。
@@ -32,6 +32,10 @@
 | [红薯猪手](#红薯猪手) | `APP/红薯猪手` | 小红书 Xposed 模块 `com.skyhand.redbookhelper` | 静态恢复 + 配置解密 |
 | [FunBox](#funbox) | `APP/FunBox` | Xposed/Zygisk 模块 `have.fun` | 反编译 + native ELF 分析 |
 | [CherryWeChat](#cherrywechat) | `APP/CherryWeChat` | 微信 Xposed 模块 `io.github.cherrywechat` | 反编译 + Lua 脚本系统分析 |
+| [微信 8.0.75 官替多功能](#微信-8075-官替多功能) | `iPhone/微信_8.0.75官替多功能` | 微信 iOS 8.0.75 官替 IPA + 13 组功能 dylib | IPA 解包 + 18 个 dylib 解密 + ObjC 源码恢复 |
+| [WCGlass](#wcglass) | `iPhone/WCGlass` | 微信液态玻璃增强组件 `WCGlass.dylib` | Mach-O 解析 + ObjC 源码 + 精确 ARM64 汇编 + 密码流程还原 |
+
+> 📱 **iOS 部分**（`iPhone/` 目录）为 iOS 平台逆向工作：`iPhone/微信_8.0.75官替多功能/` 为微信 8.0.75 官替版 IPA 的功能提取与 dylib 解密项目，`iPhone/WCGlass/` 为其中的液态玻璃组件 `WCGlass.dylib` 的独立深度逆向项目。
 
 ---
 
@@ -583,6 +587,61 @@
 | `CherryWeChat_v1.0.1-47-g56d8c93_analysis/` | URL 清单、native 库清单与关键配置导出 |
 | `build_cherry_report.py` / `decode_cherry_strings.py` 等 | 分析与字符串解码脚本 |
 | `CherryWeChat_v1.0.1-47-g56d8c93_完整解密说明.md` | 完整解包与可读代码说明 |
+
+---
+
+## 微信 8.0.75 官替多功能
+
+针对微信 iOS 版 **8.0.75 官替多功能 IPA** 的功能提取与 dylib 解密项目。
+
+**分析对象特征**
+- 原始安装包：`微信_8.0.75官替多功能.ipa`，SHA-256：`84c0fe52f54af29b869fd2efc3741ca9dfc609b727d5a107993a3466b7d852e4`
+- 截图功能：13 组；dylib：18 个；ARM64 指令：49,619,827 条
+- 13 组功能：Mikoto 体验版、PKC、WCRefine、微信助手（MiYou）、XOS、黄白助手、Lab（ThemeLab）、主题盒子（ThemeBox）、ThemePro 主题、HBB 无后台推送、AFN、微信净化（WCPureExtension）、WCGlass 液态玻璃
+
+**目录内容**（实际位置：`iPhone/微信_8.0.75官替多功能/`）
+
+| 路径 | 说明 |
+|---|---|
+| `微信_8.0.75官替多功能.ipa` | 原始 IPA |
+| `idlefish-msg-*.jpg` | 功能截图 |
+| `rebuild_wechat_8075.py` | 重建/提取脚本 |
+| `微信_8.0.75功能提取/` | 主提取目录：`00_应用元信息`、`01_Mikoto体验版 ~ 13_WCGlass液态玻璃`、`99_公共运行依赖` |
+| `微信_8.0.75功能提取/功能映射与文件说明.md` | 功能与文件映射说明 |
+| `微信_8.0.75功能提取/完整提取清单.7z` / `校验报告.txt` | 提取清单与校验 |
+| `微信_8.0.75功能提取/全部Dylib解密/` | 全部 18 个 dylib 的解密报告、清单、校验报告、原始已解密与可读源码 |
+
+**分析结论**
+- 各 dylib 已从加密状态解密，arm64 明文切片完整提取，Objective-C 接口与全部 ARM64 反汇编可用；
+- 各功能组件经 `libsubstrate`/`libellekit` 等公共运行依赖注入微信进程，实现撤回、群聊、步数、标签、主题、推送、净化等增强。
+
+---
+
+## WCGlass
+
+针对微信液态玻璃与主题增强组件 **WCGlass.dylib** 的独立深度逆向与源码恢复项目（来源于「微信 8.0.75 官替多功能」项目）。
+
+**分析对象特征**
+- 文件格式：Mach-O Universal/FAT 动态库，架构 arm64 / arm64e，两个切片均为 `cryptid=0` 明文
+- 原始大小 11,848,688 字节，SHA-256：`76ba59a63ba3606753cddd7c63c557d9a3765baecb85fe3d1f39384e62227320`
+- Objective-C 实现类 78 个、方法 1,923 个；ARM64 函数 5,749 个；保留符号 454 个
+- 主题包导入解密、主题商店通信、玻璃背景、首页分组、聊天页胶囊、搜索覆盖层、功能卡片、颜色编辑、主题管理等功能
+- 已确认密码参数：AES-256-CBC + PKCS#7、HMAC-SHA256、SHA-256、RSA-OAEP-SHA256、RSA-PSS-SHA256
+
+**目录内容**（实际位置：`iPhone/WCGlass/`）
+
+| 路径 | 说明 |
+|---|---|
+| `WCGlass.dylib` | 原始 Universal/FAT 动态库 |
+| `WCGlass_output/` | 第一阶段 Mach-O 解包、切片、接口、符号、字符串及密码流程分析结果 |
+| `WCGlass_restored/` | 主阅读目录：`01_jeb_decompiled_c`（全函数索引）、`02_key_modules_jeb`（关键函数 JEB 伪代码）、`03_objc_source_all`（78 个 ObjC 类源码骨架）、`04_exact_arm64_assembly`（5,749 个函数精确汇编）、`05_clean_reconstruction`（清理后核心代码）、`06_metadata`、`07_tools` |
+| `wcglass_unpack.py` / `restore_wcglass_source.py` | 解析与源码恢复脚本 |
+| `JebDecompileTargets.py` / `JebExportWCGlass.py` / `JebProbe.py` / `JebScriptRunner.java/.class` | JEB 批量反编译与导出脚本 |
+
+**分析结论**
+- 主题容器由 `WCLGGlassPackage` 处理：RSA-PSS 验签 → 密钥派生 → AES-256-CBC 解密；
+- 主题商店由 `WCLGGlassStore` 处理：请求加密（Nonce + RSA 包装）、响应验签与解密；
+- 全部密码流程已在 `05_clean_reconstruction/` 按真实调用参数恢复为可读 Objective-C。
 
 ---
 

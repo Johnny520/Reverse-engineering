@@ -1,0 +1,4 @@
+/System/Library/Frameworks/Foundation.framework/Foundation
+/usr/lib/libc++.1.dylib
+/usr/lib/libSystem.B.dylib
+/usr/lib/libobjc.A.dylib
