@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_marginEnd="10dp">
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/msg_click_iv"
+        android:tag="msg_long_click_tv"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/dog"
+        android:scaleType="centerInside"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:gravity="bottom|center_horizontal"
+        android:id="@+id/msg_click_tv"
+        android:paddingTop="4dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="类型"/>
+</LinearLayout>

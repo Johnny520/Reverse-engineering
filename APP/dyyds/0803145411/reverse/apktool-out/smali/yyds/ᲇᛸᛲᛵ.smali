@@ -1,0 +1,18 @@
+.class public final Lyyds/ᲇᛸᛲᛵ;
+.super Lyyds/ᛱᛸᛳᛵ;
+.source "r8-map-id-23a4d667e3e8d63d05148f8952801ca86a273fc20b9c1ee5b7e6466f054ed4c9"
+
+
+# instance fields
+.field public final ᛳᛸᛴᛶ:Landroid/widget/FrameLayout;
+
+.field public final ᛵᲀᲈᛴ:Landroid/widget/TextView;
+
+.field public final ᛶᛸᲀᲁ:Landroid/widget/TextView;
+
+.field public final ᛶᲈᛴᲈ:Landroid/widget/ImageView;
+
+
+# direct methods
+.method public native constructor <init>(Landroid/widget/FrameLayout;Landroid/widget/ImageView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+.end method

@@ -1,0 +1,13 @@
+package yyds;
+
+/* JADX INFO: renamed from: yyds.ᛱᲈᛵᛷ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-23a4d667e3e8d63d05148f8952801ca86a273fc20b9c1ee5b7e6466f054ed4c9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0256 extends AbstractC1754 implements InterfaceC2247 {
+    private volatile Object _preHandler;
+
+    public C0256() {
+        super(C0469.f2330);
+        this._preHandler = this;
+    }
+}

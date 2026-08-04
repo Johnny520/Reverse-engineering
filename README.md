@@ -14,7 +14,7 @@
 | [Nuke](#nuke) | `APP/Nuke` | Xposed 模块 `me.dartcv.nuke`（v1.0.0 / v1.0.2） | 反编译 + 后端接口还原 + native 库分析 |
 | [QStory](#qstory) | `APP/QStory` | QQ 工具 APK（多版本） | 反混淆 + 恶意行为分析 |
 | [WAuxiliary](#wauxiliary) | `APP/WAuxiliary` | 微信辅助 Xposed 模块 `me.hd.wauxv` | 反混淆源码工程 |
-| [dyyds](#dyyds) | `APP/dyyds` | 抖音 `com.ss.android.ugc.aweme.yyds` | 反编译 + 解密脚本 |
+| [dyyds](#dyyds) | `APP/dyyds` | 抖音系 Xposed 模块 `com.ss.android.ugc.aweme.yyds`（AI抖音，260803145411 / 260629161700） | 反编译 + 字符串池全量解密 + native `enc_text` 段还原 |
 | [geek](#geek) | `APP/geek` | 微信模块 `com.ljx.wechatmod` | StringFog 字符串解密 |
 | [微X](#微x) | `APP/微X` | 微信 Xposed 模块源码（WeChatXRemap） | Android Gradle 工程源码 |
 | [月虹一键隐藏](#月虹一键隐藏) | `module/月虹一键隐藏` | Magisk/KernelSU 模块 v5.4.4 | 模块逆向 + ELF/脚本分析 |
@@ -167,7 +167,40 @@
 
 ## dyyds
 
-针对 **Dyyds** 应用（包名 `com.ss.android.ugc.aweme.yyds`，versionCode 127 / versionName 260629161700，抖音体系应用）的反编译分析。
+针对 **Dyyds / AI抖音** 系列模块（包名 `com.ss.android.ugc.aweme.yyds`，versionCode 127，抖音体系 Xposed 模块）的多版本逆向分析，含 `0629161700` 与 `0803145411` 两个版本。
+
+### dyyds 0803145411（`APP/dyyds/0803145411/`）
+
+针对 **AI抖音模块 260803145411**（versionCode 127）的完整解密分析：Java 字符串池全量解密 + native `enc_text` 加密段还原。
+
+**分析对象特征**
+- 类型：**Xposed/LSPosed 模块**（LibXposed），注入抖音宿主 `com.ss.android.ugc.aweme` 系列进程；
+- 功能：作品/评论/私信批量下载与去水印、AI 语音合成（TTS）、AI 互动、评论区增强、主页批量操作、WebDAV 数据备份/恢复、"插眼"收藏夹（Room `ward_items` 数据库）、各类 UI 增强（时间显示、自动连播、续火等）；
+- Java 层字符串加密：`AbstractC2328.m4341(long)` + 1.3MB 加密字符串表（95 段 / 409546 字符，64 位混淆哈希 + 逐字符 XOR）——**已全量破解，7775 个字符串还原**；
+- Native 保护：`libnative.so`（8.2 MB，Rust / rustc 1.98.0-nightly），自带自定义段 **`enc_text`（362 KB）**，JNI_OnLoad 与约 40 个核心函数加密存储；构造函数 `0x61b140` 运行时逐字节 XOR 解密，密钥来自 `.rodata` 加密池 `0xb4370`；**已通过 unicorn 模拟执行成功解密**；
+- 防分析：符号名恶搞 `bu_yao_tou_kan_zai_kan_da_ni_pi_pi`（"不要偷看再看打你皮皮"）；
+- 版本适配机制：`assets/versions.json` 维护 13 条抖音系 App 适配清单（`com.ss.android.ugc.aweme` / `aweme.hubble` / `aweme.lite` / `livelite` / `yumme.video` / `spark` 等），版本不在清单内则不注入；
+- 黑/白名单 UID 不以明文存在任何 APK 文件中，由 native 加密字符串池运行时构造或远端下发；
+- 网络 API：`109a.cn`（主站 + `/API/wzzyy/api.php`、`/API/wzzyypromax/api.php` 语音合成接口，参数 `voice`/`text`/`apikey`，apikey 来自用户 MMKV 设置）、`v1.hitokoto.cn`（一言 API）。
+
+**目录内容**（实际位置：`APP/dyyds/0803145411/`）
+
+| 路径 | 说明 |
+|---|---|
+| `0803145411-release.apk` | 原始 APK |
+| `reverse/jadx-src/` | JADX 反编译全部源码与资源（`yyds/` 核心逻辑 2668 个混淆类） |
+| `reverse/apktool-out/` | apktool 完整解码（资源 + smali + `assets/versions.json`） |
+| `reverse/apk_extract/` | APK ZIP 解包（含 `lib/arm64-v8a/libnative.so`、`libmmkv.so`、`libQmBlur.so`） |
+| `reverse/jeb_out/` | JEB 批量反编译产物 |
+| `reverse/decrypted_strings.tsv` | **7775 个解密字符串表**（key → 明文 → 使用位置） |
+| `reverse/libnative_decrypted.so` | **`enc_text` 段解密还原后的 native 库** |
+| `reverse/enc_text_emulated.bin` 等 | unicorn 模拟执行后的内存转储（text/data/heap/stack/bss） |
+| `reverse/tools/` | `DecryptStrings.java`（m4341 复现）、`emulate_ctor.py` / `emu_jni*.py`（unicorn 模拟解密）、`dump_and_search.py`（内存转储 + UID 搜索）、`JEB_Decompile.py` |
+| `reverse/解密分析报告.md` | 完整逆向分析报告 |
+
+### dyyds 0629161700（`APP/dyyds/0629161700/`）
+
+针对 **Dyyds** 应用（versionName 260629161700，抖音体系应用）的反编译分析。
 
 **目录内容**（实际位置：`APP/dyyds/0629161700/`）
 
@@ -182,7 +215,7 @@
 **分析结论**
 
 - 未发现硬编码的主机/URL 或自建监听端口；
-- 资源中存在 WebDAV 配置界面标识，说明应用可由用户配置远程服务地址。
+- 资源中存在 WebDAV 配置界面标识，说明应用可由用户配置远程服务地址（与 0803145411 版本一致）。
 
 ---
 

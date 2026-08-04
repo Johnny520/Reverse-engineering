@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_douyin_dialog" android:padding="20.0dp" android:layout_width="280.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="打开用户主页" />
+    <EditText android:textSize="14.0sp" android:textColor="@color/primary_text" android:textColorHint="@color/hint_text" android:gravity="center" android:id="@id/et_user_id" android:background="@drawable/bg_douyin_edittext" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="16.0dp" android:hint="输入用户ID" android:paddingHorizontal="12.0dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <Button android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/btn_cancel" android:background="@drawable/douyin_button_secondary2" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="取消" android:layout_weight="1.0" android:translationZ="0.0dp" android:elevation="0.0dp" android:stateListAnimator="@null" />
+        <Space android:layout_width="10.0dp" android:layout_height="wrap_content" />
+        <Button android:textSize="14.0sp" android:textColor="@color/douyin_white" android:id="@id/btn_open" android:background="@drawable/douyin_button_primary2" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="打开" android:layout_weight="1.0" android:translationZ="0.0dp" android:elevation="0.0dp" android:stateListAnimator="@null" />
+    </LinearLayout>
+</LinearLayout>

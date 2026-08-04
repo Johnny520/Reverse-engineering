@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_ward_bottom_sheet" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:paddingTop="10.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/bg_ward_handle" android:layout_width="40.0dp" android:layout_height="4.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64.0dp" android:paddingStart="20.0dp" android:paddingEnd="12.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="管理分类" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:id="@id/tvCategoryCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="0 个分类" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivCloseCategoryManager" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/close" android:tint="@color/secondary_text" android:contentDescription="关闭" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="18.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+        <EditText android:textSize="15.0sp" android:textColor="@color/primary_text" android:textColorHint="@color/hint_text" android:id="@id/etNewCategory" android:background="@drawable/bg_category_input" android:layout_width="0.0dp" android:layout_height="match_parent" android:hint="新分类名称" android:maxLines="1" android:maxLength="20" android:layout_weight="1.0" android:inputType="textCapSentences" android:imeOptions="actionDone" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="10.0dp" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnAddCategory" android:background="@drawable/douyin_button_primary" android:layout_width="72.0dp" android:layout_height="match_parent" android:text="添加" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layoutCategorySortHint" android:layout_width="match_parent" android:layout_height="36.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分类列表" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <Space android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <ImageView android:padding="3.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_category_drag" android:tint="@color/hint_text" android:contentDescription="拖动排序" />
+    </LinearLayout>
+    <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <com.android.app.CustomRecyclerView android:id="@id/rvCategories" android:background="@color/surface_bg" android:paddingTop="10.0dp" android:paddingBottom="20.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutEmptyCategories" android:background="@color/surface_bg" android:paddingBottom="32.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:padding="14.0dp" android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/folder" android:tint="@color/secondary_text" android:contentDescription="暂无分类" android:alpha="0.45" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="暂无分类" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

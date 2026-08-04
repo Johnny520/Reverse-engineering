@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginEnd="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/setting" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="82.0dp" android:layout_height="60.0dp" android:layout_marginStart="8.0dp">
+        <ImageView android:gravity="center_horizontal" android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@drawable/dog" android:backgroundTint="@color/accent_green" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="模块设置" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ward" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="82.0dp" android:layout_height="60.0dp">
+        <ImageView android:gravity="center_horizontal" android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@drawable/dihua" android:backgroundTint="@color/accent_green" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="插眼列表" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/floating" android:background="?android:selectableItemBackground" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="82.0dp" android:layout_height="60.0dp">
+        <ImageView android:gravity="center_horizontal" android:layout_width="26.0dp" android:layout_height="26.0dp" android:src="@drawable/nj" android:backgroundTint="@color/accent_green" />
+        <TextView android:textSize="13.0dp" android:textStyle="bold" android:textColor="@color/primary_text" android:ellipsize="end" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="打开浮窗" />
+    </LinearLayout>
+</LinearLayout>

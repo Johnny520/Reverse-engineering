@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_purple" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_left_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_left_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_left_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_left_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点赞" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_pink" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_center_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_center_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_center_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_center_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_blue" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_right_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_right_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详情" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/top_right_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/top_right_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收藏" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="8.0dp" android:layout_weight="1.0">
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_orange" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_left_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_left_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_left_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_left_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_purple" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_center_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_center_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_center_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_center_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_pink" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_right_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_right_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/middle_right_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/middle_right_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="8.0dp" android:layout_weight="1.0">
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_blue" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_left_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_left_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="分享" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_left_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_left_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_orange" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_center_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_center_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_center_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_center_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="无" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+            <com.android.app.CustomCardView android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" android:layout_marginStart="4.0dp" app:cardCornerRadius="12.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_gradient_purple" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_right_long" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="长按" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_right_long_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="资料" android:alpha="0.95" />
+                    </LinearLayout>
+                    <View android:background="@color/white" android:layout_width="18.0dp" android:layout_height="0.5dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_right_double" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="双击" android:alpha="0.7" />
+                        <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/bottom_right_double_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关注" android:alpha="0.95" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.app.CustomCardView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

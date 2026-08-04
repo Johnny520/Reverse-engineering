@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_stats_card" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/douyin_primary" android:ellipsize="end" android:id="@id/tv_voice_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_delete" android:background="?android:selectableItemBackgroundBorderless" android:padding="6.0dp" android:layout_width="28.0dp" android:layout_height="28.0dp" android:src="@drawable/remove" android:tint="#ff6b6b" android:layout_marginEnd="8.0dp" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/hint_text" android:id="@id/tv_create_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/primary_text" android:ellipsize="end" android:id="@id/tv_text_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxLines="2" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <FrameLayout android:id="@id/fl_play_button" android:background="@drawable/bg_play_button" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="36.0dp" android:foreground="?android:selectableItemBackgroundBorderless">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_play" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/play" android:tint="@color/douyin_primary" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" />
+        <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_select" android:background="@drawable/bg_douyin_button_primary" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="24.0dp" android:text="选择" />
+    </LinearLayout>
+</LinearLayout>

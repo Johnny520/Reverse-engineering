@@ -1,0 +1,9 @@
+package yyds;
+
+/* JADX INFO: renamed from: yyds.ᲀᛱᲀᛳ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-23a4d667e3e8d63d05148f8952801ca86a273fc20b9c1ee5b7e6466f054ed4c9 */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC1927 {
+    /* JADX INFO: renamed from: ᛲᲈᲁ */
+    void mo3447(C1056 c1056, int i);
+}

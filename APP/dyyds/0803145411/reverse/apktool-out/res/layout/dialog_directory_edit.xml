@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_douyin_dialog" android:padding="20.0dp" android:layout_width="300.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/dialog_title_color" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="设置音频目录" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="请输入音频文件所在目录路径" />
+    <EditText android:textSize="14.0sp" android:textColor="@color/primary_text" android:textColorHint="@color/hint_text" android:id="@id/et_directory_path" android:background="@drawable/bg_douyin_edittext" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="16.0dp" android:hint="/sdcard/Music" android:maxLines="1" android:inputType="text" android:paddingHorizontal="12.0dp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_button_secondary_text" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/bg_douyin_button_secondary" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="取消" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_save" android:background="@drawable/bg_douyin_button_primary" android:layout_width="0.0dp" android:layout_height="40.0dp" android:text="保存" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

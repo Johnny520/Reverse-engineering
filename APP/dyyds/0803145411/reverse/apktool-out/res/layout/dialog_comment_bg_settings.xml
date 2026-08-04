@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/dialog_toast_bg" android:layout_width="330.0dp" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="120.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12.0dp">
+        <TextView android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评论背景设置" android:layout_marginStart="25.0dp" android:layout_marginEnd="25.0dp" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/btnClose" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_close" />
+    </FrameLayout>
+    <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@android:color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="启用评论背景" android:layout_weight="1.0" />
+            <Switch android:id="@id/switchCommentBgEnabled" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+            <TextView android:textColor="@android:color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="毛玻璃模式" android:layout_weight="1.0" />
+            <Switch android:id="@id/switchCommentBgBlurEnabled" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutBlurParams" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="模糊半径" />
+                <SeekBar android:id="@id/seekbarBlurRadius" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="100" android:layout_weight="1.0" android:min="10" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="end" android:id="@id/tvBlurRadius" android:layout_width="32.0dp" android:layout_height="wrap_content" android:text="16" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="圆角" />
+                <SeekBar android:id="@id/seekbarBlurCorner" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="80" android:layout_weight="1.0" android:min="0" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="end" android:id="@id/tvBlurCorner" android:layout_width="32.0dp" android:layout_height="wrap_content" android:text="32" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="降采样因子" />
+                <SeekBar android:id="@id/seekbarBlurDownsample" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="10" android:layout_weight="1.0" android:min="1" />
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="end" android:id="@id/tvBlurDownsample" android:layout_width="32.0dp" android:layout_height="wrap_content" android:text="4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="60.0dp" android:layout_height="wrap_content" android:text="叠加色" />
+                <EditText android:textSize="13.0sp" android:textColor="@android:color/white" android:textColorHint="@color/hint_text" android:gravity="center_vertical" android:id="@id/etBlurOverlayColor" android:background="@drawable/round_edit_bg_dark" android:layout_width="0.0dp" android:layout_height="34.0dp" android:hint="80FFFFFF" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+                <View android:id="@id/viewBlurOverlayColorPreview" android:background="@drawable/bg_color_preview" android:focusable="true" android:clickable="true" android:layout_width="34.0dp" android:layout_height="34.0dp" android:layout_marginStart="8.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutColorImageParams" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="颜色" />
+                <EditText android:textSize="13.0sp" android:textColor="@android:color/white" android:textColorHint="@color/hint_text" android:gravity="center_vertical" android:id="@id/etCommentBgColorInput" android:background="@drawable/round_edit_bg_dark" android:layout_width="0.0dp" android:layout_height="34.0dp" android:hint="#F5F5F5" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginStart="8.0dp" />
+                <View android:id="@id/viewCommentBgColorPreview" android:background="@drawable/bg_color_preview" android:focusable="true" android:clickable="true" android:layout_width="34.0dp" android:layout_height="34.0dp" android:layout_marginStart="8.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="透明度" />
+                <SeekBar android:id="@id/seekbarCommentBgAlpha" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="100" android:progress="70" android:layout_weight="1.0" />
+                <TextView android:textColor="@android:color/white" android:id="@id/tvCommentBgAlpha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0dp" android:text="70" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnCommentBgAlphaMinus" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="25.0dp" android:layout_height="wrap_content" android:text="-" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnCommentBgAlphaPlus" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="25.0dp" android:layout_height="wrap_content" android:text="+" android:layout_marginStart="5.0dp" />
+            </LinearLayout>
+            <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginTop="14.0dp" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="背景图（优先于纯色）" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                <ImageView android:id="@id/ivCommentBgThumb" android:background="@drawable/round_edit_bg_dark" android:layout_width="64.0dp" android:layout_height="64.0dp" android:scaleType="centerCrop" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dp">
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/btnPickCommentBgImage" android:background="@drawable/bg_ward_jump_button" android:layout_width="match_parent" android:layout_height="32.0dp" android:text="选择图片" />
+                    <TextView android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnClearCommentBgImage" android:background="@drawable/round_edit_bg_dark" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginTop="6.0dp" android:text="清除图片" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="填充方式" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnScaleTypeCenterCrop" android:layout_width="0.0dp" android:layout_height="30.0dp" android:text="居中裁剪" android:layout_weight="1.0" />
+                <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnScaleTypeFitXY" android:layout_width="0.0dp" android:layout_height="30.0dp" android:text="拉伸" android:layout_weight="1.0" android:layout_marginStart="4.0dp" />
+                <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnScaleTypeFitCenter" android:layout_width="0.0dp" android:layout_height="30.0dp" android:text="等比适应" android:layout_weight="1.0" android:layout_marginStart="4.0dp" />
+                <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnScaleTypeTile" android:layout_width="0.0dp" android:layout_height="30.0dp" android:text="平铺" android:layout_weight="1.0" android:layout_marginStart="4.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

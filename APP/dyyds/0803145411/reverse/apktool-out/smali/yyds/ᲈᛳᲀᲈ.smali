@@ -1,0 +1,20 @@
+.class public final synthetic Lyyds/ᲈᛳᲀᲈ;
+.super Lyyds/ᛲᲀᲇᛷ;
+.source "r8-map-id-23a4d667e3e8d63d05148f8952801ca86a273fc20b9c1ee5b7e6466f054ed4c9"
+
+# interfaces
+.implements Lyyds/ᛷᛴᲈᲀ;
+
+
+# instance fields
+.field public final synthetic ᛷᲈᲈᲁ:I
+
+
+# direct methods
+.method public native synthetic constructor <init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;II)V
+.end method
+
+
+# virtual methods
+.method public final native ᛲᛳᛶᲁ(Ljava/lang/Object;)Ljava/lang/Object;
+.end method

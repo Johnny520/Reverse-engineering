@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="ifContentScrolls"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="4.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+        <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="可分别替换视频右侧图标和底栏加号；设置底栏图标后，“+”及拍同款/当前视频封面都会统一显示所选图片。" android:lineSpacingExtra="2.0dp" />
+        <GridLayout android:id="@id/iconGrid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:rowCount="3" android:columnCount="3" android:useDefaultMargins="false" android:alignmentMode="alignMargins" />
+    </LinearLayout>
+</ScrollView>

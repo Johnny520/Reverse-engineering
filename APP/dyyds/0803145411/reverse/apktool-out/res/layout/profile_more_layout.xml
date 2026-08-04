@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ward" android:background="@drawable/card_background" android:clickable="true" android:layout_width="match_parent" android:layout_height="54.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/ward_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="主页插眼" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:id="@id/uid_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/batch_download" android:background="@drawable/card_background" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="54.0dp" android:layout_marginTop="8.0dp" android:foreground="?android:selectableItemBackground" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="批量下载作品" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text" android:id="@id/batch_download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

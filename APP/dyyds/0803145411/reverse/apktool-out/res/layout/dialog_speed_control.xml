@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="🎬 播放倍速" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/douyin_primary" android:id="@id/speedValueText" android:background="@drawable/bg_opacity_value" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.0x" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        </LinearLayout>
+        <SeekBar android:id="@id/speedSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:max="30" android:progress="10" android:progressTint="@color/douyin_primary" android:progressBackgroundTint="@color/seekbar_background" android:thumbTint="@color/douyin_primary" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0x" />
+            <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.5x" />
+            <View android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.0x" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+            <TextView android:textSize="13.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/speed_0_5" android:background="@drawable/round_edit_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="0.5x" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/speed_1_0" android:background="@drawable/round_edit_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="1.0x" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/speed_1_5" android:background="@drawable/round_edit_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="1.5x" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/speed_2_0" android:background="@drawable/round_edit_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="2.0x" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/speed_3_0" android:background="@drawable/round_edit_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="36.0dp" android:text="3.0x" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

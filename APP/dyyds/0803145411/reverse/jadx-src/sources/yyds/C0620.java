@@ -1,0 +1,76 @@
+package yyds;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Build;
+import android.os.Parcelable;
+import java.util.ArrayList;
+import java.util.List;
+
+/* JADX INFO: renamed from: yyds.ᛳᛶᛸᛱ, reason: contains not printable characters */
+/* JADX INFO: compiled from: r8-map-id-23a4d667e3e8d63d05148f8952801ca86a273fc20b9c1ee5b7e6466f054ed4c9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C0620 extends AbstractC0333 {
+    public static final Parcelable.Creator<C0620> CREATOR = new C1499(8);
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛱᛳᲇ */
+    public final boolean mo1011(Context context, boolean z) {
+        if (Build.VERSION.SDK_INT < 34 || z) {
+            return super.mo1011(context, z);
+        }
+        AbstractC0333 abstractC0333M3678 = AbstractC1897.m3678("android.permission.READ_MEDIA_VISUAL_USER_SELECTED");
+        if (abstractC0333M3678 == null) {
+            abstractC0333M3678 = new C0964();
+            AbstractC1897.f9607.m2556("android.permission.READ_MEDIA_VISUAL_USER_SELECTED", abstractC0333M3678);
+        }
+        return abstractC0333M3678.mo1020(context, false);
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛲᛲᲈᲈ */
+    public final boolean mo1013(Context context, boolean z) {
+        return AbstractC1897.m3679().mo1020(context, z);
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛲᛳᛶᲁ */
+    public final String mo1014() {
+        return "image_and_video_media_group";
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛲᛴᛳᛲ */
+    public final int mo1015() {
+        return 33;
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛵᛸᛸᛷ */
+    public final void mo1017(Activity activity, ArrayList arrayList, C0913 c0913, ArrayList arrayList2, C1859 c1859) {
+        super.mo1017(activity, arrayList, c0913, arrayList2, c1859);
+        if (33 > activity.getApplicationInfo().minSdkVersion) {
+            AbstractC0333.m1009(AbstractC0333.m1010("android.permission.READ_EXTERNAL_STORAGE", arrayList2), "android.permission.READ_EXTERNAL_STORAGE", 32);
+        }
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛶᛷᛲᲁ */
+    public final List mo1018() {
+        return AbstractC0879.m1963(AbstractC1897.m3679());
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᛷᲈᲈᲁ */
+    public final String mo1021() {
+        return "android.permission.READ_MEDIA_VIDEO";
+    }
+
+    @Override // yyds.AbstractC0333
+    /* JADX INFO: renamed from: ᲀᛲᛳᲀ */
+    public final void mo1022(Activity activity, ArrayList arrayList) {
+        if (AbstractC0879.m1962("android.permission.READ_EXTERNAL_STORAGE", arrayList)) {
+            C0188.m798("You have added the \"android.permission.READ_MEDIA_VIDEO\" permission, please do not add the \"android.permission.READ_EXTERNAL_STORAGE\" permission, this conflicts with the framework's automatic compatibility policy.");
+        }
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/chatPreviewPanel" android:background="@drawable/bg_setting_group_card" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dp">
+        <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_gravity="center_horizontal" android:background="@drawable/round_edit_bg" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="下午 13:14" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <ImageView android:background="@drawable/circle_background" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/msg_left" android:scaleType="centerCrop" android:clipToOutline="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/primary_text" android:gravity="center_vertical" android:id="@id/previewOtherBubble" android:background="@drawable/round_edit_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dp" android:minHeight="40.0dp" android:text="你知道你现在跟以前最大的区别是什么吗？" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginStart="10.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <TextView android:textSize="15.0sp" android:textColor="@color/primary_text" android:gravity="center_vertical" android:id="@id/previewSelfBubble" android:background="@drawable/round_edit_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dp" android:minHeight="40.0dp" android:text="什么？" android:paddingStart="14.0dp" android:paddingEnd="14.0dp" android:layout_marginEnd="10.0dp" />
+            <ImageView android:background="@drawable/circle_background" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/msg_right" android:scaleType="centerCrop" android:clipToOutline="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting_group_card" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对方气泡" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="控制收到消息时的气泡样式" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/secondary_text" android:id="@id/textOtherStatus" android:background="@drawable/bg_chat_status_badge_neutral" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <Button android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/btnClearOtherBubble" android:background="@drawable/bg_douyin_button_secondary" android:layout_width="88.0dp" android:layout_height="36.0dp" android:text="清除" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+            <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/btnPickOtherBubble" android:background="@drawable/bg_douyin_button_primary" android:layout_width="96.0dp" android:layout_height="36.0dp" android:text="选择文件" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_setting_group_card" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自己气泡" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="控制发送消息时的气泡样式" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/secondary_text" android:id="@id/textSelfStatus" android:background="@drawable/bg_chat_status_badge_neutral" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="默认" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" />
+        </LinearLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+        <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+            <Button android:textSize="14.0sp" android:textColor="@color/primary_text" android:id="@id/btnClearSelfBubble" android:background="@drawable/bg_douyin_button_secondary" android:layout_width="88.0dp" android:layout_height="36.0dp" android:text="清除" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" />
+            <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/btnPickSelfBubble" android:background="@drawable/bg_douyin_button_primary" android:layout_width="96.0dp" android:layout_height="36.0dp" android:text="选择文件" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

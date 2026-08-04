@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/bg_douyin_dialog" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="72.0dp" android:layout_marginBottom="20.0dp">
+            <View android:id="@id/colorPreviewLarge" android:background="@drawable/bg_color_preview" android:layout_width="48.0dp" android:layout_height="48.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="颜色预览" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:id="@id/tvColorHex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="#FFFFFF" android:fontFamily="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="颜色调整" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff4757" android:layout_width="20.0dp" android:layout_height="wrap_content" android:text="R" />
+            <SeekBar android:id="@id/seekBarRed" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="255" android:progress="255" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="end" android:id="@id/tvRedValue" android:layout_width="36.0dp" android:layout_height="wrap_content" android:text="255" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#2ed573" android:layout_width="20.0dp" android:layout_height="wrap_content" android:text="G" />
+            <SeekBar android:id="@id/seekBarGreen" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="255" android:progress="255" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="end" android:id="@id/tvGreenValue" android:layout_width="36.0dp" android:layout_height="wrap_content" android:text="255" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="4.0dp">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#1e90ff" android:layout_width="20.0dp" android:layout_height="wrap_content" android:text="B" />
+            <SeekBar android:id="@id/seekBarBlue" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="255" android:progress="255" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="end" android:id="@id/tvBlueValue" android:layout_width="36.0dp" android:layout_height="wrap_content" android:text="255" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="36.0dp" android:layout_marginBottom="20.0dp">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/secondary_text" android:layout_width="20.0dp" android:layout_height="wrap_content" android:text="A" />
+            <SeekBar android:id="@id/seekBarAlpha" android:layout_width="0.0dp" android:layout_height="wrap_content" android:max="255" android:progress="255" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text" android:gravity="end" android:id="@id/tvAlphaValue" android:layout_width="36.0dp" android:layout_height="wrap_content" android:text="255" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/tvRecentLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="最近使用" />
+        <GridLayout android:id="@id/recentColorPalette" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:columnCount="8" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="常用颜色" />
+        <GridLayout android:id="@id/colorPalette" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:rowCount="4" android:columnCount="8" />
+    </LinearLayout>
+</ScrollView>

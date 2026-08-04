@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/dialog_bg_mask" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layoutDialogContent" android:background="@drawable/bg_douyin_dialog" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_marginBottom="40.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="56.0dp" android:paddingStart="20.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/primary_text" android:id="@id/tvDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消息内容" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/douyin_primary" android:id="@id/tvMessageType" android:background="@drawable/bg_json_type_tag" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="类型 7" android:layout_centerVertical="true" android:fontFamily="sans-serif" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginStart="10.0dp" android:layout_toEndOf="@id/tvDialogTitle" />
+            <ImageView android:id="@id/ivCloseJson" android:background="?android:selectableItemBackgroundBorderless" android:padding="8.0dp" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/ic_close" android:tint="@color/secondary_text" android:layout_centerVertical="true" android:contentDescription="关闭" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ScrollView android:id="@id/scrollViewJson" android:background="@color/json_background" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="300.0dp" android:minHeight="180.0dp" android:fadeScrollbars="false">
+                <TextView android:textSize="12.0sp" android:textColor="@color/primary_text" android:id="@id/tvJsonContent" android:padding="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:lineSpacingExtra="3.0dp" android:textIsSelectable="true" android:fontFamily="monospace" />
+            </ScrollView>
+            <TextView android:textSize="10.0sp" android:textColor="@color/secondary_text" android:layout_gravity="end" android:background="@drawable/bg_json_type_tag" android:paddingTop="3.0dp" android:paddingBottom="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dp" android:text="JSON" android:alpha="0.6" android:fontFamily="monospace" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        </FrameLayout>
+        <View android:background="@color/divider_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/btnSaveEmoji" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="52.0dp" android:text="保存表情" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+            <View android:id="@id/dividerEmoji" android:background="@color/divider_color" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:id="@id/btnSaveJson" android:background="?android:selectableItemBackground" android:layout_width="0.0dp" android:layout_height="52.0dp" android:text="保存" android:layout_weight="1.0" android:fontFamily="sans-serif" />
+            <View android:background="@color/divider_color" android:layout_width="0.5dp" android:layout_height="match_parent" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/douyin_primary" android:gravity="center" android:id="@id/btnCopy" android:background="?android:selectableItemBackground" android:layout_width="0.0dp" android:layout_height="52.0dp" android:text="复制" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
